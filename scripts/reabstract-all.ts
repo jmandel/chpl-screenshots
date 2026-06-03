@@ -49,7 +49,13 @@ async function main() {
       if (i >= all.length) return;
       const { slug, file } = all[i];
       try {
-        const res = await abstractScreenshot(file, { debug: DEBUG });
+        // retry transient errors (network blips, rate-limit resets) with backoff
+        let res: any, lastErr: any;
+        for (let attempt = 0; attempt < 4; attempt++) {
+          try { res = await abstractScreenshot(file, { debug: DEBUG }); lastErr = null; break; }
+          catch (e) { lastErr = e; await new Promise((r) => setTimeout(r, 1000 * (attempt + 1) + Math.random() * 500)); }
+        }
+        if (!res) throw lastErr;
         const inputUSD = (res.usage.inputTokens / 1e6) * RATE_IN;
         const outputUSD = (res.usage.outputTokens / 1e6) * RATE_OUT;
         const price = { inputUSD: round6(inputUSD), outputUSD: round6(outputUSD), totalUSD: round6(inputUSD + outputUSD), ratesPer1M: { input: RATE_IN, output: RATE_OUT } };

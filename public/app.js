@@ -287,6 +287,7 @@ function v2Fields(o) {
     ["systemMetadata.activeFunction", "Active Function", sm.activeFunction],
     ["systemMetadata.uiSection", "UI Section", sm.uiSection],
     ["loggedInUser", "Logged-in User", o.loggedInUser],
+    ["patient.patientId", "Patient ID", p.patientId],
     ["patient.fullName", "Patient Name", p.fullName],
     ["patient.firstName", "First Name", p.firstName],
     ["patient.lastName", "Last Name", p.lastName],
@@ -307,8 +308,7 @@ function v2Fields(o) {
   ];
 }
 
-// Annotation list (boxes): inline field boxes + array-entry boxes
-// (patient.identifiers[], providers[]).
+// Annotation list (boxes): inline field boxes + provider array-entry boxes.
 function buildAnnotations(o) {
   const out = [];
   for (const [field, label, f] of v2Fields(o)) {
@@ -316,9 +316,6 @@ function buildAnnotations(o) {
       out.push({ field, label, text: f.value, box: f.box, boxPx: f.boxPx });
     }
   }
-  (o.patient?.identifiers || []).forEach((id, i) => {
-    if (id && (id.box || id.boxPx)) out.push({ field: `patient.identifiers.${i}`, label: id.label || id.type || "ID", text: id.value, box: id.box, boxPx: id.boxPx });
-  });
   (o.providers || []).forEach((pr, i) => {
     if (pr && (pr.box || pr.boxPx)) out.push({ field: `providers.${i}`, label: `provider${pr.role ? " (" + pr.role + ")" : ""}`, text: pr.name, box: pr.box, boxPx: pr.boxPx });
   });
@@ -410,23 +407,9 @@ function showDetail(i) {
     </div>
 
     <div class="section">
-      <h3>Patient — Identifiers</h3>
+      <h3>Patient</h3>
       <div class="kv">
-        ${p.primaryId && (p.primaryId.value != null) ? kvRow("primaryId", `${p.primaryId.value}${p.primaryId.type ? " (" + p.primaryId.type + ")" : ""}`) : ""}
-      </div>
-      <div class="annot-list">
-        ${ids.map((id, i) => `
-          <div class="annot" data-field="patient.identifiers.${i}">
-            <div class="a-top"><span class="a-label">${esc(id.value == null ? "" : id.value)}</span><span class="a-cat">${esc(id.type || "")}${id.masked ? " · masked" : ""}</span></div>
-            <div class="a-text">${esc(id.label || "")}</div>
-          </div>`).join("")}
-        ${ids.length === 0 && (!p.primaryId || p.primaryId.value == null) ? '<div class="kv"><div class="v null">none</div></div>' : ''}
-      </div>
-    </div>
-
-    <div class="section">
-      <h3>Patient — Demographics</h3>
-      <div class="kv">
+        ${kvRow("patientId", fval(p.patientId), "patient.patientId")}
         ${kvRow("fullName", patientName(o), "patient.fullName")}
         ${kvRow("firstName", fval(p.firstName), "patient.firstName")}
         ${kvRow("lastName", fval(p.lastName), "patient.lastName")}

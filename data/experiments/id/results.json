@@ -1,0 +1,37 @@
+[
+  {
+    "variant": "array/think0",
+    "idCaptureRate": "72% (13/18)",
+    "avgArrayIds": 1,
+    "avgInTok": 1150,
+    "avgOutTok": 300
+  },
+  {
+    "variant": "array/think-on",
+    "idCaptureRate": "72% (13/18)",
+    "avgArrayIds": 1.1,
+    "avgInTok": 1150,
+    "avgOutTok": 325
+  },
+  {
+    "variant": "array/think0/strong",
+    "idCaptureRate": "72% (13/18)",
+    "avgArrayIds": 1,
+    "avgInTok": 1193,
+    "avgOutTok": 275
+  },
+  {
+    "variant": "flat/think0",
+    "idCaptureRate": "72% (13/18)",
+    "avgArrayIds": 0,
+    "avgInTok": 1150,
+    "avgOutTok": 300
+  },
+  {
+    "variant": "flat/think-on",
+    "idCaptureRate": "72% (13/18)",
+    "avgArrayIds": 0,
+    "avgInTok": 1150,
+    "avgOutTok": 345
+  }
+]

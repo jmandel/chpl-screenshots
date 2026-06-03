@@ -26,9 +26,10 @@ for schema-gap discovery, but they are never promoted to the core schema.)
 2. **Logged-in user** — `loggedInUser`: the operator ("Welcome X" / "User: X").
    **Never** a patient provider — it goes here, not in `providers`.
 3. **Patient identity** —
-   - `identifiers[]`: capture **every** banner ID, typed
-     (`mrn|chartNumber|accountNumber|ssn|memberId|external|other`), keep masking;
-     `primaryId` = the most prominent one.
+   - `patientId`: the patient's **primary** ID code in the banner (MRN / Med Rec # /
+     Pt ID / Chart # / Acct #), exactly as shown (keep masking). If several IDs are
+     shown, take the most prominent (usually the MRN). *(Simplified to one best ID;
+     a typed multi-identifier list was tried and reverted for reliability/cost.)*
    - `fullName`/`firstName`/`lastName`, `dateOfBirth` (YYYY-MM-DD), `age`, `sex`.
    - `phone`, `email`, `address`.
    - `insurance` (light, banner only): `primaryPayer`, `secondaryPayer`, `memberId`, `groupNumber`.

@@ -96,8 +96,9 @@ Runtime source of truth: `scripts/abstract-screenshot.ts`; intent doc: `abstract
 - `loggedInUser` `{value,box}` — the **operator** ("Welcome X" / "User: X"),
   deliberately separate from patient providers.
 - `patient`:
-  - `identifiers[]` — every banner ID, typed: `{ type (mrn|chartNumber|accountNumber|ssn|memberId|external|other), value, label, masked, box }`.
-  - `primaryId` `{type,value}` — the most prominent ID (convenience).
+  - `patientId` `{value,box}` — the **primary** ID (MRN/Chart#/Pt ID/Acct#). *(A typed
+    multi-identifier `identifiers[]` array was tried but **reverted**: it cut capture from
+    ~60% to ~23%; a single flat field restored it — see "Analyses".)*
   - `fullName`/`firstName`/`lastName`, `dateOfBirth`, `age`, `sex`, `phone`, `email`, `address` (each `{value,box}`).
   - `insurance`: `primaryPayer`, `secondaryPayer`, `memberId`, `groupNumber` (each `{value,box}`).
 - `providers[]` — providers of record in the banner: `{ name, role (attending|rendering|referring|primaryCare|resident|nurse|consulting|other), credential, box }`.
@@ -149,6 +150,15 @@ frame extraction). **Tied on yield (13 = 13 across 3 seeds)** but Brave examined
   OCR on low-res MRNs, shared by both configs — not a cheap-pass regression.
 - Trade-off: lean loses bounding boxes + schema-gap discovery. Use **full v2** for
   the annotated viewer / discovery, **lean+think=0** for bulk extraction.
+
+### Identifier structure: simpler is better (`scripts/id-experiment.ts`)
+A typed multi-identifier `identifiers[]` array **regressed** patient-ID capture from
+~60% (a simple flat `patientId`) to **~23%**. Diagnosis: not the prompt, not thinking —
+fresh runs hit ~72% on banner-rich images either way; capture is **stochastic** (~30%
+miss/pass) and the complex nested array suppressed it in the big schema. Collapsing
+back to **one flat `patientId` field restored ~61% / ~67%-single** (apples-to-apples on
+the same files, matching the simple schema). Lesson: keep the abstraction target flat
+and minimal; don't add nested structure the model has to populate.
 
 ---
 

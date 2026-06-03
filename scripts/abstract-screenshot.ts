@@ -42,8 +42,7 @@ Task Instructions:
    - singlePatientConfidence (0.0-1.0): confidence this is an EHR screen about a SINGLE patient.
    - loggedInUser: the authenticated operator if shown ("Welcome X", "User: X", "Logged in: X"). IMPORTANT: this is whoever is OPERATING the software, NOT a patient provider. Never put this person in "providers".
 3. Patient identity (the patient in view). Set each field's .value (or null if absent):
-   - identifiers[]: capture EVERY patient identifier in the banner as a typed entry { type (mrn|chartNumber|accountNumber|ssn|memberId|external|other), value (as shown, keep masking like ***-**-6789), label (on-screen wording), masked (bool), box }. Banners often show several distinct IDs — capture them all.
-   - primaryId: the single most prominent identifier (usually the MRN) as { type, value } (no box).
+   - patientId: the patient's primary ID code shown in the banner. It's a short alphanumeric value labeled MRN, Med Rec #, Pt ID, Patient ID, Chart #, Acct #, Account #, Unit #, or similar — usually right next to the patient name/photo at the top. Look carefully; almost every single-patient screen shows one. Capture it exactly as displayed (keep any masking like ***-**-6789). If several IDs are shown, pick the most prominent (usually the MRN). Do not leave it null when an ID is visible.
    - fullName / firstName / lastName; dateOfBirth (YYYY-MM-DD); age (as shown); sex (M/F/Male/Female).
    - phone, email, address (if in the banner).
    - insurance (light, if in the banner): primaryPayer, secondaryPayer, memberId, groupNumber. Do not hunt the billing screen — only what the banner shows.
@@ -132,30 +131,7 @@ const responseSchema: Schema = {
       type: Type.OBJECT,
       description: "Identity-banner facts about the single patient in view.",
       properties: {
-        // All local identifiers shown in the banner (a screen often shows several).
-        identifiers: {
-          type: Type.ARRAY,
-          description: "Every patient identifier shown in the banner. EHRs show many; capture each as a typed entry.",
-          items: {
-            type: Type.OBJECT,
-            properties: {
-              type: { type: Type.STRING, enum: ["mrn", "chartNumber", "accountNumber", "ssn", "memberId", "external", "other"], description: "Normalized identifier type." },
-              value: { type: Type.STRING, description: "The identifier value as shown (keep masking, e.g. ***-**-6789)." },
-              label: { type: Type.STRING, nullable: true, description: "On-screen label, e.g. 'MRN', 'Chart #', 'Acct #'." },
-              masked: { type: Type.BOOLEAN, description: "True if shown partially masked." },
-              box: boxSchema,
-            },
-            required: ["type", "value"],
-          },
-        },
-        primaryId: {
-          type: Type.OBJECT,
-          description: "The single most prominent identifier (usually the MRN), for convenience. No box (it duplicates an identifiers[] entry).",
-          properties: {
-            type: { type: Type.STRING, nullable: true },
-            value: { type: Type.STRING, nullable: true },
-          },
-        },
+        patientId: field("The patient's primary identifier shown in the banner — the MRN / Med Rec # / Pt ID / Chart # / Account #. If several are shown, capture the most prominent (usually the MRN), exactly as displayed (keep any masking)."),
         fullName: field("The patient's full name as displayed."),
         firstName: field("Patient first/given name."),
         lastName: field("Patient last/family name."),
@@ -176,7 +152,7 @@ const responseSchema: Schema = {
           },
         },
       },
-      required: ["identifiers"],
+      required: ["patientId", "fullName"],
     },
     // Provider(s) of record shown in the banner — NOT every name in the chart.
     providers: {
@@ -363,9 +339,8 @@ export async function abstractScreenshot(
       config: thinkingOff ? { ...baseConfig, thinkingConfig: { thinkingBudget: 0 } } : baseConfig,
     });
 
-  // Default = thinking OFF (cheap). If the output won't parse — the rare
-  // degenerate runaway under think=0 — retry once WITH thinking on, which
-  // reliably recovers (verified: think=0 fails ~2/3 on the bad images; thinking on passes).
+  // One cheap pass (thinking OFF). Only on a parse failure — the rare think=0
+  // runaway — retry once with thinking on so we don't crash. No other retries.
   let response = await callModel(!debug);
   let parsed = tryParseJson(response.text);
   if (parsed === undefined && !debug) {
