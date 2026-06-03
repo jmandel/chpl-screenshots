@@ -26,32 +26,36 @@ const MODEL_ID = "gemini-3.5-flash";
 // schema-gap discovery. Debug adds step 5 (additionalFields).
 function buildInstruction(debug: boolean): string {
   return `Role:
-You are a specialized medical data abstraction assistant. Your task is to analyze screenshots of Electronic Health Record (EHR) or Electronic Medical Record (EMR) interfaces and extract key administrative, patient, and session metadata into a structured JSON format.
+You are a specialized medical data abstraction assistant. You analyze screenshots of EHR/EMR interfaces and extract the PATIENT-IDENTITY BANNER into structured JSON.
+
+SCOPE — read carefully:
+Extract only the "patient identity banner": the header/strip that says WHO the patient is and the immediate visit/provider context (identifiers, demographics, contact, light insurance, the provider(s) of record, and the active encounter). Do NOT extract clinical body content from the work area — problem lists, diagnoses/ICD codes, medications, allergies, vital signs, orders, results, notes — even when visible on screen. Those are out of scope.${debug ? " (Debug: you MAY note out-of-scope items in additionalFields, see step 6.)" : ""}
 
 Task Instructions:
-1. Analyze the Screenshot: Examine the provided image of the clinical software interface.
+1. Analyze the screenshot.
 2. Identify System Context:
-   - Look for the main window title, header, or breadcrumbs to identify the active software function, form, or module (e.g., "Encounter Summary", "Progress Notes", "Patient Chart", "Order Entry").
-   - Look for UI cues, terminology, or labels to identify the clinical specialty or department (e.g., "Cardiology", "Pediatrics", "General Practice").
-   - Identify the software vendor/platform name if a logo, watermark, or brand name is visible; otherwise, record it as generic or unknown.
-   - isEhrScreen (boolean): is this an EHR/clinical software screen at all (vs. marketing, login, generic/non-clinical UI)?
-   - patientScope: "single" (one-patient chart/encounter), "multiple" (dashboard/worklist/schedule/list of several patients), or "none" (not about a patient — login, admin, marketing).
-   - singlePatientConfidence (number 0.0-1.0): overall confidence this is an EHR screen about a SINGLE patient (isEhrScreen AND patientScope=single). High only when both clearly hold; multi-patient or non-EHR screens score low.
-3. Extract Patient Demographics (usually shown together in a patient banner/header). Set each field's .value (or null if absent):
-   - patientId: the unique medical record number ("ID", "MRN", "Pt ID", "Chart #", "Acct #").
-   - fullName / firstName / lastName: the displayed patient name, parsed when possible.
-   - dateOfBirth ("DOB"/"Born"/"Birth Date"), normalized YYYY-MM-DD; age as displayed ("45 y", "6 mo"); sex (M/F/Male/Female).
-   - Other banner demographics if visible: address, phone.
-4. Extract Encounter Details: encounterDate (normalize YYYY-MM-DD) and encounterType (visit type / encounter class / status).
-${debug ? `5. Capture Additional Visible Fields (schema gaps):
-   - For OTHER clearly-labeled data about the patient, provider/care team, or visit/encounter that has no slot above, add to "additionalFields": { category (patient|provider|encounter|order|other), label (on-screen field name e.g. "Insurance", "PCP", "Attending", "Room", "Allergies", "Chief Complaint"), value, box }.
-   - Only include fields explicitly visible; do not invent. This is how we discover what to add to the schema next — be reasonably thorough.
-` : ""}6. BOUNDING BOXES (critical): EVERY extractable field is an object of the form { "value": <string|null>, "box": {ymin,xmin,ymax,xmax}|null }. For EVERY field whose value is NON-NULL you MUST also fill its "box": a tight rectangle around the on-screen text, integers normalized to a 0-1000 grid, origin TOP-LEFT (ymin/ymax vertical top->bottom, xmin/xmax horizontal left->right — the standard Gemini convention). If value is null, set box to null. Do not skip the box for any visible value.
+   - systemName: the EHR vendor/platform/brand (logo/watermark/title) if visible.
+   - clinicalSpecialty: specialty/department if evident (e.g. Cardiology, Pediatrics).
+   - activeFunction: the active screen/module/form title; uiSection: the sub-panel/tab in focus.
+   - isEhrScreen (bool): is this EHR/clinical software at all (vs. marketing, login, generic UI)?
+   - patientScope: "single" / "multiple" / "none".
+   - singlePatientConfidence (0.0-1.0): confidence this is an EHR screen about a SINGLE patient.
+   - loggedInUser: the authenticated operator if shown ("Welcome X", "User: X", "Logged in: X"). IMPORTANT: this is whoever is OPERATING the software, NOT a patient provider. Never put this person in "providers".
+3. Patient identity (the patient in view). Set each field's .value (or null if absent):
+   - identifiers[]: capture EVERY patient identifier in the banner as a typed entry { type (mrn|chartNumber|accountNumber|ssn|memberId|external|other), value (as shown, keep masking like ***-**-6789), label (on-screen wording), masked (bool), box }. Banners often show several distinct IDs — capture them all.
+   - primaryId: the single most prominent identifier (usually the MRN) as { type, value } (no box).
+   - fullName / firstName / lastName; dateOfBirth (YYYY-MM-DD); age (as shown); sex (M/F/Male/Female).
+   - phone, email, address (if in the banner).
+   - insurance (light, if in the banner): primaryPayer, secondaryPayer, memberId, groupNumber. Do not hunt the billing screen — only what the banner shows.
+4. Providers of record (providers[]): the care provider(s) named in the patient/visit banner, each { name, role (attending|rendering|referring|primaryCare|resident|nurse|consulting|other — use "other" if unlabeled), credential (MD/DO/NP/…), box }. Only banner providers — NOT every name in the chart, and NEVER the logged-in operator (that's loggedInUser).
+5. Encounter context: encounterDate (YYYY-MM-DD), encounterType (visit type/class), location (facility/clinic/unit/room in the banner), visitId (CSN/FIN/Visit #).
+${debug ? `6a. additionalFields (schema gaps): for OTHER clearly-labeled data — including out-of-scope clinical items (allergies, problems, meds, vitals) and anything else — add { category (patient|provider|encounter|order|other), label, value, box }. Only what is explicitly visible; this is for discovery.
+` : ""}6. BOUNDING BOXES (critical): every value-bearing field is { "value": <string|null>, "box": {ymin,xmin,ymax,xmax}|null }, and every array entry (identifiers[], providers[]) carries its own "box". For EVERY value you extract you MUST fill its box: a tight rectangle around the on-screen text, integers normalized to a 0-1000 grid, origin TOP-LEFT (the standard Gemini convention). If a value is null, set its box to null.
 
-Constraints & Quality Guidelines:
-- Accuracy First: Only extract information explicitly visible in the image. Do not extrapolate, assume, or hallucinate.
-- Null Values: If a field cannot be found with confidence, set its value to null (and box to null). Do not guess.
-- Output Format: Return only a valid JSON object matching the schema. No conversational text.`;
+Constraints:
+- Accuracy first: only what is explicitly visible; do not extrapolate or hallucinate. Null when unsure.
+- Stay in scope: banner identity/context only (no clinical body content${debug ? ", except additionalFields for discovery" : ""}).
+- Output only a valid JSON object matching the schema. No conversational text.`;
 }
 
 /**
@@ -91,6 +95,9 @@ const field = (description: string): Schema => ({
   required: ["value"],
 });
 
+// v3: scoped to the PATIENT-IDENTITY BANNER (who is this patient + immediate
+// visit/provider context). NOT clinical body content (problems, meds, allergies,
+// vitals, orders) — those go to additionalFields only in --debug.
 const responseSchema: Schema = {
   type: Type.OBJECT,
   properties: {
@@ -118,28 +125,82 @@ const responseSchema: Schema = {
       },
       required: ["activeFunction", "isEhrScreen", "patientScope", "singlePatientConfidence"],
     },
+    // The authenticated operator (e.g. "Welcome Dr. Smith", "User: SysAdmin"). This
+    // is whoever is logged in — NOT the patient's care provider.
+    loggedInUser: field("Name of the logged-in user/operator (e.g. 'Welcome X', 'User: X'). The operator, NOT a patient provider."),
     patient: {
       type: Type.OBJECT,
-      description: "Patient demographic identifiers visible on screen.",
+      description: "Identity-banner facts about the single patient in view.",
       properties: {
-        patientId: field("The primary unique medical record identifier (MRN/Pt ID/Chart #)."),
+        // All local identifiers shown in the banner (a screen often shows several).
+        identifiers: {
+          type: Type.ARRAY,
+          description: "Every patient identifier shown in the banner. EHRs show many; capture each as a typed entry.",
+          items: {
+            type: Type.OBJECT,
+            properties: {
+              type: { type: Type.STRING, enum: ["mrn", "chartNumber", "accountNumber", "ssn", "memberId", "external", "other"], description: "Normalized identifier type." },
+              value: { type: Type.STRING, description: "The identifier value as shown (keep masking, e.g. ***-**-6789)." },
+              label: { type: Type.STRING, nullable: true, description: "On-screen label, e.g. 'MRN', 'Chart #', 'Acct #'." },
+              masked: { type: Type.BOOLEAN, description: "True if shown partially masked." },
+              box: boxSchema,
+            },
+            required: ["type", "value"],
+          },
+        },
+        primaryId: {
+          type: Type.OBJECT,
+          description: "The single most prominent identifier (usually the MRN), for convenience. No box (it duplicates an identifiers[] entry).",
+          properties: {
+            type: { type: Type.STRING, nullable: true },
+            value: { type: Type.STRING, nullable: true },
+          },
+        },
         fullName: field("The patient's full name as displayed."),
         firstName: field("Patient first/given name."),
         lastName: field("Patient last/family name."),
         dateOfBirth: field("Patient date of birth, normalized to YYYY-MM-DD."),
         age: field("Age as displayed on screen, e.g. '45 y', '6 mo'."),
         sex: field("Administrative/legal sex as shown (e.g. M, F, Male, Female)."),
-        address: field("Patient address if visible."),
-        phone: field("Patient phone number if visible."),
+        phone: field("Patient phone number if shown in the banner."),
+        email: field("Patient email if shown in the banner."),
+        address: field("Patient address if shown in the banner."),
+        insurance: {
+          type: Type.OBJECT,
+          description: "Light insurance/coverage if shown in the banner (not a full billing record).",
+          properties: {
+            primaryPayer: field("Primary insurance/payer/plan name."),
+            secondaryPayer: field("Secondary insurance/payer name."),
+            memberId: field("Insurance member/subscriber ID."),
+            groupNumber: field("Insurance group number."),
+          },
+        },
       },
-      required: ["patientId", "fullName"],
+      required: ["identifiers"],
+    },
+    // Provider(s) of record shown in the banner — NOT every name in the chart.
+    providers: {
+      type: Type.ARRAY,
+      description: "Care provider(s) shown in the patient/visit banner. Empty if none. Do NOT include the logged-in operator here.",
+      items: {
+        type: Type.OBJECT,
+        properties: {
+          name: { type: Type.STRING, description: "Provider name as shown." },
+          role: { type: Type.STRING, enum: ["attending", "rendering", "referring", "primaryCare", "resident", "nurse", "consulting", "other"], description: "Role if indicated; 'other' if unlabeled." },
+          credential: { type: Type.STRING, nullable: true, description: "e.g. MD, DO, NP, PA, RN." },
+          box: boxSchema,
+        },
+        required: ["name", "role"],
+      },
     },
     encounterContext: {
       type: Type.OBJECT,
-      description: "Details about the specific patient visit or session shown.",
+      description: "Banner-level context about the specific visit (not clinical content).",
       properties: {
         encounterDate: field("The date of the encounter, normalized to YYYY-MM-DD."),
-        encounterType: field("The classification of the visit or encounter type if labeled."),
+        encounterType: field("The classification of the visit/encounter type if labeled."),
+        location: field("Facility / clinic / unit / room shown in the banner."),
+        visitId: field("Encounter/visit/account number identifying this visit (e.g. CSN, FIN, Visit #)."),
       },
     },
   },
@@ -198,6 +259,12 @@ function stripCodeFences(text: string): string {
   const trimmed = text.trim();
   const fenceMatch = trimmed.match(/^```(?:json)?\s*\n?([\s\S]*?)\n?```$/i);
   return (fenceMatch ? fenceMatch[1] : trimmed).trim();
+}
+
+/** Parse model JSON; return undefined (not throw) so callers can retry. */
+function tryParseJson(raw: string | undefined): any {
+  if (!raw) return undefined;
+  try { return JSON.parse(stripCodeFences(raw)); } catch { return undefined; }
 }
 
 /** Read pixel dimensions of an image via ffprobe (ffmpeg is already available). */
@@ -272,37 +339,41 @@ export async function abstractScreenshot(
 
   // Default (cheap) config from the optimization experiment: thinking OFF, no
   // additionalFields. Debug: thinking ON + additionalFields (schema-gap discovery).
-  const config: any = {
+  const contents = [
+    {
+      role: "user",
+      parts: [
+        { inlineData: { mimeType, data: base64Data } },
+        { text: "Abstract this EHR screenshot into the required JSON structure." },
+      ],
+    },
+  ];
+  // maxOutputTokens caps cost AND bounds the rare think=0 runaway (model spewing
+  // a giant string to fill a field). Debug needs more room for additionalFields.
+  const baseConfig: any = {
     systemInstruction: buildInstruction(debug),
     responseMimeType: "application/json",
     responseSchema: buildSchema(debug),
+    maxOutputTokens: debug ? 8192 : 4096,
   };
-  if (!debug) config.thinkingConfig = { thinkingBudget: 0 };
+  const callModel = (thinkingOff: boolean) =>
+    ai.models.generateContent({
+      model: MODEL_ID,
+      contents,
+      config: thinkingOff ? { ...baseConfig, thinkingConfig: { thinkingBudget: 0 } } : baseConfig,
+    });
 
-  const response = await ai.models.generateContent({
-    model: MODEL_ID,
-    contents: [
-      {
-        role: "user",
-        parts: [
-          { inlineData: { mimeType, data: base64Data } },
-          { text: "Abstract this EHR screenshot into the required JSON structure." },
-        ],
-      },
-    ],
-    config,
-  });
-
-  const raw = response.text;
-  if (!raw) throw new Error("Model returned no text content.");
-
-  let parsed: any;
-  try {
-    parsed = JSON.parse(stripCodeFences(raw));
-  } catch (err) {
-    throw new Error(
-      `Failed to parse model output as JSON.\nRaw output:\n${raw}\n\nParse error: ${(err as Error).message}`,
-    );
+  // Default = thinking OFF (cheap). If the output won't parse — the rare
+  // degenerate runaway under think=0 — retry once WITH thinking on, which
+  // reliably recovers (verified: think=0 fails ~2/3 on the bad images; thinking on passes).
+  let response = await callModel(!debug);
+  let parsed = tryParseJson(response.text);
+  if (parsed === undefined && !debug) {
+    response = await callModel(false); // thinking on
+    parsed = tryParseJson(response.text);
+  }
+  if (parsed === undefined) {
+    throw new Error(`Failed to parse model output as JSON.\nRaw output:\n${response.text}`);
   }
 
   const size = await imageSize(imagePath);

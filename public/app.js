@@ -274,49 +274,53 @@ function showList() {
 /* ---------------- v1/v2 shape helpers ---------------- */
 // v2 fields are { value, box }; v1 fields are bare strings. fval() handles both.
 function fval(x) { return x && typeof x === "object" && "value" in x ? x.value : x; }
-function patientName(o) {
-  const p = o.patient || {};
-  return fval(p.fullName) ?? (p.name && p.name.fullName) ?? null; // v2 flat / v1 nested
-}
+function patientName(o) { return fval((o.patient || {}).fullName) ?? null; }
 
 // v2 field map: [dotted-path, label, fieldObject]. Used to build the box list
 // (boxes now live inline on each field) and to label them.
 function v2Fields(o) {
-  const sm = o.systemMetadata || {}, p = o.patient || {}, ec = o.encounterContext || {};
+  const sm = o.systemMetadata || {}, p = o.patient || {}, ec = o.encounterContext || {}, ins = p.insurance || {};
   return [
     ["systemMetadata.systemName", "System Name", sm.systemName],
     ["systemMetadata.clinicalSpecialty", "Clinical Specialty", sm.clinicalSpecialty],
     ["systemMetadata.activeFunction", "Active Function", sm.activeFunction],
     ["systemMetadata.uiSection", "UI Section", sm.uiSection],
-    ["patient.patientId", "Patient ID", p.patientId],
+    ["loggedInUser", "Logged-in User", o.loggedInUser],
     ["patient.fullName", "Patient Name", p.fullName],
     ["patient.firstName", "First Name", p.firstName],
     ["patient.lastName", "Last Name", p.lastName],
     ["patient.dateOfBirth", "Date of Birth", p.dateOfBirth],
     ["patient.age", "Age", p.age],
     ["patient.sex", "Sex", p.sex],
-    ["patient.genderIdentity", "Gender Identity", p.genderIdentity],
-    ["patient.address", "Address", p.address],
     ["patient.phone", "Phone", p.phone],
-    ["patient.maritalStatus", "Marital Status", p.maritalStatus],
-    ["patient.preferredLanguage", "Preferred Language", p.preferredLanguage],
-    ["patient.race", "Race", p.race],
-    ["patient.ethnicity", "Ethnicity", p.ethnicity],
+    ["patient.email", "Email", p.email],
+    ["patient.address", "Address", p.address],
+    ["patient.insurance.primaryPayer", "Insurance (primary)", ins.primaryPayer],
+    ["patient.insurance.secondaryPayer", "Insurance (secondary)", ins.secondaryPayer],
+    ["patient.insurance.memberId", "Member ID", ins.memberId],
+    ["patient.insurance.groupNumber", "Group #", ins.groupNumber],
     ["encounterContext.encounterDate", "Encounter Date", ec.encounterDate],
     ["encounterContext.encounterType", "Encounter Type", ec.encounterType],
+    ["encounterContext.location", "Location", ec.location],
+    ["encounterContext.visitId", "Visit ID", ec.visitId],
   ];
 }
 
-// Unified annotation list (schema-field boxes). v1: the explicit annotations
-// array. v2: built from inline field boxes.
+// Annotation list (boxes): inline field boxes + array-entry boxes
+// (patient.identifiers[], providers[]).
 function buildAnnotations(o) {
-  if (Array.isArray(o.annotations) && o.annotations.length) return o.annotations; // v1
   const out = [];
   for (const [field, label, f] of v2Fields(o)) {
     if (f && typeof f === "object" && (f.box || f.boxPx)) {
       out.push({ field, label, text: f.value, box: f.box, boxPx: f.boxPx });
     }
   }
+  (o.patient?.identifiers || []).forEach((id, i) => {
+    if (id && (id.box || id.boxPx)) out.push({ field: `patient.identifiers.${i}`, label: id.label || id.type || "ID", text: id.value, box: id.box, boxPx: id.boxPx });
+  });
+  (o.providers || []).forEach((pr, i) => {
+    if (pr && (pr.box || pr.boxPx)) out.push({ field: `providers.${i}`, label: `provider${pr.role ? " (" + pr.role + ")" : ""}`, text: pr.name, box: pr.box, boxPx: pr.boxPx });
+  });
   return out;
 }
 
@@ -335,6 +339,9 @@ function showDetail(i) {
   const sm = o.systemMetadata || {};
   const p = o.patient || {};
   const ec = o.encounterContext || {};
+  const ins = p.insurance || {};
+  const ids = Array.isArray(p.identifiers) ? p.identifiers : [];
+  const provs = Array.isArray(o.providers) ? o.providers : [];
   const seed = r.seed || {};
   const annotations = buildAnnotations(o);
   const additional = Array.isArray(o.additionalFields) ? o.additionalFields : [];
@@ -388,7 +395,7 @@ function showDetail(i) {
     </div>
 
     <div class="section">
-      <h3>System Metadata (detected)</h3>
+      <h3>System / Session (detected)</h3>
       <div class="kv">
         ${kvRow("isEhrScreen", sm.isEhrScreen == null ? null : String(sm.isEhrScreen), "systemMetadata.isEhrScreen")}
         ${kvRow("patientScope", sm.patientScope, "systemMetadata.patientScope")}
@@ -397,26 +404,57 @@ function showDetail(i) {
         ${kvRow("clinicalSpecialty", fval(sm.clinicalSpecialty), "systemMetadata.clinicalSpecialty")}
         ${kvRow("activeFunction", fval(sm.activeFunction), "systemMetadata.activeFunction")}
         ${kvRow("uiSection", fval(sm.uiSection), "systemMetadata.uiSection")}
+        ${kvRow("loggedInUser (operator)", fval(o.loggedInUser), "loggedInUser")}
       </div>
     </div>
 
     <div class="section">
-      <h3>Patient</h3>
+      <h3>Patient — Identifiers</h3>
       <div class="kv">
-        ${kvRow("patientId", fval(p.patientId), "patient.patientId")}
+        ${p.primaryId && (p.primaryId.value != null) ? kvRow("primaryId", `${p.primaryId.value}${p.primaryId.type ? " (" + p.primaryId.type + ")" : ""}`) : ""}
+      </div>
+      <div class="annot-list">
+        ${ids.map((id, i) => `
+          <div class="annot" data-field="patient.identifiers.${i}">
+            <div class="a-top"><span class="a-label">${esc(id.value == null ? "" : id.value)}</span><span class="a-cat">${esc(id.type || "")}${id.masked ? " · masked" : ""}</span></div>
+            <div class="a-text">${esc(id.label || "")}</div>
+          </div>`).join("")}
+        ${ids.length === 0 && (!p.primaryId || p.primaryId.value == null) ? '<div class="kv"><div class="v null">none</div></div>' : ''}
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>Patient — Demographics</h3>
+      <div class="kv">
         ${kvRow("fullName", patientName(o), "patient.fullName")}
-        ${kvRow("firstName", fval(p.firstName) ?? (p.name && p.name.firstName), "patient.firstName")}
-        ${kvRow("lastName", fval(p.lastName) ?? (p.name && p.name.lastName), "patient.lastName")}
+        ${kvRow("firstName", fval(p.firstName), "patient.firstName")}
+        ${kvRow("lastName", fval(p.lastName), "patient.lastName")}
         ${kvRow("dateOfBirth", fval(p.dateOfBirth), "patient.dateOfBirth")}
         ${kvRow("age", fval(p.age), "patient.age")}
         ${kvRow("sex", fval(p.sex), "patient.sex")}
-        ${kvRow("genderIdentity", fval(p.genderIdentity), "patient.genderIdentity")}
-        ${kvRow("address", fval(p.address), "patient.address")}
         ${kvRow("phone", fval(p.phone), "patient.phone")}
-        ${kvRow("maritalStatus", fval(p.maritalStatus), "patient.maritalStatus")}
-        ${kvRow("preferredLanguage", fval(p.preferredLanguage), "patient.preferredLanguage")}
-        ${kvRow("race", fval(p.race), "patient.race")}
-        ${kvRow("ethnicity", fval(p.ethnicity), "patient.ethnicity")}
+        ${kvRow("email", fval(p.email), "patient.email")}
+        ${kvRow("address", fval(p.address), "patient.address")}
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>Insurance</h3>
+      <div class="kv">
+        ${kvRow("primaryPayer", fval(ins.primaryPayer), "patient.insurance.primaryPayer")}
+        ${kvRow("secondaryPayer", fval(ins.secondaryPayer), "patient.insurance.secondaryPayer")}
+        ${kvRow("memberId", fval(ins.memberId), "patient.insurance.memberId")}
+        ${kvRow("groupNumber", fval(ins.groupNumber), "patient.insurance.groupNumber")}
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>Providers (of record)</h3>
+      <div class="annot-list">
+        ${provs.length === 0 ? '<div class="kv"><div class="v null">none</div></div>' : provs.map((pr, i) => `
+          <div class="annot" data-field="providers.${i}">
+            <div class="a-top"><span class="a-label">${esc(pr.name || "")}</span><span class="a-cat">${esc(pr.role || "")}${pr.credential ? " · " + esc(pr.credential) : ""}</span></div>
+          </div>`).join("")}
       </div>
     </div>
 
@@ -425,6 +463,8 @@ function showDetail(i) {
       <div class="kv">
         ${kvRow("encounterDate", fval(ec.encounterDate), "encounterContext.encounterDate")}
         ${kvRow("encounterType", fval(ec.encounterType), "encounterContext.encounterType")}
+        ${kvRow("location", fval(ec.location), "encounterContext.location")}
+        ${kvRow("visitId", fval(ec.visitId), "encounterContext.visitId")}
       </div>
     </div>
 

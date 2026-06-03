@@ -13,7 +13,8 @@
     "backfill-attempts": "bun run scripts/backfill-attempts.ts",
     "reabstract": "bun run scripts/reabstract-v1.ts",
     "viewer": "bun run scripts/viewer-server.ts",
-    "build": "bun run scripts/build-static.ts"
+    "build": "bun run scripts/build-static.ts",
+    "reabstract:all": "bun run scripts/reabstract-all.ts"
   },
   "devDependencies": {
     "@types/bun": "latest",
