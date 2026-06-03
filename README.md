@@ -11,7 +11,11 @@ coverage report and a hash-based filter system.
 
 Runtime: **Bun + TypeScript**. No build step for the app (vanilla JS/CSS).
 
-**🔗 Live: https://joshuamandel.com/chpl-screenshots/** (built & deployed from `main` via GitHub Actions → Pages).
+**🔗 Live: https://joshuamandel.com/chpl-screenshots/** (built & deployed from `main`
+via GitHub Actions → Pages). The public site is **curated**: the CI build passes
+`--filter '{"patientScope":"single","confMin":0.8}'`, so it only ships screenshots
+judged ≥80% likely to be a single-patient EHR screen (same definition as the coverage
+report's final funnel stage). Run locally for the full corpus.
 
 ---
 
@@ -176,6 +180,13 @@ and minimal; don't add nested structure the model has to populate.
   (developers tried → any screenshot → ≥1 EHR screen → ≥1 single-patient →
   single-patient ≥0.8 conf), a **confidence distribution**, and a **cost-per-
   screenshot distribution**. Bars/stages are **clickable** → open the filtered list.
+
+### Detail URLs (stable slugs)
+Each screenshot's detail view is addressed by a **stable, human-readable id** —
+`#/<vendor-slug>/<screenshot-filename>`, e.g.
+`#/streamline-healthcare-solutions/03-my-calendar-client-schedule.png`. Derived
+from the file path, so links survive re-ordering, re-abstraction, and filtered
+builds (old `#/<integer>` links still resolve as a fallback).
 
 ### Filters (hash-encoded JSON)
 The URL hash carries a filter object; the list shows only matching screenshots,

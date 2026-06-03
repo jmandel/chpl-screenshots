@@ -25,6 +25,13 @@ function vendorOf(file) {
   const m = /screenshots\/([^/]+)\/([^/]+)$/.exec(file || "");
   return m ? `${m[1]}/${m[2]}` : (file || "");
 }
+// Stable, human-readable record id for URLs: "<vendor-slug>/<screenshot-filename>".
+// Derived from the file path, so it survives re-ordering and filtered builds
+// (unlike the array index).
+function recId(r) {
+  const m = /screenshots\/([^/]+)\/([^/]+)$/.exec(r.file || "");
+  return m ? `${m[1]}/${m[2]}` : String(r.index);
+}
 function fmtUSD(n) {
   if (n == null) return "—";
   return "$" + Number(n).toFixed(4);
@@ -217,9 +224,11 @@ async function showReport() {
 function applyHash() {
   const h = decodeURIComponent(location.hash.slice(1));
   if (h === "report") { activeFilter = null; renderFilterBanner(); showReport(); return; }
-  const m = /^\/(\d+)$/.exec(h);
+  const m = /^\/(.+)$/.exec(h);
   if (m) {
-    const i = Number(m[1]);
+    const id = m[1];
+    let i = records.findIndex((r) => recId(r) === id);
+    if (i < 0 && /^\d+$/.test(id)) i = Number(id); // legacy "#/<index>" links
     if (i >= 0 && i < records.length) { renderFilterBanner(); showDetail(i); return; }
   }
   if (h.startsWith("{")) { try { activeFilter = JSON.parse(h); } catch { activeFilter = null; } renderFilterBanner(); showList(); return; }
@@ -255,7 +264,7 @@ function renderList() {
           <span class="badge cost">${fmtUSD(cost)}</span>
         </div>
       </div>`;
-    card.addEventListener("click", () => { location.hash = `#/${r.index}`; });
+    card.addEventListener("click", () => { location.hash = `#/${recId(r)}`; });
     setImg(card.querySelector(".card-thumb"), r);
     gallery.appendChild(card);
   }
@@ -739,13 +748,13 @@ function navigate(delta) {
     if (pos >= 0) {
       const np = pos + delta;
       if (np < 0 || np >= order.length) return;
-      location.hash = `#/${order[np]}`;
+      location.hash = `#/${recId(records[order[np]])}`;
       return;
     }
   }
   const next = current + delta;
   if (next < 0 || next >= records.length) return;
-  location.hash = `#/${next}`;
+  location.hash = `#/${recId(records[next])}`;
 }
 
 /* ---------------- events ---------------- */

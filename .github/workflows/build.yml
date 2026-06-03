@@ -26,7 +26,9 @@ jobs:
       - run: bun install --frozen-lockfile || bun install
       # Builds ./dist from the committed data (screenshots + abstraction shards).
       # No API keys needed — the build only reads existing data.
-      - run: bun run build
+      # Public site is curated: only single-patient EHR screens ≥80% confidence
+      # (same definition as the coverage report's final funnel stage).
+      - run: bun run build -- --filter '{"patientScope":"single","confMin":0.8}'
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
