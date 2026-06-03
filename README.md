@@ -11,6 +11,8 @@ coverage report and a hash-based filter system.
 
 Runtime: **Bun + TypeScript**. No build step for the app (vanilla JS/CSS).
 
+**🔗 Live: https://joshuamandel.com/chpl-screenshots/** (built & deployed from `main` via GitHub Actions → Pages).
+
 ---
 
 ## TL;DR
@@ -24,25 +26,26 @@ bun run viewer                   # review at http://localhost:5599
 bun run build                    # static site → ./dist  (deploy to GH Pages, etc.)
 ```
 
-Current corpus: **469 developers swept**, **238 with screenshots**, **828 screenshots
-abstracted**, ~**$12.44** total Gemini cost (~$0.015/screenshot).
+Current corpus: **469 developers swept**, **238 with screenshots**, **~826 screenshots
+abstracted** (v3 identity-banner schema), at ~**$0.01/screenshot**.
 
 ---
 
 ## Pipeline
 
-```
-CHPL bulk dump ──▶ randomized worklist (469 developers) ──▶ pick next tranche
-                                                                  │
-                          ┌───────────── 5-agent worker pool (per EHR) ─────────────┐
-                          │  Brave image search (REST) → view candidates →          │
-                          │  keep full-screen + patient-banner shots →              │
-                          │  Gemini abstraction (structured output) → per-EHR shard │
-                          └─────────────────────────────────────────────────────────┘
-                                                                  │
-            data/screenshots/<slug>/*.png   +   data/abstractions/<slug>.ndjson   +   data/attempts/<slug>.json
-                                                                  │
-                                                  viewer (bun run viewer)  ·  static build (bun run build)
+```mermaid
+flowchart TD
+  A[CHPL bulk dump] --> B[Randomized worklist · 469 developers]
+  B --> C{Pick next tranche}
+  C --> D[5-agent worker pool · per EHR]
+  subgraph pool [per-EHR agent]
+    E[Brave image search REST → view candidates] --> F[Keep full-screen + patient-banner shots]
+    F --> G[Gemini abstraction · structured output]
+  end
+  D --> E
+  G --> H[(data/screenshots/ · data/abstractions/ · data/attempts/)]
+  H --> I[Viewer — bun run viewer]
+  H --> J[Static build — bun run build → dist/ → GitHub Pages]
 ```
 
 ### Stages
@@ -78,33 +81,44 @@ refilled as each finishes). Full design notes: **`docs/workflows.md`**. Key poin
 
 ---
 
-## Abstraction schema (v2)
+## Abstraction schema (v3)
 
-Every extractable field is a **`{ value, box }`** pair — co-locating the box with
-the value forces the model to localize each thing it reads. The full schema lives
-in `abstraction-prompt.md`; the runnable Gemini version is in
-`scripts/abstract-screenshot.ts`.
+**Scope: the patient-identity banner** — who the patient is and the immediate
+visit/provider context. *Not* clinical body content (problem lists, meds,
+allergies, vitals, orders) — those are out of scope (discoverable via `--debug`'s
+`additionalFields` only). Most value-bearing fields are a **`{ value, box }`** pair;
+co-locating the box with the value forces the model to localize each thing it reads.
+Runtime source of truth: `scripts/abstract-screenshot.ts`; intent doc: `abstraction-prompt.md`.
 
 - `systemMetadata`: `systemName`, `clinicalSpecialty`, `activeFunction`, `uiSection`
-  (each `{value,box}`), plus classifiers **`isEhrScreen`** (bool),
-  **`patientScope`** (`single`|`multiple`|`none`), **`singlePatientConfidence`**
-  (0–1, "how sure this is an EHR screen about a single patient").
-- `patient`: `patientId`, `fullName`/`firstName`/`lastName`, `dateOfBirth`, `age`,
-  `sex`, `genderIdentity`, `address`, `phone`, `maritalStatus`,
-  `preferredLanguage`, `race`, `ethnicity` (each `{value,box}`).
-- `encounterContext`: `encounterDate`, `encounterType`.
-- `additionalFields[]`: clearly-labeled patient/provider/visit data **not** in the
-  schema — our schema-gap discovery channel (`{category,label,value,box}`).
+  (each `{value,box}`), plus classifiers **`isEhrScreen`** (bool), **`patientScope`**
+  (`single`|`multiple`|`none`), **`singlePatientConfidence`** (0–1).
+- `loggedInUser` `{value,box}` — the **operator** ("Welcome X" / "User: X"),
+  deliberately separate from patient providers.
+- `patient`:
+  - `identifiers[]` — every banner ID, typed: `{ type (mrn|chartNumber|accountNumber|ssn|memberId|external|other), value, label, masked, box }`.
+  - `primaryId` `{type,value}` — the most prominent ID (convenience).
+  - `fullName`/`firstName`/`lastName`, `dateOfBirth`, `age`, `sex`, `phone`, `email`, `address` (each `{value,box}`).
+  - `insurance`: `primaryPayer`, `secondaryPayer`, `memberId`, `groupNumber` (each `{value,box}`).
+- `providers[]` — providers of record in the banner: `{ name, role (attending|rendering|referring|primaryCare|resident|nurse|consulting|other), credential, box }`.
+- `encounterContext`: `encounterDate`, `encounterType`, `location`, `visitId` (each `{value,box}`).
+- `additionalFields[]` (**`--debug` only**) — clearly-labeled data the schema doesn't
+  capture (incl. out-of-scope clinical items): `{category,label,value,box}` — schema-gap discovery.
 
 Boxes are normalized 0–1000 (Gemini convention); the script converts each to
 pixel-space `boxPx{x,y,width,height}` using the image's real dimensions.
 
-**Structured output:** we pass the schema to Gemini as `responseSchema` +
-`responseMimeType:"application/json"`. That's **constrained decoding** (enforced
+**Structured output:** the schema is passed to Gemini as `responseSchema` +
+`responseMimeType:"application/json"` — **constrained decoding** (enforced
 shape/enums/required), *in addition to* the prose `systemInstruction`. That's why
 output is always valid JSON on-schema.
 
-Pricing baked in: `gemini-3.5-flash` = **$1.50 / 1M input, $9.00 / 1M output**.
+**Cost controls (from the optimization experiment):** default config runs with
+`thinkingBudget:0` and a `maxOutputTokens` cap. `thinkingBudget:0` occasionally sends
+the model into a degenerate runaway (a giant string filling a field) → unparseable;
+`abstractScreenshot` **self-heals** by retrying once with thinking on. `--debug` runs
+with thinking on + `additionalFields`. Pricing: `gemini-3.5-flash` = **$1.50/1M in,
+$9.00/1M out** (~$0.01/screenshot with boxes).
 
 ---
 
@@ -218,9 +232,9 @@ bun run build -- --filter '{"vendor":"epic"}'
 | `download` | `scripts/download-chpl.ts` | CHPL bulk product dump (json, `Accept: */*`) |
 | `worklist` | `scripts/build-worklist.ts` | Randomized, committed developer worklist |
 | `sample` | `scripts/sample-vendors.ts` | Random vendor sample + top products |
-| `abstract <img>` | `scripts/abstract-screenshot.ts` | One screenshot → schema JSON (+ pixel boxes) |
-| `abstract:batch` | `scripts/abstract-batch.ts` | Batch → NDJSON shard (tokens, price, `--out`) |
-| `reabstract` | `scripts/reabstract-v1.ts` | Re-abstract any legacy v1 shards to v2 |
+| `abstract <img>` | `scripts/abstract-screenshot.ts` | One screenshot → v3 JSON (+ pixel boxes); `--debug` = thinking + additionalFields |
+| `abstract:batch` | `scripts/abstract-batch.ts` | Batch → NDJSON shard (tokens, price, `--out`, `--debug`) |
+| `reabstract:all` | `scripts/reabstract-all.ts` | Re-abstract every screenshot → fresh per-vendor shards (concurrent; `--slugs`, `--concurrency`) |
 | `backfill-attempts` | `scripts/backfill-attempts.ts` | Mark first-N worklist developers as attempted |
 | `clean` | `scripts/clean-screenshots.ts` | Sweep `data/screenshots` to keepers-only |
 | `viewer` | `scripts/viewer-server.ts` | Review UI + `/api/records`, `/api/report`, `/img` |
