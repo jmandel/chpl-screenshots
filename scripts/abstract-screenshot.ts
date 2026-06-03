@@ -22,7 +22,10 @@ const MODEL_ID = "gemini-3.5-flash";
  * Mirrors the instruction text in abstraction-prompt.md. We keep it inline so the
  * script is self-contained and can be run from anywhere.
  */
-const SYSTEM_INSTRUCTION = `Role:
+// Default (cheap) prompt mirrors the experiment-winning config: data + boxes, no
+// schema-gap discovery. Debug adds step 5 (additionalFields).
+function buildInstruction(debug: boolean): string {
+  return `Role:
 You are a specialized medical data abstraction assistant. Your task is to analyze screenshots of Electronic Health Record (EHR) or Electronic Medical Record (EMR) interfaces and extract key administrative, patient, and session metadata into a structured JSON format.
 
 Task Instructions:
@@ -37,18 +40,19 @@ Task Instructions:
 3. Extract Patient Demographics (usually shown together in a patient banner/header). Set each field's .value (or null if absent):
    - patientId: the unique medical record number ("ID", "MRN", "Pt ID", "Chart #", "Acct #").
    - fullName / firstName / lastName: the displayed patient name, parsed when possible.
-   - dateOfBirth ("DOB"/"Born"/"Birth Date"), normalized YYYY-MM-DD; age as displayed ("45 y", "6 mo"); sex (M/F/Male/Female); genderIdentity/pronouns if shown separately.
-   - Other banner demographics if visible: address, phone, maritalStatus, preferredLanguage, race, ethnicity.
+   - dateOfBirth ("DOB"/"Born"/"Birth Date"), normalized YYYY-MM-DD; age as displayed ("45 y", "6 mo"); sex (M/F/Male/Female).
+   - Other banner demographics if visible: address, phone.
 4. Extract Encounter Details: encounterDate (normalize YYYY-MM-DD) and encounterType (visit type / encounter class / status).
-5. Capture Additional Visible Fields (schema gaps):
+${debug ? `5. Capture Additional Visible Fields (schema gaps):
    - For OTHER clearly-labeled data about the patient, provider/care team, or visit/encounter that has no slot above, add to "additionalFields": { category (patient|provider|encounter|order|other), label (on-screen field name e.g. "Insurance", "PCP", "Attending", "Room", "Allergies", "Chief Complaint"), value, box }.
    - Only include fields explicitly visible; do not invent. This is how we discover what to add to the schema next — be reasonably thorough.
-6. BOUNDING BOXES (critical): EVERY extractable field is an object of the form { "value": <string|null>, "box": {ymin,xmin,ymax,xmax}|null }. For EVERY field whose value is NON-NULL you MUST also fill its "box": a tight rectangle around the on-screen text, integers normalized to a 0-1000 grid, origin TOP-LEFT (ymin/ymax vertical top->bottom, xmin/xmax horizontal left->right — the standard Gemini convention). If value is null, set box to null. Do not skip the box for any visible value.
+` : ""}6. BOUNDING BOXES (critical): EVERY extractable field is an object of the form { "value": <string|null>, "box": {ymin,xmin,ymax,xmax}|null }. For EVERY field whose value is NON-NULL you MUST also fill its "box": a tight rectangle around the on-screen text, integers normalized to a 0-1000 grid, origin TOP-LEFT (ymin/ymax vertical top->bottom, xmin/xmax horizontal left->right — the standard Gemini convention). If value is null, set box to null. Do not skip the box for any visible value.
 
 Constraints & Quality Guidelines:
 - Accuracy First: Only extract information explicitly visible in the image. Do not extrapolate, assume, or hallucinate.
 - Null Values: If a field cannot be found with confidence, set its value to null (and box to null). Do not guess.
 - Output Format: Return only a valid JSON object matching the schema. No conversational text.`;
+}
 
 /**
  * Gemini responseSchema (OpenAPI-3 subset), converted from the draft-07
@@ -125,13 +129,8 @@ const responseSchema: Schema = {
         dateOfBirth: field("Patient date of birth, normalized to YYYY-MM-DD."),
         age: field("Age as displayed on screen, e.g. '45 y', '6 mo'."),
         sex: field("Administrative/legal sex as shown (e.g. M, F, Male, Female)."),
-        genderIdentity: field("Gender identity or pronouns, if shown separately from sex."),
         address: field("Patient address if visible."),
         phone: field("Patient phone number if visible."),
-        maritalStatus: field("Marital status if visible."),
-        preferredLanguage: field("Preferred language if visible."),
-        race: field("Race if visible."),
-        ethnicity: field("Ethnicity if visible."),
       },
       required: ["patientId", "fullName"],
     },
@@ -143,24 +142,35 @@ const responseSchema: Schema = {
         encounterType: field("The classification of the visit or encounter type if labeled."),
       },
     },
-    additionalFields: {
-      type: Type.ARRAY,
-      description:
-        "Other clearly-labeled patient/provider/visit data points visible on screen that the schema above does not capture. Used to discover schema gaps.",
-      items: {
-        type: Type.OBJECT,
-        properties: {
-          category: { type: Type.STRING, description: "One of: patient, provider, encounter, order, other." },
-          label: { type: Type.STRING, description: "The on-screen field name/label, e.g. 'Insurance', 'PCP', 'Attending'." },
-          value: { type: Type.STRING, description: "The displayed value for this field." },
-          box: boxSchema,
-        },
-        required: ["category", "label", "value"],
-      },
-    },
   },
-  required: ["systemMetadata", "patient", "additionalFields"],
+  required: ["systemMetadata", "patient"],
 };
+
+// additionalFields (schema-gap discovery) is requested only in debug mode.
+const ADDITIONAL_FIELDS: Schema = {
+  type: Type.ARRAY,
+  description:
+    "Other clearly-labeled patient/provider/visit data points visible on screen that the schema above does not capture. Used to discover schema gaps.",
+  items: {
+    type: Type.OBJECT,
+    properties: {
+      category: { type: Type.STRING, description: "One of: patient, provider, encounter, order, other." },
+      label: { type: Type.STRING, description: "The on-screen field name/label, e.g. 'Insurance', 'PCP', 'Attending'." },
+      value: { type: Type.STRING, description: "The displayed value for this field." },
+      box: boxSchema,
+    },
+    required: ["category", "label", "value"],
+  },
+};
+
+function buildSchema(debug: boolean): Schema {
+  if (!debug) return responseSchema;
+  return {
+    ...responseSchema,
+    properties: { ...(responseSchema.properties as any), additionalFields: ADDITIONAL_FIELDS },
+    required: [...(responseSchema.required ?? []), "additionalFields"],
+  };
+}
 
 const MIME_BY_EXT: Record<string, string> = {
   ".png": "image/png",
@@ -242,7 +252,11 @@ export interface AbstractionResult {
  * bounding boxes) and return the result plus token usage. Importable so batch
  * runners can reuse it.
  */
-export async function abstractScreenshot(imageArg: string): Promise<AbstractionResult> {
+export async function abstractScreenshot(
+  imageArg: string,
+  opts: { debug?: boolean } = {},
+): Promise<AbstractionResult> {
+  const debug = opts.debug ?? false;
   const apiKey = process.env.GEMINI_API_KEY;
   if (!apiKey) {
     throw new Error(
@@ -256,6 +270,15 @@ export async function abstractScreenshot(imageArg: string): Promise<AbstractionR
 
   const ai = new GoogleGenAI({ apiKey });
 
+  // Default (cheap) config from the optimization experiment: thinking OFF, no
+  // additionalFields. Debug: thinking ON + additionalFields (schema-gap discovery).
+  const config: any = {
+    systemInstruction: buildInstruction(debug),
+    responseMimeType: "application/json",
+    responseSchema: buildSchema(debug),
+  };
+  if (!debug) config.thinkingConfig = { thinkingBudget: 0 };
+
   const response = await ai.models.generateContent({
     model: MODEL_ID,
     contents: [
@@ -267,11 +290,7 @@ export async function abstractScreenshot(imageArg: string): Promise<AbstractionR
         ],
       },
     ],
-    config: {
-      systemInstruction: SYSTEM_INSTRUCTION,
-      responseMimeType: "application/json",
-      responseSchema,
-    },
+    config,
   });
 
   const raw = response.text;
@@ -303,11 +322,13 @@ export async function abstractScreenshot(imageArg: string): Promise<AbstractionR
 }
 
 async function main(): Promise<void> {
-  const imageArg = process.argv[2];
+  const args = process.argv.slice(2);
+  const debug = args.includes("--debug");
+  const imageArg = args.find((a) => !a.startsWith("--"));
   if (!imageArg) {
-    throw new Error("Usage: bun run scripts/abstract-screenshot.ts <path-to-image>");
+    throw new Error("Usage: bun run scripts/abstract-screenshot.ts <path-to-image> [--debug]");
   }
-  const { data } = await abstractScreenshot(imageArg);
+  const { data } = await abstractScreenshot(imageArg, { debug });
   console.log(JSON.stringify(data, null, 2));
 }
 

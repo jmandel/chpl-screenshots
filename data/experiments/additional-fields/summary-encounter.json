@@ -1,0 +1,4006 @@
+{
+  "category": "encounter",
+  "totalEntries": 998,
+  "distinctLabels": 532,
+  "labels": [
+    {
+      "label": "Location",
+      "count": 62,
+      "sampleValues": [
+        "Room 1",
+        "501.City",
+        "3D.327 B PRO Hospital-Central NM",
+        "SG.512.d.P/Hospital-Central-NM",
+        "Default Working Location",
+        "Manson Clinic",
+        "01",
+        "COMM OUT",
+        "10N 1001 -1",
+        "DOCTORS OFFICE",
+        "Dallas",
+        "Exam Room 1"
+      ]
+    },
+    {
+      "label": "Chief Complaint",
+      "count": 37,
+      "sampleValues": [
+        "Low Back Pain",
+        "Agitation",
+        "Painful Growth in my thigh",
+        "A 60 year old patient presents today for entropion evaluation and possible repair",
+        "Chest pain, Shortness of breath and Palpitations of 3 weeks duration.",
+        "Shortness of Breath/Dyspnea",
+        "Nick Vailas is a 56 year old White Male with complaints of back pain.",
+        "Followup of right shoulder pain",
+        "Chest Pain",
+        "Neck pain",
+        "diabetes, sinus pain",
+        "Diabetes"
+      ]
+    },
+    {
+      "label": "Status",
+      "count": 31,
+      "sampleValues": [
+        "Arrived",
+        "New Claim",
+        "Not Confirmed",
+        "Click to edit",
+        "Confirmed",
+        "Requested",
+        "REG ER",
+        "Checked-In",
+        "New",
+        "Being Seen",
+        "Arrived 11:23 PM",
+        "In-Session"
+      ]
+    },
+    {
+      "label": "Room",
+      "count": 22,
+      "sampleValues": [
+        "Select Room",
+        "1-B",
+        "POD 1 1 - B",
+        "Rm 2",
+        "TriMed - Room 03",
+        "114",
+        "Exam Room 1",
+        "02",
+        "200-1",
+        "Room 12 - Individual Room",
+        "NA",
+        "Rm. 3"
+      ]
+    },
+    {
+      "label": "Facility",
+      "count": 19,
+      "sampleValues": [
+        "Endovault Medical Center",
+        "CAA -- Center For Asthma And Allergy",
+        "eerEnCyre areC tt, g Nluteai ...",
+        "Facility X",
+        "Charm Hospital",
+        "Charm Clinic",
+        "Spi",
+        "Ozark Nursing Home",
+        "Autumn Leaves",
+        "650 Townsend",
+        "North office",
+        "Valley of the Sun Medical Facilities"
+      ]
+    },
+    {
+      "label": "Last Visit",
+      "count": 18,
+      "sampleValues": [
+        "11/18/2014",
+        "04/04/2012",
+        "06-05-2024",
+        "11-13-2014",
+        "03-21-2014",
+        "6/17/2021",
+        "04/25/19",
+        "11/21/11",
+        "Jan 31, 2022",
+        "Apr 10, 2025",
+        "04-15-2020",
+        "Est Patient 06/12/2017"
+      ]
+    },
+    {
+      "label": "Reason",
+      "count": 11,
+      "sampleValues": [
+        "Colonoscopy",
+        "Follow up on dizzy spells and anxiety.",
+        "Testing Please ignore...",
+        "ACL Reconstruction",
+        "General Visit for depression",
+        "Abd Pain > 50 y/o",
+        "Upper Ext. W/o Contrast",
+        "OB-RK (GCT) 516 924 3711",
+        "DEPRESSION."
+      ]
+    },
+    {
+      "label": "Next Appointment",
+      "count": 10,
+      "sampleValues": [
+        "08/25/2011 3:30 PM",
+        "None",
+        "05/28/19",
+        "Wednesday, 06/07/2023 at 3:30 PM",
+        "05/17/2023 16:30 PM",
+        "05/17/2022 16:30 PM",
+        "7/26/2021 9:30 AM (LEWIS)",
+        "10/25/2024 At 11:30 AM (Results Review) - Confirmed",
+        "10/30/2013 IR APPT"
+      ]
+    },
+    {
+      "label": "Next Appt",
+      "count": 10,
+      "sampleValues": [
+        "6/18/2021 9:45",
+        "1/28/2019",
+        "None scheduled",
+        "5/1/2021 at 9am",
+        "04/13/2021",
+        "3/25/16"
+      ]
+    },
+    {
+      "label": "Case",
+      "count": 8,
+      "sampleValues": [
+        "LBP",
+        "PT010",
+        "2404",
+        "Skin Treatment 10/25/2016",
+        "Surgery Care",
+        "Case 1 (NEW CASE)"
+      ]
+    },
+    {
+      "label": "Insurance",
+      "count": 8,
+      "sampleValues": [
+        "Self Pay",
+        "OP INSURANCE",
+        "Blue Cross Medicare Advantage",
+        "Medicare B",
+        "AETNA HMO (Plan: 12345)",
+        "Primary Vision - EYE",
+        "Primary Vision - EYEMED"
+      ]
+    },
+    {
+      "label": "Reason for Visit",
+      "count": 7,
+      "sampleValues": [
+        "Acute MI",
+        "Left leg pain.",
+        "6 month ck",
+        "a diabetic foot",
+        "Emergency Visit",
+        "F/U Urinary tract infectious disease",
+        "F/U hyperlipidemia, diabetes mellitus, essential hypertension"
+      ]
+    },
+    {
+      "label": "Loc",
+      "count": 7,
+      "sampleValues": [
+        "001",
+        "Beaverton",
+        "Hillsboro",
+        "Green Bay",
+        "1 Main Office"
+      ]
+    },
+    {
+      "label": "Time",
+      "count": 7,
+      "sampleValues": [
+        "14:53",
+        "08:45",
+        "15:30:02",
+        "10:14am",
+        "11:21a",
+        "10:00 AM",
+        "1047"
+      ]
+    },
+    {
+      "label": "Clinic",
+      "count": 7,
+      "sampleValues": [
+        "2A SURGICAL ICU",
+        "Avon Health V2 Staging Clinic",
+        "Dallas Sports Medicine Clinic",
+        "Boardman Family Med",
+        "MENTAL HEALTH",
+        "Family First Physicians",
+        "Addison Health Systems"
+      ]
+    },
+    {
+      "label": "Copay",
+      "count": 6,
+      "sampleValues": [
+        "$0",
+        "$0.00",
+        "DUE",
+        "50.00",
+        "$ 50.00"
+      ]
+    },
+    {
+      "label": "Assessment",
+      "count": 6,
+      "sampleValues": [
+        "Abdominal pain [789.0]",
+        "testosterone",
+        "Abd Pain",
+        "Anxiety disorder in conditions classified elsewhere [293.84]",
+        "Abdominal rigidity generalized [789.47]",
+        "12/28/2021 (03/28/2022)"
+      ]
+    },
+    {
+      "label": "Episode",
+      "count": 6,
+      "sampleValues": [
+        "A000003246414",
+        "1",
+        "28 - 03/01/2014-04/29/2014",
+        "1 - 03/08/2021 -- 05/06/2021",
+        "03/11/2024 - 05/09/2024"
+      ]
+    },
+    {
+      "label": "CC",
+      "count": 6,
+      "sampleValues": [
+        "Patient presents with cough.",
+        "Chest Pain",
+        "Red Eye OD",
+        "URI x3 days",
+        "Shortness of Breath",
+        "Mr. Brown is a 34 year old White male.  He presents with sinus symptoms."
+      ]
+    },
+    {
+      "label": "Complaint",
+      "count": 6,
+      "sampleValues": [
+        "Biomechanics",
+        "Heel pain",
+        "Ankle Sprain",
+        "Headache",
+        "Chest Pain",
+        "LOW BACK PAIN - Full Exam"
+      ]
+    },
+    {
+      "label": "Place of Service",
+      "count": 5,
+      "sampleValues": [
+        "11 - Office",
+        "Office",
+        "2526 E Bell Rd, Phoenix, Az 85032",
+        "Telehealth"
+      ]
+    },
+    {
+      "label": "Encounter ID",
+      "count": 5,
+      "sampleValues": [
+        "0",
+        "10837848",
+        "#793",
+        "E#1330",
+        "E#14545"
+      ]
+    },
+    {
+      "label": "Appointment Time",
+      "count": 5,
+      "sampleValues": [
+        "14:00",
+        "11:00 AM",
+        "7:40 - 8:00am",
+        "3:00 PM - 3:10 PM",
+        "10:30am"
+      ]
+    },
+    {
+      "label": "Comment",
+      "count": 5,
+      "sampleValues": [
+        "sore throat, cough, needs asthma inhaler",
+        "Walk-in, Headaches and vomiting",
+        "Runner - New Orthtotics",
+        "twisted foot stepping off curb",
+        "twisted ankle running with dog"
+      ]
+    },
+    {
+      "label": "Next Visit",
+      "count": 5,
+      "sampleValues": [
+        "05/28/19",
+        "Apr 11, 2025",
+        "06/14/2017",
+        "12/23/2020"
+      ]
+    },
+    {
+      "label": "Impression",
+      "count": 5,
+      "sampleValues": [
+        "AK/Actinic keratosis",
+        "NUB/Neoplasm of Unspecified Behavior",
+        "PSO / Psoriasis Vulgaris",
+        "Lentigo/Lentigines",
+        "Amblyopia, Strabismus"
+      ]
+    },
+    {
+      "label": "Exam Room",
+      "count": 5,
+      "sampleValues": [
+        "Room 1",
+        "Exam Room 1",
+        "Exam Room #3",
+        "Clinician Started Exam Room 3",
+        "EXAM ROOM 1"
+      ]
+    },
+    {
+      "label": "Shift",
+      "count": 5,
+      "sampleValues": [
+        "First shift (6:00 AM - 3:29 PM)",
+        "DAY (5:45 AM - 4:59 PM)"
+      ]
+    },
+    {
+      "label": "Appt Type",
+      "count": 5,
+      "sampleValues": [
+        "Established"
+      ]
+    },
+    {
+      "label": "Encounter #",
+      "count": 4,
+      "sampleValues": [
+        "29113",
+        "704092",
+        "620"
+      ]
+    },
+    {
+      "label": "Charges",
+      "count": 4,
+      "sampleValues": [
+        "2099.00",
+        "$ 154.00",
+        "$1279.50"
+      ]
+    },
+    {
+      "label": "Balance",
+      "count": 4,
+      "sampleValues": [
+        "2095.00",
+        "$2,107.91",
+        "$530.00",
+        "2099.00"
+      ]
+    },
+    {
+      "label": "Diagnosis Code",
+      "count": 4,
+      "sampleValues": [
+        "ICD10 R10.32 Left lower quadrant pain",
+        "401.1",
+        "311",
+        "H25.813"
+      ]
+    },
+    {
+      "label": "Weight",
+      "count": 4,
+      "sampleValues": [
+        "145 lbs",
+        "168 KG"
+      ]
+    },
+    {
+      "label": "BP",
+      "count": 4,
+      "sampleValues": [
+        "120/80 ( Left Am )",
+        "120/80 (Left Arm)",
+        "120/80 ( Left Arm )",
+        "116/115"
+      ]
+    },
+    {
+      "label": "ESI",
+      "count": 4,
+      "sampleValues": [
+        "ESI 2"
+      ]
+    },
+    {
+      "label": "Admit Date",
+      "count": 4,
+      "sampleValues": [
+        "01/17/2025",
+        "2025-01-17",
+        "09/16/2021",
+        "12/14/2020"
+      ]
+    },
+    {
+      "label": "Schedule Date",
+      "count": 4,
+      "sampleValues": [
+        "September 02",
+        "Wed, Jun 21",
+        "1/16/2017",
+        "Jun 29, 2021"
+      ]
+    },
+    {
+      "label": "Diagnosis / Impression",
+      "count": 4,
+      "sampleValues": [
+        "Actinic Keratosis",
+        "Neoplasm of Uncertain Behavior",
+        "Psoriasis",
+        "Lentigo"
+      ]
+    },
+    {
+      "label": "Admit Dx",
+      "count": 4,
+      "sampleValues": [
+        "BULIM (786.5)",
+        "None",
+        "Inflammatory atypia"
+      ]
+    },
+    {
+      "label": "Last visit date",
+      "count": 4,
+      "sampleValues": [
+        "Mon. 05-17-2010 06:00:00 PM",
+        "09/22/24",
+        "08/16/19",
+        "07/07/2016"
+      ]
+    },
+    {
+      "label": "Start Of Care",
+      "count": 4,
+      "sampleValues": [
+        "8/12/2017",
+        "11/23/2016",
+        "4/13/2017"
+      ]
+    },
+    {
+      "label": "Anatomical Location",
+      "count": 4,
+      "sampleValues": [
+        "Right Paramedial Forehead",
+        "Right Paramedial Infraclavicular Chest",
+        "Palmar Surface of Right Wrist",
+        "Right Anterior Knee"
+      ]
+    },
+    {
+      "label": "Procedure",
+      "count": 3,
+      "sampleValues": [
+        "COLONOSCOPY",
+        "(R) Total Knee Arthroplasty"
+      ]
+    },
+    {
+      "label": "Claim",
+      "count": 3,
+      "sampleValues": [
+        "63139",
+        "266751"
+      ]
+    },
+    {
+      "label": "Level of Care",
+      "count": 3,
+      "sampleValues": [
+        "ROUTINE",
+        "OP - Mental Health",
+        "Detox"
+      ]
+    },
+    {
+      "label": "Layout",
+      "count": 3,
+      "sampleValues": [
+        "Cosmetic",
+        "New Patient (48 Page) Style 2",
+        "Complete Exam (Style 1)"
+      ]
+    },
+    {
+      "label": "Diagnosis",
+      "count": 3,
+      "sampleValues": [
+        "Fever with Headache",
+        "Anxiety disorder, unspecified",
+        "Diagnosis or Condition Deferred on Axis I, 799.9 (Active)"
+      ]
+    },
+    {
+      "label": "Duration",
+      "count": 3,
+      "sampleValues": [
+        "30",
+        "50"
+      ]
+    },
+    {
+      "label": "Last Appt",
+      "count": 3,
+      "sampleValues": [
+        "05/11/2022 9:15AM",
+        "07/24/15 Physical",
+        "N/A"
+      ]
+    },
+    {
+      "label": "Temperature",
+      "count": 3,
+      "sampleValues": [
+        "99.0 °F (Oral)",
+        "99.0 F (Oral)"
+      ]
+    },
+    {
+      "label": "Height/Length",
+      "count": 3,
+      "sampleValues": [
+        "6' 0\"",
+        "5' 0\"",
+        "5' 8\""
+      ]
+    },
+    {
+      "label": "Pain",
+      "count": 3,
+      "sampleValues": [
+        "5"
+      ]
+    },
+    {
+      "label": "Pulse",
+      "count": 3,
+      "sampleValues": [
+        "96 BPM"
+      ]
+    },
+    {
+      "label": "BMI",
+      "count": 3,
+      "sampleValues": [
+        "50.2"
+      ]
+    },
+    {
+      "label": "Historian",
+      "count": 3,
+      "sampleValues": [
+        "Self",
+        "Mother",
+        "Jann Whitley"
+      ]
+    },
+    {
+      "label": "Episode #",
+      "count": 3,
+      "sampleValues": [
+        "A000003246414"
+      ]
+    },
+    {
+      "label": "Length of Stay",
+      "count": 3,
+      "sampleValues": [
+        "1 day"
+      ]
+    },
+    {
+      "label": "POS",
+      "count": 3,
+      "sampleValues": [
+        "Office",
+        "Nursing Facility",
+        "Skilled Nursing Facility"
+      ]
+    },
+    {
+      "label": "Last Appointment",
+      "count": 3,
+      "sampleValues": [
+        "04/25/19",
+        "07/28/2016 11:00 AM",
+        "8/12/2024 at 9:00 AM (Sick Visit) - Checked Out"
+      ]
+    },
+    {
+      "label": "Primary Diagnosis",
+      "count": 3,
+      "sampleValues": [
+        "J44.9 - Chronic obstructive pulmonary disease with (acute) lower respiratory infection",
+        "I67.89 Other cerebrovascular disease",
+        "436 ACUTE BUT ILL-DEFINED CEREBROVASCULAR DISEASE"
+      ]
+    },
+    {
+      "label": "Start time",
+      "count": 3,
+      "sampleValues": [
+        "9:00 AM",
+        "5:00 PM",
+        "08:05 AM"
+      ]
+    },
+    {
+      "label": "Rec#",
+      "count": 3,
+      "sampleValues": [
+        "19808",
+        "18008"
+      ]
+    },
+    {
+      "label": "Workflow Comments",
+      "count": 3,
+      "sampleValues": [
+        "plaster",
+        "strapping",
+        "x-ray"
+      ]
+    },
+    {
+      "label": "Patient Status",
+      "count": 3,
+      "sampleValues": [
+        "WAITING",
+        "with staff",
+        "Patient is ready for provider in Exam 1. 3 minutes since check-in."
+      ]
+    },
+    {
+      "label": "Date",
+      "count": 3,
+      "sampleValues": [
+        "4/10/2023",
+        "09/14/2011",
+        "4/26/2017"
+      ]
+    },
+    {
+      "label": "Service Location",
+      "count": 3,
+      "sampleValues": [
+        "11 - Office",
+        "Main Street Center",
+        "11-Main Office"
+      ]
+    },
+    {
+      "label": "Amount Copay",
+      "count": 3,
+      "sampleValues": [
+        "$ 340.00"
+      ]
+    },
+    {
+      "label": "Course",
+      "count": 3,
+      "sampleValues": [
+        "C1 - Active - 7/6/2011",
+        "C1 - Active"
+      ]
+    },
+    {
+      "label": "Exam#",
+      "count": 3,
+      "sampleValues": [
+        "1013",
+        "25066"
+      ]
+    },
+    {
+      "label": "Proc Room",
+      "count": 2,
+      "sampleValues": [
+        "Room 1"
+      ]
+    },
+    {
+      "label": "Visit #",
+      "count": 2,
+      "sampleValues": [
+        "156"
+      ]
+    },
+    {
+      "label": "Open Encounter",
+      "count": 2,
+      "sampleValues": [
+        "None"
+      ]
+    },
+    {
+      "label": "Bill",
+      "count": 2,
+      "sampleValues": [
+        "CIGNA"
+      ]
+    },
+    {
+      "label": "Total Charges",
+      "count": 2,
+      "sampleValues": [
+        "$220.00",
+        "$2,545.00"
+      ]
+    },
+    {
+      "label": "Start",
+      "count": 2,
+      "sampleValues": [
+        "16:25",
+        "22:13"
+      ]
+    },
+    {
+      "label": "Last Service",
+      "count": 2,
+      "sampleValues": [
+        "06/08/15",
+        "04/22/13"
+      ]
+    },
+    {
+      "label": "Case Type",
+      "count": 2,
+      "sampleValues": [
+        "Knee",
+        "Worker's Comp"
+      ]
+    },
+    {
+      "label": "Case #",
+      "count": 2,
+      "sampleValues": [
+        "PT001",
+        "S23-608"
+      ]
+    },
+    {
+      "label": "Description",
+      "count": 2,
+      "sampleValues": [
+        "bilateral knee - ACL reconstruction",
+        "Therapeutic exercises"
+      ]
+    },
+    {
+      "label": "Study Quality",
+      "count": 2,
+      "sampleValues": [
+        "Good"
+      ]
+    },
+    {
+      "label": "Bill Type",
+      "count": 2,
+      "sampleValues": [
+        "INSURANCE",
+        "Insurance"
+      ]
+    },
+    {
+      "label": "Appointment Notes",
+      "count": 2,
+      "sampleValues": [
+        "f/u hypertension",
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem"
+      ]
+    },
+    {
+      "label": "Current Station",
+      "count": 2,
+      "sampleValues": [
+        "Exam 1",
+        "Checked In"
+      ]
+    },
+    {
+      "label": "Check In",
+      "count": 2,
+      "sampleValues": [
+        "02:59 PM",
+        "10:12 AM"
+      ]
+    },
+    {
+      "label": "Appt Location",
+      "count": 2,
+      "sampleValues": [
+        "[Medical] Microsys Medical",
+        "[Boardman Medical] Microsys Medical"
+      ]
+    },
+    {
+      "label": "Encounter Status",
+      "count": 2,
+      "sampleValues": [
+        "Unsigned",
+        "Signed"
+      ]
+    },
+    {
+      "label": "Room #",
+      "count": 2,
+      "sampleValues": [
+        "3",
+        "2"
+      ]
+    },
+    {
+      "label": "Episode Status",
+      "count": 2,
+      "sampleValues": [
+        "Provider Assigned 1 day"
+      ]
+    },
+    {
+      "label": "External Episode",
+      "count": 2,
+      "sampleValues": [
+        "21001695"
+      ]
+    },
+    {
+      "label": "Triage Note",
+      "count": 2,
+      "sampleValues": [
+        "chest pain for 3 hours, no relief after taking nitro x1 fifteen minutes prior to arrival"
+      ]
+    },
+    {
+      "label": "Est. Discharge Date",
+      "count": 2,
+      "sampleValues": [
+        "05/15/2025",
+        "2025-05-15"
+      ]
+    },
+    {
+      "label": "Date Filter",
+      "count": 2,
+      "sampleValues": [
+        "Today - 11/15/2016",
+        "4/5/2011"
+      ]
+    },
+    {
+      "label": "Visit Class",
+      "count": 2,
+      "sampleValues": [
+        "Drop-in",
+        "Comprehensive"
+      ]
+    },
+    {
+      "label": "Ward",
+      "count": 2,
+      "sampleValues": [
+        "2 North",
+        "01WARD"
+      ]
+    },
+    {
+      "label": "Plan of Care",
+      "count": 2,
+      "sampleValues": [
+        "Cryotherapy"
+      ]
+    },
+    {
+      "label": "Site",
+      "count": 2,
+      "sampleValues": [
+        "BATTLE CREEK PC",
+        "antecubital left"
+      ]
+    },
+    {
+      "label": "FIN",
+      "count": 2,
+      "sampleValues": [
+        "164"
+      ]
+    },
+    {
+      "label": "Resource",
+      "count": 2,
+      "sampleValues": [
+        "Room 1"
+      ]
+    },
+    {
+      "label": "Appt Time",
+      "count": 2,
+      "sampleValues": [
+        "11:20 AM",
+        "08:00 AM"
+      ]
+    },
+    {
+      "label": "Visit Type",
+      "count": 2,
+      "sampleValues": [
+        "NC",
+        "Long"
+      ]
+    },
+    {
+      "label": "HPI",
+      "count": 2,
+      "sampleValues": [
+        "Red eye with discharge",
+        "Patient continues to make very minimal gains with independence of G-tube management and spit pouch management this is been nicely documented by the nurses who have been involved with teaching although he is overall more participatory at this point he still refuses to participate with fistula back teaching and emptying screen shortly"
+      ]
+    },
+    {
+      "label": "Day of stay",
+      "count": 2,
+      "sampleValues": [
+        "238",
+        "1045"
+      ]
+    },
+    {
+      "label": "Office Location",
+      "count": 2,
+      "sampleValues": [
+        "Great Neck Office",
+        "iPatientCare, Livonia Office"
+      ]
+    },
+    {
+      "label": "Referral",
+      "count": 2,
+      "sampleValues": [
+        "ACTIVE 02/22/2017",
+        "Dr. Durgareddy Kolla"
+      ]
+    },
+    {
+      "label": "From",
+      "count": 2,
+      "sampleValues": [
+        "ADMINISTRATOR [102]",
+        "7/12/2022"
+      ]
+    },
+    {
+      "label": "Last Office Visit",
+      "count": 2,
+      "sampleValues": [
+        "12/05/2009"
+      ]
+    },
+    {
+      "label": "Pharmacy",
+      "count": 2,
+      "sampleValues": [
+        "Shollenberger Pharmacy",
+        "CVS Pharmacy # 2357"
+      ]
+    },
+    {
+      "label": "Visit",
+      "count": 2,
+      "sampleValues": [
+        "Visit Not Selected",
+        "108496"
+      ]
+    },
+    {
+      "label": "Anatomy Location",
+      "count": 2,
+      "sampleValues": [
+        "1st metatarsal phalangeal joint"
+      ]
+    },
+    {
+      "label": "Selected Diagnosis",
+      "count": 2,
+      "sampleValues": [
+        "Fracture - Lateral Malleolus closed [824.2]",
+        "Pneumonia due to Organism Not Otherwise Specified"
+      ]
+    },
+    {
+      "label": "Bed",
+      "count": 2,
+      "sampleValues": [
+        "1EDI 01",
+        "CG R3:B2"
+      ]
+    },
+    {
+      "label": "Service Type",
+      "count": 2,
+      "sampleValues": [
+        "Family Therapy With Client",
+        "Health Benefit Plan Coverage"
+      ]
+    },
+    {
+      "label": "Priority",
+      "count": 2,
+      "sampleValues": [
+        "Urgent"
+      ]
+    },
+    {
+      "label": "Onset",
+      "count": 2,
+      "sampleValues": [
+        "sudden",
+        "09-29-2014"
+      ]
+    },
+    {
+      "label": "Payer Name",
+      "count": 2,
+      "sampleValues": [
+        "ZEBRA HEALTH PLAN",
+        "SECURE HORIZONS"
+      ]
+    },
+    {
+      "label": "Certification Period",
+      "count": 2,
+      "sampleValues": [
+        "28 - 03/01/2014 - 04/29/2014",
+        "1 - 05/08/2019 - 07/06/2019"
+      ]
+    },
+    {
+      "label": "Time Point",
+      "count": 2,
+      "sampleValues": [
+        "Pediatric RECERT",
+        "SOC"
+      ]
+    },
+    {
+      "label": "Billing Status",
+      "count": 2,
+      "sampleValues": [
+        "Final Claim Billed",
+        "Self Pay"
+      ]
+    },
+    {
+      "label": "Visit Number",
+      "count": 2,
+      "sampleValues": [
+        "99",
+        "W-1112"
+      ]
+    },
+    {
+      "label": "Machine #",
+      "count": 2,
+      "sampleValues": [
+        "2"
+      ]
+    },
+    {
+      "label": "Eligibility",
+      "count": 2,
+      "sampleValues": [
+        "Yes"
+      ]
+    },
+    {
+      "label": "End Time",
+      "count": 2,
+      "sampleValues": [
+        "6:00 PM",
+        "08:20 AM"
+      ]
+    },
+    {
+      "label": "Machine Id",
+      "count": 2,
+      "sampleValues": [
+        "D_Varian23EX"
+      ]
+    },
+    {
+      "label": "Fraction No.",
+      "count": 2,
+      "sampleValues": [
+        "10"
+      ]
+    },
+    {
+      "label": "Charting Date",
+      "count": 2,
+      "sampleValues": [
+        "08/29/2019"
+      ]
+    },
+    {
+      "label": "Note ID",
+      "count": 2,
+      "sampleValues": [
+        "PN-000-000-259"
+      ]
+    },
+    {
+      "label": "Progress Note ID",
+      "count": 2,
+      "sampleValues": [
+        "PN-000-000-259"
+      ]
+    },
+    {
+      "label": "Patient Class",
+      "count": 2,
+      "sampleValues": [
+        "Outpatient"
+      ]
+    },
+    {
+      "label": "VN",
+      "count": 2,
+      "sampleValues": [
+        "IP0000002"
+      ]
+    },
+    {
+      "label": "Indications for Examination",
+      "count": 1,
+      "sampleValues": [
+        "FHx of colorectal cancer"
+      ]
+    },
+    {
+      "label": "Procedure Status",
+      "count": 1,
+      "sampleValues": [
+        "Scheduled"
+      ]
+    },
+    {
+      "label": "Procedure Proposed",
+      "count": 1,
+      "sampleValues": [
+        "Colonoscopy"
+      ]
+    },
+    {
+      "label": "First Visit",
+      "count": 1,
+      "sampleValues": [
+        "07/09/2009"
+      ]
+    },
+    {
+      "label": "Claim ID",
+      "count": 1,
+      "sampleValues": [
+        "1915"
+      ]
+    },
+    {
+      "label": "Check No",
+      "count": 1,
+      "sampleValues": [
+        "12345678910102"
+      ]
+    },
+    {
+      "label": "Check Date",
+      "count": 1,
+      "sampleValues": [
+        "08/24/2016"
+      ]
+    },
+    {
+      "label": "Post Date",
+      "count": 1,
+      "sampleValues": [
+        "08/24/2016"
+      ]
+    },
+    {
+      "label": "Waiting room status",
+      "count": 1,
+      "sampleValues": [
+        "Waiting room: Waiting for Trmt"
+      ]
+    },
+    {
+      "label": "IV Access",
+      "count": 1,
+      "sampleValues": [
+        "Jelco 22g"
+      ]
+    },
+    {
+      "label": "Past Encounters Count",
+      "count": 1,
+      "sampleValues": [
+        "2"
+      ]
+    },
+    {
+      "label": "Hover Patient Facility",
+      "count": 1,
+      "sampleValues": [
+        "MedLink2"
+      ]
+    },
+    {
+      "label": "Hover Patient Comments",
+      "count": 1,
+      "sampleValues": [
+        "He's here for a routine follow up."
+      ]
+    },
+    {
+      "label": "Total Area",
+      "count": 1,
+      "sampleValues": [
+        "3.85 cm²"
+      ]
+    },
+    {
+      "label": "Length",
+      "count": 1,
+      "sampleValues": [
+        "2.95 cm"
+      ]
+    },
+    {
+      "label": "Width",
+      "count": 1,
+      "sampleValues": [
+        "1.84 cm"
+      ]
+    },
+    {
+      "label": "Perimeter",
+      "count": 1,
+      "sampleValues": [
+        "8.91 cm"
+      ]
+    },
+    {
+      "label": "LOS",
+      "count": 1,
+      "sampleValues": [
+        "4D"
+      ]
+    },
+    {
+      "label": "Entered",
+      "count": 1,
+      "sampleValues": [
+        "1/12/2016"
+      ]
+    },
+    {
+      "label": "Referral PCP",
+      "count": 1,
+      "sampleValues": [
+        "ALSPAUG, John / BARINGE, Jame"
+      ]
+    },
+    {
+      "label": "Current Encounter ID",
+      "count": 1,
+      "sampleValues": [
+        "213271"
+      ]
+    },
+    {
+      "label": "Current Encounter Facility",
+      "count": 1,
+      "sampleValues": [
+        "CMHC Outpatient - 1..."
+      ]
+    },
+    {
+      "label": "Admission date at Hospital",
+      "count": 1,
+      "sampleValues": [
+        "07/20/2021"
+      ]
+    },
+    {
+      "label": "Discharge date from Hospital",
+      "count": 1,
+      "sampleValues": [
+        "07/23/2021"
+      ]
+    },
+    {
+      "label": "Last FollowUp",
+      "count": 1,
+      "sampleValues": [
+        "04-04-2014"
+      ]
+    },
+    {
+      "label": "Attending Doc",
+      "count": 1,
+      "sampleValues": [
+        "3 not require..."
+      ]
+    },
+    {
+      "label": "Timeslot",
+      "count": 1,
+      "sampleValues": [
+        "09:50"
+      ]
+    },
+    {
+      "label": "Last Seen",
+      "count": 1,
+      "sampleValues": [
+        "2 months 5 days ago (April 14, 1789)"
+      ]
+    },
+    {
+      "label": "Bill ID",
+      "count": 1,
+      "sampleValues": [
+        "360"
+      ]
+    },
+    {
+      "label": "Balance Due",
+      "count": 1,
+      "sampleValues": [
+        "$220.00"
+      ]
+    },
+    {
+      "label": "Last Saved Superbill Date",
+      "count": 1,
+      "sampleValues": [
+        "07/27/09 04:11 PM"
+      ]
+    },
+    {
+      "label": "Event Time",
+      "count": 1,
+      "sampleValues": [
+        "12:00"
+      ]
+    },
+    {
+      "label": "Blood Pressure - Systolic / Diastolic",
+      "count": 1,
+      "sampleValues": [
+        "120/80"
+      ]
+    },
+    {
+      "label": "Blood Pressure Arm",
+      "count": 1,
+      "sampleValues": [
+        "Left"
+      ]
+    },
+    {
+      "label": "Blood Pressure Position",
+      "count": 1,
+      "sampleValues": [
+        "Lying"
+      ]
+    },
+    {
+      "label": "O2 Sat",
+      "count": 1,
+      "sampleValues": [
+        "95"
+      ]
+    },
+    {
+      "label": "Plan",
+      "count": 1,
+      "sampleValues": [
+        "Medicare"
+      ]
+    },
+    {
+      "label": "Policy #",
+      "count": 1,
+      "sampleValues": [
+        "111223333A"
+      ]
+    },
+    {
+      "label": "Co-Pay",
+      "count": 1,
+      "sampleValues": [
+        "20.00"
+      ]
+    },
+    {
+      "label": "Health Maint",
+      "count": 1,
+      "sampleValues": [
+        "07/29/15"
+      ]
+    },
+    {
+      "label": "Meds",
+      "count": 1,
+      "sampleValues": [
+        "07/29/15"
+      ]
+    },
+    {
+      "label": "Chief Complaint(s)",
+      "count": 1,
+      "sampleValues": [
+        "testosterone"
+      ]
+    },
+    {
+      "label": "Location of Treatment",
+      "count": 1,
+      "sampleValues": [
+        "Telehealth"
+      ]
+    },
+    {
+      "label": "Payor",
+      "count": 1,
+      "sampleValues": [
+        "COMM 10015 Aetna"
+      ]
+    },
+    {
+      "label": "Sx Date",
+      "count": 1,
+      "sampleValues": [
+        "12-06-12"
+      ]
+    },
+    {
+      "label": "DOI",
+      "count": 1,
+      "sampleValues": [
+        "12-06-12"
+      ]
+    },
+    {
+      "label": "POC From",
+      "count": 1,
+      "sampleValues": [
+        "12-15-12"
+      ]
+    },
+    {
+      "label": "POC To",
+      "count": 1,
+      "sampleValues": [
+        "02-14-13"
+      ]
+    },
+    {
+      "label": "SOC",
+      "count": 1,
+      "sampleValues": [
+        "12-15-12"
+      ]
+    },
+    {
+      "label": "Encounter",
+      "count": 1,
+      "sampleValues": [
+        "301207"
+      ]
+    },
+    {
+      "label": "T.Charges",
+      "count": 1,
+      "sampleValues": [
+        "$ 1105.00"
+      ]
+    },
+    {
+      "label": "Control #",
+      "count": 1,
+      "sampleValues": [
+        "08172247324"
+      ]
+    },
+    {
+      "label": "Ins. Case",
+      "count": 1,
+      "sampleValues": [
+        "Self Pay"
+      ]
+    },
+    {
+      "label": "Pachy OD",
+      "count": 1,
+      "sampleValues": [
+        "562"
+      ]
+    },
+    {
+      "label": "Pachy OS",
+      "count": 1,
+      "sampleValues": [
+        "588"
+      ]
+    },
+    {
+      "label": "Dilation",
+      "count": 1,
+      "sampleValues": [
+        "03-20-14"
+      ]
+    },
+    {
+      "label": "Referral Type",
+      "count": 1,
+      "sampleValues": [
+        "Unassigned"
+      ]
+    },
+    {
+      "label": "Billing Facility",
+      "count": 1,
+      "sampleValues": [
+        "Facility X"
+      ]
+    },
+    {
+      "label": "History of Present Illness",
+      "count": 1,
+      "sampleValues": [
+        "This is a 39 year old male with past medical history of long standing diabetes and hypertension. Patient has been experiencing non-exertional chest discomfort of three weeks duration. Chest pain is associated with shortness of breath and palpitations. Patient has experienced similar symptoms two years ago, reportedly all cardiac work-up was negative at that time."
+      ]
+    },
+    {
+      "label": "SSS",
+      "count": 1,
+      "sampleValues": [
+        "10"
+      ]
+    },
+    {
+      "label": "SRS",
+      "count": 1,
+      "sampleValues": [
+        "0"
+      ]
+    },
+    {
+      "label": "Technologist",
+      "count": 1,
+      "sampleValues": [
+        "Test, Technologist"
+      ]
+    },
+    {
+      "label": "ASA Class",
+      "count": 1,
+      "sampleValues": [
+        "P1 - 01/08/2021 10:51 AM"
+      ]
+    },
+    {
+      "label": "Administered Medications",
+      "count": 1,
+      "sampleValues": [
+        "Fentanyl 50 mcg IV"
+      ]
+    },
+    {
+      "label": "Collected On Time",
+      "count": 1,
+      "sampleValues": [
+        "10:42 am"
+      ]
+    },
+    {
+      "label": "Findings Selected",
+      "count": 1,
+      "sampleValues": [
+        "Granularity"
+      ]
+    },
+    {
+      "label": "Instrument",
+      "count": 1,
+      "sampleValues": [
+        "EC-250 HLS - C1(1C297A158)"
+      ]
+    },
+    {
+      "label": "Select Facility",
+      "count": 1,
+      "sampleValues": [
+        "River Oaks East"
+      ]
+    },
+    {
+      "label": "Available Appointments",
+      "count": 1,
+      "sampleValues": [
+        "08/03/2011 4:30 PM"
+      ]
+    },
+    {
+      "label": "Payment Date",
+      "count": 1,
+      "sampleValues": [
+        "8/3/2011"
+      ]
+    },
+    {
+      "label": "Start Date",
+      "count": 1,
+      "sampleValues": [
+        "05/06/2024"
+      ]
+    },
+    {
+      "label": "End Date",
+      "count": 1,
+      "sampleValues": [
+        "10/25/2024"
+      ]
+    },
+    {
+      "label": "ONC DIAGNOSIS",
+      "count": 1,
+      "sampleValues": [
+        "Breast Cancer"
+      ]
+    },
+    {
+      "label": "CYCLE NUMBER",
+      "count": 1,
+      "sampleValues": [
+        "4 of 4"
+      ]
+    },
+    {
+      "label": "NEXT ADMIN",
+      "count": 1,
+      "sampleValues": [
+        "Today"
+      ]
+    },
+    {
+      "label": "New Results",
+      "count": 1,
+      "sampleValues": [
+        "Hematology"
+      ]
+    },
+    {
+      "label": "Coll",
+      "count": 1,
+      "sampleValues": [
+        "Today"
+      ]
+    },
+    {
+      "label": "Recv",
+      "count": 1,
+      "sampleValues": [
+        "Today"
+      ]
+    },
+    {
+      "label": "Acc#",
+      "count": 1,
+      "sampleValues": [
+        "EB0000035478"
+      ]
+    },
+    {
+      "label": "Code Status",
+      "count": 1,
+      "sampleValues": [
+        "Full Code"
+      ]
+    },
+    {
+      "label": "Sched Surg",
+      "count": 1,
+      "sampleValues": [
+        "05/04/20"
+      ]
+    },
+    {
+      "label": "Selected Joint",
+      "count": 1,
+      "sampleValues": [
+        "Right Knee"
+      ]
+    },
+    {
+      "label": "Create Date",
+      "count": 1,
+      "sampleValues": [
+        "9/30/2020"
+      ]
+    },
+    {
+      "label": "Appointment Reason",
+      "count": 1,
+      "sampleValues": [
+        "ESTABLISHED PATIENT"
+      ]
+    },
+    {
+      "label": "Category",
+      "count": 1,
+      "sampleValues": [
+        "Counseling"
+      ]
+    },
+    {
+      "label": "Assess Date",
+      "count": 1,
+      "sampleValues": [
+        "06/15/2015"
+      ]
+    },
+    {
+      "label": "In",
+      "count": 1,
+      "sampleValues": [
+        "1:52 PM"
+      ]
+    },
+    {
+      "label": "Out",
+      "count": 1,
+      "sampleValues": [
+        "2:22 PM"
+      ]
+    },
+    {
+      "label": "Visit Note Code",
+      "count": 1,
+      "sampleValues": [
+        "MC425"
+      ]
+    },
+    {
+      "label": "Latest Visit Date",
+      "count": 1,
+      "sampleValues": [
+        "09/16/2019"
+      ]
+    },
+    {
+      "label": "Last reviewed by",
+      "count": 1,
+      "sampleValues": [
+        "Milan Anderson, MD [9/19/2017 9:28 am]"
+      ]
+    },
+    {
+      "label": "Selected Impression",
+      "count": 1,
+      "sampleValues": [
+        "Acrodermatitis Continua of Hallopeau"
+      ]
+    },
+    {
+      "label": "Custom Morphology",
+      "count": 1,
+      "sampleValues": [
+        "coalescent pustules with erythema and nail dystrophy *"
+      ]
+    },
+    {
+      "label": "Diagnosis / Plan Focus",
+      "count": 1,
+      "sampleValues": [
+        "Shoulder Impingement"
+      ]
+    },
+    {
+      "label": "Exams Status",
+      "count": 1,
+      "sampleValues": [
+        "No Exams Documented"
+      ]
+    },
+    {
+      "label": "Encounter Time",
+      "count": 1,
+      "sampleValues": [
+        "15:30:02"
+      ]
+    },
+    {
+      "label": "Pt Complaint",
+      "count": 1,
+      "sampleValues": [
+        "annual exam"
+      ]
+    },
+    {
+      "label": "Last Annual Visit",
+      "count": 1,
+      "sampleValues": [
+        "10/01/2017 | MS | CCE"
+      ]
+    },
+    {
+      "label": "Last Event",
+      "count": 1,
+      "sampleValues": [
+        "12/15/2017 | MS | CL"
+      ]
+    },
+    {
+      "label": "Total Patients with Encounters",
+      "count": 1,
+      "sampleValues": [
+        "38 Total Number of Patients with Encounters"
+      ]
+    },
+    {
+      "label": "Height",
+      "count": 1,
+      "sampleValues": [
+        "5' 9\""
+      ]
+    },
+    {
+      "label": "Finding Code",
+      "count": 1,
+      "sampleValues": [
+        "H02.52"
+      ]
+    },
+    {
+      "label": "Severity",
+      "count": 1,
+      "sampleValues": [
+        "Mild"
+      ]
+    },
+    {
+      "label": "Type",
+      "count": 1,
+      "sampleValues": [
+        "Diagnosis"
+      ]
+    },
+    {
+      "label": "Selected Eye Annotation Condition",
+      "count": 1,
+      "sampleValues": [
+        "Blepharophimosis"
+      ]
+    },
+    {
+      "label": "Enc#",
+      "count": 1,
+      "sampleValues": [
+        "93251"
+      ]
+    },
+    {
+      "label": "Comments",
+      "count": 1,
+      "sampleValues": [
+        "normal cavity, normal tubes"
+      ]
+    },
+    {
+      "label": "Radiologist Findings",
+      "count": 1,
+      "sampleValues": [
+        "U/S\nuterus normal endometrium normal\novaries normal dominant follicle 1.4 cm\nSono\nnormal uterine cavity\nbilateral spill normal sono"
+      ]
+    },
+    {
+      "label": "Preferred Date From",
+      "count": 1,
+      "sampleValues": [
+        "10/14/2020"
+      ]
+    },
+    {
+      "label": "Preferred Date To",
+      "count": 1,
+      "sampleValues": [
+        "10/28/2020"
+      ]
+    },
+    {
+      "label": "Onset Date",
+      "count": 1,
+      "sampleValues": [
+        "Sun, Sep 29, 2019"
+      ]
+    },
+    {
+      "label": "Triage Notes",
+      "count": 1,
+      "sampleValues": [
+        "Patient complaints of a sore throat"
+      ]
+    },
+    {
+      "label": "Onset (Duration) Date",
+      "count": 1,
+      "sampleValues": [
+        "Sun, Sep 29, 2019"
+      ]
+    },
+    {
+      "label": "E/M Code",
+      "count": 1,
+      "sampleValues": [
+        "99024"
+      ]
+    },
+    {
+      "label": "Tracking Board Date",
+      "count": 1,
+      "sampleValues": [
+        "10/1/2019"
+      ]
+    },
+    {
+      "label": "Diagnoses",
+      "count": 1,
+      "sampleValues": [
+        "F33.1 Depression, recurrent, moderate"
+      ]
+    },
+    {
+      "label": "Primary Insurance Payer",
+      "count": 1,
+      "sampleValues": [
+        "1199 NATIONAL BENEFIT FUND -1234"
+      ]
+    },
+    {
+      "label": "Secondary Insurance Payer",
+      "count": 1,
+      "sampleValues": [
+        "21ST CENTURY INSURANCE AND FINANCIAL SERVICES"
+      ]
+    },
+    {
+      "label": "Unsigned Encounters Count",
+      "count": 1,
+      "sampleValues": [
+        "6"
+      ]
+    },
+    {
+      "label": "Previous Appointment Location",
+      "count": 1,
+      "sampleValues": [
+        "Naples"
+      ]
+    },
+    {
+      "label": "Room Name",
+      "count": 1,
+      "sampleValues": [
+        "Location"
+      ]
+    },
+    {
+      "label": "Location Name",
+      "count": 1,
+      "sampleValues": [
+        "Naples"
+      ]
+    },
+    {
+      "label": "Next Appt.",
+      "count": 1,
+      "sampleValues": [
+        "No Appointment"
+      ]
+    },
+    {
+      "label": "Bill #",
+      "count": 1,
+      "sampleValues": [
+        "385"
+      ]
+    },
+    {
+      "label": "TOS",
+      "count": 1,
+      "sampleValues": [
+        "Default From Procedure"
+      ]
+    },
+    {
+      "label": "Collection Date & Time",
+      "count": 1,
+      "sampleValues": [
+        "10/29/2018 12:58 PM"
+      ]
+    },
+    {
+      "label": "Log-In Date & Time",
+      "count": 1,
+      "sampleValues": [
+        "10/29/2018 10:39 PM"
+      ]
+    },
+    {
+      "label": "Report Date & Time",
+      "count": 1,
+      "sampleValues": [
+        "10/30/2018 10:15 AM"
+      ]
+    },
+    {
+      "label": "Chief Complaints",
+      "count": 1,
+      "sampleValues": [
+        "diabetes, sinus pain"
+      ]
+    },
+    {
+      "label": "Habitus",
+      "count": 1,
+      "sampleValues": [
+        "Obese"
+      ]
+    },
+    {
+      "label": "Health",
+      "count": 1,
+      "sampleValues": [
+        "Well-appearing"
+      ]
+    },
+    {
+      "label": "Hydration",
+      "count": 1,
+      "sampleValues": [
+        "Well hydrated"
+      ]
+    },
+    {
+      "label": "Treatment Plan",
+      "count": 1,
+      "sampleValues": [
+        "Type: Basic Treatment Plan | Status: Active | Start Date: 2018-07-02 | End Date: 2019-07-01"
+      ]
+    },
+    {
+      "label": "Bill Primary",
+      "count": 1,
+      "sampleValues": [
+        "MEDICARE MA"
+      ]
+    },
+    {
+      "label": "Last Note Details",
+      "count": 1,
+      "sampleValues": [
+        "Internist, Igor, DOS: 04/30/2017, Signed: Apr 30 2017"
+      ]
+    },
+    {
+      "label": "Decision Complexity",
+      "count": 1,
+      "sampleValues": [
+        "Straightforward"
+      ]
+    },
+    {
+      "label": "Bill Code",
+      "count": 1,
+      "sampleValues": [
+        "721594"
+      ]
+    },
+    {
+      "label": "DOS",
+      "count": 1,
+      "sampleValues": [
+        "2/15/2017"
+      ]
+    },
+    {
+      "label": "Bill Status",
+      "count": 1,
+      "sampleValues": [
+        "Send to payer: MEDICARE MA (Primary)"
+      ]
+    },
+    {
+      "label": "All Claims Total Due",
+      "count": 1,
+      "sampleValues": [
+        "$230.00"
+      ]
+    },
+    {
+      "label": "Room Bed",
+      "count": 1,
+      "sampleValues": [
+        "202-A"
+      ]
+    },
+    {
+      "label": "Appointment length",
+      "count": 1,
+      "sampleValues": [
+        "10"
+      ]
+    },
+    {
+      "label": "Selected Impression 1",
+      "count": 1,
+      "sampleValues": [
+        "Actinic Keratosis"
+      ]
+    },
+    {
+      "label": "Selected Impression 2",
+      "count": 1,
+      "sampleValues": [
+        "Neoplasm of Uncertain Behavior"
+      ]
+    },
+    {
+      "label": "Selected Impression 3",
+      "count": 1,
+      "sampleValues": [
+        "Seborrheic Keratosis"
+      ]
+    },
+    {
+      "label": "Visit ID#",
+      "count": 1,
+      "sampleValues": [
+        "138"
+      ]
+    },
+    {
+      "label": "Fee (CAD)",
+      "count": 1,
+      "sampleValues": [
+        "30"
+      ]
+    },
+    {
+      "label": "Total Patients",
+      "count": 1,
+      "sampleValues": [
+        "120"
+      ]
+    },
+    {
+      "label": "Total ED Visits",
+      "count": 1,
+      "sampleValues": [
+        "16"
+      ]
+    },
+    {
+      "label": "Total IP Visits",
+      "count": 1,
+      "sampleValues": [
+        "199"
+      ]
+    },
+    {
+      "label": "Total OP Visits",
+      "count": 1,
+      "sampleValues": [
+        "360"
+      ]
+    },
+    {
+      "label": "Total Discharges",
+      "count": 1,
+      "sampleValues": [
+        "120"
+      ]
+    },
+    {
+      "label": "Encounter From Date",
+      "count": 1,
+      "sampleValues": [
+        "02/28/2009"
+      ]
+    },
+    {
+      "label": "History of Illness",
+      "count": 1,
+      "sampleValues": [
+        "Stage IV poorly differentiated adenocarcinoma esophageal cancer - DX 2017\n40 lb. weight loss in 6 months. Port-a-cath and PEG tube placed Dec. 2017\nChemotherapy + radiotherapy - 2018\nSurgery - Feb. 2018\nOct. 2019 disease progression to L) lower lobe and r) middle lobe lung, liver\nCommenced 2nd line chemotherapy"
+      ]
+    },
+    {
+      "label": "Visit Location",
+      "count": 1,
+      "sampleValues": [
+        "Skilled Nursing Facility"
+      ]
+    },
+    {
+      "label": "Risk Score",
+      "count": 1,
+      "sampleValues": [
+        "0.094"
+      ]
+    },
+    {
+      "label": "Coverage",
+      "count": 1,
+      "sampleValues": [
+        "Caremark 00511"
+      ]
+    },
+    {
+      "label": "TIME OF VISIT",
+      "count": 1,
+      "sampleValues": [
+        "12:29"
+      ]
+    },
+    {
+      "label": "Billing Profile",
+      "count": 1,
+      "sampleValues": [
+        "Skin Biopsy"
+      ]
+    },
+    {
+      "label": "ICD Version",
+      "count": 1,
+      "sampleValues": [
+        "ICD-10"
+      ]
+    },
+    {
+      "label": "Claim Type",
+      "count": 1,
+      "sampleValues": [
+        "Default"
+      ]
+    },
+    {
+      "label": "Order date",
+      "count": 1,
+      "sampleValues": [
+        "Sep 25, 2023"
+      ]
+    },
+    {
+      "label": "Target Timing",
+      "count": 1,
+      "sampleValues": [
+        "1 week"
+      ]
+    },
+    {
+      "label": "Visits Today Total",
+      "count": 1,
+      "sampleValues": [
+        "20"
+      ]
+    },
+    {
+      "label": "Visits Today % of Day",
+      "count": 1,
+      "sampleValues": [
+        "80%"
+      ]
+    },
+    {
+      "label": "Well Child Visit Type Percentage",
+      "count": 1,
+      "sampleValues": [
+        "50%"
+      ]
+    },
+    {
+      "label": "E&M Visit Type Percentage",
+      "count": 1,
+      "sampleValues": [
+        "30%"
+      ]
+    },
+    {
+      "label": "Other Visit Type Percentage",
+      "count": 1,
+      "sampleValues": [
+        "20%"
+      ]
+    },
+    {
+      "label": "Session Duration (mins)",
+      "count": 1,
+      "sampleValues": [
+        "60"
+      ]
+    },
+    {
+      "label": "Chief Complaints Text",
+      "count": 1,
+      "sampleValues": [
+        "Shivers, chills, fever"
+      ]
+    },
+    {
+      "label": "Queja Principal",
+      "count": 1,
+      "sampleValues": [
+        "Dolor Abdominal Agudo"
+      ]
+    },
+    {
+      "label": "Registro F/H",
+      "count": 1,
+      "sampleValues": [
+        "04/23/2019 4:58:19 PM"
+      ]
+    },
+    {
+      "label": "Loc./Visit",
+      "count": 1,
+      "sampleValues": [
+        "/ 20916"
+      ]
+    },
+    {
+      "label": "Last WCC Vitals Date",
+      "count": 1,
+      "sampleValues": [
+        "04/02/2018"
+      ]
+    },
+    {
+      "label": "Arrived",
+      "count": 1,
+      "sampleValues": [
+        "08/24/2020 11:15 AM"
+      ]
+    },
+    {
+      "label": "Registered",
+      "count": 1,
+      "sampleValues": [
+        "08/24/2020 11:17 AM"
+      ]
+    },
+    {
+      "label": "Temp",
+      "count": 1,
+      "sampleValues": [
+        "97.4"
+      ]
+    },
+    {
+      "label": "No Show Count",
+      "count": 1,
+      "sampleValues": [
+        "0"
+      ]
+    },
+    {
+      "label": "Program",
+      "count": 1,
+      "sampleValues": [
+        "MENTAL HEALTH"
+      ]
+    },
+    {
+      "label": "Arrival Time",
+      "count": 1,
+      "sampleValues": [
+        "12:00"
+      ]
+    },
+    {
+      "label": "Encounter Location",
+      "count": 1,
+      "sampleValues": [
+        "DEMO HOSPITAL"
+      ]
+    },
+    {
+      "label": "Appointment or Walk-In",
+      "count": 1,
+      "sampleValues": [
+        "APPOINTMENT"
+      ]
+    },
+    {
+      "label": "Community of Service",
+      "count": 1,
+      "sampleValues": [
+        "TUBA CITY"
+      ]
+    },
+    {
+      "label": "Self Destructive Act",
+      "count": 1,
+      "sampleValues": [
+        "ATTEMPT"
+      ]
+    },
+    {
+      "label": "Previous Attempts",
+      "count": 1,
+      "sampleValues": [
+        "1"
+      ]
+    },
+    {
+      "label": "Location of Act",
+      "count": 1,
+      "sampleValues": [
+        "HOME OR VICINITY"
+      ]
+    },
+    {
+      "label": "Lethality",
+      "count": 1,
+      "sampleValues": [
+        "MEDIUM"
+      ]
+    },
+    {
+      "label": "Disposition",
+      "count": 1,
+      "sampleValues": [
+        "IN-PATIENT MENTAL HEALTH TREATMENT (VOLUNTARY)"
+      ]
+    },
+    {
+      "label": "Hospice",
+      "count": 1,
+      "sampleValues": [
+        "no"
+      ]
+    },
+    {
+      "label": "Registration Date",
+      "count": 1,
+      "sampleValues": [
+        "09/24/2014"
+      ]
+    },
+    {
+      "label": "Reason for Visit Selector",
+      "count": 1,
+      "sampleValues": [
+        "DFU"
+      ]
+    },
+    {
+      "label": "As of",
+      "count": 1,
+      "sampleValues": [
+        "6/12/2018 18:59"
+      ]
+    },
+    {
+      "label": "Facility/Unit",
+      "count": 1,
+      "sampleValues": [
+        "County Medical Center: ICU-CMC"
+      ]
+    },
+    {
+      "label": "Room Number",
+      "count": 1,
+      "sampleValues": [
+        "Exam Room 2"
+      ]
+    },
+    {
+      "label": "Participant",
+      "count": 1,
+      "sampleValues": [
+        "Ted (Partner)"
+      ]
+    },
+    {
+      "label": "NOV",
+      "count": 1,
+      "sampleValues": [
+        "NEW PATIENT"
+      ]
+    },
+    {
+      "label": "Ins",
+      "count": 1,
+      "sampleValues": [
+        "26 Cigna Healthcare"
+      ]
+    },
+    {
+      "label": "Lab Req#",
+      "count": 1,
+      "sampleValues": [
+        "3598"
+      ]
+    },
+    {
+      "label": "Referral #",
+      "count": 1,
+      "sampleValues": [
+        "321321321321"
+      ]
+    },
+    {
+      "label": "Effective",
+      "count": 1,
+      "sampleValues": [
+        "06/21/2000"
+      ]
+    },
+    {
+      "label": "Exp",
+      "count": 1,
+      "sampleValues": [
+        "06/21/2001"
+      ]
+    },
+    {
+      "label": "Discipline Date",
+      "count": 1,
+      "sampleValues": [
+        "02/10/2016"
+      ]
+    },
+    {
+      "label": "Desc",
+      "count": 1,
+      "sampleValues": [
+        "Discipline, Broken Arm"
+      ]
+    },
+    {
+      "label": "Authorization",
+      "count": 1,
+      "sampleValues": [
+        "EXPIRED 02/01/2017"
+      ]
+    },
+    {
+      "label": "Total Time",
+      "count": 1,
+      "sampleValues": [
+        "00:00"
+      ]
+    },
+    {
+      "label": "Risk of complications",
+      "count": 1,
+      "sampleValues": [
+        "Not assessed"
+      ]
+    },
+    {
+      "label": "ClaimDate",
+      "count": 1,
+      "sampleValues": [
+        "02/15/2012"
+      ]
+    },
+    {
+      "label": "ICD",
+      "count": 1,
+      "sampleValues": [
+        "789.09/789.00"
+      ]
+    },
+    {
+      "label": "Line of therapy",
+      "count": 1,
+      "sampleValues": [
+        "Third line"
+      ]
+    },
+    {
+      "label": "Tx Location",
+      "count": 1,
+      "sampleValues": [
+        "Los Altos Office"
+      ]
+    },
+    {
+      "label": "Reason (ICD)",
+      "count": 1,
+      "sampleValues": [
+        "174.8: Malign Neopl Breast, other specified site/contig/overlap"
+      ]
+    },
+    {
+      "label": "Visit Description",
+      "count": 1,
+      "sampleValues": [
+        "Addendum test"
+      ]
+    },
+    {
+      "label": "Diagnosis Description",
+      "count": 1,
+      "sampleValues": [
+        "COMBINED FORMS OF AGE-RELATED CATARACT, BIL"
+      ]
+    },
+    {
+      "label": "Note Type",
+      "count": 1,
+      "sampleValues": [
+        "SOAP Note"
+      ]
+    },
+    {
+      "label": "Topic",
+      "count": 1,
+      "sampleValues": [
+        "Annual Physical"
+      ]
+    },
+    {
+      "label": "Court Ordered Counseling?",
+      "count": 1,
+      "sampleValues": [
+        "No"
+      ]
+    },
+    {
+      "label": "Charge Amt",
+      "count": 1,
+      "sampleValues": [
+        "$2,602.00"
+      ]
+    },
+    {
+      "label": "Appointment type",
+      "count": 1,
+      "sampleValues": [
+        "New Patient Visit"
+      ]
+    },
+    {
+      "label": "Time of call",
+      "count": 1,
+      "sampleValues": [
+        "12/31/2015 08:59 AM"
+      ]
+    },
+    {
+      "label": "Triage Message",
+      "count": 1,
+      "sampleValues": [
+        "Mom called. Ron has fainted at a school assembly. Doing OK now."
+      ]
+    },
+    {
+      "label": "Rx Worn",
+      "count": 1,
+      "sampleValues": [
+        "Habitual Glasses"
+      ]
+    },
+    {
+      "label": "VA Method",
+      "count": 1,
+      "sampleValues": [
+        "Snellen"
+      ]
+    },
+    {
+      "label": "Last Exam Date",
+      "count": 1,
+      "sampleValues": [
+        "05/25/2023"
+      ]
+    },
+    {
+      "label": "Last Exam Type",
+      "count": 1,
+      "sampleValues": [
+        "Comprehensive Encounter"
+      ]
+    },
+    {
+      "label": "Next Appointment Type",
+      "count": 1,
+      "sampleValues": [
+        "Contact Lens Evaluation"
+      ]
+    },
+    {
+      "label": "Health Plan",
+      "count": 1,
+      "sampleValues": [
+        "Asuris Medicare Script Basic:"
+      ]
+    },
+    {
+      "label": "Admitted",
+      "count": 1,
+      "sampleValues": [
+        "7/26/2006 1:59:57 PM"
+      ]
+    },
+    {
+      "label": "Provisional Diagnosis",
+      "count": 1,
+      "sampleValues": [
+        "Angina Pectoris (413.9)"
+      ]
+    },
+    {
+      "label": "Reason For Request",
+      "count": 1,
+      "sampleValues": [
+        "Pt experiencing sever chest pains."
+      ]
+    },
+    {
+      "label": "Selected Date Filter",
+      "count": 1,
+      "sampleValues": [
+        "09-29-2023"
+      ]
+    },
+    {
+      "label": "Case History Tab",
+      "count": 1,
+      "sampleValues": [
+        "Case History"
+      ]
+    },
+    {
+      "label": "Consultation Tab",
+      "count": 1,
+      "sampleValues": [
+        "Consultation"
+      ]
+    },
+    {
+      "label": "Admitting Diagnosis",
+      "count": 1,
+      "sampleValues": [
+        "ACUTE PNEUMONIA"
+      ]
+    },
+    {
+      "label": "Report Date",
+      "count": 1,
+      "sampleValues": [
+        "Sun Feb 10, 2013"
+      ]
+    },
+    {
+      "label": "Anatomy Location Details",
+      "count": 1,
+      "sampleValues": [
+        "dorsal-medial aspect of the right 1st metatarsal phalangeal joint"
+      ]
+    },
+    {
+      "label": "Anatomy Description",
+      "count": 1,
+      "sampleValues": [
+        "dorsal-medial aspect of the right 1st metatarsal phalangeal joint"
+      ]
+    },
+    {
+      "label": "Assessment/Problem",
+      "count": 1,
+      "sampleValues": [
+        "I4820, Chronic atrial fibrillation, unspecified"
+      ]
+    },
+    {
+      "label": "Body Diagram Annotation",
+      "count": 1,
+      "sampleValues": [
+        "low back pain"
+      ]
+    },
+    {
+      "label": "Time In",
+      "count": 1,
+      "sampleValues": [
+        "10:43 AM"
+      ]
+    },
+    {
+      "label": "Pri. Dx",
+      "count": 1,
+      "sampleValues": [
+        "M17.12"
+      ]
+    },
+    {
+      "label": "Pharmacy Phone",
+      "count": 1,
+      "sampleValues": [
+        "(804) 896-3675"
+      ]
+    },
+    {
+      "label": "Medical Category",
+      "count": 1,
+      "sampleValues": [
+        "Bundled Payment Program"
+      ]
+    },
+    {
+      "label": "Incarceration Period",
+      "count": 1,
+      "sampleValues": [
+        "08/25/2006 - 07/23/2020"
+      ]
+    },
+    {
+      "label": "Planned Discharge",
+      "count": 1,
+      "sampleValues": [
+        "12/02/2016"
+      ]
+    },
+    {
+      "label": "Reason for encounter",
+      "count": 1,
+      "sampleValues": [
+        "None"
+      ]
+    },
+    {
+      "label": "Latest Enc Vitals",
+      "count": 1,
+      "sampleValues": [
+        "Ht/Wt 5' 5\" 149 Lbs\nBP 130 / 80"
+      ]
+    },
+    {
+      "label": "Origin",
+      "count": 1,
+      "sampleValues": [
+        "Medical Questionnaire"
+      ]
+    },
+    {
+      "label": "Treatment Intent",
+      "count": 1,
+      "sampleValues": [
+        "Adjuvant"
+      ]
+    },
+    {
+      "label": "Session Duration",
+      "count": 1,
+      "sampleValues": [
+        "45"
+      ]
+    },
+    {
+      "label": "Financial Class",
+      "count": 1,
+      "sampleValues": [
+        "BLUECROSS"
+      ]
+    },
+    {
+      "label": "Copay Status",
+      "count": 1,
+      "sampleValues": [
+        "PATIENT HAS COPAY"
+      ]
+    },
+    {
+      "label": "Modality",
+      "count": 1,
+      "sampleValues": [
+        "MRI"
+      ]
+    },
+    {
+      "label": "Collection D&T",
+      "count": 1,
+      "sampleValues": [
+        "08/05/2020 13:37"
+      ]
+    },
+    {
+      "label": "Clinic Location",
+      "count": 1,
+      "sampleValues": [
+        "ACME Plastic Surgery: 123 Main Street"
+      ]
+    },
+    {
+      "label": "ER-Current Count",
+      "count": 1,
+      "sampleValues": [
+        "2165"
+      ]
+    },
+    {
+      "label": "Bed Allocated Count",
+      "count": 1,
+      "sampleValues": [
+        "30"
+      ]
+    },
+    {
+      "label": "Waiting List Patient Count",
+      "count": 1,
+      "sampleValues": [
+        "2"
+      ]
+    },
+    {
+      "label": "Disposition Count",
+      "count": 1,
+      "sampleValues": [
+        "26"
+      ]
+    },
+    {
+      "label": "Patient status & location",
+      "count": 1,
+      "sampleValues": [
+        "ready for staff"
+      ]
+    },
+    {
+      "label": "Intake status",
+      "count": 1,
+      "sampleValues": [
+        "Done with Intake"
+      ]
+    },
+    {
+      "label": "Patient location",
+      "count": 1,
+      "sampleValues": [
+        "Exam 1"
+      ]
+    },
+    {
+      "label": "Workflow Stage",
+      "count": 1,
+      "sampleValues": [
+        "Done with Intake"
+      ]
+    },
+    {
+      "label": "Office",
+      "count": 1,
+      "sampleValues": [
+        "Office 55"
+      ]
+    },
+    {
+      "label": "Injury Date",
+      "count": 1,
+      "sampleValues": [
+        "05/23/2018"
+      ]
+    },
+    {
+      "label": "Exam Reason (CC)",
+      "count": 1,
+      "sampleValues": [
+        "F/U DM"
+      ]
+    },
+    {
+      "label": "New Patient Date",
+      "count": 1,
+      "sampleValues": [
+        "8/8/2016"
+      ]
+    },
+    {
+      "label": "Initial Visit",
+      "count": 1,
+      "sampleValues": [
+        "8/17/2016"
+      ]
+    },
+    {
+      "label": "Introduction",
+      "count": 1,
+      "sampleValues": [
+        "This 49 year old female presents for UTI."
+      ]
+    },
+    {
+      "label": "Primary Pharm",
+      "count": 1,
+      "sampleValues": [
+        "VENICE FAMILY CLINIC"
+      ]
+    },
+    {
+      "label": "EDD",
+      "count": 1,
+      "sampleValues": [
+        "09/21/2020"
+      ]
+    },
+    {
+      "label": "GA",
+      "count": 1,
+      "sampleValues": [
+        "6 (Wks) 9 (Days)"
+      ]
+    },
+    {
+      "label": "Risk Assessment",
+      "count": 1,
+      "sampleValues": [
+        "High Risk"
+      ]
+    },
+    {
+      "label": "STICKY NOTES",
+      "count": 1,
+      "sampleValues": [
+        "Give Rhogham at 28 weeks"
+      ]
+    },
+    {
+      "label": "CCMR Program",
+      "count": 1,
+      "sampleValues": [
+        "Healthy Lifestyles"
+      ]
+    },
+    {
+      "label": "CCMR Practice",
+      "count": 1,
+      "sampleValues": [
+        "KR nursing home"
+      ]
+    },
+    {
+      "label": "Month",
+      "count": 1,
+      "sampleValues": [
+        "Sep-2021"
+      ]
+    },
+    {
+      "label": "Auto-saved",
+      "count": 1,
+      "sampleValues": [
+        "3/17/2026, 12:03:19 PM"
+      ]
+    },
+    {
+      "label": "Billing Code",
+      "count": 1,
+      "sampleValues": [
+        "(90791)Diagnostic Eval 100.00/hr N/A-1090"
+      ]
+    },
+    {
+      "label": "Subjective Complaint",
+      "count": 1,
+      "sampleValues": [
+        "Client reports feeling increasingly overwhelmed and anxious, particularly related to work deadlines and family responsibilities."
+      ]
+    },
+    {
+      "label": "Scope In",
+      "count": 1,
+      "sampleValues": [
+        "07:10 AM"
+      ]
+    },
+    {
+      "label": "Cecum Intubation",
+      "count": 1,
+      "sampleValues": [
+        "07:15 AM"
+      ]
+    },
+    {
+      "label": "Scope Out",
+      "count": 1,
+      "sampleValues": [
+        "07:21 AM"
+      ]
+    },
+    {
+      "label": "Procedure Type",
+      "count": 1,
+      "sampleValues": [
+        "Lower GI"
+      ]
+    },
+    {
+      "label": "Case Title",
+      "count": 1,
+      "sampleValues": [
+        "WC 09-512"
+      ]
+    },
+    {
+      "label": "Case Number",
+      "count": 1,
+      "sampleValues": [
+        "HI-00002-05242007-581"
+      ]
+    },
+    {
+      "label": "Diagnosis 1",
+      "count": 1,
+      "sampleValues": [
+        "724.4 Lumbosacral neuritis unspec"
+      ]
+    },
+    {
+      "label": "Diagnosis 2",
+      "count": 1,
+      "sampleValues": [
+        "721.2 Thoracic spondylosis"
+      ]
+    },
+    {
+      "label": "Patient payment",
+      "count": 1,
+      "sampleValues": [
+        "$20.00"
+      ]
+    },
+    {
+      "label": "Nurse Functions",
+      "count": 1,
+      "sampleValues": [
+        "Incomplete"
+      ]
+    },
+    {
+      "label": "Visit Selection",
+      "count": 1,
+      "sampleValues": [
+        "1/9/2013 08:00AM-08:15AM-JAilian"
+      ]
+    },
+    {
+      "label": "Unit / Room #",
+      "count": 1,
+      "sampleValues": [
+        "East-202"
+      ]
+    },
+    {
+      "label": "Unit - Room",
+      "count": 1,
+      "sampleValues": [
+        "132-12"
+      ]
+    },
+    {
+      "label": "ROS",
+      "count": 1,
+      "sampleValues": [
+        "The following system review was negative: Constitutional;Respiratory;Cardiovascular;Genitourinary;Gastro-intestinal;Psychiatric;Ear-Nose-Throat;Musculoskeletal;Neurologic;Endocrine;Hematologic;Skin;Eyes;"
+      ]
+    },
+    {
+      "label": "Medications",
+      "count": 1,
+      "sampleValues": [
+        "Rx Date:06-27-2016-atenolol 100 mg tablet\nRx Date:06-27-2016-Lipidin-HP capsule\nRx Date:06-27-2016-metoclopramide 10 mg tablet"
+      ]
+    },
+    {
+      "label": "Form 485 Status",
+      "count": 1,
+      "sampleValues": [
+        "Physician Signed"
+      ]
+    },
+    {
+      "label": "Date Assessment Completed",
+      "count": 1,
+      "sampleValues": [
+        "03/27/2014"
+      ]
+    },
+    {
+      "label": "Payment Status",
+      "count": 1,
+      "sampleValues": [
+        "EOE Paid"
+      ]
+    },
+    {
+      "label": "CSN",
+      "count": 1,
+      "sampleValues": [
+        "139800826"
+      ]
+    },
+    {
+      "label": "Marketing Source",
+      "count": 1,
+      "sampleValues": [
+        "Walk In"
+      ]
+    },
+    {
+      "label": "Paid Amount",
+      "count": 1,
+      "sampleValues": [
+        "$1000.00"
+      ]
+    },
+    {
+      "label": "Community",
+      "count": 1,
+      "sampleValues": [
+        "ECP Training - Assisted Living"
+      ]
+    },
+    {
+      "label": "Treatment Plan Detail",
+      "count": 1,
+      "sampleValues": [
+        "Treatment Plan - Frazier, Molly (72649) - January 2022"
+      ]
+    },
+    {
+      "label": "Client Program",
+      "count": 1,
+      "sampleValues": [
+        "Outpatient Program (OP)"
+      ]
+    },
+    {
+      "label": "Activity",
+      "count": 1,
+      "sampleValues": [
+        "Individual (Individual)"
+      ]
+    },
+    {
+      "label": "UNIT/BED",
+      "count": 1,
+      "sampleValues": [
+        "ED/001"
+      ]
+    },
+    {
+      "label": "RM/BED",
+      "count": 1,
+      "sampleValues": [
+        "1234/56M"
+      ]
+    },
+    {
+      "label": "Admission Date",
+      "count": 1,
+      "sampleValues": [
+        "09/23/2019"
+      ]
+    },
+    {
+      "label": "Select Unit",
+      "count": 1,
+      "sampleValues": [
+        "Blue Unit"
+      ]
+    },
+    {
+      "label": "Service Description",
+      "count": 1,
+      "sampleValues": [
+        "Behavioral Health Counseling Individual"
+      ]
+    },
+    {
+      "label": "Existing Complaints",
+      "count": 1,
+      "sampleValues": [
+        "LOW BACK PAIN - Full Exam"
+      ]
+    },
+    {
+      "label": "Active Visit",
+      "count": 1,
+      "sampleValues": [
+        "6"
+      ]
+    },
+    {
+      "label": "UR LOC",
+      "count": 1,
+      "sampleValues": [
+        "IOP (45)"
+      ]
+    },
+    {
+      "label": "Bed/Room",
+      "count": 1,
+      "sampleValues": [
+        "W5-C"
+      ]
+    },
+    {
+      "label": "Next Appointment Provider",
+      "count": 1,
+      "sampleValues": [
+        "Kate Brown, MD"
+      ]
+    },
+    {
+      "label": "Pharmacy Name and Address",
+      "count": 1,
+      "sampleValues": [
+        "Riteaid, 15920 Del Mar Heights Rd, San Diego"
+      ]
+    },
+    {
+      "label": "Referred by",
+      "count": 1,
+      "sampleValues": [
+        "Dr John Smith"
+      ]
+    },
+    {
+      "label": "Vitals",
+      "count": 1,
+      "sampleValues": [
+        "HT: 5' 8\", WT: 127lb, BMI: 21.2, Pulse: 72bpm, Resp: Normal, Temp: 96.3"
+      ]
+    },
+    {
+      "label": "Access",
+      "count": 1,
+      "sampleValues": [
+        "antecubital left - full access"
+      ]
+    },
+    {
+      "label": "Pressure Holding",
+      "count": 1,
+      "sampleValues": [
+        "no"
+      ]
+    },
+    {
+      "label": "Results",
+      "count": 1,
+      "sampleValues": [
+        "Normal"
+      ]
+    },
+    {
+      "label": "Last / Next Appointment",
+      "count": 1,
+      "sampleValues": [
+        "Last: 08/16/19 Next: __/__/__"
+      ]
+    },
+    {
+      "label": "Outreach Status",
+      "count": 1,
+      "sampleValues": [
+        "New"
+      ]
+    },
+    {
+      "label": "Account List Count",
+      "count": 1,
+      "sampleValues": [
+        "7 items"
+      ]
+    },
+    {
+      "label": "Therapy Type",
+      "count": 1,
+      "sampleValues": [
+        "Out-Patient Therapy"
+      ]
+    },
+    {
+      "label": "Follow Up Plan",
+      "count": 1,
+      "sampleValues": [
+        "1 week"
+      ]
+    },
+    {
+      "label": "Assistant",
+      "count": 1,
+      "sampleValues": [
+        "(None)"
+      ]
+    },
+    {
+      "label": "Requested/Verbal SOC",
+      "count": 1,
+      "sampleValues": [
+        "8/12/2017"
+      ]
+    },
+    {
+      "label": "Invoice Number",
+      "count": 1,
+      "sampleValues": [
+        "334"
+      ]
+    },
+    {
+      "label": "Current Payer",
+      "count": 1,
+      "sampleValues": [
+        "National Government Services (NGS)"
+      ]
+    },
+    {
+      "label": "Invoice Date",
+      "count": 1,
+      "sampleValues": [
+        "4/22/2017"
+      ]
+    },
+    {
+      "label": "From/To",
+      "count": 1,
+      "sampleValues": [
+        "04/13 - 06/11/17"
+      ]
+    },
+    {
+      "label": "Adjusted Amount",
+      "count": 1,
+      "sampleValues": [
+        "($3,762.91)"
+      ]
+    },
+    {
+      "label": "Cash Applied",
+      "count": 1,
+      "sampleValues": [
+        "$4,200.00"
+      ]
+    },
+    {
+      "label": "Appt. Time",
+      "count": 1,
+      "sampleValues": [
+        "10/02 8:30 AM"
+      ]
+    },
+    {
+      "label": "Appt. Type",
+      "count": 1,
+      "sampleValues": [
+        "Established Pat"
+      ]
+    },
+    {
+      "label": "Check-In Time",
+      "count": 1,
+      "sampleValues": [
+        "10/02 1:22PM"
+      ]
+    },
+    {
+      "label": "Upcoming Appointment Date",
+      "count": 1,
+      "sampleValues": [
+        "03/27/2019"
+      ]
+    },
+    {
+      "label": "Upcoming Appointment Time",
+      "count": 1,
+      "sampleValues": [
+        "9:45 AM"
+      ]
+    },
+    {
+      "label": "Upcoming Appointment Type",
+      "count": 1,
+      "sampleValues": [
+        "Office Visit"
+      ]
+    },
+    {
+      "label": "Upcoming Appointment Location",
+      "count": 1,
+      "sampleValues": [
+        "Berry Hill Family Clinic"
+      ]
+    },
+    {
+      "label": "Date of Reporting Year",
+      "count": 1,
+      "sampleValues": [
+        "2008"
+      ]
+    },
+    {
+      "label": "Description/Subject",
+      "count": 1,
+      "sampleValues": [
+        "1:1 Telehealth"
+      ]
+    },
+    {
+      "label": "E&M Code",
+      "count": 1,
+      "sampleValues": [
+        "99215"
+      ]
+    },
+    {
+      "label": "E&M",
+      "count": 1,
+      "sampleValues": [
+        "99213"
+      ]
+    },
+    {
+      "label": "Office Time",
+      "count": 1,
+      "sampleValues": [
+        "13953 Minutes"
+      ]
+    },
+    {
+      "label": "Start of Care Date",
+      "count": 1,
+      "sampleValues": [
+        "03/11/2024"
+      ]
+    },
+    {
+      "label": "To",
+      "count": 1,
+      "sampleValues": [
+        "7/22/2022"
+      ]
+    },
+    {
+      "label": "Days Viewing",
+      "count": 1,
+      "sampleValues": [
+        "10"
+      ]
+    },
+    {
+      "label": "Grading Criteria",
+      "count": 1,
+      "sampleValues": [
+        "NCI CTCAE v3.0"
+      ]
+    },
+    {
+      "label": "Appointment Date Range",
+      "count": 1,
+      "sampleValues": [
+        "1/13/2020 - 1/16/2020"
+      ]
+    },
+    {
+      "label": "Bill as",
+      "count": 1,
+      "sampleValues": [
+        "Bill as Established Patient"
+      ]
+    },
+    {
+      "label": "Provider",
+      "count": 1,
+      "sampleValues": [
+        "TEST, R and TEST"
+      ]
+    },
+    {
+      "label": "Notes",
+      "count": 1,
+      "sampleValues": [
+        "01/15/2016 Eyefinity scheduled - online selected. Insurance: VSP"
+      ]
+    },
+    {
+      "label": "Appt ID",
+      "count": 1,
+      "sampleValues": [
+        "12345678"
+      ]
+    },
+    {
+      "label": "Appointment ID",
+      "count": 1,
+      "sampleValues": [
+        "25218475"
+      ]
+    },
+    {
+      "label": "Visit Status",
+      "count": 1,
+      "sampleValues": [
+        "In Progress"
+      ]
+    },
+    {
+      "label": "Template",
+      "count": 1,
+      "sampleValues": [
+        "BOTOX-PIRIFORMIS-BL"
+      ]
+    },
+    {
+      "label": "Schedule Status",
+      "count": 1,
+      "sampleValues": [
+        "Scheduled"
+      ]
+    },
+    {
+      "label": "Wound Pain Level",
+      "count": 1,
+      "sampleValues": [
+        "Pain Free"
+      ]
+    },
+    {
+      "label": "Abdomen Wound Depth",
+      "count": 1,
+      "sampleValues": [
+        "Partial Thickness"
+      ]
+    },
+    {
+      "label": "Abdomen Wound Etiology",
+      "count": 1,
+      "sampleValues": [
+        "Encounter for attention to gastrostomy (Z43.1)"
+      ]
+    },
+    {
+      "label": "Abdomen Tx Start Date",
+      "count": 1,
+      "sampleValues": [
+        "12/20/2023"
+      ]
+    },
+    {
+      "label": "Ankle Wound Depth",
+      "count": 1,
+      "sampleValues": [
+        "Full Thickness"
+      ]
+    },
+    {
+      "label": "Ankle Wound Etiology",
+      "count": 1,
+      "sampleValues": [
+        "Diabetic Ulcer with necrosis of muscle"
+      ]
+    },
+    {
+      "label": "Ankle Tx Start Date",
+      "count": 1,
+      "sampleValues": [
+        "12/20/2023"
+      ]
+    },
+    {
+      "label": "Encounter Facility Code",
+      "count": 1,
+      "sampleValues": [
+        "WT/GT"
+      ]
+    },
+    {
+      "label": "Signing Date",
+      "count": 1,
+      "sampleValues": [
+        "05/05/2024"
+      ]
+    },
+    {
+      "label": "Duration of the visit",
+      "count": 1,
+      "sampleValues": [
+        "25 min"
+      ]
+    },
+    {
+      "label": "Planned duration of the visit",
+      "count": 1,
+      "sampleValues": [
+        "25 min"
+      ]
+    },
+    {
+      "label": "Encounter Sheet",
+      "count": 1,
+      "sampleValues": [
+        "Family Practice"
+      ]
+    },
+    {
+      "label": "Recall Date",
+      "count": 1,
+      "sampleValues": [
+        "3/25/16"
+      ]
+    },
+    {
+      "label": "Prev Appt",
+      "count": 1,
+      "sampleValues": [
+        "12/23/14 1:00P"
+      ]
+    },
+    {
+      "label": "Visit ID",
+      "count": 1,
+      "sampleValues": [
+        "206"
+      ]
+    },
+    {
+      "label": "Copay Note",
+      "count": 1,
+      "sampleValues": [
+        "Did Not Pay Copay"
+      ]
+    },
+    {
+      "label": "Problem List",
+      "count": 1,
+      "sampleValues": [
+        "Depressive disorder, not elsewhere classified"
+      ]
+    },
+    {
+      "label": "Problem",
+      "count": 1,
+      "sampleValues": [
+        "Depressive disorder, not elsewhere classified"
+      ]
+    },
+    {
+      "label": "BP Systolic",
+      "count": 1,
+      "sampleValues": [
+        "110"
+      ]
+    },
+    {
+      "label": "BP Diastolic",
+      "count": 1,
+      "sampleValues": [
+        "90"
+      ]
+    },
+    {
+      "label": "Alert",
+      "count": 1,
+      "sampleValues": [
+        "Allergic to Peanuts and Penicillin."
+      ]
+    },
+    {
+      "label": "Auth",
+      "count": 1,
+      "sampleValues": [
+        "656116561"
+      ]
+    },
+    {
+      "label": "Vision/Medical",
+      "count": 1,
+      "sampleValues": [
+        "VSP / BCBS Medical"
+      ]
+    },
+    {
+      "label": "Precautions",
+      "count": 1,
+      "sampleValues": [
+        "None Ordered"
+      ]
+    },
+    {
+      "label": "Scanning Status",
+      "count": 1,
+      "sampleValues": [
+        "Completed"
+      ]
+    },
+    {
+      "label": "Abstraction Status",
+      "count": 1,
+      "sampleValues": [
+        "Completed"
+      ]
+    },
+    {
+      "label": "John Hopkins Falls Risk Assessment Risk",
+      "count": 1,
+      "sampleValues": [
+        "Low Risk"
+      ]
+    },
+    {
+      "label": "John Hopkins Falls Risk Assessment Score",
+      "count": 1,
+      "sampleValues": [
+        "0"
+      ]
+    },
+    {
+      "label": "Collect Payment",
+      "count": 1,
+      "sampleValues": [
+        "Collect Payment ($151)"
+      ]
+    },
+    {
+      "label": "Case ID",
+      "count": 1,
+      "sampleValues": [
+        "R83-15-0011111"
+      ]
+    },
+    {
+      "label": "Send Date",
+      "count": 1,
+      "sampleValues": [
+        "09/11/2015 00:00:00"
+      ]
+    },
+    {
+      "label": "Sample Collect Date",
+      "count": 1,
+      "sampleValues": [
+        "09/11/2015 00:00:00"
+      ]
+    },
+    {
+      "label": "Indication",
+      "count": 1,
+      "sampleValues": [
+        "This is a 62-year-old male."
+      ]
+    },
+    {
+      "label": "Patient Medications",
+      "count": 1,
+      "sampleValues": [
+        "No medications found"
+      ]
+    },
+    {
+      "label": "Care Management",
+      "count": 1,
+      "sampleValues": [
+        "Consider care mana..."
+      ]
+    },
+    {
+      "label": "Type of Meeting",
+      "count": 1,
+      "sampleValues": [
+        "Initial Treatment Team Meeting"
+      ]
+    },
+    {
+      "label": "Statement Date",
+      "count": 1,
+      "sampleValues": [
+        "06/12/2023"
+      ]
+    },
+    {
+      "label": "Posted Date",
+      "count": 1,
+      "sampleValues": [
+        "6/3/2017"
+      ]
+    },
+    {
+      "label": "Patient Responsibility",
+      "count": 1,
+      "sampleValues": [
+        "$30.00"
+      ]
+    },
+    {
+      "label": "Contractual Adj",
+      "count": 1,
+      "sampleValues": [
+        "$80.00"
+      ]
+    },
+    {
+      "label": "Today",
+      "count": 1,
+      "sampleValues": [
+        "Chest Pain, Breathlessness"
+      ]
+    },
+    {
+      "label": "Claim Number",
+      "count": 1,
+      "sampleValues": [
+        "97035224"
+      ]
+    },
+    {
+      "label": "Outstanding Amount",
+      "count": 1,
+      "sampleValues": [
+        "$50.00"
+      ]
+    },
+    {
+      "label": "Payer",
+      "count": 1,
+      "sampleValues": [
+        "Self"
+      ]
+    }
+  ]
+}

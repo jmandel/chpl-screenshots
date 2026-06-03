@@ -1,0 +1,1759 @@
+{
+  "category": "provider",
+  "totalEntries": 717,
+  "distinctLabels": 218,
+  "labels": [
+    {
+      "label": "Provider",
+      "count": 148,
+      "sampleValues": [
+        "A Bajaj",
+        "SYSDBA SYSDBA",
+        "Cathy Einstein, MD",
+        "Dr. Fredy Jacob",
+        "MEDICI, James",
+        "DR IM",
+        "Kumara Prathipati",
+        "AA - Test, Doctor K",
+        "JDB - John Banks MD",
+        "JS -- James SMITH, MD",
+        "Samuel Bard, MD",
+        "Ted Maher, MD"
+      ]
+    },
+    {
+      "label": "User",
+      "count": 54,
+      "sampleValues": [
+        "Dr. Papa",
+        "William Mayfield",
+        "Billy Smith",
+        "Jennifer J. Ford",
+        "pmccune",
+        "Justin Zakrzeski",
+        "Paul Primary, M.D.",
+        "Milan Anderson, MMD",
+        "Harry Potter",
+        "Sharon Justin",
+        "SysAdmin",
+        "Suki Norris"
+      ]
+    },
+    {
+      "label": "PCP",
+      "count": 32,
+      "sampleValues": [
+        "BARINGE, Jerna",
+        "BURRIS, JAMES",
+        "John Smith",
+        "Gastro, M.D., Joseph",
+        "Anthony Johnson",
+        "Bogart, Jama , NP - Family Practice",
+        "Kreis, Christopher (NPI: 1245319599)",
+        "KAREN KEDER, MD",
+        "Dunn, Kyle M",
+        "N/A",
+        "DR. JOHN P MAHER",
+        "Curabitur lobort"
+      ]
+    },
+    {
+      "label": "Physician",
+      "count": 17,
+      "sampleValues": [
+        "SYSDBA SYSDBA",
+        "Dev, iMW",
+        "MANCINO,JOHN",
+        "Werzbe",
+        "Gerber, Sean",
+        "Bota MD, David",
+        "Jones MD, Thomas L.",
+        "DEREK JETE",
+        "MD, Donna",
+        "Nicole Barilla",
+        "Snellen, Dr. Herman",
+        "Franklin, Ben O.D."
+      ]
+    },
+    {
+      "label": "Referring Physician",
+      "count": 14,
+      "sampleValues": [
+        "Srijhansi Adusumilli",
+        "Acosta Timothy",
+        "Jeffrey Brown",
+        "Jeffrey Brown, DO",
+        "Test, Physician",
+        "John Smith",
+        "Sally Smithson, MD",
+        "No Referring Physician",
+        "**Benson,Terry"
+      ]
+    },
+    {
+      "label": "Primary Care",
+      "count": 14,
+      "sampleValues": [
+        "Frank N. Carney, M.D.",
+        "Frank R. Carney, M.D.",
+        "Frank N. Canny, M.D.",
+        "Obar,Paul",
+        "Case,Michael",
+        "Benson,Terry"
+      ]
+    },
+    {
+      "label": "Doctor",
+      "count": 13,
+      "sampleValues": [
+        "02 - FRANKLIN JACKSON MD",
+        "01 - STEVEN SMITH",
+        "01",
+        "GOPALAKRISHNAN",
+        "DRD Doctor Demo",
+        "Doctor Demo",
+        "Doctor John Doe, MD",
+        "Dr. Cayla Brister",
+        "McCauley M.D.",
+        "Anna Danielson",
+        "ALLAN, JOSEPH",
+        "TRAINING DOCTOR"
+      ]
+    },
+    {
+      "label": "Referring Provider",
+      "count": 13,
+      "sampleValues": [
+        "Baker, Renee",
+        "Seven, Henry",
+        "HELEN BAILEY",
+        "James Cooper, M.D.",
+        "Phillip Howard, MD",
+        "(None)",
+        "Bontempo Eric",
+        "Harrison James",
+        "Alexander, George MD",
+        "Dr. Henry Borkowski"
+      ]
+    },
+    {
+      "label": "Attending",
+      "count": 12,
+      "sampleValues": [
+        "YORK, VIRGINIA",
+        "ADAMS, JOHN",
+        "David Ernst, MD",
+        "Internist E. Butler, M.D.",
+        "SMITH, HARRY d",
+        "Austin, Clinton",
+        "Zeller, Timothy Aaron, MD",
+        "Aaron, MD",
+        "Sandhu, Ritu Raj, MD"
+      ]
+    },
+    {
+      "label": "Referring",
+      "count": 11,
+      "sampleValues": [
+        "Alexander, George MD",
+        "Clinton Sheets, MD",
+        "Barclay, Joseph B M.D.",
+        "Frank N. Carney, M.D.",
+        "Frank R. Carney, M.D.",
+        "Frank N. Canny, M.D."
+      ]
+    },
+    {
+      "label": "Welcome",
+      "count": 10,
+      "sampleValues": [
+        "Prof. Demo Doctor MD",
+        "Marcus Welby",
+        "Octavio Ortho",
+        "Octavo Ortho",
+        "Arnold Bays",
+        "ARNOLD BAYS",
+        "Joshua Miller"
+      ]
+    },
+    {
+      "label": "Attending Provider",
+      "count": 9,
+      "sampleValues": [
+        "Marcus Welby,",
+        "Ford, David E. MD",
+        "IGOR INTERNIST",
+        "SMITH, KEN, MD",
+        "McKenzie Leftwich, MD",
+        "Dr. Al Sample",
+        "Dr. AJ Sample",
+        "Dr. Henry Borkowski"
+      ]
+    },
+    {
+      "label": "Logged-in User",
+      "count": 8,
+      "sampleValues": [
+        "Anne Hathaway",
+        "JONATHAN",
+        "Stefanie Pielanhn",
+        "Leo Aminoff",
+        "Eric Gunther",
+        "Nathan Forsthoefel",
+        "Hughes, Alex"
+      ]
+    },
+    {
+      "label": "Rendering Provider",
+      "count": 8,
+      "sampleValues": [
+        "Tylor U. Gaudet, DPT",
+        "Patty Therapist",
+        "Tylor Gaudet, DPT",
+        "ROBERT JOHNSON, MD",
+        "JAMES,ROBERT",
+        "John Doe MD",
+        "Interna, Curt MD",
+        "Good, Kelli [Pediatrics]"
+      ]
+    },
+    {
+      "label": "Logged in as",
+      "count": 8,
+      "sampleValues": [
+        "Jones, Ted",
+        "Mc Nair, Raymond",
+        "Test, Physician",
+        "ZACH GONZALES",
+        "Daniel T. Ryan, DC"
+      ]
+    },
+    {
+      "label": "Rendering",
+      "count": 6,
+      "sampleValues": [
+        "AA - Test, Doctor K",
+        "Venice Family, Clinic MD",
+        "Battle, Irene (Pain Manage...",
+        "Battle, Irene [Pain Manag..."
+      ]
+    },
+    {
+      "label": "Primary Care Provider",
+      "count": 6,
+      "sampleValues": [
+        "Abercombi, Christopher",
+        "Don Lee, MD",
+        "Dr. Henry Borkowski"
+      ]
+    },
+    {
+      "label": "Referral PCP",
+      "count": 5,
+      "sampleValues": [
+        "ALEXAND, Geor",
+        "ALSPAUG, John",
+        "ALSBAUG, John"
+      ]
+    },
+    {
+      "label": "Logged in User",
+      "count": 5,
+      "sampleValues": [
+        "TED",
+        "Administrator Administrator",
+        "Helpdesk, iMW T.",
+        "A. SUPPORT",
+        "C. CRAGUN"
+      ]
+    },
+    {
+      "label": "Assigned To",
+      "count": 5,
+      "sampleValues": [
+        "Patty Therapist",
+        "Tylor Gaudet",
+        "Maia Levin, MD",
+        "Fleming, Alexander Dr"
+      ]
+    },
+    {
+      "label": "Ref",
+      "count": 5,
+      "sampleValues": [
+        "Dr. Yong Smith",
+        "DR. JOHN F BALDWIN",
+        "Holden, Kit - Optometrist"
+      ]
+    },
+    {
+      "label": "Role",
+      "count": 5,
+      "sampleValues": [
+        "Nurse",
+        "LicensedPrescriber",
+        "Administrator",
+        "Doctor"
+      ]
+    },
+    {
+      "label": "Referred by",
+      "count": 5,
+      "sampleValues": [
+        "Dale Johnson, MD",
+        "Dr John Smith",
+        "Dr. Smith"
+      ]
+    },
+    {
+      "label": "Assistant",
+      "count": 5,
+      "sampleValues": [
+        "Heather Helper, MA",
+        "Fran Grafton, RN",
+        "(None)",
+        "Fran Grafton, RN: Family Practice"
+      ]
+    },
+    {
+      "label": "Logged-in Provider",
+      "count": 4,
+      "sampleValues": [
+        "DR IM",
+        "Doctor Test",
+        "Dr. Albert Davis (Doctor)",
+        "Vasile, Dr. Pravan (QSI)"
+      ]
+    },
+    {
+      "label": "Encounter Provider",
+      "count": 4,
+      "sampleValues": [
+        "Lee Coventry",
+        "Ola, Hansen",
+        "Paige Anderson, PA-C",
+        "Sharble, La'shonda NP"
+      ]
+    },
+    {
+      "label": "Logged In Provider",
+      "count": 4,
+      "sampleValues": [
+        "Dr. Melanie",
+        "Catherine Jennings",
+        "John Smith, MD",
+        "Johnny Doctor"
+      ]
+    },
+    {
+      "label": "Preferred Provider",
+      "count": 4,
+      "sampleValues": [
+        "Dr. Stefanie Pielahn OD",
+        "Jones, Peter",
+        "Smith Doctor"
+      ]
+    },
+    {
+      "label": "Physician Name",
+      "count": 4,
+      "sampleValues": [
+        "Ortho Octavio",
+        "Family Frank",
+        "Ames, Redmond",
+        "TAYLOR, JEFFREY"
+      ]
+    },
+    {
+      "label": "Location",
+      "count": 4,
+      "sampleValues": [
+        "Naples",
+        "Excellence Eye Care",
+        "Excellence Eye Care - Anytown",
+        "ACME Plastic Surgery: 123 Main Street"
+      ]
+    },
+    {
+      "label": "Current User",
+      "count": 4,
+      "sampleValues": [
+        "MANAGER, System",
+        "Head, Blake",
+        "Poland, Kimberly",
+        "Poland, Kim"
+      ]
+    },
+    {
+      "label": "Provider Name",
+      "count": 4,
+      "sampleValues": [
+        "DONALD TORRAN",
+        "George T. Cuthbert, M.D.",
+        "SMITH, HARRY",
+        "Johnsen Davis"
+      ]
+    },
+    {
+      "label": "Attending Physician",
+      "count": 4,
+      "sampleValues": [
+        "SMITH, HARRY d",
+        "SMITH, HARRY J",
+        "PIERCE, LADAWN"
+      ]
+    },
+    {
+      "label": "MD",
+      "count": 4,
+      "sampleValues": [
+        "Bernadel-Huey, R.",
+        "Filmore, Seth",
+        "BENSON, TERRY",
+        "BENSON,TERRY"
+      ]
+    },
+    {
+      "label": "Attending MD",
+      "count": 4,
+      "sampleValues": [
+        "Carter, John, MD",
+        "KEEDWELL,JACOB",
+        "McCauley, Christopher",
+        "Ganoa, Jim MD"
+      ]
+    },
+    {
+      "label": "Logged In",
+      "count": 4,
+      "sampleValues": [
+        "Demo Doctor, MD (107DD9)",
+        "Susan Kressly",
+        "Susan Kressly (305SJK)"
+      ]
+    },
+    {
+      "label": "Practice",
+      "count": 4,
+      "sampleValues": [
+        "UM West Clinic",
+        "MedicFusion"
+      ]
+    },
+    {
+      "label": "Facility",
+      "count": 3,
+      "sampleValues": [
+        "Endovault Medical Center",
+        "San Francisco Health",
+        "CAA - Center For Asthma And Allergies"
+      ]
+    },
+    {
+      "label": "Referring From",
+      "count": 3,
+      "sampleValues": [
+        "Ahmad, Lubna MD",
+        "Ahmed, Lubna MD"
+      ]
+    },
+    {
+      "label": "Endoscopist(s)",
+      "count": 3,
+      "sampleValues": [
+        "Doctor Jane Smith, MD",
+        "Joseph D. Rubinsztajn, MD"
+      ]
+    },
+    {
+      "label": "Anesthesia Provider",
+      "count": 3,
+      "sampleValues": [
+        "Nurse Jane Doe, CRNA"
+      ]
+    },
+    {
+      "label": "Care Team Members",
+      "count": 3,
+      "sampleValues": [
+        "Maia Levin, MD"
+      ]
+    },
+    {
+      "label": "Prov",
+      "count": 3,
+      "sampleValues": [
+        "Mary Smith",
+        "Ray Henry",
+        "Steve Raber"
+      ]
+    },
+    {
+      "label": "Nursing Team",
+      "count": 3,
+      "sampleValues": [
+        "Maryann McLaughlin / Paula Moran-Lally",
+        "Maryann McLaughlin Paula Moran-Lally"
+      ]
+    },
+    {
+      "label": "Primary Clinician",
+      "count": 3,
+      "sampleValues": [
+        "Janine Miller"
+      ]
+    },
+    {
+      "label": "Phys",
+      "count": 3,
+      "sampleValues": [
+        "Trapper John, MD",
+        "Robert N. Jones MD",
+        "Eagle, Jane MD"
+      ]
+    },
+    {
+      "label": "Primary Provider",
+      "count": 3,
+      "sampleValues": [
+        "BARON COCOA, MD | Garlic Creek FC",
+        "GRENIER, DENISE",
+        "DR. LAUREN R DEROSA"
+      ]
+    },
+    {
+      "label": "Admitting",
+      "count": 3,
+      "sampleValues": [
+        "Olivia",
+        "ROBERT C LANE"
+      ]
+    },
+    {
+      "label": "PDr",
+      "count": 3,
+      "sampleValues": [
+        "5 Cuthbert, George",
+        "Cuthbert, George T, ...",
+        "Cuthbert, George T"
+      ]
+    },
+    {
+      "label": "Assigned Provider",
+      "count": 3,
+      "sampleValues": [
+        "Steenis, Leah",
+        "Starr, Dr. Leigh OD",
+        "Vasile, Dr. Pravan (QSI)"
+      ]
+    },
+    {
+      "label": "Clinician",
+      "count": 3,
+      "sampleValues": [
+        "Newbury, Marjorie",
+        "Kantime, User",
+        "Angela Kostelyk"
+      ]
+    },
+    {
+      "label": "Last Provider was",
+      "count": 3,
+      "sampleValues": [
+        "(None)",
+        "Clayton Reynolds, MD: Mental Health",
+        "CLAYTON REYNOLDS, MD: Mental Health"
+      ]
+    },
+    {
+      "label": "Primary Physician",
+      "count": 3,
+      "sampleValues": [
+        "Ames, Redmond",
+        "Nichols, Brandon",
+        "Gerard Piquet"
+      ]
+    },
+    {
+      "label": "Endoscopist",
+      "count": 2,
+      "sampleValues": [
+        "A Bajaj",
+        "Doctor Jane Smith, MD"
+      ]
+    },
+    {
+      "label": "Signed By",
+      "count": 2,
+      "sampleValues": [
+        "TAAdmin SupportAccount 5/26/2020 6:39 pm",
+        "Test, Test3"
+      ]
+    },
+    {
+      "label": "Office",
+      "count": 2,
+      "sampleValues": [
+        "BC - Boulder City"
+      ]
+    },
+    {
+      "label": "Primary Therapist",
+      "count": 2,
+      "sampleValues": [
+        "Dr. Heidi Jannenga"
+      ]
+    },
+    {
+      "label": "Attending Doc",
+      "count": 2,
+      "sampleValues": [
+        "Stone, Barrington",
+        "Brandon Cyrus"
+      ]
+    },
+    {
+      "label": "Team",
+      "count": 2,
+      "sampleValues": [
+        "Red Team",
+        "RUSSELL, REGINAL"
+      ]
+    },
+    {
+      "label": "In-House Provider",
+      "count": 2,
+      "sampleValues": [
+        "Doctor, Test"
+      ]
+    },
+    {
+      "label": "Prescribing MD",
+      "count": 2,
+      "sampleValues": [
+        "PT Referral",
+        "Sarah Lewis"
+      ]
+    },
+    {
+      "label": "Billing Provider",
+      "count": 2,
+      "sampleValues": [
+        "Helpdesk, iMW Test.",
+        "Test Provider, MD"
+      ]
+    },
+    {
+      "label": "Technologist",
+      "count": 2,
+      "sampleValues": [
+        "Technologist Nuclear, Technologist",
+        "Test, Technologist"
+      ]
+    },
+    {
+      "label": "Nurse(s)",
+      "count": 2,
+      "sampleValues": [
+        "Nurse Smith, RN (Pre-Procedure)",
+        "Nurse Smith, RN"
+      ]
+    },
+    {
+      "label": "Care Team",
+      "count": 2,
+      "sampleValues": [
+        "Contact Abas Tay, M.D.",
+        "Lauren Powell + 2 others"
+      ]
+    },
+    {
+      "label": "Tech",
+      "count": 2,
+      "sampleValues": [
+        "Jennifer Faria",
+        "Julia He"
+      ]
+    },
+    {
+      "label": "Eye",
+      "count": 2,
+      "sampleValues": [
+        "Jennifer Faria"
+      ]
+    },
+    {
+      "label": "Selected Provider",
+      "count": 2,
+      "sampleValues": [
+        "Dr. Potter, Harry",
+        "James Brown"
+      ]
+    },
+    {
+      "label": "Dashboard for",
+      "count": 2,
+      "sampleValues": [
+        "Marcus Welby",
+        "Stephen Rothschild"
+      ]
+    },
+    {
+      "label": "Welcome Provider",
+      "count": 2,
+      "sampleValues": [
+        "Megan Zelenak",
+        "John House, MD"
+      ]
+    },
+    {
+      "label": "Ref Provider",
+      "count": 2,
+      "sampleValues": [
+        "Manning, Terry A MD",
+        "Umeh Sandy [MD]"
+      ]
+    },
+    {
+      "label": "CAR",
+      "count": 2,
+      "sampleValues": [
+        "JAMES E BIAS"
+      ]
+    },
+    {
+      "label": "Performing Provider",
+      "count": 2,
+      "sampleValues": [
+        "PROVIDER,, TEST",
+        "LC"
+      ]
+    },
+    {
+      "label": "Referral",
+      "count": 2,
+      "sampleValues": [
+        "GKMDS, ADM",
+        "Abrams, Sue"
+      ]
+    },
+    {
+      "label": "Billing Physician",
+      "count": 2,
+      "sampleValues": [
+        "AU, Jeffrey",
+        "SMITH, HARRY J"
+      ]
+    },
+    {
+      "label": "Clinic",
+      "count": 2,
+      "sampleValues": [
+        "MDLand Test Clinic123",
+        "Addison Health Systems"
+      ]
+    },
+    {
+      "label": "Seen By",
+      "count": 2,
+      "sampleValues": [
+        "Miles Buckley",
+        "Doctor Smith (Test Raleigh)"
+      ]
+    },
+    {
+      "label": "Current Provider",
+      "count": 2,
+      "sampleValues": [
+        "RIEDER MADYSON @ CRIT.LLC",
+        "Current Provider Not Selected"
+      ]
+    },
+    {
+      "label": "Nurse",
+      "count": 2,
+      "sampleValues": [
+        "Godwin, Lee, RN",
+        "Oalker, Patricia, RN"
+      ]
+    },
+    {
+      "label": "Primary Doctor",
+      "count": 2,
+      "sampleValues": [
+        "Not Selected"
+      ]
+    },
+    {
+      "label": "Staff Member",
+      "count": 2,
+      "sampleValues": [
+        "Andy Zook",
+        "Clarissa Clinician"
+      ]
+    },
+    {
+      "label": "Staff",
+      "count": 2,
+      "sampleValues": [
+        "Taggart, Dagny (1007)",
+        "Steven McCall-Rehab Admin"
+      ]
+    },
+    {
+      "label": "Supervising Provider",
+      "count": 2,
+      "sampleValues": [
+        "WELBY, MARCUS, MD",
+        "William Ramirez"
+      ]
+    },
+    {
+      "label": "User Role",
+      "count": 2,
+      "sampleValues": [
+        "Rehab Admin",
+        "Administrator"
+      ]
+    },
+    {
+      "label": "PCP/Referring",
+      "count": 2,
+      "sampleValues": [
+        "Morrison, James",
+        "Morrison,James"
+      ]
+    },
+    {
+      "label": "Registration Doctor",
+      "count": 2,
+      "sampleValues": [
+        "Lgrider"
+      ]
+    },
+    {
+      "label": "Therapist",
+      "count": 2,
+      "sampleValues": [
+        "James luke, LCP"
+      ]
+    },
+    {
+      "label": "Staff Name",
+      "count": 1,
+      "sampleValues": [
+        "Anne Hathaway"
+      ]
+    },
+    {
+      "label": "Endoscopist1",
+      "count": 1,
+      "sampleValues": [
+        "A Bajaj"
+      ]
+    },
+    {
+      "label": "Nurse1",
+      "count": 1,
+      "sampleValues": [
+        "J Brookes"
+      ]
+    },
+    {
+      "label": "Department",
+      "count": 1,
+      "sampleValues": [
+        "Gastroenterology"
+      ]
+    },
+    {
+      "label": "Fellow",
+      "count": 1,
+      "sampleValues": [
+        "Andrea Clark"
+      ]
+    },
+    {
+      "label": "Anesthesiologist",
+      "count": 1,
+      "sampleValues": [
+        "Keller Marilyn"
+      ]
+    },
+    {
+      "label": "Provider Column 1",
+      "count": 1,
+      "sampleValues": [
+        "D IM MD"
+      ]
+    },
+    {
+      "label": "Provider Column 2",
+      "count": 1,
+      "sampleValues": [
+        "P IM PA"
+      ]
+    },
+    {
+      "label": "Pharmacy",
+      "count": 1,
+      "sampleValues": [
+        "ABC Pharmacy"
+      ]
+    },
+    {
+      "label": "Primary Clinic",
+      "count": 1,
+      "sampleValues": [
+        "Rancho Mirage"
+      ]
+    },
+    {
+      "label": "Last Saved Superbill User",
+      "count": 1,
+      "sampleValues": [
+        "JONATHAN"
+      ]
+    },
+    {
+      "label": "GP Practice",
+      "count": 1,
+      "sampleValues": [
+        "Woodway Medical Centre"
+      ]
+    },
+    {
+      "label": "GP",
+      "count": 1,
+      "sampleValues": [
+        "WOOD, Brandon R"
+      ]
+    },
+    {
+      "label": "Referral Source",
+      "count": 1,
+      "sampleValues": [
+        "Southwest Orthopedic"
+      ]
+    },
+    {
+      "label": "DRD",
+      "count": 1,
+      "sampleValues": [
+        "Doctor Demo"
+      ]
+    },
+    {
+      "label": "Credited Provider",
+      "count": 1,
+      "sampleValues": [
+        "Helpdesk, iMW Test."
+      ]
+    },
+    {
+      "label": "Ref. Physician",
+      "count": 1,
+      "sampleValues": [
+        "Helpdesk, iMW"
+      ]
+    },
+    {
+      "label": "Designated Dr/Prescriber",
+      "count": 1,
+      "sampleValues": [
+        "Z. Administrator"
+      ]
+    },
+    {
+      "label": "Referral From",
+      "count": 1,
+      "sampleValues": [
+        "Administrator , ZH"
+      ]
+    },
+    {
+      "label": "To",
+      "count": 1,
+      "sampleValues": [
+        "Mc Nair, Raymond"
+      ]
+    },
+    {
+      "label": "Patient Of",
+      "count": 1,
+      "sampleValues": [
+        "Huy"
+      ]
+    },
+    {
+      "label": "Select Doctor",
+      "count": 1,
+      "sampleValues": [
+        "Winston MD, Harry S."
+      ]
+    },
+    {
+      "label": "Submitting Provider",
+      "count": 1,
+      "sampleValues": [
+        "Stephens, Jeremy"
+      ]
+    },
+    {
+      "label": "Surgeon",
+      "count": 1,
+      "sampleValues": [
+        "Marc Belanger"
+      ]
+    },
+    {
+      "label": "Requested Provider",
+      "count": 1,
+      "sampleValues": [
+        "ROBERT JOHNSON MD"
+      ]
+    },
+    {
+      "label": "Referring Dr",
+      "count": 1,
+      "sampleValues": [
+        "PASSELLI, NED P"
+      ]
+    },
+    {
+      "label": "Doctor Info",
+      "count": 1,
+      "sampleValues": [
+        "Dr. Cayla Brister"
+      ]
+    },
+    {
+      "label": "Ref.",
+      "count": 1,
+      "sampleValues": [
+        "Dr. Yong Smith"
+      ]
+    },
+    {
+      "label": "PCM",
+      "count": 1,
+      "sampleValues": [
+        "PCM"
+      ]
+    },
+    {
+      "label": "Prov.",
+      "count": 1,
+      "sampleValues": [
+        "Test Provider"
+      ]
+    },
+    {
+      "label": "Pref. Prov",
+      "count": 1,
+      "sampleValues": [
+        "Patrick Stev..."
+      ]
+    },
+    {
+      "label": "Provider Select",
+      "count": 1,
+      "sampleValues": [
+        "Steven Smith, MD"
+      ]
+    },
+    {
+      "label": "Location/Role",
+      "count": 1,
+      "sampleValues": [
+        "Uprise Internal Uprise022"
+      ]
+    },
+    {
+      "label": "Optometrist",
+      "count": 1,
+      "sampleValues": [
+        "Stefanie Pielanhn"
+      ]
+    },
+    {
+      "label": "Provider Assigned",
+      "count": 1,
+      "sampleValues": [
+        "Randy Tartacoff / Wendy Cohen"
+      ]
+    },
+    {
+      "label": "Previous Appointment Provider",
+      "count": 1,
+      "sampleValues": [
+        "Family, Frank"
+      ]
+    },
+    {
+      "label": "Prescriber",
+      "count": 1,
+      "sampleValues": [
+        "HOUSE, GREGORY J MD"
+      ]
+    },
+    {
+      "label": "Welcome User",
+      "count": 1,
+      "sampleValues": [
+        "Suki Norris"
+      ]
+    },
+    {
+      "label": "RN",
+      "count": 1,
+      "sampleValues": [
+        "Whitney Belloit, RN"
+      ]
+    },
+    {
+      "label": "Servicing",
+      "count": 1,
+      "sampleValues": [
+        "Dr. Igor Internist"
+      ]
+    },
+    {
+      "label": "Ordered by",
+      "count": 1,
+      "sampleValues": [
+        "Dr. Igor Internist"
+      ]
+    },
+    {
+      "label": "Ordering Prov",
+      "count": 1,
+      "sampleValues": [
+        "Internist, Igor"
+      ]
+    },
+    {
+      "label": "Cosigner",
+      "count": 1,
+      "sampleValues": [
+        "None"
+      ]
+    },
+    {
+      "label": "Scheduled With",
+      "count": 1,
+      "sampleValues": [
+        "Dr. Igor Internist (NPI: 1234567890)"
+      ]
+    },
+    {
+      "label": "Visit Provider",
+      "count": 1,
+      "sampleValues": [
+        "Midkiff, Angie"
+      ]
+    },
+    {
+      "label": "Resp Provider",
+      "count": 1,
+      "sampleValues": [
+        "Velarde, Alan"
+      ]
+    },
+    {
+      "label": "Organization Provider",
+      "count": 1,
+      "sampleValues": [
+        "Garrison Street Community Clinic"
+      ]
+    },
+    {
+      "label": "Prescription written on behalf of",
+      "count": 1,
+      "sampleValues": [
+        "Testprod ProvOne"
+      ]
+    },
+    {
+      "label": "Usual",
+      "count": 1,
+      "sampleValues": [
+        "zzzTickle, Tracey A CRNP"
+      ]
+    },
+    {
+      "label": "Usual Provider",
+      "count": 1,
+      "sampleValues": [
+        "Innes, Milton B MD"
+      ]
+    },
+    {
+      "label": "Active Encounter Provider",
+      "count": 1,
+      "sampleValues": [
+        "Doctor Physician, M.D."
+      ]
+    },
+    {
+      "label": "Attending Prov",
+      "count": 1,
+      "sampleValues": [
+        "Joe Doctor, MD"
+      ]
+    },
+    {
+      "label": "Order practitioner",
+      "count": 1,
+      "sampleValues": [
+        "Windsor Smith"
+      ]
+    },
+    {
+      "label": "PHYSICIAN INFO",
+      "count": 1,
+      "sampleValues": [
+        "Dr. Internist butler M.D."
+      ]
+    },
+    {
+      "label": "PHYSICIAN INFO 2",
+      "count": 1,
+      "sampleValues": [
+        "Dr. Fransis Xavior M.D."
+      ]
+    },
+    {
+      "label": "Consultor",
+      "count": 1,
+      "sampleValues": [
+        "No consultor asignado"
+      ]
+    },
+    {
+      "label": "Pharmacist",
+      "count": 1,
+      "sampleValues": [
+        "Kevin Mann (on duty)"
+      ]
+    },
+    {
+      "label": "Primary Provider 1",
+      "count": 1,
+      "sampleValues": [
+        "Welby Marcus"
+      ]
+    },
+    {
+      "label": "Doctor Assigned",
+      "count": 1,
+      "sampleValues": [
+        "No Doctor Assigned"
+      ]
+    },
+    {
+      "label": "Primary Location",
+      "count": 1,
+      "sampleValues": [
+        "MAIN MEDICAL CENTER"
+      ]
+    },
+    {
+      "label": "Ref Dr",
+      "count": 1,
+      "sampleValues": [
+        "Adelson, Michael"
+      ]
+    },
+    {
+      "label": "Ref To Dr",
+      "count": 1,
+      "sampleValues": [
+        "Maltese, Michael"
+      ]
+    },
+    {
+      "label": "ODr",
+      "count": 1,
+      "sampleValues": [
+        "Cuthbert, George T"
+      ]
+    },
+    {
+      "label": "Referral Physician",
+      "count": 1,
+      "sampleValues": [
+        "Test, Doctor"
+      ]
+    },
+    {
+      "label": "Provider Address",
+      "count": 1,
+      "sampleValues": [
+        "15 E 32nd Street New York NY 10016"
+      ]
+    },
+    {
+      "label": "Recipient",
+      "count": 1,
+      "sampleValues": [
+        "Kevin Smith"
+      ]
+    },
+    {
+      "label": "Care Provider",
+      "count": 1,
+      "sampleValues": [
+        "Marion Collen"
+      ]
+    },
+    {
+      "label": "Added By",
+      "count": 1,
+      "sampleValues": [
+        "Emily Hage"
+      ]
+    },
+    {
+      "label": "Rendering Physician",
+      "count": 1,
+      "sampleValues": [
+        "Vincnt Nkolett"
+      ]
+    },
+    {
+      "label": "Attend",
+      "count": 1,
+      "sampleValues": [
+        "Carter"
+      ]
+    },
+    {
+      "label": "Pvt MD",
+      "count": 1,
+      "sampleValues": [
+        "Little, Antoinette"
+      ]
+    },
+    {
+      "label": "Facility / Clinic",
+      "count": 1,
+      "sampleValues": [
+        "Public Health Dept"
+      ]
+    },
+    {
+      "label": "From",
+      "count": 1,
+      "sampleValues": [
+        "ADMINISTRATOR [102]"
+      ]
+    },
+    {
+      "label": "Logged In Doctor",
+      "count": 1,
+      "sampleValues": [
+        "Demo Doctor, MD"
+      ]
+    },
+    {
+      "label": "Primary Care Team",
+      "count": 1,
+      "sampleValues": [
+        "Primary Care Team Unassigned"
+      ]
+    },
+    {
+      "label": "Admitting MD",
+      "count": 1,
+      "sampleValues": [
+        "None"
+      ]
+    },
+    {
+      "label": "Primary Care Team / Provider",
+      "count": 1,
+      "sampleValues": [
+        "HBPC / CPRSdoctor,Five"
+      ]
+    },
+    {
+      "label": "Current PC Team",
+      "count": 1,
+      "sampleValues": [
+        "GOLD TEAM"
+      ]
+    },
+    {
+      "label": "Requesting Provider",
+      "count": 1,
+      "sampleValues": [
+        "CPRSPROVIDER,SEVEN"
+      ]
+    },
+    {
+      "label": "Selected Doctor Filter",
+      "count": 1,
+      "sampleValues": [
+        "Dr. Albert Davis M..."
+      ]
+    },
+    {
+      "label": "Attending Phy",
+      "count": 1,
+      "sampleValues": [
+        "999999"
+      ]
+    },
+    {
+      "label": "Signed On",
+      "count": 1,
+      "sampleValues": [
+        "LOESER D"
+      ]
+    },
+    {
+      "label": "PCP Name",
+      "count": 1,
+      "sampleValues": [
+        "Dr Painfree"
+      ]
+    },
+    {
+      "label": "Eye Doctor",
+      "count": 1,
+      "sampleValues": [
+        "Dr. John Ross"
+      ]
+    },
+    {
+      "label": "DEA",
+      "count": 1,
+      "sampleValues": [
+        "OB28573829"
+      ]
+    },
+    {
+      "label": "Primary Counselor",
+      "count": 1,
+      "sampleValues": [
+        "Earnest Boone"
+      ]
+    },
+    {
+      "label": "Supervising Doctor/Nurse",
+      "count": 1,
+      "sampleValues": [
+        "Michael Nunan"
+      ]
+    },
+    {
+      "label": "Patient 1 Provider",
+      "count": 1,
+      "sampleValues": [
+        "HIPPOCRATES, ADAM MD"
+      ]
+    },
+    {
+      "label": "Patient 2 Provider",
+      "count": 1,
+      "sampleValues": [
+        "HIPPOCRATES, ADAM MD"
+      ]
+    },
+    {
+      "label": "Patient 3 Provider",
+      "count": 1,
+      "sampleValues": [
+        "HIPPOCRATES, ADAM MD"
+      ]
+    },
+    {
+      "label": "Counselor",
+      "count": 1,
+      "sampleValues": [
+        "Meg Griffin"
+      ]
+    },
+    {
+      "label": "Prescriber [Agent]",
+      "count": 1,
+      "sampleValues": [
+        "ARNOLD BAYS [Test Clinician]"
+      ]
+    },
+    {
+      "label": "Login",
+      "count": 1,
+      "sampleValues": [
+        "MIC"
+      ]
+    },
+    {
+      "label": "Attended by",
+      "count": 1,
+      "sampleValues": [
+        "01DOC_LAST_OYEM 01DOC_FIRST_O"
+      ]
+    },
+    {
+      "label": "by",
+      "count": 1,
+      "sampleValues": [
+        "01DOC"
+      ]
+    },
+    {
+      "label": "Provider(s)",
+      "count": 1,
+      "sampleValues": [
+        "James Beauty, MD"
+      ]
+    },
+    {
+      "label": "LicensedPrescriber",
+      "count": 1,
+      "sampleValues": [
+        "Dr. Jhon Doe"
+      ]
+    },
+    {
+      "label": "Practice Name",
+      "count": 1,
+      "sampleValues": [
+        "Westborough Associates"
+      ]
+    },
+    {
+      "label": "Doctors",
+      "count": 1,
+      "sampleValues": [
+        "ALLAN, JOSEPH"
+      ]
+    },
+    {
+      "label": "Doctors Selected",
+      "count": 1,
+      "sampleValues": [
+        "ALLAN, JOSEPH"
+      ]
+    },
+    {
+      "label": "Case Manager",
+      "count": 1,
+      "sampleValues": [
+        "-ALL-"
+      ]
+    },
+    {
+      "label": "Ref Phy",
+      "count": 1,
+      "sampleValues": [
+        "Umeh Sandy [MD]"
+      ]
+    },
+    {
+      "label": "Work Phone",
+      "count": 1,
+      "sampleValues": [
+        "608-555-4012"
+      ]
+    },
+    {
+      "label": "Facilities",
+      "count": 1,
+      "sampleValues": [
+        "Benjamin Practic'e"
+      ]
+    },
+    {
+      "label": "Last Visit Provider",
+      "count": 1,
+      "sampleValues": [
+        "Dr. Casey"
+      ]
+    },
+    {
+      "label": "Preferred MD",
+      "count": 1,
+      "sampleValues": [
+        "Sean Doe MD"
+      ]
+    },
+    {
+      "label": "Created By",
+      "count": 1,
+      "sampleValues": [
+        "John House MD on 9/4/2018 at 3:14pm - Unsigned"
+      ]
+    },
+    {
+      "label": "Provider 1",
+      "count": 1,
+      "sampleValues": [
+        "Mark A. Admin, M.D."
+      ]
+    },
+    {
+      "label": "Provider 2",
+      "count": 1,
+      "sampleValues": [
+        "Chase R Contry, M.D."
+      ]
+    },
+    {
+      "label": "Last Provider",
+      "count": 1,
+      "sampleValues": [
+        "Clayton Reynolds, MD"
+      ]
+    },
+    {
+      "label": "Physician Work Phone",
+      "count": 1,
+      "sampleValues": [
+        "(602) 385-1234 x.1212"
+      ]
+    },
+    {
+      "label": "Agency",
+      "count": 1,
+      "sampleValues": [
+        "Tampa Bay Home Health"
+      ]
+    },
+    {
+      "label": "Primary Phys. Phone",
+      "count": 1,
+      "sampleValues": [
+        "(813) 414-8754"
+      ]
+    },
+    {
+      "label": "Appt. Provider",
+      "count": 1,
+      "sampleValues": [
+        "David Smith"
+      ]
+    },
+    {
+      "label": "Upcoming Appointment Physician",
+      "count": 1,
+      "sampleValues": [
+        "Smith, David"
+      ]
+    },
+    {
+      "label": "Office Visit Provider",
+      "count": 1,
+      "sampleValues": [
+        "P. ExampleUser"
+      ]
+    },
+    {
+      "label": "Palliative Provider",
+      "count": 1,
+      "sampleValues": [
+        "Herrera, Alex"
+      ]
+    },
+    {
+      "label": "Practitioner",
+      "count": 1,
+      "sampleValues": [
+        "CLINICAL STAFF"
+      ]
+    },
+    {
+      "label": "To be Reviewed By",
+      "count": 1,
+      "sampleValues": [
+        "Fredrick, Dr. Bill"
+      ]
+    },
+    {
+      "label": "Provider Notes Author",
+      "count": 1,
+      "sampleValues": [
+        "Neeru Singh, MD"
+      ]
+    },
+    {
+      "label": "Referral PCP (Secondary)",
+      "count": 1,
+      "sampleValues": [
+        "BARKER, Jesse"
+      ]
+    },
+    {
+      "label": "Corporation",
+      "count": 1,
+      "sampleValues": [
+        "BMP - Test999"
+      ]
+    },
+    {
+      "label": "My Doctor",
+      "count": 1,
+      "sampleValues": [
+        "Dr. John Smith"
+      ]
+    },
+    {
+      "label": "Referred to",
+      "count": 1,
+      "sampleValues": [
+        "Reed, Dr. Walter MD"
+      ]
+    },
+    {
+      "label": "Chart Details - Provider",
+      "count": 1,
+      "sampleValues": [
+        "Justine Baker"
+      ]
+    },
+    {
+      "label": "Chart Room for",
+      "count": 1,
+      "sampleValues": [
+        "Sandy Crowley"
+      ]
+    },
+    {
+      "label": "working at",
+      "count": 1,
+      "sampleValues": [
+        "CPH"
+      ]
+    },
+    {
+      "label": "Rendering Provider Name",
+      "count": 1,
+      "sampleValues": [
+        "ERIC J ROTHCHILD"
+      ]
+    },
+    {
+      "label": "Billing Provider Name",
+      "count": 1,
+      "sampleValues": [
+        "ROTHCHILD EYE INSTITUTE"
+      ]
+    },
+    {
+      "label": "Last Seen",
+      "count": 1,
+      "sampleValues": [
+        "Dr. Rodriguez Sunset Office"
+      ]
+    },
+    {
+      "label": "Author",
+      "count": 1,
+      "sampleValues": [
+        "Lynn Carroll"
+      ]
+    }
+  ]
+}

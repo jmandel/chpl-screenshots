@@ -1,0 +1,1401 @@
+{
+  "category": "other",
+  "totalEntries": 316,
+  "distinctLabels": 195,
+  "labels": [
+    {
+      "label": "F",
+      "count": 57,
+      "sampleValues": [
+        "F"
+      ]
+    },
+    {
+      "label": "T",
+      "count": 28,
+      "sampleValues": [
+        "T"
+      ]
+    },
+    {
+      "label": "Balance",
+      "count": 5,
+      "sampleValues": [
+        "$530.00",
+        "$200.00"
+      ]
+    },
+    {
+      "label": "Practice",
+      "count": 5,
+      "sampleValues": [
+        "MyDemoPractice",
+        "GREENBERG PEDIATRICS, Grand Blanc PC",
+        "GETWELL DEMO CLINIC",
+        "Paul Ferrill Practice",
+        "UM West Clinic"
+      ]
+    },
+    {
+      "label": "Location",
+      "count": 4,
+      "sampleValues": [
+        "Foot (other distal)",
+        "Appleton",
+        "Dog Treatment Center",
+        "Sample Location"
+      ]
+    },
+    {
+      "label": "Facility",
+      "count": 3,
+      "sampleValues": [
+        "Endovault Medical Center",
+        "St. Joseph Hospital Community Clinics",
+        "Holy Name Hospital"
+      ]
+    },
+    {
+      "label": "MEDICARE",
+      "count": 3,
+      "sampleValues": [
+        "$2923.13"
+      ]
+    },
+    {
+      "label": "Clinic",
+      "count": 3,
+      "sampleValues": [
+        "Dallas Sports Medicine Clinic",
+        "Etta Clinic",
+        "Addison Health Systems"
+      ]
+    },
+    {
+      "label": "Office",
+      "count": 3,
+      "sampleValues": [
+        "8796 - Central Eyevision Alpha256",
+        "COHA-MAIN OFFICE",
+        "0001"
+      ]
+    },
+    {
+      "label": "Patient Balance",
+      "count": 3,
+      "sampleValues": [
+        "$39.00",
+        "$3,005.56",
+        "$1,696.00"
+      ]
+    },
+    {
+      "label": "Insurance Balance",
+      "count": 3,
+      "sampleValues": [
+        "$600.00",
+        "$8,133.50",
+        "319.00"
+      ]
+    },
+    {
+      "label": "Pharmacy",
+      "count": 3,
+      "sampleValues": [
+        "CVS Pharmacy # 2357",
+        "Yes - Hover for Details",
+        "WALGREENS DRUG STORE"
+      ]
+    },
+    {
+      "label": "Insurance",
+      "count": 2,
+      "sampleValues": [
+        "$60.00",
+        "Aetna"
+      ]
+    },
+    {
+      "label": "Total Clients",
+      "count": 2,
+      "sampleValues": [
+        "73",
+        "31"
+      ]
+    },
+    {
+      "label": "Total Staff",
+      "count": 2,
+      "sampleValues": [
+        "94",
+        "26"
+      ]
+    },
+    {
+      "label": "From",
+      "count": 2,
+      "sampleValues": [
+        "Lpn, Cis",
+        "ENT Care"
+      ]
+    },
+    {
+      "label": "Subject",
+      "count": 2,
+      "sampleValues": [
+        "Review and Sign",
+        "Important Announcement"
+      ]
+    },
+    {
+      "label": "Current Balance",
+      "count": 2,
+      "sampleValues": [
+        "$324.31"
+      ]
+    },
+    {
+      "label": "User",
+      "count": 2,
+      "sampleValues": [
+        "pmccune",
+        "TEST-SS61.00"
+      ]
+    },
+    {
+      "label": "Selected Location",
+      "count": 2,
+      "sampleValues": [
+        "8796 - Central Eyevision",
+        "Left Lateral Lower Forehead"
+      ]
+    },
+    {
+      "label": "Organization",
+      "count": 2,
+      "sampleValues": [
+        "Alliance Medical Group",
+        "Demo Organization – Occ Health Demo Org"
+      ]
+    },
+    {
+      "label": "Date",
+      "count": 2,
+      "sampleValues": [
+        "04/04/2018 14:19:22",
+        "September 27, 2011"
+      ]
+    },
+    {
+      "label": "Select Location",
+      "count": 2,
+      "sampleValues": [
+        "Chicago"
+      ]
+    },
+    {
+      "label": "PBM",
+      "count": 2,
+      "sampleValues": [
+        "SURESCRIPTS LLC"
+      ]
+    },
+    {
+      "label": "Med Status",
+      "count": 2,
+      "sampleValues": [
+        "Incomplete Passes"
+      ]
+    },
+    {
+      "label": "Center",
+      "count": 1,
+      "sampleValues": [
+        "Springbrook Center"
+      ]
+    },
+    {
+      "label": "Center Name",
+      "count": 1,
+      "sampleValues": [
+        "Springbrook Center"
+      ]
+    },
+    {
+      "label": "Isolation Precautions",
+      "count": 1,
+      "sampleValues": [
+        "None"
+      ]
+    },
+    {
+      "label": "Facility Name",
+      "count": 1,
+      "sampleValues": [
+        "Endosoft"
+      ]
+    },
+    {
+      "label": "Username",
+      "count": 1,
+      "sampleValues": [
+        "SYSDBA SYSDBA"
+      ]
+    },
+    {
+      "label": "Cash",
+      "count": 1,
+      "sampleValues": [
+        "$202.00"
+      ]
+    },
+    {
+      "label": "Wound Type",
+      "count": 1,
+      "sampleValues": [
+        "Diabetic Ulcer"
+      ]
+    },
+    {
+      "label": "Location Detail",
+      "count": 1,
+      "sampleValues": [
+        "Left,Distal,Medial,Plantar,Posterior,Inferior"
+      ]
+    },
+    {
+      "label": "Date Wound Acquired",
+      "count": 1,
+      "sampleValues": [
+        "9/29/2019"
+      ]
+    },
+    {
+      "label": "Measurement Details",
+      "count": 1,
+      "sampleValues": [
+        "21.50s/17.9 sec"
+      ]
+    },
+    {
+      "label": "Primary Insurance",
+      "count": 1,
+      "sampleValues": [
+        "Aetna1"
+      ]
+    },
+    {
+      "label": "RAF",
+      "count": 1,
+      "sampleValues": [
+        "0.322"
+      ]
+    },
+    {
+      "label": "Phase",
+      "count": 1,
+      "sampleValues": [
+        "0.0000"
+      ]
+    },
+    {
+      "label": "Medisolv Identifier",
+      "count": 1,
+      "sampleValues": [
+        "71231"
+      ]
+    },
+    {
+      "label": "Medisolv Staging Key (GWTG ID)",
+      "count": 1,
+      "sampleValues": [
+        "5245"
+      ]
+    },
+    {
+      "label": "Scheduled Patients",
+      "count": 1,
+      "sampleValues": [
+        "_"
+      ]
+    },
+    {
+      "label": "Messages Count",
+      "count": 1,
+      "sampleValues": [
+        "9"
+      ]
+    },
+    {
+      "label": "Inbox Message From",
+      "count": 1,
+      "sampleValues": [
+        "SALLY"
+      ]
+    },
+    {
+      "label": "Inbox Message To",
+      "count": 1,
+      "sampleValues": [
+        "JONATHAN"
+      ]
+    },
+    {
+      "label": "Inbox Message Subject",
+      "count": 1,
+      "sampleValues": [
+        "Lunch Order"
+      ]
+    },
+    {
+      "label": "System Date",
+      "count": 1,
+      "sampleValues": [
+        "11/7/2005"
+      ]
+    },
+    {
+      "label": "Total Patients",
+      "count": 1,
+      "sampleValues": [
+        "5"
+      ]
+    },
+    {
+      "label": "Searched by",
+      "count": 1,
+      "sampleValues": [
+        "Medication"
+      ]
+    },
+    {
+      "label": "Today is Wednesday",
+      "count": 1,
+      "sampleValues": [
+        "03/14/2018"
+      ]
+    },
+    {
+      "label": "POS Facility",
+      "count": 1,
+      "sampleValues": [
+        "CEC"
+      ]
+    },
+    {
+      "label": "Message Date",
+      "count": 1,
+      "sampleValues": [
+        "06/19/2014 4:03:29 PM"
+      ]
+    },
+    {
+      "label": "Message Body",
+      "count": 1,
+      "sampleValues": [
+        "Stephen's chart is ready to be finalized."
+      ]
+    },
+    {
+      "label": "Study Quality",
+      "count": 1,
+      "sampleValues": [
+        "Good"
+      ]
+    },
+    {
+      "label": "WMSI",
+      "count": 1,
+      "sampleValues": [
+        "1.19"
+      ]
+    },
+    {
+      "label": "Instrument(s)",
+      "count": 1,
+      "sampleValues": [
+        "PCF-H190L (3133)"
+      ]
+    },
+    {
+      "label": "Local Time",
+      "count": 1,
+      "sampleValues": [
+        "6:21 PM EDT"
+      ]
+    },
+    {
+      "label": "Assessment",
+      "count": 1,
+      "sampleValues": [
+        "Depression_Child_English.PDF"
+      ]
+    },
+    {
+      "label": "Description",
+      "count": 1,
+      "sampleValues": [
+        "Measures of depression in children"
+      ]
+    },
+    {
+      "label": "Frequency",
+      "count": 1,
+      "sampleValues": [
+        "1st, 5th, 10th, 20th, 30th, 40th, and on."
+      ]
+    },
+    {
+      "label": "Pt Score",
+      "count": 1,
+      "sampleValues": [
+        "33"
+      ]
+    },
+    {
+      "label": "Max Score",
+      "count": 1,
+      "sampleValues": [
+        "70"
+      ]
+    },
+    {
+      "label": "From Date Filter",
+      "count": 1,
+      "sampleValues": [
+        "8/14/2007"
+      ]
+    },
+    {
+      "label": "To Date Filter",
+      "count": 1,
+      "sampleValues": [
+        "11/20/2020"
+      ]
+    },
+    {
+      "label": "Wizard Step",
+      "count": 1,
+      "sampleValues": [
+        "Step 4 of 8"
+      ]
+    },
+    {
+      "label": "View Option 1",
+      "count": 1,
+      "sampleValues": [
+        "External Eye"
+      ]
+    },
+    {
+      "label": "View Option 2",
+      "count": 1,
+      "sampleValues": [
+        "Slit Lamp"
+      ]
+    },
+    {
+      "label": "View Option 3",
+      "count": 1,
+      "sampleValues": [
+        "Fundus"
+      ]
+    },
+    {
+      "label": "Impression",
+      "count": 1,
+      "sampleValues": [
+        "Aesthetic deformity, nose"
+      ]
+    },
+    {
+      "label": "Body Location",
+      "count": 1,
+      "sampleValues": [
+        "female skin 90 right nasal dorsum"
+      ]
+    },
+    {
+      "label": "Include check-in events",
+      "count": 1,
+      "sampleValues": [
+        "On"
+      ]
+    },
+    {
+      "label": "Specs / Contact",
+      "count": 1,
+      "sampleValues": [
+        "Contact"
+      ]
+    },
+    {
+      "label": "Guarantor Name",
+      "count": 1,
+      "sampleValues": [
+        "FABRIZIO, JOHN"
+      ]
+    },
+    {
+      "label": "Demographics Recorded Count",
+      "count": 1,
+      "sampleValues": [
+        "5 Patients with Demographics Recorded"
+      ]
+    },
+    {
+      "label": "Select Date Range",
+      "count": 1,
+      "sampleValues": [
+        "12 Months"
+      ]
+    },
+    {
+      "label": "Select Insurance",
+      "count": 1,
+      "sampleValues": [
+        "All"
+      ]
+    },
+    {
+      "label": "Selected Date",
+      "count": 1,
+      "sampleValues": [
+        "Tuesday, September 2, 2014"
+      ]
+    },
+    {
+      "label": "Active Medications",
+      "count": 1,
+      "sampleValues": [
+        "6 Active"
+      ]
+    },
+    {
+      "label": "Search Studies by Date",
+      "count": 1,
+      "sampleValues": [
+        "9/7/2020"
+      ]
+    },
+    {
+      "label": "Users",
+      "count": 1,
+      "sampleValues": [
+        "None"
+      ]
+    },
+    {
+      "label": "Language Toggle",
+      "count": 1,
+      "sampleValues": [
+        "En español"
+      ]
+    },
+    {
+      "label": "Message",
+      "count": 1,
+      "sampleValues": [
+        "Please be advised that XYZ Medical Group is closed tomorrow, Tuesday the 10th, due to the snow storm. If you had an appointment scheduled on this day, please call the office to reschedule, or you can reschedule in our portal."
+      ]
+    },
+    {
+      "label": "ESI",
+      "count": 1,
+      "sampleValues": [
+        "2"
+      ]
+    },
+    {
+      "label": "Pending Tasks",
+      "count": 1,
+      "sampleValues": [
+        "14 task"
+      ]
+    },
+    {
+      "label": "Assigned Patients",
+      "count": 1,
+      "sampleValues": [
+        "12 patient"
+      ]
+    },
+    {
+      "label": "New Messages",
+      "count": 1,
+      "sampleValues": [
+        "6 messages"
+      ]
+    },
+    {
+      "label": "Order Templates",
+      "count": 1,
+      "sampleValues": [
+        "5 order"
+      ]
+    },
+    {
+      "label": "Last Login",
+      "count": 1,
+      "sampleValues": [
+        "01-12-2022"
+      ]
+    },
+    {
+      "label": "Patient Due($)",
+      "count": 1,
+      "sampleValues": [
+        "-190.00"
+      ]
+    },
+    {
+      "label": "search patient",
+      "count": 1,
+      "sampleValues": [
+        "search patient..."
+      ]
+    },
+    {
+      "label": "General Notes",
+      "count": 1,
+      "sampleValues": [
+        "joe's son"
+      ]
+    },
+    {
+      "label": "Insurance Name",
+      "count": 1,
+      "sampleValues": [
+        "Humana"
+      ]
+    },
+    {
+      "label": "Last PMT Date & AMT",
+      "count": 1,
+      "sampleValues": [
+        "05/21/2014 | $4.13"
+      ]
+    },
+    {
+      "label": "Document Title",
+      "count": 1,
+      "sampleValues": [
+        "CarePartners Health Privacy Policy"
+      ]
+    },
+    {
+      "label": "Section Title",
+      "count": 1,
+      "sampleValues": [
+        "Our commitment"
+      ]
+    },
+    {
+      "label": "Filter By Program",
+      "count": 1,
+      "sampleValues": [
+        "All"
+      ]
+    },
+    {
+      "label": "Active Date",
+      "count": 1,
+      "sampleValues": [
+        "June 26, 2024"
+      ]
+    },
+    {
+      "label": "Saved Searches",
+      "count": 1,
+      "sampleValues": [
+        "Patient > 20, Follow up / No Show"
+      ]
+    },
+    {
+      "label": "Current Practice",
+      "count": 1,
+      "sampleValues": [
+        "38"
+      ]
+    },
+    {
+      "label": "Other Practices",
+      "count": 1,
+      "sampleValues": [
+        "0"
+      ]
+    },
+    {
+      "label": "Category",
+      "count": 1,
+      "sampleValues": [
+        "Lab Report"
+      ]
+    },
+    {
+      "label": "Fax",
+      "count": 1,
+      "sampleValues": [
+        "(845)531-0661"
+      ]
+    },
+    {
+      "label": "Date Range",
+      "count": 1,
+      "sampleValues": [
+        "7/1/2017 to 9/30/2017 (92 Days)"
+      ]
+    },
+    {
+      "label": "Stage",
+      "count": 1,
+      "sampleValues": [
+        "Stage 2 Meaningful Use Measures"
+      ]
+    },
+    {
+      "label": "MEMO",
+      "count": 1,
+      "sampleValues": [
+        "This patient has a copay of $40 and no known allergies documented."
+      ]
+    },
+    {
+      "label": "Batch",
+      "count": 1,
+      "sampleValues": [
+        "215"
+      ]
+    },
+    {
+      "label": "Records request status",
+      "count": 1,
+      "sampleValues": [
+        "Never requested"
+      ]
+    },
+    {
+      "label": "Selected Hospital",
+      "count": 1,
+      "sampleValues": [
+        "Demo Hosp"
+      ]
+    },
+    {
+      "label": "Program",
+      "count": 1,
+      "sampleValues": [
+        "Central Intake"
+      ]
+    },
+    {
+      "label": "Archives",
+      "count": 1,
+      "sampleValues": [
+        "No"
+      ]
+    },
+    {
+      "label": "CCD Zip File Password",
+      "count": 1,
+      "sampleValues": [
+        "opsf-fhzwidhzbeajnnes"
+      ]
+    },
+    {
+      "label": "Protocol Used",
+      "count": 1,
+      "sampleValues": [
+        "Fainting"
+      ]
+    },
+    {
+      "label": "Protocol-Based Disposition",
+      "count": 1,
+      "sampleValues": [
+        "Home Care"
+      ]
+    },
+    {
+      "label": "Patient Credit",
+      "count": 1,
+      "sampleValues": [
+        "$0.00"
+      ]
+    },
+    {
+      "label": "Collections Balance",
+      "count": 1,
+      "sampleValues": [
+        "$0.00"
+      ]
+    },
+    {
+      "label": "Formulary",
+      "count": 1,
+      "sampleValues": [
+        "None"
+      ]
+    },
+    {
+      "label": "Postings",
+      "count": 1,
+      "sampleValues": [
+        "A"
+      ]
+    },
+    {
+      "label": "Last Logon",
+      "count": 1,
+      "sampleValues": [
+        "10/17/2016 11:40am Eastern"
+      ]
+    },
+    {
+      "label": "Session",
+      "count": 1,
+      "sampleValues": [
+        "2:00:00"
+      ]
+    },
+    {
+      "label": "Results count",
+      "count": 1,
+      "sampleValues": [
+        "5341"
+      ]
+    },
+    {
+      "label": "Company",
+      "count": 1,
+      "sampleValues": [
+        "Awesome Company"
+      ]
+    },
+    {
+      "label": "Account",
+      "count": 1,
+      "sampleValues": [
+        "Medplum"
+      ]
+    },
+    {
+      "label": "Provider Notifications Count",
+      "count": 1,
+      "sampleValues": [
+        "3 Provider Notifications"
+      ]
+    },
+    {
+      "label": "Version",
+      "count": 1,
+      "sampleValues": [
+        "DoseSpot Version 8.0"
+      ]
+    },
+    {
+      "label": "Origin",
+      "count": 1,
+      "sampleValues": [
+        "Lesions"
+      ]
+    },
+    {
+      "label": "Fee",
+      "count": 1,
+      "sampleValues": [
+        "15.00"
+      ]
+    },
+    {
+      "label": "Practice Location",
+      "count": 1,
+      "sampleValues": [
+        "Willow Oncology (Unspecified Location)"
+      ]
+    },
+    {
+      "label": "Observation",
+      "count": 1,
+      "sampleValues": [
+        "ALT, ALT SerPl-cCnc, Alanine aminotransferase measurement (procedure)"
+      ]
+    },
+    {
+      "label": "Interpretation",
+      "count": 1,
+      "sampleValues": [
+        "normal"
+      ]
+    },
+    {
+      "label": "Reference Range",
+      "count": 1,
+      "sampleValues": [
+        "10 - 49 enzyme unit per liter"
+      ]
+    },
+    {
+      "label": "Period",
+      "count": 1,
+      "sampleValues": [
+        "2023-09-21"
+      ]
+    },
+    {
+      "label": "Zus Records Panel",
+      "count": 1,
+      "sampleValues": [
+        "Zus Records"
+      ]
+    },
+    {
+      "label": "Account Balance",
+      "count": 1,
+      "sampleValues": [
+        "$0.00"
+      ]
+    },
+    {
+      "label": "Last Updated",
+      "count": 1,
+      "sampleValues": [
+        "10/26/2020"
+      ]
+    },
+    {
+      "label": "Template",
+      "count": 1,
+      "sampleValues": [
+        "Default"
+      ]
+    },
+    {
+      "label": "Anesthesia Type",
+      "count": 1,
+      "sampleValues": [
+        "General"
+      ]
+    },
+    {
+      "label": "Total",
+      "count": 1,
+      "sampleValues": [
+        "$13,120.00"
+      ]
+    },
+    {
+      "label": "CMS-HCC Risk Score",
+      "count": 1,
+      "sampleValues": [
+        "0.000"
+      ]
+    },
+    {
+      "label": "Pending Appts. Count",
+      "count": 1,
+      "sampleValues": [
+        "10"
+      ]
+    },
+    {
+      "label": "Notes to Start Count",
+      "count": 1,
+      "sampleValues": [
+        "23"
+      ]
+    },
+    {
+      "label": "Grps to Finish Count",
+      "count": 1,
+      "sampleValues": [
+        "6"
+      ]
+    },
+    {
+      "label": "Unrel Grp Notes Count",
+      "count": 1,
+      "sampleValues": [
+        "7"
+      ]
+    },
+    {
+      "label": "Docs to Sign Count",
+      "count": 1,
+      "sampleValues": [
+        "6"
+      ]
+    },
+    {
+      "label": "Renewals Count",
+      "count": 1,
+      "sampleValues": [
+        "5"
+      ]
+    },
+    {
+      "label": "Latest Alerts Count",
+      "count": 1,
+      "sampleValues": [
+        "20"
+      ]
+    },
+    {
+      "label": "Level Type",
+      "count": 1,
+      "sampleValues": [
+        "Bed"
+      ]
+    },
+    {
+      "label": "Building",
+      "count": 1,
+      "sampleValues": [
+        "Test Building"
+      ]
+    },
+    {
+      "label": "Room",
+      "count": 1,
+      "sampleValues": [
+        "Room 1"
+      ]
+    },
+    {
+      "label": "Status",
+      "count": 1,
+      "sampleValues": [
+        "Ready"
+      ]
+    },
+    {
+      "label": "Type (optional)",
+      "count": 1,
+      "sampleValues": [
+        "Adult Twin"
+      ]
+    },
+    {
+      "label": "Selected Pharmacy",
+      "count": 1,
+      "sampleValues": [
+        "Walgreens Drug Store 01411"
+      ]
+    },
+    {
+      "label": "LSC",
+      "count": 1,
+      "sampleValues": [
+        "CAMBRIDGE"
+      ]
+    },
+    {
+      "label": "MyChart",
+      "count": 1,
+      "sampleValues": [
+        "On"
+      ]
+    },
+    {
+      "label": "Self-pay Balance",
+      "count": 1,
+      "sampleValues": [
+        "20.00"
+      ]
+    },
+    {
+      "label": "Code",
+      "count": 1,
+      "sampleValues": [
+        "99308"
+      ]
+    },
+    {
+      "label": "Payer",
+      "count": 1,
+      "sampleValues": [
+        "Medicaid TX"
+      ]
+    },
+    {
+      "label": "Sort By",
+      "count": 1,
+      "sampleValues": [
+        "Resident"
+      ]
+    },
+    {
+      "label": "Med Cart",
+      "count": 1,
+      "sampleValues": [
+        "-Med Carts-"
+      ]
+    },
+    {
+      "label": "Organisation",
+      "count": 1,
+      "sampleValues": [
+        "CCS - Columbia River Ranch"
+      ]
+    },
+    {
+      "label": "Selected Growth Parameter",
+      "count": 1,
+      "sampleValues": [
+        "2 to 5 Years: Weight-For-Stature (WHO)"
+      ]
+    },
+    {
+      "label": "Fundus Image Timestamp 1",
+      "count": 1,
+      "sampleValues": [
+        "2004.02.12 14:44"
+      ]
+    },
+    {
+      "label": "Fundus Image Timestamp 2",
+      "count": 1,
+      "sampleValues": [
+        "2003.08.24 20:59"
+      ]
+    },
+    {
+      "label": "null",
+      "count": 1,
+      "sampleValues": [
+        "T"
+      ]
+    },
+    {
+      "label": "Action Taken",
+      "count": 1,
+      "sampleValues": [
+        "Show: ALL"
+      ]
+    },
+    {
+      "label": "Showing Rows",
+      "count": 1,
+      "sampleValues": [
+        "Showing 1 to 10 of 39 rows"
+      ]
+    },
+    {
+      "label": "Major Drug Interaction",
+      "count": 1,
+      "sampleValues": [
+        "7"
+      ]
+    },
+    {
+      "label": "Moderate Drug Interaction",
+      "count": 1,
+      "sampleValues": [
+        "19"
+      ]
+    },
+    {
+      "label": "Minor Drug Interaction",
+      "count": 1,
+      "sampleValues": [
+        "1"
+      ]
+    },
+    {
+      "label": "Clinic Location",
+      "count": 1,
+      "sampleValues": [
+        "ABC North Clinic SC"
+      ]
+    },
+    {
+      "label": "Machine",
+      "count": 1,
+      "sampleValues": [
+        "D_Varian31EX"
+      ]
+    },
+    {
+      "label": "Total Due",
+      "count": 1,
+      "sampleValues": [
+        "$160.00"
+      ]
+    },
+    {
+      "label": "User Role",
+      "count": 1,
+      "sampleValues": [
+        "Administrator"
+      ]
+    },
+    {
+      "label": "Copay",
+      "count": 1,
+      "sampleValues": [
+        "$0"
+      ]
+    },
+    {
+      "label": "Total balance",
+      "count": 1,
+      "sampleValues": [
+        "13680.12"
+      ]
+    },
+    {
+      "label": "Vision/Medical",
+      "count": 1,
+      "sampleValues": [
+        "EYEMED VISION CARE"
+      ]
+    },
+    {
+      "label": "Total Number of Beds",
+      "count": 1,
+      "sampleValues": [
+        "11"
+      ]
+    },
+    {
+      "label": "Total Occupied",
+      "count": 1,
+      "sampleValues": [
+        "3"
+      ]
+    },
+    {
+      "label": "Total Ready",
+      "count": 1,
+      "sampleValues": [
+        "8"
+      ]
+    },
+    {
+      "label": "Total Ready for Housekeeping",
+      "count": 1,
+      "sampleValues": [
+        "0"
+      ]
+    },
+    {
+      "label": "SBE Prophylaxis Status",
+      "count": 1,
+      "sampleValues": [
+        "SBE Prophylaxis Required"
+      ]
+    },
+    {
+      "label": "SBE Prophylaxis Reason",
+      "count": 1,
+      "sampleValues": [
+        "Aortic Valve-Stenosis"
+      ]
+    },
+    {
+      "label": "Medical Center",
+      "count": 1,
+      "sampleValues": [
+        "Frozen Lava Medical Center"
+      ]
+    },
+    {
+      "label": "eRx Requests Count",
+      "count": 1,
+      "sampleValues": [
+        "0"
+      ]
+    },
+    {
+      "label": "Labs/Studies Count",
+      "count": 1,
+      "sampleValues": [
+        "9"
+      ]
+    },
+    {
+      "label": "Flagged Messages Count",
+      "count": 1,
+      "sampleValues": [
+        "2"
+      ]
+    },
+    {
+      "label": "Open Notes Count",
+      "count": 1,
+      "sampleValues": [
+        "25"
+      ]
+    },
+    {
+      "label": "Tentative Appointments Count",
+      "count": 1,
+      "sampleValues": [
+        "8"
+      ]
+    },
+    {
+      "label": "Patient Intake Count",
+      "count": 1,
+      "sampleValues": [
+        "1"
+      ]
+    },
+    {
+      "label": "Direct Inbox Count",
+      "count": 1,
+      "sampleValues": [
+        "39"
+      ]
+    },
+    {
+      "label": "Chart Desc",
+      "count": 1,
+      "sampleValues": [
+        "Main Chart"
+      ]
+    },
+    {
+      "label": "Expected",
+      "count": 1,
+      "sampleValues": [
+        "$0.00"
+      ]
+    },
+    {
+      "label": "Paid",
+      "count": 1,
+      "sampleValues": [
+        "$0.00"
+      ]
+    },
+    {
+      "label": "Favorite Color",
+      "count": 1,
+      "sampleValues": [
+        "blue"
+      ]
+    },
+    {
+      "label": "Chart Details - ID",
+      "count": 1,
+      "sampleValues": [
+        "0072"
+      ]
+    },
+    {
+      "label": "Amount Due",
+      "count": 1,
+      "sampleValues": [
+        "$-200.00"
+      ]
+    },
+    {
+      "label": "Check Number",
+      "count": 1,
+      "sampleValues": [
+        "12212312"
+      ]
+    }
+  ]
+}

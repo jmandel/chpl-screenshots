@@ -1,0 +1,4340 @@
+{
+  "category": "patient",
+  "totalEntries": 1331,
+  "distinctLabels": 561,
+  "labels": [
+    {
+      "label": "Allergies",
+      "count": 89,
+      "sampleValues": [
+        "lamisil",
+        "Allergy information has not been entered",
+        "codeine sulfate, Aloe Vera Latex Gloves (gloves, latex with aloe vera)",
+        "codeine sulfate, Aloe Vera Latex Gloves [gloves, latex with aloe vera]",
+        "Alimta, Decadron",
+        "Bee sting, Sulfonamides, Penicillin",
+        "Known Allergies",
+        "None",
+        "penicillin",
+        "penicillin ()",
+        "No Known Allergies",
+        "Penicillins, Acetaminophen, Adhesive Tape."
+      ]
+    },
+    {
+      "label": "Insurance",
+      "count": 71,
+      "sampleValues": [
+        "No Insurance",
+        "BCBC1 - BCBS OUT OF STATE",
+        "1. Blue Cross Blue Shield of Arizona",
+        "MEDICARE ADV SECURE M80 (Primary)",
+        "Unassigned",
+        "CIGNA",
+        "Set: Medical (P) ABC INSURANCE PLAN [1342] Pol: 1234567890 Group: GRP14564",
+        "1",
+        "Self Pay",
+        "Medicare B - California",
+        "Aetna Only, NY",
+        "Blue Choice"
+      ]
+    },
+    {
+      "label": "Email",
+      "count": 66,
+      "sampleValues": [
+        "janesmith@smith.com",
+        "JARMSTRONG@HOME.COM",
+        "THOMASANDERSON@GENIUSSOLUTIONS.COM",
+        "autogen_8ioc9mnuxi7zdfni@gen.myriad.health",
+        "ifightaliens@gmail.com",
+        "Isbella.Jones.CCD@gmail.com",
+        "dbassett@aol.com",
+        "sally.chen@demo.com",
+        "nvailas@azaleahealth.com",
+        "stefanie.turney@gmail.com",
+        "Mpennington@Moyae.com",
+        "email@email.com"
+      ]
+    },
+    {
+      "label": "SSN",
+      "count": 40,
+      "sampleValues": [
+        "012-345-6789",
+        "123-45-6789",
+        "XXX-XX-6789",
+        "123-45-6785",
+        "785-41-2563",
+        "###-##-679",
+        "*****5235",
+        "*****3333",
+        "****4789",
+        "111-22-3333",
+        "123-45-9877",
+        "585-74-5845"
+      ]
+    },
+    {
+      "label": "Weight",
+      "count": 29,
+      "sampleValues": [
+        "75",
+        "95.254kg",
+        "70.307kg",
+        "165",
+        "200 lbs",
+        "165 KG",
+        "120 lbs",
+        "133lb",
+        "150 lb 0 oz (68.04 kg)",
+        "162 lb",
+        "49.9kg/110lb",
+        "160 lbs"
+      ]
+    },
+    {
+      "label": "BMI",
+      "count": 27,
+      "sampleValues": [
+        "28.5kg/m²",
+        "25.8kg/m²",
+        "22.4",
+        "19.7",
+        "32.28",
+        "50.2",
+        "29.0",
+        "37.50",
+        "23.56",
+        "26.96 kg/m²",
+        "46.22",
+        "33.58"
+      ]
+    },
+    {
+      "label": "Status",
+      "count": 23,
+      "sampleValues": [
+        "Active",
+        "Confirmed",
+        "Select a status",
+        "On Service",
+        "AD-Active",
+        "Active | Training Patient",
+        "Moved In",
+        "UNKN",
+        "Active Participant",
+        "Current"
+      ]
+    },
+    {
+      "label": "Height",
+      "count": 20,
+      "sampleValues": [
+        "158",
+        "1.83m",
+        "1.65m",
+        "6'",
+        "5' 6.0\"",
+        "5'5\"",
+        "63in",
+        "5 ft 0 in (152.4 cm)",
+        "65 in",
+        "165.1cm/65in",
+        "68 in",
+        "5 ft 6 in"
+      ]
+    },
+    {
+      "label": "Allergy",
+      "count": 18,
+      "sampleValues": [
+        "PENICILLINS (rash, nausea)",
+        "07/29/15",
+        "03/13/18",
+        "01/19/21",
+        "Latex Allergy",
+        "Black Pepper",
+        "ALLERGENIC EXTRACT, PENICILLIN",
+        "Peanuts and Strawberry",
+        "Penicillin",
+        "1 ALLERGY",
+        "Sulfa (Sulfonamides)",
+        "NKDA"
+      ]
+    },
+    {
+      "label": "Primary Insurance",
+      "count": 16,
+      "sampleValues": [
+        "Wellpoint",
+        "Blue Cross Blue Shield of Arizona",
+        "Primary Insuran...",
+        "Aekna",
+        "Medicare",
+        "CIGNA",
+        "MEDICARE MA",
+        "Blue Cross Blue shield of Illinois",
+        "Bluecross Blueshield",
+        "BLUE CROSS Medicare (Met)",
+        "BCBS",
+        "CommPaper"
+      ]
+    },
+    {
+      "label": "Pharmacy",
+      "count": 14,
+      "sampleValues": [
+        "CVS/pharmacy #8006 - 3535 PLYMOUTH RD., (CORNER OF GREEN ROAD), ANN ARBOR, MI",
+        "Walgreens Drug Store 07660 - 1220 N. Mitchell St., Cadillac, MI",
+        "Walgreens Drug Store 07660 (1220 N. Mitchell St. Cadillac MI)",
+        "No pharmacy",
+        "Walgreens Drug Store 10...",
+        "Rogersville Pharmacy",
+        "Convenient Care"
+      ]
+    },
+    {
+      "label": "Code Status",
+      "count": 11,
+      "sampleValues": [
+        "Full Code",
+        "Full Code*",
+        "DNI",
+        "Full",
+        "CPR",
+        "DNR"
+      ]
+    },
+    {
+      "label": "Last Visit",
+      "count": 10,
+      "sampleValues": [
+        "Feb 02, 2011",
+        "11/18/2014",
+        "01/19/2009",
+        "04/25/19",
+        "May 17, 2024",
+        "May 05, 2024",
+        "02/09/2010",
+        "Wed, Aug 03, 2011 at 10:00 am",
+        "3/4/15",
+        "07/08/2016"
+      ]
+    },
+    {
+      "label": "Patient Balance",
+      "count": 10,
+      "sampleValues": [
+        "$0.00",
+        "$50.00",
+        "$1,242.00",
+        "$0.0",
+        "US$0.00",
+        "$534.00",
+        "0"
+      ]
+    },
+    {
+      "label": "BP",
+      "count": 10,
+      "sampleValues": [
+        "180/90",
+        "160/90",
+        "120/80 (Left Arm)",
+        "120/68",
+        "180/62",
+        "142 / 76",
+        "130/90"
+      ]
+    },
+    {
+      "label": "Payer",
+      "count": 10,
+      "sampleValues": [
+        "Medicare Part B Of Florida (default)",
+        "Blue Cross Blue Shield Of Fl (default)",
+        "Aetna (appointment)",
+        "Comprehensive Care Program - Pediatric",
+        "Aetna",
+        "Medicaid-GA",
+        "Cigna (appointment)"
+      ]
+    },
+    {
+      "label": "Medications",
+      "count": 9,
+      "sampleValues": [
+        "Lipitor",
+        "Lisinopril 10mg each morning, Norvasc",
+        "Nothing Recorded",
+        "Advair Diskus 100 mcg-50 mcg/dose powder for inhalation, Lipitor 40 mg tablet, metformin 850 mg tablet",
+        "Xanax",
+        "none",
+        "naproxen 500 mg tablet; naproxen 500 mg tablet; metoprolol tartrate 25 mg tablet",
+        "NKM"
+      ]
+    },
+    {
+      "label": "Emergency Contact",
+      "count": 9,
+      "sampleValues": [
+        "Emily Gale Phone Number: (555) 520-5037 Email: egale@email.com OK to leave message: Y",
+        "CHRISTMAS, SPIRIT",
+        "Renate Bauer (813) 555-9780, (813) 555-7073 Friend",
+        "SANDRA ALLOCCA (Mother)",
+        "Sally Doe",
+        "Doug Hart Phone #1:(260) 444-0055",
+        "Doug Hart Phone #1 (260) 444-0055",
+        "Mary Smith",
+        "Susan Vision"
+      ]
+    },
+    {
+      "label": "Smoking Status",
+      "count": 9,
+      "sampleValues": [
+        "Former smoker",
+        "Unknown if ever smoked (9)",
+        "none",
+        "Never smoker",
+        "Former smoker(as of 1/7/2013)",
+        "Never smoker [ 266919005 ]",
+        "smoker",
+        "former"
+      ]
+    },
+    {
+      "label": "Primary Ins",
+      "count": 9,
+      "sampleValues": [
+        "AETNA",
+        "BCBS",
+        "Medicare",
+        "Anthem Insurance Com..."
+      ]
+    },
+    {
+      "label": "Wt",
+      "count": 8,
+      "sampleValues": [
+        "145 lbs.",
+        "133lb (06/28/12)",
+        "100 lbs",
+        "211 lbs 55 ozs",
+        "19 Lbs 8 Oz / 8.845 Kgs",
+        "95.5 kg",
+        "145.2 lbs",
+        "182.4 lbs"
+      ]
+    },
+    {
+      "label": "City",
+      "count": 7,
+      "sampleValues": [
+        "Schenectady",
+        "Moreno Valley",
+        "Waupun",
+        "Raleigh",
+        "BOCA RATON",
+        "Tampa",
+        "Newhall"
+      ]
+    },
+    {
+      "label": "State",
+      "count": 7,
+      "sampleValues": [
+        "New York",
+        "Arizona",
+        "NC",
+        "FL",
+        "Florida",
+        "CA",
+        "Utah"
+      ]
+    },
+    {
+      "label": "Balance",
+      "count": 7,
+      "sampleValues": [
+        "$0.00",
+        "0",
+        "$2,060.48",
+        "$702.00",
+        "0.00"
+      ]
+    },
+    {
+      "label": "Client Search Result",
+      "count": 7,
+      "sampleValues": [
+        "Byers, Joyce (MHS, EL00001162)",
+        "Ernriche, Rchherri (MHS, EL00000896)",
+        "Knope, Leslie (MHS, EL00001157)",
+        "Ponce, Tomas (SBC, EL00000502)",
+        "Sanders, Steve (RIV, EL00000893)",
+        "Sargent, Dave Don (MHS, EL00001082)",
+        "Stark, Arya (MHS, IM00000361)"
+      ]
+    },
+    {
+      "label": "Zip Code",
+      "count": 6,
+      "sampleValues": [
+        "12305",
+        "58474",
+        "60005",
+        "55512",
+        "33619",
+        "27356"
+      ]
+    },
+    {
+      "label": "Cell Phone",
+      "count": 6,
+      "sampleValues": [
+        "214-554-5555",
+        "(330) 456-8412",
+        "(661) 232-8194",
+        "(888) 888-8888",
+        "(417) 888-4444"
+      ]
+    },
+    {
+      "label": "Ins",
+      "count": 6,
+      "sampleValues": [
+        "Blue Cross (PM), VSP (PV), +2 others",
+        "NHIC DME MAC)/V, +4 others",
+        "Novitas Solutions(PM)/V, WPS Tric...",
+        "Upmc Healthcare",
+        "UHC CHOICE PLUS",
+        "1.NOVOTESTING/999999999"
+      ]
+    },
+    {
+      "label": "Problem",
+      "count": 6,
+      "sampleValues": [
+        "Abdominal pain, unspecified site",
+        "Abnormal findings on diagnostic imaging",
+        "Acne vulgaris",
+        "Acute myocarditis, unspecified",
+        "Urticaria",
+        "Autism"
+      ]
+    },
+    {
+      "label": "Ht",
+      "count": 6,
+      "sampleValues": [
+        "55 in.",
+        "63in",
+        "3 ft 3 ins",
+        "5 ft 7 ins",
+        "30.5 In",
+        "195.6 cm"
+      ]
+    },
+    {
+      "label": "Patient Name",
+      "count": 6,
+      "sampleValues": [
+        "Summer, Samm",
+        "Summer, Autumn P",
+        "Scotch, Barbie B",
+        "O'Reily, Mr. Bennigans",
+        "McTrotterson, Brownie",
+        "Cat, Grumpy"
+      ]
+    },
+    {
+      "label": "Alert",
+      "count": 5,
+      "sampleValues": [
+        "IN FLORIDA JAN THRU MAR",
+        "YEARLY PLAN MEMBER $1,000.",
+        "HEARING IMPAIRED",
+        "DNR",
+        "MICHELLE IS POA"
+      ]
+    },
+    {
+      "label": "Middle Name",
+      "count": 5,
+      "sampleValues": [
+        "Singh",
+        "James",
+        "C",
+        "B"
+      ]
+    },
+    {
+      "label": "Diagnosis",
+      "count": 5,
+      "sampleValues": [
+        "M54.5 Low back pain",
+        "12/16/2015: Breast Cancer - Stage IV",
+        "F10.150 Alcohol abuse with alcohol-induced psychotic disorder with delusions",
+        "Not Available",
+        "dry eye syndrome of left lacrimal gland (H04.122)"
+      ]
+    },
+    {
+      "label": "Plan",
+      "count": 5,
+      "sampleValues": [
+        "BLUE CROSS OF CALIFORNIA",
+        "Medicare",
+        "Commercial",
+        "Blue Choice Value",
+        "Blue Cross California (Anthem BC CA)"
+      ]
+    },
+    {
+      "label": "Preferred Pharmacy",
+      "count": 5,
+      "sampleValues": [
+        "None",
+        "Wegmans #12 (24 hrs)",
+        "CVS 16411 IN TARGET",
+        "Walgreens Drug Store 01600 14720 N Kendall Dr Miami, Florida 33196-1481"
+      ]
+    },
+    {
+      "label": "Insurance Plan",
+      "count": 5,
+      "sampleValues": [
+        "Auto-24011",
+        "Oxford Freedom Plan",
+        "Blue Choice Value",
+        "Blue Choice",
+        "BCBS America Plan"
+      ]
+    },
+    {
+      "label": "Occupation",
+      "count": 5,
+      "sampleValues": [
+        "Writer",
+        "IT s...",
+        "Unemployed",
+        "Optician"
+      ]
+    },
+    {
+      "label": "Next Visit",
+      "count": 5,
+      "sampleValues": [
+        "05/28/19",
+        "Jun 07, 2024",
+        "May 14, 2024",
+        "12/28/2020",
+        "12/02/2020"
+      ]
+    },
+    {
+      "label": "Room",
+      "count": 5,
+      "sampleValues": [
+        "GN06",
+        "112",
+        "200-1",
+        "14"
+      ]
+    },
+    {
+      "label": "Employment Status",
+      "count": 5,
+      "sampleValues": [
+        "FULL-TIME",
+        "Unemployed",
+        "Employed Full-Time",
+        "Full Time",
+        "Employed Full Time"
+      ]
+    },
+    {
+      "label": "Apt. #",
+      "count": 5,
+      "sampleValues": [
+        "101",
+        "100",
+        "115"
+      ]
+    },
+    {
+      "label": "Insurance Provider",
+      "count": 4,
+      "sampleValues": [
+        "Sliding Fee 50 -Self pay",
+        "Health Share of Oregon",
+        "OXFORD HEALTH PLANS 6464984961-4664",
+        "Aetna"
+      ]
+    },
+    {
+      "label": "Work Phone",
+      "count": 4,
+      "sampleValues": [
+        "972-484-5501",
+        "(330) 758-1356",
+        "(555) 867-5309",
+        "(800) 555-1212"
+      ]
+    },
+    {
+      "label": "Alerts",
+      "count": 4,
+      "sampleValues": [
+        "watch out, drug seeker",
+        "ACOG",
+        "HEAVY TOBACCO SMOKER.[428071000124103], CURRENT SMOKER.[449868002], HOME HEALTH PATIENT , SMOKER",
+        "None"
+      ]
+    },
+    {
+      "label": "Chart #",
+      "count": 4,
+      "sampleValues": [
+        "#24914",
+        "147638",
+        "KM12345 - PJ"
+      ]
+    },
+    {
+      "label": "Phone",
+      "count": 4,
+      "sampleValues": [
+        "(927) 916-3000",
+        "(602) 628-2880"
+      ]
+    },
+    {
+      "label": "Employment",
+      "count": 4,
+      "sampleValues": [
+        "RE",
+        "Employed Full-Time",
+        "Not Employed",
+        "FULL TIME EM"
+      ]
+    },
+    {
+      "label": "Secondary Insurance",
+      "count": 4,
+      "sampleValues": [
+        "AETNA",
+        "BCBS ANTHEM HMO",
+        "BCBS",
+        "MHC-TEXAS"
+      ]
+    },
+    {
+      "label": "Location",
+      "count": 4,
+      "sampleValues": [
+        "New York",
+        "Co B4,1st flr, 112B",
+        "East 106-1"
+      ]
+    },
+    {
+      "label": "Zip",
+      "count": 4,
+      "sampleValues": [
+        "10022",
+        "28459",
+        "33433",
+        "91321"
+      ]
+    },
+    {
+      "label": "DOB",
+      "count": 4,
+      "sampleValues": [
+        "9/9/1959",
+        "7/7/1957",
+        "02/08/1994"
+      ]
+    },
+    {
+      "label": "Dx",
+      "count": 4,
+      "sampleValues": [
+        "Female breast cancer",
+        "CANCER OF THE COLON",
+        "Breast cancer"
+      ]
+    },
+    {
+      "label": "Ht/Wt/BSA",
+      "count": 4,
+      "sampleValues": [
+        "72 in / 130 lb / 1.73 m2",
+        "69 in / 160 lb / 1.88 m2",
+        "69 in / 136 lb / 1.73 m2"
+      ]
+    },
+    {
+      "label": "PRECAUTIONS",
+      "count": 4,
+      "sampleValues": [
+        "Fall precautions",
+        "None Ordered"
+      ]
+    },
+    {
+      "label": "Adverse Drug Reactions",
+      "count": 4,
+      "sampleValues": [
+        "Not available",
+        "Amoxicillin: PENICILLINS",
+        "penicillins, CODEINE SULFATE, PERCODAN REFORMULATED MAY 2009"
+      ]
+    },
+    {
+      "label": "Vitals",
+      "count": 3,
+      "sampleValues": [
+        "BP:51/34 Temp:51 F.O₂512 Pulse13",
+        "5'10\", 171 lbs, BP is 120/80, Heart Rate is 65 bpm and regular.",
+        "HT: 5'8\", WT: 127lb, BMI: 21.2"
+      ]
+    },
+    {
+      "label": "Soc Sec #",
+      "count": 3,
+      "sampleValues": [
+        "785-41-2563"
+      ]
+    },
+    {
+      "label": "Level of Care",
+      "count": 3,
+      "sampleValues": [
+        "Withdrawal Management",
+        "Residential - General (3)",
+        "Routine Home Care"
+      ]
+    },
+    {
+      "label": "Medical Problems",
+      "count": 3,
+      "sampleValues": [
+        "HTN",
+        "HTN, Chronic Renal Insufficiency",
+        "Caregiver annual health check"
+      ]
+    },
+    {
+      "label": "External ID",
+      "count": 3,
+      "sampleValues": [
+        "1",
+        "0192da90-6f7...",
+        "10"
+      ]
+    },
+    {
+      "label": "Hx",
+      "count": 3,
+      "sampleValues": [
+        "04/11/17",
+        "03/13/18",
+        "05/03/20"
+      ]
+    },
+    {
+      "label": "Med",
+      "count": 3,
+      "sampleValues": [
+        "04/11/17",
+        "03/13/18",
+        "11/15/20"
+      ]
+    },
+    {
+      "label": "Country",
+      "count": 3,
+      "sampleValues": [
+        "US - United States",
+        "United States"
+      ]
+    },
+    {
+      "label": "Drug Allergies",
+      "count": 3,
+      "sampleValues": [
+        "No Known Drug Allergies",
+        "Penicillin",
+        "Advil (Ibuprofen) oral tablet"
+      ]
+    },
+    {
+      "label": "A/c Resp",
+      "count": 3,
+      "sampleValues": [
+        "Anna Stevenson",
+        "Watson M Arrone",
+        "Stacy M Hermans"
+      ]
+    },
+    {
+      "label": "Account Balance",
+      "count": 3,
+      "sampleValues": [
+        "$0.00",
+        "$4,037.41",
+        "15.83"
+      ]
+    },
+    {
+      "label": "Emergency Contact Phone",
+      "count": 3,
+      "sampleValues": [
+        "(668) 668-1247",
+        "(704)744-8734",
+        "(772) 555-1212"
+      ]
+    },
+    {
+      "label": "Pulse",
+      "count": 3,
+      "sampleValues": [
+        "50 BPM",
+        "86 BPM",
+        "80"
+      ]
+    },
+    {
+      "label": "Suffix",
+      "count": 3,
+      "sampleValues": [
+        "Mr"
+      ]
+    },
+    {
+      "label": "Program",
+      "count": 3,
+      "sampleValues": [
+        "Center City",
+        "SUD - Residential"
+      ]
+    },
+    {
+      "label": "Diagnoses",
+      "count": 3,
+      "sampleValues": [
+        "F14.99 Unspecified cocaine-related diso...",
+        "DIVERTICULITIS, GERD",
+        "Mirror movements,Rabbitpox,Snuffles in rabbits,Tea-makers' asthma"
+      ]
+    },
+    {
+      "label": "Chief Complaint",
+      "count": 3,
+      "sampleValues": [
+        "diabetes, sinus pain",
+        "Abdominal swelling",
+        "chest pain"
+      ]
+    },
+    {
+      "label": "Insurance Carrier",
+      "count": 3,
+      "sampleValues": [
+        "Insurance Carrier Unknown",
+        "Unknown",
+        "Blue Cross Blue Shiel..."
+      ]
+    },
+    {
+      "label": "Insurance Balance",
+      "count": 3,
+      "sampleValues": [
+        "$14440",
+        "$0.00",
+        "US$0.00"
+      ]
+    },
+    {
+      "label": "Patient Portal",
+      "count": 3,
+      "sampleValues": [
+        "Enrolled",
+        "Active",
+        "inactive"
+      ]
+    },
+    {
+      "label": "Nickname",
+      "count": 3,
+      "sampleValues": [
+        "Test",
+        "Ben"
+      ]
+    },
+    {
+      "label": "Formulary",
+      "count": 3,
+      "sampleValues": [
+        "None",
+        "Not entered"
+      ]
+    },
+    {
+      "label": "Current Meds",
+      "count": 3,
+      "sampleValues": [
+        "Zithromax Z-Pak 250 mg oral tablet, Flonase 0.05 mg/inh nasal spray, traZODONE 50 mg oral tablet, Zoloft 100 mg oral tablet",
+        "Lipitor 10 mg oral tablet\nLasix 20 mg oral tablet",
+        "Aspirin Oral, Calcium, Coumadin, Lasix, Lisinopril"
+      ]
+    },
+    {
+      "label": "RISK",
+      "count": 3,
+      "sampleValues": [
+        "0.09",
+        "HIGH RISK"
+      ]
+    },
+    {
+      "label": "Cell",
+      "count": 3,
+      "sampleValues": [
+        "(417) 888-4444",
+        "(888) 888-8888",
+        "7049086515"
+      ]
+    },
+    {
+      "label": "Patient ID",
+      "count": 3,
+      "sampleValues": [
+        "5564778",
+        "5568884",
+        "121212"
+      ]
+    },
+    {
+      "label": "Smoke",
+      "count": 3,
+      "sampleValues": [
+        "Current Some Day Smoker; Frequency: 6-10"
+      ]
+    },
+    {
+      "label": "Patient Ally ID",
+      "count": 3,
+      "sampleValues": [
+        "1210"
+      ]
+    },
+    {
+      "label": "Hobbies",
+      "count": 3,
+      "sampleValues": [
+        "Water & Snow Skiing",
+        "Golfing"
+      ]
+    },
+    {
+      "label": "NHS#",
+      "count": 2,
+      "sampleValues": [
+        "0123-345-6789",
+        "012-345-6789"
+      ]
+    },
+    {
+      "label": "Case",
+      "count": 2,
+      "sampleValues": [
+        "25478152",
+        "R Knee"
+      ]
+    },
+    {
+      "label": "Social",
+      "count": 2,
+      "sampleValues": [
+        "123-45-6789",
+        "999-99-4930"
+      ]
+    },
+    {
+      "label": "Pat. Type",
+      "count": 2,
+      "sampleValues": [
+        "V - VIP PTS",
+        "4 - YEARLY PLAN MEMBER"
+      ]
+    },
+    {
+      "label": "First Visit",
+      "count": 2,
+      "sampleValues": [
+        "03/15/2005",
+        "1/20/14"
+      ]
+    },
+    {
+      "label": "Financial Class",
+      "count": 2,
+      "sampleValues": [
+        "B1 - BLUE CROSS PRIMARY",
+        "HMO"
+      ]
+    },
+    {
+      "label": "Active Problem",
+      "count": 2,
+      "sampleValues": [
+        "Substance abuse",
+        "Cannabis abuse"
+      ]
+    },
+    {
+      "label": "Email address",
+      "count": 2,
+      "sampleValues": [
+        "johnjames72@gmail.com",
+        "vecnatest@vecnatest.com"
+      ]
+    },
+    {
+      "label": "Admitted",
+      "count": 2,
+      "sampleValues": [
+        "CMHC Leyden - MAT Program Jane",
+        "CMHC Intensive Outpatient 2.1 Annie"
+      ]
+    },
+    {
+      "label": "Medicare",
+      "count": 2,
+      "sampleValues": [
+        "SN3",
+        "Not Available"
+      ]
+    },
+    {
+      "label": "MRN",
+      "count": 2,
+      "sampleValues": [
+        "ABC - 944498",
+        "162"
+      ]
+    },
+    {
+      "label": "Special Needs",
+      "count": 2,
+      "sampleValues": [
+        "Hearing Impaired",
+        "hard of hearing"
+      ]
+    },
+    {
+      "label": "ACCT",
+      "count": 2,
+      "sampleValues": [
+        "27",
+        "A00045930"
+      ]
+    },
+    {
+      "label": "Patient Email",
+      "count": 2,
+      "sampleValues": [
+        "n/a"
+      ]
+    },
+    {
+      "label": "CoPay",
+      "count": 2,
+      "sampleValues": [
+        "$0.00",
+        "$40"
+      ]
+    },
+    {
+      "label": "Account Number",
+      "count": 2,
+      "sampleValues": [
+        "CH0000001053",
+        "5432"
+      ]
+    },
+    {
+      "label": "Last Exam Date",
+      "count": 2,
+      "sampleValues": [
+        "06/10/2021",
+        "12/3/2015"
+      ]
+    },
+    {
+      "label": "Emergency Contact Name",
+      "count": 2,
+      "sampleValues": [
+        "Jane",
+        "Robert Tanner"
+      ]
+    },
+    {
+      "label": "W",
+      "count": 2,
+      "sampleValues": [
+        "145"
+      ]
+    },
+    {
+      "label": "Balance Due",
+      "count": 2,
+      "sampleValues": [
+        "$171.6100",
+        "$151.01"
+      ]
+    },
+    {
+      "label": "Pain",
+      "count": 2,
+      "sampleValues": [
+        "5",
+        "7"
+      ]
+    },
+    {
+      "label": "Temp",
+      "count": 2,
+      "sampleValues": [
+        "101.8",
+        "98.6 F"
+      ]
+    },
+    {
+      "label": "Allergen",
+      "count": 2,
+      "sampleValues": [
+        "Eggs or Egg-derived Products"
+      ]
+    },
+    {
+      "label": "External MRN",
+      "count": 2,
+      "sampleValues": [
+        "003024885"
+      ]
+    },
+    {
+      "label": "Active Medications",
+      "count": 2,
+      "sampleValues": [
+        "Tylenol 200mg",
+        "Xanax"
+      ]
+    },
+    {
+      "label": "Funding Source",
+      "count": 2,
+      "sampleValues": [
+        "Insurance Only"
+      ]
+    },
+    {
+      "label": "Patient Alert",
+      "count": 2,
+      "sampleValues": [
+        "Afraid of needles.",
+        "Patient is very grumpy."
+      ]
+    },
+    {
+      "label": "Relationship",
+      "count": 2,
+      "sampleValues": [
+        "Self"
+      ]
+    },
+    {
+      "label": "Preferred Name",
+      "count": 2,
+      "sampleValues": [
+        "Dotty",
+        "WHC PT"
+      ]
+    },
+    {
+      "label": "Medication",
+      "count": 2,
+      "sampleValues": [
+        "Aspirin Children's Cherry 81 mg PO as directed",
+        "Atenolol-Chlorthalidone 100 mg-25 mg PO as directed"
+      ]
+    },
+    {
+      "label": "e-mail",
+      "count": 2,
+      "sampleValues": [
+        "CKREIS@ASP.MD",
+        "vn@practicesuite.com"
+      ]
+    },
+    {
+      "label": "Home Phone",
+      "count": 2,
+      "sampleValues": [
+        "(555) 867-5309",
+        "908-766-5608"
+      ]
+    },
+    {
+      "label": "Account",
+      "count": 2,
+      "sampleValues": [
+        "4-2",
+        "130"
+      ]
+    },
+    {
+      "label": "Day of stay",
+      "count": 2,
+      "sampleValues": [
+        "769",
+        "4510"
+      ]
+    },
+    {
+      "label": "Patient 1 Name",
+      "count": 2,
+      "sampleValues": [
+        "BRADFORD, JACKSON",
+        "ALVAREZ, PATIENT"
+      ]
+    },
+    {
+      "label": "Patient 2 Name",
+      "count": 2,
+      "sampleValues": [
+        "SHAW, STEPHANIE",
+        "COOPER, FREEDOM"
+      ]
+    },
+    {
+      "label": "Policy #",
+      "count": 2,
+      "sampleValues": [
+        "A1234567845",
+        "369"
+      ]
+    },
+    {
+      "label": "ER Status",
+      "count": 2,
+      "sampleValues": [
+        "Negative (-)",
+        "Negative"
+      ]
+    },
+    {
+      "label": "PR status",
+      "count": 2,
+      "sampleValues": [
+        "Negative (-)",
+        "Positive"
+      ]
+    },
+    {
+      "label": "Stage",
+      "count": 2,
+      "sampleValues": [
+        "Breast Cancer - Stage IIB (T2,N1b,M0,G1) ER=Positive,PR=Positive,HER2 IHC=Negative,Laterality=Right",
+        "IIIA"
+      ]
+    },
+    {
+      "label": "PMH",
+      "count": 2,
+      "sampleValues": [
+        "appenbectomy age 17",
+        "None per patient."
+      ]
+    },
+    {
+      "label": "Financial Balance",
+      "count": 2,
+      "sampleValues": [
+        "$0.00"
+      ]
+    },
+    {
+      "label": "Problem List",
+      "count": 2,
+      "sampleValues": [
+        "none",
+        "None per patient."
+      ]
+    },
+    {
+      "label": "Insurance ID",
+      "count": 2,
+      "sampleValues": [
+        "13839038",
+        "743737"
+      ]
+    },
+    {
+      "label": "Employed",
+      "count": 2,
+      "sampleValues": [
+        "Unemployed",
+        "FULL TIME EM"
+      ]
+    },
+    {
+      "label": "Monthly Income",
+      "count": 2,
+      "sampleValues": [
+        "$0.00",
+        "0.00"
+      ]
+    },
+    {
+      "label": "Sexual Orientation",
+      "count": 2,
+      "sampleValues": [
+        "Straight or heterosexual"
+      ]
+    },
+    {
+      "label": "Insurance Status",
+      "count": 2,
+      "sampleValues": [
+        "Medicaid/Medicare",
+        "PPO"
+      ]
+    },
+    {
+      "label": "Chart Number",
+      "count": 2,
+      "sampleValues": [
+        "KM12345"
+      ]
+    },
+    {
+      "label": "Narcotics",
+      "count": 2,
+      "sampleValues": [
+        "760"
+      ]
+    },
+    {
+      "label": "Stimulants",
+      "count": 2,
+      "sampleValues": [
+        "000"
+      ]
+    },
+    {
+      "label": "Sedatives",
+      "count": 2,
+      "sampleValues": [
+        "550"
+      ]
+    },
+    {
+      "label": "Overdose",
+      "count": 2,
+      "sampleValues": [
+        "670"
+      ]
+    },
+    {
+      "label": "Isolation",
+      "count": 2,
+      "sampleValues": [
+        "N"
+      ]
+    },
+    {
+      "label": "Allergies Summary",
+      "count": 2,
+      "sampleValues": [
+        "No Known Drug Allergies",
+        "penicillin, Zofran, Nutracort, Nutrilyte II, Nutropin..."
+      ]
+    },
+    {
+      "label": "Guarantor",
+      "count": 2,
+      "sampleValues": [
+        "Seema One",
+        "(self)"
+      ]
+    },
+    {
+      "label": "Primary Ins.",
+      "count": 2,
+      "sampleValues": [
+        "BCBS",
+        "Medicare"
+      ]
+    },
+    {
+      "label": "Middle Initial",
+      "count": 2,
+      "sampleValues": [
+        "A",
+        "D"
+      ]
+    },
+    {
+      "label": "Insurer",
+      "count": 2,
+      "sampleValues": [
+        "ANTHEM BC CALIFORNIA"
+      ]
+    },
+    {
+      "label": "Billing#",
+      "count": 2,
+      "sampleValues": [
+        "A000000011"
+      ]
+    },
+    {
+      "label": "ABO/Rh",
+      "count": 2,
+      "sampleValues": [
+        "O"
+      ]
+    },
+    {
+      "label": "Appointment",
+      "count": 2,
+      "sampleValues": [
+        "Smith, John Jr",
+        "Connor, Jonathan"
+      ]
+    },
+    {
+      "label": "Active",
+      "count": 2,
+      "sampleValues": [
+        "Yes",
+        "Jim Raynor (4)"
+      ]
+    },
+    {
+      "label": "Health insurance",
+      "count": 2,
+      "sampleValues": [
+        "Self Pay",
+        "Anthem BCBS"
+      ]
+    },
+    {
+      "label": "Client Status",
+      "count": 2,
+      "sampleValues": [
+        "Active Census",
+        "Discharged"
+      ]
+    },
+    {
+      "label": "Admit Number",
+      "count": 2,
+      "sampleValues": [
+        "1 - 70",
+        "2 - 6795"
+      ]
+    },
+    {
+      "label": "Apartment",
+      "count": 2,
+      "sampleValues": [
+        "Apt. #: 101",
+        "101"
+      ]
+    },
+    {
+      "label": "Allergies Date",
+      "count": 2,
+      "sampleValues": [
+        "12/1/2023 1:34 AM"
+      ]
+    },
+    {
+      "label": "ACCT#",
+      "count": 2,
+      "sampleValues": [
+        "20160224-0011",
+        "6003215"
+      ]
+    },
+    {
+      "label": "Known As",
+      "count": 2,
+      "sampleValues": [
+        "Jimmy",
+        "Robby"
+      ]
+    },
+    {
+      "label": "Work Information",
+      "count": 2,
+      "sampleValues": [
+        "manager Retired"
+      ]
+    },
+    {
+      "label": "Client",
+      "count": 2,
+      "sampleValues": [
+        "Rowena Acacianna",
+        "Ricky Bobby"
+      ]
+    },
+    {
+      "label": "Second Ins",
+      "count": 2,
+      "sampleValues": [
+        "Medicare"
+      ]
+    },
+    {
+      "label": "Insurance Name/ID",
+      "count": 2,
+      "sampleValues": [
+        "Not Available/9E45K29AA02",
+        "Medicare / EG43FE5MA23"
+      ]
+    },
+    {
+      "label": "PMS ID",
+      "count": 2,
+      "sampleValues": [
+        "155253333",
+        "0002832"
+      ]
+    },
+    {
+      "label": "Sticky Note",
+      "count": 2,
+      "sampleValues": [
+        "Patient's daughter (Denise) plays piano.",
+        "Patient's daughter (Emily) is a xylophonist."
+      ]
+    },
+    {
+      "label": "Primary Plan",
+      "count": 2,
+      "sampleValues": [
+        "Empire BCBS"
+      ]
+    },
+    {
+      "label": "Plan Balance",
+      "count": 2,
+      "sampleValues": [
+        "$ 540.00",
+        "$540.00"
+      ]
+    },
+    {
+      "label": "Referral",
+      "count": 2,
+      "sampleValues": [
+        "Benson,t Erry"
+      ]
+    },
+    {
+      "label": "HIPAA Release Authorization",
+      "count": 2,
+      "sampleValues": [
+        "~Jane Wilson Daughter, Entire Patient Record",
+        "-Jane Wilson Daughter, Entire Patient Record"
+      ]
+    },
+    {
+      "label": "Legal Name",
+      "count": 2,
+      "sampleValues": [
+        "Amy Foreman",
+        "Shirley Bishop"
+      ]
+    },
+    {
+      "label": "SSNum",
+      "count": 2,
+      "sampleValues": [
+        "119-87-9876",
+        "222-222-2222"
+      ]
+    },
+    {
+      "label": "Acct #",
+      "count": 2,
+      "sampleValues": [
+        "1086",
+        "1010"
+      ]
+    },
+    {
+      "label": "Phone Home",
+      "count": 2,
+      "sampleValues": [
+        "(805)283-9494",
+        "(626)303-1075"
+      ]
+    },
+    {
+      "label": "Patient Contacts",
+      "count": 2,
+      "sampleValues": [
+        "13 known",
+        "10 Known"
+      ]
+    },
+    {
+      "label": "Axis I",
+      "count": 1,
+      "sampleValues": [
+        "295.30 - Schizophrenia, Paranoid Type"
+      ]
+    },
+    {
+      "label": "Latex",
+      "count": 1,
+      "sampleValues": [
+        "Allergy"
+      ]
+    },
+    {
+      "label": "Milk Products",
+      "count": 1,
+      "sampleValues": [
+        "Intolerances"
+      ]
+    },
+    {
+      "label": "Prozac",
+      "count": 1,
+      "sampleValues": [
+        "Failed Trials"
+      ]
+    },
+    {
+      "label": "Isolation Precautions",
+      "count": 1,
+      "sampleValues": [
+        "None"
+      ]
+    },
+    {
+      "label": "Account #",
+      "count": 1,
+      "sampleValues": [
+        "998315"
+      ]
+    },
+    {
+      "label": "Owes",
+      "count": 1,
+      "sampleValues": [
+        "$0.00"
+      ]
+    },
+    {
+      "label": "Last XRay",
+      "count": 1,
+      "sampleValues": [
+        "01/19/2009"
+      ]
+    },
+    {
+      "label": "Flag",
+      "count": 1,
+      "sampleValues": [
+        "ATTENTION"
+      ]
+    },
+    {
+      "label": "Notes",
+      "count": 1,
+      "sampleValues": [
+        "MR AND BCBSMI"
+      ]
+    },
+    {
+      "label": "Preferred Method of Contact",
+      "count": 1,
+      "sampleValues": [
+        "CELL PHONE"
+      ]
+    },
+    {
+      "label": "Warnings",
+      "count": 1,
+      "sampleValues": [
+        "No narcotics. .."
+      ]
+    },
+    {
+      "label": "Registration Type",
+      "count": 1,
+      "sampleValues": [
+        "Normal"
+      ]
+    },
+    {
+      "label": "Religion",
+      "count": 1,
+      "sampleValues": [
+        "Hindu"
+      ]
+    },
+    {
+      "label": "Blood Group",
+      "count": 1,
+      "sampleValues": [
+        "A+"
+      ]
+    },
+    {
+      "label": "Patient Category",
+      "count": 1,
+      "sampleValues": [
+        "General Patients"
+      ]
+    },
+    {
+      "label": "Nationality",
+      "count": 1,
+      "sampleValues": [
+        "Indian"
+      ]
+    },
+    {
+      "label": "Hover Patient Name",
+      "count": 1,
+      "sampleValues": [
+        "Lacny, Jay"
+      ]
+    },
+    {
+      "label": "Hover Patient DOB",
+      "count": 1,
+      "sampleValues": [
+        "01/01/1980"
+      ]
+    },
+    {
+      "label": "Scheduled Patient Name 2",
+      "count": 1,
+      "sampleValues": [
+        "Smith, Dave"
+      ]
+    },
+    {
+      "label": "Primary contact number",
+      "count": 1,
+      "sampleValues": [
+        "+201 987 8875"
+      ]
+    },
+    {
+      "label": "Dominant hand",
+      "count": 1,
+      "sampleValues": [
+        "Right"
+      ]
+    },
+    {
+      "label": "Medical Conditions",
+      "count": 1,
+      "sampleValues": [
+        "Diabetes"
+      ]
+    },
+    {
+      "label": "Diagnosis (ICD10)",
+      "count": 1,
+      "sampleValues": [
+        "M23.41 Loose body in knee, right knee"
+      ]
+    },
+    {
+      "label": "Unit Number",
+      "count": 1,
+      "sampleValues": [
+        "UN000002868"
+      ]
+    },
+    {
+      "label": "What is the patient's postal code?",
+      "count": 1,
+      "sampleValues": [
+        "50214"
+      ]
+    },
+    {
+      "label": "Insurance Comp.",
+      "count": 1,
+      "sampleValues": [
+        "PRIMARY PHYSI..."
+      ]
+    },
+    {
+      "label": "Relation",
+      "count": 1,
+      "sampleValues": [
+        "S/O PAT 1"
+      ]
+    },
+    {
+      "label": "CONTACT",
+      "count": 1,
+      "sampleValues": [
+        "Jargon, Carol"
+      ]
+    },
+    {
+      "label": "Immunizations",
+      "count": 1,
+      "sampleValues": [
+        "None"
+      ]
+    },
+    {
+      "label": "Prescription",
+      "count": 1,
+      "sampleValues": [
+        "None"
+      ]
+    },
+    {
+      "label": "Effective Date",
+      "count": 1,
+      "sampleValues": [
+        "02/08/2012"
+      ]
+    },
+    {
+      "label": "Diagnosis/Code",
+      "count": 1,
+      "sampleValues": [
+        "G12.21 - Amyotrophic lateral sclerosis"
+      ]
+    },
+    {
+      "label": "Care Status",
+      "count": 1,
+      "sampleValues": [
+        "Active"
+      ]
+    },
+    {
+      "label": "Screened Allergies",
+      "count": 1,
+      "sampleValues": [
+        "Penicillin (Advisory only, clinical judgment is required)"
+      ]
+    },
+    {
+      "label": "Mortality Likelihood",
+      "count": 1,
+      "sampleValues": [
+        "Low"
+      ]
+    },
+    {
+      "label": "Live Discharge Risk",
+      "count": 1,
+      "sampleValues": [
+        "Low"
+      ]
+    },
+    {
+      "label": "Loc",
+      "count": 1,
+      "sampleValues": [
+        "001"
+      ]
+    },
+    {
+      "label": "HIPAA Scan",
+      "count": 1,
+      "sampleValues": [
+        "12/20/13"
+      ]
+    },
+    {
+      "label": "HIPAA",
+      "count": 1,
+      "sampleValues": [
+        "06/04/09"
+      ]
+    },
+    {
+      "label": "Health Hx",
+      "count": 1,
+      "sampleValues": [
+        "12/03/14"
+      ]
+    },
+    {
+      "label": "Meds",
+      "count": 1,
+      "sampleValues": [
+        "10/31/14"
+      ]
+    },
+    {
+      "label": "Mother's First Name",
+      "count": 1,
+      "sampleValues": [
+        "Melia"
+      ]
+    },
+    {
+      "label": "Guardian's Name",
+      "count": 1,
+      "sampleValues": [
+        "Roy Test"
+      ]
+    },
+    {
+      "label": "PATIENT HISTORY",
+      "count": 1,
+      "sampleValues": [
+        "No significant past ocular history"
+      ]
+    },
+    {
+      "label": "Pt. Due",
+      "count": 1,
+      "sampleValues": [
+        "$0.00"
+      ]
+    },
+    {
+      "label": "Ins. Due",
+      "count": 1,
+      "sampleValues": [
+        "$0.00"
+      ]
+    },
+    {
+      "label": "Pri",
+      "count": 1,
+      "sampleValues": [
+        "Self Pay"
+      ]
+    },
+    {
+      "label": "Sec",
+      "count": 1,
+      "sampleValues": [
+        "Self Pay"
+      ]
+    },
+    {
+      "label": "Contact E-mail",
+      "count": 1,
+      "sampleValues": [
+        "doe@gmail.com"
+      ]
+    },
+    {
+      "label": "Admin Alert Notes",
+      "count": 1,
+      "sampleValues": [
+        "Balance collected"
+      ]
+    },
+    {
+      "label": "Gender Identity",
+      "count": 1,
+      "sampleValues": [
+        "she/her"
+      ]
+    },
+    {
+      "label": "Date of Birth",
+      "count": 1,
+      "sampleValues": [
+        "1950-01-16"
+      ]
+    },
+    {
+      "label": "Age",
+      "count": 1,
+      "sampleValues": [
+        "Age: 75"
+      ]
+    },
+    {
+      "label": "Primary Address",
+      "count": 1,
+      "sampleValues": [
+        "4770 Regent Blvd, Irvington, TX 75063"
+      ]
+    },
+    {
+      "label": "Secondary Address",
+      "count": 1,
+      "sampleValues": [
+        "1 Avon Street #306, New York, NY 10036"
+      ]
+    },
+    {
+      "label": "Preferred Language",
+      "count": 1,
+      "sampleValues": [
+        "English"
+      ]
+    },
+    {
+      "label": "Social Needs",
+      "count": 1,
+      "sampleValues": [
+        "food insecurity, housing instability, lack of transportation, financial assistance, safety concerns, social isolation, employment challenges, limited health literacy, and unmet legal needs"
+      ]
+    },
+    {
+      "label": "Dietary Restrictions",
+      "count": 1,
+      "sampleValues": [
+        "Vegeterian"
+      ]
+    },
+    {
+      "label": "Caretaker",
+      "count": 1,
+      "sampleValues": [
+        "Lucy Chen"
+      ]
+    },
+    {
+      "label": "Job Title",
+      "count": 1,
+      "sampleValues": [
+        "Executive Suite"
+      ]
+    },
+    {
+      "label": "Pt Diagnoses",
+      "count": 1,
+      "sampleValues": [
+        "Chest pain on breathing"
+      ]
+    },
+    {
+      "label": "Acct Num",
+      "count": 1,
+      "sampleValues": [
+        "CH000001053"
+      ]
+    },
+    {
+      "label": "Portal",
+      "count": 1,
+      "sampleValues": [
+        "Enrolled"
+      ]
+    },
+    {
+      "label": "Next of Kin",
+      "count": 1,
+      "sampleValues": [
+        "Combs, Evan (Brother) 513-555-1234"
+      ]
+    },
+    {
+      "label": "Person to Notify",
+      "count": 1,
+      "sampleValues": [
+        "Jones, Jennifer (Daughter) 781-775-5434"
+      ]
+    },
+    {
+      "label": "BSA",
+      "count": 1,
+      "sampleValues": [
+        "1.81m²"
+      ]
+    },
+    {
+      "label": "records count",
+      "count": 1,
+      "sampleValues": [
+        "2 records"
+      ]
+    },
+    {
+      "label": "Surgery",
+      "count": 1,
+      "sampleValues": [
+        "Collateral & Cruciate Repair"
+      ]
+    },
+    {
+      "label": "Preferred Contact Method",
+      "count": 1,
+      "sampleValues": [
+        "No Preference"
+      ]
+    },
+    {
+      "label": "Balance Alert",
+      "count": 1,
+      "sampleValues": [
+        "Patient has an insurance balance of $12,579.52."
+      ]
+    },
+    {
+      "label": "Group",
+      "count": 1,
+      "sampleValues": [
+        "Insurance Clients"
+      ]
+    },
+    {
+      "label": "Last Weight",
+      "count": 1,
+      "sampleValues": [
+        "160.0 Lbs"
+      ]
+    },
+    {
+      "label": "Last Height",
+      "count": 1,
+      "sampleValues": [
+        "5ft 10in"
+      ]
+    },
+    {
+      "label": "PCP",
+      "count": 1,
+      "sampleValues": [
+        "None"
+      ]
+    },
+    {
+      "label": "Prior Diagnosis",
+      "count": 1,
+      "sampleValues": [
+        "Diabetes Mellitus (Dis..."
+      ]
+    },
+    {
+      "label": "Prior Allergies",
+      "count": 1,
+      "sampleValues": [
+        "Bayer Aspirin::Undefined"
+      ]
+    },
+    {
+      "label": "Social History",
+      "count": 1,
+      "sampleValues": [
+        "Current every day smoker"
+      ]
+    },
+    {
+      "label": "Last reviewed by",
+      "count": 1,
+      "sampleValues": [
+        "Milan Anderson, MD [9/19/2017 9:28 am]"
+      ]
+    },
+    {
+      "label": "Pref. Loc",
+      "count": 1,
+      "sampleValues": [
+        "Oshkosh"
+      ]
+    },
+    {
+      "label": "Patient Credits",
+      "count": 1,
+      "sampleValues": [
+        "$0.00"
+      ]
+    },
+    {
+      "label": "Account Credits",
+      "count": 1,
+      "sampleValues": [
+        "$(100.00)"
+      ]
+    },
+    {
+      "label": "Chief Complaint / History",
+      "count": 1,
+      "sampleValues": [
+        "Injured in a car accident on Feb 21. Referred by PCP after complaints on continuing back pain."
+      ]
+    },
+    {
+      "label": "Blood Pressure",
+      "count": 1,
+      "sampleValues": [
+        "180/90"
+      ]
+    },
+    {
+      "label": "Care Program",
+      "count": 1,
+      "sampleValues": [
+        "NCQA"
+      ]
+    },
+    {
+      "label": "Vision Insurance",
+      "count": 1,
+      "sampleValues": [
+        "Davis Vision"
+      ]
+    },
+    {
+      "label": "Patient Since",
+      "count": 1,
+      "sampleValues": [
+        "01/26/2015"
+      ]
+    },
+    {
+      "label": "Primary/Insurance",
+      "count": 1,
+      "sampleValues": [
+        "BLUE CROSS BLUE SHIELD OF TEXAS"
+      ]
+    },
+    {
+      "label": "PolicyNumber",
+      "count": 1,
+      "sampleValues": [
+        "Y38838983"
+      ]
+    },
+    {
+      "label": "Auth#",
+      "count": 1,
+      "sampleValues": [
+        "19296AAB3U"
+      ]
+    },
+    {
+      "label": "Health Card",
+      "count": 1,
+      "sampleValues": [
+        "2083033346"
+      ]
+    },
+    {
+      "label": "Allergies Count",
+      "count": 1,
+      "sampleValues": [
+        "2"
+      ]
+    },
+    {
+      "label": "Conditions Count",
+      "count": 1,
+      "sampleValues": [
+        "3"
+      ]
+    },
+    {
+      "label": "Immunizations Count",
+      "count": 1,
+      "sampleValues": [
+        "6"
+      ]
+    },
+    {
+      "label": "Medications Count",
+      "count": 1,
+      "sampleValues": [
+        "3"
+      ]
+    },
+    {
+      "label": "Procedures Count",
+      "count": 1,
+      "sampleValues": [
+        "1"
+      ]
+    },
+    {
+      "label": "Family History Count",
+      "count": 1,
+      "sampleValues": [
+        "2"
+      ]
+    },
+    {
+      "label": "Social History Count",
+      "count": 1,
+      "sampleValues": [
+        "1"
+      ]
+    },
+    {
+      "label": "Temperature",
+      "count": 1,
+      "sampleValues": [
+        "97.0 F (Oral)"
+      ]
+    },
+    {
+      "label": "Height/Length",
+      "count": 1,
+      "sampleValues": [
+        "5' 8''"
+      ]
+    },
+    {
+      "label": "Room/Bed",
+      "count": 1,
+      "sampleValues": [
+        "1-B"
+      ]
+    },
+    {
+      "label": "ESI",
+      "count": 1,
+      "sampleValues": [
+        "2"
+      ]
+    },
+    {
+      "label": "Next Appt.",
+      "count": 1,
+      "sampleValues": [
+        "No Appointment"
+      ]
+    },
+    {
+      "label": "Headaches",
+      "count": 1,
+      "sampleValues": [
+        "Headaches"
+      ]
+    },
+    {
+      "label": "Insurance 1",
+      "count": 1,
+      "sampleValues": [
+        "Affinity Health Plan Medicare(4555533)"
+      ]
+    },
+    {
+      "label": "Insurance 2",
+      "count": 1,
+      "sampleValues": [
+        "HMA Inc.(34464555)"
+      ]
+    },
+    {
+      "label": "Plans",
+      "count": 1,
+      "sampleValues": [
+        "United Healthcare"
+      ]
+    },
+    {
+      "label": "Next Appt",
+      "count": 1,
+      "sampleValues": [
+        "None"
+      ]
+    },
+    {
+      "label": "Added",
+      "count": 1,
+      "sampleValues": [
+        "2/16/2021 10:12 AM"
+      ]
+    },
+    {
+      "label": "General Notes",
+      "count": 1,
+      "sampleValues": [
+        "joe's son"
+      ]
+    },
+    {
+      "label": "Insurance/Value Plan",
+      "count": 1,
+      "sampleValues": [
+        "Blue Choice Value"
+      ]
+    },
+    {
+      "label": "Client Allergies",
+      "count": 1,
+      "sampleValues": [
+        "No known history of drug allergy [situation]"
+      ]
+    },
+    {
+      "label": "Enrollment Program",
+      "count": 1,
+      "sampleValues": [
+        "Medication Management Start Date: 2019-01-01"
+      ]
+    },
+    {
+      "label": "Service Authorization",
+      "count": 1,
+      "sampleValues": [
+        "Payer Name Sandhills Center Authorized Visits: 23.00 Visits Used: 9.00"
+      ]
+    },
+    {
+      "label": "Pt. Acct #",
+      "count": 1,
+      "sampleValues": [
+        "31057870"
+      ]
+    },
+    {
+      "label": "Bill Patient",
+      "count": 1,
+      "sampleValues": [
+        "DEMO, CHRIS"
+      ]
+    },
+    {
+      "label": "Bill Patient DOB",
+      "count": 1,
+      "sampleValues": [
+        "1/1/1979 (Male)"
+      ]
+    },
+    {
+      "label": "Weight (lbs)",
+      "count": 1,
+      "sampleValues": [
+        "105.404"
+      ]
+    },
+    {
+      "label": "Duplicate Chart No",
+      "count": 1,
+      "sampleValues": [
+        "834"
+      ]
+    },
+    {
+      "label": "Duplicate Patient Name",
+      "count": 1,
+      "sampleValues": [
+        "Shaina M"
+      ]
+    },
+    {
+      "label": "Duplicate Patient Sex",
+      "count": 1,
+      "sampleValues": [
+        "Female"
+      ]
+    },
+    {
+      "label": "Duplicate Patient DOB",
+      "count": 1,
+      "sampleValues": [
+        "1987-08-15"
+      ]
+    },
+    {
+      "label": "Alerts / Directives",
+      "count": 1,
+      "sampleValues": [
+        "DNR / MRSA"
+      ]
+    },
+    {
+      "label": "Town",
+      "count": 1,
+      "sampleValues": [
+        "RICHY NORTH POLE"
+      ]
+    },
+    {
+      "label": "State ZIP",
+      "count": 1,
+      "sampleValues": [
+        "99999"
+      ]
+    },
+    {
+      "label": "Active Banner Patient",
+      "count": 1,
+      "sampleValues": [
+        "Davie, Carl (10/22/1938)"
+      ]
+    },
+    {
+      "label": "Tobacco",
+      "count": 1,
+      "sampleValues": [
+        "Denies Tobacco Use"
+      ]
+    },
+    {
+      "label": "G/P",
+      "count": 1,
+      "sampleValues": [
+        "G1P0,0,0,1"
+      ]
+    },
+    {
+      "label": "Adv Dir",
+      "count": 1,
+      "sampleValues": [
+        "No"
+      ]
+    },
+    {
+      "label": "IQHealth",
+      "count": 1,
+      "sampleValues": [
+        "No"
+      ]
+    },
+    {
+      "label": "Risk Priority",
+      "count": 1,
+      "sampleValues": [
+        "Level III - Low Priority"
+      ]
+    },
+    {
+      "label": "Food Allergies",
+      "count": 1,
+      "sampleValues": [
+        "Tree nuts, Eggs"
+      ]
+    },
+    {
+      "label": "Primary Diagnosis",
+      "count": 1,
+      "sampleValues": [
+        "Malignant neoplasm of prostate [19"
+      ]
+    },
+    {
+      "label": "Case Mgr",
+      "count": 1,
+      "sampleValues": [
+        "Addison"
+      ]
+    },
+    {
+      "label": "DNR Status",
+      "count": 1,
+      "sampleValues": [
+        "DNR"
+      ]
+    },
+    {
+      "label": "Initial Weight",
+      "count": 1,
+      "sampleValues": [
+        "78.4 kgs"
+      ]
+    },
+    {
+      "label": "Current Weight",
+      "count": 1,
+      "sampleValues": [
+        "78.4 kgs"
+      ]
+    },
+    {
+      "label": "Act. Allergies",
+      "count": 1,
+      "sampleValues": [
+        "Aspirin - Oral"
+      ]
+    },
+    {
+      "label": "Act. Problems",
+      "count": 1,
+      "sampleValues": [
+        "2-part disp fx of surg nk of l humer, subs for fx w nonunion, 2-part nondisplaced fracture of surgic..."
+      ]
+    },
+    {
+      "label": "Act. Meds",
+      "count": 1,
+      "sampleValues": [
+        "12 Hour Decongestant, Amoxicillin, Aspercreme, Cold & Allergy, Cold & Allergy Childrens, Fluvastatin..."
+      ]
+    },
+    {
+      "label": "Pref. Pharm.",
+      "count": 1,
+      "sampleValues": [
+        "CS 2010 PHARMACY, 7785 WESTMINSTER, WESTMINSTER, CA..."
+      ]
+    },
+    {
+      "label": "MO. Pharm.",
+      "count": 1,
+      "sampleValues": [
+        "CS AETNA RX HOME DELIVERY, 1600 SW 80TH TERRACE 2ND..."
+      ]
+    },
+    {
+      "label": "Ins. Plan",
+      "count": 1,
+      "sampleValues": [
+        "Insurance Plan Unknown"
+      ]
+    },
+    {
+      "label": "Most Recent Weight",
+      "count": 1,
+      "sampleValues": [
+        "209 lb (94.8 kg) (12/27/2019)"
+      ]
+    },
+    {
+      "label": "Blood Type",
+      "count": 1,
+      "sampleValues": [
+        "Unknown/Not Set"
+      ]
+    },
+    {
+      "label": "Payment Profile",
+      "count": 1,
+      "sampleValues": [
+        "Cash"
+      ]
+    },
+    {
+      "label": "Recorded",
+      "count": 1,
+      "sampleValues": [
+        "3/28/18 4:36 PM"
+      ]
+    },
+    {
+      "label": "Vitals Summary",
+      "count": 1,
+      "sampleValues": [
+        "29.5 in (21.45%) | 9.3 kg (29.22%)"
+      ]
+    },
+    {
+      "label": "Established Patient Percentage",
+      "count": 1,
+      "sampleValues": [
+        "80%"
+      ]
+    },
+    {
+      "label": "New Patient Percentage",
+      "count": 1,
+      "sampleValues": [
+        "20%"
+      ]
+    },
+    {
+      "label": "Balance Due Patient",
+      "count": 1,
+      "sampleValues": [
+        "$0.00"
+      ]
+    },
+    {
+      "label": "Balance Due Insurance",
+      "count": 1,
+      "sampleValues": [
+        "$0.00"
+      ]
+    },
+    {
+      "label": "Amount Due",
+      "count": 1,
+      "sampleValues": [
+        "$5780"
+      ]
+    },
+    {
+      "label": "Family Balance",
+      "count": 1,
+      "sampleValues": [
+        "$50"
+      ]
+    },
+    {
+      "label": "ORG",
+      "count": 1,
+      "sampleValues": [
+        "ADORG"
+      ]
+    },
+    {
+      "label": "Ht/Wt",
+      "count": 1,
+      "sampleValues": [
+        "152.4 cm / 68.1 kg"
+      ]
+    },
+    {
+      "label": "CrCl",
+      "count": 1,
+      "sampleValues": [
+        "AdjBW 86.7 ml/min   IBW 75.8 ml/min   ActBW 102.2 ml/min"
+      ]
+    },
+    {
+      "label": "Pharmacy1",
+      "count": 1,
+      "sampleValues": [
+        "WALGREENS DRUG STORE #12203"
+      ]
+    },
+    {
+      "label": "Form Patient Name",
+      "count": 1,
+      "sampleValues": [
+        "Agnes Smith"
+      ]
+    },
+    {
+      "label": "Form DOB",
+      "count": 1,
+      "sampleValues": [
+        "08/04/2017"
+      ]
+    },
+    {
+      "label": "Form Age",
+      "count": 1,
+      "sampleValues": [
+        "3 years old"
+      ]
+    },
+    {
+      "label": "Current Medications",
+      "count": 1,
+      "sampleValues": [
+        "Patient Takes No Rx Meds"
+      ]
+    },
+    {
+      "label": "Historian",
+      "count": 1,
+      "sampleValues": [
+        "Jann Whitley - Gu"
+      ]
+    },
+    {
+      "label": "Language",
+      "count": 1,
+      "sampleValues": [
+        "ENGLISH"
+      ]
+    },
+    {
+      "label": "Relationship Status",
+      "count": 1,
+      "sampleValues": [
+        "MARRIED"
+      ]
+    },
+    {
+      "label": "Education Level",
+      "count": 1,
+      "sampleValues": [
+        "COLLEGE GRADUATE"
+      ]
+    },
+    {
+      "label": "Severe Allergies",
+      "count": 1,
+      "sampleValues": [
+        "4"
+      ]
+    },
+    {
+      "label": "Abnormal Labs",
+      "count": 1,
+      "sampleValues": [
+        "18"
+      ]
+    },
+    {
+      "label": "Patient 1 Visit#",
+      "count": 1,
+      "sampleValues": [
+        "52184858126"
+      ]
+    },
+    {
+      "label": "Patient 1 Room",
+      "count": 1,
+      "sampleValues": [
+        "302-2"
+      ]
+    },
+    {
+      "label": "Patient 2 Visit#",
+      "count": 1,
+      "sampleValues": [
+        "45684858123"
+      ]
+    },
+    {
+      "label": "Patient 2 Room",
+      "count": 1,
+      "sampleValues": [
+        "302-2"
+      ]
+    },
+    {
+      "label": "Service",
+      "count": 1,
+      "sampleValues": [
+        "Assisted Living PC Level 2"
+      ]
+    },
+    {
+      "label": "Emergency",
+      "count": 1,
+      "sampleValues": [
+        "Flanagan, Kelley"
+      ]
+    },
+    {
+      "label": "Vaccine Status",
+      "count": 1,
+      "sampleValues": [
+        "Not Vaccinated"
+      ]
+    },
+    {
+      "label": "Lease",
+      "count": 1,
+      "sampleValues": [
+        "10349-1630703-22"
+      ]
+    },
+    {
+      "label": "Move In",
+      "count": 1,
+      "sampleValues": [
+        "05/26/2020"
+      ]
+    },
+    {
+      "label": "Billing",
+      "count": 1,
+      "sampleValues": [
+        "11630703 Singular Private Pay"
+      ]
+    },
+    {
+      "label": "Bill To",
+      "count": 1,
+      "sampleValues": [
+        "Flanagan, Bruce"
+      ]
+    },
+    {
+      "label": "Emergency Need",
+      "count": 1,
+      "sampleValues": [
+        "Bruce ambulates independently."
+      ]
+    },
+    {
+      "label": "Primary Insurance Name",
+      "count": 1,
+      "sampleValues": [
+        "STATE FARM"
+      ]
+    },
+    {
+      "label": "Primary Insurance Member Number",
+      "count": 1,
+      "sampleValues": [
+        "561121212"
+      ]
+    },
+    {
+      "label": "Member Id",
+      "count": 1,
+      "sampleValues": [
+        "88578132000"
+      ]
+    },
+    {
+      "label": "Privacy Policy",
+      "count": 1,
+      "sampleValues": [
+        "NOT SIGNED"
+      ]
+    },
+    {
+      "label": "Assignment of Benefits",
+      "count": 1,
+      "sampleValues": [
+        "NOT SIGNED"
+      ]
+    },
+    {
+      "label": "Primary Ins Policy #",
+      "count": 1,
+      "sampleValues": [
+        "07012014"
+      ]
+    },
+    {
+      "label": "Secondary Ins",
+      "count": 1,
+      "sampleValues": [
+        "Medicare B"
+      ]
+    },
+    {
+      "label": "First Insurance Plan Name",
+      "count": 1,
+      "sampleValues": [
+        "Amalgamated Life Washable Clo(Self)"
+      ]
+    },
+    {
+      "label": "First Policy Number",
+      "count": 1,
+      "sampleValues": [
+        "1546"
+      ]
+    },
+    {
+      "label": "Second Insurance Plan Name",
+      "count": 1,
+      "sampleValues": [
+        "Atlantis Health Plan (Spouse)"
+      ]
+    },
+    {
+      "label": "Stage group",
+      "count": 1,
+      "sampleValues": [
+        "IV"
+      ]
+    },
+    {
+      "label": "Current Disease Status",
+      "count": 1,
+      "sampleValues": [
+        "Distant metastases"
+      ]
+    },
+    {
+      "label": "HER2/neu (>= 3 or FISH+)",
+      "count": 1,
+      "sampleValues": [
+        "Positive (+)"
+      ]
+    },
+    {
+      "label": "Systemic Medications",
+      "count": 1,
+      "sampleValues": [
+        "AVASTIN; AVASTIN"
+      ]
+    },
+    {
+      "label": "Ophthalmic Medications",
+      "count": 1,
+      "sampleValues": [
+        "None"
+      ]
+    },
+    {
+      "label": "RR",
+      "count": 1,
+      "sampleValues": [
+        "14"
+      ]
+    },
+    {
+      "label": "Coverage / Relationship",
+      "count": 1,
+      "sampleValues": [
+        "Self"
+      ]
+    },
+    {
+      "label": "Sender",
+      "count": 1,
+      "sampleValues": [
+        "Marge Simpson"
+      ]
+    },
+    {
+      "label": "Insurance Group",
+      "count": 1,
+      "sampleValues": [
+        "9389039"
+      ]
+    },
+    {
+      "label": "Medical History",
+      "count": 1,
+      "sampleValues": [
+        "Dementia, hypothyr...DVT, occlusive left internal artery"
+      ]
+    },
+    {
+      "label": "Family Income",
+      "count": 1,
+      "sampleValues": [
+        "$0 - $10,000"
+      ]
+    },
+    {
+      "label": "Language at Home",
+      "count": 1,
+      "sampleValues": [
+        "English"
+      ]
+    },
+    {
+      "label": "Education",
+      "count": 1,
+      "sampleValues": [
+        "Unknown"
+      ]
+    },
+    {
+      "label": "Is client actively engaged with educational or vocational goals:",
+      "count": 1,
+      "sampleValues": [
+        "Unknown"
+      ]
+    },
+    {
+      "label": "Agency",
+      "count": 1,
+      "sampleValues": [
+        "First Call"
+      ]
+    },
+    {
+      "label": "Language Spoken At Home",
+      "count": 1,
+      "sampleValues": [
+        "English"
+      ]
+    },
+    {
+      "label": "Prior Involvement",
+      "count": 1,
+      "sampleValues": [
+        "N"
+      ]
+    },
+    {
+      "label": "Case ID",
+      "count": 1,
+      "sampleValues": [
+        "Case: 10095"
+      ]
+    },
+    {
+      "label": "Allg",
+      "count": 1,
+      "sampleValues": [
+        "Codeine"
+      ]
+    },
+    {
+      "label": "PMHx",
+      "count": 1,
+      "sampleValues": [
+        "CAD; GERD; High Cholesterol"
+      ]
+    },
+    {
+      "label": "Tobacco Status",
+      "count": 1,
+      "sampleValues": [
+        "HEAVY TOBACCO SMOKER.[428071000124103], CURRENT SMOKER.[449868002]"
+      ]
+    },
+    {
+      "label": "Genetic mother",
+      "count": 1,
+      "sampleValues": [
+        "MARY FOX"
+      ]
+    },
+    {
+      "label": "Genetic father",
+      "count": 1,
+      "sampleValues": [
+        "JOHN FOX"
+      ]
+    },
+    {
+      "label": "Medicare Policy Number",
+      "count": 1,
+      "sampleValues": [
+        "12345678912"
+      ]
+    },
+    {
+      "label": "VSP Policy Number",
+      "count": 1,
+      "sampleValues": [
+        "95135784511"
+      ]
+    },
+    {
+      "label": "Preferred Eye",
+      "count": 1,
+      "sampleValues": [
+        "Right"
+      ]
+    },
+    {
+      "label": "State/Prov",
+      "count": 1,
+      "sampleValues": [
+        "Wisconsin"
+      ]
+    },
+    {
+      "label": "Similar Patient Name",
+      "count": 1,
+      "sampleValues": [
+        "Johnson, Isabella"
+      ]
+    },
+    {
+      "label": "Similar Patient DOB",
+      "count": 1,
+      "sampleValues": [
+        "12/15/1976"
+      ]
+    },
+    {
+      "label": "Similar Patient MRN",
+      "count": 1,
+      "sampleValues": [
+        "4934553"
+      ]
+    },
+    {
+      "label": "Similar Patient Email",
+      "count": 1,
+      "sampleValues": [
+        "isabellajohnson@outlook.com"
+      ]
+    },
+    {
+      "label": "Patient Weight",
+      "count": 1,
+      "sampleValues": [
+        "0 kg"
+      ]
+    },
+    {
+      "label": "Current Pat. Status",
+      "count": 1,
+      "sampleValues": [
+        "Outpatient"
+      ]
+    },
+    {
+      "label": "ID Number",
+      "count": 1,
+      "sampleValues": [
+        "A786-C43-21-678-B"
+      ]
+    },
+    {
+      "label": "Remarks",
+      "count": 1,
+      "sampleValues": [
+        "HARD OF HEARING"
+      ]
+    },
+    {
+      "label": "Height (Inches)",
+      "count": 1,
+      "sampleValues": [
+        "69"
+      ]
+    },
+    {
+      "label": "Wgt (lbs, oz)",
+      "count": 1,
+      "sampleValues": [
+        "256"
+      ]
+    },
+    {
+      "label": "ReportNo",
+      "count": 1,
+      "sampleValues": [
+        "1707196"
+      ]
+    },
+    {
+      "label": "Selected Anatomy",
+      "count": 1,
+      "sampleValues": [
+        "1st metatarsal phalangeal joint"
+      ]
+    },
+    {
+      "label": "LDL",
+      "count": 1,
+      "sampleValues": [
+        "134 mg/dL"
+      ]
+    },
+    {
+      "label": "HBA1c",
+      "count": 1,
+      "sampleValues": [
+        "6.1 %"
+      ]
+    },
+    {
+      "label": "CCM Status",
+      "count": 1,
+      "sampleValues": [
+        "CCM"
+      ]
+    },
+    {
+      "label": "PHR Status",
+      "count": 1,
+      "sampleValues": [
+        "PHR"
+      ]
+    },
+    {
+      "label": "RPM Status",
+      "count": 1,
+      "sampleValues": [
+        "RPM"
+      ]
+    },
+    {
+      "label": "Problems",
+      "count": 1,
+      "sampleValues": [
+        "Hematuria"
+      ]
+    },
+    {
+      "label": "Total Balance",
+      "count": 1,
+      "sampleValues": [
+        "$ 291.99"
+      ]
+    },
+    {
+      "label": "Patient Due",
+      "count": 1,
+      "sampleValues": [
+        "$ -16.01"
+      ]
+    },
+    {
+      "label": "Last Pat. Pmt",
+      "count": 1,
+      "sampleValues": [
+        "$ 50.00 [02/23/2023]"
+      ]
+    },
+    {
+      "label": "Patient Notes",
+      "count": 1,
+      "sampleValues": [
+        "Follow your activity scedule"
+      ]
+    },
+    {
+      "label": "Med.Cat",
+      "count": 1,
+      "sampleValues": [
+        "Bundled Payment Program"
+      ]
+    },
+    {
+      "label": "EMR Alerts",
+      "count": 1,
+      "sampleValues": [
+        "Patient is very grumpy."
+      ]
+    },
+    {
+      "label": "Dietary",
+      "count": 1,
+      "sampleValues": [
+        "Vegetarian"
+      ]
+    },
+    {
+      "label": "High Risk",
+      "count": 1,
+      "sampleValues": [
+        "Suicidal risk"
+      ]
+    },
+    {
+      "label": "Patient 1 DOB",
+      "count": 1,
+      "sampleValues": [
+        "07/04/1989"
+      ]
+    },
+    {
+      "label": "Patient 2 DOB",
+      "count": 1,
+      "sampleValues": [
+        "01/15/1948"
+      ]
+    },
+    {
+      "label": "Patient 3 Name",
+      "count": 1,
+      "sampleValues": [
+        "AMILL, LINCOLN"
+      ]
+    },
+    {
+      "label": "Patient 3 DOB",
+      "count": 1,
+      "sampleValues": [
+        "06/29/1937"
+      ]
+    },
+    {
+      "label": "Wt/Ht",
+      "count": 1,
+      "sampleValues": [
+        "86.2 kg/185 cm"
+      ]
+    },
+    {
+      "label": "Coverage Plan",
+      "count": 1,
+      "sampleValues": [
+        "PBMX (NEW-MEX-R6)"
+      ]
+    },
+    {
+      "label": "Patient Portal Status",
+      "count": 1,
+      "sampleValues": [
+        "Enrolled"
+      ]
+    },
+    {
+      "label": "Disease Status",
+      "count": 1,
+      "sampleValues": [
+        "Evidence of local disease"
+      ]
+    },
+    {
+      "label": "TNM",
+      "count": 1,
+      "sampleValues": [
+        "pT1N1M0"
+      ]
+    },
+    {
+      "label": "Stage at Diagnosis",
+      "count": 1,
+      "sampleValues": [
+        "IIB"
+      ]
+    },
+    {
+      "label": "HER2 Status",
+      "count": 1,
+      "sampleValues": [
+        "Positive"
+      ]
+    },
+    {
+      "label": "Histology",
+      "count": 1,
+      "sampleValues": [
+        "Lobular"
+      ]
+    },
+    {
+      "label": "Funding",
+      "count": 1,
+      "sampleValues": [
+        "ACTIVE (GREEN)"
+      ]
+    },
+    {
+      "label": "Patient Comment",
+      "count": 1,
+      "sampleValues": [
+        "patient has hearing issues"
+      ]
+    },
+    {
+      "label": "Past Surgery",
+      "count": 1,
+      "sampleValues": [
+        "necklift"
+      ]
+    },
+    {
+      "label": "Referred By",
+      "count": 1,
+      "sampleValues": [
+        "Patient (Ree Bishop)"
+      ]
+    },
+    {
+      "label": "Established",
+      "count": 1,
+      "sampleValues": [
+        "4/9/2020"
+      ]
+    },
+    {
+      "label": "Has Triplets",
+      "count": 1,
+      "sampleValues": [
+        "John, Jessica, and Jack"
+      ]
+    },
+    {
+      "label": "Problem List Item 1",
+      "count": 1,
+      "sampleValues": [
+        "hyperlipidemia"
+      ]
+    },
+    {
+      "label": "Problem List Item 2",
+      "count": 1,
+      "sampleValues": [
+        "essential hypertension"
+      ]
+    },
+    {
+      "label": "Problem List Item 3",
+      "count": 1,
+      "sampleValues": [
+        "diabetes mellitus"
+      ]
+    },
+    {
+      "label": "Patient Note",
+      "count": 1,
+      "sampleValues": [
+        "Has a Cocker Spaniel named Sue"
+      ]
+    },
+    {
+      "label": "Employer",
+      "count": 1,
+      "sampleValues": [
+        "8th Wave Auto Parts"
+      ]
+    },
+    {
+      "label": "Allergies Warning",
+      "count": 1,
+      "sampleValues": [
+        "Patient drug allergies have not been reviewed."
+      ]
+    },
+    {
+      "label": "Practice",
+      "count": 1,
+      "sampleValues": [
+        "Fitzwilliam Darcy"
+      ]
+    },
+    {
+      "label": "Healthcare proxy",
+      "count": 1,
+      "sampleValues": [
+        "Fitzwilliam Darcy"
+      ]
+    },
+    {
+      "label": "Social/Family Notes",
+      "count": 1,
+      "sampleValues": [
+        "John has a wife with 4 adult children and 3 grandchildren. He enjoys golf, cycling, and he runs weekly."
+      ]
+    },
+    {
+      "label": "Pt. Insurance",
+      "count": 1,
+      "sampleValues": [
+        "BCBS"
+      ]
+    },
+    {
+      "label": "Pharm",
+      "count": 1,
+      "sampleValues": [
+        "CVS Pharmacy 10.6MU"
+      ]
+    },
+    {
+      "label": "Primary Pharm",
+      "count": 1,
+      "sampleValues": [
+        "VENICE FAMILY CLINIC"
+      ]
+    },
+    {
+      "label": "Ht (in)",
+      "count": 1,
+      "sampleValues": [
+        "54.00"
+      ]
+    },
+    {
+      "label": "Wt (lb)",
+      "count": 1,
+      "sampleValues": [
+        "130.00"
+      ]
+    },
+    {
+      "label": "G / P",
+      "count": 1,
+      "sampleValues": [
+        "2 P: 2, 0, 0, 2"
+      ]
+    },
+    {
+      "label": "Advanced Directive",
+      "count": 1,
+      "sampleValues": [
+        "LW(05/04/2016)"
+      ]
+    },
+    {
+      "label": "Intake Date",
+      "count": 1,
+      "sampleValues": [
+        "8/1/2014"
+      ]
+    },
+    {
+      "label": "Illness Date",
+      "count": 1,
+      "sampleValues": [
+        "8/1/2014"
+      ]
+    },
+    {
+      "label": "Social Security Number",
+      "count": 1,
+      "sampleValues": [
+        "133-80-5572"
+      ]
+    },
+    {
+      "label": "Student Status",
+      "count": 1,
+      "sampleValues": [
+        "Not a student"
+      ]
+    },
+    {
+      "label": "E-Mail Address",
+      "count": 1,
+      "sampleValues": [
+        "katie@procentive.com"
+      ]
+    },
+    {
+      "label": "Social Security Number (SSN)",
+      "count": 1,
+      "sampleValues": [
+        "123456789"
+      ]
+    },
+    {
+      "label": "Patient Consent For MedHx",
+      "count": 1,
+      "sampleValues": [
+        "Yes"
+      ]
+    },
+    {
+      "label": "Medical Alerts",
+      "count": 1,
+      "sampleValues": [
+        "5"
+      ]
+    },
+    {
+      "label": "Patient payment",
+      "count": 1,
+      "sampleValues": [
+        "None on record"
+      ]
+    },
+    {
+      "label": "Total Self Pay Balance",
+      "count": 1,
+      "sampleValues": [
+        "$0.00"
+      ]
+    },
+    {
+      "label": "Total Patient Balance",
+      "count": 1,
+      "sampleValues": [
+        "$0.00"
+      ]
+    },
+    {
+      "label": "Comorbid Dx",
+      "count": 1,
+      "sampleValues": [
+        "CHF; HTN; HL; PNA; Gout"
+      ]
+    },
+    {
+      "label": "SOC",
+      "count": 1,
+      "sampleValues": [
+        "09/23/2009"
+      ]
+    },
+    {
+      "label": "Admit No",
+      "count": 1,
+      "sampleValues": [
+        "70"
+      ]
+    },
+    {
+      "label": "Mobile",
+      "count": 1,
+      "sampleValues": [
+        "(704)984-2234"
+      ]
+    },
+    {
+      "label": "Work Status",
+      "count": 1,
+      "sampleValues": [
+        "Retired"
+      ]
+    },
+    {
+      "label": "Emergency Contact Relation",
+      "count": 1,
+      "sampleValues": [
+        "spouse"
+      ]
+    },
+    {
+      "label": "Allergy Severity",
+      "count": 1,
+      "sampleValues": [
+        "Moderate"
+      ]
+    },
+    {
+      "label": "Severity",
+      "count": 1,
+      "sampleValues": [
+        "Moderate"
+      ]
+    },
+    {
+      "label": "Organism",
+      "count": 1,
+      "sampleValues": [
+        "None"
+      ]
+    },
+    {
+      "label": "Pt Type",
+      "count": 1,
+      "sampleValues": [
+        "TEST PAT"
+      ]
+    },
+    {
+      "label": "Mobile Phone",
+      "count": 1,
+      "sampleValues": [
+        "608-555-2896"
+      ]
+    },
+    {
+      "label": "Bed",
+      "count": 1,
+      "sampleValues": [
+        "4B0201"
+      ]
+    },
+    {
+      "label": "Nick Name",
+      "count": 1,
+      "sampleValues": [
+        "Bobby"
+      ]
+    },
+    {
+      "label": "Active Allergies",
+      "count": 1,
+      "sampleValues": [
+        "No Active Allergies"
+      ]
+    },
+    {
+      "label": "Diet",
+      "count": 1,
+      "sampleValues": [
+        "NORMAL"
+      ]
+    },
+    {
+      "label": "Notation",
+      "count": 1,
+      "sampleValues": [
+        "GIVE MEDS WITH MILK"
+      ]
+    },
+    {
+      "label": "Resuscitation Status",
+      "count": 1,
+      "sampleValues": [
+        "DO NOT RESUSCITATE"
+      ]
+    },
+    {
+      "label": "Move In Date",
+      "count": 1,
+      "sampleValues": [
+        "01/01/2013"
+      ]
+    },
+    {
+      "label": "Payor Type",
+      "count": 1,
+      "sampleValues": [
+        "Private"
+      ]
+    },
+    {
+      "label": "Current Balance",
+      "count": 1,
+      "sampleValues": [
+        "$5,410.00"
+      ]
+    },
+    {
+      "label": "Client ID",
+      "count": 1,
+      "sampleValues": [
+        "4"
+      ]
+    },
+    {
+      "label": "Confidential Communication Preference",
+      "count": 1,
+      "sampleValues": [
+        "No Preference"
+      ]
+    },
+    {
+      "label": "Home Account",
+      "count": 1,
+      "sampleValues": [
+        "Daniel Whitney (Account # 1920)"
+      ]
+    },
+    {
+      "label": "Billing Account",
+      "count": 1,
+      "sampleValues": [
+        "Marjorie Whitney (Account # 4065)"
+      ]
+    },
+    {
+      "label": "Billing Account Email",
+      "count": 1,
+      "sampleValues": [
+        "mwhitney@abcde.com"
+      ]
+    },
+    {
+      "label": "PT Status",
+      "count": 1,
+      "sampleValues": [
+        "Active"
+      ]
+    },
+    {
+      "label": "Goes By",
+      "count": 1,
+      "sampleValues": [
+        "Kate"
+      ]
+    },
+    {
+      "label": "Current Medication",
+      "count": 1,
+      "sampleValues": [
+        "1. Amoxicillian 500mg 2x daily"
+      ]
+    },
+    {
+      "label": "PFH",
+      "count": 1,
+      "sampleValues": [
+        "No known history per patient."
+      ]
+    },
+    {
+      "label": "PSH",
+      "count": 1,
+      "sampleValues": [
+        "Married, intact home with one child. Nonsmoker, always. No Alcohol use since 2015. No Social Drug use always. Exercises daily."
+      ]
+    },
+    {
+      "label": "Collection",
+      "count": 1,
+      "sampleValues": [
+        "$499.00 for 384 days"
+      ]
+    },
+    {
+      "label": "Insurance / Copay",
+      "count": 1,
+      "sampleValues": [
+        "Amil $20 100%"
+      ]
+    },
+    {
+      "label": "Access",
+      "count": 1,
+      "sampleValues": [
+        "antecubital left - full access"
+      ]
+    },
+    {
+      "label": "Site",
+      "count": 1,
+      "sampleValues": [
+        "antecubital left"
+      ]
+    },
+    {
+      "label": "HMIS ID",
+      "count": 1,
+      "sampleValues": [
+        "pr549"
+      ]
+    },
+    {
+      "label": "Lunch Program",
+      "count": 1,
+      "sampleValues": [
+        "Not Indicated"
+      ]
+    },
+    {
+      "label": "Tablet Patient Name",
+      "count": 1,
+      "sampleValues": [
+        "SMITH, THEODORE A"
+      ]
+    },
+    {
+      "label": "Lead Source",
+      "count": 1,
+      "sampleValues": [
+        "Social"
+      ]
+    },
+    {
+      "label": "Referral Requirement",
+      "count": 1,
+      "sampleValues": [
+        "Referral Required"
+      ]
+    },
+    {
+      "label": "Patient Stage",
+      "count": 1,
+      "sampleValues": [
+        "Potential Patient"
+      ]
+    },
+    {
+      "label": "Images Found",
+      "count": 1,
+      "sampleValues": [
+        "31"
+      ]
+    },
+    {
+      "label": "Drawing Patient Account Number Label",
+      "count": 1,
+      "sampleValues": [
+        "DRAWING FOR PATIENT ACCOUNT NUMBER: 31"
+      ]
+    },
+    {
+      "label": "Eligibility",
+      "count": 1,
+      "sampleValues": [
+        "Yes"
+      ]
+    },
+    {
+      "label": "Patient Responsibility",
+      "count": 1,
+      "sampleValues": [
+        "$0.00"
+      ]
+    },
+    {
+      "label": "Patient",
+      "count": 1,
+      "sampleValues": [
+        "MARY BROWN"
+      ]
+    },
+    {
+      "label": "Cell #",
+      "count": 1,
+      "sampleValues": [
+        "(260) 437-0001"
+      ]
+    },
+    {
+      "label": "Comments",
+      "count": 1,
+      "sampleValues": [
+        "03-14-2010 Do not release info"
+      ]
+    },
+    {
+      "label": "PROTIME Clinical Note",
+      "count": 1,
+      "sampleValues": [
+        "PROTIME: On coumadin, increase weekly dose."
+      ]
+    },
+    {
+      "label": "Admission Date",
+      "count": 1,
+      "sampleValues": [
+        "04/09/2021"
+      ]
+    },
+    {
+      "label": "Primary Contact",
+      "count": 1,
+      "sampleValues": [
+        "Not Available"
+      ]
+    },
+    {
+      "label": "Secondary Contact",
+      "count": 1,
+      "sampleValues": [
+        "Not Available"
+      ]
+    },
+    {
+      "label": "Start of Care Date",
+      "count": 1,
+      "sampleValues": [
+        "12/01/2020"
+      ]
+    },
+    {
+      "label": "Emergency Contact Relationship",
+      "count": 1,
+      "sampleValues": [
+        "Self"
+      ]
+    },
+    {
+      "label": "Spouse / Parent Name",
+      "count": 1,
+      "sampleValues": [
+        "Tammy Sweet"
+      ]
+    },
+    {
+      "label": "Spouse / Parent Phone",
+      "count": 1,
+      "sampleValues": [
+        "(772) 567-0206"
+      ]
+    },
+    {
+      "label": "Estimated Discharge Date",
+      "count": 1,
+      "sampleValues": [
+        "NONE"
+      ]
+    },
+    {
+      "label": "Tentative Discharge Date",
+      "count": 1,
+      "sampleValues": [
+        "NONE"
+      ]
+    },
+    {
+      "label": "Clinical Trial Status",
+      "count": 1,
+      "sampleValues": [
+        "CLINICAL TRIAL PATIENT"
+      ]
+    },
+    {
+      "label": "Sticky Notes",
+      "count": 1,
+      "sampleValues": [
+        "Patient plays soccer on the weekends."
+      ]
+    },
+    {
+      "label": "Last Dilation",
+      "count": 1,
+      "sampleValues": [
+        "02/06/2019"
+      ]
+    },
+    {
+      "label": "Universal ID",
+      "count": 1,
+      "sampleValues": [
+        "100013364"
+      ]
+    },
+    {
+      "label": "Insured ID Number",
+      "count": 1,
+      "sampleValues": [
+        "WA46543-4645"
+      ]
+    },
+    {
+      "label": "Systolic Blood Pressure",
+      "count": 1,
+      "sampleValues": [
+        "119"
+      ]
+    },
+    {
+      "label": "Diastolic Blood Pressure",
+      "count": 1,
+      "sampleValues": [
+        "79"
+      ]
+    },
+    {
+      "label": "Wound Site",
+      "count": 1,
+      "sampleValues": [
+        "002 Left, Ankle"
+      ]
+    },
+    {
+      "label": "Schedule Status",
+      "count": 1,
+      "sampleValues": [
+        "Scheduled"
+      ]
+    },
+    {
+      "label": "Profession",
+      "count": 1,
+      "sampleValues": [
+        "Realestate."
+      ]
+    },
+    {
+      "label": "Marital Status",
+      "count": 1,
+      "sampleValues": [
+        "Married with 3 Children, 2 daughters and a Son"
+      ]
+    },
+    {
+      "label": "Student",
+      "count": 1,
+      "sampleValues": [
+        "NOT A STUDEN"
+      ]
+    },
+    {
+      "label": "Acc. Type",
+      "count": 1,
+      "sampleValues": [
+        "COLLECTION"
+      ]
+    },
+    {
+      "label": "Last Visit Date",
+      "count": 1,
+      "sampleValues": [
+        "10/17/2013"
+      ]
+    },
+    {
+      "label": "Employer Name",
+      "count": 1,
+      "sampleValues": [
+        "EX Consulting"
+      ]
+    },
+    {
+      "label": "Primary Next of Kin Name",
+      "count": 1,
+      "sampleValues": [
+        "John Smith"
+      ]
+    },
+    {
+      "label": "Primary Next of Kin Relationship",
+      "count": 1,
+      "sampleValues": [
+        "Spouse"
+      ]
+    },
+    {
+      "label": "External SSN",
+      "count": 1,
+      "sampleValues": [
+        "123-45-8745"
+      ]
+    },
+    {
+      "label": "HIS-ID",
+      "count": 1,
+      "sampleValues": [
+        "10130"
+      ]
+    },
+    {
+      "label": "POA Note",
+      "count": 1,
+      "sampleValues": [
+        "MICHELLE IS POA"
+      ]
+    },
+    {
+      "label": "Assessment Score",
+      "count": 1,
+      "sampleValues": [
+        "Minimal Depression"
+      ]
+    },
+    {
+      "label": "PHQ-9 Current Score",
+      "count": 1,
+      "sampleValues": [
+        "2"
+      ]
+    },
+    {
+      "label": "PHQ-9 Severity",
+      "count": 1,
+      "sampleValues": [
+        "Minimal Depression"
+      ]
+    },
+    {
+      "label": "HIPAA Consent",
+      "count": 1,
+      "sampleValues": [
+        "Consent Date: 08/15/2011"
+      ]
+    },
+    {
+      "label": "Recall",
+      "count": 1,
+      "sampleValues": [
+        "Annual Exam"
+      ]
+    },
+    {
+      "label": "Last exam",
+      "count": 1,
+      "sampleValues": [
+        "09/02/2012"
+      ]
+    },
+    {
+      "label": "Vision/Medical",
+      "count": 1,
+      "sampleValues": [
+        "EYEMED VISION CARE"
+      ]
+    },
+    {
+      "label": "SSN (LAST FOUR DIGITS)",
+      "count": 1,
+      "sampleValues": [
+        "123-123-123"
+      ]
+    },
+    {
+      "label": "SBE Prophylaxis Status",
+      "count": 1,
+      "sampleValues": [
+        "SBE Prophylaxis Required"
+      ]
+    },
+    {
+      "label": "SBE Prophylaxis Reason",
+      "count": 1,
+      "sampleValues": [
+        "Aortic Valve-Stenosis"
+      ]
+    },
+    {
+      "label": "Allergies Alert",
+      "count": 1,
+      "sampleValues": [
+        "Allergies: penicillin"
+      ]
+    },
+    {
+      "label": "Billing Note",
+      "count": 1,
+      "sampleValues": [
+        "Needs a payment plan. - DH"
+      ]
+    },
+    {
+      "label": "Search Result",
+      "count": 1,
+      "sampleValues": [
+        "BISHOP, SHIRLEY, 25 Jul 1991"
+      ]
+    },
+    {
+      "label": "Insurance Type",
+      "count": 1,
+      "sampleValues": [
+        "N/A"
+      ]
+    },
+    {
+      "label": "SURGERIES",
+      "count": 1,
+      "sampleValues": [
+        "foot injury"
+      ]
+    },
+    {
+      "label": "Est Ins",
+      "count": 1,
+      "sampleValues": [
+        "0.00"
+      ]
+    },
+    {
+      "label": "Est Pat",
+      "count": 1,
+      "sampleValues": [
+        "0.00"
+      ]
+    },
+    {
+      "label": "Create User - First Name",
+      "count": 1,
+      "sampleValues": [
+        "Jennifer"
+      ]
+    },
+    {
+      "label": "Create User - Last Name",
+      "count": 1,
+      "sampleValues": [
+        "Aniston"
+      ]
+    },
+    {
+      "label": "Create User - Date of Birth",
+      "count": 1,
+      "sampleValues": [
+        "12/11/1994"
+      ]
+    },
+    {
+      "label": "History",
+      "count": 1,
+      "sampleValues": [
+        "2 known"
+      ]
+    },
+    {
+      "label": "Advanced Directives",
+      "count": 1,
+      "sampleValues": [
+        "No known"
+      ]
+    },
+    {
+      "label": "Account ID",
+      "count": 1,
+      "sampleValues": [
+        "29"
+      ]
+    },
+    {
+      "label": "Responsible Party",
+      "count": 1,
+      "sampleValues": [
+        "Daniel Jones"
+      ]
+    },
+    {
+      "label": "Policy Member Number",
+      "count": 1,
+      "sampleValues": [
+        "832051730"
+      ]
+    },
+    {
+      "label": "NOV",
+      "count": 1,
+      "sampleValues": [
+        "PROCEDURE"
+      ]
+    }
+  ]
+}

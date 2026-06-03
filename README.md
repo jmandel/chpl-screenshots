@@ -1,4 +1,4 @@
-# EHR Screenshot Atlas
+# CHPL Screenshots
 
 Find real screenshots of certified EHR products, abstract patient/EHR context out
 of each with a vision model, and review/share the results.

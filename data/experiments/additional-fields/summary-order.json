@@ -1,0 +1,584 @@
+{
+  "category": "order",
+  "totalEntries": 99,
+  "distinctLabels": 80,
+  "labels": [
+    {
+      "label": "Drug Name",
+      "count": 4,
+      "sampleValues": [
+        "Amoxicillin 500mg oral tablet",
+        "Neosporin Neo To Go 1 %-0...",
+        "Tylenol 325 Mg Tablet",
+        "Bactrim 400 Mg-80 Mg Tablet"
+      ]
+    },
+    {
+      "label": "Pharmacy",
+      "count": 3,
+      "sampleValues": [
+        "#016 Fairfax VA Test UAT",
+        "CVS Caremark MAILSERVICE Pharmacy",
+        "Brooklyn @ Gates Pharmacy"
+      ]
+    },
+    {
+      "label": "Drug",
+      "count": 3,
+      "sampleValues": [
+        "Lipitor (atorvastatin) Tablet 10 mg",
+        "Singulair 10 mg tablet",
+        "12HR DECONGEST 120MG CAPLET"
+      ]
+    },
+    {
+      "label": "Order#",
+      "count": 3,
+      "sampleValues": [
+        "4007000000",
+        "20-1937"
+      ]
+    },
+    {
+      "label": "Medication",
+      "count": 3,
+      "sampleValues": [
+        "trazodone 100 mg tablet",
+        "trazodone 50 mg tablet",
+        "Ventolin HFA"
+      ]
+    },
+    {
+      "label": "Case Number",
+      "count": 2,
+      "sampleValues": [
+        "S23-570",
+        "S23-608"
+      ]
+    },
+    {
+      "label": "Lab Co.",
+      "count": 2,
+      "sampleValues": [
+        "Alliance Med (In-Hou...",
+        "Alliance Med"
+      ]
+    },
+    {
+      "label": "Fasting",
+      "count": 2,
+      "sampleValues": [
+        "Non-Fasting"
+      ]
+    },
+    {
+      "label": "Regimen",
+      "count": 2,
+      "sampleValues": [
+        "AC (DOXORubicin 60 mg/m2 /Cyclophosphamaphide 600 mg/m2) q 21 days x 4 cycles Followed by DOCEtaxel (100mg/m2) Q 21 days X 4 v:3.0",
+        "1 time per day"
+      ]
+    },
+    {
+      "label": "Start Date",
+      "count": 2,
+      "sampleValues": [
+        "4/30/2015",
+        "10/12/2019"
+      ]
+    },
+    {
+      "label": "Refills",
+      "count": 2,
+      "sampleValues": [
+        "Six",
+        "2"
+      ]
+    },
+    {
+      "label": "Code",
+      "count": 2,
+      "sampleValues": [
+        "97112",
+        "99422"
+      ]
+    },
+    {
+      "label": "Plan Id",
+      "count": 2,
+      "sampleValues": [
+        "Mediast_Nd_RA",
+        "Mediast_Ndl_RA"
+      ]
+    },
+    {
+      "label": "Study Description",
+      "count": 1,
+      "sampleValues": [
+        "MRI CERVICAL SPINE W/O CONTRAST"
+      ]
+    },
+    {
+      "label": "Study",
+      "count": 1,
+      "sampleValues": [
+        "MR CAROTID W/O & W/ CO..."
+      ]
+    },
+    {
+      "label": "Component",
+      "count": 1,
+      "sampleValues": [
+        "PT"
+      ]
+    },
+    {
+      "label": "Vaccine Due Now",
+      "count": 1,
+      "sampleValues": [
+        "Herpes Zoster"
+      ]
+    },
+    {
+      "label": "Recommended Date",
+      "count": 1,
+      "sampleValues": [
+        "12/31/2010"
+      ]
+    },
+    {
+      "label": "Document Name",
+      "count": 1,
+      "sampleValues": [
+        "Summary of Patient Chart / CCD.xml"
+      ]
+    },
+    {
+      "label": "Instrument(s)",
+      "count": 1,
+      "sampleValues": [
+        "EC-250 HL5 - C1 (1C297A158)"
+      ]
+    },
+    {
+      "label": "Tests Requested Selected",
+      "count": 1,
+      "sampleValues": [
+        "Histology"
+      ]
+    },
+    {
+      "label": "Spec Type",
+      "count": 1,
+      "sampleValues": [
+        "Surgical"
+      ]
+    },
+    {
+      "label": "Tissue / Description",
+      "count": 1,
+      "sampleValues": [
+        "ADRENAL GLAND RIGHT"
+      ]
+    },
+    {
+      "label": "Anesthesia Type",
+      "count": 1,
+      "sampleValues": [
+        "Gen..."
+      ]
+    },
+    {
+      "label": "Selected Protocol",
+      "count": 1,
+      "sampleValues": [
+        "Dexa Anterolateral"
+      ]
+    },
+    {
+      "label": "Medication 1",
+      "count": 1,
+      "sampleValues": [
+        "Alprazolam .25 MG Q6 hours PO"
+      ]
+    },
+    {
+      "label": "Medication 2",
+      "count": 1,
+      "sampleValues": [
+        "CLARITHROMYCIN 500 MG 1 TABLET PO BID QTY (0) zero Refills 0"
+      ]
+    },
+    {
+      "label": "Manufacturer",
+      "count": 1,
+      "sampleValues": [
+        "Luxottica"
+      ]
+    },
+    {
+      "label": "Brand",
+      "count": 1,
+      "sampleValues": [
+        "Anne Klein"
+      ]
+    },
+    {
+      "label": "Model",
+      "count": 1,
+      "sampleValues": [
+        "AK8064"
+      ]
+    },
+    {
+      "label": "Color",
+      "count": 1,
+      "sampleValues": [
+        "Black"
+      ]
+    },
+    {
+      "label": "Requisition No.",
+      "count": 1,
+      "sampleValues": [
+        "LC9405497"
+      ]
+    },
+    {
+      "label": "Accession No.",
+      "count": 1,
+      "sampleValues": [
+        "KW5410"
+      ]
+    },
+    {
+      "label": "Report Status",
+      "count": 1,
+      "sampleValues": [
+        "FINAL"
+      ]
+    },
+    {
+      "label": "Subject",
+      "count": 1,
+      "sampleValues": [
+        "Requisition (Chain Lab t..."
+      ]
+    },
+    {
+      "label": "Plan of Care - Selected 1",
+      "count": 1,
+      "sampleValues": [
+        "Cryotherapy"
+      ]
+    },
+    {
+      "label": "Plan of Care - Selected 2",
+      "count": 1,
+      "sampleValues": [
+        "Other"
+      ]
+    },
+    {
+      "label": "Lab Req#",
+      "count": 1,
+      "sampleValues": [
+        "3598B"
+      ]
+    },
+    {
+      "label": "Diag.",
+      "count": 1,
+      "sampleValues": [
+        "ECHOCARDIOGRAM"
+      ]
+    },
+    {
+      "label": "Document Type",
+      "count": 1,
+      "sampleValues": [
+        "Diagnostic test Report"
+      ]
+    },
+    {
+      "label": "Rx",
+      "count": 1,
+      "sampleValues": [
+        "Lipitor (atorvastatin) Tablet 10 mg"
+      ]
+    },
+    {
+      "label": "Consult #",
+      "count": 1,
+      "sampleValues": [
+        "10797"
+      ]
+    },
+    {
+      "label": "To Service",
+      "count": 1,
+      "sampleValues": [
+        "CARDIOLOGY"
+      ]
+    },
+    {
+      "label": "Sig",
+      "count": 1,
+      "sampleValues": [
+        "1 TAB ORAL at bedtime"
+      ]
+    },
+    {
+      "label": "Dispense",
+      "count": 1,
+      "sampleValues": [
+        "30 Tablet"
+      ]
+    },
+    {
+      "label": "Claim #",
+      "count": 1,
+      "sampleValues": [
+        "00204"
+      ]
+    },
+    {
+      "label": "Pri. Proc",
+      "count": 1,
+      "sampleValues": [
+        "99213"
+      ]
+    },
+    {
+      "label": "Document List",
+      "count": 1,
+      "sampleValues": [
+        "XrayHand 04/21/2012"
+      ]
+    },
+    {
+      "label": "Pending Medication",
+      "count": 1,
+      "sampleValues": [
+        "Lip Balm Base External Ointment"
+      ]
+    },
+    {
+      "label": "Outdate",
+      "count": 1,
+      "sampleValues": [
+        "04/10/2020 23:59"
+      ]
+    },
+    {
+      "label": "Product",
+      "count": 1,
+      "sampleValues": [
+        "*RC"
+      ]
+    },
+    {
+      "label": "Units(ordered,selected)",
+      "count": 1,
+      "sampleValues": [
+        "2 2"
+      ]
+    },
+    {
+      "label": "Requested",
+      "count": 1,
+      "sampleValues": [
+        "04/07/2020 14:09"
+      ]
+    },
+    {
+      "label": "XM",
+      "count": 1,
+      "sampleValues": [
+        "XMIS"
+      ]
+    },
+    {
+      "label": "Total",
+      "count": 1,
+      "sampleValues": [
+        "$8,455.00"
+      ]
+    },
+    {
+      "label": "Diagnoses & Orders Search",
+      "count": 1,
+      "sampleValues": [
+        "skin tag"
+      ]
+    },
+    {
+      "label": "Drug NDC",
+      "count": 1,
+      "sampleValues": [
+        "11673005860"
+      ]
+    },
+    {
+      "label": "Test",
+      "count": 1,
+      "sampleValues": [
+        "CXR PA and Lat"
+      ]
+    },
+    {
+      "label": "Reason",
+      "count": 1,
+      "sampleValues": [
+        "chest pain"
+      ]
+    },
+    {
+      "label": "Dx",
+      "count": 1,
+      "sampleValues": [
+        "J09.X1 - Influenza due to identified novel influenza A virus with pneumonia"
+      ]
+    },
+    {
+      "label": "Selected Drug",
+      "count": 1,
+      "sampleValues": [
+        "METHIMAZOLE 5MG TABLETS"
+      ]
+    },
+    {
+      "label": "Claim ID",
+      "count": 1,
+      "sampleValues": [
+        "92875"
+      ]
+    },
+    {
+      "label": "Accession",
+      "count": 1,
+      "sampleValues": [
+        "160219 CH 65356"
+      ]
+    },
+    {
+      "label": "Collection Time",
+      "count": 1,
+      "sampleValues": [
+        "0320 28 Apr 2016"
+      ]
+    },
+    {
+      "label": "Pharmacy Note",
+      "count": 1,
+      "sampleValues": [
+        "Do not do this until the Start Date"
+      ]
+    },
+    {
+      "label": "Qty",
+      "count": 1,
+      "sampleValues": [
+        "90"
+      ]
+    },
+    {
+      "label": "Medication Ordered",
+      "count": 1,
+      "sampleValues": [
+        "Zithromax 250 mg tablet 250 mg Table"
+      ]
+    },
+    {
+      "label": "Lab Ordered",
+      "count": 1,
+      "sampleValues": [
+        "Chest X-Ray"
+      ]
+    },
+    {
+      "label": "Lab#",
+      "count": 1,
+      "sampleValues": [
+        "78362"
+      ]
+    },
+    {
+      "label": "Energy",
+      "count": 1,
+      "sampleValues": [
+        "6.0 X"
+      ]
+    },
+    {
+      "label": "Dose Rate",
+      "count": 1,
+      "sampleValues": [
+        "600 MU/min"
+      ]
+    },
+    {
+      "label": "Treatment Orientation",
+      "count": 1,
+      "sampleValues": [
+        "HFS"
+      ]
+    },
+    {
+      "label": "Diagnosis",
+      "count": 1,
+      "sampleValues": [
+        "H10.33 (372.00)"
+      ]
+    },
+    {
+      "label": "Last Order Diagnosis Order No",
+      "count": 1,
+      "sampleValues": [
+        "2142"
+      ]
+    },
+    {
+      "label": "Order date",
+      "count": 1,
+      "sampleValues": [
+        "08/30/2011"
+      ]
+    },
+    {
+      "label": "Order type",
+      "count": 1,
+      "sampleValues": [
+        "Spectacle Lens"
+      ]
+    },
+    {
+      "label": "Pharmaceuticals",
+      "count": 1,
+      "sampleValues": [
+        "Tropicamide 1.0%"
+      ]
+    },
+    {
+      "label": "Total Rx",
+      "count": 1,
+      "sampleValues": [
+        "10 total Rx"
+      ]
+    },
+    {
+      "label": "Invoice ID",
+      "count": 1,
+      "sampleValues": [
+        "627"
+      ]
+    },
+    {
+      "label": "CPT Code",
+      "count": 1,
+      "sampleValues": [
+        "90791"
+      ]
+    }
+  ]
+}

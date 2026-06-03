@@ -25,11 +25,8 @@ You are a specialized medical data abstraction assistant. Your task is to analyz
    - **Date of birth:** often labeled "DOB", "D.O.B.", "Born", "Birth Date".
      Normalize to `YYYY-MM-DD`.
    - **Age:** capture as displayed (e.g. "45 y", "45 yo", "6 mo", "3 wks").
-   - **Sex / gender:** administrative or legal sex as shown (e.g. "M", "F",
-     "Male", "Female"); if a separate gender identity / pronouns are shown,
-     capture them in `genderIdentity`.
-   - **Other banner demographics, if present:** address, phone, marital status,
-     preferred language, race, ethnicity. Only record what is explicitly shown.
+   - **Sex:** administrative or legal sex as shown (e.g. "M", "F", "Male", "Female").
+   - **Other banner demographics, if present:** address, phone. Only record what is explicitly shown.
 4. **Extract Encounter Details:**
    - Locate the encounter, visit, or admission date (often labeled as "Date", "Enc Date", "DOS", "Date of Service", etc.). Normalize this date to `YYYY-MM-DD` format.
    - Look for fields indicating the type of visit, session, or evaluation (e.g., "Visit Type", "Encounter Class", "Status").
@@ -139,10 +136,6 @@ You are a specialized medical data abstraction assistant. Your task is to analyz
           "type": ["string", "null"],
           "description": "Administrative/legal sex as shown (e.g. M, F, Male, Female)."
         },
-        "genderIdentity": {
-          "type": ["string", "null"],
-          "description": "Gender identity or pronouns, if shown separately from sex."
-        },
         "address": {
           "type": ["string", "null"],
           "description": "Patient address if visible in the banner."
@@ -150,22 +143,6 @@ You are a specialized medical data abstraction assistant. Your task is to analyz
         "phone": {
           "type": ["string", "null"],
           "description": "Patient phone number if visible."
-        },
-        "maritalStatus": {
-          "type": ["string", "null"],
-          "description": "Marital status if visible."
-        },
-        "preferredLanguage": {
-          "type": ["string", "null"],
-          "description": "Preferred language if visible."
-        },
-        "race": {
-          "type": ["string", "null"],
-          "description": "Race if visible."
-        },
-        "ethnicity": {
-          "type": ["string", "null"],
-          "description": "Ethnicity if visible."
         }
       },
       "required": ["patientId", "name"]

@@ -67,15 +67,17 @@ function parseArgs(argv: string[]) {
   let n = 10;
   let force = false;
   let out = NDJSON;
+  let debug = false;
   const files: string[] = [];
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === "--n") n = Number(argv[++i]);
     else if (a === "--force" || a === "-f") force = true;
     else if (a === "--out") out = argv[++i];
+    else if (a === "--debug") debug = true;
     else files.push(a);
   }
-  return { n, force, files, out };
+  return { n, force, files, out, debug };
 }
 
 /** Round-robin across vendor dirs for a diverse default selection. */
@@ -110,7 +112,7 @@ function alreadyDone(path: string): Set<string> {
 }
 
 async function main() {
-  const { n, force, files, out } = parseArgs(Bun.argv.slice(2));
+  const { n, force, files, out, debug } = parseArgs(Bun.argv.slice(2));
   const targets = files.length ? files : await defaultScreenshots(n);
   const done = force ? new Set<string>() : alreadyDone(out);
   mkdirSync(dirname(out), { recursive: true });
@@ -124,7 +126,7 @@ async function main() {
     if (done.has(rel)) { console.log(`· skip (already done) ${rel}`); skipped++; continue; }
 
     try {
-      const res = await abstractScreenshot(file);
+      const res = await abstractScreenshot(file, { debug });
       const price = priceFor(res.model, res.usage.inputTokens, res.usage.outputTokens);
       const record = {
         ts: new Date().toISOString(),
