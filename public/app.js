@@ -190,7 +190,8 @@ async function showReport() {
     </div>`).join("");
 
   body.innerHTML = `
-    <div class="rpt-head"><h2>Coverage report</h2><button class="btn" id="reportBack">&larr; List</button></div>
+    <div class="rpt-head"><h2>CHPL Screenshots — coverage report</h2><button class="btn" id="reportBack">&larr; List</button></div>
+    <p class="rpt-intro">A catalog of real screenshots of <b>certified EHR products</b> (from ONC's <a href="https://chpl.healthit.gov" target="_blank" rel="noreferrer">CHPL</a>). For each developer we hunt genuine product screenshots and use a vision model (Gemini 3.5 Flash) to abstract the <b>patient-identity banner</b> — who the patient is and the immediate visit/provider context — with bounding boxes. <a href="https://github.com/jmandel/chpl-screenshots" target="_blank" rel="noreferrer">Source, pipeline &amp; docs on GitHub →</a></p>
     <div class="rpt-tiles">
       <div class="rpt-tile"><div class="rt-num">${d.vendors.attempted}</div><div class="rt-lbl">developers (vendors) tried</div></div>
       <div class="rpt-tile good clickable" ${FF({})}><div class="rt-num">${d.vendors.withScreenshots}</div><div class="rt-lbl">developers with screenshots · ${pct}%</div></div>
