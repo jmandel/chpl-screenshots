@@ -1,0 +1,30 @@
+{
+  "vendor": "DrFirst",
+  "product": "Rcopia",
+  "website": "http://www.drfirst.com",
+  "slug": "drfirst",
+  "source": "brave-image-search",
+  "captured": "2026-06-03",
+  "images": [
+    {
+      "file": "01-rcopia-patient-meds-johndoe.png",
+      "sourceUrl": "https://emrfinder.com/wp-content/uploads/2017/12/Rcopia-MU-ePrescribing-EMR-Software-System-Details.webp",
+      "description": "Rcopia ePrescribing view with header nav and patient banner (John Doe, DOB), medication/prescription work area"
+    },
+    {
+      "file": "02-rcopia-patient-meds-janedoe.png",
+      "sourceUrl": "https://emrfinder.com/wp-content/uploads/2017/12/Rcopia-MU-ePrescribing-EMR-Software-System-Prescription.webp",
+      "description": "Rcopia prescription management view with patient banner (Jane Doe, DOB) and active medications list"
+    },
+    {
+      "file": "03-rcopia-prescription-entry.png",
+      "sourceUrl": "https://emrfinder.com/wp-content/uploads/2017/12/Rcopia-MU-ePrescribing-EMR-Software-System-Information.webp",
+      "description": "Rcopia new prescription entry form with patient banner (Jane Doe) and provider/pharmacy fields"
+    },
+    {
+      "file": "04-rcopia-prescription-preview.png",
+      "sourceUrl": "https://emrfinder.com/wp-content/uploads/2017/12/Rcopia-MU-ePrescribing-EMR-Software-System-Receipt.webp",
+      "description": "Rcopia prescription review/preview with patient banner (Jane Doe, DOB) and prescription detail panel"
+    }
+  ]
+}

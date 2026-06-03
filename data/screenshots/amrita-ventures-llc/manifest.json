@@ -1,0 +1,15 @@
+{
+  "vendor": "Amrita Ventures, LLC",
+  "product": "Amrita Hospital Information System",
+  "website": "http://www.amritamedical.com",
+  "slug": "amrita-ventures-llc",
+  "capturedBy": "cheap-pass-brave-images",
+  "date": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-patient-registration.png",
+      "sourceUrl": "https://res.cloudinary.com/softwarebatao-com/image/upload/c_scale,w_1200,c_limit/v1550137913/1485598876-1457169627-ahisss-amritapng.png.jpg",
+      "description": "Amrita HMIS New Patient Registration screen: app header 'Hospital Management Information System / Powered By Amrita HMIS', top nav (Registration, Masters, Appointment, RADT Masters, Bed Admin, Patient Service, FIC, Visit, IP Patients, Insurance, Report), and patient demographics form (Title Sri., First Name Ram, Last Name Kumar, DOB 20/08/1973, Age 36, Sex Male, Religion Hindu, address Amritapuri, Kerala)."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "vendor": "ModuleMD",
+  "product": "ModuleMD WISE™",
+  "website": "http://www.modulemd.com",
+  "slug": "modulemd",
+  "source": "brave-image-search (cheap pass)",
+  "capturedBy": "subagent",
+  "screenshots": [
+    {
+      "file": "01-patient-dashboard.png",
+      "desc": "ModuleMD WISE Patient Dashboard — full app (sidebar/menu + header toolbar + main work area) with patient banner (Lear, Curtis; Account #; Age; Gender), patient information, growth chart, lab test results, problems, current medications, drug allergies.",
+      "sourceUrl": "https://www.findemr.com/image/cachewebp/catalog/1product%20pic/ModuleMD/Patient-dashboard-600x375.webp"
+    },
+    {
+      "file": "02-patient-receipt.png",
+      "desc": "ModuleMD WISE Patient Receipt screen — full app view with patient banner (Sailor, David; Name; DOB; Patient Account #; Gender), office visit info, insurance, payment information.",
+      "sourceUrl": "https://www.findemr.com/image/cachewebp/catalog/1product%20pic/ModuleMD/Patient-receipt-600x375.webp"
+    },
+    {
+      "file": "03-charge-claim-entry.png",
+      "desc": "ModuleMD WISE charge/claim entry screen — full app with patient banner (Patty, Furniture Middle; Account #3; DOB 03/16/1968; Age; Sex M; Portal Y), provider fields, diagnosis/CPT charges table.",
+      "sourceUrl": "https://modulemd.com/wp-content/uploads/2025/02/ai-driven-icd-cpt.png"
+    },
+    {
+      "file": "04-appointment-schedule.png",
+      "desc": "ModuleMD WISE appointment scheduler — full app (header toolbar + provider/location sidebar + weekly calendar work area) with patient banner (Sailor, David).",
+      "sourceUrl": "https://www.findemr.com/image/cachewebp/catalog/1product%20pic/ModuleMD/Appointment-calendar-600x375.webp"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "vendor": "EHNOTE,INC",
+  "product": "EHNOTE",
+  "slug": "ehnote-inc",
+  "website": "https://www.ehnote.com",
+  "captured": "2026-06-03",
+  "source": "Brave image search (cheap pass)",
+  "screenshots": [
+    {
+      "file": "01-reception-appointment-list.png",
+      "desc": "Reception / appointment scheduling list with waiting-room counters, patient list (Albert Flores, Ralph Edwards, etc.) showing names, IDs, DOB, appointment status",
+      "source_url": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/9e558251-776b-44b8-91d6-f8d3bc799ba9.png",
+      "app_url_visible": "ehnotedev.azurewebsites.net"
+    },
+    {
+      "file": "02-consultation-template.png",
+      "desc": "Ophthalmology consultation screen with diagnosis/consultation template picker; patient banner Mr Jaydeep Parmar (EHN0000814)",
+      "source_url": "https://cdn.techjockey.com/web/assets/images/techjockey/products/screenshots/26854_Ehnoteehr.jpg",
+      "app_url_visible": "usdevehr.azurewebsites.net"
+    },
+    {
+      "file": "03-chief-complaints-exam.png",
+      "desc": "Chief Complaints / examination screen (contact lens acceptance, mini scleral parameters); patient banner Vinodh Kumar (PRO0502067), 25Y 0M Male",
+      "source_url": "https://cdn.techjockey.com/web/assets/images/techjockey/products/screenshots/26854_Ehnotecomplaints.jpg",
+      "app_url_visible": "dsc.ehnote.com"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "infor-med-medical-information-systems-inc",
+  "vendor": "Infor-Med Medical Information Systems Inc.",
+  "product": "Praxis EMR",
+  "website": "http://www.praxisemr.com/",
+  "source": "Brave image search (cheap pass)",
+  "found": 6,
+  "images": [
+    {
+      "file": "01-praxis-main-patient-sutliff.png",
+      "sourceUrl": "https://www.findemr.com/image/cachewebp/catalog/1product%20pic/Praxis%20EMR/praxis-main-patient-screen-res-600x375.webp",
+      "view": "Main patient chart",
+      "patient": "Sutliff, Maria 4 m.o. Female"
+    },
+    {
+      "file": "02-praxis-main-patient-imaginary-mary.png",
+      "sourceUrl": "https://www.praxisemr.com/images/patient-main-ehr-details-640.webp",
+      "view": "Main patient chart (modern UI, laptop frame)",
+      "patient": "Imaginary, Mary 54 y/o 03/17/1984 Female (M123)"
+    },
+    {
+      "file": "03-praxis-main-classic-problems.png",
+      "sourceUrl": "https://images.softwaresuggest.com/latest_screenshots/1512727692_Praxis%20EMR-doctor%20details.png",
+      "view": "Main patient chart (classic UI) with problem lists",
+      "patient": "Imaginary, Mary 35 y.o. Female (121ii)"
+    },
+    {
+      "file": "04-praxis-growth-chart-bmi.png",
+      "sourceUrl": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/4744baee-5339-474c-b854-427e463103c2.png",
+      "view": "Growth Chart (BMI percentiles)",
+      "patient": "Imaginary, Mary 24 y/o Female (M123)"
+    },
+    {
+      "file": "05-praxis-main-modern-open-charts.png",
+      "sourceUrl": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/b4cac949-5159-4260-93b3-a2b01339053e.png",
+      "view": "Main patient chart (modern UI) with open-charts sidebar",
+      "patient": "Imaginary, Mary 34 y/o 03/17/1984 Female (M123)"
+    },
+    {
+      "file": "06-praxis-new-visit-soap.png",
+      "sourceUrl": "https://emrsystems.net/wp-content/uploads/2025/11/Praxis-EMR-Software-Practice-Management-Software-Patient-New-Visit.webp",
+      "view": "New Visit / SOAP encounter (objective, assessment, plan)",
+      "patient": "Imaginary, Mary 71 y/o Female (4l37)"
+    }
+  ]
+}

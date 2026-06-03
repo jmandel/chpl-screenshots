@@ -1,0 +1,24 @@
+{
+  "vendor": "Sevocity, a division of Conceptual MindWorks, Inc",
+  "product": "Sevocity",
+  "website": "http://www.sevocity.com",
+  "slug": "sevocity-a-division-of-conceptual-mindworks-inc",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-vitals-past-vitals.png",
+      "description": "Sevocity v11.4 EHR full application view - Encounter > Vitals > Past Vitals flowsheet. Patient banner shows Eldduh, Eleanor, Female 52, DOB 10/18/1962, Account #1294507163149, allergies. Left navigation menu and top menu (Main/Tools/Reports/Help) visible.",
+      "source": "https://www.appvizer.fr/media/application/20041/screenshot/26450/sevocity-ehr-Sevocity-EHR-screenshot-0-Sevocity-EHR-screenshot-0.png"
+    },
+    {
+      "file": "02-note-display.png",
+      "description": "Sevocity v11.4 EHR full application view - Encounter > Note Display showing Social History, Allergies, Current Medications, Review of Systems. Same patient banner (Eldduh, Eleanor) and full app chrome.",
+      "source": "https://www.appvizer.fr/media/application/20041/screenshot/26452/sevocity-ehr-Sevocity-EHR-screenshot-2-Sevocity-EHR-screenshot-2.png"
+    },
+    {
+      "file": "03-coding-encounter.png",
+      "description": "Sevocity EHR full application view - Encounter > Coding screen with E/M coding components (History, Exam, Medical Decision Making). Same patient banner (Eldduh, Eleanor, DOB 10/18/1962) and full sidebar/header.",
+      "source": "https://emrfinder.com/wp-content/uploads/2017/09/Sevocity-EHR-and-patient-portal.jpg"
+    }
+  ]
+}

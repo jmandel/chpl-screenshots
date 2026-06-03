@@ -1,0 +1,19 @@
+{
+  "vendor": "Health Catalyst, Inc.",
+  "product": "Health Catalyst Connect Clinical Messaging",
+  "website": "https://www.healthcatalyst.com",
+  "slug": "health-catalyst-inc",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "images": [
+    {
+      "file": "01-patient-details-chart.png",
+      "sourceUrl": "https://cdn.prod.website-files.com/686d4fca96e4813b96758e56/6887c0945612fe78b8ad247f_patient-record-interop.png",
+      "description": "Health Catalyst patient chart application: Patient Details view with patient banner (Smith, John - Male, 53 Years - DOB 05/29/1970), demographics, left icon sidebar, header search, tabs (Visit History, Allergies, Medications, Diagnoses, Procedures, etc.), and visit-history table with MRN/Visit ID/Facility/Encounter Type/Diagnosis. Partly overlapped by a marketing photo in upper right."
+    },
+    {
+      "file": "02-patientsafetymonitor-risk-prediction.png",
+      "sourceUrl": "https://cdn.prod.website-files.com/686d4fca96e4813b96758e56/686d4fca96e4813b96759f05_6744a5866fbe065c997fff93_6706eb3a21f0543fa86edc9c_66f0ad3e0f2cd9571346413f_66f07850d11d188a99f8fd66_1-1.png",
+      "description": "Health Catalyst Patient Safety Monitor - Risk Prediction view. Full app: header tabs (Risk Prediction, Chart Review), facility selector, CLABSI/CAUTI/C.Diff counts, and patient rows with names (BRADFORD, JACKSON; SHAW, STEPHANIE), Visit#, Room, relative risk and modifiable risk factors."
+    }
+  ]
+}

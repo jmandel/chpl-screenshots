@@ -1,0 +1,21 @@
+{
+  "vendor": "VersaSuite",
+  "product": "VersaSuite",
+  "website": "https://www.versasuite.com",
+  "slug": "versasuite",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-assessment-plan.png",
+      "description": "VersaSuite EHR Assessment Plan view - full application: header logo (General Medicine), Tools button, tabbed navigation (Dashboard, CC + History + Vitals, Review of Systems, Images, Medications, Labs, Phys Notes, PE, Assessment Plan, Superbill, Problem List, Allergies), main work area with Dx categories, follow-ups, medications, labs. Patient banner: Labs, Mary T  DOB: Mar 28 1972  Age: 40  Sex: F.",
+      "sourceUrl": "https://versasuite.com/wp-content/uploads/2022/05/versasuite_ehr_assessment_plan-1.jpg",
+      "patient": "Labs, Mary T (DOB Mar 28 1972, Age 40, F) - demo patient"
+    },
+    {
+      "file": "02-labs.png",
+      "description": "VersaSuite EHR Labs view - full application: header logo, Tools button, tabbed navigation, lab orders table (Lab Name, Status, Date Ordered, Problem, Performing Org) and Results panel with CBC findings. Patient banner: Labs, Mary T  DOB: Mar 28 1972  Age: 40  Sex: F.",
+      "sourceUrl": "https://versasuite.com/wp-content/uploads/2022/05/versasuite_ehr_labs.jpg",
+      "patient": "Labs, Mary T (DOB Mar 28 1972, Age 40, F) - demo patient"
+    }
+  ]
+}

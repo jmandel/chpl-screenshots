@@ -1,0 +1,24 @@
+{
+  "vendor": "Doctorsoft Corporation",
+  "product": "Doctorsoft EHR",
+  "website": "https://www.doctorsoft.com",
+  "slug": "doctorsoft-corporation",
+  "source": "Brave image search (cheap pass)",
+  "images": [
+    {
+      "file": "01-exam-patient-chart.png",
+      "source_url": "https://www.findemr.com/image/cache/catalog/1product%20pic/Doctorsoft%20EHR/Doctorsoft%20(1)-600x375.jpg",
+      "description": "Full ophthalmology EHR exam view - patient banner (Peter Taylor, MRN, DOB), sidebar/header/main work area"
+    },
+    {
+      "file": "02-exam-imac-view.png",
+      "source_url": "https://doctorsoft.com/wp-content/uploads/2020/10/iMac27Inch@2x-1024x842.png",
+      "description": "Full EHR Main Exam screen (Peter Taylor, MRN #22313, DOB Jul 28 1978) in iMac frame"
+    },
+    {
+      "file": "03-exam-laptop-view.png",
+      "source_url": "https://doctorsoft.com/wp-content/uploads/2020/10/Laptop@3x-1024x842.png",
+      "description": "Full EHR Main Exam screen with patient banner in laptop frame"
+    }
+  ]
+}

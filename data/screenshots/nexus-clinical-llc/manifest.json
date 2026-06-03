@@ -1,0 +1,58 @@
+{
+  "vendor": "Nexus Clinical LLC",
+  "product": "Nexus EHR",
+  "slug": "nexus-clinical-llc",
+  "website": "https://www.nexusclinical.com/",
+  "source": "Brave image search (cheap pass)",
+  "captured": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-patient-portal-home.png",
+      "view": "Patient portal / Home dashboard",
+      "patient": "Sparling, Michael (10/02/1972, M), MRN NX10105",
+      "source_url": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/bb607204-309e-434e-bf77-dc10620af03d.png"
+    },
+    {
+      "file": "02-encounter-view.png",
+      "view": "Encounter (Follow Up) with chart sidebar and right action rail",
+      "patient": "Pratt, Natasha (83 y), 11/04/1934 (F)",
+      "source_url": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/1bcfb557-0e4e-40a0-a586-0898caae8c4d.png"
+    },
+    {
+      "file": "03-medical-summary-dan-allen.png",
+      "view": "Medical Summary with patient profile, diagnosis, communications",
+      "patient": "Dan, Allen (42 y, M), MRN 1982960, DOB 07-31-1973",
+      "source_url": "https://www.mdconnection.com/images/general/screen-nexus.png"
+    },
+    {
+      "file": "04-medical-summary-pratt.png",
+      "view": "Medical Summary with patient profile and diagnosis list",
+      "patient": "Pratt, Natasha (83 y, F), DOB 11-04-1934",
+      "source_url": "https://www.findemr.com/image/cache/catalog/1product%20pic/Nexus%20clinical/Medical%20Summary%20Screen-res-600x375.jpg"
+    },
+    {
+      "file": "05-cc-hpi.png",
+      "view": "Encounter CC/HPI documentation with template builder",
+      "patient": "Pratt, Natasha (62 y)",
+      "source_url": "https://www.findemr.com/image/cache/catalog/1product%20pic/Nexus%20clinical/CC%20-%20HPI%20Screen-res-600x375.jpg"
+    },
+    {
+      "file": "06-forms-procedures.png",
+      "view": "Forms/Procedures tab with chart sidebar",
+      "patient": "Pratt, Natasha (83 y), 11/04/1934 (F)",
+      "source_url": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/947561ed-c663-4abd-bdd2-a4171426f7af.png"
+    },
+    {
+      "file": "07-encounter-sparling.png",
+      "view": "Encounter (Follow Up) view with chart sidebar and tabs",
+      "patient": "Sparling, Michael, 10-02-1972 (M)",
+      "source_url": "https://static.crozdesk.com/web_app_library/screenshots/images/000/042/308/screenshot/nexus-ehr-screenshot-5.png"
+    },
+    {
+      "file": "08-patient-chart-diagnosis.png",
+      "view": "Patient chart with diagnosis list and charts/history rail",
+      "patient": "Sparling, Michael, 10/02/1972, M",
+      "source_url": "https://static.crozdesk.com/web_app_library/screenshots/images/000/042/305/screenshot/nexus-ehr-screenshot-2.png"
+    }
+  ]
+}

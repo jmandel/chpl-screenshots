@@ -1,0 +1,39 @@
+{
+  "vendor": "TriMed Technologies",
+  "product": "TriMed Complete",
+  "slug": "trimed-technologies",
+  "website": "https://www.trimedtech.com/",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-chart-smith-kevin-well-child.png",
+      "source": "https://www.findemr.com/image/cache/catalog/1product%20pic/TriMed%20Complete/TriMed%20(1)-600x375.jpg",
+      "view": "Patient chart with visit timeline sidebar and clinical note / physical exam (12 Month Well, patient SMITH KEVIN)"
+    },
+    {
+      "file": "02-checkin-smith-agnes.png",
+      "source": "https://www.findemr.com/image/cache/catalog/1product%20pic/TriMed%20Complete/TriMed%20(3)-600x375.jpg",
+      "view": "Check-in workflow with patient list and patient info panel (SMITH AGNES)"
+    },
+    {
+      "file": "03-telemedicine-smith-agnes.png",
+      "source": "https://www.findemr.com/image/cache/catalog/1product%20pic/TriMed%20Complete/TriMed%20(2)-600x375.jpg",
+      "view": "Telemedicine visit with video and clinical note / review of systems (SMITH AGNES)"
+    },
+    {
+      "file": "04-chart-taylor-rachael.png",
+      "source": "https://www.findemr.com/image/cache/catalog/1product%20pic/TriMed%20Complete/TriMed%20(4)-600x375.jpg",
+      "view": "Patient chart with visit timeline sidebar and clinical note (TAYLOR RACHAEL)"
+    },
+    {
+      "file": "05-checkin-elizabeth-charlotte.png",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/7040d7f2-d21f-4f6f-b4b7-8e5e101627e2.png",
+      "view": "Check-in workflow with patient list and patient info panel (ELIZABETH CHARLOTTE)"
+    },
+    {
+      "file": "06-chart-elizabeth-charlotte-well-visit.png",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/cd7dc212-3a72-4627-a9a6-7e06b81650b2.png",
+      "view": "Patient chart with visit timeline and 12 Month Well Child Visit note (ELIZABETH CHARLOTTE)"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "visionweb",
+  "vendor": "VisionWeb",
+  "product": "Uprise",
+  "website": "http://www.startyouruprise.com/",
+  "source": "Brave image search (cheap pass)",
+  "capturedBy": "cheap-pass-brave",
+  "screenshots": [
+    {
+      "file": "01-claims-summary-harry-potter.png",
+      "desc": "Claims > Summary view, full Uprise app (logo, top nav tabs, patient banner: Harry Potter 8796 - Central Eyevision Alpha256), claim status charts",
+      "source": "https://images.softwaresuggest.com/latest_screenshots/1561539489711_1_b_55.png"
+    },
+    {
+      "file": "02-scheduler-calendar.png",
+      "desc": "Scheduler day-view calendar, full app with top nav, patient banner Harry Potter, appointment grid",
+      "source": "https://images.softwaresuggest.com/latest_screenshots/1561539489734_5_b_55.png"
+    },
+    {
+      "file": "03-patient-summary-abigail.png",
+      "desc": "Patients module summary, full app with left sidebar and patient demographics (Training Abigail, 34/F, DOB 01/26/1981, Chart PT1095)",
+      "source": "https://www.findemr.com/image/cachewebp/catalog/1product pic/uprise/patient-record-res-600x375.webp"
+    },
+    {
+      "file": "04-contact-lens-exam.png",
+      "desc": "EHR Contact Lens (Softy) Test exam, full app with exam-type sidebar and new exam panel",
+      "source": "https://emrsystems.net/wp-content/uploads/2016/12/uprise-EMR-Software-by-visionweb-contact-lense-test-1024x625.webp"
+    },
+    {
+      "file": "05-ehr-rx-order-princess-lee.png",
+      "desc": "EHR patient summary with Physical Exam and Prescription Order modals, patient banner Mrs. (Princess) Lee PT1054 52F DOB 08/30/1962",
+      "source": "https://www.framesdata.com/images/products/uprisescreenshot.jpg"
+    },
+    {
+      "file": "06-patient-list.png",
+      "desc": "Patients module search/recently-viewed list, full app with top nav, multiple patients with DOB/status columns",
+      "source": "https://emrsystems.net/wp-content/uploads/2016/12/uprise-EMR-software-patient-list-1024x775.webp"
+    },
+    {
+      "file": "07-patient-summary-anna-training.png",
+      "desc": "Patient Summary portlet dashboard, full app with patient banner Anna Training PT1988 33/F DOB 02/15/1981, vitals/refractions/problems portlets",
+      "source": "https://www.findemr.com/image/cachewebp/catalog/1product pic/uprise/patient-info-res-600x375.webp"
+    },
+    {
+      "file": "08-physical-exam-eye-annotations.png",
+      "desc": "EHR Physical Exam eye-annotation tool, full app with exam sidebar and patient banner Harry Potter",
+      "source": "https://www.findemr.com/image/cachewebp/catalog/1product pic/uprise/ehr-annotations-res-600x375.webp"
+    }
+  ]
+}

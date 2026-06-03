@@ -1,0 +1,20 @@
+{
+  "slug": "enable-healthcare-inc",
+  "vendor": "Enable Healthcare Inc.",
+  "product": "MDnet",
+  "website": "https://www.ehiehr.com/",
+  "source": "Brave image search (cheap pass)",
+  "captured": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-mdnet-dashboard-patient-snow-jon.png",
+      "source_url": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/7d97607d-79e0-40d6-b531-e65a8e61be98.jpeg",
+      "description": "MDnet EHR patient Dashboard (lb2.ehiconnect.com). Patient banner 'Snow, Jon (1002672) Male, 12/12/1947 (72 years)', left sidebar (Dashboard, Demographics, History, Encounter, Documents, Electronic Labs, etc.), header, and Last Visit + Health Indicators work area."
+    },
+    {
+      "file": "02-mdnet-encounter-assessment-icd.png",
+      "source_url": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/eb3c9f52-66f7-4e46-9b87-8cbd5788d633.png",
+      "description": "MDnet EHR encounter Assessment/ICD view (ehiehr.com). Full app: left sidebar, patient banner with photo/name, and main charting work area with assessment narrative and plan."
+    }
+  ]
+}

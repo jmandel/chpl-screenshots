@@ -1,0 +1,24 @@
+{
+  "slug": "ritten-inc",
+  "vendor": "Ritten, Inc.",
+  "product": "Ritten",
+  "website": "https://www.ritten.io",
+  "source": "brave-image-search-cheap-pass",
+  "images": [
+    {
+      "file": "01-chart-encounter-banner.png",
+      "source_url": "https://cdn.prod.website-files.com/65de5e8905622446a31c5267/689b09c0c7ddbce93869cd51_Scribe%20-%20Recording.png",
+      "description": "Full EHR chart/encounter view with left nav sidebar, header tabs (Chart, Weekly Agenda, Client Information, Treatment Plan, MAR, Biometrics, Rounds, Trends, Attachments), patient banner (John Smith, Age 54, DOB 10/26/1971, MRN 23753305, diagnoses/allergies/primary clinician) and an Individual Therapy DAP Note open."
+    },
+    {
+      "file": "02-bps-form-summary-banner.jpg",
+      "source_url": "https://www.ehrinpractice.com/pictures/W1siZiIsIjIwMjUvMTIvMzEvMzl4MTFpdDhidl9SaXR0ZW5faW50ZWxsaWdlbmNlLnBuZyJdLFsicCIsInRodW1iIiwiODAweDUwMFx1MDAzZSJdLFsicCIsImVuY29kZSIsImpwZyIsIi1xdWFsaXR5IDg1Il1d/Ritten%20intelligence.jpg",
+      "description": "Full EHR view with left nav sidebar, patient banner (Selina Meyer, Age 54, DOB 12/28/1971, MRN 23723444, diagnoses, allergies, primary clinician, admit/discharge dates) and chart tabs, with an AI-generated BPS Form Summary modal open."
+    },
+    {
+      "file": "03-client-information-banner.png",
+      "source_url": "https://cdn.prod.website-files.com/65de5e8905622446a31c5267/69133cbce26ebfe107c57823_1%20-%20Contact%20Management.png",
+      "description": "Full EHR Client Information tab with left nav sidebar, patient banner (John Smith, Active, Program SUD - Residential, Insurance Aetna Only NY, Primary Clinician Janine Miller) and Client Contacts table."
+    }
+  ]
+}

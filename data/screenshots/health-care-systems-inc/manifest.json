@@ -1,0 +1,21 @@
+{
+  "vendor": "Health Care Systems, Inc.",
+  "product": "HCS eMR",
+  "website": "http://www.hcsinc.net",
+  "slug": "health-care-systems-inc",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-hcs-emr-patient-dashboard.png",
+      "sourceUrl": "https://images.softwaresuggest.com/latest_screenshots/1561712035621_1_b_74.png",
+      "description": "HCS eMR patient dashboard (full app view): left module sidebar, header tabs (Dashboard/Favorites/Census/Demographics/Orders/Clinical Documentation/etc.), and patient banner for demo patient Hopkins, John (71 Year Old Male, DOB 10/10/1946, ID P218200048). Main area shows Intake/Output, Allergies, Vital Signs, Active Orders.",
+      "patient": "Hopkins, John (demo)"
+    },
+    {
+      "file": "02-hcs-emar-medication-list.png",
+      "sourceUrl": "https://image.winudf.com/v2/image1/MjI0NTY5NjBfMTY5NjgzMTkzOV8wMzU/screen-1.png",
+      "description": "HCS eMAR application medication administration view (full app view): patient banner for demo patient Liddell, Alice Pleasance (DOB 05/05/1992, 25 years, Visit Number W-1112, MRN AIW-1, Female), allergies and diagnoses rows, action tabs (Log Off/Work/History/Discharge/Inpatient/MAR/Orders/Notes/Interventions), and a cardiovascular medication list main area.",
+      "patient": "Liddell, Alice Pleasance (demo)"
+    }
+  ]
+}

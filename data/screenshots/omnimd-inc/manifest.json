@@ -1,0 +1,20 @@
+{
+  "vendor": "OmniMD Inc.",
+  "product": "OmniMD",
+  "website": "https://omnimd.com",
+  "slug": "omnimd-inc",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "capturedDate": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-hpi-clinical-chart.png",
+      "description": "OmniMD EHR HPI / clinical charting view: left patient banner (Jill Doe, female 47, DOB, MRN, phone) with allergies and history, structured HPI documentation in main work area.",
+      "sourceUrl": "https://www.findemr.com/image/cache/catalog/1product%20pic/OmniMD/omnimd-HPI%20-res-600x375.jpg"
+    },
+    {
+      "file": "02-em-audit-visit-report.png",
+      "description": "OmniMD EHR E & M Audit screen with Visit Report panel showing patient demographics (Jill Doe, 50 yo, DOB, address, MRN), allergies, HPI, past medical and social history.",
+      "sourceUrl": "https://www.findemr.com/image/cache/catalog/1product%20pic/OmniMD/omnimd%20E&M%20audit%20took%20and%20visit%20report-res-600x375.jpg"
+    }
+  ]
+}

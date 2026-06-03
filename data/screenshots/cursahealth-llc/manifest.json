@@ -1,0 +1,15 @@
+{
+  "slug": "cursahealth-llc",
+  "vendor": "CursaHealth LLC",
+  "product": "CursaHealth EHR",
+  "website": "https://cursahealth.com/",
+  "source": "brave-image-search-cheap-pass",
+  "images": [
+    {
+      "file": "01-claim-summary-patient-banner.png",
+      "source_url": "https://cursahealth.com/img_old/billing.jpg",
+      "description": "Full CursaHealth EHR web application view (left icon sidebar, header with practice name/patient search/logout, patient banner, Claim Summary work area). Patient banner shows demo patient THOMAS, HAZEL, Female, PID, DOB Aug 21 1944, age 75y 5m, vitals, address.",
+      "notes": "Screen shown on a laptop in an office photo; the application UI is clear, legible, and full-frame on the screen."
+    }
+  ]
+}

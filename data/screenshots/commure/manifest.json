@@ -1,0 +1,24 @@
+{
+  "slug": "commure",
+  "vendor": "Commure",
+  "product": "PatientKeeper",
+  "website": "http://commure.com",
+  "capturedVia": "Brave image search (cheap pass)",
+  "images": [
+    {
+      "file": "01-physician-console-darr-molly.png",
+      "source": "https://images.softwaresuggest.com/latest_screenshots/1619004692_PatientKeeper%20Intensivist-dashboard.jpg",
+      "notes": "PatientKeeper Physician Console (Intensivist view). Left patient list sidebar (City Patients 21 of 24), top nav (Assignment/Patients), patient banner DARR, MOLLY DOB 12/22/1938 MRN 00763587, main work area with vitals, radiology, meds, labs."
+    },
+    {
+      "file": "02-commure-pro-unified-view.png",
+      "source": "https://play-lh.googleusercontent.com/osWRTsD0KFA7rd7NUkxHQWY3AhAf-Rgck-Mzfi_WV5m1YJXG4bgwvs-Bda4dgfCdM3XtGeT2e2GhjrgVyOkL0A=w526-h296-rw",
+      "notes": "Commure Pro (PatientKeeper) tablet app, unified patient view. Patient list sidebar, patient banner GAMBRINGER, HELEN with DOB/MRN, tile grid of clinical functions. Tablet mockup with marketing caption."
+    },
+    {
+      "file": "03-component-detail-patient.png",
+      "source": "https://play-lh.googleusercontent.com/A5WVM_prYSSFRpBaCIvGtoaj9aI-hxJTLCs51MxEDocz3Ec071zeZd3eHdS7q8yxRqvB4PywPzbcgszGHsWa=w526-h296-rw",
+      "notes": "PatientKeeper app Component Detail (lab trend). Patient list sidebar, patient banner with name/DOB/MRN, main work area with trend graph. Tablet mockup with marketing caption."
+    }
+  ]
+}

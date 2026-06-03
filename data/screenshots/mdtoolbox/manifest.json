@@ -1,0 +1,14 @@
+{
+  "vendor": "MDToolbox",
+  "product": "MDToolbox Rx",
+  "website": "https://mdtoolbox.com",
+  "slug": "mdtoolbox",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-eprescriptions-patient-summary.png",
+      "sourceUrl": "https://codatis.com/wp-content/uploads/2025/10/1-430.jpg",
+      "description": "MDToolbox Rx E-Prescriptions screen: full web app with patient demographic banner (Patient ID, Age/Sex 52/M, BD, Balance, Race: Hispanic, Ethnicity, Language), MDToolbox header (Meaningful Use Dental Center), and prescribing work area (Prescriber, patient summary with allergies/conditions/pharmacy/eligibility/vitals, Patient Medications, New Rx and Complete buttons). Demo patient with PII blurred."
+    }
+  ]
+}

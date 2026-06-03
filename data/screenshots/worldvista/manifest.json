@@ -1,0 +1,30 @@
+{
+  "slug": "worldvista",
+  "vendor": "WorldVistA",
+  "product": "PopHealth",
+  "website": "https://worldvista.org",
+  "source": "Brave image search (cheap pass)",
+  "captured": "2026-06-03",
+  "images": [
+    {
+      "file": "01-cprs-cover-sheet-zztest.png",
+      "source_url": "https://www.findemr.com/image/cachewebp/catalog/1product%20pic/vistA/VAs-computerized-patient-record-system-CPRS-min-600x375.webp",
+      "description": "VistA CPRS desktop client cover sheet; patient banner ZZTEST,CONNIE SUE, ID 000-00-4455, DOB Jan 01 1945; tabs (Cover Sheet/Problems/Meds/Orders/Notes/Consults/Surgery), active problems, medications, clinical reminders, vitals."
+    },
+    {
+      "file": "02-openvista-vitals-blankenship.png",
+      "source_url": "https://www.emrsystems.net/wp-content/uploads/2019/08/openvista-emr-and-practice-management-software-2.png",
+      "description": "Medsphere OpenVista DEMO; patient banner BLANKENSHIP,BRAD, MRN 456771321, Age/Sex 46 Male; Vital Signs worksheet with table and systolic/diastolic graph, left date-range nav, bottom tab bar."
+    },
+    {
+      "file": "03-cprs-cover-sheet-patient-ten.png",
+      "source_url": "https://www.findemr.com/image/cachewebp/catalog/1product%20pic/vistA/patient%20info-min-600x375.webp",
+      "description": "VistA CPRS cover sheet; patient banner CPRSPATIENT,TEN, ID 000-09-8963, DOB Aug 21 1949 (55); active problems, allergies, medications, postings, vitals, tab bar."
+    },
+    {
+      "file": "04-cprs-consults-patient-two.png",
+      "source_url": "https://www.findemr.com/image/cachewebp/catalog/1product%20pic/vistA/Visit%20info-min-600x375.webp",
+      "description": "VistA CPRS Consults tab; patient banner CPRSPATIENT,TWO, ID 666-32-4321, DOB Feb 22 1942 (62); consult list tree on left, consult detail (Cardiology) in main work area, tab bar."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "vendor": "McKesson Specialty Health Technology Products LLC (Ontada)",
+  "product": "iKnowMed Generation 2",
+  "website": "https://www.ontada.com/developer/",
+  "slug": "mckesson-specialty-health-technology-products-llc-ontada",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-patient-profile-results.png",
+      "source": "https://www.ehrinpractice.com/pictures/2058/show/800x500/iKnowMed+generation+2+patient+profile.jpg",
+      "description": "iKnowMed Generation 2 Results view. Full app: top nav header, patient banner (Sandy Smith 65/F, DOB 05/27/1950, MRN SS3323, Dx female breast cancer), tab bar, Result Review work area with Basic Metabolic Panel values."
+    },
+    {
+      "file": "02-clinical-profile-problems.png",
+      "source": "https://www.findemr.com/image/cachewebp/catalog/1product%20pic/Mckesson%20Iknowmed/iknowmed-clinic-profile1-res-600x375.webp",
+      "description": "Clinical Profile / Problems list. Patient banner (Sandy Smith 65/F, DOB 05/27/1950, MRN SS3322), tab bar with Problems sub-tabs, active problem Female breast cancer."
+    },
+    {
+      "file": "03-patient-documents.png",
+      "source": "https://emrsystems.net/wp-content/uploads/2016/10/iKnowMed-Generation-2-EHR-EMR-Software-Appointments-1024x581.webp",
+      "description": "Documents view. Left task/recent-patient sidebar, patient banner (John R Connecticut 67/M, DOB 11/11/1945, MRN 8909870), document review pane showing consult note with History of Present Illness, ROS."
+    },
+    {
+      "file": "04-flowsheet.png",
+      "source": "https://emrsystems.net/wp-content/uploads/2016/10/iKnowMed-Generation-2-EHR-EMR-Software-Flowsheet-1024x627.webp",
+      "description": "Flowsheet view. Left sidebar menu, top header, main grid of flowsheet rows/columns by date with patient context."
+    },
+    {
+      "file": "05-clear-view-plus.png",
+      "source": "https://emrsystems.net/wp-content/uploads/2016/10/iKnowMed-Generation-2-EHR-EMR-Software-Clear-View-Plus-1024x629.webp",
+      "description": "Clear View Plus screen. Patient banner with photo/name/DOB top-left, left sidebar, main work area with categorized review items."
+    },
+    {
+      "file": "06-provider-dashboard-visit-list.png",
+      "source": "https://www.emrsystems.net/wp-content/uploads/2016/10/iknowmed-ehr-by-mckesson-specialty-health-customizable-dashboard-large.jpg",
+      "description": "Provider dashboard (Ed's Dashboard) InVault visit list. Left tasks/worklist sidebar, top header, visit grid with patient demographics (Darey Lester DOB, Hancock Edwardo DOB, Connecticut John DOB/MRN) and alerts panel."
+    },
+    {
+      "file": "07-read-only-dashboard.png",
+      "source": "https://www.ehrinpractice.com/pictures/2060/show/800x500/iKnowMed+generation+2+read+only+dashboard.jpg",
+      "description": "Read-only dashboard (Maximilian's Dashboard) with READ ONLY banner. Left visit/recent-patient sidebar, unfinished charting grid with patient demographics (Doe, John DOB 04/27/1989, MRN), worklist queue menu."
+    }
+  ]
+}

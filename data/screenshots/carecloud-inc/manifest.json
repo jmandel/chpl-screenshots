@@ -1,0 +1,30 @@
+{
+  "vendor": "CareCloud, Inc.",
+  "product": "CareCloud Prime",
+  "website": "https://www.carecloud.com",
+  "slug": "carecloud-inc",
+  "source": "brave-image-search",
+  "capturedBy": "cheap-pass",
+  "images": [
+    {
+      "file": "01-charts-history-josh-smith.png",
+      "description": "CareCloud Charts EHR - patient History/intake tab with family & social history; patient banner Josh Smith, DOB 01/01/1987, MRN 000014.",
+      "sourceUrl": "https://carecloud.com/product-tour/assets/img/carecloud_prouct_tour_screenshot_charts.png"
+    },
+    {
+      "file": "02-patient-dashboard-kenny-anderson.png",
+      "description": "CareCloud patient dashboard with insurance/clinical summary; patient Kenny Anderson, DOB 09/01/1970, Chart AND563.",
+      "sourceUrl": "https://carecloud.com/product-tour/assets/img/carecloud_prouct_tour_screenshot_patients.png"
+    },
+    {
+      "file": "03-charts-summary-samuel-adamson.png",
+      "description": "CareCloud Charts EHR summary view with vitals, problems, allergies, meds; patient Samuel Adamson, DOB 08/15/1942, MRN 000004.",
+      "sourceUrl": "https://www.ehrinpractice.com/pictures/CareCloud%20Charts%20EHR%20Software%20Screenshot%206.jpg"
+    },
+    {
+      "file": "04-vitals-growth-elizabeth-carter.png",
+      "description": "CareCloud Charts EHR vitals growth chart; pediatric patient Elizabeth Carter, DOB 07/04/2010, MRN 90290.",
+      "sourceUrl": "https://images.business.com/app/uploads/2019/09/17111630/carecloud-patient-chart.jpg"
+    }
+  ]
+}

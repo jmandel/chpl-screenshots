@@ -1,0 +1,59 @@
+{
+  "vendor": "Compulink Healthcare Solutions",
+  "product": "Compulink Advantage",
+  "website": "http://www.compulinkadvantage.com",
+  "slug": "compulink-healthcare-solutions",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-pt-advantage-dashboard.png",
+      "description": "PT Advantage by Compulink - Advantage Dashboard with Patient Information panel (Anderson, Molly; DOB 04/23/1970; F; Age 54), insurance, recalls, episode of care",
+      "sourceUrl": "https://images.g2crowd.com/uploads/attachment/file/1671637/Screenshot-2026-02-19-104421.png"
+    },
+    {
+      "file": "02-advantage-physical-exam.png",
+      "description": "Compulink Advantage Physical Exam with patient banner (Anderson, Mindy J; DOB 04/11/17; MRN), body diagram and exam panels",
+      "sourceUrl": "https://emrsystems.net/wp-content/uploads/2025/11/Compulink-Healthcare-Solution-EMR-Software-Patient-Physical-Exam-1024x648.webp"
+    },
+    {
+      "file": "03-advantage-exam-banks.png",
+      "description": "Compulink Advantage Physical Exam with patient banner (Banks, Carter C; age/dates) and multi-system exam panels",
+      "sourceUrl": "https://emrsystems.net/wp-content/uploads/2025/11/Compulink-Healthcare-Practice-Management-EHR-Software-Physical-Exam-Report.webp"
+    },
+    {
+      "file": "04-orthopaedic-advantage-dashboard.png",
+      "description": "Orthopaedic Advantage by Compulink - Patient Information dashboard (Banks, Carter; DOB; SSN), appointments, insurance, action items",
+      "sourceUrl": "https://www.emrsystems.net/wp-content/uploads/2017/01/Compulink-Orthopaedic-Advantage-EMR-Software-and-Patient-Portal.png"
+    },
+    {
+      "file": "05-eyecare-advantage-dashboard.png",
+      "description": "Eyecare Advantage by Compulink - Patient Information dashboard (Anderson, Molly J; Birth Date 04/23/1970; F; MRN), insurance, account status",
+      "sourceUrl": "https://emrsystems.net/wp-content/uploads/2016/08/Compulink-EMR-Software-Patient-Exam-1024x576.webp"
+    },
+    {
+      "file": "06-advantage-careworks.png",
+      "description": "Compulink Advantage CareWorks - patient banner (Anderson, Molly J [ACCT:1]; Age 39), clinical findings, medications, labs, treatments",
+      "sourceUrl": "https://www.itqlick.com/stw-php-sample/products/8346.jpg"
+    },
+    {
+      "file": "07-advantage-physical-exam-body.png",
+      "description": "Compulink Advantage Physical Exam - patient banner (Anderson, Molly J [ACCT:17]; Age 46), body diagram, vital signs, exam panels",
+      "sourceUrl": "https://www.findemr.com/image/cache/catalog/1product%20pic/Compulink%20Health%20Care/compulink-patient-info1-600x375.jpg"
+    },
+    {
+      "file": "08-advantage-exam-desktop.png",
+      "description": "Compulink Advantage desktop EHR exam view with patient banner, toolbar, physical exam and medication panels",
+      "sourceUrl": "https://emrsystems.net/wp-content/uploads/2025/10/Compulink-Healthcare-EHR-Software-Practice-Management-Solution.webp"
+    },
+    {
+      "file": "09-advantage-exam-banks-careplan.png",
+      "description": "Compulink Advantage exam (Banks, Carter C) with assessment/plan, testing/labs, treatments, education and orders panels",
+      "sourceUrl": "https://www.emrsystems.net/wp-content/uploads/2017/01/Compulink-Orthopedic-Advantage-EHR-Software-and-Radiology-Software-1.jpg"
+    },
+    {
+      "file": "10-advantage-slit-lamp-exam.png",
+      "description": "Compulink Advantage Slit Lamp Exam - patient banner (Anderson, Molly J [ACCT:2]; Age 44), bilateral ophthalmic exam fields",
+      "sourceUrl": "https://www.findemr.com/image/cache/catalog/1product%20pic/Compulink%20Health%20Care/compulink-schedule1-600x375.jpg"
+    }
+  ]
+}

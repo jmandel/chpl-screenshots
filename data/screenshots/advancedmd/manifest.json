@@ -1,0 +1,35 @@
+{
+  "vendor": "AdvancedMD",
+  "product": "AdvancedMD",
+  "slug": "advancedmd",
+  "website": "https://www.advancedmd.com/",
+  "source": "brave-image-search-cheap-pass",
+  "capturedAt": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-patient-chart-overview.jpg",
+      "description": "AdvancedMD EHR patient chart overview: patient demographics (DOB 03-20-1925, 94y M, MRN 362652/2348, Medicare), left icon sidebar, Notes/Allergies/Problems/Medications/Plan Summary work area",
+      "sourceUrl": "https://www.advancedmd.com/wp-content/uploads/2025/05/advancedmd-thumbnail-patientCharts-1024x576.jpg"
+    },
+    {
+      "file": "02-patient-chart-ros-mse-exam.png",
+      "description": "AdvancedMD EHR chart, ROS/MSE/Constitutional exam note: patient banner (BERN, MARC John, DOB 05-18-1977, 41y M, BCBS), top nav, summary sidebar, exam work area",
+      "sourceUrl": "https://emrfinder.com/wp-content/uploads/2016/08/advancedmd-EMR-Software-Patient-Portal-demo.webp"
+    },
+    {
+      "file": "03-patient-chart-dashboard.png",
+      "description": "AdvancedMD EHR patient chart dashboard: patient banner (VACCA, MELVIN, DOB 01-27-1972, 45y M), header nav, Encounters/Allergies sidebar, Notes/Orders/Problems/Medications cards",
+      "sourceUrl": "https://www.emrsystems.net/wp-content/uploads/2025/11/AdvancedMD-EMR-Software-Dashboard-Patient-Notes.webp"
+    },
+    {
+      "file": "04-patient-medications.png",
+      "description": "AdvancedMD EHR medications view: patient banner (TAYLOR, HEATHER T, 44 yrs, Female), top menu (Home/Chart/Web/Tools/Admin), demographics sidebar, medication list grid",
+      "sourceUrl": "https://www.advancedmd.com/wp-content/uploads/2025/05/advancedmd-ehr-01.png"
+    },
+    {
+      "file": "05-patient-chart-vitals.png",
+      "description": "AdvancedMD EHR vitals/intake view with patient demographics popup (DOB 03-20-1925, 94y M, MRN 362652/2348, Medicare), icon sidebar, vitals/family history work area, allergies panel",
+      "sourceUrl": "https://www.advancedmd.com/wp-content/uploads/2025/05/Screen-Shot-4-1-1024x576.png"
+    }
+  ]
+}

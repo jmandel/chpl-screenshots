@@ -1,0 +1,29 @@
+{
+  "vendor": "MD Synergy Solutions, LLC",
+  "product": "Althea Smart EHR",
+  "website": "http://www.mdsynergy.com",
+  "slug": "md-synergy-solutions-llc",
+  "capturedVia": "Brave image search (cheap pass)",
+  "screenshots": [
+    {
+      "file": "01-telemedicine-chart-encounter.png",
+      "description": "Althea Smart EHR encounter chart on iPad with native telemedicine. Patient banner 'Telemedicine Patient (37y 0m 9d) 05/04/1992, M', provider Gregory House. Chief Complaint, History of Present Illness, Current Medications sections with top toolbar and bottom action bar.",
+      "sourceUrl": "https://www.findemr.com/image/cache/catalog/1product%20pic/Althea%20Smart%20EHR/3-600x375.jpg"
+    },
+    {
+      "file": "02-attachments-body-diagram.png",
+      "description": "Althea Smart EHR encounter on iPad showing Attachments section with annotatable body diagrams. Patient banner 'Test Patient (26y 10m 30d) 10/15/1996, M', provider Gregory House. Full app chrome with tab bar and bottom action bar.",
+      "sourceUrl": "https://www.findemr.com/image/cache/catalog/1product%20pic/Althea%20Smart%20EHR/5-600x375.jpg"
+    },
+    {
+      "file": "03-builtin-texting.png",
+      "description": "Althea Smart EHR with built-in HIPAA secured SMS conversation panel over the chart. Patient banner 'Test Patient (26y 10m 30d) 10/15/1996, M'. Underlying encounter chart visible with left tabs.",
+      "sourceUrl": "https://www.findemr.com/image/cache/catalog/1product%20pic/Althea%20Smart%20EHR/4-600x375.jpg"
+    },
+    {
+      "file": "04-knee-exam-hpi.png",
+      "description": "Althea Smart EHR encounter chart on iPad showing Chief Complaint and detailed knee History of Present Illness. Patient banner 'Test Patient (26y 10m 30d) 10/15/1996, M', provider Gregory House. Full app view with toolbar and bottom action bar.",
+      "sourceUrl": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/a41a7bb9-4cd9-40c1-966c-fc8293c58f3c.png"
+    }
+  ]
+}

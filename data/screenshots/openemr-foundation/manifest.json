@@ -1,0 +1,40 @@
+{
+  "vendor": "OpenEMR Foundation",
+  "product": "OpenEMR",
+  "website": "https://www.open-emr.org/",
+  "slug": "openemr-foundation",
+  "source": "brave-image-search",
+  "captured": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-patient-summary-tom-smith.png",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/OpenEMR-Patient-Summary.png",
+      "description": "Patient summary screen with top menu, patient banner (Tom Smith, DOB, Age), demographics/labs/vitals and clinical reminders work area"
+    },
+    {
+      "file": "02-medical-record-dashboard-phil-belford.jpg",
+      "source_url": "https://www.medesk.net/i/4vLJ8DRkxJOPD1oetFn6jM/a89abf7350af603d45990fe2dede64f6/openemr-patient-card.png",
+      "description": "Modern OpenEMR Medical Record Dashboard, patient banner (Phil Belford, DOB 02/09/1972, Age 53), allergies/problems/medications/demographics cards"
+    },
+    {
+      "file": "03-dashboard-jeremy-bates.jpg",
+      "source_url": "https://www.medesk.net/i/9s8XPZqlXwbHcvsrz5wTT/d6ee077505b788c85cb34b0622351093/openemr-prescribing.png",
+      "description": "Dashboard with patient banner (Jeremy Bates, DOB 08/01/1980, Age 45), prescriptions list and Weno eRx panel"
+    },
+    {
+      "file": "04-portal-dashboard-testy-bestertester.png",
+      "source_url": "https://www.open-emr.org/wiki/images/a/ac/Pdoc03.png",
+      "description": "Top menu with Miscellaneous dropdown, patient banner (Testy Bestertester, DOB 1995-11-04, Age 24), Portal Dashboard work area"
+    },
+    {
+      "file": "05-patient-summary-phil-belford.png",
+      "source_url": "https://discourse-uploads-openemr.s3.dualstack.us-east-1.amazonaws.com/optimized/2X/e/e6e8b0e654b7e61ae8c7c1c8539ed9fb414f2527_2_690x431.png",
+      "description": "Patient summary with top menu, patient banner (Phil Belford, DOB 1972-02-09, Age 47), demographics/vitals and clinical reminders"
+    },
+    {
+      "file": "06-demographics-edit-tom-smith.png",
+      "source_url": "https://www.findemr.com/image/cache/catalog/1product%20pic/openEMR/Demographics_feature-min-600x375.png",
+      "description": "Demographics edit form within full app, top menu and patient banner (Tom Smith, DOB 2013-02-18), demographics and insurance fields"
+    }
+  ]
+}

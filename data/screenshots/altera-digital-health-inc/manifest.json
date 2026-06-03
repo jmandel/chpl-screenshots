@@ -1,0 +1,15 @@
+{
+  "vendor": "Altera Digital Health Inc.",
+  "product": "dbMotion",
+  "website": "https://www.alterahealth.com/",
+  "slug": "altera-digital-health-inc",
+  "capturedBy": "cheap-pass-brave-images",
+  "capturedDate": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-dbmotion-clinical-view-agent.png",
+      "description": "dbMotion Clinical View Agent panel showing patient banner (ALLEM, Beth, Female, ID 130308176574800) with clinical information sections: Encounters, Problems (Diabetes, Heart Diseases, Hypertension), Diagnoses, Allergies, Medications, Measurements, Labs, Immunizations, Imaging, Procedures. Footer 'Powered by dbMotion'.",
+      "sourceUrl": "https://www.alterahealth.com/wp-content/uploads/2019/05/dbMotion1.png"
+    }
+  ]
+}

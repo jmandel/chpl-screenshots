@@ -1,0 +1,21 @@
+{
+  "vendor": "Procentive",
+  "product": "Procentive",
+  "slug": "procentive",
+  "website": "https://ensorahealth.com/product/procentive/",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-client-chart-demographics.png",
+      "source": "https://images.softwaresuggest.com/latest_screenshots/1561712013346_2_b_74.png",
+      "description": "Full Procentive client chart view: left dashboard navigation, patient banner 'Susie G. Apple (6133)' with photo, Client Information panel (address, DOB, SSN, phone, status), Clinical/Charting work area, Authorizations and Recent Payments panels.",
+      "patient": "Susie G. Apple (ID 6133) - demo patient"
+    },
+    {
+      "file": "02-bed-management-patient-demographics.jpg",
+      "source": "https://www.findemr.com/image/cache/catalog/1product%20pic/Procentive/Procentive-bed-managment-600x375.jpg",
+      "description": "Bed Management module: left module sidebar, census/room work area, with a client detail card (TestClient_001, Female, DOB, Age, Primary Program) and demographics form. Annotated marketing composite.",
+      "patient": "TestClient_001 - demo/test patient"
+    }
+  ]
+}

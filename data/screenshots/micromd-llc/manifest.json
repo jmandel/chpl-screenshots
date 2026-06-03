@@ -1,0 +1,49 @@
+{
+  "slug": "micromd-llc",
+  "vendor": "MicroMD, LLC",
+  "product": "MicroMD EMR",
+  "website": "https://www.micromd.com/certified/",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-patient-summary.png",
+      "desc": "Charts > Patient Summary view; patient banner Andy Theodore Homer with demographics",
+      "source": "https://emrfinder.com/wp-content/uploads/2019/07/MicroMD-EMR-Practice-Management-Software-Demographics-1024x749.webp"
+    },
+    {
+      "file": "02-charts-dashboard.png",
+      "desc": "Charts dashboard (problems, vitals, labs, prevention) for patient Elizabeth Frey",
+      "source": "https://emrfinder.com/wp-content/uploads/2019/07/MicroMD-EMR-Practice-Management-Software-Charts-1024x604.webp"
+    },
+    {
+      "file": "03-workflow-desktop.png",
+      "desc": "Desktop > My Workflow scheduled visits list with patient detail panel (user Betty Lopez, RN)",
+      "source": "https://emrfinder.com/wp-content/uploads/2019/07/MicroMD-EMR-Practice-Management-Software-Desktop-1024x598.webp"
+    },
+    {
+      "file": "04-workflow-scheduled-visits.png",
+      "desc": "Desktop My Workflow scheduled visits with patient right-click context menu (Paul Primary, M.D.); patient TETERHOFEN, SUE selected",
+      "source": "https://www.ehrinpractice.com/pictures/W1siZiIsIjIwMjYvMDIvMTgvODB1c3Fxd3J4al9NaWNyb01EX3NpbmdsZV92aWV3X2VuY291bnRlcl9kZW1vLnBuZyJdLFsicCIsImVuY29kZSIsImpwZyIsIi1xdWFsaXR5IDg1Il1d/MicroMD%20single%20view%20encounter%20demo.jpg"
+    },
+    {
+      "file": "05-patient-care-health-concerns.png",
+      "desc": "Patient Care > Health Concerns; patient banner Albert Test with DOB, MRN, gender",
+      "source": "https://i0.wp.com/micromd.com/wp-content/uploads/2017/09/emr-tip1.png?resize=1161,624&ssl=1"
+    },
+    {
+      "file": "06-charts-health-concerns.png",
+      "desc": "Charts > Health Concerns; patient banner Albert Test with DOB and gender",
+      "source": "https://i0.wp.com/micromd.com/wp-content/uploads/2017/09/emr-tip3.png?resize=1161,605&ssl=1"
+    },
+    {
+      "file": "07-workflow-mail.png",
+      "desc": "Desktop My Workflow mail inbox with patient column (user Milan Anderson, MMD)",
+      "source": "https://i0.wp.com/www.micromd.com/wp-content/uploads/2020/11/EMR-version18.png?resize=703,542&ssl=1"
+    },
+    {
+      "file": "08-encounter-wizard.png",
+      "desc": "Family Medicine Encounter Wizard with patient banner Peter T Paxton (50 years)",
+      "source": "https://images.softwaresuggest.com/latest_screenshots/1512721843_MicroMD%20EMR-encounter.png"
+    }
+  ]
+}

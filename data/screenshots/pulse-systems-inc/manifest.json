@@ -1,0 +1,28 @@
+{
+  "vendor": "Pulse Systems, Inc",
+  "product": "Pulse EHR",
+  "website": "http://www.pulseinc.com",
+  "slug": "pulse-systems-inc",
+  "source": "brave-image-search-cheap-pass",
+  "captured": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-clinical-chart-sierra-ware.png",
+      "source_url": "https://emrsystems.net/wp-content/uploads/2016/08/PulseEHR-Electronic-Health-Records-Software.webp",
+      "description": "Pulse EHR clinical encounter (Subjective tab) with right-hand Patient panel showing demographics (Sierra Ware, Female, DOB 9/1/1939, Age 77), medications, problem list, allergies.",
+      "notes": "Full app view: toolbar/header, charting work area, patient banner with name/DOB/age."
+    },
+    {
+      "file": "02-check-in-assistant-kaczor.png",
+      "source_url": "https://www.ehrinpractice.com/pictures/.../PulseEHR%20Software%20Screenshot%203.jpg",
+      "description": "Pulse Check In Assistant: appointment list sidebar plus Check In Wizard panel showing patient demographics (Kaczor, Alysia, Female 28 Yrs, 06/22/1988, ID 30421, address) plus payer information.",
+      "notes": "Full app view with patient list and detailed patient demographics including ID and DOB."
+    },
+    {
+      "file": "03-pulsecloud-worklist.png",
+      "source_url": "https://www.ehrreviews.com/backend/product_images/prod_4_Pulse%20EHRPulseEHR%20patient%20information.jpg",
+      "description": "PulseCloud 'Patients to be seen' worklist: provider/practice header, left needs-action sidebar, main scheduled-patient grid with patient names, sex/age, visit details, and status.",
+      "notes": "Full app view with patient demographics in the work list."
+    }
+  ]
+}

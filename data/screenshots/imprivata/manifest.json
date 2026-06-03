@@ -1,0 +1,14 @@
+{
+  "vendor": "Imprivata",
+  "product": "Access Intelligence",
+  "slug": "imprivata",
+  "website": "https://www.imprivata.com",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-patient-access-enroll.png",
+      "sourceUrl": "https://docs.imprivata.com/ipa/content/images/duplicaterecordsfound.png",
+      "description": "Imprivata Patient Access application 'Enroll Patient' screen with face authentication. Header title 'Imprivata Patient Access', work area shows patient demographic cards (Johnson, Stephanie 12/15/1976 (46 yrs), 123456 Maplewood Street Apartment 5432.82 Murfreeboro TN 34252, MRN:123543567, email, phone) and a similar-face record carousel (Johnson, Isabella, MRN:4934553), facial-recognition photo panel with green detection box, Close Patient Access / Submit action buttons, duplicate-record warning banner, Imprivata Patient Access footer logo."
+    }
+  ]
+}

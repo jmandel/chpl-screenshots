@@ -1,0 +1,20 @@
+{
+  "vendor": "Welligent, Part of the ContinuumCloud",
+  "product": "Welligent",
+  "website": "https://welligent.com/",
+  "slug": "welligent-part-of-the-continuumcloud",
+  "source": "Brave image search (cheap pass)",
+  "capturedBy": "cheap-pass-brief",
+  "screenshots": [
+    {
+      "file": "01-welligent-ehr-scoliosis-screening-olivia-jones.png",
+      "description": "Welligent Certified EHR desktop view: scoliosis screening note. Full app frame with top header, patient banner (Client: Olivia Jones, DOB 02 Jan 1993, Agency ID/Client ID 251836/HMIS ID pr549), left icon sidebar, right screening navigator, and main work area.",
+      "sourceUrl": "https://emrsystems.net/wp-content/uploads/2023/07/Welligent-Behavioral-EHR-Software-Assesment-Dashboard-1024x534.webp"
+    },
+    {
+      "file": "02-welligent-demo-dashboard-ragnar-cqm-patient.png",
+      "description": "Welligent Demo System client dashboard. Full app: green header bar with toolbar (Client Search, Reports, Billing Manager), patient banner (Client: Ragnar Cqm Patient, DOB 03-Apr-1995, LACOM ID: CQM 2), left Record Navigator sidebar, and main work area with Reminders, Schedule, Active Medication List, Problems/Conditions, Health Screenings. Cropped from a vendor desktop mockup.",
+      "sourceUrl": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/d8810415-1137-4797-915d-2ca600b30d50.png"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "vendor": "EyeMD EMR Healthcare Systems, Inc.",
+  "product": "EyeMD Electronic Medical Records",
+  "website": "http://www.eyemdemr.com",
+  "slug": "eyemd-emr-healthcare-systems-inc",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-cataract-post-op-exam.png",
+      "description": "Full EyeMD EMR desktop application: cataract post-op exam view with left menu (Dashboard, Chart reviews, exams, Demographics), patient banner 'Cataract, Cathy' (DOB 2/15/1945, Patient ID 15, HS-ID 10130), and review pickrlist; second window shows refraction/biometry report.",
+      "sourceUrl": "https://wp-cdn.emitrr.com/uploads/2026/02/eyemd-emr-dashboard-1024x768.jpg",
+      "patient": "Cataract, Cathy (demo)"
+    },
+    {
+      "file": "02-visit-summary-test-patient.png",
+      "description": "Full EyeMD EMR application Visit Summary screen with top menu bar, left visit/imaging navigation, patient banner 'TEST, PATIENT' (AGE 39, DOB 1/01/1975, selected visit 4/12/2013), and multi-column exam/assessment/plan layout.",
+      "sourceUrl": "https://www.ehrinpractice.com/pictures/W1siZiIsIjIwMTcvMDMvMzEvNHZpZ2ltZTl3ZF9FeWVNRF9FTVJfU2NyZWVuc2hvdF8xLmpwZyJd...",
+      "patient": "TEST, PATIENT (demo)"
+    },
+    {
+      "file": "03-fundus-photos-patient.png",
+      "description": "Full EyeMD EMR application Photos/fundus imaging view with menu bar, left visit-history list, patient banner 'MARIN, ABDIEL' (AGE 29, DOB 6/12/1980), and OD/OS fundus image panels with annotate/scan/import controls.",
+      "sourceUrl": "https://emrsystems.net/wp-content/uploads/2016/11/EyeMD-EMR-Software-and-Electronic-Health-Records-Demo.webp",
+      "patient": "MARIN, ABDIEL (demo)"
+    }
+  ]
+}

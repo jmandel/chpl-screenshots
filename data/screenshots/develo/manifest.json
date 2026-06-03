@@ -1,0 +1,25 @@
+{
+  "vendor": "Develo",
+  "product": "Develo EHR",
+  "slug": "develo",
+  "website": "https://getdevelo.com/",
+  "source": "brave-image-search (cheap pass)",
+  "capturedAt": "2026-06-03",
+  "images": [
+    {
+      "file": "01-intake-vitals.png",
+      "sourceUrl": "https://www.medplum.com/assets/images/develo-intake-3c6a0fd39ee1ca76528a7f9e75b0e5d6.png",
+      "description": "Patient chart intake/vitals view. Patient banner: Ahmad May, DOB 12/15/2021 (1yr 7mos), ID AMA0023, CIGNA. Left icon sidebar, top patient header with chart tabs (Vitals, Demographics, Medications, Orders, History, Results, Immunizations, Growth Chart, Documents), main intake form work area."
+    },
+    {
+      "file": "02-scheduling-order.png",
+      "sourceUrl": "https://www.medplum.com/assets/images/develo-scheduling-order-51c7ab74e4ec60b8630cc34e6aa0e470.png",
+      "description": "Scheduling order / resolve task view. Order T-SCH-000045 for patient Sandra Marsh, practitioner Windsor Smith. Left scheduling-order detail panel, center day calendar (Mon Oct 2 2023) with appointment blocks, right resolve-task form."
+    },
+    {
+      "file": "03-schedule-board.png",
+      "sourceUrl": "https://techstartups.com/wp-content/uploads/2026/05/Develo-Schedule.jpg",
+      "description": "Full Schedule board. Left icon sidebar + header (Status, Today, People, Location, Schedule). Summary cards plus patient roster table with names, age & DOB, health plan, visit type, time/location, status, room, claim (e.g. Moses Chung 11/5/2021, Samantha Chen 11/24/2016, Maverick Puckett 10/20/2007)."
+    }
+  ]
+}

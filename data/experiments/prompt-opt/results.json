@@ -1,0 +1,702 @@
+{
+  "summary": {
+    "images": 12,
+    "baseline_full_v2": {
+      "avgInTok": 1959,
+      "avgOutTok": 1328,
+      "costPerImage": 0.0149
+    },
+    "variants": [
+      {
+        "variant": "lean/full",
+        "avgInTok": 1196,
+        "avgOutTok": 160,
+        "avgThinkTok": 736,
+        "avgBillableOutTok": 896,
+        "costPerImage": 0.0099,
+        "savingsVsBaseline": "34%",
+        "fieldAgreementVsBaseline": "61%",
+        "perField": {
+          "systemName": "42%",
+          "activeFunction": "8%",
+          "patientId": "92%",
+          "fullName": "92%",
+          "dateOfBirth": "92%",
+          "sex": "100%",
+          "patientScope": "0%"
+        }
+      },
+      {
+        "variant": "lean/1024",
+        "avgInTok": 1194,
+        "avgOutTok": 160,
+        "avgThinkTok": 788,
+        "avgBillableOutTok": 948,
+        "costPerImage": 0.0103,
+        "savingsVsBaseline": "31%",
+        "fieldAgreementVsBaseline": "58%",
+        "perField": {
+          "systemName": "42%",
+          "activeFunction": "8%",
+          "patientId": "92%",
+          "fullName": "75%",
+          "dateOfBirth": "92%",
+          "sex": "100%",
+          "patientScope": "0%"
+        }
+      },
+      {
+        "variant": "lean/768",
+        "avgInTok": 1194,
+        "avgOutTok": 171,
+        "avgThinkTok": 665,
+        "avgBillableOutTok": 836,
+        "costPerImage": 0.0093,
+        "savingsVsBaseline": "37%",
+        "fieldAgreementVsBaseline": "58%",
+        "perField": {
+          "systemName": "42%",
+          "activeFunction": "0%",
+          "patientId": "92%",
+          "fullName": "75%",
+          "dateOfBirth": "100%",
+          "sex": "100%",
+          "patientScope": "0%"
+        }
+      },
+      {
+        "variant": "lean/768 think=0",
+        "avgInTok": 1194,
+        "avgOutTok": 171,
+        "avgThinkTok": 0,
+        "avgBillableOutTok": 171,
+        "costPerImage": 0.0033,
+        "savingsVsBaseline": "78%",
+        "fieldAgreementVsBaseline": "58%",
+        "perField": {
+          "systemName": "42%",
+          "activeFunction": "0%",
+          "patientId": "83%",
+          "fullName": "92%",
+          "dateOfBirth": "100%",
+          "sex": "92%",
+          "patientScope": "0%"
+        }
+      },
+      {
+        "variant": "terse/768 think=0",
+        "avgInTok": 1202,
+        "avgOutTok": 5643,
+        "avgThinkTok": 0,
+        "avgBillableOutTok": 5643,
+        "costPerImage": 0.0526,
+        "savingsVsBaseline": "-253%",
+        "fieldAgreementVsBaseline": "42%",
+        "perField": {
+          "systemName": "50%",
+          "activeFunction": "67%",
+          "patientId": "42%",
+          "fullName": "33%",
+          "dateOfBirth": "42%",
+          "sex": "50%",
+          "patientScope": "8%"
+        }
+      },
+      {
+        "variant": "terse/512 think=0",
+        "avgInTok": 1102,
+        "avgOutTok": 2739,
+        "avgThinkTok": 0,
+        "avgBillableOutTok": 2739,
+        "costPerImage": 0.0263,
+        "savingsVsBaseline": "-77%",
+        "fieldAgreementVsBaseline": "33%",
+        "perField": {
+          "systemName": "42%",
+          "activeFunction": "75%",
+          "patientId": "25%",
+          "fullName": "17%",
+          "dateOfBirth": "25%",
+          "sex": "42%",
+          "patientScope": "8%"
+        }
+      }
+    ]
+  },
+  "rows": [
+    {
+      "file": "data/screenshots/streamline-healthcare-solutions/03-my-calendar-client-schedule.png",
+      "variant": "lean/full",
+      "inTok": 1207,
+      "outTok": 164,
+      "thinkTok": 680,
+      "fieldHits": 4
+    },
+    {
+      "file": "data/screenshots/streamline-healthcare-solutions/03-my-calendar-client-schedule.png",
+      "variant": "lean/1024",
+      "inTok": 1182,
+      "outTok": 164,
+      "thinkTok": 609,
+      "fieldHits": 4
+    },
+    {
+      "file": "data/screenshots/streamline-healthcare-solutions/03-my-calendar-client-schedule.png",
+      "variant": "lean/768",
+      "inTok": 1182,
+      "outTok": 167,
+      "thinkTok": 492,
+      "fieldHits": 4
+    },
+    {
+      "file": "data/screenshots/streamline-healthcare-solutions/03-my-calendar-client-schedule.png",
+      "variant": "lean/768 think=0",
+      "inTok": 1182,
+      "outTok": 162,
+      "thinkTok": 0,
+      "fieldHits": 4
+    },
+    {
+      "file": "data/screenshots/streamline-healthcare-solutions/03-my-calendar-client-schedule.png",
+      "variant": "terse/768 think=0",
+      "inTok": 1190,
+      "outTok": 77,
+      "thinkTok": 0,
+      "fieldHits": 4
+    },
+    {
+      "file": "data/screenshots/streamline-healthcare-solutions/03-my-calendar-client-schedule.png",
+      "variant": "terse/512 think=0",
+      "inTok": 1215,
+      "outTok": 31244,
+      "thinkTok": 0,
+      "fieldHits": 1
+    },
+    {
+      "file": "data/screenshots/endosoft-llc/01-oncology-chart.png",
+      "variant": "lean/full",
+      "inTok": 1211,
+      "outTok": 196,
+      "thinkTok": 862,
+      "fieldHits": 4
+    },
+    {
+      "file": "data/screenshots/endosoft-llc/01-oncology-chart.png",
+      "variant": "lean/1024",
+      "inTok": 1211,
+      "outTok": 196,
+      "thinkTok": 1327,
+      "fieldHits": 4
+    },
+    {
+      "file": "data/screenshots/endosoft-llc/01-oncology-chart.png",
+      "variant": "lean/768",
+      "inTok": 1211,
+      "outTok": 196,
+      "thinkTok": 1061,
+      "fieldHits": 4
+    },
+    {
+      "file": "data/screenshots/endosoft-llc/01-oncology-chart.png",
+      "variant": "lean/768 think=0",
+      "inTok": 1211,
+      "outTok": 196,
+      "thinkTok": 0,
+      "fieldHits": 4
+    },
+    {
+      "file": "data/screenshots/endosoft-llc/01-oncology-chart.png",
+      "variant": "terse/768 think=0",
+      "inTok": 1219,
+      "outTok": 40,
+      "thinkTok": 0,
+      "fieldHits": 1
+    },
+    {
+      "file": "data/screenshots/endosoft-llc/01-oncology-chart.png",
+      "variant": "terse/512 think=0",
+      "inTok": 1219,
+      "outTok": 660,
+      "thinkTok": 0,
+      "fieldHits": 1
+    },
+    {
+      "file": "data/screenshots/sevocity-a-division-of-conceptual-mindworks-inc/01-vitals-past-vitals.png",
+      "variant": "lean/full",
+      "inTok": 1182,
+      "outTok": 188,
+      "thinkTok": 915,
+      "fieldHits": 4
+    },
+    {
+      "file": "data/screenshots/sevocity-a-division-of-conceptual-mindworks-inc/01-vitals-past-vitals.png",
+      "variant": "lean/1024",
+      "inTok": 1182,
+      "outTok": 193,
+      "thinkTok": 449,
+      "fieldHits": 3
+    },
+    {
+      "file": "data/screenshots/sevocity-a-division-of-conceptual-mindworks-inc/01-vitals-past-vitals.png",
+      "variant": "lean/768",
+      "inTok": 1182,
+      "outTok": 191,
+      "thinkTok": 703,
+      "fieldHits": 4
+    },
+    {
+      "file": "data/screenshots/sevocity-a-division-of-conceptual-mindworks-inc/01-vitals-past-vitals.png",
+      "variant": "lean/768 think=0",
+      "inTok": 1182,
+      "outTok": 193,
+      "thinkTok": 0,
+      "fieldHits": 4
+    },
+    {
+      "file": "data/screenshots/sevocity-a-division-of-conceptual-mindworks-inc/01-vitals-past-vitals.png",
+      "variant": "terse/768 think=0",
+      "inTok": 1190,
+      "outTok": 65520,
+      "thinkTok": 0,
+      "fieldHits": 3
+    },
+    {
+      "file": "data/screenshots/sevocity-a-division-of-conceptual-mindworks-inc/01-vitals-past-vitals.png",
+      "variant": "terse/512 think=0",
+      "inTok": 1190,
+      "outTok": 99,
+      "thinkTok": 0,
+      "fieldHits": 3
+    },
+    {
+      "file": "data/screenshots/genius-solutions-inc/01-patient-information-armstrong.png",
+      "variant": "lean/full",
+      "inTok": 1180,
+      "outTok": 163,
+      "thinkTok": 649,
+      "fieldHits": 4
+    },
+    {
+      "file": "data/screenshots/genius-solutions-inc/01-patient-information-armstrong.png",
+      "variant": "lean/1024",
+      "inTok": 1180,
+      "outTok": 163,
+      "thinkTok": 747,
+      "fieldHits": 3
+    },
+    {
+      "file": "data/screenshots/genius-solutions-inc/01-patient-information-armstrong.png",
+      "variant": "lean/768",
+      "inTok": 1180,
+      "outTok": 166,
+      "thinkTok": 580,
+      "fieldHits": 3
+    },
+    {
+      "file": "data/screenshots/genius-solutions-inc/01-patient-information-armstrong.png",
+      "variant": "lean/768 think=0",
+      "inTok": 1180,
+      "outTok": 163,
+      "thinkTok": 0,
+      "fieldHits": 4
+    },
+    {
+      "file": "data/screenshots/genius-solutions-inc/01-patient-information-armstrong.png",
+      "variant": "terse/768 think=0",
+      "inTok": 1188,
+      "outTok": 1708,
+      "thinkTok": 0,
+      "fieldHits": 2
+    },
+    {
+      "file": "data/screenshots/genius-solutions-inc/01-patient-information-armstrong.png",
+      "variant": "terse/512 think=0",
+      "inTok": 1188,
+      "outTok": 79,
+      "thinkTok": 0,
+      "fieldHits": 2
+    },
+    {
+      "file": "data/screenshots/ankhos-oncology-software/01-patient-treatment-view.png",
+      "variant": "lean/full",
+      "inTok": 1199,
+      "outTok": 164,
+      "thinkTok": 673,
+      "fieldHits": 4
+    },
+    {
+      "file": "data/screenshots/ankhos-oncology-software/01-patient-treatment-view.png",
+      "variant": "lean/1024",
+      "inTok": 1199,
+      "outTok": 99,
+      "thinkTok": 554,
+      "fieldHits": 4
+    },
+    {
+      "file": "data/screenshots/ankhos-oncology-software/01-patient-treatment-view.png",
+      "variant": "lean/768",
+      "inTok": 1199,
+      "outTok": 164,
+      "thinkTok": 479,
+      "fieldHits": 4
+    },
+    {
+      "file": "data/screenshots/ankhos-oncology-software/01-patient-treatment-view.png",
+      "variant": "lean/768 think=0",
+      "inTok": 1199,
+      "outTok": 165,
+      "thinkTok": 0,
+      "fieldHits": 4
+    },
+    {
+      "file": "data/screenshots/ankhos-oncology-software/01-patient-treatment-view.png",
+      "variant": "terse/768 think=0",
+      "inTok": 1207,
+      "outTok": 77,
+      "thinkTok": 0,
+      "fieldHits": 4
+    },
+    {
+      "file": "data/screenshots/ankhos-oncology-software/01-patient-treatment-view.png",
+      "variant": "terse/512 think=0",
+      "inTok": 1207,
+      "outTok": 75,
+      "thinkTok": 0,
+      "fieldHits": 4
+    },
+    {
+      "file": "data/screenshots/emr-direct/01-openemr-phimail-patient-reports.png",
+      "variant": "lean/full",
+      "inTok": 1187,
+      "outTok": 156,
+      "thinkTok": 607,
+      "fieldHits": 5
+    },
+    {
+      "file": "data/screenshots/emr-direct/01-openemr-phimail-patient-reports.png",
+      "variant": "lean/1024",
+      "inTok": 1187,
+      "outTok": 100,
+      "thinkTok": 704,
+      "fieldHits": 3
+    },
+    {
+      "file": "data/screenshots/emr-direct/01-openemr-phimail-patient-reports.png",
+      "variant": "lean/768",
+      "inTok": 1187,
+      "outTok": 156,
+      "thinkTok": 753,
+      "fieldHits": 5
+    },
+    {
+      "file": "data/screenshots/emr-direct/01-openemr-phimail-patient-reports.png",
+      "variant": "lean/768 think=0",
+      "inTok": 1187,
+      "outTok": 156,
+      "thinkTok": 0,
+      "fieldHits": 5
+    },
+    {
+      "file": "data/screenshots/emr-direct/01-openemr-phimail-patient-reports.png",
+      "variant": "terse/768 think=0",
+      "inTok": 1195,
+      "outTok": 70,
+      "thinkTok": 0,
+      "fieldHits": 4
+    },
+    {
+      "file": "data/screenshots/emr-direct/01-openemr-phimail-patient-reports.png",
+      "variant": "terse/512 think=0",
+      "inTok": 1195,
+      "outTok": 35,
+      "thinkTok": 0,
+      "fieldHits": 3
+    },
+    {
+      "file": "data/screenshots/altera-digital-health-inc/01-dbmotion-clinical-view-agent.png",
+      "variant": "lean/full",
+      "inTok": 1211,
+      "outTok": 163,
+      "thinkTok": 680,
+      "fieldHits": 3
+    },
+    {
+      "file": "data/screenshots/altera-digital-health-inc/01-dbmotion-clinical-view-agent.png",
+      "variant": "lean/1024",
+      "inTok": 1211,
+      "outTok": 163,
+      "thinkTok": 831,
+      "fieldHits": 3
+    },
+    {
+      "file": "data/screenshots/altera-digital-health-inc/01-dbmotion-clinical-view-agent.png",
+      "variant": "lean/768",
+      "inTok": 1211,
+      "outTok": 163,
+      "thinkTok": 423,
+      "fieldHits": 3
+    },
+    {
+      "file": "data/screenshots/altera-digital-health-inc/01-dbmotion-clinical-view-agent.png",
+      "variant": "lean/768 think=0",
+      "inTok": 1211,
+      "outTok": 163,
+      "thinkTok": 0,
+      "fieldHits": 3
+    },
+    {
+      "file": "data/screenshots/altera-digital-health-inc/01-dbmotion-clinical-view-agent.png",
+      "variant": "terse/768 think=0",
+      "inTok": 1219,
+      "outTok": 30,
+      "thinkTok": 0,
+      "fieldHits": 2
+    },
+    {
+      "file": "data/screenshots/altera-digital-health-inc/01-dbmotion-clinical-view-agent.png",
+      "variant": "terse/512 think=0",
+      "inTok": 1219,
+      "outTok": 22,
+      "thinkTok": 0,
+      "fieldHits": 2
+    },
+    {
+      "file": "data/screenshots/netsmart-technologies/01-patient-visit-menu.png",
+      "variant": "lean/full",
+      "inTok": 1199,
+      "outTok": 97,
+      "thinkTok": 789,
+      "fieldHits": 6
+    },
+    {
+      "file": "data/screenshots/netsmart-technologies/01-patient-visit-menu.png",
+      "variant": "lean/1024",
+      "inTok": 1199,
+      "outTok": 157,
+      "thinkTok": 702,
+      "fieldHits": 6
+    },
+    {
+      "file": "data/screenshots/netsmart-technologies/01-patient-visit-menu.png",
+      "variant": "lean/768",
+      "inTok": 1199,
+      "outTok": 160,
+      "thinkTok": 426,
+      "fieldHits": 5
+    },
+    {
+      "file": "data/screenshots/netsmart-technologies/01-patient-visit-menu.png",
+      "variant": "lean/768 think=0",
+      "inTok": 1199,
+      "outTok": 160,
+      "thinkTok": 0,
+      "fieldHits": 5
+    },
+    {
+      "file": "data/screenshots/netsmart-technologies/01-patient-visit-menu.png",
+      "variant": "terse/768 think=0",
+      "inTok": 1207,
+      "outTok": 26,
+      "thinkTok": 0,
+      "fieldHits": 3
+    },
+    {
+      "file": "data/screenshots/netsmart-technologies/01-patient-visit-menu.png",
+      "variant": "terse/512 think=0",
+      "inTok": 1207,
+      "outTok": 25,
+      "thinkTok": 0,
+      "fieldHits": 3
+    },
+    {
+      "file": "data/screenshots/myriad-systems/01-myscribe-ai-clinical-notes.png",
+      "variant": "lean/full",
+      "inTok": 1211,
+      "outTok": 171,
+      "thinkTok": 522,
+      "fieldHits": 4
+    },
+    {
+      "file": "data/screenshots/myriad-systems/01-myscribe-ai-clinical-notes.png",
+      "variant": "lean/1024",
+      "inTok": 1211,
+      "outTok": 170,
+      "thinkTok": 674,
+      "fieldHits": 4
+    },
+    {
+      "file": "data/screenshots/myriad-systems/01-myscribe-ai-clinical-notes.png",
+      "variant": "lean/768",
+      "inTok": 1211,
+      "outTok": 170,
+      "thinkTok": 527,
+      "fieldHits": 4
+    },
+    {
+      "file": "data/screenshots/myriad-systems/01-myscribe-ai-clinical-notes.png",
+      "variant": "lean/768 think=0",
+      "inTok": 1211,
+      "outTok": 175,
+      "thinkTok": 0,
+      "fieldHits": 3
+    },
+    {
+      "file": "data/screenshots/myriad-systems/01-myscribe-ai-clinical-notes.png",
+      "variant": "terse/768 think=0",
+      "inTok": 1219,
+      "outTok": 85,
+      "thinkTok": 0,
+      "fieldHits": 4
+    },
+    {
+      "file": "data/screenshots/myriad-systems/01-myscribe-ai-clinical-notes.png",
+      "variant": "terse/512 think=0",
+      "thinkTok": 0,
+      "fieldHits": 3
+    },
+    {
+      "file": "data/screenshots/md-office-llc/02-billing-charges-holmes.png",
+      "variant": "lean/full",
+      "inTok": 1199,
+      "outTok": 176,
+      "thinkTok": 819,
+      "fieldHits": 5
+    },
+    {
+      "file": "data/screenshots/md-office-llc/02-billing-charges-holmes.png",
+      "variant": "lean/1024",
+      "inTok": 1199,
+      "outTok": 176,
+      "thinkTok": 1132,
+      "fieldHits": 5
+    },
+    {
+      "file": "data/screenshots/md-office-llc/02-billing-charges-holmes.png",
+      "variant": "lean/768",
+      "inTok": 1199,
+      "outTok": 170,
+      "thinkTok": 1004,
+      "fieldHits": 4
+    },
+    {
+      "file": "data/screenshots/md-office-llc/02-billing-charges-holmes.png",
+      "variant": "lean/768 think=0",
+      "inTok": 1199,
+      "outTok": 171,
+      "thinkTok": 0,
+      "fieldHits": 5
+    },
+    {
+      "file": "data/screenshots/md-office-llc/02-billing-charges-holmes.png",
+      "variant": "terse/768 think=0",
+      "inTok": 1207,
+      "outTok": 25,
+      "thinkTok": 0,
+      "fieldHits": 2
+    },
+    {
+      "file": "data/screenshots/md-office-llc/02-billing-charges-holmes.png",
+      "variant": "terse/512 think=0",
+      "inTok": 1207,
+      "outTok": 83,
+      "thinkTok": 0,
+      "fieldHits": 2
+    },
+    {
+      "file": "data/screenshots/spry-therapeutics-inc/01-patient-personal-details.png",
+      "variant": "lean/full",
+      "inTok": 1199,
+      "outTok": 160,
+      "thinkTok": 803,
+      "fieldHits": 5
+    },
+    {
+      "file": "data/screenshots/spry-therapeutics-inc/01-patient-personal-details.png",
+      "variant": "lean/1024",
+      "inTok": 1199,
+      "outTok": 160,
+      "thinkTok": 587,
+      "fieldHits": 5
+    },
+    {
+      "file": "data/screenshots/spry-therapeutics-inc/01-patient-personal-details.png",
+      "variant": "lean/768",
+      "inTok": 1199,
+      "outTok": 161,
+      "thinkTok": 593,
+      "fieldHits": 4
+    },
+    {
+      "file": "data/screenshots/spry-therapeutics-inc/01-patient-personal-details.png",
+      "variant": "lean/768 think=0",
+      "inTok": 1199,
+      "outTok": 161,
+      "thinkTok": 0,
+      "fieldHits": 4
+    },
+    {
+      "file": "data/screenshots/spry-therapeutics-inc/01-patient-personal-details.png",
+      "variant": "terse/768 think=0",
+      "inTok": 1207,
+      "outTok": 28,
+      "thinkTok": 0,
+      "fieldHits": 3
+    },
+    {
+      "file": "data/screenshots/spry-therapeutics-inc/01-patient-personal-details.png",
+      "variant": "terse/512 think=0",
+      "inTok": 1207,
+      "outTok": 26,
+      "thinkTok": 0,
+      "fieldHits": 2
+    },
+    {
+      "file": "data/screenshots/ensoftek-inc/02-patient-encounter-chart.png",
+      "variant": "lean/full",
+      "inTok": 1163,
+      "outTok": 118,
+      "thinkTok": 834,
+      "fieldHits": 3
+    },
+    {
+      "file": "data/screenshots/ensoftek-inc/02-patient-encounter-chart.png",
+      "variant": "lean/1024",
+      "inTok": 1163,
+      "outTok": 175,
+      "thinkTok": 1139,
+      "fieldHits": 5
+    },
+    {
+      "file": "data/screenshots/ensoftek-inc/02-patient-encounter-chart.png",
+      "variant": "lean/768",
+      "inTok": 1163,
+      "outTok": 183,
+      "thinkTok": 944,
+      "fieldHits": 5
+    },
+    {
+      "file": "data/screenshots/ensoftek-inc/02-patient-encounter-chart.png",
+      "variant": "lean/768 think=0",
+      "inTok": 1163,
+      "outTok": 186,
+      "thinkTok": 0,
+      "fieldHits": 4
+    },
+    {
+      "file": "data/screenshots/ensoftek-inc/02-patient-encounter-chart.png",
+      "variant": "terse/768 think=0",
+      "inTok": 1171,
+      "outTok": 25,
+      "thinkTok": 0,
+      "fieldHits": 3
+    },
+    {
+      "file": "data/screenshots/ensoftek-inc/02-patient-encounter-chart.png",
+      "variant": "terse/512 think=0",
+      "inTok": 1171,
+      "outTok": 525,
+      "thinkTok": 0,
+      "fieldHits": 2
+    }
+  ]
+}

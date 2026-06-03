@@ -1,0 +1,40 @@
+{
+  "vendor": "ICANotes LLC",
+  "product": "ICANotes EHR/EMR for Behavioral Health",
+  "website": "https://www.icanotes.com",
+  "slug": "icanotes-llc",
+  "capturedBy": "cheap-pass-brave-images",
+  "capturedDate": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-ros-note-patient-banner.png",
+      "source": "https://www.icanotes.com/wp-content/uploads/2025/02/notes-2.png",
+      "description": "Therapist Progress Note (Review of Systems) view with patient banner: Smith, Justin; Chart ID 0013; DOB 06/03/1990. Full app: top tabs, column-based menu-driven note builder, narrative panel."
+    },
+    {
+      "file": "02-symptoms-note-chart-face.png",
+      "source": "https://www.icanotes.com/wp-content/uploads/2026/04/icanotes-mental-health-ehr-symptom-charting-new-patient-chart.webp",
+      "description": "Therapist PN Part 1 Symptoms charting with patient banner: Hagle, David; Chart ID 0003; DOB 01/25/1951 (72). Includes Create New Chart dialog. Full app view."
+    },
+    {
+      "file": "03-treatment-plan-chart.png",
+      "source": "https://emrsystems.net/wp-content/uploads/2018/12/ICANotes-EMR-Software-treatment-plan.webp",
+      "description": "Comprehensive Treatment Plan screen (FileMaker-based client) with patient banner: Smith, Samantha; DOB 2-2-1922; Unique Number ID100422162. Sidebar/menu + header + main work area."
+    },
+    {
+      "file": "04-billing-worklist.png",
+      "source": "https://www.icanotes.com/wp-content/uploads/2026/04/icanotes-behavioral-health-billing-software-worklist-unbilled-encounters-patient-invoice.webp",
+      "description": "Billing Worklist (Unbilled Encounters) with client names and DOBs (e.g., Sarah McGee DOB 11/09/1978), plus invoice overlay. Full app: tabs, table, side panel."
+    },
+    {
+      "file": "05-patient-account-insurance.png",
+      "source": "https://emrsystems.net/wp-content/uploads/2018/12/icanotes-EMR-Software-insurance-plan.webp",
+      "description": "Patient Account / Service Charge Detail with Edit Insurance Payment dialog for patient Annie Adams; date of service 4/7/2016. Full app view with header tabs and ledger grid."
+    },
+    {
+      "file": "06-chart-room-patient-list.png",
+      "source": "https://www.icanotes.com/wp-content/uploads/2025/06/Screenshot-2025-06-25-at-11.17.36%E2%80%AFAM-2.jpg",
+      "description": "Chart Room patient roster (FileMaker client over Remote Desktop) for clinician Sandy Crowley, showing patient names with DOB column (e.g., Adklams 6-1-1977). Full app: header, file-drawer nav, patient list, action panel."
+    }
+  ]
+}

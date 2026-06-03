@@ -1,0 +1,24 @@
+{
+  "vendor": "Physician's Computer Company",
+  "product": "PCC EHR",
+  "slug": "physician-s-computer-company",
+  "website": "https://www.pcc.com/",
+  "source": "Brave image search (cheap pass)",
+  "screenshots": [
+    {
+      "file": "01-growth-charts.png",
+      "description": "PCC EHR Growth Charts view with left navigation sidebar, header, and main work area. Patient banner: Chadwick Chadley, PCC# 1368, 3 yrs 1 mo, DOB 08/29/21.",
+      "source_url": "https://www.ehrinpractice.com/pictures/.../PCC%20EHR%20visit%20charting.jpg"
+    },
+    {
+      "file": "02-medical-summary.png",
+      "description": "PCC EHR Medical Summary view with sidebar, header, problem list, medication history. Patient banner: Chadwick Chadley, PCC# 1368, 3 yrs 1 mo, DOB 08/29/21.",
+      "source_url": "https://emrfinder.com/wp-content/uploads/2025/05/PCC-Pediatrics-EHR-Practice-Management-Software-Medical-Summary-1-1-1024x574.webp"
+    },
+    {
+      "file": "03-demographics.png",
+      "description": "PCC EHR Demographics view with sidebar, header, account demographics. Patient banner: Chad Whitney, PCC# 1368, 3 yrs 2 mos, DOB 9/11/15.",
+      "source_url": "https://www.ehrinpractice.com/pictures/.../PCC%20patient%20demographics.jpg"
+    }
+  ]
+}

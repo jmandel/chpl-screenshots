@@ -1,0 +1,25 @@
+{
+  "vendor": "Accumedic Computer Systems, Inc.",
+  "product": "AccuMed EHR",
+  "slug": "accumedic-computer-systems-inc",
+  "website": "https://www.accumedic.com/",
+  "source": "Brave image search (cheap pass)",
+  "capturedAt": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-patient-chart-summary.png",
+      "description": "AccuMed EHR patient chart summary. Sidebar (Chart View, Patient Search, Demographics, Treatment Plan, Vitals), top app header with module icons, and patient banner 'Matulich,Kylie #100233 - Female, DOB 01/17/2003, Age 14'. Work area shows Appointments, Patient Assessments (PHQ-9), Documents, Medications, Vitals, Allergies.",
+      "sourceUrl": "https://codatis.com/wp-content/uploads/2025/09/2-43.jpg"
+    },
+    {
+      "file": "02-patient-summary-fullview.png",
+      "description": "AccuMed EHR full-window patient summary view with left navigation sidebar, top toolbar, patient banner, and multi-panel clinical work area.",
+      "sourceUrl": "https://www.emrsystems.net/wp-content/uploads/2023/10/AccuMed-EHR-Software-Dashboard.webp"
+    },
+    {
+      "file": "03-doctor-dashboard.png",
+      "description": "AccuMed EHR Doctor Dashboard. Left sidebar (Dashboard, Schedule, Alerts, Patient Tracker, Messages, Case Load), top module header, and work area with Schedule, Alerts, Case Load (patient accounts/names/program), Messages, Tasks.",
+      "sourceUrl": "https://codatis.com/wp-content/uploads/2025/09/1-45.jpg"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "daw-systems-inc",
+  "vendor": "DAW SYSTEMS, INC.",
+  "product": "ScriptSure Cloud",
+  "website": "http://www.dawsystems.com/",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-eprescribe-patient-details-adams-john.png",
+      "sourceUrl": "https://e-prescribe.net/images/desktop-screenshot.png",
+      "description": "ScriptSure / e-prescribe.net full web application: left navigation sidebar (Home, Favorites, Dispensing, Orders, Patients, Inventory, Analytics, Reports, etc.), top header, patient banner (ADAMS, JOHN, ID GKCLHMY6UE, DOB 2/3/1942, Male, address), and Details tab work area with personal/identification/clinical info forms."
+    },
+    {
+      "file": "02-scriptsure-chart-prescriptions-ara-patient.png",
+      "sourceUrl": "https://www.findemr.com/image/cache/catalog/1product%20pic/ScriptSure/Patient-Chart-View-600x375.jpg",
+      "description": "ScriptSure patient chart view: Chart Navigation sidebar (Prescriptions, Demographics, Allergy, Pharmacy, Diagnoses, Vitals, Notes, Education), patient banner (ARA PATIENT, DOB Jan 1 1980, 42 years Female, Chart #9963), and All Prescriptions list work area."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "vendor": "Modernizing Medicine Inc.",
+  "product": "EMA",
+  "website": "https://www.modmed.com",
+  "slug": "modernizing-medicine-inc",
+  "captured": "2026-06-03",
+  "source": "Brave image search (cheap pass)",
+  "images": [
+    {
+      "file": "01-ema-ophthalmology-external-eye.png",
+      "source_url": "https://www.modmed.com/wp-content/uploads/2018/03/orthopedic-ehr-system-1.jpg",
+      "note": "EMA on iPad, ophthalmology External Eye exam; patient banner 'Jane Doe 12/15/74 (41) M' with sidebar (Exam/Impressions/Plans/Follow-Up/Progress Notes), top nav, and right tool rail."
+    },
+    {
+      "file": "02-ema-ent-derm-impressions.png",
+      "source_url": "https://ux-design-awards.com/media/pages/winners/ema-the-specialty-specific-and-cloud-based-electronic-health-records-ehr-system/14fccb740a-1595259088/31_bild2.jpg",
+      "note": "EMA ENT/derm view; patient banner 'Jane Doe 5/28/62 (64) F Arrived', Impressions list sidebar, top nav, anatomy work area, right tool rail."
+    },
+    {
+      "file": "03-ema-ortho-skeleton-plans.png",
+      "source_url": "https://www.modmed.com/wp-content/uploads/2017/08/Ortho-1-1.png",
+      "note": "EMA orthopedics; patient banner 'Jane Doe' with top nav, left Popular Plans sidebar, skeletal work area, right plans rail."
+    },
+    {
+      "file": "04-ema-derm-nose-morphologies.png",
+      "source_url": "https://emrfinder.com/wp-content/uploads/2017/08/ModMed-EMA-EMR-Software-demo-1024x723.webp",
+      "note": "EMA dermatology nose exam; patient banner 'Jane Doe 08/14/86 (31) F Checked In', top nav, left Plans sidebar, Morphologies panel, right tool rail."
+    },
+    {
+      "file": "05-ema-ophthalmology-eyes-exam.png",
+      "source_url": "https://emrfinder.com/wp-content/uploads/2017/08/EMA-by-ModMed-EMR-Software-Optometry-Demo-1024x713.webp",
+      "note": "EMA ophthalmology External eye exam; patient banner 'Jane Doe 12/15/74 (41) M', left tab sidebar, top nav, OD/OS work area, right drawing tools rail."
+    },
+    {
+      "file": "06-ema-ortho-knees-exam.png",
+      "source_url": "https://emrsystems.net/wp-content/uploads/2020/03/EMA-Telehealth-Enabled-EHR-Practice-Management-Software-Diagnosis-1024x765.webp",
+      "note": "EMA orthopedics knee exam; patient banner 'JOHN DOE 3/8/92 (27) M', top nav, left Exam/Impressions/Plans sidebar, anatomy work area, right Special Plans rail."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "vendor": "Healthie",
+  "product": "Healthie",
+  "website": "https://www.gethealthie.com",
+  "slug": "healthie",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-charting-notes-patient-banner.png",
+      "sourceUrl": "https://d33v4339jhl8k0.cloudfront.net/docs/assets/5bbe96a22c7d3a04dd5b8761/images/685c76931ed56e233221452e/file-fEf2gCdpYT.png",
+      "description": "Healthie Charting Notes view: full app with left nav sidebar, header search/account bar, charting notes list and main work area (Create Charting Note modal), and right-side patient banner for demo patient Mariska (Mary) Jones (Age/DOB 05/26/1980, Client ID, Location New York).",
+      "notes": "Full EHR application view with visible patient demographics (name, DOB, client ID). Demo/test patient."
+    }
+  ]
+}

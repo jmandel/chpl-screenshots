@@ -1,0 +1,40 @@
+{
+  "slug": "health-systems-technology-inc",
+  "vendor": "Health Systems Technology, Inc.",
+  "product": "MedPointe",
+  "website": "http://www.hstcentral.com",
+  "source": "Brave image search (cheap pass)",
+  "captured": "2026-06-03",
+  "images": [
+    {
+      "file": "01-chart-overview.png",
+      "description": "MedPointe patient chart Overview tab: patient banner (David Blackwell, Account 24242, DOB), problem list, medications, allergies, preventive care sidebar",
+      "source_url": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/8c5a4951-ffe4-447a-a2ac-a582cae4e2ca.png",
+      "source_page": "softwareadvice.com"
+    },
+    {
+      "file": "02-chart-overview-medications.png",
+      "description": "MedPointe chart Overview with medications panel and patient demographics banner",
+      "source_url": "https://www.findemr.com/image/cache/catalog/1product%20pic/MedPointe/MedPointe%20(2)-600x375.jpg",
+      "source_page": "findemr.com"
+    },
+    {
+      "file": "03-chart-overview-problem-list.png",
+      "description": "MedPointe chart Overview emphasizing problem list, patient banner with photo and account/DOB",
+      "source_url": "https://emrfinder.com/wp-content/uploads/2025/10/MedPointe-EHR-Practice-Management-Software-Scheduling-1-768x450.webp",
+      "source_page": "emrfinder.com"
+    },
+    {
+      "file": "04-general-exam.png",
+      "description": "MedPointe General Exam documentation modal over patient chart with sidebar demographics",
+      "source_url": "https://www.emrsystems.net/wp-content/uploads/2016/12/MedPointe-EMR-Software-General-Exam-Software.webp",
+      "source_page": "emrsystems.net"
+    },
+    {
+      "file": "05-diabetes-follow-up.png",
+      "description": "MedPointe Diabetes Follow-up template modal over chart, patient demographics in left sidebar",
+      "source_url": "https://www.emrsystems.net/wp-content/uploads/2025/11/MedPointe-EMR-Practice-Management-Software-Patient-Follow-up.webp",
+      "source_page": "emrsystems.net"
+    }
+  ]
+}

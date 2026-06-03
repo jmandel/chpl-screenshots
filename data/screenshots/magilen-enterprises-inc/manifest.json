@@ -1,0 +1,25 @@
+{
+  "slug": "magilen-enterprises-inc",
+  "vendor": "Magilen Enterprises Inc",
+  "product": "QSmartCare",
+  "website": "https://www.qsmartcare.com",
+  "source": "Brave image search (cheap pass)",
+  "captured": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-dashboard-visit-reports.png",
+      "source_url": "https://qsmartcare.com/image/image(04).png",
+      "description": "QSmartCare dashboard: left nav sidebar, header with user, Your Consults panel and My Visit Reports table with patient names, DOS, DOB, facility."
+    },
+    {
+      "file": "02-ccda-patient-list.png",
+      "source_url": "https://qsmartcare.com/image/image(06).png",
+      "description": "QSmartCare C-CDA (Consolidated Clinical Document Architecture) patient list with full demographics: Account No 908275, John Doe, DOB 04/22/1980, address, phone, gender."
+    },
+    {
+      "file": "03-ccda-patient-detail.png",
+      "source_url": "https://qsmartcare.com/image/image(08).png",
+      "description": "QSmartCare C-CDA patient view with sidebar (Patient > Manage Patients > CCDA), demographics row for John Doe with EHI export actions."
+    }
+  ]
+}

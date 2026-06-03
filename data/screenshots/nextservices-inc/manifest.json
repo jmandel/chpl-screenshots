@@ -1,0 +1,15 @@
+{
+  "vendor": "NextServices, Inc.",
+  "product": "enki EHR",
+  "website": "https://nextservices.com",
+  "slug": "nextservices-inc",
+  "source": "brave-image-search-cheap-pass",
+  "captured": "2026-06-03",
+  "images": [
+    {
+      "file": "01-enki-endoscopy-report-writer.png",
+      "sourceUrl": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/b7285106-6f5c-47aa-ada9-cf3f849fa5a0.png",
+      "description": "enki EHR Endoscopy Report Writer screen: top nav (Schedule, Labs, eRx, Pending eRx, Messages, My enki), logged-in user John Smith MD, patient banner James Obrien 66 M, DOB Sep 20 2022, referred by Dale Johnson MD; main work area shows endoscopy imaging with captured frame thumbnails."
+    }
+  ]
+}

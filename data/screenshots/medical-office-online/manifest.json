@@ -1,0 +1,19 @@
+{
+  "vendor": "Medical Office Online",
+  "product": "Medical Office Online",
+  "slug": "medical-office-online",
+  "website": "https://www.medicalofficeonline.com/",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-new-visit-note.png",
+      "source": "https://www.medicalofficeonline.com/wp-content/uploads/2020/01/PlainVisitForm.png",
+      "description": "New Visit note screen: MOO logo header, patient demographics banner (Pal, Sally -- Acct #: PA00000002 -- SSN -- DOB:03/30/52 -- Age: 67), tab navigation (Visit/Front Office/Billing/Attachments/Handouts/Stored Data/Transcription/System), and main note editor work area."
+    },
+    {
+      "file": "02-new-visit-note-tabs.png",
+      "source": "https://www.findemr.com/image/cache/catalog/1product%20pic/Medical%20Office%20Online/Medical-Office-Online-Plain-Visit-600x375.jpg",
+      "description": "New Visit screen variant: patient demographics banner (Pal, Sally -- Acct #: PA00000002 -- SSN -- DOB:03/30/52 -- Age: 67), tab navigation menu, and Note work area with formatting toolbar."
+    }
+  ]
+}

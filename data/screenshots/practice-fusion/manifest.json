@@ -1,0 +1,44 @@
+{
+  "slug": "practice-fusion",
+  "vendor": "Practice Fusion",
+  "product": "Practice Fusion EHR",
+  "website": "http://www.practicefusion.com",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-summary-jennifer-demorheum.png",
+      "view": "Patient chart Summary (Charts)",
+      "patient": "Jennifer DemoRheum (demo)",
+      "demographics": "name, PRN JR572205, 48 yrs F, DOB 03/05/1970, phone",
+      "source": "https://i.pcmag.com/imagery/reviews/041cVcW7oJ8a0LXdNv6241X-1.fit_lim.size_1592x947.v_1569469962.png"
+    },
+    {
+      "file": "02-encounter-gregory-lewis.png",
+      "view": "Encounter / SOAP note with record subjective panel",
+      "patient": "Gregory J Lewis (demo)",
+      "demographics": "name, 34 yrs M, DOB 01/18/1980, email",
+      "source": "https://www.ehrinpractice.com/.../Practice%20Fusion%20EHR%20Screenshot%201.jpg"
+    },
+    {
+      "file": "03-summary-medication-james-patient.png",
+      "view": "Patient chart Summary with Record medication panel",
+      "patient": "James Patient (demo)",
+      "demographics": "name, PRN P246704, 65 yrs M, DOB 12/30/1950, phone",
+      "source": "https://www.ehrinpractice.com/.../Practice%20Fusion%20EHR%20Screenshot%203.jpg"
+    },
+    {
+      "file": "04-facesheet-eric-ford.png",
+      "view": "Patient Facesheet (legacy UI)",
+      "patient": "Eric Ford (demo)",
+      "demographics": "name, Male, 27 yrs, DOB 02/06/1985",
+      "source": "https://www.ehrinpractice.com/.../Practice%20Fusion%20EHR%20Screenshot%205.jpg"
+    },
+    {
+      "file": "05-facesheet-maria-testadult.png",
+      "view": "Patient Facesheet (legacy UI)",
+      "patient": "Maria TestAdult (demo)",
+      "demographics": "name, Female, 47 yrs, DOB 12/10/1964",
+      "source": "https://www.findemr.com/.../practicefusion%20-%20patient%20chart%20-min-600x375.webp"
+    }
+  ]
+}

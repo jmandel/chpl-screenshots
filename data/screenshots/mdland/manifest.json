@@ -1,0 +1,40 @@
+{
+  "vendor": "MDLAND",
+  "product": "iClinic",
+  "slug": "mdland",
+  "website": "https://www.mdland.com/",
+  "source": "Brave image search (cheap pass)",
+  "captured": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-patient-home-demographics.png",
+      "source_url": "https://www.findemr.com/image/cache/catalog/1product%20pic/iClinic/1-600x375.jpg",
+      "description": "iClinic Patient Home view with full patient demographics banner (test patient Apple, TEST A), left module sidebar, header, and communications/appointments work area."
+    },
+    {
+      "file": "02-lab-imaging-order-history.png",
+      "source_url": "https://mdland.com/wp-content/uploads/2024/12/labandimaging.png",
+      "description": "iClinic Lab/Imaging/Letter Order History screen, patient banner Test, Daisy T with DOB/sex, left sidebar and main order table."
+    },
+    {
+      "file": "03-billing-account.png",
+      "source_url": "https://mdland.com/wp-content/uploads/2024/12/ebilling-1024x603.png",
+      "description": "iClinic Account/Billing screen for patient shah, Test 1 with DOB, insurance info, payment table, sidebar and toolbar."
+    },
+    {
+      "file": "04-care-management-dashboard.png",
+      "source_url": "https://www.medigy.com/offering/8298.JPEG",
+      "description": "iClinic Chronic Care Management Dashboard with provider header (SMITH, HARRY G MD), patient banner, sidebar, charts and enrolled patient list."
+    },
+    {
+      "file": "05-meaningful-use-report.png",
+      "source_url": "https://mdland.com/wp-content/uploads/2024/12/meaningfuluselaptop.png",
+      "description": "iClinic Meaningful Use Report View for patient SMITH, HARRY with address/DOB demographics block, sidebar and measures work area."
+    },
+    {
+      "file": "06-billing-payment-detail.png",
+      "source_url": "https://www.findemr.com/image/cache/catalog/1product%20pic/iClinic/2-600x375.jpg",
+      "description": "iClinic Account/billing payment detail screen with patient banner (SMITH, HARRY G MD provider context), account number, sidebar and EOB payment area."
+    }
+  ]
+}

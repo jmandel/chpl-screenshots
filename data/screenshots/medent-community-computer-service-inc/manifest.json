@@ -1,0 +1,45 @@
+{
+  "slug": "medent-community-computer-service-inc",
+  "vendor": "medent - Community Computer Service, Inc.",
+  "product": "medent",
+  "website": "https://www.medent.com",
+  "source": "Brave image search (cheap pass)",
+  "captured": "2026-06-03",
+  "images": [
+    {
+      "file": "01-chart-central-patient-list.png",
+      "description": "MEDENT Chart Central daily schedule/patient list for Dr. George T. Cuthbert, multiple patients with appointment types and statuses",
+      "source_url": "https://emrfinder.com/wp-content/uploads/2016/09/medent-emr-and-practice-management-software.jpg"
+    },
+    {
+      "file": "02-progress-note-jones-june.png",
+      "description": "Progress note / clinical exam view, patient Jones, June B (DOB 06/21/00, F, Age 64), Alliance Medical Group, full sidebar + chart panes",
+      "source_url": "https://www.emrsystems.net/wp-content/uploads/2016/09/MEDENT-EHR-software-chart-dashboard.webp"
+    },
+    {
+      "file": "03-chart-day-view.png",
+      "description": "Chart Central day view with patient appointment rows, status, room and chief complaints",
+      "source_url": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/d38907c2-07f4-4309-b10b-d46d0756aac1.png"
+    },
+    {
+      "file": "04-visit-billing-jones.png",
+      "description": "Visit / billing (CCD/charge) entry screen for patient Jones, June with MEDENT sidebar",
+      "source_url": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/fed4349e-ebef-4b6c-83a0-7ca0c9f2f178.png"
+    },
+    {
+      "file": "05-referral-export-jones-mary.png",
+      "description": "Lab order / referral export screen, patient Jones, Mary J, routing information and results notification panes",
+      "source_url": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/3a28ed33-9e4a-4d33-9ec4-afab753293d2.png"
+    },
+    {
+      "file": "06-outgoing-referral-edwards.png",
+      "description": "Outgoing referral management screen for patient Edwards, Melissa with referral details and provider fields",
+      "source_url": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/27664728-1f37-4f26-aca0-aef6087f31e7.png"
+    },
+    {
+      "file": "07-edit-lab-order-simmons.png",
+      "description": "Edit Lab Order screen, patient Simmons, Mary A (#1110, DOB 06/21/00), routing/results/status panes plus ESB status sidebar",
+      "source_url": "https://www.emrsystems.net/wp-content/uploads/2016/09/MEDENT-EHR-Software-patient-dashboard.webp"
+    }
+  ]
+}

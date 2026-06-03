@@ -1,0 +1,15 @@
+{
+  "vendor": "Medisolv, Inc.",
+  "product": "ENCOR-e",
+  "website": "http://www.medisolv.com",
+  "slug": "medisolv-inc",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-encor-hospital-abstracted-measures-patient-info.png",
+      "sourceUrl": "https://medisolv.com/hubfs/ENCOR-a-Homescreen.png",
+      "description": "ENCOR Hospital Abstracted Measures - full app view with top menu (Home, Abstraction, Concurrent Abstraction, IRR, Reporting, Administration), left sidebar (Account Details, Account Number, Unit Number, Medisolv Identifier, Toolbar), and a Patient Information abstraction worksheet showing patient full name (Brad, Henry), first/last name, admission date 07/20/2021, discharge date 07/23/2021, postal code, and race fields. Demo/test patient. Contains a small marketing circle overlay in the lower-left corner but app chrome and patient demographics remain visible.",
+      "patientDemographics": ["name", "admission date", "discharge date", "postal code"]
+    }
+  ]
+}

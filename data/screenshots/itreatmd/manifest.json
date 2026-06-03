@@ -1,0 +1,14 @@
+{
+  "vendor": "iTreatMD",
+  "product": "iTreatMD",
+  "slug": "itreatmd",
+  "website": "https://www.itreatmd.com",
+  "capturedVia": "brave-image-search (cheap pass)",
+  "images": [
+    {
+      "file": "01-patient-record.png",
+      "source": "https://www.medstartr.com/uploads/images/projects/200621/projectimage_5bb7e7d7ce2d3.png",
+      "description": "iTreatMD patient record view: patient banner (name 'May West K.', DOB 06/02/1829, Age 89), header navigation (PATIENTS / MENU), main work area with Patient Record, DOS, HPI and LACE, MHX and ROS, Physical Exam, Vitals sections."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "vendor": "Tenzing Medical LLC",
+  "product": "Tenzing VistA",
+  "website": "http://www.tenzingmedical.com",
+  "slug": "tenzing-medical-llc",
+  "source": "Brave image search (cheap pass)",
+  "screenshots": [
+    {
+      "file": "01-chart-view.png",
+      "sourceUrl": "http://tenzingmedical.com/img/newChart.png",
+      "description": "Oroville Hospital Chart View - inpatient problem management with patient banner (Born 10/07/1977, MALE, Patient ID 3648), sidebar of patient categories, header"
+    },
+    {
+      "file": "02-appointment-scheduler.png",
+      "sourceUrl": "http://tenzingmedical.com/img/MakingNewAppointment.png",
+      "description": "VA System appointment scheduler with menu bar, clinic sidebar, calendar work area, and patient demographics panel (ZZ CHRISTMAS,MERRY B, DOB DEC 25 1984, MRN 600)"
+    }
+  ]
+}

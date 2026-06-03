@@ -1,0 +1,34 @@
+{
+  "vendor": "Elation Health, Inc.",
+  "product": "Elation EMR",
+  "website": "http://www.elationhealth.com",
+  "slug": "elation-health-inc",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-chart-overview-will-darcy.png",
+      "source": "https://www.elationhealth.com/wp-content/uploads/2025/01/3-Pane-View-with-Note-2.0-4-1536x1036.webp",
+      "description": "Three-pane patient chart overview for demo patient Will Darcy (DOB 01/01/1990). Left patient banner, top toolbar (Visit Note, Notes, Rx, Orders, etc.), center Requiring Action / Chronological Record, right Clinical Reminders and visit note."
+    },
+    {
+      "file": "02-chart-clinical-reminders-will-darcy.png",
+      "source": "https://www.ifaxapp.com/wp-content/uploads/2024/01/elation-ehr.jpg",
+      "description": "Full Elation EMR chart for demo patient Will Darcy (DOB 01/01/1990) showing patient demographics, allergies, problem list, clinical reminders, vitals and subjective/objective note."
+    },
+    {
+      "file": "03-chart-paula-patient.png",
+      "source": "https://www.findemr.com/image/cache/catalog/1product%20pic/elation%20health/patient-overview1-600x375.jpg",
+      "description": "Elation EMR patient chart for demo patient Paula Patient (DOB 08/29/1937), with insurance Medicare, problem list, allergies, and chronological record with office visit note."
+    },
+    {
+      "file": "04-chart-helen-carnegie.png",
+      "source": "https://www.emrsystems.net/wp-content/uploads/2020/05/ElationHealth-EMR-Software-demo-chart-e-prescribing.webp",
+      "description": "Elation EMR full chart (laptop frame) for demo patient Helen M. Carnegie (DOB visible) showing problem list, allergies, subjective/objective note and clinical decision support panel."
+    },
+    {
+      "file": "05-chart-scrooge-mcduck.png",
+      "source": "https://www.emrsystems.net/wp-content/uploads/2025/11/ElationHealth-EMR-Software-Patient-Lab-Information.webp",
+      "description": "Elation EMR full chart for demo patient Scrooge P. McDuck (DOB, insurance Medicare) showing chronological record of imaging/lab results with Lab Requisition and Imaging Requisition modal forms."
+    }
+  ]
+}

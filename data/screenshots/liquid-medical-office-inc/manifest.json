@@ -1,0 +1,21 @@
+{
+  "slug": "liquid-medical-office-inc",
+  "vendor": "Liquid Medical Office, Inc.",
+  "product": "Liquid EMR",
+  "website": "https://www.liquidemr.com",
+  "source": "Brave image search (cheap pass)",
+  "screenshots": [
+    {
+      "file": "01-patient-chart-summary.png",
+      "sourceUrl": "https://www.liquidemr.com/wp-content/uploads/2020/09/chrome_neCjW8blfn.png",
+      "description": "Full patient chart Summary view: patient banner (name 'Abc, Test', DOB, Sex M, Provider, account #24914 / TEST18821C), tabbed chart with Encounters, Care Team, Labs, Appointments, Journal panels and patient toolbar.",
+      "demographics": "Patient name, account/ID (TEST18821C / #24914), DOB, Sex"
+    },
+    {
+      "file": "02-patient-search-list.png",
+      "sourceUrl": "https://www.liquidemr.com/wp-content/uploads/2020/08/chrome_9L2b5A4rek.png",
+      "description": "Patient search/list view with left sidebar (Schedule/Patients), header (Session timeout, Settings, Billing) and a patient record row (Last Name Abc, First Name Test, Acct TEST18821C, DOB).",
+      "demographics": "Patient name, account (TEST18821C), DOB in record row"
+    }
+  ]
+}

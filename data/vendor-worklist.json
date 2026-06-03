@@ -1,0 +1,6172 @@
+{
+  "generatedFromType": "active",
+  "seed": 42,
+  "total": 469,
+  "note": "Randomized worklist. Order is committed; work down it over time. Update each entry's `status` (pending|done|empty|skip) and `screenshotsFound` as you go.",
+  "vendors": [
+    {
+      "order": 1,
+      "status": "pending",
+      "vendor": "Global Support Systems",
+      "developerId": 2219,
+      "slug": "global-support-systems",
+      "website": "https://www.turbopt.com",
+      "topProducts": [
+        "TurboPT"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 2,
+      "status": "pending",
+      "vendor": "Health Endeavors",
+      "developerId": 2179,
+      "slug": "health-endeavors",
+      "website": "https://healthendeavors.com/",
+      "topProducts": [
+        "Health Endeavors Registry"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 3,
+      "status": "pending",
+      "vendor": "VSS Medical Technologies, Inc",
+      "developerId": 1849,
+      "slug": "vss-medical-technologies-inc",
+      "website": "http://www.sigmundsoftware.com",
+      "topProducts": [
+        "Aura Sigmund, MedicFusion Erx"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 4,
+      "status": "pending",
+      "vendor": "MaxRemind Inc",
+      "developerId": 2174,
+      "slug": "maxremind-inc",
+      "website": "https://maxremind.com",
+      "topProducts": [
+        "Maximus"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 5,
+      "status": "pending",
+      "vendor": "Lunar Systems, Inc.",
+      "developerId": 2242,
+      "slug": "lunar-systems-inc",
+      "website": "https://golunar.com",
+      "topProducts": [
+        "Lunar Cloud Platform"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 6,
+      "status": "pending",
+      "vendor": "Kanrad Technologies Inc",
+      "developerId": 2097,
+      "slug": "kanrad-technologies-inc",
+      "website": "https://www.kantime.com",
+      "topProducts": [
+        "KanTime Health"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 7,
+      "status": "pending",
+      "vendor": "Patient First",
+      "developerId": 1141,
+      "slug": "patient-first",
+      "website": "https://www.PatientFirst.com",
+      "topProducts": [
+        "PAS"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 8,
+      "status": "pending",
+      "vendor": "New Fields Technologies LLC",
+      "developerId": 2262,
+      "slug": "new-fields-technologies-llc",
+      "website": "https://www.newfieldstech.com",
+      "topProducts": [
+        "Universal Health Information System"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 9,
+      "status": "pending",
+      "vendor": "Extended Care Professional, LLC",
+      "developerId": 2087,
+      "slug": "extended-care-professional-llc",
+      "website": "https://ecp123.com/",
+      "topProducts": [
+        "ECP"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 10,
+      "status": "pending",
+      "vendor": "Cantata Health Solutions",
+      "developerId": 1023,
+      "slug": "cantata-health-solutions",
+      "website": "https://www.cantatahealth.com",
+      "topProducts": [
+        "Arize",
+        "Convergence Care",
+        "imaServe"
+      ],
+      "listingCount": 3,
+      "screenshotsFound": null
+    },
+    {
+      "order": 11,
+      "status": "pending",
+      "vendor": "SolidPractice Technologies, LLC",
+      "developerId": 2096,
+      "slug": "solidpractice-technologies-llc",
+      "website": "http://www.solidpractice.com",
+      "topProducts": [
+        "SolidPractice"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 12,
+      "status": "pending",
+      "vendor": "Welligent, Part of the ContinuumCloud",
+      "developerId": 1537,
+      "slug": "welligent-part-of-the-continuumcloud",
+      "website": "https://welligent.com/",
+      "topProducts": [
+        "Welligent"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 13,
+      "status": "pending",
+      "vendor": "ChartPerfect, Inc.",
+      "developerId": 2020,
+      "slug": "chartperfect-inc",
+      "website": "https://www.chartperfect.com/",
+      "topProducts": [
+        "ChartPerfect EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 14,
+      "status": "pending",
+      "vendor": "Wolters Kluwer",
+      "developerId": 2137,
+      "slug": "wolters-kluwer",
+      "website": "https://www.wolterskluwer.com/en/solutions/solesource/sentri7",
+      "topProducts": [
+        "Sentri7",
+        "Sentri7 AUR Reporting"
+      ],
+      "listingCount": 2,
+      "screenshotsFound": null
+    },
+    {
+      "order": 15,
+      "status": "pending",
+      "vendor": "MD Synergy Solutions, LLC",
+      "developerId": 822,
+      "slug": "md-synergy-solutions-llc",
+      "website": "http://www.mdsynergy.com",
+      "topProducts": [
+        "Althea Smart EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 16,
+      "status": "pending",
+      "vendor": "Thinkhat Software Inc",
+      "developerId": 2192,
+      "slug": "thinkhat-software-inc",
+      "website": "https://thinkhat.us/",
+      "topProducts": [
+        "ENLIV"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 17,
+      "status": "pending",
+      "vendor": "VersaSuite",
+      "developerId": 1504,
+      "slug": "versasuite",
+      "website": "https://www.versasuite.com",
+      "topProducts": [
+        "VersaSuite"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 18,
+      "status": "pending",
+      "vendor": "ACO Health Solutions",
+      "developerId": 2261,
+      "slug": "aco-health-solutions",
+      "website": "https://www.acohealthsolutions.com",
+      "topProducts": [
+        "The Pulse"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 19,
+      "status": "pending",
+      "vendor": "Clinigence Health",
+      "developerId": 1697,
+      "slug": "clinigence-health",
+      "website": "https://www.clinigencehealth.com",
+      "topProducts": [
+        "Clinigence Value Improvement Platform (VIP)"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 20,
+      "status": "pending",
+      "vendor": "Careficient Inc",
+      "developerId": 2200,
+      "slug": "careficient-inc",
+      "website": "https://www.careficient.com/",
+      "topProducts": [
+        "Careficient"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 21,
+      "status": "pending",
+      "vendor": "Mendelson Kornblum Orthopedic & Spine Specialists",
+      "developerId": 2015,
+      "slug": "mendelson-kornblum-orthopedic-spine-specialists",
+      "website": "http://www.mendelsonortho.com/",
+      "topProducts": [
+        "OrthoplexEMR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 22,
+      "status": "pending",
+      "vendor": "MedConnect, Inc.",
+      "developerId": 890,
+      "slug": "medconnect-inc",
+      "website": "http://medconnecthealth.com",
+      "topProducts": [
+        "MedConnectHealth"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 23,
+      "status": "pending",
+      "vendor": "Consensus Cloud Solutions",
+      "developerId": 1857,
+      "slug": "consensus-cloud-solutions",
+      "website": "https://www.consensus.com",
+      "topProducts": [
+        "Conductor"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 24,
+      "status": "pending",
+      "vendor": "Alleva",
+      "developerId": 2241,
+      "slug": "alleva",
+      "website": "https://www.helloalleva.com",
+      "topProducts": [
+        "Alleva EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 25,
+      "status": "pending",
+      "vendor": "Providers Management, Inc.",
+      "developerId": 1225,
+      "slug": "providers-management-inc",
+      "website": "https://www.integratedproviders.com/integratedproviders/",
+      "topProducts": [
+        "Integrated Providers Patient Portal"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 26,
+      "status": "pending",
+      "vendor": "Medical Informatics Engineering",
+      "developerId": 933,
+      "slug": "medical-informatics-engineering",
+      "website": "http://www.webchartnow.com",
+      "topProducts": [
+        "WebChart EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 27,
+      "status": "pending",
+      "vendor": "EZDERM, LLC",
+      "developerId": 1988,
+      "slug": "ezderm-llc",
+      "website": "https://ezderm.com",
+      "topProducts": [
+        "EZDERM"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 28,
+      "status": "pending",
+      "vendor": "agilon health inc.",
+      "developerId": 2083,
+      "slug": "agilon-health-inc",
+      "website": "https://www.agilonhealth.com/",
+      "topProducts": [
+        "Minerva"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 29,
+      "status": "pending",
+      "vendor": "IDC Telemed",
+      "developerId": 2175,
+      "slug": "idc-telemed",
+      "website": "https://idctelemed.com/",
+      "topProducts": [
+        "ILUM Insight"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 30,
+      "status": "pending",
+      "vendor": "IntrinsiQ Specialty Solutions, Inc. FBO Healthtronics Information Technology Solutions Inc.",
+      "developerId": 1979,
+      "slug": "intrinsiq-specialty-solutions-inc-fbo-healthtronics-information-technology-solutions-inc",
+      "website": "https://www.intrinsiq.com",
+      "topProducts": [
+        "UroChart EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 31,
+      "status": "pending",
+      "vendor": "Axxess",
+      "developerId": 2135,
+      "slug": "axxess",
+      "website": "https://www.axxess.com",
+      "topProducts": [
+        "Axxess Palliative"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 32,
+      "status": "pending",
+      "vendor": "AZZLY, Inc.",
+      "developerId": 30,
+      "slug": "azzly-inc",
+      "website": "https://azzly.com/",
+      "topProducts": [
+        "AZZLY Rize"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 33,
+      "status": "pending",
+      "vendor": "Varian Medical Systems",
+      "developerId": 1497,
+      "slug": "varian-medical-systems",
+      "website": "https://cancercare.siemens-healthineers.com/products/software/digital-oncology/oncology-management-systems/aria-core",
+      "topProducts": [
+        "ARIA CORE",
+        "Noona"
+      ],
+      "listingCount": 2,
+      "screenshotsFound": null
+    },
+    {
+      "order": 34,
+      "status": "pending",
+      "vendor": "Mingle Healthcare Solutions, Inc.",
+      "developerId": 2249,
+      "slug": "mingle-healthcare-solutions-inc",
+      "website": "https://minglehealth.com",
+      "topProducts": [
+        "eCQM Solutions"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 35,
+      "status": "pending",
+      "vendor": "Eyefinity, Inc.",
+      "developerId": 1901,
+      "slug": "eyefinity-inc",
+      "website": "http://www.eyefinity.com",
+      "topProducts": [
+        "EHR powered by EMA in Eyefinity Encompass",
+        "OfficeMate/ExamWRITER"
+      ],
+      "listingCount": 2,
+      "screenshotsFound": null
+    },
+    {
+      "order": 36,
+      "status": "pending",
+      "vendor": "StreamlineMD, LLC",
+      "developerId": 1384,
+      "slug": "streamlinemd-llc",
+      "website": "https://www.streamlinemd.com",
+      "topProducts": [
+        "StreamlineMD EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 37,
+      "status": "pending",
+      "vendor": "Eprosystem Inc.",
+      "developerId": 450,
+      "slug": "eprosystem-inc",
+      "website": "http://www.eprosystem.com",
+      "topProducts": [
+        "EproMedical"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 38,
+      "status": "pending",
+      "vendor": "Office Ally, LLC",
+      "developerId": 1823,
+      "slug": "office-ally-llc",
+      "website": "https://www.officeally.com",
+      "topProducts": [
+        "EHR 24/7"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 39,
+      "status": "pending",
+      "vendor": "Carbon Health Technologies, Inc.",
+      "developerId": 2217,
+      "slug": "carbon-health-technologies-inc",
+      "website": "https://carbonhealth.com",
+      "topProducts": [
+        "CarbyOs EHR"
+      ],
+      "listingCount": 2,
+      "screenshotsFound": null
+    },
+    {
+      "order": 40,
+      "status": "pending",
+      "vendor": "Practice EHR LLC",
+      "developerId": 1998,
+      "slug": "practice-ehr-llc",
+      "website": "http://www.practiceehr.com",
+      "topProducts": [
+        "Practice EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 41,
+      "status": "pending",
+      "vendor": "WoundAlly",
+      "developerId": 2254,
+      "slug": "woundally",
+      "website": "https://woundally.com/",
+      "topProducts": [
+        "WoundAlly"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 42,
+      "status": "pending",
+      "vendor": "Encite, Inc.",
+      "developerId": 441,
+      "slug": "encite-inc",
+      "website": "http://www.encite.us",
+      "topProducts": [
+        "Encite EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 43,
+      "status": "pending",
+      "vendor": "MDOfficeManager",
+      "developerId": 2014,
+      "slug": "mdofficemanager",
+      "website": "https://mdofficemanager.com/",
+      "topProducts": [
+        "GeeseMed"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 44,
+      "status": "pending",
+      "vendor": "SpectraMedix",
+      "developerId": 1360,
+      "slug": "spectramedix",
+      "website": "https://www.spectramedix.com",
+      "topProducts": [
+        "VBP Performance Suite"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 45,
+      "status": "pending",
+      "vendor": "PracticeSuite, Inc.",
+      "developerId": 1199,
+      "slug": "practicesuite-inc",
+      "website": "https://practicesuite.com",
+      "topProducts": [
+        "FreeChiro",
+        "PracticeSuite"
+      ],
+      "listingCount": 2,
+      "screenshotsFound": null
+    },
+    {
+      "order": 46,
+      "status": "pending",
+      "vendor": "FannoTek, Inc.",
+      "developerId": 491,
+      "slug": "fannotek-inc",
+      "website": "http://www.FannoTek.com",
+      "topProducts": [
+        "Redwood EMR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 47,
+      "status": "pending",
+      "vendor": "Advanced Technologies Group, LLC",
+      "developerId": 1671,
+      "slug": "advanced-technologies-group-llc",
+      "website": "https://www.a-t-g.com",
+      "topProducts": [
+        "ATG EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 48,
+      "status": "pending",
+      "vendor": "Vecna Technologies, Inc.",
+      "developerId": 1498,
+      "slug": "vecna-technologies-inc",
+      "website": "https://b-inc.com/healthcare/",
+      "topProducts": [
+        "PathFinder Infection Control"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 49,
+      "status": "pending",
+      "vendor": "MEDHOST Cloud Services, Inc.",
+      "developerId": 2106,
+      "slug": "medhost-cloud-services-inc",
+      "website": "https://www.medhost.com",
+      "topProducts": [
+        "YourCareCommunity Patient Portal with YourCareEverywhere App",
+        "YourCareCommunity Provider Portal"
+      ],
+      "listingCount": 2,
+      "screenshotsFound": null
+    },
+    {
+      "order": 50,
+      "status": "pending",
+      "vendor": "Tecurologic",
+      "developerId": 1376,
+      "slug": "tecurologic",
+      "website": "https://pedinotes.com/",
+      "topProducts": [
+        "PediNotes"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 51,
+      "status": "pending",
+      "vendor": "Willowglade Technologies Corporation",
+      "developerId": 2180,
+      "slug": "willowglade-technologies-corporation",
+      "website": "https://www.willowgladetechnologies.com",
+      "topProducts": [
+        "Personal Health Navigator"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 52,
+      "status": "pending",
+      "vendor": "VigiLanz Corporation",
+      "developerId": 1954,
+      "slug": "vigilanz-corporation",
+      "website": "https://www.inovalon.com/",
+      "topProducts": [
+        "VigiLanz Corporation"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 53,
+      "status": "pending",
+      "vendor": "Health Care 2000, Inc.",
+      "developerId": 1905,
+      "slug": "health-care-2000-inc",
+      "website": "http://www.hc2000inc.com",
+      "topProducts": [
+        "MDVita"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 54,
+      "status": "pending",
+      "vendor": "EyeMD EMR Healthcare Systems, Inc.",
+      "developerId": 1726,
+      "slug": "eyemd-emr-healthcare-systems-inc",
+      "website": "http://www.eyemdemr.com",
+      "topProducts": [
+        "EyeMD Electronic Medical Records"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 55,
+      "status": "pending",
+      "vendor": "Vigiboss Inc.",
+      "developerId": 1508,
+      "slug": "vigiboss-inc",
+      "website": "https://www.vigiboss.com",
+      "topProducts": [
+        "MD4Front"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 56,
+      "status": "pending",
+      "vendor": "Sophrona Solutions, Inc.",
+      "developerId": 1356,
+      "slug": "sophrona-solutions-inc",
+      "website": "http://www.sophrona.com",
+      "topProducts": [
+        "Sophrona e2015 Portal Technology"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 57,
+      "status": "pending",
+      "vendor": "CureMD.com, Inc.",
+      "developerId": 1707,
+      "slug": "curemd-com-inc",
+      "website": "https://www.curemd.com/",
+      "topProducts": [
+        "CureMD SMART Cloud"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 58,
+      "status": "pending",
+      "vendor": "Accumedic Computer Systems, Inc.",
+      "developerId": 35,
+      "slug": "accumedic-computer-systems-inc",
+      "website": "https://www.accumedic.com/",
+      "topProducts": [
+        "AccuMed EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 59,
+      "status": "pending",
+      "vendor": "My Vision Express, LLC",
+      "developerId": 2203,
+      "slug": "my-vision-express-llc",
+      "website": "https://sightview.com/",
+      "topProducts": [
+        "My Vision Express"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 60,
+      "status": "pending",
+      "vendor": "Mediportal",
+      "developerId": 2150,
+      "slug": "mediportal",
+      "website": "https://www.mediportal.com/",
+      "topProducts": [
+        "M-Power"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 61,
+      "status": "pending",
+      "vendor": "myhELO, Inc.",
+      "developerId": 1638,
+      "slug": "myhelo-inc",
+      "website": "https://www.myhelo.com/",
+      "topProducts": [
+        "myhELO"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 62,
+      "status": "pending",
+      "vendor": "Practice Alternatives, Inc.",
+      "developerId": 1187,
+      "slug": "practice-alternatives-inc",
+      "website": "http://practice-alt.com",
+      "topProducts": [
+        "AuroraEHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 63,
+      "status": "pending",
+      "vendor": "Strateq Health, Inc.",
+      "developerId": 2098,
+      "slug": "strateq-health-inc",
+      "website": "https://www.strateqhealth.com",
+      "topProducts": [
+        "StrateqEHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 64,
+      "status": "pending",
+      "vendor": "GEMMS",
+      "developerId": 1735,
+      "slug": "gemms",
+      "website": "https://gemmsone.com/",
+      "topProducts": [
+        "GEMMS ONE"
+      ],
+      "listingCount": 2,
+      "screenshotsFound": null
+    },
+    {
+      "order": 65,
+      "status": "pending",
+      "vendor": "Kennebec Behavioral Health",
+      "developerId": 766,
+      "slug": "kennebec-behavioral-health",
+      "website": "https://www.kbhmaine.org/",
+      "topProducts": [
+        "Neo"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 66,
+      "status": "pending",
+      "vendor": "Prime Clinical Systems",
+      "developerId": 1207,
+      "slug": "prime-clinical-systems",
+      "website": "https://www.primeclinical.com",
+      "topProducts": [
+        "Patient Chart Manager"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 67,
+      "status": "pending",
+      "vendor": "Tebra Technologies, Inc.",
+      "developerId": 1778,
+      "slug": "tebra-technologies-inc",
+      "website": "https://www.tebra.com/",
+      "topProducts": [
+        "Tebra EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 68,
+      "status": "pending",
+      "vendor": "Ocuco Limited",
+      "developerId": 1088,
+      "slug": "ocuco-limited",
+      "website": "https://www.ocuco.com",
+      "topProducts": [
+        "Acuitas activEHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 69,
+      "status": "pending",
+      "vendor": "NovoMedici, LLC",
+      "developerId": 2016,
+      "slug": "novomedici-llc",
+      "website": "https://www.novomedici.com/",
+      "topProducts": [
+        "NovoClinical"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 70,
+      "status": "pending",
+      "vendor": "PacePlus Inc",
+      "developerId": 2266,
+      "slug": "paceplus-inc",
+      "website": "https://www.paceplus.com/",
+      "topProducts": [
+        "Pace+"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 71,
+      "status": "pending",
+      "vendor": "Callibra, Inc.",
+      "developerId": 193,
+      "slug": "callibra-inc",
+      "website": "https://www.discharge123.com/",
+      "topProducts": [
+        "Discharge 1-2-3™ Composer™"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 72,
+      "status": "pending",
+      "vendor": "MDToolbox",
+      "developerId": 833,
+      "slug": "mdtoolbox",
+      "website": "https://mdtoolbox.com",
+      "topProducts": [
+        "MDToolbox Rx"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 73,
+      "status": "pending",
+      "vendor": "Galaxy",
+      "developerId": 2185,
+      "slug": "galaxy",
+      "website": "https://psychplus.com/",
+      "topProducts": [
+        "Galaxy"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 74,
+      "status": "pending",
+      "vendor": "Health Care Systems, Inc.",
+      "developerId": 583,
+      "slug": "health-care-systems-inc",
+      "website": "http://www.hcsinc.net",
+      "topProducts": [
+        "HCS eMR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 75,
+      "status": "pending",
+      "vendor": "ReportingMD, Inc.",
+      "developerId": 1271,
+      "slug": "reportingmd-inc",
+      "website": "https://reportingmd.com/",
+      "topProducts": [
+        "Total Outcomes Management (TOM)"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 76,
+      "status": "pending",
+      "vendor": "HixNY",
+      "developerId": 2021,
+      "slug": "hixny",
+      "website": "https://www.hixny.org/",
+      "topProducts": [
+        "Hixny Hisp"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 77,
+      "status": "pending",
+      "vendor": "Prime DataQ Health, LLC",
+      "developerId": 2237,
+      "slug": "prime-dataq-health-llc",
+      "website": "https://www.summitehr.com/",
+      "topProducts": [
+        "summitEHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 78,
+      "status": "pending",
+      "vendor": "ICANotes LLC",
+      "developerId": 1756,
+      "slug": "icanotes-llc",
+      "website": "https://www.icanotes.com",
+      "topProducts": [
+        "ICANotes EHR/EMR for Behavioral Health"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 79,
+      "status": "pending",
+      "vendor": "CareCloud Health, Inc.",
+      "developerId": 1982,
+      "slug": "carecloud-health-inc",
+      "website": "http://www.carecloud.com",
+      "topProducts": [
+        "CareCloud Charts"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 80,
+      "status": "pending",
+      "vendor": "OmniMD Inc.",
+      "developerId": 718,
+      "slug": "omnimd-inc",
+      "website": "https://omnimd.com",
+      "topProducts": [
+        "OmniMD"
+      ],
+      "listingCount": 2,
+      "screenshotsFound": null
+    },
+    {
+      "order": 81,
+      "status": "pending",
+      "vendor": "Health Universe",
+      "developerId": 2209,
+      "slug": "health-universe",
+      "website": "https://www.healthuniverse.com/",
+      "topProducts": [
+        "Health Universe DSI platform"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 82,
+      "status": "pending",
+      "vendor": "DataMotion, Inc.",
+      "developerId": 328,
+      "slug": "datamotion-inc",
+      "website": "http://www.datamotion.com",
+      "topProducts": [
+        "DataMotion Direct"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 83,
+      "status": "pending",
+      "vendor": "Equicare Health Incorporated",
+      "developerId": 1934,
+      "slug": "equicare-health-incorporated",
+      "website": "http://www.equicarehealth.com",
+      "topProducts": [
+        "EQUICARE CS"
+      ],
+      "listingCount": 3,
+      "screenshotsFound": null
+    },
+    {
+      "order": 84,
+      "status": "pending",
+      "vendor": "Streamline Healthcare Solutions",
+      "developerId": 1856,
+      "slug": "streamline-healthcare-solutions",
+      "website": "https://streamlinehealthcare.com/",
+      "topProducts": [
+        "SmartCare"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 85,
+      "status": "pending",
+      "vendor": "Nuance Communications, Inc.",
+      "developerId": 1072,
+      "slug": "nuance-communications-inc",
+      "website": "https://qualitymeasures.nuancehealthcare.com",
+      "topProducts": [
+        "Nuance Electronic Quality Measures"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 86,
+      "status": "pending",
+      "vendor": "Inpriva, Inc.",
+      "developerId": 1967,
+      "slug": "inpriva-inc",
+      "website": "https://www.inpriva.com",
+      "topProducts": [
+        "hDirect Network Services"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 87,
+      "status": "pending",
+      "vendor": "EndoSoft, LLC",
+      "developerId": 1722,
+      "slug": "endosoft-llc",
+      "website": "https://www.endosoft.com/",
+      "topProducts": [
+        "EndoVault",
+        "Qlinical"
+      ],
+      "listingCount": 2,
+      "screenshotsFound": null
+    },
+    {
+      "order": 88,
+      "status": "pending",
+      "vendor": "MedOne Systems, LLC",
+      "developerId": 902,
+      "slug": "medone-systems-llc",
+      "website": "http://www.medonesystems.com",
+      "topProducts": [
+        "BOLT"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 89,
+      "status": "pending",
+      "vendor": "5e Analytics LLC",
+      "developerId": 2220,
+      "slug": "5e-analytics-llc",
+      "website": "https://5eanalytics.com/",
+      "topProducts": [
+        "Memphi"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 90,
+      "status": "pending",
+      "vendor": "Edvak Technologies Inc",
+      "developerId": 2231,
+      "slug": "edvak-technologies-inc",
+      "website": "https://edvak.com",
+      "topProducts": [
+        "Edvak EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 91,
+      "status": "pending",
+      "vendor": "i2i Population Health",
+      "developerId": 1617,
+      "slug": "i2i-population-health",
+      "website": "https://www.i2ipophealth.com/",
+      "topProducts": [
+        "PRiZiM"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 92,
+      "status": "pending",
+      "vendor": "Physicians EMR, LLC",
+      "developerId": 1164,
+      "slug": "physicians-emr-llc",
+      "website": "https://www.ipclinical.com/",
+      "topProducts": [
+        "IPClinical"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 93,
+      "status": "pending",
+      "vendor": "Theoria Medical, PLLC",
+      "developerId": 2092,
+      "slug": "theoria-medical-pllc",
+      "website": "https://theoriamedical.com/",
+      "topProducts": [
+        "ChartEasy™"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 94,
+      "status": "pending",
+      "vendor": "Sevocity, a division of Conceptual MindWorks, Inc",
+      "developerId": 1325,
+      "slug": "sevocity-a-division-of-conceptual-mindworks-inc",
+      "website": "http://www.sevocity.com",
+      "topProducts": [
+        "Sevocity"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 95,
+      "status": "pending",
+      "vendor": "Nth Technologies, Inc.",
+      "developerId": 1071,
+      "slug": "nth-technologies-inc",
+      "website": "https://www.nablemd.com/",
+      "topProducts": [
+        "nAbleMD"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 96,
+      "status": "pending",
+      "vendor": "Genius Solutions Inc.",
+      "developerId": 1738,
+      "slug": "genius-solutions-inc",
+      "website": "http://www.geniussolutions.com/",
+      "topProducts": [
+        "ehrTHOMAS"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 97,
+      "status": "pending",
+      "vendor": "MedAZ.Net, LLC",
+      "developerId": 2151,
+      "slug": "medaz-net-llc",
+      "website": "https://medaz.com",
+      "topProducts": [
+        "Med A-Z"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 98,
+      "status": "pending",
+      "vendor": "Healthmonix",
+      "developerId": 619,
+      "slug": "healthmonix",
+      "website": "https://www.healthmonix.com/",
+      "topProducts": [
+        "Prism"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 99,
+      "status": "pending",
+      "vendor": "Perk Medical Systems LLC (PCB Apps LLC)",
+      "developerId": 1155,
+      "slug": "perk-medical-systems-llc-pcb-apps-llc",
+      "website": "https://www.pcbapps.com/",
+      "topProducts": [
+        "ezPractice"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 100,
+      "status": "pending",
+      "vendor": "Amrita Ventures, LLC",
+      "developerId": 1679,
+      "slug": "amrita-ventures-llc",
+      "website": "http://www.amritamedical.com",
+      "topProducts": [
+        "Amrita Hospital Information System"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 101,
+      "status": "pending",
+      "vendor": "Ankhos Oncology Software",
+      "developerId": 1960,
+      "slug": "ankhos-oncology-software",
+      "website": "https://www.ankhos.com/",
+      "topProducts": [
+        "Ankhos"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 102,
+      "status": "pending",
+      "vendor": "BINSERA CORPORATION",
+      "developerId": 2226,
+      "slug": "binsera-corporation",
+      "website": "https://binsera.com",
+      "topProducts": [
+        "BINSERA EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 103,
+      "status": "pending",
+      "vendor": "Altera Digital Health Inc.",
+      "developerId": 2124,
+      "slug": "altera-digital-health-inc",
+      "website": "https://www.alterahealth.com/",
+      "topProducts": [
+        "dbMotion",
+        "TouchWorks EHR",
+        "Altera Lab™"
+      ],
+      "listingCount": 10,
+      "screenshotsFound": null
+    },
+    {
+      "order": 104,
+      "status": "pending",
+      "vendor": "EMR Direct",
+      "developerId": 398,
+      "slug": "emr-direct",
+      "website": "http://www.emrdirect.com",
+      "topProducts": [
+        "Interoperability Engine"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 105,
+      "status": "pending",
+      "vendor": "Adaptamed, LLC",
+      "developerId": 43,
+      "slug": "adaptamed-llc",
+      "website": "https://ehryourway.com/",
+      "topProducts": [
+        "EHR Your Way"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 106,
+      "status": "pending",
+      "vendor": "TechSoft, Inc.",
+      "developerId": 1414,
+      "slug": "techsoft-inc",
+      "website": "http://www.mdrhythm.com",
+      "topProducts": [
+        "MDRhythm"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 107,
+      "status": "pending",
+      "vendor": "Myriad Systems",
+      "developerId": 2189,
+      "slug": "myriad-systems",
+      "website": "https://myriadsystems.ai",
+      "topProducts": [
+        "Myriad Health"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 108,
+      "status": "pending",
+      "vendor": "Meridian Medical Management",
+      "developerId": 1113,
+      "slug": "meridian-medical-management",
+      "website": "https://vertexdr.com/",
+      "topProducts": [
+        "VertexDr"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 109,
+      "status": "pending",
+      "vendor": "Netsmart Technologies",
+      "developerId": 1817,
+      "slug": "netsmart-technologies",
+      "website": "https://www.ntst.com/",
+      "topProducts": [
+        "Carepathways Measures Reporting",
+        "GEHRIMED",
+        "myAvatar Certified Edition"
+      ],
+      "listingCount": 7,
+      "screenshotsFound": null
+    },
+    {
+      "order": 110,
+      "status": "pending",
+      "vendor": "Curis Partners LLC",
+      "developerId": 2253,
+      "slug": "curis-partners-llc",
+      "website": "https://www.curispartners.com",
+      "topProducts": [
+        "HousecallOS"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 111,
+      "status": "pending",
+      "vendor": "SPRY Therapeutics, Inc",
+      "developerId": 2243,
+      "slug": "spry-therapeutics-inc",
+      "website": "https://www.sprypt.com",
+      "topProducts": [
+        "SPRY"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 112,
+      "status": "pending",
+      "vendor": "Clinisys, Inc.",
+      "developerId": 1391,
+      "slug": "clinisys-inc",
+      "website": "https://clinisys.com",
+      "topProducts": [
+        "Sunquest Laboratory",
+        "SQ Lab"
+      ],
+      "listingCount": 5,
+      "screenshotsFound": null
+    },
+    {
+      "order": 113,
+      "status": "pending",
+      "vendor": "Applied Research Works, Inc.",
+      "developerId": 103,
+      "slug": "applied-research-works-inc",
+      "website": "https://corp.cozeva.com/",
+      "topProducts": [
+        "Cozeva"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 114,
+      "status": "pending",
+      "vendor": "PhysicianXpress, Inc.",
+      "developerId": 2045,
+      "slug": "physicianxpress-inc",
+      "website": "https://www.physicianxpress.com",
+      "topProducts": [
+        "PediatricXpress"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 115,
+      "status": "pending",
+      "vendor": "Scientific Technologies Corporation",
+      "developerId": 1310,
+      "slug": "scientific-technologies-corporation",
+      "website": "https://stchealth.com/",
+      "topProducts": [
+        "ImmsLink"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 116,
+      "status": "pending",
+      "vendor": "CloudCraft, LLC",
+      "developerId": 2072,
+      "slug": "cloudcraft-llc",
+      "website": "http://www.naiacorp.com",
+      "topProducts": [
+        "CloudCraft Software"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 117,
+      "status": "pending",
+      "vendor": "Medisolv, Inc.",
+      "developerId": 1923,
+      "slug": "medisolv-inc",
+      "website": "http://www.medisolv.com",
+      "topProducts": [
+        "ENCOR-e"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 118,
+      "status": "pending",
+      "vendor": "MD Logic, Inc.",
+      "developerId": 1786,
+      "slug": "md-logic-inc",
+      "website": "http://www.mdlogic.com",
+      "topProducts": [
+        "MD Logic EHR"
+      ],
+      "listingCount": 2,
+      "screenshotsFound": null
+    },
+    {
+      "order": 119,
+      "status": "pending",
+      "vendor": "Bay Area Community Resources",
+      "developerId": 2141,
+      "slug": "bay-area-community-resources",
+      "website": "https://www.bacr.org",
+      "topProducts": [
+        "BACR Case Management"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 120,
+      "status": "pending",
+      "vendor": "TiaTech USA, Inc.",
+      "developerId": 2235,
+      "slug": "tiatech-usa-inc",
+      "website": "https://www.tiatech.net",
+      "topProducts": [
+        "TiaMD"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 121,
+      "status": "pending",
+      "vendor": "Healthy Campus, LLC",
+      "developerId": 2256,
+      "slug": "healthy-campus-llc",
+      "website": "https://www.healthycampus.com",
+      "topProducts": [
+        "Healthy Campus Platform"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 122,
+      "status": "pending",
+      "vendor": "Infomedika, Inc.",
+      "developerId": 685,
+      "slug": "infomedika-inc",
+      "website": "http://www.infomedika.com/",
+      "topProducts": [
+        "Evolution EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 123,
+      "status": "pending",
+      "vendor": "MDFlow EHR, LLC DBA: MDFlow Systems",
+      "developerId": 2191,
+      "slug": "mdflow-ehr-llc-dba-mdflow-systems",
+      "website": "https://www.mdflow.com/",
+      "topProducts": [
+        "MDFlow EHR and Patient Care Workflow Management System"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 124,
+      "status": "pending",
+      "vendor": "CareTracker, Inc.",
+      "developerId": 207,
+      "slug": "caretracker-inc",
+      "website": "https://www.amazingcharts.com",
+      "topProducts": [
+        "Amazing Charts"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 125,
+      "status": "pending",
+      "vendor": "TronsHealth LLC",
+      "developerId": 2210,
+      "slug": "tronshealth-llc",
+      "website": "https://tronshealth.com/",
+      "topProducts": [
+        "TronsHealth"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 126,
+      "status": "pending",
+      "vendor": "PCIS GOLD",
+      "developerId": 1127,
+      "slug": "pcis-gold",
+      "website": "http://www.pcisgold.com",
+      "topProducts": [
+        "PCIS GOLD EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 127,
+      "status": "pending",
+      "vendor": "OneOncology, LLC",
+      "developerId": 2229,
+      "slug": "oneoncology-llc",
+      "website": "https://www.oneoncology.com",
+      "topProducts": [
+        "OneOncology HIE Integration"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 128,
+      "status": "pending",
+      "vendor": "Healogics, Inc.",
+      "developerId": 576,
+      "slug": "healogics-inc",
+      "website": "http://www.healogics.com/",
+      "topProducts": [
+        "i-heal"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 129,
+      "status": "pending",
+      "vendor": "CorrecTek",
+      "developerId": 293,
+      "slug": "correctek",
+      "website": "http://www.correctek.com",
+      "topProducts": [
+        "Spark"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 130,
+      "status": "pending",
+      "vendor": "E-Health Partners, Inc.",
+      "developerId": 386,
+      "slug": "e-health-partners-inc",
+      "website": "http://www.ehrez.com",
+      "topProducts": [
+        "EHRez"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 131,
+      "status": "pending",
+      "vendor": "Professional Imaging, LLC",
+      "developerId": 1836,
+      "slug": "professional-imaging-llc",
+      "website": "https://www.proimagetx.com/",
+      "topProducts": [
+        "PI EMR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 132,
+      "status": "pending",
+      "vendor": "OT EMR, Inc.",
+      "developerId": 1822,
+      "slug": "ot-emr-inc",
+      "website": "https://onetouchemr.com",
+      "topProducts": [
+        "OneTouch EMR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 133,
+      "status": "pending",
+      "vendor": "Medical Office Online",
+      "developerId": 1802,
+      "slug": "medical-office-online",
+      "website": "https://www.medicalofficeonline.com/",
+      "topProducts": [
+        "Medical Office Online"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 134,
+      "status": "pending",
+      "vendor": "ClickMedix, LLC",
+      "developerId": 2221,
+      "slug": "clickmedix-llc",
+      "website": "https://clickmedix.com",
+      "topProducts": [
+        "ClickMedix CareBrains EHR & Care Management Platform"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 135,
+      "status": "pending",
+      "vendor": "Sisoft Healthcare Information Systems",
+      "developerId": 2019,
+      "slug": "sisoft-healthcare-information-systems",
+      "website": "https://www.sisoft.com.tr",
+      "topProducts": [
+        "SisoHis"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 136,
+      "status": "pending",
+      "vendor": "iMedicWare, LLC",
+      "developerId": 2208,
+      "slug": "imedicware-llc",
+      "website": "https://sightview.com/",
+      "topProducts": [
+        "iMedicWare"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 137,
+      "status": "pending",
+      "vendor": "American Medical Solutions, Inc.",
+      "developerId": 87,
+      "slug": "american-medical-solutions-inc",
+      "website": "https://www.americanmedicalsolutions.com",
+      "topProducts": [
+        "Helios"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 138,
+      "status": "pending",
+      "vendor": "ZH Healthcare, Inc.",
+      "developerId": 2077,
+      "slug": "zh-healthcare-inc",
+      "website": "https://blueehr.com/",
+      "topProducts": [
+        "BlueEHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 139,
+      "status": "pending",
+      "vendor": "Synapse Medicine Inc.",
+      "developerId": 2168,
+      "slug": "synapse-medicine-inc",
+      "website": "https://www.synapse-medicine.com",
+      "topProducts": [
+        "Synapse Prescribe"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 140,
+      "status": "pending",
+      "vendor": "Objective Medical Systems, LLC",
+      "developerId": 1087,
+      "slug": "objective-medical-systems-llc",
+      "website": "https://objectivemedicalsystems.com/",
+      "topProducts": [
+        "OMS EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 141,
+      "status": "pending",
+      "vendor": "CPS",
+      "developerId": 2033,
+      "slug": "cps",
+      "website": "http://www.ehrs-c.com/",
+      "topProducts": [
+        "EHRs-C"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 142,
+      "status": "pending",
+      "vendor": "Avon Health",
+      "developerId": 2228,
+      "slug": "avon-health",
+      "website": "https://www.avonhealth.com",
+      "topProducts": [
+        "Avon EMR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 143,
+      "status": "pending",
+      "vendor": "Rural Wisconsin Health Cooperative",
+      "developerId": 1282,
+      "slug": "rural-wisconsin-health-cooperative",
+      "website": "http://www.rwhc.com",
+      "topProducts": [
+        "RWHC eCQM QI Program"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 144,
+      "status": "pending",
+      "vendor": "Medical Office Technologies, Inc.",
+      "developerId": 943,
+      "slug": "medical-office-technologies-inc",
+      "website": "https://www.ezaccessmot.com/",
+      "topProducts": [
+        "ezAccess Portal"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 145,
+      "status": "pending",
+      "vendor": "Azalea Health",
+      "developerId": 1689,
+      "slug": "azalea-health",
+      "website": "https://www.azaleahealth.com",
+      "topProducts": [
+        "Azalea EHR",
+        "ChartAccess ®"
+      ],
+      "listingCount": 2,
+      "screenshotsFound": null
+    },
+    {
+      "order": 146,
+      "status": "pending",
+      "vendor": "UnisLink",
+      "developerId": 1943,
+      "slug": "unislink",
+      "website": "http://www.unislink.com",
+      "topProducts": [
+        "UnisLink iCMS (Intelligent Care Management Suite)"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 147,
+      "status": "pending",
+      "vendor": "HospiceMD, Inc.",
+      "developerId": 2194,
+      "slug": "hospicemd-inc",
+      "website": "https://hospicemd.com/",
+      "topProducts": [
+        "HomeHealthMD",
+        "HospiceMD"
+      ],
+      "listingCount": 2,
+      "screenshotsFound": null
+    },
+    {
+      "order": 148,
+      "status": "pending",
+      "vendor": "Healthie",
+      "developerId": 2131,
+      "slug": "healthie",
+      "website": "https://www.gethealthie.com",
+      "topProducts": [
+        "Healthie"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 149,
+      "status": "pending",
+      "vendor": "Garage Solutions LLC",
+      "developerId": 521,
+      "slug": "garage-solutions-llc",
+      "website": "https://www.thegaragein.com/",
+      "topProducts": [
+        "Bridge eCQM",
+        "Bridge Ignite"
+      ],
+      "listingCount": 2,
+      "screenshotsFound": null
+    },
+    {
+      "order": 150,
+      "status": "pending",
+      "vendor": "EHR1, LLC",
+      "developerId": 1947,
+      "slug": "ehr1-llc",
+      "website": "https://www.ehr1.com",
+      "topProducts": [
+        "EHR1"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 151,
+      "status": "pending",
+      "vendor": "Commure",
+      "developerId": 1143,
+      "slug": "commure",
+      "website": "http://commure.com",
+      "topProducts": [
+        "PatientKeeper"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 152,
+      "status": "pending",
+      "vendor": "Net Health",
+      "developerId": 1816,
+      "slug": "net-health",
+      "website": "https://www.nethealth.com/",
+      "topProducts": [
+        "Net Health® WoundExpert"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 153,
+      "status": "pending",
+      "vendor": "Carepaths Inc",
+      "developerId": 1983,
+      "slug": "carepaths-inc",
+      "website": "https://www.carepaths.com",
+      "topProducts": [
+        "CarePaths EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 154,
+      "status": "pending",
+      "vendor": "MD Charts, LLC",
+      "developerId": 1480,
+      "slug": "md-charts-llc",
+      "website": "https://mdcharts.net/",
+      "topProducts": [
+        "Physician's Solution"
+      ],
+      "listingCount": 2,
+      "screenshotsFound": null
+    },
+    {
+      "order": 155,
+      "status": "pending",
+      "vendor": "MD Office, LLC",
+      "developerId": 2206,
+      "slug": "md-office-llc",
+      "website": "https://sightview.com/",
+      "topProducts": [
+        "MDoffice"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 156,
+      "status": "pending",
+      "vendor": "Firely USA Inc.",
+      "developerId": 2144,
+      "slug": "firely-usa-inc",
+      "website": "https://fire.ly/",
+      "topProducts": [
+        "Firely Server"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 157,
+      "status": "pending",
+      "vendor": "Careexpand LLC",
+      "developerId": 2227,
+      "slug": "careexpand-llc",
+      "website": "https://www.careexpand.com",
+      "topProducts": [
+        "Careexpand"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 158,
+      "status": "pending",
+      "vendor": "EnSoftek, Inc",
+      "developerId": 435,
+      "slug": "ensoftek-inc",
+      "website": "https://www.drcloudehr.com",
+      "topProducts": [
+        "DrCloudEHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 159,
+      "status": "pending",
+      "vendor": "Lille Group, Inc.",
+      "developerId": 2059,
+      "slug": "lille-group-inc",
+      "website": "https://www.lillegroup.com",
+      "topProducts": [
+        "escribeHOST"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 160,
+      "status": "pending",
+      "vendor": "WebPT",
+      "developerId": 2201,
+      "slug": "webpt",
+      "website": "https://www.webpt.com/",
+      "topProducts": [
+        "WebPT"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 161,
+      "status": "pending",
+      "vendor": "Bizmatics Inc.",
+      "developerId": 1690,
+      "slug": "bizmatics-inc",
+      "website": "https://prognocis.com/",
+      "topProducts": [
+        "PrognoCIS"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 162,
+      "status": "pending",
+      "vendor": "Savas Solutions LLC",
+      "developerId": 2224,
+      "slug": "savas-solutions-llc",
+      "website": "https://www.savassoftware.com",
+      "topProducts": [
+        "Savas Software"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 163,
+      "status": "pending",
+      "vendor": "FlagShipMD LLC",
+      "developerId": 497,
+      "slug": "flagshipmd-llc",
+      "website": "https://www.flagshipmd.com/flagshipmdnew/web/index.jsp",
+      "topProducts": [
+        "FlagShipMD"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 164,
+      "status": "pending",
+      "vendor": "Vision Infonet Inc",
+      "developerId": 1873,
+      "slug": "vision-infonet-inc",
+      "website": "http://www.vinfonet.com",
+      "topProducts": [
+        "MDCare EMR/PMS"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 165,
+      "status": "pending",
+      "vendor": "Medaxion, Inc.",
+      "developerId": 1798,
+      "slug": "medaxion-inc",
+      "website": "https://medaxion.com",
+      "topProducts": [
+        "Medaxion Pulse"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 166,
+      "status": "pending",
+      "vendor": "PCE Systems",
+      "developerId": 1126,
+      "slug": "pce-systems",
+      "website": "http://www.pcesystems.com",
+      "topProducts": [
+        "PCE Care Management"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 167,
+      "status": "pending",
+      "vendor": "Winnebago County Wisconsin",
+      "developerId": 1941,
+      "slug": "winnebago-county-wisconsin",
+      "website": "http://www.co.winnebago.wi.us",
+      "topProducts": [
+        "Luna"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 168,
+      "status": "pending",
+      "vendor": "Milliman MedInsight",
+      "developerId": 2251,
+      "slug": "milliman-medinsight",
+      "website": "https://www.medinsight.com/",
+      "topProducts": [
+        "MedInsight eCQM"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 169,
+      "status": "pending",
+      "vendor": "Orion Health",
+      "developerId": 1114,
+      "slug": "orion-health",
+      "website": "https://orionhealth.com",
+      "topProducts": [
+        "Communicate"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 170,
+      "status": "pending",
+      "vendor": "Compulink Healthcare Solutions",
+      "developerId": 1702,
+      "slug": "compulink-healthcare-solutions",
+      "website": "http://www.compulinkadvantage.com",
+      "topProducts": [
+        "Compulink Advantage"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 171,
+      "status": "pending",
+      "vendor": "OpenEMR Foundation",
+      "developerId": 2116,
+      "slug": "openemr-foundation",
+      "website": "https://www.open-emr.org/",
+      "topProducts": [
+        "OpenEMR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 172,
+      "status": "pending",
+      "vendor": "Wellsky",
+      "developerId": 165,
+      "slug": "wellsky",
+      "website": "https://wellsky.com/",
+      "topProducts": [
+        "WellSky Hospice & Palliative",
+        "WellSky Specialty Care"
+      ],
+      "listingCount": 2,
+      "screenshotsFound": null
+    },
+    {
+      "order": 173,
+      "status": "pending",
+      "vendor": "Raintree Systems, Inc.",
+      "developerId": 1842,
+      "slug": "raintree-systems-inc",
+      "website": "https://www.raintreeinc.com",
+      "topProducts": [
+        "Raintree"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 174,
+      "status": "pending",
+      "vendor": "Theralytics",
+      "developerId": 2246,
+      "slug": "theralytics",
+      "website": "https://www.theralytics.net",
+      "topProducts": [
+        "Practice Management and Data Collection Software"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 175,
+      "status": "pending",
+      "vendor": "Royal Health, Inc.",
+      "developerId": 1846,
+      "slug": "royal-health-inc",
+      "website": "https://royalsolutionsgroup.com/",
+      "topProducts": [
+        "Royal Solutions"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 176,
+      "status": "pending",
+      "vendor": "iCare.com, Inc.",
+      "developerId": 1618,
+      "slug": "icare-com-inc",
+      "website": "http://www.icare.com",
+      "topProducts": [
+        "iCare EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 177,
+      "status": "pending",
+      "vendor": "NeoDeck Holdings",
+      "developerId": 1815,
+      "slug": "neodeck-holdings",
+      "website": "https://neodeckholdings.com/",
+      "topProducts": [
+        "NeoMed 3.0 / Legacy",
+        "NeoMed AI+"
+      ],
+      "listingCount": 2,
+      "screenshotsFound": null
+    },
+    {
+      "order": 178,
+      "status": "pending",
+      "vendor": "Modernizing Medicine Gastroenterology, LLC",
+      "developerId": 2032,
+      "slug": "modernizing-medicine-gastroenterology-llc",
+      "website": "https://www.modmed.com",
+      "topProducts": [
+        "gGastro"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 179,
+      "status": "pending",
+      "vendor": "Liquid Medical Office, Inc.",
+      "developerId": 803,
+      "slug": "liquid-medical-office-inc",
+      "website": "https://www.liquidemr.com",
+      "topProducts": [
+        "Liquid EMR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 180,
+      "status": "pending",
+      "vendor": "Medical Information Technology, Inc. (MEDITECH)",
+      "developerId": 1932,
+      "slug": "medical-information-technology-inc-meditech",
+      "website": "https://www.meditech.com",
+      "topProducts": [
+        "MEDITECH Cancer Case Reporting",
+        "MEDITECH Continuity of Care Interface (CCD)",
+        "MEDITECH Public Health Interface Electronic Case Reporting"
+      ],
+      "listingCount": 40,
+      "screenshotsFound": null
+    },
+    {
+      "order": 181,
+      "status": "pending",
+      "vendor": "Phoenix Ortho, LLC",
+      "developerId": 1161,
+      "slug": "phoenix-ortho-llc",
+      "website": "http://www.phoenixortho.net",
+      "topProducts": [
+        "Phoenix Ortho"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 182,
+      "status": "pending",
+      "vendor": "Juno Health",
+      "developerId": 1926,
+      "slug": "juno-health",
+      "website": "https://www.junohealth.com",
+      "topProducts": [
+        "Juno ConnectEHR",
+        "Juno CQMsolution",
+        "Juno EHR"
+      ],
+      "listingCount": 5,
+      "screenshotsFound": null
+    },
+    {
+      "order": 183,
+      "status": "pending",
+      "vendor": "MicroMD, LLC",
+      "developerId": 1754,
+      "slug": "micromd-llc",
+      "website": "https://www.micromd.com/certified/",
+      "topProducts": [
+        "MicroMD EMR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 184,
+      "status": "pending",
+      "vendor": "Brilogy Corporation",
+      "developerId": 172,
+      "slug": "brilogy-corporation",
+      "website": "https://www.axeium.com",
+      "topProducts": [
+        "AXEIUM"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 185,
+      "status": "pending",
+      "vendor": "Moyae, Inc.",
+      "developerId": 2142,
+      "slug": "moyae-inc",
+      "website": "https://moyae.com",
+      "topProducts": [
+        "Moyae"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 186,
+      "status": "pending",
+      "vendor": "Xcelrate UDI, Inc.",
+      "developerId": 2046,
+      "slug": "xcelrate-udi-inc",
+      "website": "https://www.xcelrateudi.com",
+      "topProducts": [
+        "UDIVerify"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 187,
+      "status": "pending",
+      "vendor": "Aarista Technology LLC",
+      "developerId": 2169,
+      "slug": "aarista-technology-llc",
+      "website": "https://aarista.com/",
+      "topProducts": [
+        "Aarista"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 188,
+      "status": "pending",
+      "vendor": "OrionNet Systems, LLC",
+      "developerId": 1116,
+      "slug": "orionnet-systems-llc",
+      "website": "https://www.iorion.com/",
+      "topProducts": [
+        "ThinkHealth - Practice Management Software (EHR)"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 189,
+      "status": "pending",
+      "vendor": "Modernizing Medicine Inc.",
+      "developerId": 1003,
+      "slug": "modernizing-medicine-inc",
+      "website": "https://www.modmed.com",
+      "topProducts": [
+        "EMA",
+        "ModMed ASC"
+      ],
+      "listingCount": 2,
+      "screenshotsFound": null
+    },
+    {
+      "order": 190,
+      "status": "pending",
+      "vendor": "Wound Therapeutics, LLC",
+      "developerId": 2239,
+      "slug": "wound-therapeutics-llc",
+      "website": "https://woundcharts.com/",
+      "topProducts": [
+        "Wound Charts"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 191,
+      "status": "pending",
+      "vendor": "Omnivers-AI Inc",
+      "developerId": 2230,
+      "slug": "omnivers-ai-inc",
+      "website": "https://www.omnivers.ai/",
+      "topProducts": [
+        "Omnivers"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 192,
+      "status": "pending",
+      "vendor": "Braintree Health",
+      "developerId": 168,
+      "slug": "braintree-health",
+      "website": "https://www.braintreehealth.com",
+      "topProducts": [
+        "BRAINTREE"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 193,
+      "status": "pending",
+      "vendor": "Indiana Health Information Exchange",
+      "developerId": 675,
+      "slug": "indiana-health-information-exchange",
+      "website": "http://www.ihie.org",
+      "topProducts": [
+        "Notifiable Condition Detector"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 194,
+      "status": "pending",
+      "vendor": "AiTmed Inc.",
+      "developerId": 2129,
+      "slug": "aitmed-inc",
+      "website": "https://www.aitmed.com/",
+      "topProducts": [
+        "AiTmed Telehealth System"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 195,
+      "status": "pending",
+      "vendor": "Aente Inc",
+      "developerId": 2215,
+      "slug": "aente-inc",
+      "website": "https://www.aente.com",
+      "topProducts": [
+        "Aente"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 196,
+      "status": "pending",
+      "vendor": "Radysans, Inc",
+      "developerId": 1913,
+      "slug": "radysans-inc",
+      "website": "https://radysans.com",
+      "topProducts": [
+        "Radysans EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 197,
+      "status": "pending",
+      "vendor": "Dexter Solutions Inc",
+      "developerId": 1709,
+      "slug": "dexter-solutions-inc",
+      "website": "http://www.dexter-solutions.com/",
+      "topProducts": [
+        "eZDocs"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 198,
+      "status": "pending",
+      "vendor": "Iatric Systems, Inc",
+      "developerId": 1761,
+      "slug": "iatric-systems-inc",
+      "website": "https://iatric.com/",
+      "topProducts": [
+        "Analytics on Demand",
+        "Electronic Case Reporting",
+        "Haystack iS"
+      ],
+      "listingCount": 7,
+      "screenshotsFound": null
+    },
+    {
+      "order": 199,
+      "status": "pending",
+      "vendor": "Doctorsoft Corporation",
+      "developerId": 366,
+      "slug": "doctorsoft-corporation",
+      "website": "https://www.doctorsoft.com",
+      "topProducts": [
+        "Doctorsoft EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 200,
+      "status": "pending",
+      "vendor": "First Insight Corporation",
+      "developerId": 1730,
+      "slug": "first-insight-corporation",
+      "website": "https://www.first-insight.com",
+      "topProducts": [
+        "MaximEyes Patient Portal",
+        "MaximEyes.com"
+      ],
+      "listingCount": 2,
+      "screenshotsFound": null
+    },
+    {
+      "order": 201,
+      "status": "pending",
+      "vendor": "EnableDoc LLC",
+      "developerId": 440,
+      "slug": "enabledoc-llc",
+      "website": "https://www.enabledoc.com/",
+      "topProducts": [
+        "Enablemypractice"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 202,
+      "status": "pending",
+      "vendor": "ezEMRx Inc",
+      "developerId": 1887,
+      "slug": "ezemrx-inc",
+      "website": "https://www.ezemrx.com",
+      "topProducts": [
+        "ezEMRx"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 203,
+      "status": "pending",
+      "vendor": "Holy Name Medical Center",
+      "developerId": 633,
+      "slug": "holy-name-medical-center",
+      "website": "https://www.holyname.org",
+      "topProducts": [
+        "WebHIS"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 204,
+      "status": "pending",
+      "vendor": "MedicaSoft, LLC",
+      "developerId": 931,
+      "slug": "medicasoft-llc",
+      "website": "https://www.medicasoft.com/",
+      "topProducts": [
+        "ehr.NXT HealthCenter"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 205,
+      "status": "pending",
+      "vendor": "Mayo Clinic Labs",
+      "developerId": 1793,
+      "slug": "mayo-clinic-labs",
+      "website": "https://www.mayoclinic.org",
+      "topProducts": [
+        "Mayo Clinic Lab Registry"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 206,
+      "status": "pending",
+      "vendor": "Experity",
+      "developerId": 369,
+      "slug": "experity",
+      "website": "https://www.experityhealth.com",
+      "topProducts": [
+        "Experity EMR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 207,
+      "status": "pending",
+      "vendor": "Pulse Systems, Inc",
+      "developerId": 1838,
+      "slug": "pulse-systems-inc",
+      "website": "http://www.pulseinc.com",
+      "topProducts": [
+        "Pulse EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 208,
+      "status": "pending",
+      "vendor": "Clinisys, Inc",
+      "developerId": 1826,
+      "slug": "clinisys-inc",
+      "website": "https://www.clinisys.com/us/en/",
+      "topProducts": [
+        "Clinisys Harvest",
+        "Clinisys Orchard"
+      ],
+      "listingCount": 4,
+      "screenshotsFound": null
+    },
+    {
+      "order": 209,
+      "status": "pending",
+      "vendor": "Magilen Enterprises Inc",
+      "developerId": 2099,
+      "slug": "magilen-enterprises-inc",
+      "website": "https://www.qsmartcare.com",
+      "topProducts": [
+        "QSmartCare"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 210,
+      "status": "pending",
+      "vendor": "Nexus Clinical LLC",
+      "developerId": 1990,
+      "slug": "nexus-clinical-llc",
+      "website": "https://www.nexusclinical.com/",
+      "topProducts": [
+        "Nexus EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 211,
+      "status": "pending",
+      "vendor": "Algo Health",
+      "developerId": 2182,
+      "slug": "algo-health",
+      "website": "https://www.algo.health/",
+      "topProducts": [
+        "Express AUR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 212,
+      "status": "pending",
+      "vendor": "Doc-tor.com",
+      "developerId": 1986,
+      "slug": "doc-tor-com",
+      "website": "https://www.doc-tor.com/",
+      "topProducts": [
+        "Picasso"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 213,
+      "status": "pending",
+      "vendor": "Criterions Software Inc",
+      "developerId": 1706,
+      "slug": "criterions-software-inc",
+      "website": "https://criterions.com/",
+      "topProducts": [
+        "Criterions EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 214,
+      "status": "pending",
+      "vendor": "Health Systems Technology, Inc.",
+      "developerId": 598,
+      "slug": "health-systems-technology-inc",
+      "website": "http://www.hstcentral.com",
+      "topProducts": [
+        "MedPointe"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 215,
+      "status": "pending",
+      "vendor": "The Echo Group",
+      "developerId": 1426,
+      "slug": "the-echo-group",
+      "website": "https://ensorahealth.com/product/echovantage/",
+      "topProducts": [
+        "EchoVantage"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 216,
+      "status": "pending",
+      "vendor": "IMAT Solutions",
+      "developerId": 2139,
+      "slug": "imat-solutions",
+      "website": "https://imatsolutions.com",
+      "topProducts": [
+        "IMAT Solutions"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 217,
+      "status": "pending",
+      "vendor": "ASP.MD Inc.",
+      "developerId": 27,
+      "slug": "asp-md-inc",
+      "website": "https://www.asp.md/",
+      "topProducts": [
+        "ASP.MD Medical Office System"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 218,
+      "status": "pending",
+      "vendor": "1Life Healthcare, Inc",
+      "developerId": 2122,
+      "slug": "1life-healthcare-inc",
+      "website": "https://www.onemedical.com/",
+      "topProducts": [
+        "1Life"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 219,
+      "status": "pending",
+      "vendor": "Apollo 360 Health",
+      "developerId": 2223,
+      "slug": "apollo-360-health",
+      "website": "https://apollo360health.com/",
+      "topProducts": [
+        "Apollo 360"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 220,
+      "status": "pending",
+      "vendor": "Cybermed Health Inc",
+      "developerId": 1776,
+      "slug": "cybermed-health-inc",
+      "website": "https://www.cybermedhealthinc.com/",
+      "topProducts": [
+        "CyberMed EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 221,
+      "status": "pending",
+      "vendor": "Morris Systems, Inc. d/b/a M-Systems, Inc.",
+      "developerId": 2177,
+      "slug": "morris-systems-inc-d-b-a-m-systems-inc",
+      "website": "https://www.morris-systems.com",
+      "topProducts": [
+        "MHS"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 222,
+      "status": "pending",
+      "vendor": "eDerm Systems LLC",
+      "developerId": 1593,
+      "slug": "ederm-systems-llc",
+      "website": "https://www.edermehr.com/",
+      "topProducts": [
+        "eDerm Systems"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 223,
+      "status": "pending",
+      "vendor": "VIPA Health Solutions, LLC",
+      "developerId": 1917,
+      "slug": "vipa-health-solutions-llc",
+      "website": "https://smartemr.readme.io/reference/getting-started#base-url",
+      "topProducts": [
+        "24/7 smartEMR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 224,
+      "status": "pending",
+      "vendor": "Tenzing Medical LLC",
+      "developerId": 1937,
+      "slug": "tenzing-medical-llc",
+      "website": "http://www.tenzingmedical.com",
+      "topProducts": [
+        "Tenzing VistA"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 225,
+      "status": "pending",
+      "vendor": "ModuleMD",
+      "developerId": 1981,
+      "slug": "modulemd",
+      "website": "http://www.modulemd.com",
+      "topProducts": [
+        "ModuleMD WISE™"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 226,
+      "status": "pending",
+      "vendor": "TenEleven Group",
+      "developerId": 1862,
+      "slug": "teneleven-group",
+      "website": "https://ensorahealth.com/product/teneleven/",
+      "topProducts": [
+        "electronic Clinical Record (eCR)"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 227,
+      "status": "pending",
+      "vendor": "CitiusTech, Inc.",
+      "developerId": 1695,
+      "slug": "citiustech-inc",
+      "website": "https://www.citiustech.com/",
+      "topProducts": [
+        "Perform+"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 228,
+      "status": "pending",
+      "vendor": "Veradigm",
+      "developerId": 1892,
+      "slug": "veradigm",
+      "website": "https://www.veradigm.com/",
+      "topProducts": [
+        "ePrescribe",
+        "Veradigm EHR",
+        "Veradigm FollowMyHealth®"
+      ],
+      "listingCount": 3,
+      "screenshotsFound": null
+    },
+    {
+      "order": 229,
+      "status": "pending",
+      "vendor": "Cyfluent",
+      "developerId": 1976,
+      "slug": "cyfluent",
+      "website": "https://www.cyfluent.com/",
+      "topProducts": [
+        "Cyfluent"
+      ],
+      "listingCount": 2,
+      "screenshotsFound": null
+    },
+    {
+      "order": 230,
+      "status": "pending",
+      "vendor": "MediRec, Inc.",
+      "developerId": 1800,
+      "slug": "medirec-inc",
+      "website": "https://www.medirec.us",
+      "topProducts": [
+        "abcEHR V"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 231,
+      "status": "pending",
+      "vendor": "Doctornow Inc.",
+      "developerId": 2121,
+      "slug": "doctornow-inc",
+      "website": "https://doctornow.io/",
+      "topProducts": [
+        "DocNow EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 232,
+      "status": "pending",
+      "vendor": "Develo",
+      "developerId": 2218,
+      "slug": "develo",
+      "website": "https://getdevelo.com/",
+      "topProducts": [
+        "Develo EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 233,
+      "status": "pending",
+      "vendor": "Premier Healthcare Solutions, Inc.",
+      "developerId": 2034,
+      "slug": "premier-healthcare-solutions-inc",
+      "website": "https://www.premierinc.com",
+      "topProducts": [
+        "TheraDoc",
+        "eCQM Calculator"
+      ],
+      "listingCount": 4,
+      "screenshotsFound": null
+    },
+    {
+      "order": 234,
+      "status": "pending",
+      "vendor": "FEI Systems",
+      "developerId": 480,
+      "slug": "fei-systems",
+      "website": "https://www.feisystems.com/",
+      "topProducts": [
+        "Web Infrastructure for Treatment Services (WITS)"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 235,
+      "status": "pending",
+      "vendor": "MedicalMine Inc.",
+      "developerId": 949,
+      "slug": "medicalmine-inc",
+      "website": "https://www.charmhealth.com",
+      "topProducts": [
+        "CharmHealth EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 236,
+      "status": "pending",
+      "vendor": "Persivia",
+      "developerId": 1156,
+      "slug": "persivia",
+      "website": "https://persivia.com/",
+      "topProducts": [
+        "Persivia Platform"
+      ],
+      "listingCount": 2,
+      "screenshotsFound": null
+    },
+    {
+      "order": 237,
+      "status": "pending",
+      "vendor": "HealthAdvanta",
+      "developerId": 2186,
+      "slug": "healthadvanta",
+      "website": "https://www.healthadvanta.com/",
+      "topProducts": [
+        "HealthAdvanta"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 238,
+      "status": "pending",
+      "vendor": "Glenwood Systems LLC",
+      "developerId": 536,
+      "slug": "glenwood-systems-llc",
+      "website": "http://www.glenwoodsystems.com",
+      "topProducts": [
+        "GlaceEMR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 239,
+      "status": "pending",
+      "vendor": "Sabiamed Corporation",
+      "developerId": 1298,
+      "slug": "sabiamed-corporation",
+      "website": "https://www.sabiamed.com",
+      "topProducts": [
+        "ClinNext 10"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 240,
+      "status": "pending",
+      "vendor": "True RCM",
+      "developerId": 2238,
+      "slug": "true-rcm",
+      "website": "https://www.truercm.com",
+      "topProducts": [
+        "TrueRCM EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 241,
+      "status": "pending",
+      "vendor": "Claimocity, Inc.",
+      "developerId": 2173,
+      "slug": "claimocity-inc",
+      "website": "https://claimocity.com",
+      "topProducts": [
+        "Claimocity"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 242,
+      "status": "pending",
+      "vendor": "Verana Health",
+      "developerId": 2093,
+      "slug": "verana-health",
+      "website": "https://www.veranahealth.com",
+      "topProducts": [
+        "Verana Quality Measures"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 243,
+      "status": "pending",
+      "vendor": "ASPYRA, LLC",
+      "developerId": 116,
+      "slug": "aspyra-llc",
+      "website": "https://aspyra.com",
+      "topProducts": [
+        "CyberLAB"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 244,
+      "status": "pending",
+      "vendor": "ChartPath, LLC",
+      "developerId": 1997,
+      "slug": "chartpath-llc",
+      "website": "https://www.chartpath.com",
+      "topProducts": [
+        "ChartPath"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 245,
+      "status": "pending",
+      "vendor": "Astronaut, LLC",
+      "developerId": 2100,
+      "slug": "astronaut-llc",
+      "website": "https://astronautehr.com",
+      "topProducts": [
+        "Astronaut"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 246,
+      "status": "pending",
+      "vendor": "Harris CareTracker, Inc",
+      "developerId": 570,
+      "slug": "harris-caretracker-inc",
+      "website": "https://harriscaretracker.com/",
+      "topProducts": [
+        "Harris CareTracker"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 247,
+      "status": "pending",
+      "vendor": "Practice Compass, LLC",
+      "developerId": 2143,
+      "slug": "practice-compass-llc",
+      "website": "https://practicecompass.com/",
+      "topProducts": [
+        "PracticeCompass EMR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 248,
+      "status": "pending",
+      "vendor": "Intellicure, LLC",
+      "developerId": 724,
+      "slug": "intellicure-llc",
+      "website": "https://www.intellicure.com/",
+      "topProducts": [
+        "IntellicureEHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 249,
+      "status": "pending",
+      "vendor": "LogiCoy Inc",
+      "developerId": 2118,
+      "slug": "logicoy-inc",
+      "website": "https://www.logicoy.com/",
+      "topProducts": [
+        "LogiCoy eRx"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 250,
+      "status": "pending",
+      "vendor": "Health Catalyst, Inc.",
+      "developerId": 2035,
+      "slug": "health-catalyst-inc",
+      "website": "https://www.healthcatalyst.com",
+      "topProducts": [
+        "Health Catalyst Connect Clinical Messaging",
+        "MeasureAble"
+      ],
+      "listingCount": 2,
+      "screenshotsFound": null
+    },
+    {
+      "order": 251,
+      "status": "pending",
+      "vendor": "Florida Department of Health",
+      "developerId": 499,
+      "slug": "florida-department-of-health",
+      "website": "https://www.floridahealth.gov",
+      "topProducts": [
+        "The Florida Department of Health, Health Management System"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 252,
+      "status": "pending",
+      "vendor": "Aline",
+      "developerId": 2112,
+      "slug": "aline",
+      "website": "https://alineops.com",
+      "topProducts": [
+        "Aline Care"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 253,
+      "status": "pending",
+      "vendor": "Abeo Solutions, Inc",
+      "developerId": 31,
+      "slug": "abeo-solutions-inc",
+      "website": "https://www.crystalpm.com/",
+      "topProducts": [
+        "Crystal Practice Management"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 254,
+      "status": "pending",
+      "vendor": "medent - Community Computer Service, Inc.",
+      "developerId": 841,
+      "slug": "medent-community-computer-service-inc",
+      "website": "https://www.medent.com",
+      "topProducts": [
+        "medent"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 255,
+      "status": "pending",
+      "vendor": "AutoMedical LLC",
+      "developerId": 2017,
+      "slug": "automedical-llc",
+      "website": "https://mamemr.com",
+      "topProducts": [
+        "Med-A-Morphosis"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 256,
+      "status": "pending",
+      "vendor": "InteliChart LLC",
+      "developerId": 723,
+      "slug": "intelichart-llc",
+      "website": "http://www.intelichart.com",
+      "topProducts": [
+        "InteliChart Patient Portal"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 257,
+      "status": "pending",
+      "vendor": "Comtron Inc.",
+      "developerId": 1985,
+      "slug": "comtron-inc",
+      "website": "http://www.medgenehr.com/",
+      "topProducts": [
+        "Medgen EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 258,
+      "status": "pending",
+      "vendor": "Flatiron Health",
+      "developerId": 2011,
+      "slug": "flatiron-health",
+      "website": "https://flatiron.com",
+      "topProducts": [
+        "OncoEMR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 259,
+      "status": "pending",
+      "vendor": "Management Plus EHR, LLC",
+      "developerId": 2204,
+      "slug": "management-plus-ehr-llc",
+      "website": "https://sightview.com/",
+      "topProducts": [
+        "ManagementPlus"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 260,
+      "status": "pending",
+      "vendor": "CRITERION TECH PRIVATE LIMITED",
+      "developerId": 2178,
+      "slug": "criterion-tech-private-limited",
+      "website": "https://criteriontechnologies.com/",
+      "topProducts": [
+        "Medvantage"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 261,
+      "status": "pending",
+      "vendor": "Systemedx Inc",
+      "developerId": 1858,
+      "slug": "systemedx-inc",
+      "website": "https://www.systemedx.com/",
+      "topProducts": [
+        "Systemedx Clinical Navigator"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 262,
+      "status": "pending",
+      "vendor": "Medplum",
+      "developerId": 2148,
+      "slug": "medplum",
+      "website": "https://www.medplum.com/",
+      "topProducts": [
+        "Medplum"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 263,
+      "status": "pending",
+      "vendor": "Relevant Healthcare, Inc.",
+      "developerId": 2258,
+      "slug": "relevant-healthcare-inc",
+      "website": "https://relevant.healthcare",
+      "topProducts": [
+        "Relevant"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 264,
+      "status": "pending",
+      "vendor": "NexaPoint Health",
+      "developerId": 2263,
+      "slug": "nexapoint-health",
+      "website": "https://nexapointhealth.com/",
+      "topProducts": [
+        "NexaPoint Health"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 265,
+      "status": "pending",
+      "vendor": "First Call Technologies, LLC DBA Community CareLink",
+      "developerId": 492,
+      "slug": "first-call-technologies-llc-dba-community-carelink",
+      "website": "https://communitycarelink.com/",
+      "topProducts": [
+        "Community CareLink"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 266,
+      "status": "pending",
+      "vendor": "iTreatMD",
+      "developerId": 2176,
+      "slug": "itreatmd",
+      "website": "https://www.itreatmd.com",
+      "topProducts": [
+        "iTreatMD"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 267,
+      "status": "pending",
+      "vendor": "Intruno Inc.",
+      "developerId": 2094,
+      "slug": "intruno-inc",
+      "website": "https://www.intruno.com",
+      "topProducts": [
+        "Intruno Patient Privacy Monitoring"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 268,
+      "status": "pending",
+      "vendor": "Secure Health Information Technology Corp.",
+      "developerId": 2202,
+      "slug": "secure-health-information-technology-corp",
+      "website": "https://www.securehitpr.com/",
+      "topProducts": [
+        "Direct SecureHIT"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 269,
+      "status": "pending",
+      "vendor": "Intellix Solutions, LLC.",
+      "developerId": 2225,
+      "slug": "intellix-solutions-llc",
+      "website": "https://www.intellixs.com/",
+      "topProducts": [
+        "BluKnox"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 270,
+      "status": "pending",
+      "vendor": "Medi-EHR, LLC",
+      "developerId": 1980,
+      "slug": "medi-ehr-llc",
+      "website": "https://medi-ehr.com/",
+      "topProducts": [
+        "Medi-EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 271,
+      "status": "pending",
+      "vendor": "Networking Technology Inc., dba RXNT",
+      "developerId": 1047,
+      "slug": "networking-technology-inc-dba-rxnt",
+      "website": "https://www.rxnt.com",
+      "topProducts": [
+        "RXNT Electronic Health Records"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 272,
+      "status": "pending",
+      "vendor": "Health Innovation Technologies, Inc.",
+      "developerId": 592,
+      "slug": "health-innovation-technologies-inc",
+      "website": "https://www.revolutionehr.com",
+      "topProducts": [
+        "RevolutionEHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 273,
+      "status": "pending",
+      "vendor": "Urgent Chart LLC",
+      "developerId": 2247,
+      "slug": "urgent-chart-llc",
+      "website": "https://www.urgentchart.com/",
+      "topProducts": [
+        "UrgentChart"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 274,
+      "status": "pending",
+      "vendor": "Point and Click Solutions, Inc.",
+      "developerId": 2147,
+      "slug": "point-and-click-solutions-inc",
+      "website": "https://www.pointandclicksolutions.com/",
+      "topProducts": [
+        "PNC Suite"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 275,
+      "status": "pending",
+      "vendor": "Alara Imaging, Inc.",
+      "developerId": 2216,
+      "slug": "alara-imaging-inc",
+      "website": "https://www.alaragateway.com/",
+      "topProducts": [
+        "Alara Medical Imaging Gateway"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 276,
+      "status": "pending",
+      "vendor": "Virtusa Corporation",
+      "developerId": 2002,
+      "slug": "virtusa-corporation",
+      "website": "https://www.virtusa.com/",
+      "topProducts": [
+        "CareDiscovery Electronic Quality Measures"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 277,
+      "status": "pending",
+      "vendor": "Imprivata",
+      "developerId": 486,
+      "slug": "imprivata",
+      "website": "https://www.imprivata.com",
+      "topProducts": [
+        "Access Intelligence",
+        "Digital Identity Intelligence"
+      ],
+      "listingCount": 3,
+      "screenshotsFound": null
+    },
+    {
+      "order": 278,
+      "status": "pending",
+      "vendor": "Lancman Solutions LLC",
+      "developerId": 2101,
+      "slug": "lancman-solutions-llc",
+      "website": "https://lancmansolutions.com/",
+      "topProducts": [
+        "Epi-Management"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 279,
+      "status": "pending",
+      "vendor": "Mobile MediClaim",
+      "developerId": 2089,
+      "slug": "mobile-mediclaim",
+      "website": "https://www.mobilemediclaim.com",
+      "topProducts": [
+        "Mobile MediClaim"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 280,
+      "status": "pending",
+      "vendor": "Ensora Health",
+      "developerId": 2136,
+      "slug": "ensora-health",
+      "website": "https://ensorahealth.com/product/erx/",
+      "topProducts": [
+        "Ensora eRx"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 281,
+      "status": "pending",
+      "vendor": "TruBridge, Inc.",
+      "developerId": 2105,
+      "slug": "trubridge-inc",
+      "website": "https://trubridge.com/",
+      "topProducts": [
+        "CHBase™ CEHRT Edition",
+        "InstantPHR® CEHRT Edition",
+        "TruBridge EHR"
+      ],
+      "listingCount": 4,
+      "screenshotsFound": null
+    },
+    {
+      "order": 282,
+      "status": "pending",
+      "vendor": "Family Health Centers of San Diego, Inc.",
+      "developerId": 1729,
+      "slug": "family-health-centers-of-san-diego-inc",
+      "website": "https://www.fhcsd.org",
+      "topProducts": [
+        "CMIS Medical EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 283,
+      "status": "pending",
+      "vendor": "DOX EMR",
+      "developerId": 318,
+      "slug": "dox-emr",
+      "website": "https://www.doxemr.com",
+      "topProducts": [
+        "DOX EMR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 284,
+      "status": "pending",
+      "vendor": "Press Ganey Associates",
+      "developerId": 1835,
+      "slug": "press-ganey-associates",
+      "website": "http://www.pressganey.com",
+      "topProducts": [
+        "Quality Performer Hospital eMeasures"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 285,
+      "status": "pending",
+      "vendor": "KaZee, Inc.",
+      "developerId": 758,
+      "slug": "kazee-inc",
+      "website": "https://kazee.us/",
+      "topProducts": [
+        "Pearl"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 286,
+      "status": "pending",
+      "vendor": "HCA Physician Services Group",
+      "developerId": 558,
+      "slug": "hca-physician-services-group",
+      "website": "https://hcahealthcare.com",
+      "topProducts": [
+        "M.A.P."
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 287,
+      "status": "pending",
+      "vendor": "Azara Healthcare, LLC",
+      "developerId": 135,
+      "slug": "azara-healthcare-llc",
+      "website": "https://azarahealthcare.com/",
+      "topProducts": [
+        "Azara DRVS"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 288,
+      "status": "pending",
+      "vendor": "Regard Technologies",
+      "developerId": 2193,
+      "slug": "regard-technologies",
+      "website": "https://regard.com/",
+      "topProducts": [
+        "Regard SaaS Solution"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 289,
+      "status": "pending",
+      "vendor": "TRIARQ Practice Services",
+      "developerId": 1615,
+      "slug": "triarq-practice-services",
+      "website": "http://www.triarqhealth.com/",
+      "topProducts": [
+        "QSuite"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 290,
+      "status": "pending",
+      "vendor": "Marquis Software Development, Inc.",
+      "developerId": 1792,
+      "slug": "marquis-software-development-inc",
+      "website": "http://www.Marquisware.com",
+      "topProducts": [
+        "eOMIS Healthcare Management"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 291,
+      "status": "pending",
+      "vendor": "F&A Management",
+      "developerId": 2132,
+      "slug": "f-a-management",
+      "website": "https://www.fa-management.com/",
+      "topProducts": [
+        "RoverMD"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 292,
+      "status": "pending",
+      "vendor": "MDinteractive",
+      "developerId": 2081,
+      "slug": "mdinteractive",
+      "website": "https://mdinteractive.com/",
+      "topProducts": [
+        "MDinteractive"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 293,
+      "status": "pending",
+      "vendor": "SunwaveHealth",
+      "developerId": 2234,
+      "slug": "sunwavehealth",
+      "website": "https://www.sunwavehealth.com/",
+      "topProducts": [
+        "SunwaveHealth EMR Platform"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 294,
+      "status": "pending",
+      "vendor": "Picis PulseCheck",
+      "developerId": 2071,
+      "slug": "picis-pulsecheck",
+      "website": "https://pulsechecked.com/",
+      "topProducts": [
+        "PulseCheck ED"
+      ],
+      "listingCount": 2,
+      "screenshotsFound": null
+    },
+    {
+      "order": 295,
+      "status": "pending",
+      "vendor": "PartnerHelper",
+      "developerId": 2119,
+      "slug": "partnerhelper",
+      "website": "https://www.partnerhelper.com/",
+      "topProducts": [
+        "DoctorHelper"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 296,
+      "status": "pending",
+      "vendor": "Medical Office Force, LLC.",
+      "developerId": 2222,
+      "slug": "medical-office-force-llc",
+      "website": "https://www.medicalofficeforce.com/",
+      "topProducts": [
+        "Medical Office Force"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 297,
+      "status": "pending",
+      "vendor": "Vohra Wound Physicians Management, LLC",
+      "developerId": 1876,
+      "slug": "vohra-wound-physicians-management-llc",
+      "website": "https://www.vohraphysicians.com",
+      "topProducts": [
+        "VHS Medical Documentation & Coding"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 298,
+      "status": "pending",
+      "vendor": "Sapphire Health",
+      "developerId": 2053,
+      "slug": "sapphire-health",
+      "website": "https://www.sapphire-health.com",
+      "topProducts": [
+        "Sapphire EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 299,
+      "status": "pending",
+      "vendor": "eRAD, Inc.",
+      "developerId": 1604,
+      "slug": "erad-inc",
+      "website": "https://erad.com/",
+      "topProducts": [
+        "eRAD RIS"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 300,
+      "status": "pending",
+      "vendor": "WestCare Foundation, Inc.",
+      "developerId": 1650,
+      "slug": "westcare-foundation-inc",
+      "website": "https://www.westcare.com",
+      "topProducts": [
+        "Clinical Data System"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 301,
+      "status": "pending",
+      "vendor": "Greenway Health, LLC",
+      "developerId": 1914,
+      "slug": "greenway-health-llc",
+      "website": "https://www.greenwayhealth.com/",
+      "topProducts": [
+        "Greenway Electronic Case Reporting",
+        "Greenway Insights",
+        "Greenway Patient Portal"
+      ],
+      "listingCount": 5,
+      "screenshotsFound": null
+    },
+    {
+      "order": 302,
+      "status": "pending",
+      "vendor": "Advanced Data Systems Corporation",
+      "developerId": 45,
+      "slug": "advanced-data-systems-corporation",
+      "website": "https://www.adsc.com",
+      "topProducts": [
+        "MedicsCloud",
+        "MedicsDocAssistant"
+      ],
+      "listingCount": 2,
+      "screenshotsFound": null
+    },
+    {
+      "order": 303,
+      "status": "pending",
+      "vendor": "Navigating Cancer, LLC",
+      "developerId": 1035,
+      "slug": "navigating-cancer-llc",
+      "website": "https://www.navigatingcare.com",
+      "topProducts": [
+        "Navigating Care"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 304,
+      "status": "pending",
+      "vendor": "VisionWeb",
+      "developerId": 1515,
+      "slug": "visionweb",
+      "website": "http://www.startyouruprise.com/",
+      "topProducts": [
+        "Uprise"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 305,
+      "status": "pending",
+      "vendor": "SMARTMD Technologies, Inc.",
+      "developerId": 2195,
+      "slug": "smartmd-technologies-inc",
+      "website": "https://www.smartmd.com/",
+      "topProducts": [
+        "SMARTMD Palliative"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 306,
+      "status": "pending",
+      "vendor": "Inmediata Health Group LLC",
+      "developerId": 1770,
+      "slug": "inmediata-health-group-llc",
+      "website": "https://www.inmediata.com",
+      "topProducts": [
+        "SecureEMR",
+        "SecureEMR+"
+      ],
+      "listingCount": 2,
+      "screenshotsFound": null
+    },
+    {
+      "order": 307,
+      "status": "pending",
+      "vendor": "Bridge Patient Portal Inc.",
+      "developerId": 948,
+      "slug": "bridge-patient-portal-inc",
+      "website": "https://www.bridgeinteract.io/",
+      "topProducts": [
+        "BridgeInteract"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 308,
+      "status": "pending",
+      "vendor": "CHN Tech Solutions LLC",
+      "developerId": 2134,
+      "slug": "chn-tech-solutions-llc",
+      "website": "https://chntechsolutions.com",
+      "topProducts": [
+        "Integrated Care EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 309,
+      "status": "pending",
+      "vendor": "Ritten, Inc.",
+      "developerId": 2248,
+      "slug": "ritten-inc",
+      "website": "https://www.ritten.io",
+      "topProducts": [
+        "Ritten"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 310,
+      "status": "pending",
+      "vendor": "DASON (Duke Antimicrobial Stewardship Outreach Network)",
+      "developerId": 2170,
+      "slug": "dason-duke-antimicrobial-stewardship-outreach-network",
+      "website": "https://dason.medicine.duke.edu",
+      "topProducts": [
+        "DASON ASAP"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 311,
+      "status": "pending",
+      "vendor": "PAIX Technologies",
+      "developerId": 2214,
+      "slug": "paix-technologies",
+      "website": "https://www.paix-tech.com/",
+      "topProducts": [
+        "Harmony EHR PM"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 312,
+      "status": "pending",
+      "vendor": "DAW SYSTEMS, INC.",
+      "developerId": 1920,
+      "slug": "daw-systems-inc",
+      "website": "http://www.dawsystems.com/",
+      "topProducts": [
+        "ScriptSure Cloud"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 313,
+      "status": "pending",
+      "vendor": "Osler, Inc.",
+      "developerId": 2163,
+      "slug": "osler-inc",
+      "website": "http://www.oslerhealth.com",
+      "topProducts": [
+        "CareRails"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 314,
+      "status": "pending",
+      "vendor": "Health Samurai, Inc.",
+      "developerId": 2120,
+      "slug": "health-samurai-inc",
+      "website": "https://www.health-samurai.io/",
+      "topProducts": [
+        "Aidbox FHIR API module"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 315,
+      "status": "pending",
+      "vendor": "Sai Systems Digital LLC",
+      "developerId": 2138,
+      "slug": "sai-systems-digital-llc",
+      "website": "https://thesnfist.com/",
+      "topProducts": [
+        "PacEHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 316,
+      "status": "pending",
+      "vendor": "Helixbeat",
+      "developerId": 2211,
+      "slug": "helixbeat",
+      "website": "https://www.helixbeat.com/",
+      "topProducts": [
+        "FUSION",
+        "PULSE"
+      ],
+      "listingCount": 2,
+      "screenshotsFound": null
+    },
+    {
+      "order": 317,
+      "status": "pending",
+      "vendor": "FIGmd Inc. (an MRO Company)",
+      "developerId": 1727,
+      "slug": "figmd-inc-an-mro-company",
+      "website": "https://figmd.com/",
+      "topProducts": [
+        "FIGmd - Pegasus Quality Platform"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 318,
+      "status": "pending",
+      "vendor": "Diagnostic Laboratory Services, Inc.",
+      "developerId": 2232,
+      "slug": "diagnostic-laboratory-services-inc",
+      "website": "https://dlslab.com/",
+      "topProducts": [
+        "Antrim Laboratory Data Management System"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 319,
+      "status": "pending",
+      "vendor": "MedTrio, Inc.",
+      "developerId": 1647,
+      "slug": "medtrio-inc",
+      "website": "https://www.medtrio.com/",
+      "topProducts": [
+        "Medtrio EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 320,
+      "status": "pending",
+      "vendor": "DocToMe, Inc.",
+      "developerId": 2061,
+      "slug": "doctome-inc",
+      "website": "https://www.ethizo.com",
+      "topProducts": [
+        "ethizo EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 321,
+      "status": "pending",
+      "vendor": "eMedApps, Inc",
+      "developerId": 1603,
+      "slug": "emedapps-inc",
+      "website": "https://medtechsolutions.com/",
+      "topProducts": [
+        "CareBridge"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 322,
+      "status": "pending",
+      "vendor": "VieCure, Inc.",
+      "developerId": 2067,
+      "slug": "viecure-inc",
+      "website": "http://www.viecure.com",
+      "topProducts": [
+        "VieCure"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 323,
+      "status": "pending",
+      "vendor": "Ennoble Technologies LLC",
+      "developerId": 2095,
+      "slug": "ennoble-technologies-llc",
+      "website": "https://www.ennoblecare.com/",
+      "topProducts": [
+        "Office Anywhere"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 324,
+      "status": "pending",
+      "vendor": "EPOWERdoc, Inc.",
+      "developerId": 408,
+      "slug": "epowerdoc-inc",
+      "website": "https://www.epowerdoc.com",
+      "topProducts": [
+        "EMRdoc"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 325,
+      "status": "pending",
+      "vendor": "eMedPractice LLC",
+      "developerId": 1899,
+      "slug": "emedpractice-llc",
+      "website": "https://www.eMedPractice.com",
+      "topProducts": [
+        "eMedicalPractice"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 326,
+      "status": "pending",
+      "vendor": "CursaHealth LLC",
+      "developerId": 2250,
+      "slug": "cursahealth-llc",
+      "website": "https://cursahealth.com/",
+      "topProducts": [
+        "CursaHealth EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 327,
+      "status": "pending",
+      "vendor": "Health Information Management Systems, LLC",
+      "developerId": 591,
+      "slug": "health-information-management-systems-llc",
+      "website": "https://axiomehr.com/",
+      "topProducts": [
+        "Axiom"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 328,
+      "status": "pending",
+      "vendor": "Surescripts, LLC",
+      "developerId": 1392,
+      "slug": "surescripts-llc",
+      "website": "http://www.surescripts.com",
+      "topProducts": [
+        "Surescripts Clinical Direct Messaging"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 329,
+      "status": "pending",
+      "vendor": "BroadStreet Health LLC",
+      "developerId": 2162,
+      "slug": "broadstreet-health-llc",
+      "website": "https://www.broadstreetcare.com",
+      "topProducts": [
+        "BroadStreet"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 330,
+      "status": "pending",
+      "vendor": "OnCall Health",
+      "developerId": 2123,
+      "slug": "oncall-health",
+      "website": "https://oncallhealth.com",
+      "topProducts": [
+        "OnCall Health"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 331,
+      "status": "pending",
+      "vendor": "Healthfully Inc.",
+      "developerId": 2082,
+      "slug": "healthfully-inc",
+      "website": "https://www.healthfully.io/",
+      "topProducts": [
+        "BMH Care Anywhere",
+        "Healthfully"
+      ],
+      "listingCount": 2,
+      "screenshotsFound": null
+    },
+    {
+      "order": 332,
+      "status": "pending",
+      "vendor": "Oracle Health",
+      "developerId": 222,
+      "slug": "oracle-health",
+      "website": "https://www.oracle.com/health",
+      "topProducts": [
+        "Oracle Health Privacy Analytics",
+        "Oracle Health Millennium (Clinical)",
+        "Oracle Health Millennium (CQMs)"
+      ],
+      "listingCount": 20,
+      "screenshotsFound": null
+    },
+    {
+      "order": 333,
+      "status": "pending",
+      "vendor": "Clinical Data Solutions",
+      "developerId": 1933,
+      "slug": "clinical-data-solutions",
+      "website": "https://www.clinicaldata.org/",
+      "topProducts": [
+        "The Clinical Manager"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 334,
+      "status": "pending",
+      "vendor": "Acurus Solutions, Inc.",
+      "developerId": 1670,
+      "slug": "acurus-solutions-inc",
+      "website": "https://www.acurussolutions.com",
+      "topProducts": [
+        "Capella EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 335,
+      "status": "pending",
+      "vendor": "drchrono Inc.",
+      "developerId": 1898,
+      "slug": "drchrono-inc",
+      "website": "https://www.drchrono.com",
+      "topProducts": [
+        "drchrono EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 336,
+      "status": "pending",
+      "vendor": "Curantis Solutions, LLC",
+      "developerId": 2233,
+      "slug": "curantis-solutions-llc",
+      "website": "https://www.curantissolutions.com",
+      "topProducts": [
+        "Curantis Solutions Hospice & Palliative"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 337,
+      "status": "pending",
+      "vendor": "Darena Solutions LLC dba Darena Health",
+      "developerId": 323,
+      "slug": "darena-solutions-llc-dba-darena-health",
+      "website": "https://darena.health",
+      "topProducts": [
+        "Darena Health",
+        "MyMipsScore"
+      ],
+      "listingCount": 2,
+      "screenshotsFound": null
+    },
+    {
+      "order": 338,
+      "status": "pending",
+      "vendor": "RosettaHealth",
+      "developerId": 1996,
+      "slug": "rosettahealth",
+      "website": "http://www.rosettahealth.com",
+      "topProducts": [
+        "HISPDirect"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 339,
+      "status": "pending",
+      "vendor": "Ulrich Medical Concepts",
+      "developerId": 2050,
+      "slug": "ulrich-medical-concepts",
+      "website": "http://www.ulrichmedicalconcepts.com",
+      "topProducts": [
+        "Team Chart Concept"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 340,
+      "status": "pending",
+      "vendor": "Unity Health",
+      "developerId": 2245,
+      "slug": "unity-health",
+      "website": "https://cinch-health.com/",
+      "topProducts": [
+        "Cinch Health"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 341,
+      "status": "pending",
+      "vendor": "Carefluence",
+      "developerId": 1658,
+      "slug": "carefluence",
+      "website": "http://www.carefluence.com",
+      "topProducts": [
+        "Carefluence Open API"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 342,
+      "status": "pending",
+      "vendor": "Genensys LLC",
+      "developerId": 524,
+      "slug": "genensys-llc",
+      "website": "http://www.genensys.com/",
+      "topProducts": [
+        "Simplify EMR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 343,
+      "status": "pending",
+      "vendor": "Indian Health Service",
+      "developerId": 674,
+      "slug": "indian-health-service",
+      "website": "https://www.ihs.gov/promotinginteroperability/certificationoverview/",
+      "topProducts": [
+        "Resource and Patient Management System Electronic Health Record"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 344,
+      "status": "pending",
+      "vendor": "Smile CDR Inc. (doing business as Smile Digital Health)",
+      "developerId": 2130,
+      "slug": "smile-cdr-inc-doing-business-as-smile-digital-health",
+      "website": "https://www.smilecdr.com/",
+      "topProducts": [
+        "Smile CDR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 345,
+      "status": "pending",
+      "vendor": "TriMed Technologies",
+      "developerId": 2104,
+      "slug": "trimed-technologies",
+      "website": "https://www.trimedtech.com/",
+      "topProducts": [
+        "TriMed Complete"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 346,
+      "status": "pending",
+      "vendor": "PipelineRx",
+      "developerId": 2181,
+      "slug": "pipelinerx",
+      "website": "https://www.pipelinerx.com/",
+      "topProducts": [
+        "PowerGridRx"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 347,
+      "status": "pending",
+      "vendor": "InterOperability Bidco, Inc., d.b.a. Rhapsody",
+      "developerId": 292,
+      "slug": "interoperability-bidco-inc-d-b-a-rhapsody",
+      "website": "https://www.rhapsody.health",
+      "topProducts": [
+        "Rhapsody Integration Engine",
+        "Corepoint Integration Engine"
+      ],
+      "listingCount": 21,
+      "screenshotsFound": null
+    },
+    {
+      "order": 348,
+      "status": "pending",
+      "vendor": "Udoc Technologies, LLC",
+      "developerId": 2133,
+      "slug": "udoc-technologies-llc",
+      "website": "https://www.udoc.com",
+      "topProducts": [
+        "Udoc"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 349,
+      "status": "pending",
+      "vendor": "AaNeel Infotech",
+      "developerId": 2108,
+      "slug": "aaneel-infotech",
+      "website": "https://www.aaneel.com/",
+      "topProducts": [
+        "My Health EHR - By AaNeelCare"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 350,
+      "status": "pending",
+      "vendor": "Trinitas LLC",
+      "developerId": 2190,
+      "slug": "trinitas-llc",
+      "website": "https://trinitashealth.com",
+      "topProducts": [
+        "FEHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 351,
+      "status": "pending",
+      "vendor": "QRS, Inc.",
+      "developerId": 1839,
+      "slug": "qrs-inc",
+      "website": "https://qrshs.com/",
+      "topProducts": [
+        "PARADIGM®"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 352,
+      "status": "pending",
+      "vendor": "Benchmark Systems",
+      "developerId": 145,
+      "slug": "benchmark-systems",
+      "website": "https://www.benchmarksystems.com",
+      "topProducts": [
+        "Benchmark EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 353,
+      "status": "pending",
+      "vendor": "Updox",
+      "developerId": 1485,
+      "slug": "updox",
+      "website": "http://www.updox.com",
+      "topProducts": [
+        "Updox"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 354,
+      "status": "pending",
+      "vendor": "MedNet Medical Solutions",
+      "developerId": 1797,
+      "slug": "mednet-medical-solutions",
+      "website": "https://www.mednetmedical.com",
+      "topProducts": [
+        "emr4MD"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 355,
+      "status": "pending",
+      "vendor": "Dynamic Health IT, Inc",
+      "developerId": 1714,
+      "slug": "dynamic-health-it-inc",
+      "website": "https://dynamichealthit.com/",
+      "topProducts": [
+        "CQMsolution",
+        "ConnectEHR SMART 2.0"
+      ],
+      "listingCount": 3,
+      "screenshotsFound": null
+    },
+    {
+      "order": 356,
+      "status": "pending",
+      "vendor": "Nortec Software Inc.",
+      "developerId": 1065,
+      "slug": "nortec-software-inc",
+      "website": "http://www.nortecehr.com/",
+      "topProducts": [
+        "Nortec EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 357,
+      "status": "pending",
+      "vendor": "Iron Bridge Integration, Inc.",
+      "developerId": 1966,
+      "slug": "iron-bridge-integration-inc",
+      "website": "https://www.ironbridgecorp.com/",
+      "topProducts": [
+        "Pub Hub"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 358,
+      "status": "pending",
+      "vendor": "Clinicmind Inc.",
+      "developerId": 1501,
+      "slug": "clinicmind-inc",
+      "website": "https://clinicmind.com/",
+      "topProducts": [
+        "Clinicmind"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 359,
+      "status": "pending",
+      "vendor": "EDENLAB OÜ",
+      "developerId": 2149,
+      "slug": "edenlab-o",
+      "website": "https://kodjin.com/",
+      "topProducts": [
+        "Kodjin FHIR Server"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 360,
+      "status": "pending",
+      "vendor": "Lightning Step Technologies",
+      "developerId": 2184,
+      "slug": "lightning-step-technologies",
+      "website": "https://lightningstep.com/",
+      "topProducts": [
+        "Lightning Step"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 361,
+      "status": "pending",
+      "vendor": "CareCloud, Inc.",
+      "developerId": 1791,
+      "slug": "carecloud-inc",
+      "website": "https://www.carecloud.com",
+      "topProducts": [
+        "CareCloud Prime",
+        "CareVue",
+        "ChartLogic EHR"
+      ],
+      "listingCount": 8,
+      "screenshotsFound": null
+    },
+    {
+      "order": 362,
+      "status": "pending",
+      "vendor": "ezCaretech Co., Ltd.",
+      "developerId": 1611,
+      "slug": "ezcaretech-co-ltd",
+      "website": "http://www.ezcaretech.com/",
+      "topProducts": [
+        "BESTCare"
+      ],
+      "listingCount": 2,
+      "screenshotsFound": null
+    },
+    {
+      "order": 363,
+      "status": "pending",
+      "vendor": "WRS Health",
+      "developerId": 1528,
+      "slug": "wrs-health",
+      "website": "https://www.wrshealth.com/",
+      "topProducts": [
+        "WRS Health Web EHR and Practice Management System"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 364,
+      "status": "pending",
+      "vendor": "MDLAND",
+      "developerId": 829,
+      "slug": "mdland",
+      "website": "https://www.mdland.com/",
+      "topProducts": [
+        "iClinic"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 365,
+      "status": "pending",
+      "vendor": "MedAllies",
+      "developerId": 888,
+      "slug": "medallies",
+      "website": "http://www.medallies.com",
+      "topProducts": [
+        "MedAllies Direct Solutions™"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 366,
+      "status": "pending",
+      "vendor": "Cedaron Medical, Inc.",
+      "developerId": 1971,
+      "slug": "cedaron-medical-inc",
+      "website": "https://www.cedaron.com/",
+      "topProducts": [
+        "Connect"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 367,
+      "status": "pending",
+      "vendor": "Practice Fusion",
+      "developerId": 1925,
+      "slug": "practice-fusion",
+      "website": "http://www.practicefusion.com",
+      "topProducts": [
+        "Practice Fusion EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 368,
+      "status": "pending",
+      "vendor": "Skilled Wound Care",
+      "developerId": 2056,
+      "slug": "skilled-wound-care",
+      "website": "https://www.skilledwoundcare.com",
+      "topProducts": [
+        "Treasure EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 369,
+      "status": "pending",
+      "vendor": "NaphCare, Inc.",
+      "developerId": 1814,
+      "slug": "naphcare-inc",
+      "website": "https://www.naphcare.com",
+      "topProducts": [
+        "TechCare®"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 370,
+      "status": "pending",
+      "vendor": "HCA Healthcare - Information Technology Group",
+      "developerId": 1741,
+      "slug": "hca-healthcare-information-technology-group",
+      "website": "https://hcahealthcare.com/",
+      "topProducts": [
+        "hCare EHR Dashboard",
+        "hCQM",
+        "MyHealthOne"
+      ],
+      "listingCount": 3,
+      "screenshotsFound": null
+    },
+    {
+      "order": 371,
+      "status": "pending",
+      "vendor": "AssureCare LLC",
+      "developerId": 1628,
+      "slug": "assurecare-llc",
+      "website": "https://ipatientcare.com/",
+      "topProducts": [
+        "iPatientCare"
+      ],
+      "listingCount": 3,
+      "screenshotsFound": null
+    },
+    {
+      "order": 372,
+      "status": "pending",
+      "vendor": "Park Avenue Capital, LLC dba MaxMD",
+      "developerId": 1133,
+      "slug": "park-avenue-capital-llc-dba-maxmd",
+      "website": "http://www.maxmddirect.com",
+      "topProducts": [
+        "MaxMD Direct mdEmail®"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 373,
+      "status": "pending",
+      "vendor": "Mirketa Inc",
+      "developerId": 2166,
+      "slug": "mirketa-inc",
+      "website": "https://www.mirketa.com",
+      "topProducts": [
+        "Elixir"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 374,
+      "status": "pending",
+      "vendor": "E*HealthLine.com, Inc.",
+      "developerId": 385,
+      "slug": "e-healthline-com-inc",
+      "website": "http://ehealthline.com/",
+      "topProducts": [
+        "CARE© Integrated Hospital Information Management System",
+        "Phoenix© Integrated Electronic Health Records"
+      ],
+      "listingCount": 2,
+      "screenshotsFound": null
+    },
+    {
+      "order": 375,
+      "status": "pending",
+      "vendor": "Medcare MSO",
+      "developerId": 2198,
+      "slug": "medcare-mso",
+      "website": "https://medcaremso.com",
+      "topProducts": [
+        "HealUs EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 376,
+      "status": "pending",
+      "vendor": "ATI Holdings LLC, DBA ATI Physical Therapy",
+      "developerId": 2252,
+      "slug": "ati-holdings-llc-dba-ati-physical-therapy",
+      "website": "https://www.atipt.com",
+      "topProducts": [
+        "ATI EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 377,
+      "status": "pending",
+      "vendor": "Softbir, Inc.",
+      "developerId": 2068,
+      "slug": "softbir-inc",
+      "website": "https://softbir.com",
+      "topProducts": [
+        "CloudMD365"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 378,
+      "status": "pending",
+      "vendor": "SmartTracker, Inc",
+      "developerId": 2260,
+      "slug": "smarttracker-inc",
+      "website": "https://www.smarttracker.ai",
+      "topProducts": [
+        "SmartTracker"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 379,
+      "status": "pending",
+      "vendor": "Foothold Technology, Inc.",
+      "developerId": 501,
+      "slug": "foothold-technology-inc",
+      "website": "http://footholdtechnology.com",
+      "topProducts": [
+        "AWARDS"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 380,
+      "status": "pending",
+      "vendor": "Patagonia Health",
+      "developerId": 1140,
+      "slug": "patagonia-health",
+      "website": "https://patagoniahealth.com",
+      "topProducts": [
+        "Patagonia Health EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 381,
+      "status": "pending",
+      "vendor": "Roji Health Intelligence LLC",
+      "developerId": 1952,
+      "slug": "roji-health-intelligence-llc",
+      "website": "http://www.rojihealthintel.com",
+      "topProducts": [
+        "Roji Clinical Data Registry"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 382,
+      "status": "pending",
+      "vendor": "MEDHOST",
+      "developerId": 1789,
+      "slug": "medhost",
+      "website": "https://www.medhost.com",
+      "topProducts": [
+        "MEDHOST Enterprise - Clinicals",
+        "MEDHOST Enterprise - Financials",
+        "MEDHOST Business Intelligence"
+      ],
+      "listingCount": 6,
+      "screenshotsFound": null
+    },
+    {
+      "order": 383,
+      "status": "pending",
+      "vendor": "Office Practicum",
+      "developerId": 2049,
+      "slug": "office-practicum",
+      "website": "https://www.officepracticum.com",
+      "topProducts": [
+        "Office Practicum"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 384,
+      "status": "pending",
+      "vendor": "Goodx Inc.",
+      "developerId": 2244,
+      "slug": "goodx-inc",
+      "website": "https://goodx.us/",
+      "topProducts": [
+        "Goodx"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 385,
+      "status": "pending",
+      "vendor": "DrFirst",
+      "developerId": 376,
+      "slug": "drfirst",
+      "website": "http://www.drfirst.com",
+      "topProducts": [
+        "Rcopia"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 386,
+      "status": "pending",
+      "vendor": "WorldVistA",
+      "developerId": 1552,
+      "slug": "worldvista",
+      "website": "https://worldvista.org",
+      "topProducts": [
+        "PopHealth"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 387,
+      "status": "pending",
+      "vendor": "EHNOTE,INC",
+      "developerId": 2172,
+      "slug": "ehnote-inc",
+      "website": "https://www.ehnote.com",
+      "topProducts": [
+        "EHNOTE"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 388,
+      "status": "pending",
+      "vendor": "Keiser Computers, Inc.",
+      "developerId": 765,
+      "slug": "keiser-computers-inc",
+      "website": "https://www.drsdoc.com",
+      "topProducts": [
+        "Drs Enterprise"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 389,
+      "status": "pending",
+      "vendor": "Enable Healthcare Inc.",
+      "developerId": 1720,
+      "slug": "enable-healthcare-inc",
+      "website": "https://www.ehiehr.com/",
+      "topProducts": [
+        "MDnet"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 390,
+      "status": "pending",
+      "vendor": "iSALUS Healthcare",
+      "developerId": 1630,
+      "slug": "isalus-healthcare",
+      "website": "https://isalushealthcare.com",
+      "topProducts": [
+        "OfficeEMR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 391,
+      "status": "pending",
+      "vendor": "GeniusDoc, Inc.",
+      "developerId": 530,
+      "slug": "geniusdoc-inc",
+      "website": "https://geniusdoc.com/",
+      "topProducts": [
+        "GeniusDoc"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 392,
+      "status": "pending",
+      "vendor": "Prente",
+      "developerId": 2257,
+      "slug": "prente",
+      "website": "https://www.prentehealth.com/",
+      "topProducts": [
+        "Prente"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 393,
+      "status": "pending",
+      "vendor": "InterSystems Corporation",
+      "developerId": 1989,
+      "slug": "intersystems-corporation",
+      "website": "https://www.intersystems.com",
+      "topProducts": [
+        "HealthShare Personal Community"
+      ],
+      "listingCount": 2,
+      "screenshotsFound": null
+    },
+    {
+      "order": 394,
+      "status": "pending",
+      "vendor": "Sightview EHR Holdings, LLC",
+      "developerId": 2207,
+      "slug": "sightview-ehr-holdings-llc",
+      "website": "https://sightview.com/",
+      "topProducts": [
+        "myCare Portal",
+        "Regulatory Compliance Platform"
+      ],
+      "listingCount": 2,
+      "screenshotsFound": null
+    },
+    {
+      "order": 395,
+      "status": "pending",
+      "vendor": "Beyond Essential Systems",
+      "developerId": 2086,
+      "slug": "beyond-essential-systems",
+      "website": "https://www.bes.au/",
+      "topProducts": [
+        "Tamanu EMR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 396,
+      "status": "pending",
+      "vendor": "OMNIWOUND LLC",
+      "developerId": 2126,
+      "slug": "omniwound-llc",
+      "website": "http://www.omniwound.com",
+      "topProducts": [
+        "OmniEMR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 397,
+      "status": "pending",
+      "vendor": "Imprivata Inc. (FKA Maize Analytics, Inc.)",
+      "developerId": 1968,
+      "slug": "imprivata-inc-fka-maize-analytics-inc",
+      "website": "https://www.imprivata.com/",
+      "topProducts": [
+        "Explanation Based Auditing System"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 398,
+      "status": "pending",
+      "vendor": "Claimpower, Inc.",
+      "developerId": 239,
+      "slug": "claimpower-inc",
+      "website": "https://www.claimpower.com",
+      "topProducts": [
+        "Claimpower Mobile EMR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 399,
+      "status": "pending",
+      "vendor": "Zoobook Systems LLC",
+      "developerId": 2009,
+      "slug": "zoobook-systems-llc",
+      "website": "https://www.zoobooksystems.com",
+      "topProducts": [
+        "Zoobook EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 400,
+      "status": "pending",
+      "vendor": "Dr. Know, LLC",
+      "developerId": 2213,
+      "slug": "dr-know-llc",
+      "website": "https://www.doc-know.com",
+      "topProducts": [
+        "Dr. Know"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 401,
+      "status": "pending",
+      "vendor": "ReLi Med Solutions, LLC",
+      "developerId": 1991,
+      "slug": "reli-med-solutions-llc",
+      "website": "https://relimedsolutions.com/",
+      "topProducts": [
+        "ReLiMed EMR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 402,
+      "status": "pending",
+      "vendor": "MicroFour, Inc.",
+      "developerId": 986,
+      "slug": "microfour-inc",
+      "website": "http://www.practicestudio.net",
+      "topProducts": [
+        "PracticeStudio"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 403,
+      "status": "pending",
+      "vendor": "The Montrose Center",
+      "developerId": 1006,
+      "slug": "the-montrose-center",
+      "website": "http://montrosecenter.org",
+      "topProducts": [
+        "CONTINUUM"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 404,
+      "status": "pending",
+      "vendor": "PRN Software (DoseSpot)",
+      "developerId": 2057,
+      "slug": "prn-software-dosespot",
+      "website": "https://www.dosespot.com",
+      "topProducts": [
+        "DoseSpot"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 405,
+      "status": "pending",
+      "vendor": "McKesson Specialty Health Technology Products LLC (Ontada)",
+      "developerId": 1921,
+      "slug": "mckesson-specialty-health-technology-products-llc-ontada",
+      "website": "https://www.ontada.com/developer/",
+      "topProducts": [
+        "iKnowMed Generation 2"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 406,
+      "status": "pending",
+      "vendor": "Universal EHR, Inc.",
+      "developerId": 1479,
+      "slug": "universal-ehr-inc",
+      "website": "https://www.universalehr.com",
+      "topProducts": [
+        "Universal EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 407,
+      "status": "pending",
+      "vendor": "Exym",
+      "developerId": 2110,
+      "slug": "exym",
+      "website": "https://exym.com/",
+      "topProducts": [
+        "Exym"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 408,
+      "status": "pending",
+      "vendor": "Accelerated Care Plus",
+      "developerId": 2069,
+      "slug": "accelerated-care-plus",
+      "website": "https://acplus.com/technology/acplus/",
+      "topProducts": [
+        "ACPlus™"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 409,
+      "status": "pending",
+      "vendor": "Becton Dickinson and Company",
+      "developerId": 2025,
+      "slug": "becton-dickinson-and-company",
+      "website": "https://www.bd.com/en-us/products-and-solutions/products/product-brands/healthsight#clinicaladvisorinfectionadvisor",
+      "topProducts": [
+        "HealthSight Advisors"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 410,
+      "status": "pending",
+      "vendor": "Canvas Medical, Inc.",
+      "developerId": 2113,
+      "slug": "canvas-medical-inc",
+      "website": "https://canvasmedical.com",
+      "topProducts": [
+        "Canvas Medical"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 411,
+      "status": "pending",
+      "vendor": "SCC Soft Computer",
+      "developerId": 1288,
+      "slug": "scc-soft-computer",
+      "website": "https://www.softcomputer.com/",
+      "topProducts": [
+        "SoftLab"
+      ],
+      "listingCount": 6,
+      "screenshotsFound": null
+    },
+    {
+      "order": 412,
+      "status": "pending",
+      "vendor": "HCRCM LLC",
+      "developerId": 2259,
+      "slug": "hcrcm-llc",
+      "website": "https://imperiumsoft.biz/",
+      "topProducts": [
+        "Falcon"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 413,
+      "status": "pending",
+      "vendor": "Secure Exchange Solutions",
+      "developerId": 1316,
+      "slug": "secure-exchange-solutions",
+      "website": "http://www.secureexsolutions.com",
+      "topProducts": [
+        "SES Direct"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 414,
+      "status": "pending",
+      "vendor": "athenahealth, Inc.",
+      "developerId": 1881,
+      "slug": "athenahealth-inc",
+      "website": "https://www.athenahealth.com",
+      "topProducts": [
+        "athenaClinicals",
+        "athenaClinicals for Hospitals and Health Systems",
+        "athenaFlow"
+      ],
+      "listingCount": 6,
+      "screenshotsFound": null
+    },
+    {
+      "order": 415,
+      "status": "pending",
+      "vendor": "Sargas Pharmaceutical Adherence and Compliance International",
+      "developerId": 1307,
+      "slug": "sargas-pharmaceutical-adherence-and-compliance-international",
+      "website": "http://www.spacinternational.com",
+      "topProducts": [
+        "Sargas International's Chronic Care Management Cloud dba hru2day"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 416,
+      "status": "pending",
+      "vendor": "Wound Technology Network, Inc. d/b/a Woundtech",
+      "developerId": 2240,
+      "slug": "wound-technology-network-inc-d-b-a-woundtech",
+      "website": "https://woundtech.net",
+      "topProducts": [
+        "Woundtech EMR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 417,
+      "status": "pending",
+      "vendor": "MedPharm Services LLC",
+      "developerId": 1805,
+      "slug": "medpharm-services-llc",
+      "website": "https://www.meditab.com",
+      "topProducts": [
+        "Intelligent Medical Software (IMS)"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 418,
+      "status": "pending",
+      "vendor": "Medicus Clinical, LLC",
+      "developerId": 2058,
+      "slug": "medicus-clinical-llc",
+      "website": "https://portal.assertus.com/en/home/",
+      "topProducts": [
+        "MedicusEHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 419,
+      "status": "pending",
+      "vendor": "Asolva, Inc.",
+      "developerId": 2164,
+      "slug": "asolva-inc",
+      "website": "https://harrisonpointsolutions.com/solutions/medici/",
+      "topProducts": [
+        "Medici"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 420,
+      "status": "pending",
+      "vendor": "eHana",
+      "developerId": 1595,
+      "slug": "ehana",
+      "website": "https://www.ehana.com/",
+      "topProducts": [
+        "eHana EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 421,
+      "status": "pending",
+      "vendor": "eClinicalWorks, LLC",
+      "developerId": 1884,
+      "slug": "eclinicalworks-llc",
+      "website": "http://www.eclinicalworks.com",
+      "topProducts": [
+        "eClinicalWorks"
+      ],
+      "listingCount": 2,
+      "screenshotsFound": null
+    },
+    {
+      "order": 422,
+      "status": "pending",
+      "vendor": "Core Solutions Inc",
+      "developerId": 1704,
+      "slug": "core-solutions-inc",
+      "website": "https://www.coresolutionsinc.com/about/",
+      "topProducts": [
+        "Cx360"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 423,
+      "status": "pending",
+      "vendor": "InPracSys",
+      "developerId": 1763,
+      "slug": "inpracsys",
+      "website": "https://www.inpracsys.com",
+      "topProducts": [
+        "InPracSys EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 424,
+      "status": "pending",
+      "vendor": "Procentive",
+      "developerId": 1215,
+      "slug": "procentive",
+      "website": "https://ensorahealth.com/product/procentive/",
+      "topProducts": [
+        "Procentive"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 425,
+      "status": "pending",
+      "vendor": "NextServices, Inc.",
+      "developerId": 1912,
+      "slug": "nextservices-inc",
+      "website": "https://nextservices.com",
+      "topProducts": [
+        "enki EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 426,
+      "status": "pending",
+      "vendor": "Empower Systems",
+      "developerId": 1919,
+      "slug": "empower-systems",
+      "website": "http://www.empower.md",
+      "topProducts": [
+        "Empower Inpatient+Ambulatory"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 427,
+      "status": "pending",
+      "vendor": "Wellpath",
+      "developerId": 294,
+      "slug": "wellpath",
+      "website": "https://www.wellpathcare.com",
+      "topProducts": [
+        "ERMA"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 428,
+      "status": "pending",
+      "vendor": "WEBeDoctor, Inc.",
+      "developerId": 1527,
+      "slug": "webedoctor-inc",
+      "website": "https://new.webedoctor.com/",
+      "topProducts": [
+        "WEBeDoctor Physician Office"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 429,
+      "status": "pending",
+      "vendor": "DigiDMS, Inc.",
+      "developerId": 1710,
+      "slug": "digidms-inc",
+      "website": "https://digidms.com/",
+      "topProducts": [
+        "DigiDMS"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 430,
+      "status": "pending",
+      "vendor": "MDOps Corporation",
+      "developerId": 837,
+      "slug": "mdops-corporation",
+      "website": "https://www.mdops.com/",
+      "topProducts": [
+        "MDLog"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 431,
+      "status": "pending",
+      "vendor": "Lumera Health",
+      "developerId": 2066,
+      "slug": "lumera-health",
+      "website": "https://lumerahealth.ai/",
+      "topProducts": [
+        "LUUM"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 432,
+      "status": "pending",
+      "vendor": "VisionTree Software, Inc.",
+      "developerId": 1514,
+      "slug": "visiontree-software-inc",
+      "website": "https://www.visiontree.com/",
+      "topProducts": [
+        "VisionTree Optimal Care™ (VTOC)"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 433,
+      "status": "pending",
+      "vendor": "Agastha, Inc.",
+      "developerId": 57,
+      "slug": "agastha-inc",
+      "website": "http://www.agastha.com",
+      "topProducts": [
+        "Agastha Enterprise Healthcare Software"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 434,
+      "status": "pending",
+      "vendor": "Holt Systems, Inc.",
+      "developerId": 632,
+      "slug": "holt-systems-inc",
+      "website": "https://www.holtsystems.com",
+      "topProducts": [
+        "eMedRec"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 435,
+      "status": "pending",
+      "vendor": "Epic Systems Corporation",
+      "developerId": 448,
+      "slug": "epic-systems-corporation",
+      "website": "https://www.epic.com",
+      "topProducts": [
+        "Beacon Cancer Registry Reporting",
+        "Beaker Reportable Labs Reporting",
+        "EpicCare Ambulatory Base"
+      ],
+      "listingCount": 30,
+      "screenshotsFound": null
+    },
+    {
+      "order": 436,
+      "status": "pending",
+      "vendor": "PointClickCare Technologies Inc.",
+      "developerId": 1182,
+      "slug": "pointclickcare-technologies-inc",
+      "website": "https://pointclickcare.com/",
+      "topProducts": [
+        "EHR for Practice Groups",
+        "PointClickCare"
+      ],
+      "listingCount": 2,
+      "screenshotsFound": null
+    },
+    {
+      "order": 437,
+      "status": "pending",
+      "vendor": "Innovaccer Inc",
+      "developerId": 2199,
+      "slug": "innovaccer-inc",
+      "website": "https://innovaccer.com/",
+      "topProducts": [
+        "InGraph"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 438,
+      "status": "pending",
+      "vendor": "Qualifacts Systems, LLC",
+      "developerId": 2125,
+      "slug": "qualifacts-systems-llc",
+      "website": "https://www.qualifacts.com",
+      "topProducts": [
+        "CareLogic",
+        "Credible Behavioral Health",
+        "Insync EMR/PM"
+      ],
+      "listingCount": 3,
+      "screenshotsFound": null
+    },
+    {
+      "order": 439,
+      "status": "pending",
+      "vendor": "CliniComp, Intl.",
+      "developerId": 1696,
+      "slug": "clinicomp-intl",
+      "website": "https://clinicomp.com/",
+      "topProducts": [
+        "CliniComp|EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 440,
+      "status": "pending",
+      "vendor": "Addison Health Systems, Inc.",
+      "developerId": 44,
+      "slug": "addison-health-systems-inc",
+      "website": "https://www.writepad.com/",
+      "topProducts": [
+        "WritePad EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 441,
+      "status": "pending",
+      "vendor": "Kipu Health",
+      "developerId": 2255,
+      "slug": "kipu-health",
+      "website": "https://kipuhealth.com",
+      "topProducts": [
+        "Kipu"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 442,
+      "status": "pending",
+      "vendor": "Physician's Computer Company",
+      "developerId": 1924,
+      "slug": "physician-s-computer-company",
+      "website": "https://www.pcc.com/",
+      "topProducts": [
+        "PCC EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 443,
+      "status": "pending",
+      "vendor": "CompuGroup Medical US",
+      "developerId": 1701,
+      "slug": "compugroup-medical-us",
+      "website": "https://www.cgm.com/us",
+      "topProducts": [
+        "CGM ENTERPRISE EHR™",
+        "CGM APRIMA",
+        "CGM CLINICAL™"
+      ],
+      "listingCount": 6,
+      "screenshotsFound": null
+    },
+    {
+      "order": 444,
+      "status": "pending",
+      "vendor": "Anagen Systems",
+      "developerId": 2026,
+      "slug": "anagen-systems",
+      "website": "http://www.anagensystems.com",
+      "topProducts": [
+        "Complete. MD Patient Web Portal"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 445,
+      "status": "pending",
+      "vendor": "EBIO-METRONICS",
+      "developerId": 389,
+      "slug": "ebio-metronics",
+      "website": "http://www.ebiometronics.com/",
+      "topProducts": [
+        "EBIO-METRONICS"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 446,
+      "status": "pending",
+      "vendor": "AdvancedMD",
+      "developerId": 1667,
+      "slug": "advancedmd",
+      "website": "https://www.advancedmd.com/",
+      "topProducts": [
+        "AdvancedMD",
+        "AdvancedMD Mobile"
+      ],
+      "listingCount": 2,
+      "screenshotsFound": null
+    },
+    {
+      "order": 447,
+      "status": "pending",
+      "vendor": "Medflow EHR, LLC",
+      "developerId": 2205,
+      "slug": "medflow-ehr-llc",
+      "website": "https://sightview.com/",
+      "topProducts": [
+        "Medflow EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 448,
+      "status": "pending",
+      "vendor": "AllegianceMD Software, Inc.",
+      "developerId": 1673,
+      "slug": "allegiancemd-software-inc",
+      "website": "https://allegiancemd.com",
+      "topProducts": [
+        "Veracity"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 449,
+      "status": "pending",
+      "vendor": "Renvio",
+      "developerId": 2090,
+      "slug": "renvio",
+      "website": "https://www.gorenvio.com/",
+      "topProducts": [
+        "Clarity"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 450,
+      "status": "pending",
+      "vendor": "Infor-Med Medical Information Systems Inc.",
+      "developerId": 1767,
+      "slug": "infor-med-medical-information-systems-inc",
+      "website": "http://www.praxisemr.com/",
+      "topProducts": [
+        "Praxis EMR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 451,
+      "status": "pending",
+      "vendor": "4th Dimension EMR, Inc",
+      "developerId": 2264,
+      "slug": "4th-dimension-emr-inc",
+      "website": "https://www.4d-emr.com",
+      "topProducts": [
+        "4D EMR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 452,
+      "status": "pending",
+      "vendor": "MedInformatix",
+      "developerId": 1796,
+      "slug": "medinformatix",
+      "website": "https://www.medinformatix.com",
+      "topProducts": [
+        "MedInformatix EHR"
+      ],
+      "listingCount": 2,
+      "screenshotsFound": null
+    },
+    {
+      "order": 453,
+      "status": "pending",
+      "vendor": "Nextech",
+      "developerId": 1052,
+      "slug": "nextech",
+      "website": "https://www.nextech.com",
+      "topProducts": [
+        "Nextech EHR (ICP)",
+        "Nextech Select and NexCloud",
+        "Nextech Select and NexCloud with NewCropRx"
+      ],
+      "listingCount": 4,
+      "screenshotsFound": null
+    },
+    {
+      "order": 454,
+      "status": "pending",
+      "vendor": "iTRUST",
+      "developerId": 2167,
+      "slug": "itrust",
+      "website": "https://www.itrust.io/",
+      "topProducts": [
+        "iTRUST"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 455,
+      "status": "pending",
+      "vendor": "CREOKS GoHealth Solutions",
+      "developerId": 1654,
+      "slug": "creoks-gohealth-solutions",
+      "website": "http://gohealthsolutions.org",
+      "topProducts": [
+        "GoHealth Solutions"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 456,
+      "status": "pending",
+      "vendor": "Epividian, Inc.",
+      "developerId": 2102,
+      "slug": "epividian-inc",
+      "website": "https://www.epividian.com",
+      "topProducts": [
+        "CHORUS"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 457,
+      "status": "pending",
+      "vendor": "Payoda Technology Inc.",
+      "developerId": 2055,
+      "slug": "payoda-technology-inc",
+      "website": "https://www.healthviewx.com",
+      "topProducts": [
+        "HealthViewX"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 458,
+      "status": "pending",
+      "vendor": "Sphere Technology",
+      "developerId": 2265,
+      "slug": "sphere-technology",
+      "website": "https://www.spheretechnology.com",
+      "topProducts": [
+        "Sphere EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 459,
+      "status": "pending",
+      "vendor": "DynaMed, LLC",
+      "developerId": 390,
+      "slug": "dynamed-llc",
+      "website": "https://www.ebsco.com",
+      "topProducts": [
+        "Patient Education Reference Center"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 460,
+      "status": "pending",
+      "vendor": "inteliMD PLLC",
+      "developerId": 2212,
+      "slug": "intelimd-pllc",
+      "website": "https://www.intelimd.com/",
+      "topProducts": [
+        "inteliMD"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 461,
+      "status": "pending",
+      "vendor": "YOURDRS Services LLC",
+      "developerId": 2080,
+      "slug": "yourdrs-services-llc",
+      "website": "https://www.yourdrs.com",
+      "topProducts": [
+        "YOURDRS"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 462,
+      "status": "pending",
+      "vendor": "Metasolutions Inc",
+      "developerId": 980,
+      "slug": "metasolutions-inc",
+      "website": "https://www.zoomMD.com",
+      "topProducts": [
+        "ZoomMD"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 463,
+      "status": "pending",
+      "vendor": "Elation Health, Inc.",
+      "developerId": 1718,
+      "slug": "elation-health-inc",
+      "website": "http://www.elationhealth.com",
+      "topProducts": [
+        "Elation EMR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 464,
+      "status": "pending",
+      "vendor": "MassLight",
+      "developerId": 2197,
+      "slug": "masslight",
+      "website": "https://www.masslight.com/",
+      "topProducts": [
+        "Oystehr"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 465,
+      "status": "pending",
+      "vendor": "Complete Healthcare Solutions, Inc.",
+      "developerId": 1649,
+      "slug": "complete-healthcare-solutions-inc",
+      "website": "https://unifimd.com",
+      "topProducts": [
+        "UnifiMD"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 466,
+      "status": "pending",
+      "vendor": "NextGen Healthcare",
+      "developerId": 1055,
+      "slug": "nextgen-healthcare",
+      "website": "https://nextgen.com",
+      "topProducts": [
+        "Mirth Connect",
+        "NextGen Direct Messaging",
+        "NextGen Enterprise EHR"
+      ],
+      "listingCount": 6,
+      "screenshotsFound": null
+    },
+    {
+      "order": 467,
+      "status": "pending",
+      "vendor": "Smoky Mountain Information Systems, LLC",
+      "developerId": 1343,
+      "slug": "smoky-mountain-information-systems-llc",
+      "website": "https://pimsyehr.com/",
+      "topProducts": [
+        "PIMSY Platinum"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 468,
+      "status": "pending",
+      "vendor": "Infinx Solutions, LLC",
+      "developerId": 1622,
+      "slug": "infinx-solutions-llc",
+      "website": "https://www.infinx.com/",
+      "topProducts": [
+        "Infinx EHR"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    },
+    {
+      "order": 469,
+      "status": "pending",
+      "vendor": "MedOne Healthcare Partners",
+      "developerId": 2183,
+      "slug": "medone-healthcare-partners",
+      "website": "https://www.medonehp.com/",
+      "topProducts": [
+        "OneConnect"
+      ],
+      "listingCount": 1,
+      "screenshotsFound": null
+    }
+  ]
+}

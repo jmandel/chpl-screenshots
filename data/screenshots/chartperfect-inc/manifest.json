@@ -1,0 +1,45 @@
+{
+  "vendor": "ChartPerfect, Inc.",
+  "product": "ChartPerfect EHR",
+  "slug": "chartperfect-inc",
+  "website": "https://www.chartperfect.com/",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "capturedDate": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-patient-demographics.png",
+      "source": "https://emrfinder.com/wp-content/uploads/2025/10/ChartPerfect-EMR-Software-Patient-Demographics-1024x536.webp",
+      "view": "Patient demographics summary screen; sidebar + toolbar + patient banner (Kate Ana Smith, MRN 123-456789), contacts, insurance, PCP."
+    },
+    {
+      "file": "02-medication-erx.png",
+      "source": "https://www.chartperfect.com/wp-content/uploads/2021/04/eRX-Prior-Auth.png",
+      "view": "e-Prescribing / medication management; sidebar + tabs + patient banner with new medication dialog."
+    },
+    {
+      "file": "03-health-records-note.png",
+      "source": "https://www.chartperfect.com/wp-content/uploads/2021/05/Main_-EHR_Charting.png",
+      "view": "Health records charting / clinical note view; folder sidebar + toolbar + patient demographics with chest x-ray."
+    },
+    {
+      "file": "04-clinical-note.png",
+      "source": "https://a.fsdn.com/con/app/proj/chartperfect.s/screenshots/1.PNG/1000/auto/1",
+      "view": "Clinical note (cardiology) view; sidebar + toolbar + patient banner (John Doe, MRN 123456) with echo images."
+    },
+    {
+      "file": "05-classic-ui-patient-chart.jpg",
+      "source": "https://www.findemr.com/image/cache/catalog/1product%20pic/ChartPerfect%20EHR/chartperfect%20-%20ehr%20notes-min-600x375.jpg",
+      "view": "Classic/older ChartPerfect UI; left chart navigation + ribbon toolbar + patient banner (Kim M. Blackwell, Chart# 70726, DOB 01/01/1939)."
+    },
+    {
+      "file": "06-derm-note-tablet.png",
+      "source": "https://www.chartperfect.com/wp-content/uploads/elementor/thumbs/Chart_Perfect-v10_EHR_Derm_Note_Tablet_Style-p4nmt49y8uvxqvagcs6p4k9te23v5ttukoxwsnthki.png",
+      "view": "Dermatology clinical note (tablet-framed); folder sidebar + toolbar + patient demographics (33 yr Female, MRN 123456)."
+    },
+    {
+      "file": "07-nerve-study-note.png",
+      "source": "https://www.chartperfect.com/wp-content/uploads/2021/04/EHR_Neuro_Diagnostics.png",
+      "view": "Neurology nerve conduction study note; folder sidebar + toolbar + patient demographics (MRN 123456, 33 year old Female)."
+    }
+  ]
+}

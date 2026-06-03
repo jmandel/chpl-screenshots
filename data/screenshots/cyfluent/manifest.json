@@ -1,0 +1,20 @@
+{
+  "slug": "cyfluent",
+  "vendor": "Cyfluent",
+  "product": "Cyfluent",
+  "website": "https://www.cyfluent.com/",
+  "source": "brave-image-search (cheap pass)",
+  "capturedBy": "cheap-pass-brave",
+  "images": [
+    {
+      "file": "01-cychart-patient-summary.png",
+      "sourceUrl": "https://www.findemr.com/image/cache/catalog/1product%20pic/Cyfluent/Cyfluent%20(1)-600x375.jpg",
+      "description": "CyCHART EHR Patient Summary view: patient banner (Lisa H Demotest, Female, 40 Years, H:165.1cm, W:49.9kg, DOB:3/3/1971), Summary/CPOE/Documents tabs, sidebar sections, main work area with Patient Alerts, Personal Habits, Quality Indicators, Problems List, Prescriptions, Encounters, Allergies."
+    },
+    {
+      "file": "02-cychart-personal-health-record.png",
+      "sourceUrl": "https://www.findemr.com/image/cache/catalog/1product%20pic/Cyfluent/Cyfluent%20(2)-600x375.jpg",
+      "description": "CyCHART Personal Health Record view: menu bar (Profile/Edit/File/Administration/Logout), patient identity (Lisa Patient), Patient Information panel, and sections for Allergies, Medications, Physicians, Insurance, Chronic Conditions, Surgeries, Immunizations."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "vendor": "Net Health",
+  "product": "Net Health® WoundExpert",
+  "slug": "net-health",
+  "website": "https://www.nethealth.com/",
+  "screenshots": [
+    {
+      "file": "01-woundcare-patient-wound-detail.png",
+      "source": "https://a.fsdn.com/con/app/proj/woundexpert-powered-by-xfit.s/screenshots/wound%20analysis%201.PNG/1000/auto/1",
+      "description": "Net Health Wound Care chart: left sidebar/menu + header + main work area, patient banner 'Smith, Jodi (DOB: 07/01/1945)' with wound information and characteristics table."
+    },
+    {
+      "file": "02-woundexpert-wound-analysis.png",
+      "source": "https://a.fsdn.com/con/app/proj/woundexpert-powered-by-xfit.s/screenshots/image%20(12).png/1000/auto/1",
+      "description": "WoundExpert wound analysis view: sidebar + header with patient name, picture analysis and PUSH score evaluation in main work area."
+    }
+  ]
+}

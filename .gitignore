@@ -1,0 +1,14 @@
+node_modules/
+
+# Secrets — never commit.
+.env
+.env.*
+
+# Built static site (regenerate with: bun run build).
+dist/
+
+# Project-local scratch dir for agents (video/frame work). Never commit.
+tmp/
+
+# Large CHPL dumps (re-fetch with: bun run download). Keep the small samples.
+data/chpl-*-listings.json

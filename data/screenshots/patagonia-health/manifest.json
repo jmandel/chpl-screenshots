@@ -1,0 +1,21 @@
+{
+  "slug": "patagonia-health",
+  "vendor": "Patagonia Health",
+  "product": "Patagonia Health EHR",
+  "website": "https://patagoniahealth.com",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-patient-chart-dot-report.png",
+      "source": "https://www.ehrreviews.com/backend/product_images/prod_3_Patagonia%20Health%20Corporationdownload%20(3).jfif",
+      "description": "Full Patagonia Health EHR patient view: header branding, top nav tabs (Patient Details, Appointments, Manage Case, Daily Screening), Report sidebar, patient banner 'Brown, Anne Jane' / Metro Health Center, main work area showing a Directly Observed Therapy report table.",
+      "patientDemographics": "Brown, Anne Jane (demo patient)"
+    },
+    {
+      "file": "02-schedule-new-appointment.png",
+      "source": "https://www.ehrreviews.com/backend/product_images/prod_4_Patagonia%20Health%20Corporationdownload%20(4).jfif",
+      "description": "Full Patagonia Health EHR Schedule/Appointments view with left sidebar nav (Schedule, Inbox, Provider, Reports), top header (Help, Stephanie Provider, Settings, Log out), weekly calendar, and a 'New appointment' modal showing patient 'James Patient' with ID/DOB fields and photo.",
+      "patientDemographics": "James Patient (demo patient)"
+    }
+  ]
+}

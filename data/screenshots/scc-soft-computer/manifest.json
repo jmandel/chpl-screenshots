@@ -1,0 +1,34 @@
+{
+  "slug": "scc-soft-computer",
+  "vendor": "SCC Soft Computer",
+  "product": "SoftLab",
+  "website": "https://www.softcomputer.com/",
+  "source": "brave-image-search-cheap-pass",
+  "captured": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-softlab-lab-results-entry.jpg",
+      "source_url": "https://www.softcomputer.com/wp-content/uploads/2024/08/SoftLab-screenshot-01.jpg",
+      "description": "SoftLab Lab Results Entry view: left sidebar, top header/menu, results grid; patient banner CARTER, JOHN, DOB 02/01/1985, Age 35Y, Gender MALE, MRN 0000000087.",
+      "patient": "CARTER, JOHN (demo)"
+    },
+    {
+      "file": "02-softlab-results-entry-images.jpg",
+      "source_url": "https://www.softcomputer.com/wp-content/uploads/2024/08/SoftLab-screenshot-03.jpg",
+      "description": "SoftLab Lab Results Entry with Images tab (cell morphology); full app chrome and patient banner CARTER, JOHN, DOB 02/01/1985, MRN 0000000087.",
+      "patient": "CARTER, JOHN (demo)"
+    },
+    {
+      "file": "03-softbank-patient-orders-display.png",
+      "source_url": "https://www.softcomputer.com/wp-content/uploads/2024/08/Patient-Orders-Display-2.png",
+      "description": "SCC SoftBank PATIENT Orders - Display: sidebar icons, top menu, patient banner BANK, TWO, DOB 03/03/1940, Sex F, MR#: TWO, Admitted 04/07/2020, Location Ward1.",
+      "patient": "BANK, TWO (demo)"
+    },
+    {
+      "file": "04-softbank-inventory-product-order.png",
+      "source_url": "https://www.softcomputer.com/wp-content/uploads/2024/08/Select-2.png",
+      "description": "SCC SoftBank INVENTORY Product Order - Select: full app chrome with patient banner BANK, TWO, MR#: TWO, DOB 03/03/1940, Location Ward1.",
+      "patient": "BANK, TWO (demo)"
+    }
+  ]
+}

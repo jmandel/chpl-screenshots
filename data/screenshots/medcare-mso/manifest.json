@@ -1,0 +1,15 @@
+{
+  "vendor": "Medcare MSO",
+  "product": "HealUs EHR",
+  "website": "https://medcaremso.com",
+  "slug": "medcare-mso",
+  "source": "brave-images-cheap-pass",
+  "notes": "HealUs EHR has no distinct screenshots in Brave image search; Medcare MSO's clinical/PM product surfaces as 'Maximus'. Only one candidate showed a full app view (sidebar + work area) with patient demographics (Patient Summary with name/DOB/ID). It is a low-resolution angled marketing mockup but is the genuine product UI.",
+  "images": [
+    {
+      "file": "01-maximus-patient-summary.png",
+      "source_url": "https://medcaremso.com/wp-content/uploads/2025/09/maximus-practices-banner.webp",
+      "description": "Maximus (Medcare MSO) Patient Summary screen: left sidebar (Summary, Audit Logs, Patient Vitals, Patient Notes, Financials, etc.), patient demographics panel (name, DOB, ID, address), Responsible Party, Diagnosis History, Care Team. Angled marketing mockup."
+    }
+  ]
+}

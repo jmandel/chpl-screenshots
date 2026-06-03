@@ -1,0 +1,24 @@
+{
+  "slug": "drchrono-inc",
+  "vendor": "drchrono Inc.",
+  "product": "drchrono EHR",
+  "website": "https://www.drchrono.com",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-clinical-note-soap-patient-banner.png",
+      "source": "https://www.ehrinpractice.com/pictures/W1siZiIsIjIwMTcvMDYvMjkvODkyaWlqM25zeV9kcmNocm9ub19FSFJfU29mdHdhcmVfU2NyZWVuc2hvdF80LmpwZyJdLFsicCIsInRodW1iIiwiODAweDUwMFx1MDAzZSJdLFsicCIsImVuY29kZSIsImpwZyIsIi1xdWFsaXR5IDg1Il1d/drchrono%20EHR%20Software%20Screenshot%204.jpg",
+      "description": "Clinical Note (H&P/SOAP) view: full app with left section nav, top menu, and patient banner showing Daniel Kivatinos (Male, 36, 03/20/1980, KIDA000005)."
+    },
+    {
+      "file": "02-billing-detail-patient-banner.png",
+      "source": "https://www.selecthub.com/wp-content/uploads/2024/10/DrChrono_Billing-Details.jpg",
+      "description": "Billing detail view: full app with top nav and patient/visit banner showing Mark Johnson - 10/03/2024, Primary Office [11] - Exam 1."
+    },
+    {
+      "file": "03-patient-report-demographics.png",
+      "source": "https://i.pcmag.com/imagery/reviews/05ma9S9AojTwc3ENvhck2iE-2.fit_lim.size_3167x1493.v_1569469936.jpg",
+      "description": "Patient Report with Reports menu open: full app view with results table row for patient Chrissy Bright (Chart ID BRCH000001, Age 46, Female)."
+    }
+  ]
+}

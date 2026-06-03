@@ -1,0 +1,16 @@
+{
+  "vendor": "Patient First",
+  "product": "PAS",
+  "slug": "patient-first",
+  "website": "https://www.PatientFirst.com",
+  "capturedBy": "cheap-pass-brave-images",
+  "capturedDate": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-pas-eligibility-patient-banner.png",
+      "sourceUrl": "https://emrsystems.net/wp-content/uploads/2025/11/PASHealth-EMR-Software-Patient-Eligibility-1024x685.webp",
+      "description": "PAS Health (Patient Access Solutions / ORBIT by IGI Infotech Global) EHR 'Eligibility > Inquiry' screen. Full application view: header with PAS Health.com logo, top toolbar (Add Patient, Patient Search, My Patient List, Message Center), and green nav tabs (Profile, Health Tracker, Dental & Vision, Medical Care, Medications, Data Exchange, E-Prescription, Eligibility, Claims). Patient banner shows patient name Michael Aghastien; demographics in form include Patient Last Name Aghastien, First Name Michael, DOB 01/20/1979, SSN 123456789, Gender Male. Demo/test patient.",
+      "resolution": "1024x685"
+    }
+  ]
+}

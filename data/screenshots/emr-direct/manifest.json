@@ -1,0 +1,16 @@
+{
+  "vendor": "EMR Direct",
+  "product": "Interoperability Engine",
+  "slug": "emr-direct",
+  "website": "http://www.emrdirect.com",
+  "source": "Brave image search (cheap pass)",
+  "capturedBy": "cheap-pass-brave",
+  "screenshots": [
+    {
+      "file": "01-openemr-phimail-patient-reports.png",
+      "sourceUrl": "https://www.open-emr.org/wiki/images/3/35/Emr-direct-phimail.png",
+      "description": "OpenEMR full application view with EMR Direct phiMail integration. Patient banner shows Patient: Phil Belford, DOB 1972-02-09, Age 46. Tab navigation (Calendar, Message Center, Global Settings, Patient Finder, Patient Reports, Past Encounters) and main work area showing Continuity of Care Document (CCD) generation/Transmit via Direct.",
+      "patient": "Phil Belford (demo)"
+    }
+  ]
+}

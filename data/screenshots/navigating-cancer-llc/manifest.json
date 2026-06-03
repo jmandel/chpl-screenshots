@@ -1,0 +1,15 @@
+{
+  "vendor": "Navigating Cancer, LLC",
+  "product": "Navigating Care",
+  "website": "https://www.navigatingcare.com",
+  "slug": "navigating-cancer-llc",
+  "source": "brave-images-cheap-pass",
+  "captured": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-provider-patient-health-tracker.png",
+      "sourceUrl": "https://www.navigatingcare.com/wp-content/uploads/providers-hero-1.png",
+      "description": "Navigating Care provider/clinical view: top nav (Home, Workboards, search, add), patient demographics banner (Pamela Jones, ID 87654, DOB 4/14/1955 age 67, PCM), tab row (Care Profile, Patient Record, Checklist, Care Plan, Forms, Health Tracker, Navigation), and main work area showing Health Tracker check-in activity log."
+    }
+  ]
+}

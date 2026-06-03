@@ -1,0 +1,16 @@
+{
+  "vendor": "Applied Research Works, Inc.",
+  "product": "Cozeva",
+  "slug": "applied-research-works-inc",
+  "website": "https://corp.cozeva.com/",
+  "capturedBy": "cheap-pass-brave-images",
+  "capturedDate": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-cozeva-portal-patient-chart.png",
+      "sourceUrl": "https://webadmin.nextgen.com/-/media/Project/NextGen/Marketplace/Vendors/AppliedResearchWorks/carousel_gradient_1280x800_v2.png",
+      "description": "COZEVA Portal single-patient chart view. Full application: window chrome, header, patient demographics banner (Test, AnotherPortal; ID 3-CM-KP3 / D6A1DC7F5A87; Male, 37y, DOB 11/10/1984; Medicare/Blue Cross of California; PCP Burris, James; address 982 Sussex St., Superior, NY 33024; Care Ops 3 HCCs; RAF 0.322), main work area with HCC risk score / quality measures, and a Timeline sidebar panel of 2022 events. Demo/test patient.",
+      "demographics": ["name", "patientID", "sex", "age", "DOB", "address", "PCP", "insurance"]
+    }
+  ]
+}

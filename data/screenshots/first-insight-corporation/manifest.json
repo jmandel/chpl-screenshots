@@ -1,0 +1,45 @@
+{
+  "slug": "first-insight-corporation",
+  "vendor": "First Insight Corporation",
+  "product": "MaximEyes Patient Portal",
+  "website": "https://www.first-insight.com",
+  "source": "brave-image-search",
+  "captured": "2026-06-03",
+  "images": [
+    {
+      "file": "01-classic-patient-medications.png",
+      "source_url": "https://customer.first-insight.com/MaximEyesSqlEHR/HtmlPages/Images/MaximEyes_PatientMedications.jpg",
+      "view": "MaximEyes SQL EHR (classic) Patient Medications screen with Shortcuts/Patient Navigation sidebar; patient banner 'Adult A Contacts'"
+    },
+    {
+      "file": "02-classic-new-encounter.png",
+      "source_url": "https://www.emrsystems.net/wp-content/uploads/2016/08/MaximEyes-EHR-Software-2.jpg",
+      "view": "MaximEyes EHR (classic) New Encounter / Medical History Summary; patient banner 'Greg Glaucoma' DOB 10/4/1965"
+    },
+    {
+      "file": "03-patient-overview.png",
+      "source_url": "https://www.findemr.com/image/cache/catalog/1product%20pic/Maximeyes/patient-dashboard-res-600x375.jpg",
+      "view": "MaximEyes (cloud/web) Patient Overview; banner 'Jeffery (Jeff) Stevenson' with DOB and Patient ID"
+    },
+    {
+      "file": "04-encounter-details.png",
+      "source_url": "https://www.findemr.com/image/cache/catalog/1product%20pic/Maximeyes/exam-final-findings-res-600x375.jpg",
+      "view": "MaximEyes (cloud/web) Encounter Details / Final Findings; banner 'Test Record' with DOB and Patient ID"
+    },
+    {
+      "file": "05-patient-overview-arrow.png",
+      "source_url": "https://www.emrsystems.net/wp-content/uploads/2016/08/MaximEyes-EMR-Software-Patient-Overview-Dashboard.webp",
+      "view": "MaximEyes (cloud/web) Patient Overview dashboard; patient banner 'Kimberly (Kim) A Arrow'"
+    },
+    {
+      "file": "06-patient-record-hermans.png",
+      "source_url": "https://emrfinder.com/wp-content/uploads/2016/08/MaximEyes-EHR-Practice-Management-Software-Patient-History.webp",
+      "view": "MaximEyes (cloud/web) Patient Record with Orders/Quotes; patient banner 'Stacy M Hermans' with Patient ID"
+    },
+    {
+      "file": "07-order-queue.png",
+      "source_url": "https://emrfinder.com/wp-content/uploads/2016/08/MaximEyes-EHR-Practice-Management-Software-Overview.webp",
+      "view": "MaximEyes (cloud/web) optical order queue list with patient banner and full nav"
+    }
+  ]
+}

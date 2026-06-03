@@ -1,0 +1,45 @@
+{
+  "vendor": "Objective Medical Systems, LLC",
+  "product": "OMS EHR",
+  "website": "https://objectivemedicalsystems.com/",
+  "slug": "objective-medical-systems-llc",
+  "capturedVia": "Brave image search (cheap pass)",
+  "screenshots": [
+    {
+      "file": "01-progress-notes-doe-john.png",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/e59bf188-0de7-4326-a709-c9bd317ceeb9.png",
+      "description": "OMS EHR progress notes / chief complaints view; patient banner Doe John, DOB 05/21/1974, ID 052172690",
+      "patient": "Doe John"
+    },
+    {
+      "file": "02-medication-reconciliation-rabinzo-mary.png",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/40f4d5bc-dc10-4903-865b-c29221658c9c.png",
+      "description": "Clinical information reconciliation (medications) screen; patient banner Rabinzo, Mary, DOB 01/12/1960, ID 423799900",
+      "patient": "Rabinzo, Mary"
+    },
+    {
+      "file": "03-nuclear-perfusion-cherry-larry.png",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/460a4bfe-17bf-4b09-85db-79c0fa2912f2.png",
+      "description": "Cardiology Suite nuclear perfusion scoring; patient banner Cherry, Larry with DOB and MRN",
+      "patient": "Cherry, Larry"
+    },
+    {
+      "file": "04-carotid-study-burns-amy.png",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/089a380e-8214-4619-80bb-d04d0e39166e.png",
+      "description": "Cardiology Suite carotid artery study; patient banner Burns, Amy with DOB and MRN",
+      "patient": "Burns, Amy"
+    },
+    {
+      "file": "05-schedule-dashboard-mcnair.png",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/90dc6dd6-8207-4741-ba5d-d4762a3ba7c1.png",
+      "description": "Dashboard/schedule with clinical messages; schedule and message show patient demographics (e.g. Knowles, Stephen 02/13/1966 754908765)",
+      "patient": "multiple (schedule list)"
+    },
+    {
+      "file": "06-echo-left-ventricle-dickson-andrea.png",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/fe2c0ec2-0d05-4f1c-ba84-6866c8544b63.png",
+      "description": "Cardiology Suite echo / left ventricle wall motion analysis; patient banner Dickson, Andrea with DOB and MRN",
+      "patient": "Dickson, Andrea"
+    }
+  ]
+}

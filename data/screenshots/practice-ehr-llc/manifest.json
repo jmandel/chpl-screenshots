@@ -1,0 +1,39 @@
+{
+  "vendor": "Practice EHR LLC",
+  "product": "Practice EHR",
+  "website": "http://www.practiceehr.com",
+  "slug": "practice-ehr-llc",
+  "capturedVia": "Brave image search (cheap pass)",
+  "screenshots": [
+    {
+      "file": "01-patient-chart-open-visit-em.png",
+      "source": "https://images.softwaresuggest.com/latest_screenshots/1618997570_Practice%20EHR%20patient.png",
+      "view": "Open Visit / E&M coding tab",
+      "patient": "DEAN, JOHN — 30y Male, DOB 01/26/1986"
+    },
+    {
+      "file": "02-patient-chart-summary.jpg",
+      "source": "https://www.findemr.com/image/cache/catalog/1product%20pic/Practice%20EHR/Practice-EHR-patient-chart-600x375.jpg",
+      "view": "Patient chart summary",
+      "patient": "SMITH, JOHN — 49y Male, MRN visible"
+    },
+    {
+      "file": "03-tele-visit-session.jpg",
+      "source": "https://www.findemr.com/image/cache/catalog/1product%20pic/Practice%20EHR/Practice-EHR-virtual-visit-session-600x375.jpg",
+      "view": "Tele-Visit session / Start Process",
+      "patient": "CHARLES, ANGEL — DOB 01/04/1954"
+    },
+    {
+      "file": "04-medication-order.jpg",
+      "source": "https://www.emrsystems.net/wp-content/uploads/2017/07/Practice-EHR-Practice-Management-Software-eprescribing.jpg",
+      "view": "Medication / e-prescribing tab",
+      "patient": "GARCIA, ALYSSA — 27y Female, DOB 11/03/1993"
+    },
+    {
+      "file": "05-open-visit-hpi.jpg",
+      "source": "https://www.emrsystems.net/wp-content/uploads/2017/07/Practice-EHR-Practice-Management-Software-Charting.jpg",
+      "view": "Open Visit / HPI charting (Sentence View)",
+      "patient": "PALMER, ANTHONY G — 56y, DOB 12/20/1964"
+    }
+  ]
+}

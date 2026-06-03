@@ -1,0 +1,20 @@
+{
+  "slug": "ensoftek-inc",
+  "vendor": "EnSoftek, Inc",
+  "product": "DrCloudEHR",
+  "website": "https://www.drcloudehr.com",
+  "source": "brave-image-search",
+  "captured": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-patient-bedboard-banner.png",
+      "desc": "DrCloudEHR with patient banner (Arleen Clayson, MRN 15660, Age 49) plus sidebar, top nav, and Check Room Availability / bed board work area",
+      "sourceUrl": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/ac7f2cba-752d-4286-81cf-b7092b41c2b7.png"
+    },
+    {
+      "file": "02-patient-encounter-chart.png",
+      "desc": "DrCloudEHR patient encounter view with patient banner (Dulcie Clayson, ID 3741, DOB 07/11/1975, Age 48), left order menu, top nav, and encounter/Golden Thread work area",
+      "sourceUrl": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/f0baa9e7-ef17-47ae-8e3c-bceb01445f8e.png"
+    }
+  ]
+}

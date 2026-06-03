@@ -1,0 +1,28 @@
+{
+  "vendor": "CompuGroup Medical US",
+  "product": "CGM ENTERPRISE EHR™",
+  "website": "https://www.cgm.com/us",
+  "slug": "compugroup-medical-us",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "note": "No genuine working-app screenshots of the exact CGM ENTERPRISE EHR product surfaced (only marketing brochures). Kept full-application EHR views from the same vendor's CompuGroup Medical US clinical product line (CGM Clinical and CGM eMDS) that show a full app view plus patient demographics.",
+  "screenshots": [
+    {
+      "file": "01-cgm-clinical-patient-chart.png",
+      "source": "https://www.emrsystems.net/wp-content/uploads/2016/11/CGM-Clinical-EMR-Software.webp",
+      "product": "CGM Clinical EMR",
+      "desc": "Full EHR chart view, patient Arnold, Jessica; problem list, allergies, demographics, left sidebar"
+    },
+    {
+      "file": "02-cgm-emds-patient-chart.png",
+      "source": "https://www.findemr.com/image/cache/catalog/1product%20pic/CGM%20eMDS%20Software/e-MDs-chart-(1)-600x375.jpg",
+      "product": "CGM eMDS",
+      "desc": "Patient chart Brown, Andy with DOB/MRN banner; health summary, problems, allergies, medications"
+    },
+    {
+      "file": "03-cgm-emds-chart-devlin.png",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/b7186965-acc3-4406-964b-0153a03df777.png",
+      "product": "CGM eMDS",
+      "desc": "Patient chart Devlin, Diane with DOB banner; health summary tree, subjective note, sidebar"
+    }
+  ]
+}

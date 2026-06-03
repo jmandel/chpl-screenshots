@@ -1,0 +1,20 @@
+{
+  "vendor": "Zoobook Systems LLC",
+  "product": "Zoobook EHR",
+  "website": "https://www.zoobooksystems.com",
+  "slug": "zoobook-systems-llc",
+  "source": "brave-image-search-cheap-pass",
+  "captured": "2026-06-03",
+  "images": [
+    {
+      "file": "01-client-general-information-face-sheet.png",
+      "description": "Client General Information / Client Face Sheet view for demo patient 'Johnny Appleseed' with full app chrome (top nav: Clients, Employees, Appointments, Billing, etc.), Details/Screening/Medical Information/Payer-Insurance/Allergies/Client Face Sheet tabs, Clinical Decision Support Alerts, profile photo, and Basic Information section.",
+      "source_url": "https://www.ehrinpractice.com/pictures/.../Zoobook%20EHR%20clinical%20decision%20support%20alerts.jpg"
+    },
+    {
+      "file": "02-family-session-progress-note.png",
+      "description": "Family Session Progress Note view for demo client 'Ian H Malcolm' with full app chrome (left status sidebar: Active Clients, Wait List, Pending, etc.; top nav bar) showing service type, appointment date, note type, room, counselor, and established diagnoses work area.",
+      "source_url": "https://www.ehrinpractice.com/pictures/.../Zoobook%20EHR%20appointment%20notes.jpg"
+    }
+  ]
+}

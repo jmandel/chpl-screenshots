@@ -1,0 +1,18 @@
+{
+  "vendor": "Epic Systems Corporation",
+  "product": "Beacon Cancer Registry Reporting",
+  "website": "https://www.epic.com",
+  "slug": "epic-systems-corporation",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "note": "No product-specific Beacon Cancer Registry Reporting screenshots surfaced via Brave image search. Kept generic Epic Hyperspace/EpicCare EHR application views (full app: sidebar/menu + header + main work area with patient banner) as vendor-representative screenshots.",
+  "screenshots": [
+    {"file": "01-epic-summary-overview.png", "desc": "Epic Hyperspace Summary > Overview with patient banner (Zeller, Timothy Aaron, MD), work-list tasks, vitals, treatment team", "source": "https://emrsystems.net/wp-content/uploads/2016/09/Epic-EMR-Software-Patient-Summary-Demo-1024x493.webp"},
+    {"file": "02-epic-summary-index-menu.png", "desc": "Epic Hyperspace Summary Index activity menu with patient banner", "source": "https://emrsystems.net/wp-content/uploads/2016/09/Epic-EMR-Software-Demo-Screenshot-1024x491.webp"},
+    {"file": "03-epic-summary-infusing.png", "desc": "Epic Hyperspace Summary showing currently infusing meds, unresolved labs, sticky notes with patient banner", "source": "https://emrfinder.com/wp-content/uploads/2016/09/Epic-EMR-Practice-Management-Software-Patient-Overview-1024x505.webp"},
+    {"file": "04-epic-patient-list.png", "desc": "Epic Hyperspace Patient Lists - Surgical Specialty census with patient names and statuses", "source": "https://emrsystems.net/wp-content/uploads/2016/09/Epic-EMR-Software-Patient-Surgical-Specialty-Demo-1024x545.webp"},
+    {"file": "05-epic-clinicals-snapshot.png", "desc": "Epic Clinicals Patient Snapshot (Atrius Health) - problem list, allergies, meds, health maintenance, patient banner (Xbiailidocious, Fuzzy with DOB/MRN)", "source": "https://www.findemr.com/image/cache/catalog/1product%20pic/Epic%20system%20Epic%20care/epiccare-Patient-record1-600x375.jpg"},
+    {"file": "06-epic-billing-guarantor.png", "desc": "Epic Hyperspace billing Guarantor Snapshot (Peterson, Cindy) - coverages, visits, statements, payments", "source": "https://www.findemr.com/image/cache/catalog/1product%20pic/Epic%20system%20Epic%20care/Epicepic-software-paitnet-history1-600x375.jpg"},
+    {"file": "07-epic-ld-flowsheet.png", "desc": "Epic Hyperspace L&D Post Partum Hemorrhage flowsheet (Smith, Mary) with patient banner, meds, code-start editor", "source": "https://www.ehrinpractice.com/pictures/epic-ehr-screenshot.jpg"},
+    {"file": "08-epic-ed-track-board.png", "desc": "Epic ED Track Board + Workup/ED Course panes (Harold Brown), annotated training screenshot (c) 2022 Epic Systems Corporation", "source": "https://www.acep.org/siteassets/sites/acep/media/health-information-technology/epic-images/epic-fig-8.png"}
+  ]
+}

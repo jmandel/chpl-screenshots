@@ -1,0 +1,34 @@
+{
+  "vendor": "Cantata Health Solutions",
+  "product": "Arize",
+  "website": "https://www.cantatahealth.com",
+  "slug": "cantata-health-solutions",
+  "capturedVia": "Brave image search (cheap pass)",
+  "screenshots": [
+    {
+      "file": "01-patient-info.png",
+      "description": "Arize EHR client/patient demographics page with full app chrome (left nav sidebar, top header). Patient banner: Client ID 4, name Jim Raynor, DOB 02/21/1974, gender Male, status Active; demographics form below.",
+      "sourceUrl": "https://www.findemr.com/image/cache/catalog/1product%20pic/Arize%20EHR/Arize-EHR%20patient%20info-600x375.jpg"
+    },
+    {
+      "file": "02-clinician-dashboard.png",
+      "description": "Arize EHR clinician/user dashboard, full app view with sidebar and header. Current Caseload tiles with patient names, photos and IDs (e.g., Leonardo Hastie, Binnie Eazle, Deckard Cain), recent messages, caseload breakdown, medications due.",
+      "sourceUrl": "https://www.findemr.com/image/cache/catalog/1product%20pic/Arize%20EHR/Arize-EHR%20Dashboard-600x375.jpg"
+    },
+    {
+      "file": "03-bedboard.png",
+      "description": "Arize EHR BedBoard (inpatient census) view, full app with sidebar and header. Rooms/beds with assigned patient Jessica Fallwell (HRD), Female; program Inpatient Psychiatric Services, Blue Unit.",
+      "sourceUrl": "https://www.findemr.com/image/cache/catalog/1product%20pic/Arize%20EHR/Arize-EHR%20bedboard-600x375.jpg"
+    },
+    {
+      "file": "04-scheduling-calendar.png",
+      "description": "Arize EHR scheduling calendar (week view) with full app sidebar and header. Appointment tooltip shows Client Name Deckard Cain, Client id 16, service Behavioral Health Counseling Individual at Main Street Center.",
+      "sourceUrl": "https://cantatahealth.com/wp-content/uploads/2024/12/ehr-scheduling.png"
+    },
+    {
+      "file": "05-client-ledger.png",
+      "description": "Arize EHR Accounts Receivable - Client Ledger with sidebar and header. Client: Sarah Kerrigan (ID# 3), balance $2,060.48; itemized billed/unbilled services with funders and balances.",
+      "sourceUrl": "https://cantatahealth.com/wp-content/uploads/2024/12/ehr-billing-accounts-receivable.png"
+    }
+  ]
+}

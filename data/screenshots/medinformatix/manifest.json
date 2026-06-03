@@ -1,0 +1,20 @@
+{
+  "vendor": "MedInformatix",
+  "product": "MedInformatix EHR",
+  "website": "https://www.medinformatix.com",
+  "slug": "medinformatix",
+  "source": "Brave image search (cheap pass)",
+  "capturedBy": "cheap-pass-brave",
+  "images": [
+    {
+      "file": "01-patient-chart-front-desk.png",
+      "description": "Scheduling & Registration patient chart view (front-desk). Patient banner: Jones, Michele I; DOB 03/13/1969; Age 42; FinClass BLUECROSS. Left sidebar of actions/forms, top patient banner, main demographics work area with patient photo.",
+      "sourceUrl": "https://www.findemr.com/image/cache/catalog/1product%20pic/Medinformatrix/MedInformatix-Front-desk-600x375.jpg"
+    },
+    {
+      "file": "02-reports-patient-list.png",
+      "description": "Reports module with top navigation (Snapshot/Reports/Appointments/Scheduler/Message Center), search bar, and report list. Patient demographics shown: Buchholz, James 9/19/1929, phone 310/555-1078, Mar Vista CA address; tabbed patient report history.",
+      "sourceUrl": "https://emrfinder.com/wp-content/uploads/2016/09/Medinformatix-RIS-Practice-Management-Software-Provider-Portal-1024x502.webp"
+    }
+  ]
+}

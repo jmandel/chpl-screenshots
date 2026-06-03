@@ -1,0 +1,21 @@
+{
+  "slug": "intruno-inc",
+  "vendor": "Intruno Inc.",
+  "product": "Intruno Patient Privacy Monitoring",
+  "website": "https://www.intruno.com",
+  "captured": "2026-06-03",
+  "source": "Brave image search (official API), intruno.com product images",
+  "notes": "Intruno is a patient-privacy/EHR-access-monitoring product (not a clinical EHR). Keepers are full application dashboard views (left nav + header 'Demo Hosp' tenant + main work area) showing patient identifiers in 'Most Viewed Patients' and 'VIP Viewing Alerts' panels. No MRN/DOB present; patient names are the available demographic anchor. Demo/test data.",
+  "screenshots": [
+    {
+      "file": "01-dashboard-most-viewed-patients.png",
+      "source_url": "https://www.intruno.com/wp-content/uploads/2020/08/Dashboard-1-new-min.png",
+      "desc": "Intruno dashboard: Alerts Triggered + Most Viewed Patients (top 10 patient names) within full app frame"
+    },
+    {
+      "file": "02-dashboard-vip-viewing-alerts.png",
+      "source_url": "https://www.intruno.com/wp-content/uploads/2020/08/Dashboard-3-new-min.png",
+      "desc": "Intruno dashboard: Trending of Alerts, Alerts Summary, VIP Viewing Alerts (patient names) within full app frame"
+    }
+  ]
+}

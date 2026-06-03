@@ -1,0 +1,35 @@
+{
+  "vendor": "Bizmatics Inc.",
+  "product": "PrognoCIS",
+  "slug": "bizmatics-inc",
+  "website": "https://prognocis.com/",
+  "source": "brave-image-search-cheap-pass",
+  "capturedBy": "cheap-pass-brave",
+  "screenshots": [
+    {
+      "file": "01-prescription-eprescribe.png",
+      "description": "PrognoCIS EHR Prescription / e-prescribe screen with full patient banner (Kelly, Marc; DOB 11-22-1988), left module sidebar, and drug entry work area.",
+      "sourceUrl": "https://www.ehrinpractice.com/pictures/W1siZiIsIjIwMjUvMDgvMTQvOW5vcHV1ZWtpMl9Qcm9nbm9DSVNfRUhSX2RlbW9fZVByZXNjcmlwdGlvbi5wbmciXSxbInAiLCJlbmNvZGUiLCJqcGciLCItcXVhbGl0eSA4NSJdXQ/PrognoCIS%20EHR%20demo%20-%20ePrescription.jpg"
+    },
+    {
+      "file": "02-face-sheet.png",
+      "description": "PrognoCIS EHR Face Sheet view (West Bay Medical Clinic) showing module sidebar, patient/encounter header banner, and chart summary panels with an open progress note.",
+      "sourceUrl": "https://prognocis.com/wp-content/uploads/2024/07/PrognoCIS-1024x552.png"
+    },
+    {
+      "file": "03-hpi-complaint.png",
+      "description": "PrognoCIS EHR History of Present Illness screen with patient banner (Last Visit, Encounter Type, ENC Date), left module sidebar, and structured complaint elements work area.",
+      "sourceUrl": "https://www.findemr.com/image/cache/catalog/1product%20pic/Prognocis/prognocis-by-bizmatics-HPI-complaints1-600x375.jpg"
+    },
+    {
+      "file": "04-progress-note.png",
+      "description": "PrognoCIS EHR Progress Note editor with patient banner header, left module sidebar, and progress note document including patient demographics (DOB 11-22-1977, Female).",
+      "sourceUrl": "https://www.findemr.com/image/cache/catalog/1product%20pic/Prognocis/prognocis-by-bizmatics-progress-notes1-600x375.jpg"
+    },
+    {
+      "file": "05-start-encounter.png",
+      "description": "PrognoCIS EHR Start New Encounter screen with patient banner (Dummy, Jack; DOB 01-01-1986), left module sidebar, and encounter creation form.",
+      "sourceUrl": "https://www.findemr.com/image/cache/catalog/1product%20pic/Prognocis/prognocis-patient-encounter1-600x375.jpg"
+    }
+  ]
+}

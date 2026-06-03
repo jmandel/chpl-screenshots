@@ -1,0 +1,17 @@
+{
+  "slug": "ezemrx-inc",
+  "vendor": "ezEMRx Inc",
+  "product": "ezEMRx",
+  "website": "https://www.ezemrx.com",
+  "source": "Brave image search (cheap pass) - Apple App Store iPad screenshots (mzstatic.com) for the ezEMRx Ambulatory iOS app",
+  "captured": "2026-06-03",
+  "images": [
+    { "file": "01-problems-list.png", "view": "Problems / Current Problems list", "patient": "Theodore Smith, Male 87 yr, PID 1513", "src": "https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/49/d7/02/49d7024a-1787-e9a7-cc75-8bd6f34eb7ff/mzl.zqneczyc.png/750x750bb.jpeg" },
+    { "file": "02-encounter-hpi.png", "view": "Encounter - History of Present Illness", "patient": "Theodore Smith, Male 87 yr, PID 1513", "src": "https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/b4/11/68/b41168bf-8bed-842f-255a-4f6fe8ded82f/mzl.qkecyiyg.png/750x750bb.jpeg" },
+    { "file": "03-order-entry-rx.png", "view": "Order Entry - Rx / Prescribe", "patient": "Theodore Smith, Male 87 yr, PID 1513", "src": "https://is5-ssl.mzstatic.com/image/thumb/Purple124/v4/73/34/31/733431fb-8b9d-1860-5836-cfe07bf1367b/mzl.vdbaerbl.png/750x750bb.jpeg" },
+    { "file": "04-demographics.png", "view": "Demography - Demographics / Personal Information", "patient": "Theodore Smith, Male 87 yr, PID 1513", "src": "https://is2-ssl.mzstatic.com/image/thumb/Purple124/v4/67/61/3e/67613e86-ce41-0813-723a-1659c295c13a/mzl.szbrfvrk.png/750x750bb.jpeg" },
+    { "file": "05-medications-list.png", "view": "Medications / Current Medications", "patient": "Theodore Smith, Male 87 yr, PID 1513", "src": "https://is3-ssl.mzstatic.com/image/thumb/Purple124/v4/c7/01/97/c70197d7-4389-d735-2c6d-6953104ec612/mzl.ojgasjci.png/750x750bb.jpeg" },
+    { "file": "06-lab-results.png", "view": "Investigations - Lab Results", "patient": "Theodore Smith, Male 87 yr, PID 1513", "src": "https://is2-ssl.mzstatic.com/image/thumb/Purple114/v4/c0/97/2f/c0972feb-e585-e5ea-0664-efffd9276f57/mzl.gqmjhqcg.png/750x750bb.jpeg" },
+    { "file": "07-encounter-vitals.png", "view": "Encounter - Vital / BMI trend", "patient": "Theodore Smith, Male 87 yr, PID 1513", "src": "https://is1-ssl.mzstatic.com/image/thumb/Purple114/v4/09/49/66/094966c4-62c1-a1d4-477e-546b76ae446a/mzl.apcsbdid.png/750x750bb.jpeg" }
+  ]
+}

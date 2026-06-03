@@ -1,0 +1,19 @@
+{
+  "vendor": "iTRUST",
+  "product": "iTRUST",
+  "slug": "itrust",
+  "website": "https://www.itrust.io/",
+  "source": "brave-image-search (cheap pass)",
+  "screenshots": [
+    {
+      "file": "01-patient-order-list.jpg",
+      "source_url": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/44299fb0-ba63-499b-a013-1b8c5304f232.jpeg",
+      "description": "iTRUST Optometry Cloud EHR - Patient Order list. Full app view: left nav (Dashboard, Appointments, Exams, Orders, Patient, Payments, Campaign, Logs, Settings), top header with patient search, tabbed order workspace. Patient rows with names (Testy McTestface, test patient) and birthdate Jan-01-2000, email, phone."
+    },
+    {
+      "file": "02-material-orders.png",
+      "source_url": "https://www.appvizer.fr/media/application/38205/screenshot/341802077/itrust-optical-ophthalmology-and-optometry-cloud-ehr-software-https---www.itrust.io-Screenshot-2025-09-10-at-9.24.35-AM.png",
+      "description": "iTRUST Patient Order / Material Orders view. Full app view with left nav and header; patient rows with names (Lindsay Avalos, etc.), email/phone, order and payment status."
+    }
+  ]
+}

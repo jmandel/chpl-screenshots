@@ -1,0 +1,19 @@
+{
+  "vendor": "Benchmark Systems",
+  "product": "Benchmark EHR",
+  "website": "https://www.benchmarksystems.com",
+  "slug": "benchmark-systems",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-patient-entry.png",
+      "description": "Benchmark Systems Patient Entry screen — full app view with header/logo, nav tabs (Home, Patient, Schedule, Billing, Reporting, File Maintenance, Tools, Admin, Help), patient demographics entry panel and patient banner (Patient 218372, Smith).",
+      "source": "https://www.emrsystems.net/wp-content/uploads/2025/10/Benchmark-Systems-EMR-New-Patient-Data-Record.webp"
+    },
+    {
+      "file": "02-em-encounter.png",
+      "description": "Benchmark EHR Evaluation & Management coding screen within an encounter — patient banner (Cyrus, Brandon; 73 year old male; Medicare), nav tabs and main work area with E&M complexity/MDM table.",
+      "source": "https://www.emrsystems.net/wp-content/uploads/2016/11/Benchmark-Clinical-Systems-EMR-Software-patient-Encounter.webp"
+    }
+  ]
+}

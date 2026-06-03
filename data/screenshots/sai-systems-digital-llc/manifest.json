@@ -1,0 +1,13 @@
+{
+  "slug": "sai-systems-digital-llc",
+  "vendor": "Sai Systems Digital LLC",
+  "product": "PacEHR",
+  "website": "https://thesnfist.com/",
+  "screenshots": [
+    {
+      "file": "01-patient-list.png",
+      "source": "https://thesnfist.com/wp-content/uploads/2021/03/PacEHR-patient-list-screenshot.png",
+      "description": "PacEHR patient list view — full app with header/branding, left sidebar, tabbed encounters, patient table showing names, gender/age, CCM enrollment, DOB, location, and last signed encounter. Demo patients (demoFacility)."
+    }
+  ]
+}

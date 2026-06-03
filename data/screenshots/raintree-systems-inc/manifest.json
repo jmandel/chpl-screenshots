@@ -1,0 +1,33 @@
+{
+  "vendor": "Raintree Systems, Inc.",
+  "product": "Raintree",
+  "slug": "raintree-systems-inc",
+  "website": "https://www.raintreeinc.com",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-occupro-assessment-david-jake.png",
+      "source": "https://assets.goodfirms.co/sw_screenshots/657c69b5f7fc4f64461ee563/657c6a2a5ff0d-1702652458.jpg",
+      "description": "Full Raintree EHR view: Main Menu sidebar, top action bar, OccuPro Assessments work area. Patient David Jake, DOB 06-01-94, MR# 000001721, Initial Evaluation, Workers Comp.",
+      "patient": "David Jake (demo)"
+    },
+    {
+      "file": "02-daily-note-lebron-mcknee.png",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/93646ada-2d0f-4462-ae7c-8e1bef1a4f86.png",
+      "description": "Full Raintree EHR Daily Note screen with menu bar, sidebar tab, and record work area. Patient banner: LeBron Mcknee, DOB 10-12-85, Age 36, MR# 0025594, Gender M; Bilateral Knee ACL Reconstruction visit.",
+      "patient": "LeBron Mcknee (demo)"
+    },
+    {
+      "file": "03-progress-note-penny-quincey.png",
+      "source": "https://emrsystems.net/wp-content/uploads/2023/04/Raintree-EMR-Software-Documentation-Templates.webp",
+      "description": "Raintree progress-note/documentation-templates screen showing Patient Information, Record Information, and time-based activity grid. Patient Penny Quincey, DOB 01-01-50, Age 63, MR# 0000112. (Lower-right corner has a vendor marketing overlay.)",
+      "patient": "Penny Quincey (demo)"
+    },
+    {
+      "file": "04-evaluation-mcknee-lebron.png",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/e267b700-8486-43db-981e-4c9986852e6a.png",
+      "description": "Raintree Evaluation screen with Global Templates picker dialog open; menu bar and record fields visible. Patient McKnee, LeBron shown in title bar; Bilateral Knee ACL Reconstruction.",
+      "patient": "LeBron McKnee (demo)"
+    }
+  ]
+}

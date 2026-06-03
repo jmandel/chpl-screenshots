@@ -1,0 +1,15 @@
+{
+  "vendor": "Foothold Technology, Inc.",
+  "product": "AWARDS",
+  "website": "http://footholdtechnology.com",
+  "slug": "foothold-technology-inc",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-awards-medications-consumer-chart.png",
+      "description": "AWARDS Medications chart screen: full app view with top nav (Home/Calendar/Messages/Reports), Charts > Medications breadcrumb, left record-filter panel (Show Records / Medication Lookup / ReportBuilder), and medications table. Consumer banner shows Program 'Central Intake' and Consumer 'Aaron, Hank' (demo patient).",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/f7be1a27-e90f-4c03-978a-b4809cf3b861.jpeg",
+      "via": "softwareadvice.com AWARDS product screenshots"
+    }
+  ]
+}

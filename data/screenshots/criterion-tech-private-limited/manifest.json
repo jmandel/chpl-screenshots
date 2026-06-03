@@ -1,0 +1,21 @@
+{
+  "slug": "criterion-tech-private-limited",
+  "vendor": "CRITERION TECH PRIVATE LIMITED",
+  "product": "Medvantage",
+  "website": "https://criteriontechnologies.com/",
+  "note": "All located screenshots are of the 'Criterions' EHR product (criterions.com). Product name 'Medvantage' was not found on any Criterions screenshot; UI is branded 'Criterions - Your Innovative EHR & PM Solution'. Images are real application views composited inside a monitor mockup frame.",
+  "screenshots": [
+    {
+      "file": "01-criterions-ehr-patient-chart.png",
+      "source": "https://criterions.com/wp-content/uploads/2025/02/Patient-Chart-Desktop-Mockup-1.png",
+      "description": "Criterions EHR patient chart: top toolbar/menu, patient banner (Taylor, Lucas | 23485 | DOB 09/27/1967 | AGE 57 | (610)675-6887), problem list, tests, prior visits, PMHx/SHx/FHx, medications. URL bar shows ehr2.myehr123.com.",
+      "patient_demographics": "Taylor, Lucas (23485), M, DOB 09/27/1967, AGE 57"
+    },
+    {
+      "file": "02-criterions-ehr-patient-chart-reminder.png",
+      "source": "https://criterions.com/wp-content/uploads/2025/04/EHR-Patient-Chart-Appointment-Text-Reminder.png",
+      "description": "Criterions EHR patient chart in monitor frame with toolbar/menu, patient banner (Lucy, Cms156v11 | 24874 | DOB 12/31/1950 | AGE 74), problem list, tests, allergies, vitals, immunization, prior visits, medication, documents. Adjacent phone shows appointment text reminder.",
+      "patient_demographics": "Lucy, Cms156v11 (24874), M, DOB 12/31/1950, AGE 74"
+    }
+  ]
+}

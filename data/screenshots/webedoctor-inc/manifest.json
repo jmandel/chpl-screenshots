@@ -1,0 +1,41 @@
+{
+  "vendor": "WEBeDoctor, Inc.",
+  "product": "WEBeDoctor Physician Office",
+  "slug": "webedoctor-inc",
+  "website": "https://new.webedoctor.com/",
+  "captured": "2026-06-03",
+  "source": "Brave image search (cheap pass)",
+  "images": [
+    {
+      "file": "01-daily-calendar-scheduling.png",
+      "description": "Daily calendar / scheduling view with full app header + menu; patient rows show SMITH HEATHER (DOB 4/4/1985) and BASTO JORDAN W. (DOB 11/21/1990) with visit type and reason for visit.",
+      "source_url": "https://www.emrsystems.net/wp-content/uploads/2021/11/WEBeDoctor-EHR-Software-Dashboard.webp",
+      "alt_source_url": "https://www.findemr.com/image/cachewebp/catalog/1product%20pic/WeBeDoctor/webedoctor%20(1)-600x375.webp"
+    },
+    {
+      "file": "02-active-patients-list.png",
+      "description": "Active patients list with sidebar/menu + header; columns include patient name, Sex, DOB, Chart ID, SSN, home phone.",
+      "source_url": "https://emrsystems.net/wp-content/uploads/2025/11/WEBeDoctor-EHR-Software-and-Patient-Intake-Data.webp"
+    },
+    {
+      "file": "03-visit-note-soap.png",
+      "description": "Clinical visit note (SOAP) with left navigation panel and full menu; subjective/assessment/plan documentation work area.",
+      "source_url": "https://emrsystems.net/wp-content/uploads/2025/11/WEBeDoctor-EMR-Software-Patient-History-Note.webp"
+    },
+    {
+      "file": "04-medication-drug-search-chart.png",
+      "description": "Patient chart with quick drug search; left panel shows patient banner GAYNNE WILLIAMS (DOB, Female) plus coding/assessment navigation.",
+      "source_url": "https://emrfinder.com/wp-content/uploads/2017/09/WEBeDoctor-EMR-Software.webp"
+    },
+    {
+      "file": "05-accounting-claims-list.png",
+      "description": "Accounting / claims management view with sidebar filters + header menu; rows list patient names, claim IDs, physician, posted/payment dates and balances.",
+      "source_url": "https://emrsystems.net/wp-content/uploads/2021/11/WEBeDoctor-EHR-Software-Accounting-Dashboard.webp"
+    },
+    {
+      "file": "06-previsit-checklist.png",
+      "description": "Pre-visit checklist with full top menu and registration toolbar; patient rows (TEST PATIENT 1-5) with doctor, date/time and registration/co-payment/insurance status indicators.",
+      "source_url": "https://emrfinder.com/wp-content/uploads/2017/09/WEBeDoctor-EMR-Software-and-Patient-Intake-Software.webp"
+    }
+  ]
+}

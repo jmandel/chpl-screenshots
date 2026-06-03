@@ -1,0 +1,46 @@
+{
+  "vendor": "WRS Health",
+  "product": "WRS Health Web EHR and Practice Management System",
+  "slug": "wrs-health",
+  "website": "https://www.wrshealth.com/",
+  "source": "Brave image search (cheap pass)",
+  "captured": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-personal-info-archambault.png",
+      "source_url": "https://i.pcmag.com/imagery/reviews/01AfPoOVkBxoBIe8MMkEXCL-2.fit_lim.size_1273x814.v_1569469949.png",
+      "view": "Patients > Personal Information with appointment detail popup",
+      "patient": "Archambault, Kyle (WRS ID 999-99-9999, DOB 01/01/1994)"
+    },
+    {
+      "file": "02-scheduler-appointment-popup.png",
+      "source_url": "https://emrfinder.com/wp-content/uploads/2017/08/WRSHealth-EMR-Practice-Management-Software-Appointment-1.webp",
+      "view": "Scheduler with appointment-made popup",
+      "patient": "John Doe (DOB 10/10/1982)"
+    },
+    {
+      "file": "03-emr-orders-procedures.png",
+      "source_url": "https://wrs-wordpress.s3.amazonaws.com/www.wrshealth.com/wp-content/uploads/2026/03/WRS-Health-EHR-Orders-and-Procedures.webp",
+      "view": "EMR > Orders & Procedures (Service Coding)",
+      "patient": "Test, Ross 1 (37 yr old male, DOB Oct 24 1988)"
+    },
+    {
+      "file": "04-personal-information-achille.png",
+      "source_url": "https://emrsystems.net/wp-content/uploads/2016/12/WRS-Health-EHR-Software-1024x768.webp",
+      "view": "Patients > Personal Information with patient summary popup",
+      "patient": "TEST, ACHILLE"
+    },
+    {
+      "file": "05-emr-notes-documents.png",
+      "source_url": "https://emrsystems.net/wp-content/uploads/2016/12/WRS-Health-EMR-Software-PM-Software-1024x768.webp",
+      "view": "EMR Notes & Documents list",
+      "patient": "Achille Test (DOB Jan 1, 1977)"
+    },
+    {
+      "file": "06-fax-document.png",
+      "source_url": "https://emrfinder.com/wp-content/uploads/2017/08/WRSHealth-EMR-Practice-Management-Software-documents.webp",
+      "view": "Documents > Fax with patient context",
+      "patient": "AL TEST (DOB 04/01/1870)"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "vendor": "Careficient Inc",
+  "product": "Careficient",
+  "slug": "careficient-inc",
+  "website": "https://www.careficient.com/",
+  "capturedVia": "Brave image search (cheap pass)",
+  "screenshots": [
+    {
+      "file": "01-careficient-scheduling-patient-banner.png",
+      "description": "Careficient AMS scheduling view with patient banner (Carter, Melinda) showing address, phone, physician, start of care; full app sidebar/header/tabs.",
+      "sourceUrl": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/f5f941c7-8ade-4e66-bb6f-b22f29526e4e.png"
+    },
+    {
+      "file": "02-careficient-medications-patient-banner.png",
+      "description": "Careficient AMS medications / drug-drug interactions screen with patient banner (Carter, Melinda); full app chrome.",
+      "sourceUrl": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/bfaeff1a-3d10-44b9-a5d1-e5e52cf1b234.png"
+    },
+    {
+      "file": "03-careficient-orders-tab-patient-banner.png",
+      "description": "Careficient AMS Orders tab with patient banner (Carter, Melinda) showing phone, agency, status, diagnosis, start/discharge of care; OASIS and services list.",
+      "sourceUrl": "https://a.fsdn.com/con/app/proj/careficient-ams.s/screenshots/Careficient-Orders-Tab.jpg"
+    },
+    {
+      "file": "04-careficient-ar-transaction-detail.png",
+      "description": "Careficient AMS A/R Transaction Detail / Invoice view with patient banner (Duffy, Peter) showing invoice number, start of care, patient responsibility.",
+      "sourceUrl": "https://a.fsdn.com/con/app/proj/careficient-ams.s/screenshots/Careficient-Accounts-Receivable.jpg"
+    }
+  ]
+}

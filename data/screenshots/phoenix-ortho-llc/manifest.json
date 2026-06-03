@@ -1,0 +1,29 @@
+{
+  "vendor": "Phoenix Ortho, LLC",
+  "product": "Phoenix Ortho",
+  "website": "http://www.phoenixortho.net",
+  "slug": "phoenix-ortho-llc",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-joint-injection-sandra-mccune.png",
+      "source": "https://emrsystems.net/wp-content/uploads/2021/09/Phoenix-Ortho-EHR-Software-Dashboard.webp",
+      "description": "Phoenix Ortho EHR desktop app - joint injection workflow; left history tree sidebar, top menu bar, patient banner (Sandra McCune) with provider Lee Coventry MD, main work area with body diagram and injection notes."
+    },
+    {
+      "file": "02-xray-exam-monty-mccune.png",
+      "source": "https://emrsystems.net/wp-content/uploads/2021/09/Phoenix-Ortho-EHR-Software-X-Ray-Evaluation.webp",
+      "description": "Phoenix Ortho EHR desktop app - X-ray evaluation; sidebar history tree, top menu bar, patient banner (Monty McCune), OrthoView X-ray panel and findings table in main work area."
+    },
+    {
+      "file": "03-phoenixgo-telemed.png",
+      "source": "https://emrfinder.com/wp-content/uploads/2025/10/Phoenix-Ortho-Telemed-Patient-History.webp",
+      "description": "PhoenixGO telemedicine/patient history view - left navigation sidebar, patient banner with photo and demographics, telehealth video panel and X-ray plus diagnoses work area."
+    },
+    {
+      "file": "04-phoenixgo-pt-visit-note.png",
+      "source": "https://www.phoenixortho.net/hubfs/PhoenixGO/Phoenix%20Go%20Document.jpg",
+      "description": "PhoenixGO physical therapy visit note - app shell with left icon sidebar and PT visit header; note editor shows patient name Paul McCune and DOB 01/21/1953 with history and exam sections."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "management-plus-ehr-llc",
+  "vendor": "Management Plus EHR, LLC",
+  "product": "ManagementPlus",
+  "website": "https://sightview.com/",
+  "screenshots": [
+    {
+      "file": "01-anterior-segment-exam-tim-martinez.png",
+      "source": "https://www.emrsystems.net/wp-content/uploads/2016/11/managementplus-60-1598-2-largeManagementPlus-is-delivering-EHR-software-and-practice-management-PM-solutions.webp",
+      "description": "ManagementPlus EHR ophthalmology exam record (Anterior Segment Exam / Posterior Examination) with patient banner showing demo patient Tim Martinez (DOB 3/1/2012), Read-Only record."
+    },
+    {
+      "file": "02-ehr-record-cydni-williams.png",
+      "source": "https://www.findemr.com/image/cache/catalog/1product%20pic/ManagmentPlus%20Software/Medical-recording-600x375.jpg",
+      "description": "ManagementPlus EHR ophthalmology record with patient banner showing demo patient Cydni N. Williams (Nicole), DOB and PID visible; allergies, medications, chief complaint, HPI sections."
+    }
+  ]
+}

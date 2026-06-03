@@ -1,0 +1,13 @@
+{
+  "slug": "intelichart-llc",
+  "vendor": "InteliChart LLC",
+  "product": "InteliChart Patient Portal",
+  "website": "http://www.intelichart.com",
+  "images": [
+    {
+      "file": "01-patient-portal-visits.png",
+      "source": "https://healthcareitskills.com/wp-content/uploads/2015/08/intelichart-patient-portal-screenshot.jpg",
+      "description": "InteliChart Patient Portal - My Health Record / Visits view for demo patient 'Crista Helms', showing top nav (Home, Messages, Appointments, Medications, Forms, Insurance, Statements), sub-tabs (Chart Summary, Lab Tests, Histories, Allergies, Visits, Immunizations, Problems, Vitals, Documents), left sidebar with account/practice links, and a Visits table with dates, procedures, diagnoses, and locations."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "vendor": "Office Practicum",
+  "product": "Office Practicum",
+  "website": "https://www.officepracticum.com",
+  "slug": "office-practicum",
+  "source": "brave-image-search",
+  "captured": "2026-06-03",
+  "images": [
+    {
+      "file": "01-serena-fox-family-history.png",
+      "source_url": "https://www.ehrinpractice.com/pictures/2094/show/Office+Practicum+family+and+social+histories.jpg",
+      "patient": "SERENA FOX (5201)",
+      "view": "Clinical chart - Family/Social History"
+    },
+    {
+      "file": "02-ron-weasley-message.png",
+      "source_url": "https://emrfinder.com/wp-content/uploads/2025/10/Office-Practicum-EHR-Practice-Management-Software-Message-1024x577.webp",
+      "patient": "RON WEASLEY (125), DOB 11/11/2008",
+      "view": "Message / clinical notes with immunization forecast panel"
+    },
+    {
+      "file": "03-brooklyn-ploom-prev-exam.png",
+      "source_url": "https://emrfinder.com/wp-content/uploads/2025/10/Office-Practicum-EHR-Practice-Management-Software-Patient-Data.webp",
+      "patient": "BROOKLYN PLOOM, DOB 08/17/2008",
+      "view": "Preventive Exam documentation"
+    },
+    {
+      "file": "04-brooklyn-ploom-prev-exam2.png",
+      "source_url": "https://www.findemr.com/image/cache/catalog/1product%20pic/Office%20Practicum/Office-Practicum-SoftwareOFF-Exam1-600x375.jpg",
+      "patient": "BROOKLYN PLOOM (4899), DOB 08/17/2008",
+      "view": "Preventive Exam documentation with calendar"
+    },
+    {
+      "file": "05-brooklyn-ploom-assessment.png",
+      "source_url": "https://www.emrsystems.net/wp-content/uploads/2016/10/Office-Practicum-EHR-Software-Clinical-Documentation.webp",
+      "patient": "BROOKLYN PLOOM (305SIK)",
+      "view": "Clinical assessment / exam documentation"
+    },
+    {
+      "file": "06-christine-hobart-headache-exam.png",
+      "source_url": "https://www.findemr.com/image/cache/catalog/1product%20pic/Office%20Practicum/office-practicum-patient-chart-showing-hyperforms1-600x375.jpg",
+      "patient": "Christine Hobart, DOB 23-May-1971",
+      "view": "Patient chart with Progress Note (Headache Exam) HyperForm"
+    },
+    {
+      "file": "07-brooklyn-ploom-message-notes.png",
+      "source_url": "https://www.emrsystems.net/wp-content/uploads/2025/11/Office-Practicum-EMR-Practice-Management-Software-Message-Notes.webp",
+      "patient": "BROOKLYN PLOOM (305SIK), DOB 08/17/2008",
+      "view": "Message notes / clinical documentation"
+    },
+    {
+      "file": "08-ron-weasley-cleartriage.png",
+      "source_url": "https://emrfinder.com/wp-content/uploads/2025/10/Office-Practicum-EHR-Practice-Management-Software-Protocol-1024x576.webp",
+      "patient": "RON WEASLEY, DOB 11/11/2008",
+      "view": "ClearTriage protocol search modal over patient chart"
+    }
+  ]
+}

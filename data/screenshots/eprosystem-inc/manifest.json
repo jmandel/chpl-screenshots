@@ -1,0 +1,20 @@
+{
+  "vendor": "Eprosystem Inc.",
+  "product": "EproMedical",
+  "website": "http://www.eprosystem.com",
+  "slug": "eprosystem-inc",
+  "source": "Brave image search (official API)",
+  "captured": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-dental-charting-existing-restoration.png",
+      "sourceUrl": "http://epromedical.com/wp-content/uploads/2019/08/dental-charting-3.jpg",
+      "description": "EproMedical dental charting module — Existing Restoration view. Patient banner (Patient ID 1007, Sample Patient), charting/clinical date, provider Khang Nguyen, full tooth chart work area with side restoration list panel."
+    },
+    {
+      "file": "02-dental-charting-treatment-plan.png",
+      "sourceUrl": "http://epromedical.com/wp-content/uploads/2019/08/dental-charting-4.jpg",
+      "description": "EproMedical dental charting module — Treatment Plan view. Same patient banner (Patient ID 1007, Sample Patient), provider, tooth chart, and side treatment plan table with ADA procedure codes."
+    }
+  ]
+}

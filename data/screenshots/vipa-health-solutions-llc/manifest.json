@@ -1,0 +1,13 @@
+{
+  "slug": "vipa-health-solutions-llc",
+  "vendor": "VIPA Health Solutions, LLC",
+  "product": "24/7 smartEMR",
+  "website": "https://smartemr.readme.io/reference/getting-started#base-url",
+  "screenshots": [
+    {
+      "file": "01-patient-chart-past-history.png",
+      "source": "https://smartemr.org/wp-content/uploads/2024/02/Patient-Add-Record-SmartEMR-%C2%A9-Ver-4-1-100.png",
+      "description": "SmartEMR patient chart, Past History (PMH - ICD10) tab, with left nav, header, main work area, and patient banner 'test patient (male - 02/03/1990 (33))'."
+    }
+  ]
+}

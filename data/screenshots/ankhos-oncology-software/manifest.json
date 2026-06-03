@@ -1,0 +1,15 @@
+{
+  "vendor": "Ankhos Oncology Software",
+  "product": "Ankhos",
+  "website": "https://www.ankhos.com/",
+  "slug": "ankhos-oncology-software",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-patient-treatment-view.png",
+      "sourceUrl": "https://www.findemr.com/image/cachewebp/catalog/1product%20pic/Ankhos/ankhos_patient-info1-600x375.webp",
+      "description": "Full Ankhos Oncology Tracker treatment view: top nav tabs (Patients/Notifications/Dashboard/Create Regimens), patient banner 'De Vito, Danny 33034' with sub-tabs (Calendar/Flowsheet/Labs/Today/Orders), and main treatment/infusion work area with drug list and status panel.",
+      "patientDemographics": "Name 'De Vito, Danny', ID 33034"
+    }
+  ]
+}

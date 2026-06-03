@@ -1,0 +1,50 @@
+{
+  "vendor": "IntrinsiQ Specialty Solutions, Inc. FBO Healthtronics Information Technology Solutions Inc.",
+  "product": "UroChart EHR",
+  "website": "https://www.intrinsiq.com",
+  "slug": "intrinsiq-specialty-solutions-inc-fbo-healthtronics-information-technology-solutions-inc",
+  "source": "Brave image search (cheap pass)",
+  "capturedDate": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-medications-write-script.png",
+      "description": "UroChart EHR Medications / Write New Script view; patient banner Test S. Patient, MRN# HTR10000046, 57 yo Male, DOB 12/16/1963.",
+      "source": "https://www.findemr.com/image/cache/catalog/1product%20pic/UroChart,/urology-3-600x375.jpg"
+    },
+    {
+      "file": "02-physical-exam-tablet.png",
+      "description": "UroChart EHR Physical Examination view (tablet frame); patient banner Test S. Patient, MRN# HTR10000046, 57 yo Male, DOB 12/16/1963.",
+      "source": "https://www.findemr.com/image/cache/catalog/1product%20pic/UroChart,/urology-2-600x375.jpg"
+    },
+    {
+      "file": "03-timeline-labs-laptop.png",
+      "description": "UroChart EHR Timeline with allergies, medications and lab trend graph (laptop frame); patient banner Test S. Patient, MRN# HTR10000046, 57 yo Male, DOB 12/16/1963.",
+      "source": "https://www.findemr.com/image/cache/catalog/1product%20pic/UroChart,/urology-1-600x375.jpg"
+    },
+    {
+      "file": "04-plan-treatment.png",
+      "description": "UroChart EHR Plan / Treatment ordering view; patient banner Steve Test, MRN# HTR3000019B, 72 yo Male, DOB 12/18/1944.",
+      "source": "https://www.emrsystems.net/wp-content/uploads/2025/11/Urochart-EMR-Software-Patient-scheduling-Report-1024x540.webp"
+    },
+    {
+      "file": "05-review-of-systems.png",
+      "description": "UroChart EHR Review of Systems documentation view; patient banner Steve Test, 72 yo Male, DOB 12/18/1944.",
+      "source": "https://www.emrsystems.net/wp-content/uploads/2025/11/Urochart-EMR-Software-Patient-Lab-Management-Report-768x405.webp"
+    },
+    {
+      "file": "06-chart-complaints.png",
+      "description": "UroChart EHR Chart Complaints / Established Patient view; patient banner Steve Patient.",
+      "source": "https://emrfinder.com/wp-content/uploads/2016/08/UroChart-EHR-Practice-Management-Software-By-IntrinsiQ-Patient.webp"
+    },
+    {
+      "file": "07-timeline-allergies-meds.png",
+      "description": "UroChart EHR Timeline view with allergies, medications and trend graph; patient banner Test S. Patient.",
+      "source": "https://emrfinder.com/wp-content/uploads/2016/08/UroChart-EHR-Practice-Management-Software-By-IntrinsiQ-Allergies.webp"
+    },
+    {
+      "file": "08-timeline-dashboard.png",
+      "description": "UroChart EHR Timeline dashboard view; patient banner Test S. Patient.",
+      "source": "https://www.emrsystems.net/wp-content/uploads/2016/08/UroChart-EHR-Software-Patient-Timeline-Dashboard.webp"
+    }
+  ]
+}

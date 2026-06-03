@@ -1,0 +1,15 @@
+{
+  "slug": "clinicmind-inc",
+  "vendor": "Clinicmind Inc.",
+  "product": "Clinicmind",
+  "website": "https://clinicmind.com/",
+  "source": "brave-image-search",
+  "captured": "2026-06-03",
+  "images": [
+    {
+      "file": "01-telehealth-patient-session.png",
+      "sourceUrl": "https://emrsystems.net/wp-content/uploads/2016/09/ClinicMind-EHR-Software-Telehealth-features.webp",
+      "description": "ClinicMind telehealth module: left nav sidebar (Schedule, Workbench, Tasks, Insurance Claims, Demo, Telehealth), top header with clinic/provider selector, and main work area showing an in-session telehealth visit with patient banner (Robin Charles, DOB Jul 23 1980, 45F) and waiting/post visit list of patients."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "vendor": "Axxess",
+  "product": "Axxess Palliative",
+  "website": "https://www.axxess.com",
+  "slug": "axxess",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-palliative-medication-profile.png",
+      "sourceUrl": "https://www.axxess.com/help/wp-content/uploads/sites/2/2023/02/Screenshot-2023-02-10-102937.png",
+      "description": "Axxess PalliativeCare full application: left patient list sidebar, top nav header, patient banner (Adams, Kelly M., MRN 124686, DOB), Medication Profile work area with active medications and drug interaction results; mobile companion view overlaid.",
+      "product": "Axxess Palliative"
+    },
+    {
+      "file": "02-palliative-patient-chart.png",
+      "sourceUrl": "https://www.axxess.com/help/wp-content/uploads/sites/2/2023/04/Pt-Chart-Comm-note-and-Add-e1680617570727.png",
+      "description": "Axxess PalliativeCare Patient Charts: top nav header (Patients, Schedule, IDG Center, People, Billing, Admin, Reports), patient banner (Monitor, Paul, PMPC232, Male, 44, DOB 02/05/1979), Communication Notes work area with Quick Links rail.",
+      "product": "Axxess Palliative"
+    },
+    {
+      "file": "03-homehealth-patient-chart-banner.png",
+      "sourceUrl": "https://www.axxess.com/help/wp-content/uploads/sites/2/2024/04/screenshot-2-7-1-1024x518.png",
+      "description": "Axxess Home Health Patient Charts: full patient banner (Bailey, Ladawn, MRN T68712, Female, DOB, address), episode/start-of-care details, and chart task grid with Quick Links.",
+      "product": "Axxess Home Health"
+    },
+    {
+      "file": "04-homehealth-patient-charts.png",
+      "sourceUrl": "https://www.findemr.com/image/cache/catalog/1product%20pic/Axxes%20Home%20Health/Axxess-Home-Health-Patient%20Chart-600x375.jpg",
+      "description": "Axxess Home Health full application: left patient list sidebar, top nav header, patient banner (Hadley, Jane H., MR#, DOB 06/24/1941, address), and Patient Charts task grid.",
+      "product": "Axxess Home Health"
+    }
+  ]
+}

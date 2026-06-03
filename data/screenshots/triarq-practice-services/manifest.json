@@ -1,0 +1,40 @@
+{
+  "slug": "triarq-practice-services",
+  "vendor": "TRIARQ Practice Services",
+  "product": "QSuite",
+  "website": "http://www.triarqhealth.com/",
+  "source": "Brave image search (cheap pass)",
+  "captured": "2026-06-03",
+  "images": [
+    {
+      "file": "01-qpm-patient-account.png",
+      "source_url": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/be826ba1-2be2-4e19-aeca-2cf29709c831.png",
+      "view": "QPM Patient Account / Charges & Claims",
+      "patient": "One, Seema (DOB 09/28/1947, Patient Code 1003)"
+    },
+    {
+      "file": "02-qemr-home-demographics.png",
+      "source_url": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/39bcc092-76bc-4614-8e4d-0800f9a05382.png",
+      "view": "QEMR home with Patient Demographics panel and insurance card",
+      "patient": "demo patient with DOB, address, insurance"
+    },
+    {
+      "file": "03-qpm-revenue-cycle.png",
+      "source_url": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/9ad43065-ba06-41a4-95b1-f52a2a1df97e.png",
+      "view": "QPM Revenue Cycle / Insurance Claim Follow-up Queue",
+      "patient": "Kabot, Corey (DOB 04/25/1990, Patient Code 1000)"
+    },
+    {
+      "file": "04-qemr-rx-meds.png",
+      "source_url": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/bb824067-c20d-46b4-b4c4-38be24514177.png",
+      "view": "QEMR Rx/Meds prescription and medication history",
+      "patient": "TEST, John (Born 7/7/1965, Code 1027)"
+    },
+    {
+      "file": "05-qemr-add-vitals.png",
+      "source_url": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/232fa7ca-1513-4349-96f9-e227ba82ef2a.png",
+      "view": "QEMR Add Vitals form with patient banner",
+      "patient": "TEST, John (Born 7/7/1965, Code 1027)"
+    }
+  ]
+}

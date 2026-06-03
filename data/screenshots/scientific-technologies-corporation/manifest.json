@@ -1,0 +1,16 @@
+{
+  "vendor": "Scientific Technologies Corporation",
+  "product": "ImmsLink",
+  "website": "https://stchealth.com/",
+  "slug": "scientific-technologies-corporation",
+  "source": "Brave image search (cheap pass)",
+  "captured": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-immslink-point-of-care-vaccinations.png",
+      "sourceUrl": "https://i0.wp.com/stchealth.com/wp-content/uploads/2017/05/immslink_1.png?fit=905,500&ssl=1",
+      "description": "ImmsLink Point-of-Care application view: left sidebar (Point-of-Care, Inventory, Reports, Quality Control, Settings), STC|immsLink header with search, breadcrumb patient banner 'Robert Downey 12/31/1950, 66 years', Vaccinations/Tests/Patient Info tabs, and Due Now vaccine forecast table (Herpes Zoster).",
+      "patientDemographics": "Robert Downey, DOB 12/31/1950, 66 years (demo patient)"
+    }
+  ]
+}

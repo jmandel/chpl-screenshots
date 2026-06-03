@@ -1,0 +1,15 @@
+{
+  "slug": "claimpower-inc",
+  "vendor": "Claimpower, Inc.",
+  "product": "Claimpower Mobile EMR",
+  "website": "https://www.claimpower.com",
+  "source": "brave-image-search (cheap pass)",
+  "capturedAt": "2026-06-03",
+  "images": [
+    {
+      "file": "01-patient-queue.png",
+      "sourceUrl": "http://claimpower.com/wp-content/uploads/2019/01/patient-qeue.png",
+      "description": "Claimpower EMR Patient Queue screen: header date bar, left Search By sidebar, and main work area listing patients (ALVAREZ, COOPER, AMILL) with DOBs, providers, insurance, appointment/check-in times and per-patient chart action icons."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "vendor": "HixNY",
+  "product": "Hixny Hisp",
+  "slug": "hixny",
+  "website": "https://www.hixny.org/",
+  "capturedVia": "Brave image search (cheap pass)",
+  "capturedDate": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-patient-snapshot-dashboard.png",
+      "sourceUrl": "https://hixny.org/wp-content/uploads/2025/05/snapshot.png",
+      "description": "Hixny Patient Snapshot full web app: top nav (Patient Search, Patient Snapshot, HealthShare Management, Administration Portal, Portal Registration, Messages, etc.), patient banner (Bill Brucker, DOB 07/04/1928, 96 Yrs, Male), and main work area with Care Reminders, Social Needs & Referrals, NYS PMP, Visits, Procedures, Radiology, Vaccinations, Labs, Documents."
+    },
+    {
+      "file": "02-patient-snapshot-laptop.png",
+      "sourceUrl": "https://img.hcinnovationgroup.com/files/base/ebm/hci/image/2025/10/68f9809576f172de53fbd911-snapshot_full_view.png",
+      "description": "Same modern Hixny Patient Snapshot dashboard for patient Bill Brucker shown in a laptop frame; full nav, header and main work area visible."
+    },
+    {
+      "file": "03-patient-snapshot-classic.png",
+      "sourceUrl": "https://hixny.org/wp-content/uploads/2020/09/Snapshot_Laptop_For-Web.png",
+      "description": "Earlier Hixny Snapshot UI variant in laptop frame: patient banner (BILL BRUCKER, DOB 07/04/1928, 93 Yrs, White, Male), Quality Indicators, Labs, Procedures, Conditions, Medications, Immunizations, Radiology, Documents."
+    }
+  ]
+}

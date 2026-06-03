@@ -1,0 +1,45 @@
+{
+  "slug": "medicalmine-inc",
+  "vendor": "MedicalMine Inc.",
+  "product": "CharmHealth EHR",
+  "website": "https://www.charmhealth.com",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-charmehr-facesheet-john-antony.png",
+      "source": "https://a.fsdn.com/con/app/proj/charm-ehr.s/screenshots/patient-dashboard.png",
+      "view": "Patient Face Sheet (allergies, medications, diagnoses, vitals)",
+      "patient": "John Antony, ID CK 1329, DOB Dec 18 1963"
+    },
+    {
+      "file": "02-charmehr-diagnoses-emily-james.png",
+      "source": "https://www.charmhealth.com/resources/patient-management/images/patient-medical-history.jpg",
+      "view": "Patient Diagnoses list with patient banner and left nav",
+      "patient": "Emily James, Female/49, ID Jun16204, DOB Apr 18 1972"
+    },
+    {
+      "file": "03-charmehr-chartnotes-customize-john-doe.png",
+      "source": "https://www.charmhealth.com/resources/ehr-getting-started/images/charting-360-customize-sections.jpg",
+      "view": "Chart Notes (SOAP) with Customize Sections dialog, full left chart panel",
+      "patient": "John Doe, Male/4, ID Cha001, DOB Mar 11 2020"
+    },
+    {
+      "file": "04-charmehr-flowsheet-john-doe.png",
+      "source": "https://www.charmhealth.com/resources/ehr-getting-started/images/charting-360-flowsheet.jpg",
+      "view": "Flowsheet alongside Chart Notes / Vitals entry",
+      "patient": "John Doe, Male/51, ID Cha001, DOB Mar 21 1973"
+    },
+    {
+      "file": "05-charmehr-telehealth-paul-sew.png",
+      "source": "https://www.charmhealth.com/resources/telehealth/images/video-consult-in-ehr.jpg",
+      "view": "Integrated telehealth video consult over Physician Notes / Face Sheet",
+      "patient": "Paul Sew, Male/36, ID PAT300010081, DOB Nov 24 1988"
+    },
+    {
+      "file": "06-charmehr-chartnotes-jerry-mathews.png",
+      "source": "https://www.charmhealth.com/resources/patient-management/images/scan-barcode-in-ehr-search-bar.jpg",
+      "view": "Chart Notes empty state with full left nav, patient banner and header",
+      "patient": "Jerry Mathews, Male/5, ID PAT0001, DOB May 09 2019"
+    }
+  ]
+}

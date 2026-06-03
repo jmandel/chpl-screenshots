@@ -1,0 +1,73 @@
+{
+  "type": "active",
+  "seed": "random",
+  "sampleSize": 5,
+  "totalVendors": 469,
+  "vendors": [
+    {
+      "developerId": 2129,
+      "developer": "AiTmed Inc.",
+      "website": "https://www.aitmed.com/",
+      "productCount": 1,
+      "listingCount": 1,
+      "topProducts": [
+        {
+          "name": "AiTmed Telehealth System",
+          "listings": 1
+        }
+      ]
+    },
+    {
+      "developerId": 1143,
+      "developer": "Commure",
+      "website": "http://commure.com",
+      "productCount": 1,
+      "listingCount": 1,
+      "topProducts": [
+        {
+          "name": "PatientKeeper",
+          "listings": 1
+        }
+      ]
+    },
+    {
+      "developerId": 1822,
+      "developer": "OT EMR, Inc.",
+      "website": "https://onetouchemr.com",
+      "productCount": 1,
+      "listingCount": 1,
+      "topProducts": [
+        {
+          "name": "OneTouch EMR",
+          "listings": 1
+        }
+      ]
+    },
+    {
+      "developerId": 2181,
+      "developer": "PipelineRx",
+      "website": "https://www.pipelinerx.com/",
+      "productCount": 1,
+      "listingCount": 1,
+      "topProducts": [
+        {
+          "name": "PowerGridRx",
+          "listings": 1
+        }
+      ]
+    },
+    {
+      "developerId": 2104,
+      "developer": "TriMed Technologies",
+      "website": "https://www.trimedtech.com/",
+      "productCount": 1,
+      "listingCount": 1,
+      "topProducts": [
+        {
+          "name": "TriMed Complete",
+          "listings": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "vendor": "Kanrad Technologies Inc",
+  "product": "KanTime Health",
+  "website": "https://www.kantime.com",
+  "slug": "kanrad-technologies-inc",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "capturedDate": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-episode-management-balak.png",
+      "description": "Episode Management view with full app chrome (top menu, client tabs, schedule summary calendar). Patient banner: Client Balak, Mike; Admit Number 1-70; Certification Period 26-03/01/2014-04/29/2014; Active Census.",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/5a9a5038-3392-4343-baa0-50ba63be65aa.png"
+    },
+    {
+      "file": "02-oasis-clinical-record-clark.png",
+      "description": "Start of Care / OASIS clinical record with patient tracking tabs and validation report modal. Patient banner: Clark, Anna; SOC 03/27/2014; Episode 1.",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/46f37241-9a8d-4a96-b49a-9f5bcc24be7d.png"
+    },
+    {
+      "file": "03-client-calendar-balak.png",
+      "description": "Client Calendar scheduling view with full app menu and weekly/monthly visit grid plus new-schedule modal. Client: Balak, Mike (Ped-446-2); Admit No 70.",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/6776e373-4888-4448-bba7-edb0d2034858.png"
+    },
+    {
+      "file": "04-oasis-validation-report.png",
+      "description": "KanTime OASIS Validation Report over Start of Care chart with full app chrome. Patient Information: Client Adult, KanTime; Time Point SOC; Episode 1 03/08/2021-05/06/2021.",
+      "source": "https://softwareconnect.com/images/screenshot-kantime-clinical-poc-360021"
+    },
+    {
+      "file": "05-episode-management-assessments.png",
+      "description": "Episode Management with assessments list and schedule summary calendar, full app chrome. Patient banner shows Client name, Admit Number, Certification Period and Census status.",
+      "source": "https://softwareconnect.com/images/screenshot-kantime-episode-management-360022"
+    }
+  ]
+}

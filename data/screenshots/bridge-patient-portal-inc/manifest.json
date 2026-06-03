@@ -1,0 +1,34 @@
+{
+  "slug": "bridge-patient-portal-inc",
+  "vendor": "Bridge Patient Portal Inc.",
+  "product": "BridgeInteract",
+  "website": "https://www.bridgeinteract.io/",
+  "source": "Brave image search (cheap pass)",
+  "images": [
+    {
+      "file": "01-intake-form-demographics.png",
+      "source_url": "https://a.fsdn.com/con/app/proj/bridge-patient-portal.s/screenshots/patient-selfassessment-desktop.png",
+      "desc": "Full app: digital intake/self-assessment form with patient demographics (name Bridge, Joe; DOB 09/16/1985; gender). Sidebar + header banner + main work area."
+    },
+    {
+      "file": "02-appointments-request.png",
+      "source_url": "https://a.fsdn.com/con/app/proj/bridge-patient-portal.s/screenshots/desktop-scheduling.png",
+      "desc": "Full app: appointments list and request-appointment panel for patient Bridge, Joe. Sidebar + header banner + main work area."
+    },
+    {
+      "file": "03-medical-records-dashboard.png",
+      "source_url": "https://www.bridgeinteract.io/static/9992571c86c593bd40f3dc4fba64e56d/67b2b/medical-records-portal-min.png",
+      "desc": "Full app: medical records dashboard (allergies, conditions, medications, documents) for patient Bridge, Joe in header. Laptop view with sidebar + header."
+    },
+    {
+      "file": "04-patient-education.png",
+      "source_url": "https://www.bridgeinteract.io/static/2ff5201f1e6e454fbd613fe12ffcb311/9d61b/patient-education-desktop-min.png",
+      "desc": "Full app: patient education/Make Better Health Decisions page; patient Bridge, Joe in header banner. Sidebar + header + main work area."
+    },
+    {
+      "file": "05-admin-create-campaign.png",
+      "source_url": "https://a.fsdn.com/con/app/proj/bridge-patient-portal.s/screenshots/broadcast-messaging-desktop.png",
+      "desc": "Full admin app: create campaign / broadcast messaging with patient roster (names, emails). Admin sidebar + header banner (Bridge, Admin) + main work area."
+    }
+  ]
+}

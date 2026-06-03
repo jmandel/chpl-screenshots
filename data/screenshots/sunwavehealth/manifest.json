@@ -1,0 +1,14 @@
+{
+  "slug": "sunwavehealth",
+  "vendor": "SunwaveHealth",
+  "product": "SunwaveHealth EMR Platform",
+  "website": "https://www.sunwavehealth.com/",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-treatment-plan-patient-banner.png",
+      "source": "https://www.findemr.com/image/cache/catalog/1product%20pic/Sunwave%20Software/sunwave%20(1)-600x375.jpg",
+      "description": "Sunwave EMR Individual Treatment Plan view: left icon sidebar, top header banner (Welcome Sunwave Admin), patient demographics banner (MRN 1115, Patient's Name Doyle, Brett M, DOB, Primary Counselor, Admission/Planned Discharge, Level of Care), module tabs (Demographics, Intake, Insurance, Notes, Psycho-Social, Treatment Plan, etc.) and treatment plan grid."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "4th-dimension-emr-inc",
+  "vendor": "4th Dimension EMR, Inc",
+  "product": "4D EMR",
+  "website": "https://www.4d-emr.com",
+  "capturedAt": "2026-06-03",
+  "source": "brave-image-search-cheap-pass",
+  "images": [
+    {
+      "file": "01-patient-summary.png",
+      "desc": "Patient summary view (Rex Edgeworth, #2176, DOB 2/1/2000) with allergies, alerts, balance, past surgery cards",
+      "patient": "Rex Edgeworth",
+      "sourceUrl": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/f68f38f1-5f0e-4887-83ec-3445df84b9e9.png"
+    },
+    {
+      "file": "02-patient-profile.png",
+      "desc": "Patient profile/demographics tab (Roberta B Bruce, Account 3006, DOB 3/8/1960)",
+      "patient": "Roberta B Bruce",
+      "sourceUrl": "https://www.ehrinpractice.com/pictures/4D%20EMR%20patient%20information.jpg"
+    },
+    {
+      "file": "03-money-sales.png",
+      "desc": "Money/Sales view with product catalog and cart (Joan Arc, #3007, DOB 2/25/2000)",
+      "patient": "Joan Arc",
+      "sourceUrl": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/4b6a8e82-4f76-47fd-a70e-6c922da55144.png"
+    },
+    {
+      "file": "04-new-quote.png",
+      "desc": "New Quote form with procedures and supplies (Joan Arc, #3007, DOB 2/25/2000)",
+      "patient": "Joan Arc",
+      "sourceUrl": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/aee0d75e-3f4a-495f-b82d-8209b77e3329.png"
+    },
+    {
+      "file": "05-quote-detail.png",
+      "desc": "Quote detail under Quotes tab (Roberta B Bruce, #3006, DOB 3/8/1960)",
+      "patient": "Roberta B Bruce",
+      "sourceUrl": "https://www.ehrinpractice.com/pictures/4D%20EMR%20insurance%20billing.jpg"
+    },
+    {
+      "file": "06-patient-transactions.png",
+      "desc": "Patient sales/transactions with product cards and cart (Joan Arc, #3007, DOB 2/25/2000)",
+      "patient": "Joan Arc",
+      "sourceUrl": "https://www.ehrinpractice.com/pictures/4D%20EMR%20patient%20transactions.jpg"
+    },
+    {
+      "file": "07-physical-exam.png",
+      "desc": "Physical Exam charting modal over patient chart (Melanie Goldstein, #3277, DOB 1/30/1972)",
+      "patient": "Melanie Goldstein",
+      "sourceUrl": "https://www.ehrinpractice.com/pictures/4D%20EMR%20charting.jpg"
+    }
+  ]
+}

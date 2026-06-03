@@ -1,0 +1,40 @@
+{
+  "vendor": "Azalea Health",
+  "product": "Azalea EHR",
+  "website": "https://www.azaleahealth.com",
+  "slug": "azalea-health",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "capturedDate": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-vailas-chart.png",
+      "description": "Azalea EHR patient chart (encounter note) for demo patient Nick Vailas. Full app: top nav (Home/Scheduler/Patients/Encounters...), red patient banner with name, DOB 02/02/1962, MRN MU523, sex; chart work area with Chief Complaint, Subjective/Objective/Assessment, diagnosis codes.",
+      "sourceUrl": "https://emrsystems.net/wp-content/themes/reviews-child/images/screen-clinicals-exam-new.jpg",
+      "patient": "Nick Vailas (demo)"
+    },
+    {
+      "file": "02-vailas-patient-record.png",
+      "description": "Azalea EHR Patient Record / Dashboard for demo patient Nick Vailas. Full app: left sidebar (Details/Documents/Medical/Billing), top nav, patient banner with DOB/MRN, Patient Summary panel with demographics (name, providers, DOB, gender, address, phone).",
+      "sourceUrl": "https://www.findemr.com/image/cache/catalog/1product%20pic/Azalea%20Health/azalea-health-patient-dashboard1-600x375.jpg",
+      "patient": "Nick Vailas (demo)"
+    },
+    {
+      "file": "03-anderson-procedure-chart.png",
+      "description": "Azalea EHR chart with Decadron Injection procedure / CPT code entry for demo patient Michael Anderson. Full app: top nav, red patient banner (Michael Anderson, 61 y.o. Male MU455), left chart menu, Subjective Notes/Plan work area.",
+      "sourceUrl": "https://www.findemr.com/image/cache/catalog/1product%20pic/Azalea%20Health/azalea-health-600x375.jpg",
+      "patient": "Michael Anderson (demo)"
+    },
+    {
+      "file": "04-anderson-add-order.png",
+      "description": "Azalea EHR Add Order modal over Michael Anderson chart. Full app behind modal; patient banner (Michael Anderson, 61 y.o. Male, MU455 MRN# $SMC); order form with provider, insurance, lab, diagnosis codes.",
+      "sourceUrl": "https://emrsystems.net/wp-content/uploads/2025/11/Azalea-Health-EMR-Software-Patient-Appointment-1024x622.webp",
+      "patient": "Michael Anderson (demo)"
+    },
+    {
+      "file": "05-anderson-chart-summary.png",
+      "description": "Azalea EHR Chart Summary for demo patient Michael Anderson. Full app: top nav, left chart sidebar, patient banner, Patient Summary with provider/location/DOB/MRN, Allergies, Chief Complaint, Subjective sections.",
+      "sourceUrl": "https://emrsystems.net/wp-content/uploads/2025/11/Azalea-Health-EMR-Software-Patient-Lab-Information-Systems-1024x622.webp",
+      "patient": "Michael Anderson (demo)"
+    }
+  ]
+}

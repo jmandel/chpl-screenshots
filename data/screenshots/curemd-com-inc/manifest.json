@@ -1,0 +1,27 @@
+{
+  "vendor": "CureMD.com, Inc.",
+  "product": "CureMD SMART Cloud",
+  "website": "https://www.curemd.com/",
+  "slug": "curemd-com-inc",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-physical-exam-neck.png",
+      "sourceUrl": "https://www.ehrinpractice.com/pictures/1042/show/800x500/CureMD+EHR+Software+Screenshot+2.jpg",
+      "description": "CureMD SMART Cloud EHR full application: top nav header (Personal, Patient, Scheduler, Billing, Claims), left clinical module tree sidebar (Registration, Provider Notes, Clinical, Orders & Results, etc.), patient banner (H phone, Allergy NKDA, Primary Plan Empire BCBS, plan/patient balance), and Physical Exam (Neck) work area with body diagrams, surface/trachea/lymph node checklists.",
+      "product": "CureMD SMART Cloud"
+    },
+    {
+      "file": "02-dermatology-body-chart.png",
+      "sourceUrl": "https://www.ehrinpractice.com/pictures/1038/show/x500/CureMD+EHR+Software+Screenshot+3.jpg",
+      "description": "CureMD SMART Cloud EHR (Dermatology Center) full application: top nav header, left clinical module tree sidebar, patient banner (email jessica.jones@aol.com, Allergy NKDA, Primary Plan Empire BCBS, balances), and Physical Exam Body Chart work area showing diagnoses (Basal Cell Carcinoma, Neoplasm Uncertain Behavior) on anatomical body diagrams.",
+      "product": "CureMD SMART Cloud"
+    },
+    {
+      "file": "03-patient-portal.png",
+      "sourceUrl": "https://www.ehrinpractice.com/pictures/1041/show/x500/CureMD+EHR+Software+Screenshot+1.jpg",
+      "description": "CureMD Patient Portal (CureMD Medical Center) full application: header with practice info, left navigation menu (My Health: History, Diagnoses, Medications, Labs; My Appointments; My Alerts; My Doctor), and main work area with patient demographics, diagnoses, medications, allergies, complaints, lab result trend chart, and recent vitals.",
+      "product": "CureMD SMART Cloud"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "paix-technologies",
+  "vendor": "PAIX Technologies",
+  "product": "Harmony EHR PM",
+  "website": "https://www.paix-tech.com/",
+  "source": "Brave image search (cheap pass)",
+  "capturedFrom": "https://www.paix-tech.com/images/products/",
+  "notes": "PatientView/Harmony screenshots from vendor site. Demo patient 'Joe J. Brown', Holy Name Hospital. Full app views with left sidebar, header, work area, and patient banner (name, DOB 05/17/1981, MR# M003024885, Episode #).",
+  "images": [
+    { "file": "01-patient-chart-triage.png", "source": "https://www.paix-tech.com/images/products/PatientView-Chart-Triage.png", "desc": "Patient Chart > Triage with patient banner and content sources panel" },
+    { "file": "02-chart-triage-audit-log.png", "source": "https://www.paix-tech.com/images/products/patientview-chart-triage-audit.png", "desc": "Triage screenings with Chart Audit Log and right-side patient banner" },
+    { "file": "03-mar.png", "source": "https://www.paix-tech.com/images/products/PatientView-MAR.png", "desc": "Medication Administration Record with patient banner" },
+    { "file": "04-person-central-episode-lifecycle.png", "source": "https://www.paix-tech.com/images/products/PatientView-EpisodeLifeCycle.png", "desc": "Person Central episode lifecycle with episode/patient banner" },
+    { "file": "05-person-central-menu-collapsed.png", "source": "https://www.paix-tech.com/images/products/patientview-leftmenu-collapsed.png", "desc": "Person Central overview, left menu collapsed, with MRN/DOB banner" },
+    { "file": "06-person-central-menu-expanded.png", "source": "https://www.paix-tech.com/images/products/patientview-leftmenu-expanded.png", "desc": "Person Central overview, left menu expanded" }
+  ]
+}

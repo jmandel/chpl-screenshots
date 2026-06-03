@@ -1,0 +1,15 @@
+{
+  "vendor": "PipelineRx",
+  "product": "PowerGridRx",
+  "slug": "pipelinerx",
+  "website": "https://www.pipelinerx.com/",
+  "capturedVia": "brave-image-search",
+  "screenshots": [
+    {
+      "file": "01-powergridrx-order-verification.png",
+      "sourceUrl": "https://pipelinerx.com/wp-content/uploads/pharm-saas-monitor-edit-final-mobile.png",
+      "description": "PowerGridRx order review & verification view: top nav/header with PipelineRx branding and tabs, patient banner (name, DOB, MRN), allergy/summary sidebar, and a medication order list work area with status, dosage, frequency, schedule columns.",
+      "patientDemographics": ["name", "DOB", "MRN"]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "vendor": "MEDHOST",
+  "product": "MEDHOST Enterprise - Clinicals",
+  "slug": "medhost",
+  "website": "https://www.medhost.com",
+  "source": "Brave image search (cheap pass)",
+  "images": [
+    {
+      "file": "01-clinicals-triage-chart.png",
+      "sourceUrl": "https://www.findemr.com/image/cache/catalog/1product%20pic/MedHost/medhost1-600x375.jpg",
+      "description": "MEDHOST desktop EHR (OpCenter) with provider header (Dr. Carter, MD), patient banner (JOSH MARVEL, 53yo), Nurse Chart tab showing triage/vitals, full sidebar and tabbed main work area."
+    },
+    {
+      "file": "02-patient-summary.png",
+      "sourceUrl": "https://www.findemr.com/image/cache/catalog/1product%20pic/MedHost/Medhost-patient-summary1-600x375.jpg",
+      "description": "MEDHOST patient summary view with patient list sidebar, patient banner (Farris, Lauren, 89yo Female) including vitals, and main work area with Orders/Results/Attachments/Nurses Chart panels."
+    },
+    {
+      "file": "03-physician-doc.png",
+      "sourceUrl": "https://www.findemr.com/image/cache/catalog/1product%20pic/MedHost/Medhost%20dashboard-min-600x375.jpg",
+      "description": "MEDHOST Physician Doc note view with patient list sidebar (Madden E., 62yo) and main clinical documentation area (HPI, allergies, vitals, signatures)."
+    }
+  ]
+}

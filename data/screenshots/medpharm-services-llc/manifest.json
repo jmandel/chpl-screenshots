@@ -1,0 +1,30 @@
+{
+  "slug": "medpharm-services-llc",
+  "vendor": "MedPharm Services LLC",
+  "product": "Intelligent Medical Software (IMS)",
+  "website": "https://www.meditab.com",
+  "source": "brave-image-search-cheap-pass",
+  "capturedAt": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-ims-visit-note-patient-banner.png",
+      "sourceUrl": "https://www.emrsystems.net/wp-content/uploads/2016/12/Intelligent-Medical-Software-By-Meditab-Electronic-Health-Records-Software.webp",
+      "description": "IMS Visit Note view with full menu/toolbar, left chart-section sidebar, right action toolbar, and patient banner Patient: DOE, JOHN (0001000), DOB Feb 26 1976."
+    },
+    {
+      "file": "02-ims-patient-master.png",
+      "sourceUrl": "https://www.emrsystems.net/wp-content/uploads/2016/12/Intelligent-Medical-Software-EMR-and-Physical-Therapy-Software.webp",
+      "description": "IMS Patient Master screen with navigation menu open, header patient banner DOE, JOHN (0001000) DOB 03/26/1976, full demographics work area and right icon toolbar."
+    },
+    {
+      "file": "03-ims-prescription.png",
+      "sourceUrl": "https://www.ehrinpractice.com/pictures/IMS%20Clinical%20EHR%20Software%20Screenshot%202.jpg",
+      "description": "IMS Prescription screen with left prescriptions sidebar list, header patient banner (DOB 01/01/1980, 37y, 112 Kgs, BMI 33.49, allergy alert) and prescription detail work area."
+    },
+    {
+      "file": "04-ims-visit-note-dashboard.png",
+      "sourceUrl": "https://www.ehrinpractice.com/pictures/IMS%20Clinical%20EHR%20Software%20Screenshot%203.jpg",
+      "description": "IMS Visit Note dashboard with left chart-section sidebar, right action toolbar, patient banner (DOB 01/01/1980, 37y, 112 Kgs, BMI 33.49) and multi-panel clinical dashboard."
+    }
+  ]
+}

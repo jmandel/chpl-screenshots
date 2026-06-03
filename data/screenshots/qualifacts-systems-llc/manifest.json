@@ -1,0 +1,30 @@
+{
+  "vendor": "Qualifacts Systems, LLC",
+  "product": "CareLogic",
+  "website": "https://www.qualifacts.com",
+  "slug": "qualifacts-systems-llc",
+  "source": "brave-image-search",
+  "captured": "2026-06-03",
+  "images": [
+    {
+      "file": "01-patient-dashboard.png",
+      "desc": "CareLogic patient dashboard - full app (sidebar menu + header + Client Demographics / Treatment Plan / Scheduled Appointments work area), patient banner Henderson, Sylvia (4840) DOB 4/21/1954",
+      "source_url": "https://images.g2crowd.com/uploads/attachment/file/1373779/CareLogic-Patient-Dashboard-Default-Nav-Menu-1.png"
+    },
+    {
+      "file": "02-treatment-plan-goal-assessment.png",
+      "desc": "CareLogic Treatment Plan - Monthly Goal Assessment form, full app frame with nav + document sidebar, patient banner Henderson, Sylvia (4840) DOB 4/21/1954",
+      "source_url": "https://images.g2crowd.com/uploads/attachment/file/1373780/CareLogic-Wizard-and-Form-2.png"
+    },
+    {
+      "file": "03-admin-menu-entry.png",
+      "desc": "CareLogic Administration - Edit Menu Entry, full app frame with top nav + header, patient banner Henderson, Sylvia (4840) DOB 4/21/1954",
+      "source_url": "https://media.trustradius.com/product-screenshots/0Z/Id/IVS5HPX0E82P.png"
+    },
+    {
+      "file": "04-progress-note-treatment-plan.png",
+      "desc": "CareLogic Enterprise Progress Note w/PHQ-9, full app frame with sidebar (Goals Addressed / S.O.A.P) + top nav, Session Information for client Danger, Nick (1014)",
+      "source_url": "https://www.findemr.com/image/cache/catalog/1product%20pic/Qualifacts%20CareLogic/progress%20notes-res-600x375.jpg"
+    }
+  ]
+}

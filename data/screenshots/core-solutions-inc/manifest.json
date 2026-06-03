@@ -1,0 +1,14 @@
+{
+  "vendor": "Core Solutions Inc",
+  "product": "Cx360",
+  "slug": "core-solutions-inc",
+  "website": "https://www.coresolutionsinc.com/about/",
+  "source": "brave-image-search-cheap-pass",
+  "images": [
+    {
+      "file": "01-cx360-mobile-client-chart-problem-list.png",
+      "source_url": "https://www.findemr.com/image/cache/catalog/1product%20pic/Cx360%20Software/cx360%20(1)-600x375.jpg",
+      "description": "Cx360 Mobile EHR Client Chart - Problem List view. Left sidebar (Client Profile, Contacts, Diagnosis, Encounter, Problem List, Allergies, RSP Recovery Service Plan), top patient banner header 'Cx360 Mobile - Client Chart - John Doe, DoB:1/1/1979', main work area showing Problem List entries."
+    }
+  ]
+}

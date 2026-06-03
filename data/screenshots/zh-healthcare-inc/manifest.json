@@ -1,0 +1,30 @@
+{
+  "vendor": "ZH Healthcare, Inc.",
+  "product": "BlueEHR",
+  "website": "https://blueehr.com/",
+  "slug": "zh-healthcare-inc",
+  "source": "Brave image search (cheap pass)",
+  "capturedBy": "cheap-pass-brave",
+  "screenshots": [
+    {
+      "file": "01-patient-profile-demographics.png",
+      "sourceUrl": "https://www.ehrinpractice.com/pictures/W1siZiIsIjIwMTgvMTAvMTEvNTcxNmNka2c5Yl9QQVRJRU5UX0hJU1RPUllfREVNT0dSQVBISUNTLnBuZyJdLFsicCIsInRodW1iIiwiODAweDUwMFx1MDAzZSJdLFsicCIsImVuY29kZSIsImpwZyIsIi1xdWFsaXR5IDg1Il1d/PATIENT%20HISTORY%20&%20DEMOGRAPHICS.jpg",
+      "description": "BlueEHR patient Profile/History view with patient banner (Mr. Doe, John, DOB 05/06/2010, Male), allergies, past visits, medications, full sidebar and header."
+    },
+    {
+      "file": "02-compose-rx-medications.png",
+      "sourceUrl": "https://www.ehrinpractice.com/pictures/W1siZiIsIjIwMTgvMTAvMTEvOGRhcTA4YWJhNl9FX1BSRVNDUklQVElPTi5wbmciXSxbInAiLCJlbmNvZGUiLCJqcGciLCItcXVhbGl0eSA4NSJdXQ/E-PRESCRIPTION.jpg",
+      "description": "BlueEHR Compose Rx / e-prescription screen showing patient John Doe (DOB 5/6/2010, Male), pending Rx, allergies and current medications, tabbed navigation."
+    },
+    {
+      "file": "03-referral-management.png",
+      "sourceUrl": "https://www.ehrinpractice.com/pictures/W1siZiIsIjIwMTgvMTAvMTEvOHg3YWFwbTVuaV9SRUZFUlJBTF9NQU5BR0VNRU5ULnBuZyJdLFsicCIsInRodW1iIiwiODAweDUwMFx1MDAzZSJdLFsicCIsImVuY29kZSIsImpwZyIsIi1xdWFsaXR5IDg1Il1d/REFERRAL%20MANAGEMENT.jpg",
+      "description": "BlueEHR Referral Management form with patient banner (Mr. Doe, John) and assigned patient John Doe, full app chrome with sidebar/header."
+    },
+    {
+      "file": "04-schedule-appointment.png",
+      "sourceUrl": "https://www.ehrinpractice.com/pictures/W1siZiIsIjIwMTgvMTAvMTEvOGUwajloamdpel9TQ0hFRFVMSU5HMS5wbmciXSxbInAiLCJ0aHVtYiIsIjgwMHg1MDBcdTAwM2UiXSxbInAiLCJlbmNvZGUiLCJqcGciLCItcXVhbGl0eSA4NSJdXQ/SCHEDULING1.jpg",
+      "description": "BlueEHR scheduling calendar with Schedule Appointment modal showing patient Mr. Doe, John, date/time, provider; patient banner in header."
+    }
+  ]
+}

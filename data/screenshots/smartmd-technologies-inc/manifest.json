@@ -1,0 +1,22 @@
+{
+  "slug": "smartmd-technologies-inc",
+  "vendor": "SMARTMD Technologies, Inc.",
+  "product": "SMARTMD Palliative",
+  "website": "https://www.smartmd.com/",
+  "source": "Brave image search (official API)",
+  "captured": "2026-06-03",
+  "images": [
+    {
+      "file": "01-smartmd-web-billing-schedule-desktop.jpg",
+      "source_url": "https://www.smartmd.com/wp-content/uploads/ios-and-workstation-wp-tiny.jpg",
+      "description": "SMARTMD web application (web-a.smartmd.com) Billing/Schedule view with top nav (Schedule, Patients, Billing, Report, Referrals, Messages, Upload, History, Profiles) and patient billing list showing demographics (Loken Kyle S, Clemons Kimberly K, etc.); iPad/iPhone show Abe Lincoln chart with DOS and demographics.",
+      "notes": "Full EHR application view + visible patient demographics."
+    },
+    {
+      "file": "02-smartmd-ipad-chart-note-charges.jpg",
+      "source_url": "https://www.smartmd.com/wp-content/uploads/Chart-Swipe-full-width.jpg",
+      "description": "SMARTMD iPad app chart screens (Checkin Form, image, progress note, charges/diagnosis) with patient banner Abe Lincoln, DOB 07/01/1967, and full bottom nav (Patient, Templates, Documents, Charges, Dictate, Photo, Upload).",
+      "notes": "Full app views with patient banner/demographics."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "vendor": "athenahealth, Inc.",
+  "product": "athenaClinicals",
+  "website": "https://www.athenahealth.com",
+  "slug": "athenahealth-inc",
+  "source": "brave-image-search",
+  "capturedAt": "2026-06-03",
+  "images": [
+    {
+      "file": "01-athenaone-diagnosis-gaps-patrick-thorpe.png",
+      "sourceUrl": "https://assethub.athenahealth.com/transform/d675632c-2474-4073-b317-2c58b0868ca8/EHR-Interface-Screenshot",
+      "screen": "athenaOne Review - Diagnosis Gaps",
+      "patient": "Patrick Thorpe, 36yo M, DOB 01-01-1900, #1234"
+    },
+    {
+      "file": "02-athenaone-reason-for-visit-jake-medlock.png",
+      "sourceUrl": "https://assethub.athenahealth.com/transform/e360595c-6bac-4bae-81a7-7409dbd9d517/AthenaOne-Interface",
+      "screen": "athenaOne intake - Reason for Visit",
+      "patient": "Jake Medlock, 61yo M, DOB 02-28-1955, #14545"
+    },
+    {
+      "file": "03-athenanet-intake-summary-judy-tully.png",
+      "sourceUrl": "https://images.softwaresuggest.com/latest_screenshots/1561712005987_1_b_74.png",
+      "screen": "athenaNet patient summary / Intake",
+      "patient": "Judy Tully, 52yo F, DOB 03-09-1963, #2443"
+    },
+    {
+      "file": "04-athenanet-assessment-plan-jake-medlock.png",
+      "sourceUrl": "https://images.softwaresuggest.com/latest_screenshots/1561712005998_4_b_74.png",
+      "screen": "athenaNet Assessment & Plan - Diagnoses & Orders",
+      "patient": "Jake Medlock, 69yo M, DOB 07-15-1946, #2446"
+    },
+    {
+      "file": "05-athenanet-review-of-systems-jake-medlock.png",
+      "sourceUrl": "https://images.softwaresuggest.com/latest_screenshots/1561712005991_2_b_74.png",
+      "screen": "athenaNet Review of Systems",
+      "patient": "Jake Medlock, 69yo M, DOB 07-15-1946, #2446"
+    },
+    {
+      "file": "06-athenanet-hpi-jake-medlock.png",
+      "sourceUrl": "https://www.ehrinpractice.com/pictures/802/show/800x500/athenaone-4.jpg",
+      "screen": "athenaNet History of Present Illness",
+      "patient": "Jake Medlock, 69yo M, DOB 06-24-1946, #2446"
+    },
+    {
+      "file": "07-athenanet-review-hyperlipidemia-jake-medlock.png",
+      "sourceUrl": "https://www.ehrinpractice.com/pictures/799/show/800x500/athenaone-3.jpg",
+      "screen": "athenaNet Review - Hyperlipidemia trend graph",
+      "patient": "Jake Medlock, 69yo M, DOB 06-24-1946, #2446"
+    },
+    {
+      "file": "08-athenanet-vitals-jake-medlock.png",
+      "sourceUrl": "https://www.findemr.com/image/cache/catalog/1product%20pic/athenaclinicals/athenaone-track%20patient%20vitals-600x375.png",
+      "screen": "athenaNet Follow-up - Vitals",
+      "patient": "Jake Medlock, 69yo M, DOB 06-24-1946, #2446"
+    },
+    {
+      "file": "09-athenanet-patient-summary-jake-medlock.png",
+      "sourceUrl": "https://emrsystems.net/wp-content/uploads/2025/11/athenahealth-EMR-Software-Patient-Data-1024x574.webp",
+      "screen": "athenaNet patient summary - Allergies/Meds/Problems/Intake",
+      "patient": "Jake Medlock, 69yo M, DOB 06-24-1946, #2446"
+    }
+  ]
+}

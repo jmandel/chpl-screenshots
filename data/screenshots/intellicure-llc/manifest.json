@@ -1,0 +1,16 @@
+{
+  "vendor": "Intellicure, LLC",
+  "product": "IntellicureEHR",
+  "slug": "intellicure-llc",
+  "website": "https://www.intellicure.com/",
+  "source": "Brave image search (cheap pass)",
+  "captured": "2026-06-03",
+  "images": [
+    {
+      "file": "01-charting-visit-details-bradshaw-curtis.png",
+      "sourceUrl": "https://www.intellicure.com/wp-content/uploads/2024/02/Picture12.png",
+      "description": "IntellicureEHR Charting / Visit Details view with left navigation sidebar (Home, Scheduler, Registration, Charting, Documents, Patient Billing), Intellicure header, and patient banner 'Bradshaw, Curtis'. Chief Complaint and visit fields shown. Marketing annotation arrow present.",
+      "patient": "Bradshaw, Curtis (demo)"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "vendor": "Mediportal",
+  "product": "M-Power",
+  "slug": "mediportal",
+  "website": "https://www.mediportal.com/",
+  "source": "Brave image search (cheap pass)",
+  "capturedBy": "cheap-pass-brave",
+  "screenshots": [
+    {
+      "file": "01-patient-chart-john-smith.png",
+      "sourceUrl": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/6f29730d-08ab-4973-8dad-540a6f89fd5f.png",
+      "description": "Mediployal M-Power EMR patient chart for demo patient John Smith (ID 10). Full app view: left nav and top menu (Billing, Reports, Admin/Settings), header (Welcome Joshua Miller), patient banner with DOB 06/13/2017, Sex Male, Internal ID 10, SSN, insurance carrier Blue Cross Blue Shield, plus video console and clinical reminders panel.",
+      "patient": "John Smith (demo, ID 10, DOB 06/13/2017)"
+    }
+  ]
+}

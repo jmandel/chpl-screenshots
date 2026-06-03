@@ -1,0 +1,57 @@
+{
+  "vendor": "Medical Informatics Engineering",
+  "product": "WebChart EHR",
+  "website": "http://www.webchartnow.com",
+  "slug": "medical-informatics-engineering",
+  "capturedVia": "Brave image search (cheap pass)",
+  "screenshots": [
+    {
+      "file": "01-patient-summary.png",
+      "view": "Patient Summary",
+      "patient": "Hart, William S (MRN MIE-10018)",
+      "source": "https://emrfinder.com/wp-content/uploads/2017/12/WebChart-EHR-Software-patient-portal.webp"
+    },
+    {
+      "file": "02-patient-summary-demographics.png",
+      "view": "Patient Summary with demographics panel and photo",
+      "patient": "Hart, William S (MRN MIE-10019)",
+      "source": "https://www.findemr.com/image/cache/catalog/1product pic/WebChart/webchart (4)-600x375.jpg"
+    },
+    {
+      "file": "03-test-results-labs.png",
+      "view": "Test Results / Labs (ESRD CMP, Lytes Panel)",
+      "patient": "Williams, Claire (with DOB/MRN banner)",
+      "source": "https://emrfinder.com/wp-content/uploads/2017/12/WebChart-EHR-Software-patient-record-dashboard-1024x683.webp"
+    },
+    {
+      "file": "04-current-medications.png",
+      "view": "Current Medications",
+      "patient": "Williams, Lisa (with banner)",
+      "source": "https://emrfinder.com/wp-content/uploads/2017/12/Webchart-EMR-software-Current-medications-1024x683.webp"
+    },
+    {
+      "file": "05-current-medications-list.png",
+      "view": "Current Medications list",
+      "patient": "Hart, William S (MRN MIE-10019)",
+      "source": "https://www.findemr.com/image/cache/catalog/1product pic/WebChart/webchart (1)-600x375.jpg"
+    },
+    {
+      "file": "06-test-results-protime.png",
+      "view": "Test Results detail (PROTIME / PT, INR)",
+      "patient": "Hart, William S (MRN MIE-10019)",
+      "source": "https://www.findemr.com/image/cache/catalog/1product pic/WebChart/webchart (6)-600x375.jpg"
+    },
+    {
+      "file": "07-test-results-detail.png",
+      "view": "Test Results detail view",
+      "patient": "Hart, William S (MRN MIE-10019)",
+      "source": "https://a.fsdn.com/con/app/proj/webchart.s/screenshots/1-a6b5a4de.PNG/1000/auto/1"
+    },
+    {
+      "file": "08-reports-health-maintenance.png",
+      "view": "Reports / Health Maintenance guidelines",
+      "patient": "Williams, Lisa (with banner)",
+      "source": "https://emrfinder.com/wp-content/uploads/2017/12/WebChart-EMR-Software-patient-results-dashboard-1024x683.webp"
+    }
+  ]
+}

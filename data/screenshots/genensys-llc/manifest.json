@@ -1,0 +1,20 @@
+{
+  "slug": "genensys-llc",
+  "vendor": "Genensys LLC",
+  "product": "Simplify EMR",
+  "website": "http://www.genensys.com/",
+  "source": "Brave image search (cheap pass)",
+  "captured": "2026-06-03",
+  "images": [
+    {
+      "file": "01-patient-list.png",
+      "source_url": "https://www.findemr.com/image/cache/catalog/1product%20pic/Genensys/genensys%20(3)-600x375.jpg",
+      "description": "Simplify EMR Patient List view: full app (header menu + tabs) with patient demographics grid (last/first name, DOB, age, gender, insurance, race, language, diagnosis, dates)."
+    },
+    {
+      "file": "02-home-dashboard.png",
+      "source_url": "https://www.findemr.com/image/cache/catalog/1product%20pic/Genensys/genensys%20(1)-600x375.jpg",
+      "description": "Simplify EMR Home dashboard for Genensys Test Clinic: full app view with Tasks, Waiting Room (patient names), Today's Schedule, Open Encounters, Appointment Requests."
+    }
+  ]
+}

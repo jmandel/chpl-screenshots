@@ -1,0 +1,25 @@
+{
+  "vendor": "Global Support Systems",
+  "product": "TurboPT",
+  "website": "https://www.turbopt.com",
+  "slug": "global-support-systems",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "capturedDate": "2026-06-03",
+  "notes": "TurboPT publishes only device-mockup marketing renders; no flat clean app screenshots were found via Brave. Both keepers are real working-software views composited into device frames at an angle. 01 is the Patient Records module (full sidebar + header + patient list + demographics detail form; field labels legible, values blank/demo). 02 is the Patient Chart with a populated patient banner (KARP, ALEXANDER + patient ID/DOB + photo).",
+  "screenshots": [
+    {
+      "file": "01-patient-records-demographics.png",
+      "source": "https://turbopt.com/images/app_image.webp",
+      "view": "Patient Records / Demographics",
+      "demographics": "demographics form with labeled fields (Code, First/Last Name, Birthday, Address, City/State/Zip, Email, phones, photo); values blank/demo",
+      "deviceFrame": "Surface tablet, angled"
+    },
+    {
+      "file": "02-patient-chart.png",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/dc8ad627-dbb0-4d6a-a212-94b8e3312bb3.png",
+      "view": "Patient Chart",
+      "demographics": "patient banner KARP, ALEXANDER with patient ID/DOB line and photo",
+      "deviceFrame": "tablet held in hand, angled"
+    }
+  ]
+}

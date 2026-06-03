@@ -1,0 +1,35 @@
+{
+  "vendor": "NovoMedici, LLC",
+  "product": "NovoClinical",
+  "website": "https://www.novomedici.com/",
+  "slug": "novomedici-llc",
+  "capturedBy": "cheap-pass-brave-images",
+  "date": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-appointment-list.png",
+      "description": "NovoClinical appointment list / scheduling work area with full top nav, header, time-slot grid; patient banner 'TRAINING DOCTOR / JOHN TEST / DEPRESSION', balance $200.00, with action context menu (demography, vitals, claim, ledger).",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/da930759-7370-4d33-9164-4130ea973e70.png"
+    },
+    {
+      "file": "02-history-and-physical.png",
+      "description": "Patient chart 'History and Physical' view with left clinical sidebar, top nav, patient tab 'JOHN TEST', and right-rail summary (medications, problems, allergies, surgeries, visits).",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/ede261b0-5a80-4982-aa14-48228a0f8895.png"
+    },
+    {
+      "file": "03-patient-records-summary.png",
+      "description": "Patient records / summary chart view with sidebar (Report sections), top nav tabs, patient banner 'JOHN TEST', present medical condition list and right-rail clinical summary.",
+      "source": "https://www.emrsystems.net/wp-content/uploads/2025/11/NovoClinical-EMR-Software-Patient-Lab-Report.webp"
+    },
+    {
+      "file": "04-doctor-outpatient-lab-results.png",
+      "description": "Doctor outpatient lab/pathology results screen (alternate brown theme) with full top nav, ordered-items sidebar, results panel and order/message panel; patient banner 'Patient name - One Patient'.",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/c37fbaa0-24e7-4405-9610-cc81803ea3e5.png"
+    },
+    {
+      "file": "05-progress-note.png",
+      "description": "Progress note documentation screen (brown theme) with top nav, tabbed clinical sections, ROS/exam free-text area; patient banner 'Patient: Test test' with MRN/DOB and pre-appointment summary panel.",
+      "source": "https://www.findemr.com/image/cache/catalog/1product%20pic/Novo/novoclinical-doctor%20report-min-600x375.png"
+    }
+  ]
+}

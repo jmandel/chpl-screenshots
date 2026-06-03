@@ -1,0 +1,37 @@
+{
+  "vendor": "MicroFour, Inc.",
+  "product": "PracticeStudio",
+  "website": "http://www.practicestudio.net",
+  "slug": "microfour-inc",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-lesions-derm-patient-banner.png",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/7b5a7a79-2769-4b64-9353-1b1d9c9e3066.png",
+      "view": "Dermatology Lesions / anatomical face mapping",
+      "patient": "Duck, Daffy (DD), DOB 15/07/1936",
+      "notes": "Full app: top menu bar, left sidebar, header patient banner with name and DOB, main lesion-mapping work area."
+    },
+    {
+      "file": "02-lab-chronograph-patient-banner.png",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/a97742d7-1ebf-4b3a-b05a-88fc536e4f0b.png",
+      "view": "Lab Results Chronograph (trended lab grid)",
+      "patient": "Plum, Stephanie, DOB 07/15/1965",
+      "notes": "Full app: top menu bar (Home/Discard/Page/Review/Media/Options), header patient banner with name and DOB, lab-results grid work area."
+    },
+    {
+      "file": "03-image-capture-markup.png",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/2ff52ad6-ae3c-4905-a6de-632f3394289f.png",
+      "view": "Image Capture and Markup (x-ray markup)",
+      "patient": "Mona M. (visible in header banner)",
+      "notes": "Full app: top menu bar, left sidebar (Import/Capture/Markup), header patient banner, image work area."
+    },
+    {
+      "file": "04-transaction-posting.png",
+      "source": "https://www.emrsystems.net/wp-content/uploads/2016/10/Practice-studio-EHR-software-by-microfour.webp",
+      "view": "Transaction Posting (billing/charge entry ledger)",
+      "patient": "Parque_Eorkent with chart number 000992",
+      "notes": "Full app: top menu bar, charge/ledger work area, patient identified in header and ledger row."
+    }
+  ]
+}

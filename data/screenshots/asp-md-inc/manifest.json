@@ -1,0 +1,19 @@
+{
+  "slug": "asp-md-inc",
+  "vendor": "ASP.MD Inc.",
+  "product": "ASP.MD Medical Office System",
+  "website": "https://www.asp.md/",
+  "source": "Brave image search (official API)",
+  "capturedFrom": "https://www.asp.md/ (vendor screenshots, /wp-content/uploads/2017/06/)",
+  "demoPatient": "POPPINS, MARY (DOB 1/1/1954, ID 1052540) - demo practice",
+  "images": [
+    { "file": "01-clinical-overview.png", "url": "https://www.asp.md/wp-content/uploads/2017/06/Clinical-overview.png", "view": "Clinical overview / patient chart summary" },
+    { "file": "02-patient-demographics.png", "url": "https://www.asp.md/wp-content/uploads/2017/06/Patient-Demographics.png", "view": "Patient demographics registration" },
+    { "file": "03-problem-list.png", "url": "https://www.asp.md/wp-content/uploads/2017/06/Problem-list.png", "view": "Problem list" },
+    { "file": "04-prescribe.png", "url": "https://www.asp.md/wp-content/uploads/2017/06/Prescribe.png", "view": "Prescribing / medications" },
+    { "file": "05-order-labs.png", "url": "https://www.asp.md/wp-content/uploads/2017/06/Order-labs.png", "view": "Lab order entry" },
+    { "file": "06-lab-results.png", "url": "https://www.asp.md/wp-content/uploads/2017/06/Lab-results.png", "view": "Lab results review" },
+    { "file": "07-note-writing.png", "url": "https://www.asp.md/wp-content/uploads/2017/06/Comprehensive-note-writing-with-templates-and-checklists.png", "view": "Note writing with templates/checklists" },
+    { "file": "08-billing-details.png", "url": "https://www.asp.md/wp-content/uploads/2017/06/Billing-Details.png", "view": "Billing details" }
+  ]
+}

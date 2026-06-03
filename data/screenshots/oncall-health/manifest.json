@@ -1,0 +1,34 @@
+{
+  "vendor": "OnCall Health",
+  "product": "OnCall Health",
+  "website": "https://oncallhealth.com",
+  "slug": "oncall-health",
+  "source": "brave-image-search",
+  "captured": "2026-06-03",
+  "images": [
+    {
+      "file": "01-roster-patient-appointments.png",
+      "source_url": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/77215c56-5505-4ad0-9cb5-a534b60f2954.png",
+      "view": "Roster - patient Allison Beraz, Appointments tab; left provider/contact sidebar, top nav (Appointments/Messages/Roster/Analytics), main appointment list",
+      "patient": "Allison Beraz (demo)"
+    },
+    {
+      "file": "02-roster-forms-files.png",
+      "source_url": "https://emrsystems.net/wp-content/uploads/2020/05/OnCall-Health-EMR-and-Telehealth-Software-1024x437.webp",
+      "view": "Roster - patient Lou Blake, Forms & Files tab; sidebar contacts + top nav + forms/files work area",
+      "patient": "Lou Blake (demo)"
+    },
+    {
+      "file": "03-messages-conversation.png",
+      "source_url": "https://images.softwaresuggest.com/latest_screenshots/1561702164971_4_b_69.png",
+      "view": "Messages - conversation with Helen Phan; left active/archived sidebar, top nav, message thread, right new-conversation panel with email/fee",
+      "patient": "Helen Phan (demo), helen@oncallhealth.ca"
+    },
+    {
+      "file": "04-patient-consent.png",
+      "source_url": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/a54df0b0-4f3a-41ea-8772-0b8657d619c8.png",
+      "view": "Patient consent (CarePartners Patient Consent modal) over roster; left contact sidebar with patient names/phone/email/provider visible",
+      "patient": "Allison Beraz / contact list (demo)"
+    }
+  ]
+}

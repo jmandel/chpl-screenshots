@@ -1,0 +1,35 @@
+{
+  "slug": "medflow-ehr-llc",
+  "vendor": "Medflow EHR, LLC",
+  "product": "Medflow EHR",
+  "website": "https://sightview.com/",
+  "source": "brave-image-search",
+  "captured": "2026-06-03",
+  "images": [
+    {
+      "file": "01-patient-chart-demographics.png",
+      "sourceUrl": "https://emrfinder.com/wp-content/uploads/2017/09/Medflow-EMR-Practice-Management-Software-Demographics-1024x469.webp",
+      "desc": "Medflow Intake (Salesforce-based) person account chart for patient Kim Reid, showing demographics (DOB 1/8/1957, phone, email), care status timeline, and details tab."
+    },
+    {
+      "file": "02-new-patients-list.png",
+      "sourceUrl": "https://emrfinder.com/wp-content/uploads/2017/09/Medflow-EMR-Practice-Management-Software-New-Patients-1024x470.webp",
+      "desc": "Medflow Intake new potential patients worklist with patient names, phone, email, created dates plus a demographics/insurance entry panel."
+    },
+    {
+      "file": "03-patient-dashboard-exam.png",
+      "sourceUrl": "https://emrsystems.net/wp-content/uploads/2025/10/medflow-opthalmology-emr-software-and-patient-portal-1024x529.webp",
+      "desc": "Medflow Ophthalmology Patient Dashboard for patient Scott Glaucoma (DOB 10/04/1951) with left nav sidebar, problem/medication history, and chief complaint / single screen exam work area."
+    },
+    {
+      "file": "04-patient-images-gallery.png",
+      "sourceUrl": "https://emrsystems.net/wp-content/uploads/2019/02/Medflow-EMR-Software-Ophthalmology-Software.webp",
+      "desc": "Medflow desktop Show Patient Images gallery for patient John W Clark (SEX:M AGE:63 BIRTH DATE 1/13/1948) with diagnostic image thumbnails and toolbar."
+    },
+    {
+      "file": "05-eye-draw-patient.png",
+      "sourceUrl": "https://emrsystems.net/wp-content/uploads/2019/02/Medflow-EMR-Software.webp",
+      "desc": "Medflow Eye Draw screen for patient account number 10 John W Clark AGE 64 with OD/OS fundus drawing canvases, toolbars, and patient imagery."
+    }
+  ]
+}

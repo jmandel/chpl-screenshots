@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EHR Abstraction Viewer</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header id="topbar">
+    <div class="topbar-left">
+      <button id="backBtn" class="btn hidden" title="Back to list (Esc)">&larr; List</button>
+      <h1>EHR Abstraction Viewer</h1>
+    </div>
+    <div class="topbar-right">
+      <span id="topbarRight"></span>
+      <button id="reportBtn" class="info-btn hidden" title="Coverage report">i</button>
+    </div>
+  </header>
+
+  <!-- FILTER BANNER -->
+  <div id="filterBanner" class="filter-banner hidden">
+    <span class="fb-label">Filtered:</span>
+    <span id="filterDesc"></span>
+    <span id="filterCount" class="fb-count"></span>
+    <button id="filterClear" class="fb-clear" title="Clear filter">✕ clear</button>
+  </div>
+
+  <!-- REPORT PAGE -->
+  <main id="reportView" class="view hidden">
+    <div id="reportBody" class="report-page"></div>
+  </main>
+
+  <!-- LIST VIEW -->
+  <main id="listView" class="view">
+    <div id="gallery" class="gallery"></div>
+    <div id="listEmpty" class="empty hidden">No records found in data/abstractions.ndjson</div>
+  </main>
+
+  <!-- DETAIL VIEW -->
+  <main id="detailView" class="view hidden">
+    <div class="detail-grid">
+      <section class="image-pane">
+        <div id="imageWrap" class="image-wrap">
+          <img id="detailImg" alt="screenshot" />
+          <div id="overlay" class="overlay"></div>
+        </div>
+        <div id="imageFooter" class="image-footer"></div>
+      </section>
+      <aside class="json-pane" id="jsonPane"></aside>
+    </div>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>

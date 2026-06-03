@@ -1,0 +1,25 @@
+{
+  "vendor": "Genius Solutions Inc.",
+  "product": "eTHOMAS",
+  "website": "http://www.geniussolutions.com/",
+  "slug": "genius-solutions-inc",
+  "source": "Brave image search (cheap pass)",
+  "capturedBy": "cheap-pass-brave-only",
+  "images": [
+    {
+      "file": "01-patient-information-armstrong.png",
+      "sourceUrl": "https://emrfinder.com/wp-content/uploads/2017/09/eTHOMAS-EMR-Software-patient-information.webp",
+      "description": "eTHOMAS patient Information screen - full app view with left nav tabs, header (777777 - GENIUS SOLUTIONS FAMILY PRACTICE), patient banner ARMSTRONG, JOHN with address (Troy, MI), phone, DOB 03/01/1945, SSN, policies and appointments."
+    },
+    {
+      "file": "02-patient-information-anderson-chiro.png",
+      "sourceUrl": "https://static.wixstatic.com/media/09912b_833ee65403134a7ab46f0903f789036f~mv2.png/v1/fill/w_476,h_360,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/patfile_PNG.png",
+      "description": "eTHOMAS CHIRO v9.5.19 patient Information screen - sidebar tabs, header, patient banner ANDERSON, THOMAS, account 1160, address Warren MI, DOB 07/04/1962 (54 Years), SSN, policies and appointments."
+    },
+    {
+      "file": "03-post-insurance-payment.png",
+      "sourceUrl": "https://emrfinder.com/wp-content/uploads/2025/10/eThomas-EHR-Practice-Management-Software-By-Genius-Solutions-Inc-Post-Insurance-Payment.webp",
+      "description": "eTHOMAS Post Insurance Payment screen - full app with header, patient/account info (ANDERSON) at top, ledger work area with claim/charge lines."
+    }
+  ]
+}

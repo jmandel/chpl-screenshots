@@ -1,0 +1,16 @@
+{
+  "vendor": "Vecna Technologies, Inc.",
+  "product": "PathFinder Infection Control",
+  "slug": "vecna-technologies-inc",
+  "website": "https://b-inc.com/healthcare/",
+  "source": "Brave image search (cheap pass)",
+  "captured": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-patient-registration-demographics.png",
+      "source_url": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/8523d375-17ce-419a-b223-9efec13f673a.png",
+      "description": "Vecna patient registration / intake application (Register: CT Scan) showing full app view with header navigation, progress stepper, and main work area populated with patient demographics (Name: ALBERTO RAMOS, DOB April 4 1984, Gender Male, MR: 101).",
+      "notes": "Demo/test patient. Vecna Patient Solutions software; no clinician EHR / PathFinder Infection Control chart screenshot could be found via Brave."
+    }
+  ]
+}

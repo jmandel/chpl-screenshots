@@ -1,0 +1,20 @@
+{
+  "vendor": "Wellsky",
+  "product": "WellSky Hospice & Palliative",
+  "slug": "wellsky",
+  "website": "https://wellsky.com/",
+  "source": "Brave image search (cheap pass)",
+  "capturedBy": "cheap-pass-brief",
+  "images": [
+    {
+      "file": "01-hospice-patient-dashboard.png",
+      "sourceUrl": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/2a858c57-b2dc-4d82-8559-959086a20f39.png?auto=format&q=50",
+      "description": "WellSky Hospice patient chart dashboard with full app chrome (left module sidebar, top nav, right patient banner). Patient banner: Keith, Gordon, DOB 02/18/1955, Male, MRN ABC-944498, Patient ID 944498, Dx G12.21 ALS. Shows Dashboard Alerts, care plan problems, mortality/live discharge risk."
+    },
+    {
+      "file": "02-hospice-vitalsign-charting.png",
+      "sourceUrl": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/e5050be2-08cb-49b6-abf9-2bdfc958389a.png?auto=format,compress&fit=max&w=3840&q=75&ch=Width,DPR",
+      "description": "WellSky Hospice Clinical Charts - Vital Sign Measurement form. Full app view: left exam-section nav, top nav with patient banner (Keith, Gordon), right Recent Charts panel. Blood pressure, O2 sat data entry fields."
+    }
+  ]
+}

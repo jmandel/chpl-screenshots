@@ -1,0 +1,40 @@
+{
+  "vendor": "Varian Medical Systems",
+  "product": "ARIA CORE",
+  "slug": "varian-medical-systems",
+  "website": "https://cancercare.siemens-healthineers.com/products/software/digital-oncology/oncology-management-systems/aria-core",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "capturedDate": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-aria-manager-patient-toxicity.png",
+      "description": "ARIA Manager desktop app - New Toxicities entry screen with full menu bar (Workup, Assessments, Manage Tx, Pharmacy, etc.), toolbar, and patient banner 'Jackson, Clara O - 7656776 *** CLINICAL TRIAL PATIENT ***'.",
+      "source": "https://www.ehrinpractice.com/pictures/.../Aria%20Oncology%20Information%20System.jpg"
+    },
+    {
+      "file": "02-aria-patient-summary-timeline.png",
+      "description": "ARIA web client patient summary/treatment timeline view with header, navigation and main work area showing scheduling/treatment data.",
+      "source": "https://emrfinder.com/wp-content/uploads/2019/01/ARIA-Oncology-EMR-Practice-Management-Software-Summary-1024x618.webp"
+    },
+    {
+      "file": "03-aria-treatment-timeline.png",
+      "description": "ARIA treatment timeline view: course timeline, session details and treatment details panels with patient support/parameter data; full app chrome with header and patient banner.",
+      "source": "https://www.findemr.com/image/.../patient-summary1-600x375.webp"
+    },
+    {
+      "file": "04-aria-treatment-parameter-view.png",
+      "description": "ARIA treatment delivery/parameter view with left patient/plan sidebar (patient 'Mediset_RA1'), field parameter table, setup photos and reference images.",
+      "source": "https://www.findemr.com/image/.../parameter-view1-600x375.webp"
+    },
+    {
+      "file": "05-aria-scheduling-appointments.png",
+      "description": "ARIA scheduling module - day calendar with tabbed navigation and right-hand appointment list showing patient names, birthdates and IDs.",
+      "source": "https://emrsystems.net/wp-content/uploads/2016/12/ARIA-oncology-EMR-software-Appointment-Dashboard-1024x606.webp"
+    },
+    {
+      "file": "06-aria-quicklinks-home-worklist.png",
+      "description": "ARIA QuickLinks home with tabs (My Home, Data Analysis, Dashboards, Dosimetry), task/appointment worklist with patient names and a schedule + patient toxicities dashboard panel.",
+      "source": "https://a.fsdn.com/con/app/proj/aria-clinical-solutions.s/screenshots/...11.06.28.png"
+    }
+  ]
+}

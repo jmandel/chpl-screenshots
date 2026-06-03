@@ -1,0 +1,24 @@
+{
+  "vendor": "PRN Software (DoseSpot)",
+  "product": "DoseSpot",
+  "slug": "prn-software-dosespot",
+  "website": "https://www.dosespot.com",
+  "source": "Brave image search (cheap pass)",
+  "images": [
+    {
+      "file": "01-patient-details-medications.png",
+      "source_url": "https://opendental.com/manual/images/doseSpotPatientDetails.png",
+      "description": "DoseSpot eRx patient details view: patient banner (Jerry Smith, Male, 48 yrs, DOB Jan 10 1975, address, phone), coverage details, allergies/pharmacies, and Active Medications table."
+    },
+    {
+      "file": "02-patient-chart-pending-meds.png",
+      "source_url": "https://www.medplum.com/assets/images/patient-dosespot-iframe-6131d767a1c9b36ab811b74e3d39a2ee.png",
+      "description": "DoseSpot patient chart embedded (Medplum integration): patient banner (Rowena Baylie Acacianna, Male, 57 yrs), coverage details, add prescription, pending medications table."
+    },
+    {
+      "file": "03-provider-notifications.png",
+      "source_url": "https://www.medplum.com/assets/images/notifications-dosespot-iframe-a7df6db686bd4044ead1e0b37959da5b.png",
+      "description": "DoseSpot Notifications view (DoseSpot Version 8.0): transmission errors and pending prescriptions tables listing patient name, age/gender, and medication."
+    }
+  ]
+}

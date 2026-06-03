@@ -1,0 +1,31 @@
+{
+  "vendor": "Streamline Healthcare Solutions",
+  "product": "SmartCare",
+  "slug": "streamline-healthcare-solutions",
+  "website": "https://streamlinehealthcare.com/",
+  "source": "Brave image search (cheap pass)",
+  "capturedAt": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-patient-summary-medication-list.png",
+      "title": "SmartCareRx Patient Summary with medication list",
+      "description": "Full Patient Summary chart view with patient banner (Name: Bell, Valerie (2347); DOB/Age: 02/12/1953 (58); Sex: Female), Patient Overview/Health Data/Graph tabs, medication list with Rx start/end and interactions, and Allergies/Intolerances/Failed Trials sidebar.",
+      "sourceUrl": "https://www.emrsystems.net/wp-content/uploads/2016/08/smartcare-by-streamline-clinicians-dashboard-large-1.webp",
+      "patientDemographics": "Name, internal ID (2347), DOB, age, sex"
+    },
+    {
+      "file": "02-my-office-dashboard.png",
+      "title": "SmartCare My Office Dashboard",
+      "description": "Full SmartCare application view (left sidebar: Dashboard/My Caseload/My Documents/My Services/Messages/Alerts/My Preferences/My Calendar/Scanning; top menu and client selector showing client 'Anne Hathaway' at Springbrook Center). Main work area shows caseload counts, documents, alerts/messages with client names, and services for today.",
+      "sourceUrl": "https://www.emrfinder.com/wp-content/uploads/2016/08/SmartCare-by-Streamline-EHR-Practice-Management-Dashboard-1.webp",
+      "patientDemographics": "Selected client (Anne Hathaway) in banner; client names in alerts/services lists"
+    },
+    {
+      "file": "03-my-calendar-client-schedule.png",
+      "title": "SmartCare My Calendar (client schedule)",
+      "description": "Full SmartCare application view with sidebar and header, My Calendar daily view showing scheduled client appointments with names and IDs (e.g., Hardy, David #9962; Foster, Marguerite #5975; Faulkner #11448) and visit types.",
+      "sourceUrl": "https://emrfinder.com/wp-content/uploads/2016/08/SmartCare-by-Streamline-EHR-Practice-Management-Calendar.webp",
+      "patientDemographics": "Client names and IDs in appointment rows"
+    }
+  ]
+}

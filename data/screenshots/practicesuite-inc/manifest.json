@@ -1,0 +1,35 @@
+{
+  "vendor": "PracticeSuite, Inc.",
+  "product": "FreeChiro",
+  "slug": "practicesuite-inc",
+  "website": "https://practicesuite.com",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "capturedDate": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-patient-demographics-jefferson.png",
+      "description": "PracticeSuite EHR patient Demographics tab; full app (left sidebar, top header, main work area) with patient banner (Jefferson, Jerry; MRN 1422; DOB; Age) and insurance + financial summary panel.",
+      "sourceUrl": "https://practicesuite.com/wp-content/uploads/2023/02/ps_screen.png"
+    },
+    {
+      "file": "02-patient-demographics-financial.png",
+      "description": "PracticeSuite patient Demographics screen with Patient Financial Summary panel; patient banner Jefferson, Jerry; MRR # 1422; DOB 03/05/1953; Age 64; full app chrome.",
+      "sourceUrl": "https://www.emrsystems.net/wp-content/uploads/2016/11/PracticeSuite-EMR-Software.webp"
+    },
+    {
+      "file": "03-encounter-sheet-lungs.png",
+      "description": "PracticeSuite clinical Encounter Sheet (Level 2: Lungs review of systems); patient banner Jefferson, Jerry; MBR 1422; DOB; with left system nav, header and bottom tab navigation.",
+      "sourceUrl": "https://www.emrsystems.net/wp-content/uploads/2016/11/PracticeSuite-EMR-and-Practice-Management-Software-Dashboards-Calendar.webp"
+    },
+    {
+      "file": "04-scheduler-patient-popup.png",
+      "description": "PracticeSuite Scheduler (Provider View) with appointment detail popup showing patient demographics (Lena W Minor; MRN 32354; DOB 09/13/1982); full app with sidebar, header and calendar grid.",
+      "sourceUrl": "https://www.emrsystems.net/wp-content/uploads/2016/11/PracticeSuite-EHR-Software-PracticeSuite-EHR-Software.webp"
+    },
+    {
+      "file": "05-medical-history.png",
+      "description": "PracticeSuite clinical Medical History view with multi-panel history grids; patient banner JEFFERSON, JERRY; MRN; DOB; insurance, with tabbed app chrome.",
+      "sourceUrl": "https://www.emrsystems.net/wp-content/uploads/2016/11/PracticeSuite-EHR-Software-and-Electronic-Medical-Records-Software.webp"
+    }
+  ]
+}

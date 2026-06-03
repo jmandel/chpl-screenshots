@@ -1,0 +1,19 @@
+{
+  "vendor": "Encite, Inc.",
+  "product": "Encite EHR",
+  "website": "http://www.encite.us",
+  "slug": "encite-inc",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-patient-chart-summary.png",
+      "description": "Full Encite EHR patient chart summary view: patient banner (David Test Cross, Patient Id 00007, Male, Age 48 yrs, DOB 10 Sep 1972, address/contact, insurance United HealthCare) with sidebar action bar (Select Patient, PT Chart, Messages, Refresh, Print, Close) and main work area panels: Current Medications, Drug Allergies, Critical Information, Melanoma History, Pharmacies, Recent Documents, Non-Melanoma Skin Cancer, Problem List, Pending Orders, Patient Information, Messages, plus a document preview pane.",
+      "source": "https://a.fsdn.com/con/app/proj/encite-ehr.s/screenshots/2.JPG/1000/auto/1"
+    },
+    {
+      "file": "02-encounter-exam-screen.png",
+      "description": "Full Encite EHR encounter/exam documentation screen with patient banner row (patient name, Age, Ht, Wt, DOB, Gender), top menu/tab bar, and main work area with multi-column structured exam selection lists and a body-region/diagnosis picker.",
+      "source": "https://images.softwaresuggest.com/latest_screenshots/1561711992060_1_b_74.png"
+    }
+  ]
+}

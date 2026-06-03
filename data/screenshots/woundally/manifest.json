@@ -1,0 +1,46 @@
+{
+  "vendor": "WoundAlly",
+  "product": "WoundAlly",
+  "slug": "woundally",
+  "website": "https://woundally.com/",
+  "source": "Brave image search (cheap pass) - official woundally.com product screenshots",
+  "capturedAt": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-progress-note-wound-assessment.png",
+      "sourceUrl": "https://woundally.com/img/ScreensWA2.webp",
+      "description": "Progress Note Builder - Wound Assessment (Left, Ankle). Left sidebar of note sections, top header with progress note ID PN-000-000-259, right patient banner Smith, Philip DOB 02/05/1958, 68 years, female.",
+      "patient": "Smith, Philip"
+    },
+    {
+      "file": "02-wound-locations-skin-exam.png",
+      "sourceUrl": "https://woundally.com/img/ScreensWA3.webp",
+      "description": "Progress Note Builder - Skin Exam with wound locations (Abdomen LUQ G-Tube, Left Ankle) and depth-of-tissue side panel. Header PN-000-000-259.",
+      "patient": "Smith, Philip"
+    },
+    {
+      "file": "03-support-equipment.png",
+      "sourceUrl": "https://woundally.com/img/ScreensWA4.webp",
+      "description": "Progress Note Builder - Support Equipment (chair/bed/mattress use, foot devices). Patient banner Smith, Philip DOB 02/05/1958.",
+      "patient": "Smith, Philip"
+    },
+    {
+      "file": "04-patient-encounter-consent.png",
+      "sourceUrl": "https://woundally.com/img/ScreensWA5.webp",
+      "description": "Progress Note Builder - Patient Treatment Consent and Patient's Encounter. Patient banner Smith, Philip DOB 02/05/1958.",
+      "patient": "Smith, Philip"
+    },
+    {
+      "file": "05-progress-note-next-visit.png",
+      "sourceUrl": "https://woundally.com/img/ScreensWA.webp",
+      "description": "Progress Note Builder - Next Visit scheduling. Header progress note ID PN-000-000-259, right panel patient banner Smith, Philip.",
+      "patient": "Smith, Philip"
+    },
+    {
+      "file": "06-patient-profile-census.png",
+      "sourceUrl": "https://woundally.com/img/ScreensWA13.webp",
+      "description": "Census / Patient Profile - Patient Information form (WAT-2023-01-00015-20) with sidebar sections and progress-note timeline. Patient banner Smith, Ron DOB 03/11/1933, 91 years, male.",
+      "patient": "Smith, Ron"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "vendor": "iMedicWare, LLC",
+  "product": "iMedicWare",
+  "website": "https://sightview.com/",
+  "slug": "imedicware-llc",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-workview-hpi-exam.png",
+      "description": "WorkView ophthalmology exam (HPI, Vision, Distance/Near, Acuity) with patient banner Tester/Testss, Candy - 47324, DOB 08-17-2022",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/2846b1e4-451a-4859-bcad-6fa316ef42fb.png"
+    },
+    {
+      "file": "02-workview-od-os-exam.png",
+      "description": "WorkView OD/OS exam findings (Pupil, EOM, External, Lids, SLE) with patient banner Tester, Candy - 47324, DOB 08-17-2022",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/642e596f-4631-423b-8f86-2edf7dff4d78.png"
+    },
+    {
+      "file": "03-scheduler-patient.png",
+      "description": "Scheduler/appointment view with calendar, day grid, and patient demographics panel Testss, Candy - 47324 incl. DOB, insurance, balance",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/f577764c-514d-42a1-8d0f-8ae61950a91f.png"
+    },
+    {
+      "file": "04-accounting-charges.png",
+      "description": "Accounting Service Charges screen (claim type, billing provider, Dx/CPT codes, charges) with patient banner Testss, Candy - 47324",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/804abc5d-7168-4bd7-81a2-0f3054fcc864.png"
+    },
+    {
+      "file": "05-patient-at-a-glance.png",
+      "description": "Patient at a glance: problem list, active orders/tests, ocular hx, medical history, exam history with patient banner Mrs.Smith, Adelina - 62624 (DOB 01-01-1960)",
+      "source": "https://images.softwaresuggest.com/latest_screenshots/1561706922133_1_b_73.png"
+    }
+  ]
+}

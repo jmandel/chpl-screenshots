@@ -1,0 +1,30 @@
+{
+  "vendor": "The Echo Group",
+  "product": "EchoVantage",
+  "slug": "the-echo-group",
+  "website": "https://ensorahealth.com/product/echovantage/",
+  "source": "Brave image search (cheap pass)",
+  "captured": "2026-06-03",
+  "images": [
+    {
+      "file": "01-client-timeline-adams.png",
+      "description": "EchoVantage client TIMELINE view; patient banner Adams, Ernesto (000003), DOB 05/05/1959; left nav (Vantage Point, Clients, Services, Configuration) + header + Gantt-style timeline of case flags, intake, assessments.",
+      "sourceUrl": "https://www.findemr.com/image/cache/catalog/1product%20pic/EchoVantage/EchoVantage%20(2)-600x375.jpg"
+    },
+    {
+      "file": "02-client-timeline-stilson.png",
+      "description": "EchoVantage client TIMELINE view; patient banner Stilson, Ernesto (000003), Birth Date 03/05/1959; full left sidebar (Vantage Point, Placements, Clients, Services, Remittances, Claims, Configuration), header 'Peer to Peer Behavioral', tabbed chart with medication/diagnosis timeline.",
+      "sourceUrl": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/68e90a72-c0bc-4d55-9fb1-ef58baf2f48f.png"
+    },
+    {
+      "file": "03-client-timeline-wide.png",
+      "description": "EchoVantage client TIMELINE (wide layout); patient banner Stilson, Ernesto (000003), Birth Date 03/05/1959; sidebar + header + timeline of intake, assessments, diagnoses, service plans.",
+      "sourceUrl": "https://a.fsdn.com/con/app/proj/echovantage.s/screenshots/d94e096c-2cc6-41e7-a09a-c184ca6efc0c.jpg"
+    },
+    {
+      "file": "04-client-timeline-gale.png",
+      "description": "EchoVantage client TIMELINE view (shown in a monitor mockup frame); patient banner Gale, Dorothy (GALD0000), Birth Date 07/21/2002, Age 21; tabbed chart (Timeline, Profile, Contact Info, Documents, Episodes, Enrollments, Face Sheet, Diagnosis, Schedule, Family, Household, Payers, Account) with assessments/screening timeline.",
+      "sourceUrl": "https://therapybrands.com/wp-content/uploads/2024/04/Echo-screenshot_generic-1024x536.png"
+    }
+  ]
+}

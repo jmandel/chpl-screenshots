@@ -1,0 +1,29 @@
+{
+  "vendor": "Alleva",
+  "product": "Alleva EHR",
+  "website": "https://www.helloalleva.com",
+  "slug": "alleva",
+  "capturedVia": "brave-image-search (cheap pass)",
+  "screenshots": [
+    {
+      "file": "01-dashboard-client-list.png",
+      "description": "Alleva clinician dashboard: left nav sidebar + top header + main work area with My Tasks, Communication Log, and Clients panel showing client demographics (Duran Duran DOB 01/01/1980, Ziggy Stardust DOB 01/01/1945).",
+      "source": "https://a.fsdn.com/con/app/proj/alleva.s/screenshots/Screenshot_2022-11-16_at_2.31.55_PM-554ae7f0.png"
+    },
+    {
+      "file": "02-medication-management.png",
+      "description": "Alleva Medications > Meds Management view: full app with sidebar/header and patient medication cards (Rowena Acaclanna, Ricky Bobby) showing drug, dose, frequency, start date.",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/ef845278-21a7-4133-9174-4c0a56610f37.png"
+    },
+    {
+      "file": "03-scheduler-add-appointment.png",
+      "description": "Alleva Scheduler (calendar grid) with Add Appointment modal showing client field 'Bruce Wayne - Jan 1 1995' (name + DOB), full application chrome.",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/9c45c665-9e86-478f-adf9-944371172c32.png"
+    },
+    {
+      "file": "04-prospective-client-list.png",
+      "description": "Alleva Prospective Client List: full app with sidebar/header and a table of clients with names, mobile numbers, and progress columns.",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/1af44648-ae39-402a-b5e6-9160d0f2f1b4.png"
+    }
+  ]
+}

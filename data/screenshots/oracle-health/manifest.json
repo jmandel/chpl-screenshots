@@ -1,0 +1,34 @@
+{
+  "vendor": "Oracle Health",
+  "product": "Oracle Health Privacy Analytics",
+  "website": "https://www.oracle.com/health",
+  "slug": "oracle-health",
+  "source": "Brave image search (cheap pass)",
+  "captured": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-powerchart-ambulatory-summary.png",
+      "source_url": "https://softwareconnect.com/images/screenshot-cerner-ehr-cerner-patient-chart-2886",
+      "description": "Oracle Health (Cerner) PowerChart EHR, Ambulatory Summary view. Full app: top toolbar/menu, left chart navigation sidebar, and main work area with Vitals, My Favorite Orders, Medications, Documents panels. Patient banner across top: 'Jorgensen, Jill M' with DOB, age, MRN/FIN.",
+      "demographics": "Patient banner with name (Jorgensen, Jill M), DOB, age, MRN visible"
+    },
+    {
+      "file": "02-powerchart-medications.png",
+      "source_url": "https://softwareconnect.com/images/screenshot-cerner-ehr-cerner-medications-list-2885",
+      "description": "Oracle Health (Cerner) PowerChart EHR medication/orders screen. Full app: top toolbar, left navigation menu (Diagnoses & Problems, Problems), main work area with Orders for Signature, Medications list and order details for Zithromax Z-Pak. Patient banner: 'Jorgensen, Jill M'.",
+      "demographics": "Patient banner with name (Jorgensen, Jill M) and identifiers visible"
+    },
+    {
+      "file": "03-powerchart-drawing-box.png",
+      "source_url": "https://softwareconnect.com/images/screenshot-cerner-ehr-cerner-drawing-box-2887",
+      "description": "Oracle Health (Cerner) PowerChart EHR with documentation/exam screen and a Drawing Box dialog open over the chart. Full app: top toolbar, left navigation sidebar, main documentation work area. Patient banner: 'Jorgensen, Jill M'.",
+      "demographics": "Patient banner with name (Jorgensen, Jill M) visible"
+    },
+    {
+      "file": "04-ohf-analytics-patient-browser.png",
+      "source_url": "https://docs.oracle.com/health-sciences/ohf-711/OHFSD/img/patient_browser.png",
+      "description": "Oracle Health Foundation (OHF) Self Service Analytics - Patient Browser, on Oracle Business Intelligence. Full app: Oracle BI header (Catalog, Dashboards, signed in as weblogic), left filter sidebar (Organization Provider, Gender, Age Range, Diagnosis), and main patient list table. Patient rows show Name, MRN, Age, Diagnosis, Procedure, Admitting/Attending Physician (e.g. Aaliyah C Clark, MRN 127903, Age 40, Lll Pneumonia).",
+      "demographics": "Patient list with names, MRNs, ages, diagnoses for multiple sample patients"
+    }
+  ]
+}

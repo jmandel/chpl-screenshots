@@ -1,0 +1,14 @@
+{
+  "slug": "icare-com-inc",
+  "vendor": "iCare.com, Inc.",
+  "product": "iCare EHR",
+  "website": "http://www.icare.com",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-icare-ehr-desktop-patient-chart.png",
+      "sourceUrl": "https://www.findemr.com/image/catalog/1product pic/iCare EHR/iCare-on-desktop-and-mobile.jpg",
+      "description": "iCare Enterprise EHR desktop application shown on an iMac: PATIENT HUB sidebar with patient list, top patient banner (provider Dr. Collins; tabs for Diagnosis/Team/Chronic/Location 2A Surgical ICU/Attending), navigation tabs (Care Sheet, Assessments, Care Plans, Problems, Reminders, Meds, Orders, Consults, Surgery), and main work area with Active Problems, Allergies/Adverse Reactions, Active Medications, Clinical Reminders, vitals, appointments, and recent lab results. Device-mockup composite from EHR directory; patient banner present but small."
+    }
+  ]
+}

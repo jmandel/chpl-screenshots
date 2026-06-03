@@ -1,0 +1,35 @@
+{
+  "vendor": "Eyefinity, Inc.",
+  "product": "EHR powered by EMA in Eyefinity Encompass",
+  "website": "http://www.eyefinity.com",
+  "slug": "eyefinity-inc",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "capturedDate": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-eehr-patient-overview.png",
+      "sourceUrl": "https://emrsystems.net/wp-content/uploads/2025/10/Eyefinity-EHR-and-Practice-Management-Software-Patient-Overview-1-1024x751.webp",
+      "description": "Eyefinity EHR (iPad) patient visit Overview with banner (Keegan Thompsson, 3/6/90, 30 M), workflow tabs, exam status cards, finalize visit and coding panel."
+    },
+    {
+      "file": "02-eehr-patient-clipboard-desktop.png",
+      "sourceUrl": "https://help.eyefinity.com/eehr/_graphics/patient_chart_browser.png",
+      "description": "Eyefinity EHR desktop patient chart with banner (Ali, Alyssa; MRN; DOB 08/19/2021), left chart navigation, Patient Clipboard and Upcoming Appointments / Patient Activity work area."
+    },
+    {
+      "file": "03-eehr-patient-clipboard-activity.png",
+      "sourceUrl": "https://emrsystems.net/wp-content/uploads/2025/11/Eyefinity-EMR-Software-Practice-Management-Patient-Clipboard-1024x578.webp",
+      "description": "Eyefinity EHR patient chart with banner (Orona, Alexis; DOB; Birth Sex Female; MRN; PMS ID), top nav (Patients/Office Flow/Clinical), left overview menu, Patient Clipboard and Patient Activity panels."
+    },
+    {
+      "file": "04-eehr-exam-impressions.png",
+      "sourceUrl": "https://emrsystems.net/wp-content/uploads/2016/08/Eyefinity-EMR-Software-Demo.webp",
+      "description": "Eyefinity EHR (iPad) eye exam / Impressions & Findings screen with banner (Sally Patient, 11/19/82), header tabs, Plans sidebar, external eye images and Morphologies panel."
+    },
+    {
+      "file": "05-epm-appointment-scheduler.png",
+      "sourceUrl": "https://www.findemr.com/image/cache/catalog/1product%20pic/Eyefinity/scheduler-min-600x375.jpg",
+      "description": "Eyefinity Practice Management appointment scheduler with eyefinity header/nav, selected patient panel (John Smith with contact/insurance) and weekly calendar grid of appointments."
+    }
+  ]
+}

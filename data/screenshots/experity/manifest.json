@@ -1,0 +1,40 @@
+{
+  "vendor": "Experity",
+  "product": "Experity EMR",
+  "website": "https://www.experityhealth.com",
+  "slug": "experity",
+  "source": "brave-image-search (cheap pass)",
+  "captured": "2026-06-03",
+  "images": [
+    {
+      "file": "01-chart-review.png",
+      "desc": "Provider charting / review-of-systems chart view with patient banner (Robinson, Jack), menu bar, labs/x-rays/diagnoses panels",
+      "source_url": "https://a.fsdn.com/con/app/proj/experity.s/screenshots/Captura%20de%20pantalla%202022-09-27%20154927.png/1000/auto/1"
+    },
+    {
+      "file": "02-medical-screening.png",
+      "desc": "Medical screening / ROS chart with patient banner, full app chrome",
+      "source_url": "https://emrsystems.net/wp-content/uploads/2022/06/Experity-Urgent-Care-EMR-Practice-Management-Software-Patient-Allergies-1024x597.webp"
+    },
+    {
+      "file": "03-complaint-sore-throat.png",
+      "desc": "Chief complaint / triage notes (sore throat) view with body diagram and patient banner",
+      "source_url": "https://emrfinder.com/wp-content/uploads/2022/06/Experity-Urgent-Care-EMR-Practice-Management-Software-Diagnosis-1-768x600.webp"
+    },
+    {
+      "file": "04-hpi-triage.png",
+      "desc": "HPI / triage entry screen with patient banner and modifying factors",
+      "source_url": "https://www.findemr.com/image/cache/catalog/1product%20pic/Experity/hpi-min-600x375.jpg"
+    },
+    {
+      "file": "05-em-code-builder.png",
+      "desc": "E/M code builder / MDM scoring view with patient banner and tabbed work area",
+      "source_url": "https://emrsystems.net/wp-content/uploads/2022/06/Experity-Urgent-Care-EMR-Practice-Management-Software-Patient-Recommendations-1024x590.webp"
+    },
+    {
+      "file": "06-tracking-board.png",
+      "desc": "Patient tracking board with roomed/waiting/discharged patient lists (names, ages, complaints)",
+      "source_url": "https://emrsystems.net/wp-content/uploads/2022/06/Experity-Urgent-Care-EMR-Practice-Management-Software-Tracking-Board-1024x592.webp"
+    }
+  ]
+}

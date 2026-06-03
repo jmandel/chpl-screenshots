@@ -1,0 +1,50 @@
+{
+  "slug": "health-innovation-technologies-inc",
+  "vendor": "Health Innovation Technologies, Inc.",
+  "product": "RevolutionEHR",
+  "website": "https://www.revolutionehr.com",
+  "source": "Brave image search (cheap pass)",
+  "capturedBy": "cheap-pass-brave",
+  "screenshots": [
+    {
+      "file": "01-exam-initial-refraction-kline.png",
+      "desc": "Exam encounter - Initial Refraction workflow, full app (left sidebar of exam steps + header + patient banner 'Kline, Kurt' + main work area)",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/cff281dc-cfd7-411b-960b-fcc8cb9df2ef.jpeg"
+    },
+    {
+      "file": "02-patient-summary-nelson.png",
+      "desc": "Patient Summary multi-panel view (sidebar + header + patient banner 'Nelson, Benjamin #277' + Demographics/Family/Rx/Exam History/Account/Insurance/Diagnosis panels)",
+      "source": "https://www.findemr.com/image/cache/catalog/1product%20pic/RevolutionEHR/main%20patients%20screen-min-600x375.png"
+    },
+    {
+      "file": "03-encounter-history-lee.png",
+      "desc": "Encounter History list, full app (sidebar tabs + header + patient banner 'Lee, Morgan Age: 30 Years #191264' + encounter table)",
+      "source": "https://www.emrsystems.net/wp-content/uploads/2016/11/RevolutionEHR-Software-Dashboard.webp"
+    },
+    {
+      "file": "04-patient-summary-steenis.png",
+      "desc": "Patient Summary view (header + patient banner 'Steenis, Leah' with address + Rx/Exam History/Account/Insurance/Diagnosis/Recall panels)",
+      "source": "https://i0.wp.com/emrguides.com/wp-content/uploads/2025/10/revolution-ehr-software.png"
+    },
+    {
+      "file": "05-patient-chart-glaucoma.png",
+      "desc": "Full patient chart (left sidebar nav + header + patient banner 'Glaucoma, Gladis' + Family/Notes/Insurance/Diagnosis/Orders panels)",
+      "source": "https://www.emrsystems.net/wp-content/uploads/2025/10/RevolutionEHR-Software-and-practice-management-PM-solution-Dashboard-1.webp"
+    },
+    {
+      "file": "06-demographics-nelson.png",
+      "desc": "Patient Demographics edit screen, full app (header tabs + patient banner 'Nelson, Benjamin Ben Age: All Years #207' + demographics form)",
+      "source": "https://emrfinder.com/wp-content/uploads/2016/11/Revolution-EHR-Software-EHR-and-Practice-Management-Software-1024x565.webp"
+    },
+    {
+      "file": "07-exam-workflow.png",
+      "desc": "Exam workflow (left workflow-step sidebar + header + patient banner + visual acuity/refraction work area)",
+      "source": "https://www.findemr.com/image/cache/catalog/1product%20pic/RevolutionEHR/exam%20history%20screen-min-600x375.png"
+    },
+    {
+      "file": "08-patient-chart-tablet-vogt.png",
+      "desc": "Patient chart on tablet (device frame) - sidebar + header + patient banner 'Vogt, Jim' + Family/Rx/Notes/Insurance/Diagnosis/Orders/Tasks panels",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/94eccc8f-e0e1-4290-ab4d-d9a73a1cdf91.png"
+    }
+  ]
+}

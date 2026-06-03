@@ -1,0 +1,20 @@
+{
+  "vendor": "AllegianceMD Software, Inc.",
+  "product": "Veracity",
+  "website": "https://allegiancemd.com",
+  "slug": "allegiancemd-software-inc",
+  "source": "Brave image search (cheap pass)",
+  "capturedBy": "cheap-pass-brave",
+  "images": [
+    {
+      "file": "01-dialysis-encounter-patient-chart.png",
+      "sourceUrl": "https://www.findemr.com/image/cache/catalog/1product%20pic/AllegianceMD/allegiance%20md%20patient%20review-min-600x375.png",
+      "description": "Full AllegianceMD EHR application view: left template/navigation sidebar, top tab bar (Demographics, Transactions, Activities, Documents, Summary Sheet, Medications, Charts, Dialysis), patient banner (TES307 SARAH TEST; header allergy banner for JESS347, SANJAY F 01/01/1990), main work area showing a dialysis encounter assessment with PRE/POST columns."
+    },
+    {
+      "file": "02-dialysis-encounter-tablet-view.jpg",
+      "sourceUrl": "https://financesonline.com/uploads/2019/12/AllegianceMD-1-1024x600.jpg",
+      "description": "AllegianceMD EHR displayed on a tablet: same dialysis encounter chart with left navigation sidebar, top tab bar, patient banner (Patient: TES307 SARAH TEST), and PRE/POST assessment work area; AllegianceMD branding visible."
+    }
+  ]
+}

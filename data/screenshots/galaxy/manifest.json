@@ -1,0 +1,19 @@
+{
+  "vendor": "Galaxy",
+  "product": "Galaxy",
+  "slug": "galaxy",
+  "website": "https://psychplus.com/",
+  "notes": "Galaxy EHR is the proprietary PSYCH+ EHR platform built by PsychPlus (product domain galaxyehr.com). Screenshots show the full desktop provider application with top nav, left sidebar, header, patient banner, and demographics.",
+  "screenshots": [
+    {
+      "file": "01-psychplus-ehr-patient-info.png",
+      "source_url": "https://psychplus.com/wp-content/uploads/2024/06/Get-our-proprietary-EHR-platform-designed-and-built-by-a-leading-Psychiatrist-for-free.png",
+      "description": "PSYCH+ EHR desktop app, Patient Information screen. Top nav (Scheduling, Clinical, Facility, Patient Lookup, Management, Auto Texting, Rev Cycle, Experience, RX, Profile), left sidebar, header (Mercy Hospital, Jennifer Ammy), patient banner for Leo Smiths (MRN 0002353, DOB, SSN, allergies)."
+    },
+    {
+      "file": "02-psychplus-ehr-patient-chart.png",
+      "source_url": "https://galaxyehr.com/wp-content/uploads/2024/05/hero-home.png",
+      "description": "PSYCH+ / Galaxy EHR desktop app patient chart view with top nav bar, sidebar, header, and patient demographics (John Doe with photo and ID cards)."
+    }
+  ]
+}

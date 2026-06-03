@@ -1,0 +1,14 @@
+{
+  "vendor": "Ensora Health",
+  "product": "Ensora eRx",
+  "slug": "ensora-health",
+  "website": "https://ensorahealth.com/product/erx/",
+  "source": "Brave image search (cheap pass)",
+  "images": [
+    {
+      "file": "01-compose-rx-charles-lynn.png",
+      "source_url": "https://opendental.com/manual/images/newCropeRx.png",
+      "description": "Ensora eRx (NewCropRX) Compose Rx screen — full application view with title bar, menu tabs (Compose Rx, Med Entry, Supplies, Pt Details, Problems, Admin, Help), patient banner (Charles Lynn, DOB 5/19/1986, Male), Pending Rx, Allergies, and Active Medications work area."
+    }
+  ]
+}

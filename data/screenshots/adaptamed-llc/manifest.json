@@ -1,0 +1,30 @@
+{
+  "vendor": "Adaptamed, LLC",
+  "product": "EHR Your Way",
+  "slug": "adaptamed-llc",
+  "website": "https://ehryourway.com/",
+  "source": "Brave image search (cheap pass)",
+  "capturedAt": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-appointment-scheduler-multiprovider.png",
+      "description": "Appointment Scheduler, multi-provider day view with EHR Your Way left sidebar (Appt Scheduler, My Caseloads, Patient, Reports, Billing, Settings) and top nav (Dashboard, Inbox). Patient appointment 'Lacny, Jay' with DOB 01/01/1980 tooltip.",
+      "sourceUrl": "https://codatis.com/wp-content/uploads/2025/10/3-24.png"
+    },
+    {
+      "file": "02-dashboard-incomplete-notes-list.png",
+      "description": "Dashboard / Reports - Incomplete Notes list with left sidebar and top nav. Patient rows: Reddy, Aparna (DOB 01/01/1980) and Test, Siva (DOB 01/11/1988), provider DR IM MD, documented status.",
+      "sourceUrl": "https://codatis.com/wp-content/uploads/2025/10/6-7.png"
+    },
+    {
+      "file": "03-initial-intake-note-sidebyside.png",
+      "description": "Create New Notes - Initial Intake, side-by-side note view. Top nav with patient tab 'L, Jay 35 Yrs'. Patient demographics: Name Lacny, Jay; DOB 01-01-1980; Gender Male.",
+      "sourceUrl": "https://codatis.com/wp-content/uploads/2025/10/4-18.png"
+    },
+    {
+      "file": "04-create-note-template.png",
+      "description": "Create New note with customizable template (Problem List, Visit Reason, ROS, Exam, Labs). Top nav with patient tab 'M, Smith 49 Yrs'. Patient banner: MARK, SMITH; DOB 04-20-1966; Date 09/20/2015.",
+      "sourceUrl": "https://codatis.com/wp-content/uploads/2025/10/5-10.png"
+    }
+  ]
+}

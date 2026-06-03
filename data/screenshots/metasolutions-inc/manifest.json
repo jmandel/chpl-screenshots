@@ -1,0 +1,24 @@
+{
+  "vendor": "Metasolutions Inc",
+  "product": "ZoomMD",
+  "website": "https://www.zoomMD.com",
+  "slug": "metasolutions-inc",
+  "source": "brave-image-search",
+  "screenshots": [
+    {
+      "file": "01-document-viewer.png",
+      "source_url": "https://www.emrfinder.com/wp-content/uploads/2017/12/ZoomMD-Electronic-Medical-Records-Software.webp",
+      "description": "ZoomMD Document Viewer / charting view with patient banner (Cooper, Tom; provider Hansen Ola, MD), document tabs, results and transcription search work area."
+    },
+    {
+      "file": "02-charting-progress-note.png",
+      "source_url": "https://www.emrfinder.com/wp-content/uploads/2017/12/ZoomMD-Cloud-Based-EMR-Software.webp",
+      "description": "ZoomMD Charting Progress Note with patient demographics (Patient's Name: Tom, DOB 09-22-1927), medications, exam vitals, and right-side charting dashboard navigation."
+    },
+    {
+      "file": "03-patient-chart-dashboard.png",
+      "source_url": "https://www.findemr.com/image/cache/catalog/1product%20pic/ZoomMD/zoommd%20(5)-600x375.jpg",
+      "description": "ZoomMD patient chart dashboard with patient banner (Brown, Tom | 09-22-1927 | 85Y 2M), active problem list, allergies, current medications, PMHFH, vitals, encounters, notes, and orders panels."
+    }
+  ]
+}

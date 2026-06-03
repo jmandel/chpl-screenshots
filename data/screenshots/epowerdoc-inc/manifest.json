@@ -1,0 +1,22 @@
+{
+  "vendor": "EPOWERdoc, Inc.",
+  "product": "EMRdoc",
+  "website": "https://www.epowerdoc.com",
+  "slug": "epowerdoc-inc",
+  "source": "Brave image search (cheap pass)",
+  "capturedDate": "2026-06-03",
+  "images": [
+    {
+      "file": "01-emrdoc-history-hpi.png",
+      "sourceUrl": "https://www.healthcareittoday.com/wp-content/uploads/2011/10/EPOWERdoc-EMR-Patient-History-Screenshot.jpg",
+      "description": "EMRdoc 2.7.2.9 History/HPI charting view: top patient banner (DIET COKE, 44 Yr/M, DOB 11/12/1965, Room GN06, PCP), navigation tabs (Triage/Assessment/Course/Orders/History/Physical/Results/Disposition), and Chief Complaint HPI work area.",
+      "patient": "DIET COKE (demo/test patient)"
+    },
+    {
+      "file": "02-emrdoc-orders.png",
+      "sourceUrl": "https://www.findemr.com/image/cache/catalog/1product%20pic/EPOWERdoc/EPOWERdoc-600x375.jpg",
+      "description": "EMRdoc 2.9 Orders view: top patient banner (BLACK, JACK, 36 Yr/M, DOB 08/17/2011, Room GN06, PCP Trapper John MD), navigation tabs, orders grid and order sets work area.",
+      "patient": "JACK BLACK (demo/test patient)"
+    }
+  ]
+}

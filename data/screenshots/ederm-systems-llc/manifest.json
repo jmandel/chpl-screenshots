@@ -1,0 +1,40 @@
+{
+  "slug": "ederm-systems-llc",
+  "vendor": "eDerm Systems LLC",
+  "product": "eDerm Systems",
+  "website": "https://www.edermehr.com/",
+  "source": "Brave image search (cheap pass)",
+  "captured": "2026-06-03",
+  "images": [
+    {
+      "file": "01-web-appointment-eligibility.png",
+      "source_url": "https://www.ehrinpractice.com/pictures/1050/show/800x500/eDerm+EHR+Software+Screenshot+3.jpg",
+      "description": "Web EHR (Universal Dermatology). Left sidebar menu, header with patient name 'Davis, Carl 10/22/1938', Create Appointment dialog for 'Benda, Oscar (06/06/1964)' and eligibility verification overlay.",
+      "patient": "Davis, Carl (DOB 10/22/1938); Benda, Oscar (DOB 06/06/1964)"
+    },
+    {
+      "file": "02-ipad-encounter-exam-doe-jane.png",
+      "source_url": "https://edermehr.com/wp-content/uploads/2025/11/Features-One-Touch-Charting-1-1024x734.jpg",
+      "description": "iPad encounter/exam view. Header tabs (Home, patient banner 'Doe, Jane', Dashboard, Chart, Encounter), left Impression/Plan of Care panel, body diagram work area, right section tabs.",
+      "patient": "Doe, Jane"
+    },
+    {
+      "file": "03-ipad-superbill-smith-brad.png",
+      "source_url": "https://www.ehrinpractice.com/pictures/1052/show/800x500/eDerm+EHR+Software+Screenshot+2.jpg",
+      "description": "iPad Super Bill view. Header with patient banner 'Smith, Brad', dashboard/chart/encounter nav, right section tabs, billing/CPT line items in main work area.",
+      "patient": "Smith, Brad"
+    },
+    {
+      "file": "04-ipad-exam-smith-brad.png",
+      "source_url": "https://www.ehrinpractice.com/pictures/1053/show/800x500/eDerm+EHR+Software+Screenshot+4.jpg",
+      "description": "iPad exam view. Patient banner 'Smith, Brad' in header, left Impression/Plan of Care panel, anatomical diagram, right section tabs.",
+      "patient": "Smith, Brad"
+    },
+    {
+      "file": "05-ipad-fullbody-brown-nancy.png",
+      "source_url": "https://www.ehrinpractice.com/pictures/1054/show/800x500/eDerm+EHR+Software+Screenshot+5.jpg",
+      "description": "iPad full body exam view. Patient banner 'Brown, Nancy' in header, left Impression/Plan of Care panel, head/face diagram, right section tabs.",
+      "patient": "Brown, Nancy"
+    }
+  ]
+}

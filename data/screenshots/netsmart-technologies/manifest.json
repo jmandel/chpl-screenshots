@@ -1,0 +1,19 @@
+{
+  "vendor": "Netsmart Technologies",
+  "product": "Carepathways Measures Reporting",
+  "website": "https://www.ntst.com/",
+  "slug": "netsmart-technologies",
+  "capturedVia": "Brave image search (cheap pass)",
+  "screenshots": [
+    {
+      "file": "01-patient-visit-menu.png",
+      "source": "https://www.findemr.com/image/cache/catalog/1product%20pic/Netsmart/netsmart%20start%20visit-min-600x375.jpg",
+      "notes": "Netsmart point-of-care EHR (tablet) full app view: patient banner DOE, John | 25-Aug-1854 (61y) | M | ID 238, with full clinical module menu (Assessments, Clinical Notes, Medications, Care Plan/Charting, etc.) and Start Visit action."
+    },
+    {
+      "file": "02-myavatar-treatment-plan.png",
+      "source": "https://www.emrsystems.net/wp-content/uploads/2025/11/Netsmart-myAvatar-Suite-EMR-Software-Patient-Treatment-Plan.webp",
+      "notes": "Netsmart myAvatar EHR Treatment Plan view: header tabs (Chart, Treatment Plan), left sidebar filters/library, main work area showing Treatment Plan for patient JULIA GARCIA with active problems, goals, objectives, interventions."
+    }
+  ]
+}

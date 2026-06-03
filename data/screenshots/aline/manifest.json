@@ -1,0 +1,22 @@
+{
+  "vendor": "Aline",
+  "product": "Aline Care",
+  "slug": "aline",
+  "website": "https://alineops.com",
+  "source": "Brave image search (cheap pass)",
+  "captured": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-resident-profile-banner.png",
+      "sourceUrl": "https://alineops.com/wp-content/uploads/2023/09/Aline-Care-Resident-Dashboard-section.png",
+      "description": "Aline Care resident profile: top nav (CMS: Houston, Go To, Community, Resident, Reports) and full patient banner for Flanagan, Bruce with Resident name, Location, Status, Lease, Birth Date 01/01/1930, billing ID 11630703, plus Resident Care Services work area.",
+      "patient": "Flanagan, Bruce (demo) - DOB 01/01/1930, ID 11630703"
+    },
+    {
+      "file": "02-emar-resident-prn-orders.png",
+      "sourceUrl": "https://alineops.com/wp-content/uploads/2025/03/emar-resident-profile.jpg",
+      "description": "Aline eMAR Resident Info view: left sidebar (PRN Orders, Missed Orders, Behaviors, etc.), patient banner PATRICIA HUSTLE with DOB 3/14/1927 and location, allergies bar, and PRN Orders work area.",
+      "patient": "Patricia Hustle (demo) - DOB 3/14/1927"
+    }
+  ]
+}

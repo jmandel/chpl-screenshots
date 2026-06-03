@@ -1,0 +1,40 @@
+{
+  "vendor": "VSS Medical Technologies, Inc",
+  "product": "Aura Sigmund, MedicFusion Erx",
+  "website": "http://www.sigmundsoftware.com",
+  "slug": "vss-medical-technologies-inc",
+  "source": "Brave image search (cheap pass)",
+  "capturedAt": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-medicfusion-patient-profile.png",
+      "description": "MedicFusion EHR Patient Profile / Add New Patient demographics screen, full app (left nav + colored module tabs + work area). Demo patient Daniel Ryan.",
+      "sourceUrl": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/0de7eb87-cda9-45d7-a0ae-bba69a515e11.png"
+    },
+    {
+      "file": "02-medicfusion-erx-medication-list.png",
+      "description": "MedicFusion eRx Medication List, full app with header menu (Prescribe / Manage Allergies / Rx Report). Patient Dean Rottinghaus (1082), DOB 03/15/1957.",
+      "sourceUrl": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/252a0dac-0ef9-48f0-97f2-09ea6139f2b8.png"
+    },
+    {
+      "file": "03-medicfusion-clinical-decision-support-plan.png",
+      "description": "MedicFusion EHR Clinical Decision Support / Care Plan & Orders view with patient banner and demographics (DOB, insurance). Patient Dean Rottinghaus.",
+      "sourceUrl": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/39f4f699-61a7-45b4-a5de-10f187280f32.png"
+    },
+    {
+      "file": "04-medicfusion-erx-pharmacy-info.png",
+      "description": "MedicFusion eRx Patient Pharmacy Information screen, full app header menu. Patient Jeff Madden (12568), DOB 01/01/1977, Male.",
+      "sourceUrl": "https://emrfinder.com/wp-content/uploads/2019/08/MedicFusion-EHR-Practice-Management-Software-Information-1024x553.webp"
+    },
+    {
+      "file": "05-medicfusion-case-summary-vitals.png",
+      "description": "MedicFusion EHR Case Summary with vitals entry, patient banner. Patient Jeff Madden, DOB 01.01.1977, Case Number, insurance and visit info.",
+      "sourceUrl": "https://emrsystems.net/wp-content/uploads/2019/08/MedicFusion-EHR-Practice-Management-Software-Case-Summary-1-1024x562.webp"
+    },
+    {
+      "file": "06-aura-sigmund-vital-signs-participant.png",
+      "description": "AURA (Sigmund Software) EHR Vital Signs screen with participant detail popup, left icon nav + search header. Participant Columbus, Christopher, DOB 2/1/1980, ID 10181.",
+      "sourceUrl": "https://emrsystems.net/wp-content/uploads/2019/08/aura-emr-software-sigmund-patient-scheduling-demo.webp"
+    }
+  ]
+}

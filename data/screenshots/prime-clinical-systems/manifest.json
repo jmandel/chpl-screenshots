@@ -1,0 +1,34 @@
+{
+  "vendor": "Prime Clinical Systems",
+  "product": "Patient Chart Manager",
+  "website": "https://www.primeclinical.com",
+  "slug": "prime-clinical-systems",
+  "capturedBy": "cheap-pass-brave-image-search",
+  "capturedDate": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-patient-chart-abbott-elsa.png",
+      "source": "https://www.ehrinpractice.com/products/prime-clinical-emr.html",
+      "sourceImage": "https://www.ehrinpractice.com/pictures/Prime%20Clinical%20EHR%20Screenshot.jpg",
+      "description": "Patient Chart Manager full chart view: patient ABBOTT, ELSA (DOB 1973-09, MR/Acct visible) with patient lookup sidebar, top toolbar, problem list, tests/procedures, allergies, and meds panels."
+    },
+    {
+      "file": "02-patient-chart-surge-barry.png",
+      "source": "https://www.ehrinpractice.com/products/prime-clinical-emr.html",
+      "sourceImage": "https://www.ehrinpractice.com/pictures/Prime%20Clinical%20EHR%20Screenshot%202.jpg",
+      "description": "Patient Chart Manager full chart view: patient SURGE, BARRY (DOB 1985-04-17, Age 27, SSN/MR/Acct) with patient photo, diagnoses/past hx, procedures, allergies, and meds panels."
+    },
+    {
+      "file": "03-patient-chart-vision-vince.png",
+      "source": "https://www.ehrinpractice.com/products/prime-clinical-emr.html",
+      "sourceImage": "https://www.ehrinpractice.com/pictures/Prime%20Clinical%20EHR%20Screenshot%204.jpg",
+      "description": "Patient Chart Manager full chart view: title bar shows Pt Name VISION, VINCE (PPO), DOB 1949-06-02, Age 63; diagnoses, procedures, allergies, and meds panels with patient lookup sidebar and toolbar."
+    },
+    {
+      "file": "04-patient-chart-appleseed-johnny.png",
+      "source": "https://www.softwareadvice.com/medical/patient-chart-manager-profile/",
+      "sourceImage": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/5358e406-a423-4e6c-91a2-d6e4d2bf497d.jpg",
+      "description": "Patient Chart Manager full chart view: patient APPLESEED, JOHNNY (DOB 5/6/1972, MR/Acct visible) with patient lookup sidebar, toolbar, allergies, diagnoses/past hx, procedures, and meds panels."
+    }
+  ]
+}

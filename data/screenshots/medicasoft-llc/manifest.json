@@ -1,0 +1,20 @@
+{
+  "slug": "medicasoft-llc",
+  "vendor": "MedicaSoft, LLC",
+  "product": "ehr.NXT HealthCenter",
+  "website": "https://www.medicasoft.com/",
+  "source": "Brave image search (cheap pass)",
+  "captured": "2026-06-03",
+  "images": [
+    {
+      "file": "01-patient-procedure-worksheet.png",
+      "source_url": "https://www.findemr.com/image/cachewebp/catalog/1product%20pic/Medicasoft-Software/image-2-min-600x375.webp",
+      "notes": "Full web app (browser-chromed) procedure worksheet view with patient banner: Patient ID 48485, name Julia He, DOB, sex F; sonohysterosalpingogram worksheet plus imaging thumbnails sidebar."
+    },
+    {
+      "file": "02-manage-studies-patient-list.png",
+      "source_url": "https://www.findemr.com/image/cachewebp/catalog/1product%20pic/Medicasoft-Software/Untitled-2-min-600x375.webp",
+      "notes": "Full app Manage Studies view (sidebar/tabs + header + work area) with patient list: Patient ID and Patient Name columns, date/time, descriptions; patient names redacted in source."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "comtron-inc",
+  "vendor": "Comtron Inc.",
+  "product": "Medgen EHR",
+  "website": "http://www.medgenehr.com/",
+  "source": "brave-image-search-cheap-pass",
+  "capturedAt": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-patient-demographics.png",
+      "description": "Medgen Electronic Medical Records v5.0 Patient Demographics screen — full app view with left navigation sidebar, top menu bar, and patient banner (Account No 110468, TEST PATIENT, DOB 12/01/1986, DIX HILLS NY).",
+      "sourceUrl": "https://a.fsdn.com/con/app/proj/medgen-ehr.s/screenshots/84e564a8-818f-423c-a766-bd9c7aa7f01b.jpg"
+    },
+    {
+      "file": "02-patient-listing-report.png",
+      "description": "Medgen Web Portal Reporting: Patient Listing — full app view with search builder and patient list table showing demographics (Patient Id, Name, DOB, Address, City, State, Zip) for multiple demo patients.",
+      "sourceUrl": "https://a.fsdn.com/con/app/proj/medgen-ehr.s/screenshots/f25780e2-633b-4b7e-934b-1e4a1281d0ba.jpg"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "dox-emr",
+  "vendor": "DOX EMR",
+  "product": "DOX EMR",
+  "website": "https://www.doxemr.com",
+  "captured": "2026-06-03",
+  "source": "Brave image search (cheap pass)",
+  "images": [
+    {
+      "file": "01-dox-pa-initial-visit-leckman.png",
+      "caption": "DOX PA initial patient visit / billing summary note editor; patient banner Pt Name Leckman, Pt ID 1707196, DOB 6-8-1940",
+      "source_url": "https://www.findemr.com/image/cache/catalog/1product%20pic/dox-podiatry/chart-notes-reports-orders-res-600x375.png"
+    },
+    {
+      "file": "02-medical-history-leckman.png",
+      "caption": "DOX Podiatry Total Medical Office Suite - Patient Medical History grid; patient Leckman John, M",
+      "source_url": "https://www.findemr.com/image/cache/catalog/1product%20pic/dox-podiatry/medical-history-res-600x375.png"
+    },
+    {
+      "file": "03-treatment-tree-leckman.png",
+      "caption": "DOX PA Today's Treatment / anatomy location management tree; patient John, Leckman M",
+      "source_url": "https://www.findemr.com/image/cache/catalog/1product%20pic/dox-podiatry/treatments-chosen-res-600x375.png"
+    },
+    {
+      "file": "04-patient-chart-mooner.png",
+      "caption": "DOX PA Patient Chart with provider/patient sidebar list and tabbed chart (Medical History); patient Mooner, Maggie, DOB 8/8/2014",
+      "source_url": "https://static.wixstatic.com/media/b7a0cf_87d3d70de097418991dfbf7231e76466.jpg"
+    },
+    {
+      "file": "05-todays-treatment-mooner.png",
+      "caption": "DOX PA Today's Treatment with Anatomy Location Management sidebar; patient Mooner, Maggie",
+      "source_url": "https://static.wixstatic.com/media/b7a0cf_4b97312121ac48eb8684caac77375ece.jpg"
+    },
+    {
+      "file": "06-select-diagnosis-mooner.png",
+      "caption": "DOX PA Select Diagnosis screen with ICD code tree; patient Mooner, Maggie",
+      "source_url": "https://static.wixstatic.com/media/b7a0cf_ddbbf38e14e44966a00194be075b7c35.jpg"
+    },
+    {
+      "file": "07-day-view-schedule.png",
+      "caption": "DOX Podiatry Total Medical Office Suite - Day View appointment schedule with patient captions (names, DOB, complaints)",
+      "source_url": "https://www.findemr.com/image/cache/catalog/1product%20pic/dox-podiatry/daily-schedule-res-600x375.png"
+    },
+    {
+      "file": "08-day-view-appointments.png",
+      "caption": "DOX Podiatry Day View appointment grid with color-coded slots and patient demographics in captions",
+      "source_url": "https://static.wixstatic.com/media/b7a0cf_64b6e28809654bfeb3720586cdda5692.jpg"
+    }
+  ]
+}

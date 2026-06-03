@@ -1,0 +1,45 @@
+{
+  "vendor": "CareCloud Health, Inc.",
+  "product": "CareCloud Charts",
+  "website": "http://www.carecloud.com",
+  "slug": "carecloud-health-inc",
+  "capturedBy": "cheap-pass (Brave image search only)",
+  "capturedDate": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-summary-samuel-adamson.jpg",
+      "source": "https://www.ehrinpractice.com/pictures/CareCloud%20Charts%20EHR%20Software%20Screenshot%206.jpg",
+      "description": "CareCloud Charts patient Summary view: left patient banner (Samuel Adamson, MRN, DOB), vitals, problems, allergies, medications, care team, widgets grid."
+    },
+    {
+      "file": "02-family-history-josh-smith.jpg",
+      "source": "https://www.ehrinpractice.com/pictures/CareCloud%20Charts%20EHR%20Software%20Screenshot%202.jpg",
+      "description": "CareCloud Charts encounter History/Family History tab with patient banner (Josh Smith, MRN, DOB) and structured finding chips."
+    },
+    {
+      "file": "03-claim-doris-turkell.jpg",
+      "source": "https://www.ehrinpractice.com/pictures/CareCloud%20Charts%20EHR%20Software%20Screenshot%203.jpg",
+      "description": "CareCloud claim/charge view with claim sidebar and patient demographics (Doris Turkell, DOB, SSN), payer and service detail."
+    },
+    {
+      "file": "04-joint-exam-claudia-cortes.jpg",
+      "source": "https://www.ehrinpractice.com/pictures/CareCloud%20Charts%20EHR%20Software%20Screenshot%205.jpg",
+      "description": "CareCloud Charts Joint Exam (RAPID3) with left patient banner (Claudia Cortes, MRN, DOB) and body diagram."
+    },
+    {
+      "file": "05-vitals-growth-elizabeth-carter.jpg",
+      "source": "https://www.business.com/_next/image/?url=carecloud-patient-chart.jpg",
+      "description": "CareCloud Charts pediatric Vitals Growth Chart with patient banner (Elizabeth Carter, MRN, DOB), problems/allergies/medications sidebar."
+    },
+    {
+      "file": "06-financial-dashboard-maria-gomez.png",
+      "source": "https://i.pcmag.com/imagery/reviews/041cVcW7oJ8a0LXdNv6241X-1.fit_lim.size_1592x947.v_1569469962.png",
+      "description": "CareCloud patient Financial Dashboard: left module nav, patient demographics (Maria Gomez, DOB 06/12/1984), balances, red flags, clinical summary."
+    },
+    {
+      "file": "07-chart-template-tiffany-wansor.png",
+      "source": "https://carecloud.com/wp-content/uploads/2025/08/ehr_charts_.png",
+      "description": "CareCloud Charts encounter with patient banner (Tiffany Wansor, MRN, DOB) and a chart-template/chapters dialog over the work area."
+    }
+  ]
+}

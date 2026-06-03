@@ -1,0 +1,19 @@
+{
+  "vendor": "WebPT",
+  "product": "WebPT",
+  "slug": "webpt",
+  "website": "https://www.webpt.com/",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-initial-evaluation-chart.png",
+      "description": "WebPT EMR Documentation - Records > Initial Evaluation. Full app view: header with provider/clinic, left case sidebar (diagnosis ICD10, referring physician, insurance, therapist), main evaluation work area. Patient banner: Bobby Anderson (27201751), DOB 03/02/1997, age 24, Male.",
+      "source": "https://www.ehrinpractice.com/ (WebPT patient records demo)"
+    },
+    {
+      "file": "02-patient-profile-notes.png",
+      "description": "WebPT EMR Documentation - Patient Profile Notes list. Full app view: top nav (Patient Info, Records, HEP, eDocs, Appointments, Payments), left sidebar with diagnosis/visits/insurance, main Notes table. Patient banner: Bobby Anderson (27201751), DOB 03/02/1997.",
+      "source": "https://www.emrsystems.net/ (WebPT EMR Patient Notes)"
+    }
+  ]
+}

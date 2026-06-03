@@ -1,0 +1,28 @@
+{
+  "vendor": "Avon Health",
+  "product": "Avon EMR",
+  "website": "https://www.avonhealth.com",
+  "slug": "avon-health",
+  "source": "Brave image search (official avonhealth.com product screenshots)",
+  "capturedAt": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-labs.png",
+      "sourceUrl": "https://avonhealth.com/screenshots/labs.png",
+      "description": "Full Avon EMR clinician view: left patient demographics rail (Sally Chen, MRN, SSN, DOB, contact), top nav menu, main Labs work area with lab results and orders.",
+      "patient": "Sally Chen (demo)"
+    },
+    {
+      "file": "02-care-plans.png",
+      "sourceUrl": "https://avonhealth.com/screenshots/care-plans.png",
+      "description": "Full Avon EMR clinician view: left patient demographics rail (Sally Chen, MRN 831782, DOB 1/16/1950), top nav menu, main Care Plans work area showing a CCM Care Plan.",
+      "patient": "Sally Chen (demo)"
+    },
+    {
+      "file": "03-prescriptions.png",
+      "sourceUrl": "https://avonhealth.com/screenshots/prescriptions.png",
+      "description": "Full Avon EMR clinician view: left patient demographics rail (Sally Chen, MRN, SSN), top nav menu, main Prescriptions work area (embedded DoseSpot e-prescribing) for Sally Chen, Female, 75 yrs.",
+      "patient": "Sally Chen (demo)"
+    }
+  ]
+}

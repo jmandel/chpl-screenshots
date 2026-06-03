@@ -1,0 +1,16 @@
+{
+  "vendor": "Innovaccer Inc",
+  "product": "InGraph",
+  "slug": "innovaccer-inc",
+  "website": "https://innovaccer.com/",
+  "source": "brave-image-search-cheap-pass",
+  "captured": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-incare-patient-care-management.png",
+      "source_url": "https://images.saasworthy.com/innovaccerincare_683_screenshot_1532503336_yxmev.png",
+      "description": "Innovaccer inCare/Care Management patient chart: full app view with left sidebar (Chart, Care Management, Gaps in Care, Episodes, Risk, Billing, Profile, Documents), patient banner (Lawson, Joy, P087636, HIGH RISK, 52 yrs Female, DOB 02/01/1963, PCP Dr. Sarah West, Payer Aetna), timeline/activity main pane, and Tasks Due / Active Programs right rail.",
+      "patient_demographics": ["name: Lawson, Joy", "id: P087636", "DOB: 02/01/1963", "age/sex: 52 yrs Female"]
+    }
+  ]
+}

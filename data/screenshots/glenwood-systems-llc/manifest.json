@@ -1,0 +1,14 @@
+{
+  "vendor": "Glenwood Systems LLC",
+  "product": "GlaceEMR",
+  "website": "http://www.glenwoodsystems.com",
+  "slug": "glenwood-systems-llc",
+  "source": "Brave image search (cheap pass)",
+  "images": [
+    {
+      "file": "01-patient-chart-summary.png",
+      "source_url": "https://emrsystems.net/wp-content/uploads/2016/11/GlaceEMR-Software-by-Glenwood-Patient-Chart-1-1.jpg",
+      "description": "GlaceEMR Patient Chart Summary view — full application with left icon sidebar, patient demographics banner (Adrian, Amith; Male, Born 11/11/1949, age 65), header tabs (Summary/Encounters/Alerts/Lab Results/Radiology/Refills/Notifications), and main work area (Highlights vitals, Active Medications, Clinical Notes, Allergy, Problem List, Orders)."
+    }
+  ]
+}

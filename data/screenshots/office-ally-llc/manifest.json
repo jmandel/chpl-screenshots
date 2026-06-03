@@ -1,0 +1,33 @@
+{
+  "vendor": "Office Ally, LLC",
+  "product": "EHR 24/7",
+  "website": "https://www.officeally.com",
+  "slug": "office-ally-llc",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-patient-chart-summary.png",
+      "sourceUrl": "https://www.ehrinpractice.com/pictures/W1siZiIsIjIwMjYvMDMvMDYvOGN5dDh1MTVvZF9PZmZpY2VfQWxseV9FSFJfcGF0aWVudF9jaGFydHMucG5nIl0sWyJwIiwidGh1bWIiLCI4MDB4NTAwXHUwMDNlIl0sWyJwIiwiZW5jb2RlIiwianBnIiwiLXF1YWxpdHkgODUiXV0/Office%20Ally%20EHR%20patient%20charts.jpg?sha=693538e6fb186bc9",
+      "description": "EHR 24/7 Patient Chart: top nav header (Desktop, Appointments, Patient Charts, Document Center, References, Patient Portal, Manage Office) plus sub-menu, patient banner (Patient ID 21299687, Aaronson Beck, DOB 02/14/2005, Aetna), and work area with Problem List, Progress Notes/Encounters, Medications, Vital Signs, Laboratory Orders, Allergy History.",
+      "product": "EHR 24/7"
+    },
+    {
+      "file": "02-patient-chart-problem-list.png",
+      "sourceUrl": "https://emrfinder.com/wp-content/uploads/2017/09/EHR-24-7-EMR-Practice-Managemet-Software-Patient-Chart.webp",
+      "description": "EHR 24/7 Patient Chart full application view: top navigation/menu, patient demographic banner, and main work area with Problem List, Medications, Lab Results and encounter panels.",
+      "product": "EHR 24/7"
+    },
+    {
+      "file": "03-patient-chart-hpi.png",
+      "sourceUrl": "https://emrfinder.com/wp-content/uploads/2017/09/EHR-24-7-EMR-Software-by-Office-Ally-Patient-Chart-1024x646.webp",
+      "description": "EHR 24/7 by Office Ally full app: Office Ally / EHR 24/7 branded header and top menu (Desktop, Appointments, Patient Charts, Document Center, References, Patient Portal, Manage Office), patient banner (Dunbar Buddy, DOB 05/05/1974, CIGNA Health Plan), History of Present Illness, Progress Notes/Encounters and Demographics work area.",
+      "product": "EHR 24/7"
+    },
+    {
+      "file": "04-patient-chart-overview.png",
+      "sourceUrl": "https://cdn.prod.website-files.com/6830ce6e8206ddade0c99cae/68a10420c6476b52f11762a5_EHR24-7_Detail_Page_Images_Hero%20Window.png",
+      "description": "EHR 24/7 Patient Chart full application: top nav header with sub-menu, patient demographic banner with photo and details, and main work area with Problem List, Progress Notes/Encounters, Medications, Vital Signs and Laboratory panels.",
+      "product": "EHR 24/7"
+    }
+  ]
+}

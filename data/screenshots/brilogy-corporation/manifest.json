@@ -1,0 +1,19 @@
+{
+  "vendor": "Brilogy Corporation",
+  "product": "AXEIUM",
+  "website": "https://www.axeium.com",
+  "slug": "brilogy-corporation",
+  "source": "Brave image search (cheap pass)",
+  "images": [
+    {
+      "file": "01-vitals-patient-banner.png",
+      "source_url": "https://emrfinder.com/wp-content/uploads/2025/10/AXEIUM-Community-Health-EMR-Software-Vitals-Signs-1024x573.webp",
+      "description": "AXEIUM Vitals screen with patient banner (Female, Age 49 Y, DOB 01/24/1966, Chart 27177) at St. Joseph Hospital Community Clinics; vitals trend table."
+    },
+    {
+      "file": "02-assessment-score.png",
+      "source_url": "https://emrfinder.com/wp-content/uploads/2025/10/AXEIUM-Community-Health-EMR-Software-Assessment-Score-1024x530.webp",
+      "description": "AXEIUM Assessment Score screen with patient banner (Diana, DOB 12/24/1997, 17 years F); assessment scores table with providers and grades."
+    }
+  ]
+}

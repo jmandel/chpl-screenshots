@@ -1,0 +1,25 @@
+{
+  "vendor": "First Call Technologies, LLC DBA Community CareLink",
+  "product": "Community CareLink",
+  "website": "https://communitycarelink.com/",
+  "slug": "first-call-technologies-llc-dba-community-carelink",
+  "source": "Brave image search (cheap pass)",
+  "captured": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-client-demographic.png",
+      "description": "Client Demographic full app view (sidebar + header + main work area), patient banner: Jane Doe / Tree, Apple #14066, DOB 01/01/1990",
+      "source_url": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/858bd9ea-d711-4c9f-8fb9-4c4c3567689d.png"
+    },
+    {
+      "file": "02-client-status.png",
+      "description": "Client Status full app view with left sidebar and top header, patient banner: Tree, Apple #14066",
+      "source_url": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/136330b7-63e5-4523-88ed-217064926f84.png"
+    },
+    {
+      "file": "03-client-demographic-financials.png",
+      "description": "Client Demographic / Financials full app view with sidebar and header, patient banner: Jones, Susie with DOB",
+      "source_url": "https://softwareconnect.com/images/screenshot-community-carelink-client-information-and-financials-353994"
+    }
+  ]
+}

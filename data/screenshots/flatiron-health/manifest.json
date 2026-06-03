@@ -1,0 +1,25 @@
+{
+  "slug": "flatiron-health",
+  "vendor": "Flatiron Health",
+  "product": "OncoEMR",
+  "website": "https://flatiron.com",
+  "source": "Brave image search (cheap pass)",
+  "capturedBy": "cheap-pass-brave",
+  "screenshots": [
+    {
+      "file": "01-treatment-plan-morganstein.png",
+      "description": "OncoEMR Treatment Plan view with full app chrome (left nav sidebar, top header, main grid). Patient banner: Andrew Benjamin Morganstein, MRN 8123456, Male, Room Exam Room 1.",
+      "sourceUrl": "https://codatis.com/wp-content/uploads/2025/10/4-306-768x485.jpg"
+    },
+    {
+      "file": "02-select-regimen-wray.png",
+      "description": "OncoEMR New Flowsheet: Select a Regimen modal over patient chart with left nav sidebar and header. Patient banner: Wray, Katherine (1238473), DOB 6/14/1979, Female; Breast Cancer Stage IV.",
+      "sourceUrl": "https://codatis.com/wp-content/uploads/2025/10/2-457-768x485.jpg"
+    },
+    {
+      "file": "03-flowsheet-allen.png",
+      "description": "Classic OncoEMR Generate a Flowsheet dialog with left nav sidebar, doctor/office header. Patient banner: Allen, Angie M (010001), DOB 11/22/1951, Female; breast cancer regimen.",
+      "sourceUrl": "https://images.softwaresuggest.com/latest_screenshots/1561712014271_1_b_74.png"
+    }
+  ]
+}

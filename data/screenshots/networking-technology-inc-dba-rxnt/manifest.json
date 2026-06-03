@@ -1,0 +1,30 @@
+{
+  "vendor": "Networking Technology Inc., dba RXNT",
+  "product": "RXNT Electronic Health Records",
+  "website": "https://www.rxnt.com",
+  "slug": "networking-technology-inc-dba-rxnt",
+  "source": "Brave image search (cheap pass)",
+  "captured": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-patient-chart-summary.png",
+      "description": "RXNT EHR Patient Dashboard / Chart Summary - full app (sidebar Navigation + top menu + work area). Patient banner: Miller, Kristen; Patient# 45868049; DOB 06/09/1989; Chart KM12345.",
+      "source_url": "https://www.ehrinpractice.com/pictures/W1siZiIsIjIwMjAvMDIvMjcvM2JoNnFzcW5laF9SWE5UX0VIUl9FUlhfUGF0aWVudF9EYXNoYm9hcmQuanBnIl0sWyJwIiwidGh1bWIiLCI4MDB4NTAwXHUwMDNlIl0sWyJwIiwiZW5jb2RlIiwianBnIiwiLXF1YWxpdHkgODUiXV0/RXNT%20EHR-ERX%20Patient%20Dashboard.jpg?sha=67285f982403adcf"
+    },
+    {
+      "file": "02-patient-problems.png",
+      "description": "RXNT EHR Problems view - full app. Same patient banner (Miller, Kristen; DOB 06/09/1989; Chart KM12345). Active diagnosis grid with ICD-10/ICD-9/SNOMED codes.",
+      "source_url": "https://www.ehrinpractice.com/pictures/W1siZiIsIjIwMjAvMDIvMjcvOWw4d3BtOHhwal9SWE5UX0VIUl9FUlhfUHJvYmxlbXMuanBnIl0sWyJwIiwidGh1bWIiLCI4MDB4NTAwXHUwMDNlIl0sWyJwIiwiZW5jb2RlIiwianBnIiwiLXF1YWxpdHkgODUiXV0/RXNT%20EHR-ERX%20Problems.jpg?sha=9f6cfca4433c3b2c"
+    },
+    {
+      "file": "03-vitals-charting.png",
+      "description": "RXNT EHR Vitals & Charting view - full app (sidebar + top menu + work area). Patient banner: Miller, Kristen; Female 06/10/1989 (35 years old); Patient# 45868048; Chart KM12345.",
+      "source_url": "https://help.rxnt.com/hc/article_attachments/24191529690775"
+    },
+    {
+      "file": "04-chart-summary-peds.png",
+      "description": "RXNT EHR Chart Summary view - full app. Patient banner: Miller, Kristen Sherry; Female 06/10/2014 (10 years old); Patient# 45868048; Chart KM12345.",
+      "source_url": "https://help.rxnt.com/hc/article_attachments/30589345692183"
+    }
+  ]
+}

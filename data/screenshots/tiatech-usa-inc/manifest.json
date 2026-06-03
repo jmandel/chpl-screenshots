@@ -1,0 +1,18 @@
+{
+  "vendor": "TiaTech USA, Inc.",
+  "product": "TiaMD",
+  "website": "https://www.tiatech.net",
+  "slug": "tiatech-usa-inc",
+  "capturedAt": "2026-06-03",
+  "source": "Brave image search (cheap pass)",
+  "notes": "No qualifying full-app TiaMD screenshots surfaced. Kept one screenshot of TiaTech's clinical software (NUMR / TiaNuMR Hospital Management System, same vendor) that meets the acceptance bar: full application view plus visible patient demographics. TiaMD-branded results were only marketing mockups/diagrams/logos.",
+  "screenshots": [
+    {
+      "file": "01-numr-registration-patient-demographics.png",
+      "product": "NUMR (TiaNuMR) Hospital Management System",
+      "view": "Patient Registration",
+      "demographics": "Patient Type, First Name 'TEST PATIENT', DOB 01-01-1987, Age/Gender/Marital Status, doctor/token, local & permanent address, mobile",
+      "sourceUrl": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/e5e5c8f4-4874-4c39-9832-14ce72f43eff.png"
+    }
+  ]
+}

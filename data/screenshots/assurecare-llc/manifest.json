@@ -1,0 +1,14 @@
+{
+  "slug": "assurecare-llc",
+  "vendor": "AssureCare LLC",
+  "product": "iPatientCare",
+  "website": "https://ipatientcare.com/",
+  "source": "Brave image search (cheap pass)",
+  "images": [
+    {
+      "file": "01-ipatientcare-document-imaging.png",
+      "source_url": "https://www.emrsystems.net/wp-content/uploads/2025/11/iPatientCare-EMR-Software-Patient-Documenting-Imaging-Management.webp",
+      "description": "iPatientCare EHR Document Imaging and Management screen showing top menu (File/Reports/Correspondence/Tools/Billing), patient selection grid with patient names, DOB and MRN, an echocardiogram image viewer, and order/document entry panels."
+    }
+  ]
+}

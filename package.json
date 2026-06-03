@@ -1,0 +1,25 @@
+{
+  "name": "ehrpatient",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "download": "bun run scripts/download-chpl.ts",
+    "sample": "bun run scripts/sample-vendors.ts",
+    "abstract": "bun run scripts/abstract-screenshot.ts",
+    "abstract:batch": "bun run scripts/abstract-batch.ts",
+    "worklist": "bun run scripts/build-worklist.ts",
+    "clean": "bun run scripts/clean-screenshots.ts",
+    "backfill-attempts": "bun run scripts/backfill-attempts.ts",
+    "reabstract": "bun run scripts/reabstract-v1.ts",
+    "viewer": "bun run scripts/viewer-server.ts",
+    "build": "bun run scripts/build-static.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@google/genai": "^2.7.0"
+  }
+}

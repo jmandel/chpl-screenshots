@@ -1,0 +1,30 @@
+{
+  "slug": "abeo-solutions-inc",
+  "vendor": "Abeo Solutions, Inc",
+  "product": "Crystal Practice Management",
+  "website": "https://www.crystalpm.com/",
+  "source": "Brave image search (cheap pass)",
+  "capturedBy": "cheap-pass-brave",
+  "images": [
+    {
+      "file": "01-exam-chief-complaint.png",
+      "desc": "Crystal PM EHR exam encounter - Chief Complaint / Review of Ocular System form; patient banner 'Test123, Test123' (demo)",
+      "sourceUrl": "https://emrsystems.net/wp-content/uploads/2016/10/Crystal-EMR-Practice-Management-Software-Charting-1024x831.webp"
+    },
+    {
+      "file": "02-billing-transactions.png",
+      "desc": "Crystal PM billing / transaction history with patient search; patient banner 'Carrales, Michael R AETNA'",
+      "sourceUrl": "https://emrsystems.net/wp-content/uploads/2016/10/Crystal-EMR-Practice-Management-Software-Invoices-1024x623.webp"
+    },
+    {
+      "file": "03-scheduler.png",
+      "desc": "Crystal PM appointment scheduler (daily view, multiple providers); patient banner 'Carrales, Michael R AETNA'",
+      "sourceUrl": "https://www.findemr.com/image/cache/catalog/1product%20pic/crystal-pm/scheduling-res-600x375.jpg"
+    },
+    {
+      "file": "04-inventory.png",
+      "desc": "Crystal PM optical inventory (frames/contact lenses) full app view; patient banner 'Carrales, Michael R AETNA'",
+      "sourceUrl": "https://www.findemr.com/image/cache/catalog/1product%20pic/crystal-pm/inventory-res-600x375.jpg"
+    }
+  ]
+}

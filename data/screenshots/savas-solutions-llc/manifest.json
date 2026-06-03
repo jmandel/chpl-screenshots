@@ -1,0 +1,14 @@
+{
+  "vendor": "Savas Solutions LLC",
+  "product": "Savas Software",
+  "slug": "savas-solutions-llc",
+  "website": "https://www.savassoftware.com",
+  "source": "Brave image search (cheap pass)",
+  "screenshots": [
+    {
+      "file": "01-patient-record.png",
+      "source_url": "https://savassoftware.com/wp-content/uploads/2025/01/iPad-Pro-Mockup-1.png",
+      "description": "Savas Patient Record view: left nav tabs (Encounters, Orders, Outcomes, Dx, Allergies, Hx, Past Tx, Insurance, UTC, Admin), header with Patients/Schedule/Management menus and search, patient banner (Rony Imaginary, ID CDE000018, DOB 2/6/1989, age, sex), and Wellness Summary charts."
+    }
+  ]
+}

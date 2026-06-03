@@ -1,0 +1,25 @@
+{
+  "vendor": "Orion Health",
+  "product": "Communicate",
+  "website": "https://orionhealth.com",
+  "slug": "orion-health",
+  "source": "Brave image search (official API), orionhealth.com hosted product screenshots",
+  "capturedBy": "cheap-pass screenshot hunter",
+  "screenshots": [
+    {
+      "file": "01-communicate-inbox-patient-chart.png",
+      "sourceUrl": "https://orionhealth.com/wp-content/uploads/Communicate-screenshot.png",
+      "description": "Orion Health Communicate: left message folder sidebar (Inbox/Drafts/Sent), header, main pane showing a clinical document message and Summary of Patient Chart with demographics for demo patient JONES, Isabella (DOB, MRN, address, race)."
+    },
+    {
+      "file": "02-clinical-portal-patient-summary.png",
+      "sourceUrl": "https://orionhealth.com/wp-content/uploads/DCR-Screenshot_Small-1.png",
+      "description": "Orion Health Clinical Portal: Document View sidebar, patient banner (GUL, Maryam, born 14-Feb-1937, NHS 933 333 3339), top tab bar, and main combined-summary grid (organisations, medications, alerts, appointments)."
+    },
+    {
+      "file": "03-amadeus-clinical-viewer.png",
+      "sourceUrl": "https://orionhealth.com/wp-content/uploads/Amadeus-AI-features-screenshot.png",
+      "description": "Orion Health Amadeus clinical viewer: left disorders/problem navigation sidebar, header with patient banner (CARDINAL, John Q, DOB 12-Nov-1949, MRN AAA-000xx), and main document/biopsy detail work area. Presented in a laptop frame."
+    }
+  ]
+}

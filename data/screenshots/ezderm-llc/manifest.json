@@ -1,0 +1,15 @@
+{
+  "vendor": "EZDERM, LLC",
+  "product": "EZDERM",
+  "website": "https://ezderm.com",
+  "slug": "ezderm-llc",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-ipad-clinical-exam-patient-banner.png",
+      "source": "https://images.softwaresuggest.com/latest_screenshots/1561712027567_2_b_74.png",
+      "description": "EZDERM iPad clinical exam (3D body map) view. Patient demographics banner at top: 'Barbara Thompson (36 | 6/30/80)' with encounter date, action toolbar, and bottom navigation tabs (Rash / New).",
+      "patientDemographics": "Barbara Thompson, age 36, DOB 6/30/80 (demo patient)"
+    }
+  ]
+}

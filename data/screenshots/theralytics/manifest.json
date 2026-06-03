@@ -1,0 +1,19 @@
+{
+  "vendor": "Theralytics",
+  "product": "Practice Management and Data Collection Software",
+  "website": "https://www.theralytics.net",
+  "slug": "theralytics",
+  "source": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-dashboard-client-details.png",
+      "sourceUrl": "https://a.fsdn.com/con/app/proj/theralytics.s/screenshots/Screen%20Shot%202024-09-10%20at%207.10.01%20PM-f8f270ce.png",
+      "notes": "Full app: left sidebar (Dashboard, Manage Users, Scheduling, Billing, Reports...), header, main work area with Total Clients/Staff, Authorizations and Staff Documents tables; right CLIENT DETAILS panel listing client names with Client IDs and DOBs (demo data)."
+    },
+    {
+      "file": "02-dashboard-authorizations.jpg",
+      "sourceUrl": "https://www.findemr.com/image/cache/catalog/1product%20pic/Theralytics/theralytics%20(2)-600x375.jpg",
+      "notes": "Full app dashboard: left sidebar + header (Demo / Welcome) + main work area showing Total Clients/Staff and Authorizations/Staff Documents tables with client names."
+    }
+  ]
+}

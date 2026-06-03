@@ -1,0 +1,46 @@
+{
+  "vendor": "OT EMR, Inc.",
+  "product": "OneTouch EMR",
+  "website": "https://onetouchemr.com",
+  "slug": "ot-emr-inc",
+  "source": "Brave image search (cheap pass)",
+  "capturedBy": "cheap-pass-brave",
+  "images": [
+    {
+      "file": "01-patient-encounter-summary.png",
+      "sourceUrl": "https://images.softwaresuggest.com/latest_screenshots/1533972777_OneTouch%20EMR-patient%20information.png",
+      "description": "Patient Encounter summary view; full app chrome (logo, nav menu, tabs) with patient banner Albert Einstein, MRN 100001, DOB 06/20/1985.",
+      "patient": "Albert Einstein (demo)"
+    },
+    {
+      "file": "02-patient-encounter-vitals.png",
+      "sourceUrl": "https://images.softwaresuggest.com/latest_screenshots/1533972790_OneTouch%20EMR-vitats.png",
+      "description": "Patient Encounter Vitals tab with BP trend graph; patient banner Albert Einstein, MRN 100001, DOB 06/20/1985.",
+      "patient": "Albert Einstein (demo)"
+    },
+    {
+      "file": "03-patient-encounter-assessment.png",
+      "sourceUrl": "https://images.softwaresuggest.com/latest_screenshots/1533972794_OneTouch%20EMR-assessment.png",
+      "description": "Patient Encounter Assessment tab with problem list and ICD search; banner Albert Einstein, MRN 100001, DOB 06/20/1985.",
+      "patient": "Albert Einstein (demo)"
+    },
+    {
+      "file": "04-patient-encounter-plan.png",
+      "sourceUrl": "https://images.softwaresuggest.com/latest_screenshots/1533972781_OneTouch%20EMR-plan.png",
+      "description": "Patient Encounter Plan tab (labs/radiology/orders); banner Albert Einstein, MRN 100001, DOB 06/20/1985.",
+      "patient": "Albert Einstein (demo)"
+    },
+    {
+      "file": "05-patient-chart-vitals.png",
+      "sourceUrl": "https://emrfinder.com/wp-content/uploads/2016/09/OneTouch-EMR-Practice-Management-Software-Patient-1024x566.webp",
+      "description": "Patient Chart view, Vitals table; full app nav with patient banner John Wayne, MRN 100113, Male, DOB 05/02/1988.",
+      "patient": "John Wayne (demo)"
+    },
+    {
+      "file": "06-patient-demographics-ipad.png",
+      "sourceUrl": "https://emrsystems.net/wp-content/uploads/2025/11/OneTouch-EMR-Software-Patient-Database-1024x768.webp",
+      "description": "iPad app Demographics tab; full nav menu and patient banner Amelia Test, MRN 100001, Female, DOB 06/20/1985.",
+      "patient": "Amelia Test (demo)"
+    }
+  ]
+}

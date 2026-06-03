@@ -1,0 +1,40 @@
+{
+  "vendor": "Modernizing Medicine Gastroenterology, LLC",
+  "product": "gGastro",
+  "website": "https://www.modmed.com",
+  "slug": "modernizing-medicine-gastroenterology-llc",
+  "source": "Brave image search (cheap pass)",
+  "captured": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-colonoscopy-report-chart.png",
+      "desc": "gGastro EHR medical chart with colonoscopy report; left nav, header toolbar, patient banner (Jane Doe, Account #, DOB), Active Orders panel",
+      "source_url": "https://emrfinder.com/wp-content/uploads/2017/08/gGastro-EHR-Endoscopy-Report-Writer-Software-Medical-Charts-demo.webp"
+    },
+    {
+      "file": "02-colonoscopy-report-orders.png",
+      "desc": "gGastro EHR colonoscopy report; patient banner (Jane K. Smith, Account #, DOB, gender), My Orders side panel",
+      "source_url": "https://emrsystems.net/wp-content/uploads/2016/08/gGastro-Gastroenterology-EMR-Software-Medical-Chart-1024x505.webp"
+    },
+    {
+      "file": "03-colonoscopy-report-laptop.png",
+      "desc": "gGastro Endoscopy Report Writer colonoscopy report in laptop mockup; patient banner (Andy A. Anderson, Account #, DOB, gender)",
+      "source_url": "https://www.ehrinpractice.com/pictures/gGastro%20medical%20charts.jpg"
+    },
+    {
+      "file": "04-procedure-specimen.png",
+      "desc": "gGastro ERW Procedure Specimen dialog over findings tree with anatomy map; patient banner (Jane K. Smith - Female - 01/01/1940 81)",
+      "source_url": "https://www.modmed.com/wp-content/uploads/2022/05/gastro-egd1_2022.png"
+    },
+    {
+      "file": "05-chart-monitor-view.png",
+      "desc": "gGastro EHR medical chart on monitor mockup; left nav, header toolbar, patient banner (Jane Doe, Female, 50514, DOB), orders panel",
+      "source_url": "https://www.modmed.com/wp-content/uploads/2025/03/CRP-11341-gastro-erw2_2024-up-546.png"
+    },
+    {
+      "file": "06-problem-diagnosis.png",
+      "desc": "gGastro EHR Problem/Diagnosis search dialog over exam note; patient banner (Jane K. Smith, MRN A123, DOB), diagnosis side panel",
+      "source_url": "https://www.ehrinpractice.com/pictures/gGastro%20ERW%20notes.jpg"
+    }
+  ]
+}

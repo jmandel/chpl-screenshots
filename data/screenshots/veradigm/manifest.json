@@ -1,0 +1,35 @@
+{
+  "slug": "veradigm",
+  "vendor": "Veradigm",
+  "product": "ePrescribe",
+  "website": "https://www.veradigm.com/",
+  "source": "Brave image search (cheap pass)",
+  "capturedBy": "cheap-pass-brave",
+  "images": [
+    {
+      "file": "01-veradigm-ehr-assessment-plan.png",
+      "sourceUrl": "https://www.ehrinpractice.com/pictures/2115/show/Ordering+CirrusDx+tests+in+Veradigm+EHR+demo.jpg",
+      "description": "Veradigm EHR desktop app, Assessment/Plan view with left navigation sidebar (Summary/Contact), patient banner (PATIENT, Current; 4/9/1992; 30y Female; #5008150), tabbed work area, and right Inboxes panel."
+    },
+    {
+      "file": "02-veradigm-eprescribe-rxtrueprice.png",
+      "sourceUrl": "https://www.emrsystems.net/wp-content/uploads/2023/04/Veradigm-Professional-EHR-Practice-Management-Software-Patient.jpg",
+      "description": "Veradigm ePrescribe screen with patient banner (6FEB12, TestPatient; Nov 25 1980; Male; MRN AHS57), medication search/list work area, and right RxTruePrice / Formulary Alternatives sidebar."
+    },
+    {
+      "file": "03-allscripts-pro-ehr-facesheet.png",
+      "sourceUrl": "https://emrfinder.com/wp-content/uploads/2018/04/Allscripts-Professional-EHR-Practice-Management-Software-Face-Sheet-1.webp",
+      "description": "Allscripts/Veradigm Professional EHR Face Sheet with left module sidebar, patient banner header, multi-panel work area (Medical History, Encounters, Medications, Orders), and right Actions panel."
+    },
+    {
+      "file": "04-allscripts-pro-ehr-history-physical.png",
+      "sourceUrl": "https://www.findemr.com/image/cache/catalog/1product%20pic/Allscripts/Allscripts-patient-history1-600x375.jpg",
+      "description": "Allscripts/Veradigm Professional EHR History & Physical view with left navigation sidebar, patient banner (DOBSON, Donna D), and clinical note work area."
+    },
+    {
+      "file": "05-allscripts-pro-ehr-facesheet-summary.png",
+      "sourceUrl": "https://emrsystems.net/wp-content/uploads/2017/01/Allscripts-Professional-EMR-Software-Summary-Face-Sheet-Demo-1024x570.webp",
+      "description": "Allscripts/Veradigm Professional EHR Summary Face Sheet with left module navigation, patient banner header (TEST, HeatherBII), multi-panel summary work area, and right Actions sidebar."
+    }
+  ]
+}

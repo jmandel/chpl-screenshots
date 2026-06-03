@@ -1,0 +1,35 @@
+{
+  "vendor": "PointClickCare Technologies Inc.",
+  "product": "EHR for Practice Groups",
+  "slug": "pointclickcare-technologies-inc",
+  "website": "https://pointclickcare.com/",
+  "source": "Brave image search (cheap pass)",
+  "capturedDate": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-resident-dashboard-chart.png",
+      "description": "PointClickCare Core EHR resident chart (laptop frame): header menu (Home/Admin/Clinical/GL AP/Document Manager/CRM/Reports), patient banner 'Allen, Sheila (605)' with Status/Location/Gender/DOB 4/9/1934/Age 85/Physician, current vitals, allergies, code status, clinical tabs, Resident Dashboard work area.",
+      "sourceUrl": "https://pointclickcare.com/wp-content/uploads/2019/05/snf-core-ehr.png"
+    },
+    {
+      "file": "02-resident-summary-chart.png",
+      "description": "PointClickCare Core EHR Resident Summary view with header menu, patient banner 'Allen, Sheila (655)', vitals, allergies, clinical tabs, advance directive work area.",
+      "sourceUrl": "https://emrsystems.net/wp-content/uploads/2023/08/PointClickCare-EHR-Software-quick-entry-1024x495.webp"
+    },
+    {
+      "file": "03-medication-review.png",
+      "description": "PointClickCare medication review screen: left patient sidebar (Shelley Anderson with Diagnoses, Allergies, Diet, Notation, resuscitation status), main work area of medication cards (Hydrocodone, Levothyroxine, Lexapro, etc.).",
+      "sourceUrl": "https://www.findemr.com/image/cache/catalog/1product%20pic/PointClickCare/PointClickCare%20%20(2)-600x375.jpg"
+    },
+    {
+      "file": "04-patient-demographics.png",
+      "description": "PointClickCare patient Demographics view: left nav (Demographics/Care Team/Medical History/Questionnaires/Insurance/Pharmacy/Records Exchange), patient banner 'Hillary Headley MRN 73 / ID:PAT0046 / DOB Aug 28 1953', basic info and contact details work area.",
+      "sourceUrl": "https://www.charmhealth.com/resources/addons/images/pcc-patient-demogrphics.jpg"
+    },
+    {
+      "file": "05-diagnoses-list.png",
+      "description": "PointClickCare Diagnoses view: left nav, patient banner 'Hillary Headley MRN 73 / ID:PAT0046 / DOB Aug 28 1953', active diagnoses table with ICD codes, from/to dates, status.",
+      "sourceUrl": "https://www.charmhealth.com/resources/addons/images/pcc-diagnosis.jpg"
+    }
+  ]
+}

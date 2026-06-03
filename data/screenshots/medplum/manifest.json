@@ -1,0 +1,29 @@
+{
+  "vendor": "Medplum",
+  "product": "Medplum",
+  "slug": "medplum",
+  "website": "https://www.medplum.com/",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-patient-resource-view.png",
+      "sourceUrl": "https://files.readme.io/2d9edb76519ba75fd53f3a7af539a968cdc12b3af05648bc169613e2032451d8-image.png",
+      "description": "Medplum admin app Patient resource view. Left sidebar (Patient, Practitioner, Organization, ServiceRequest, DiagnosticReport, Questionnaire, Project, AccessPolicy...), top search header, patient banner Eric Gunther DOB 1987-11-15 Age 037Y, Apps tab."
+    },
+    {
+      "file": "02-chat-demo-patient-thread.png",
+      "sourceUrl": "https://github.com/medplum/medplum-chat-demo/raw/main/medplum-chat-demo-screenshot.png",
+      "description": "Medplum chat demo app. Sidebar (All Threads, My Threads, Upload Data), search header, patient panel Marge Simpson 1956-10-01 067Y with Allergies/Problem List/Medications, thread details and message window."
+    },
+    {
+      "file": "03-provider-app-patient-tasks.png",
+      "sourceUrl": "https://www.medplum.com/img/provider/medplum-provider-app-cover-image.webp",
+      "description": "Medplum Provider app. Sidebar (Search, Spaces, Patients, Schedule, Messages, Tasks), patient banner Lauren Warner 4/15/1968 057Y with demographics, insurance (Aetna), allergies, problems; main area shows task list and task detail."
+    },
+    {
+      "file": "04-patient-chart-overview.png",
+      "sourceUrl": "https://files.readme.io/edda7ec2a8a60026d9bbbd05ee272870621dde392f061384520d580a18caf435-image.png",
+      "description": "Medplum patient chart Overview with embedded Zus ZAP. Sidebar (Overview, Demographics, Conditions, Medications, Diagnostics, Vitals, Encounters & Notes...), patient banner Eric Gunther 11/15/1987 (37), cards for Conditions/Medications/Labs/Vitals/Encounters."
+    }
+  ]
+}

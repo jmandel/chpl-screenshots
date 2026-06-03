@@ -1,0 +1,30 @@
+{
+  "slug": "doc-tor-com",
+  "vendor": "Doc-tor.com",
+  "product": "Picasso",
+  "website": "https://www.doc-tor.com/",
+  "source": "Brave image search (cheap pass)",
+  "captured": "2026-06-03",
+  "images": [
+    {
+      "file": "01-patient-summary-chart.jpg",
+      "sourceUrl": "https://www.findemr.com/image/cache/catalog/1product%20pic/Picasso%20EHR%20Software/picasso%20(2)-600x375.jpg",
+      "desc": "Picasso patient summary/chart view: left menu + patient list sidebar, header patient banner (Test, Patient2, Female, DOB 6/22/1977, Sick Visit), clinical data panels."
+    },
+    {
+      "file": "02-visit-entry-billing.png",
+      "sourceUrl": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,quality=80,format=auto,onerror=redirect/uploads/asset/file/04ecc93f-5610-4c8b-ba8c-e21e2f1de5a8/picasso-screenshot003.JPG",
+      "desc": "Picasso Visit Entry / billing view: left navigation sidebar (Front Desk, Demographics, etc.), header patient banner (John Smith, DOB 06/22/1968), procedures and charges grid."
+    },
+    {
+      "file": "03-patient-visit-dashboard.png",
+      "sourceUrl": "https://doc-tor.com/wp-content/uploads/2018/11/laptop-main1-0.png",
+      "desc": "Picasso full application (laptop mockup): top toolbar (Home/Tasks/Visits/Explorer/Fax), patient list sidebar, header patient banner (Sztaboova, Penny with DOB), New Patient Visit work area."
+    },
+    {
+      "file": "04-lab-report.png",
+      "sourceUrl": "https://emrsystems.net/wp-content/uploads/2023/05/Picasso-EHR-software-lab-report-dashboard.webp",
+      "desc": "Picasso laboratory report view: ribbon toolbar, patient demographics banner (Patient ID, DOB 09/29/1955, age/sex), Quest Diagnostics lab report panel."
+    }
+  ]
+}

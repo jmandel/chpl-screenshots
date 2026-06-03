@@ -1,0 +1,39 @@
+{
+  "slug": "enabledoc-llc",
+  "vendor": "EnableDoc LLC",
+  "product": "Enablemypractice",
+  "website": "https://www.enabledoc.com/",
+  "source": "Brave image search (official API)",
+  "images": [
+    {
+      "file": "01-patient-chart-word-processor-banner.png",
+      "source_url": "https://www.findemr.com/image/cache/catalog/1product%20pic/Enablemypractice/enablemypractice%20(2)-600x375.jpg",
+      "notes": "Full EHR view: left sidebar + header + word-processor note. Patient banner 'TEST, MICHAEL DOB: 10/22/2019' with encounter/insurance details."
+    },
+    {
+      "file": "02-patient-details-telehealth.png",
+      "source_url": "https://www.findemr.com/image/cache/catalog/1product%20pic/Enablemypractice/enablemypractice%20(3)-600x375.jpg",
+      "notes": "EHR Patient Details chart alongside telehealth video; sidebar/tabs + patient banner area."
+    },
+    {
+      "file": "03-provider-dashboard-patient-tab.png",
+      "source_url": "https://www.findemr.com/image/cache/catalog/1product%20pic/enabledoc/provider-dashboard-min-600x375.jpg",
+      "notes": "Provider Dashboard, full chrome; open patient tab 'Adams Richard, 82 Yo/Male, Internal Medicine'."
+    },
+    {
+      "file": "04-clinical-note-word-processor.png",
+      "source_url": "https://www.findemr.com/image/cache/catalog/1product%20pic/enabledoc/word-processor-min-600x375.jpg",
+      "notes": "EHR Word Processor clinical note; sidebar + open patient tab 'Agna Michel 26 Yo/Female Internal Medicine'."
+    },
+    {
+      "file": "05-patient-portal-myhealth.png",
+      "source_url": "https://emrfinder.com/wp-content/uploads/2025/10/EnableDoc-EMR-Practice-Management-Software-Patient-Provider-Portal.webp",
+      "notes": "Enable myhealth patient portal; full app with patient banner 'Brady Tom' and demographic header."
+    },
+    {
+      "file": "06-provider-dashboard-worklist.png",
+      "source_url": "https://emrfinder.com/wp-content/uploads/2025/10/EnableDoc-EMR-Practice-Management-Software-Patient-Provider-Dashboard.webp",
+      "notes": "Provider Dashboard worklist; sidebar/header + pending tasks and in-progress notes listing patient names with DOB."
+    }
+  ]
+}

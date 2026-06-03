@@ -1,0 +1,22 @@
+{
+  "vendor": "HospiceMD, Inc.",
+  "product": "HomeHealthMD",
+  "slug": "hospicemd-inc",
+  "website": "https://hospicemd.com/",
+  "source": "Brave image search (cheap pass)",
+  "capturedAt": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-ha-note-patient-chart.png",
+      "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/e3/d9/3d/e3d93dec-ad1b-68fa-8266-306b50d2d2f9/pr_source.png/750x750bb.jpeg",
+      "description": "HospiceMD mobile app HA NOTE view. Patient banner (HospiceMD / Block, Ryan / ID 111608-816), header, visit date/time, Vitals & Measurements, and Task Assigned charting work area.",
+      "demographics": "Patient name Block, Ryan; ID 111608-816"
+    },
+    {
+      "file": "02-ha-history-patient-visits.png",
+      "sourceUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/c5/62/55/c5625508-3349-8c03-b3e5-479ba443cbf5/pr_source.png/750x750bb.jpeg",
+      "description": "HospiceMD mobile app HA HISTORY view. Menu + header, patient banner (HospiceMD / Block, Ryan / ID 111608-816), Add New Visit Note action, and list of MC425 visit notes with dates/times.",
+      "demographics": "Patient name Block, Ryan; ID 111608-816"
+    }
+  ]
+}

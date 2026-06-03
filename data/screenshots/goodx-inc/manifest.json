@@ -1,0 +1,16 @@
+{
+  "vendor": "Goodx Inc.",
+  "product": "Goodx",
+  "website": "https://goodx.us/",
+  "slug": "goodx-inc",
+  "source": "brave-image-search",
+  "captured": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-goodx-ophthalmology-clinical-exam-patient-edgar-knight.png",
+      "sourceUrl": "https://goodx.healthcare/wp-content/uploads/2021/10/Practitioner-with-a-Custom-Clinical-Form-scaled-1-1080x675.jpg",
+      "description": "GoodX clinical examination/Review of Systems screen shown on a tablet. Header patient banner reads 'MR EDGAR KNIGHT' with provider 'DR D DOCSPM'; left menu tabs and main clinical work area (Systems Selector, Problem List, exam sections) visible.",
+      "patient": "MR EDGAR KNIGHT (demo)"
+    }
+  ]
+}

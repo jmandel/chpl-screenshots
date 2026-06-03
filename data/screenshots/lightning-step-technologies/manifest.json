@@ -1,0 +1,20 @@
+{
+  "vendor": "Lightning Step Technologies",
+  "product": "Lightning Step",
+  "slug": "lightning-step-technologies",
+  "website": "https://lightningstep.com/",
+  "source": "Brave image search (cheap pass)",
+  "captured": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-client-census.png",
+      "description": "Client Census screen — full app view with left sidebar (Information/Clinical Dashboard/Client Care/Administration), top nav (Census/Caseload/Calendar/Inquiries), and main grid listing clients with DOB, admission dates, and program. Demo/test patients.",
+      "source_url": "https://a.fsdn.com/con/app/proj/lightning-step.s/screenshots/Captura%20de%20pantalla%202022-02-02%20141000.png/1000/auto/1"
+    },
+    {
+      "file": "02-calendar-staff-view.png",
+      "description": "Calendar staff view — full app chrome (Lightning Step header/search, homepage breadcrumb, mini-calendar sidebar) with per-staff appointment columns showing patient names and MR# identifiers in appointment blocks. Demo/test data.",
+      "source_url": "https://emrsystems.net/wp-content/uploads/2024/06/Lightning-Step-EMR-Software-Staff-Calendar-1024x616.webp"
+    }
+  ]
+}

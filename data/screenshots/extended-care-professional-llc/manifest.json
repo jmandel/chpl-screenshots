@@ -1,0 +1,60 @@
+{
+  "vendor": "Extended Care Professional, LLC",
+  "product": "ECP",
+  "website": "https://ecp123.com/",
+  "slug": "extended-care-professional-llc",
+  "source": "Brave image search (cheap pass)",
+  "capturedAt": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-perform-schedule-task-laurie-anderson.png",
+      "description": "Perform Schedule Task view for resident Laurie Anderson (Apt #101) with care instructions table and patient banner",
+      "sourceUrl": "https://codatis.com/wp-content/uploads/2025/10/1-377.jpg"
+    },
+    {
+      "file": "02-clinical-resident-grid.png",
+      "description": "Clinical module resident/community grid with left nav, header tabs (Clinical/CRM/Billing) and resident tiles",
+      "sourceUrl": "https://codatis.com/wp-content/uploads/2025/10/2-370.jpg"
+    },
+    {
+      "file": "03-medications-quick-view.png",
+      "description": "Medications Quick View with resident banner (Anderson, Laurie Apt #101) and scheduled medication list",
+      "sourceUrl": "https://codatis.com/wp-content/uploads/2025/10/3-340.jpg"
+    },
+    {
+      "file": "04-care-plan-laurie-anderson.png",
+      "description": "Care Plan window for Laurie Anderson (Apt #100) with active cares table and patient banner",
+      "sourceUrl": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/fe9da3cf-542e-4f36-85d2-964b1d1ad0da.png"
+    },
+    {
+      "file": "05-incident-report-mickey-babineaux.png",
+      "description": "Incident Report injury-type body-map for Mickey Babineaux (Apt #115)",
+      "sourceUrl": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/6d020b5c-fe7a-402e-aab6-999c9b580495.png"
+    },
+    {
+      "file": "06-billing-laurie-anderson.png",
+      "description": "Billing module resident charges for Laurie Anderson with left nav, header and charges table",
+      "sourceUrl": "https://codatis.com/wp-content/uploads/2025/10/5-139.jpg"
+    },
+    {
+      "file": "07-crm-leads-in-progress.png",
+      "description": "CRM Leads (In Progress) pipeline view with left nav, header tabs and lead rows",
+      "sourceUrl": "https://codatis.com/wp-content/uploads/2025/10/4-247.jpg"
+    },
+    {
+      "file": "08-daily-tasks-laurie-anderson.png",
+      "description": "Daily Tasks care schedule for Laurie Anderson with patient photo/banner and task table",
+      "sourceUrl": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/1fa94c7a-2622-4b15-8169-092a041c7379.png"
+    },
+    {
+      "file": "09-perform-schedule-task-window.png",
+      "description": "Perform Schedule Task window for Laurie Anderson (Apt #101) with Issued/Not Issued status columns",
+      "sourceUrl": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/ff88b4a7-3f23-4f8c-9e96-078c0b35a2ae.png"
+    },
+    {
+      "file": "10-medications-quick-view-list.png",
+      "description": "Medications Quick View list for Anderson, Laurie (Apt #101) with scheduled times and med info",
+      "sourceUrl": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/971c01f2-eba2-4500-a6bb-f5f31282fbc2.png"
+    }
+  ]
+}

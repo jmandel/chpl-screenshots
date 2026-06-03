@@ -1,0 +1,20 @@
+{
+  "vendor": "Keiser Computers, Inc.",
+  "product": "Drs Enterprise",
+  "slug": "keiser-computers-inc",
+  "website": "https://www.drsdoc.com",
+  "source": "brave-image-search-cheap-pass",
+  "capturedBy": "cheap-pass-brave-only",
+  "screenshots": [
+    {
+      "file": "01-patient-chart-demographics.png",
+      "sourceUrl": "https://www.findemr.com/image/cachewebp/catalog/1product%20pic/Drs%20Enterprise/Patient-600x375.webp",
+      "description": "Drs Enterprise full application: top ribbon toolbar, left document tree sidebar (patient Smith, Anthony), main work area with patient demographics and identification card."
+    },
+    {
+      "file": "02-physical-therapy-note.png",
+      "sourceUrl": "https://www.findemr.com/image/cachewebp/catalog/1product%20pic/Drs%20Enterprise/PT-notes-600x375.webp",
+      "description": "Drs Enterprise full application: ribbon toolbar, left chart sidebar (patient Jablonski, Nick), main work area showing a Physical Therapy daily report with patient name and date."
+    }
+  ]
+}

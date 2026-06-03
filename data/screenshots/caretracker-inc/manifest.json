@@ -1,0 +1,35 @@
+{
+  "vendor": "CareTracker, Inc.",
+  "product": "Amazing Charts",
+  "website": "https://www.amazingcharts.com",
+  "slug": "caretracker-inc",
+  "source": "Brave image search (cheap pass)",
+  "capturedBy": "cheap-pass-brave",
+  "images": [
+    {
+      "file": "01-encounter-washington.png",
+      "desc": "Most Recent Encounter view with full patient banner (Washington, George 02/22/1732; ID: 2097), chief complaint, HPI, exam, diagnosis and plan",
+      "sourceUrl": "https://www.ehrinpractice.com/pictures/961/show/x500/Amazing+Charts+EHR+Screenshot+3.jpg"
+    },
+    {
+      "file": "02-account-info-saffire.png",
+      "desc": "Account Information / billing superbill view with patient banner (Saffire, William DOB 12/1/1945; ID: 1030), CPT/ICD codes and balance",
+      "sourceUrl": "https://www.ehrinpractice.com/pictures/.../Amazing%20Charts%20EHR%20Screenshot%202.jpg"
+    },
+    {
+      "file": "03-inbox-patient-list.png",
+      "desc": "Amazing Charts main window: Inbox, patient list with names/IDs/phones, scheduling calendar",
+      "sourceUrl": "https://www.ehrinpractice.com/pictures/.../Amazing%20Charts%20EHR%20Screenshot%201.jpg"
+    },
+    {
+      "file": "04-schedule-patient-list.png",
+      "desc": "Schedule view with provider day grid, patient list (Mouse, Mickey ID 1001) and scheduling calendar",
+      "sourceUrl": "https://www.ehrinpractice.com/pictures/.../Amazing%20Charts%20EHR%20Screenshot%204.jpg"
+    },
+    {
+      "file": "05-search-reporting.png",
+      "desc": "Search & Reporting window with patient result list (names, IDs, phones, ages, medication)",
+      "sourceUrl": "https://www.ehrinpractice.com/pictures/.../Amazing%20Charts%20EHR%20Screenshot%205.jpg"
+    }
+  ]
+}

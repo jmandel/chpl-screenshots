@@ -1,0 +1,24 @@
+{
+  "vendor": "Medical Office Technologies, Inc.",
+  "product": "ezAccess Portal",
+  "website": "https://www.ezaccessmot.com/",
+  "slug": "medical-office-technologies-inc",
+  "capturedBy": "cheap-pass-brave-images",
+  "screenshots": [
+    {
+      "file": "01-portal-welcome-dashboard.png",
+      "description": "ezAccess Patient Portal welcome dashboard with tab navigation (Home, My Messages, Appointments, Visit Info & Diagnosis, Prescriptions & Refills, Billing, My Profile, Options, Logout). Main work area shows Bulletin Board, Visits & Appointments, Messages, and Bills panels; right column shows patient demographics for Don Bassett (address 12155 SW Broadway, Beaverton IL 60005, phone, email).",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/afdefc0d-885f-4340-8079-0f84d9fa291d.png"
+    },
+    {
+      "file": "02-portal-appointment-request.png",
+      "description": "ezAccess Patient Portal New Appointment Request screen with full tab navigation header and main form (Select Patient: Bobb G Jones [ID: 5], Select Doctor: Winston MD Harry S., Select Facility, Select Date) plus Available Appointments panel.",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/2e900ded-9b83-4647-8784-739962244a69.png"
+    },
+    {
+      "file": "03-portal-my-bills.png",
+      "description": "ezAccess Patient Portal My Bills / online payment screen with tab navigation header; main work area shows payment amount (current balance $324.31), payment method, payment information form (Card Holder Name Don C1. Bassett, Zip 60005).",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/0e5bf2d1-533c-4945-924e-89949c84fb7e.png"
+    }
+  ]
+}

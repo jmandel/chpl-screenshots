@@ -1,0 +1,14 @@
+{
+  "slug": "osler-inc",
+  "vendor": "Osler, Inc.",
+  "product": "CareRails",
+  "website": "http://www.oslerhealth.com",
+  "source": "Brave image search (cheap pass)",
+  "images": [
+    {
+      "file": "01-dashboard-patient-alerts.png",
+      "sourceUrl": "https://www.oslerhealth.ca/assets/images/unified-inbox.png",
+      "description": "OSLER Doctor's Dashboard - full app view with left nav, header, main work area; Urgent Alerts table lists patients with names and IDs (John Doe ID 2456, Sarah Lee ID 6723, James Kim ID 2406, Ahmed Ali ID 9821)."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "vendor": "Medical Information Technology, Inc. (MEDITECH)",
+  "product": "MEDITECH Cancer Case Reporting",
+  "website": "https://www.meditech.com",
+  "slug": "medical-information-technology-inc-meditech",
+  "source": "Brave image search (cheap pass)",
+  "captured": "2026-06-03",
+  "images": [
+    {
+      "file": "01-oncology-summary-banner.png",
+      "desc": "Expanse oncology patient summary with patient banner (Thompson, Sally), oncology treatment summary widget, problems, special indicators",
+      "source_url": "https://ehr.meditech.com/themes/ehrmeditech/images/campaigns/Oncology-screencap-edited--block2.png"
+    },
+    {
+      "file": "02-pathology-case-manager-cases.jpg",
+      "desc": "Expanse Pathology Case Manager - My Cases list with surgical/diagnosis cases, Case Details panel showing patient MRN/account, demographics",
+      "source_url": "https://ehr.meditech.com/themes/ehrmeditech/images/campaigns/Expanse-Pathology-Case-Manager--Screenshot.jpg"
+    },
+    {
+      "file": "03-anatomical-pathology-report.jpg",
+      "desc": "Review and Sign Anatomical Pathology Report (MEDITECH Hospital) with patient Dumont, Murphy, acct/unit numbers, final diagnosis, Case Details panel",
+      "source_url": "https://ehr.meditech.com/themes/ehrmeditech/images/campaigns/expanse-pathology-screenshot-2.jpg"
+    },
+    {
+      "file": "04-pathology-document-final-diagnosis.jpg",
+      "desc": "Pathology Document editor with gross/microscopic/final diagnosis sections, patient Dumont, Murphy in Case Details panel",
+      "source_url": "https://ehr.meditech.com/themes/ehrmeditech/images/campaigns/expanse-pathology-screenshot-1.jpg"
+    },
+    {
+      "file": "05-chart-summary-demographics.jpg",
+      "desc": "Expanse chart Summary with full patient banner (Combs, Amanda, DOB, MRN), patient demographics, vitals, allergies, problems",
+      "source_url": "https://ehr.meditech.com/themes/ehrmeditech/images/campaigns/XPC-summary--large.jpg"
+    },
+    {
+      "file": "06-preop-review-patient-banner.jpg",
+      "desc": "Expanse pre-operative review worklist with patient banner (Modine, Terie, DOB), surgery assessments, labs",
+      "source_url": "https://ehr.meditech.com/themes/ehrmeditech/images/campaigns/MEDITECH-screenshot--PAT--large.jpg"
+    },
+    {
+      "file": "07-conditions-explorer.jpg",
+      "desc": "Expanse Conditions Explorer (Google Health) with patient banner (Ruby Davis, 57 F), diabetes detail, notes, vitals, labs",
+      "source_url": "https://ehr.meditech.com//themes/ehrmeditech/images/campaigns/meditech-screenshot--expanse-search-and-summarization.jpg"
+    },
+    {
+      "file": "08-summary-status-board.png",
+      "desc": "Expanse ED/summary view with patient banner (Stewart, Martin B), lab results, vitals, home meds, diagnostic reports",
+      "source_url": "https://emrfinder.com/wp-content/uploads/2017/08/MEDITECH-EHR-Software-Patient-Chart.webp"
+    }
+  ]
+}

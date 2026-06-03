@@ -1,0 +1,28 @@
+{
+  "slug": "exym",
+  "vendor": "Exym",
+  "product": "Exym",
+  "website": "https://exym.com/",
+  "source": "brave-image-search-cheap-pass",
+  "captured": "2026-06-03",
+  "images": [
+    {
+      "file": "01-edit-note-stark-arya.png",
+      "sourceUrl": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/10c28973-784e-4e3a-a23d-755b60bd4b6c.png",
+      "via": "softwareadvice.com",
+      "description": "Exym EHR 'Edit a Note' screen: full top nav (Home, Clients, IBHIS, Activities, Documents, Foster Care, Payers, Reports, Accounting, Admin), Activity Performed panel and Note Information panel. Client banner: Stark, Arya [IM00000361]."
+    },
+    {
+      "file": "02-home-productivity-schedule-client-search.png",
+      "sourceUrl": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/f049473f-d7c2-457e-9b4f-7d9af2905007.png",
+      "via": "softwareadvice.com",
+      "description": "Exym EHR Home view with My Month-To-Date Productivity and My Schedule; Client Search dropdown listing demo clients with MHS/RIV IDs (e.g. Byers, Joyce (MHS, EL00001162); Stark, Arya (MHS, IM00000361))."
+    },
+    {
+      "file": "03-cans-assessment-wheeler-ivy.png",
+      "sourceUrl": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/e4a935bc-5a5f-47a7-89f8-dfdb66e5f7d1.png",
+      "via": "softwareadvice.com",
+      "description": "Exym EHR CANS LA v21-02 assessment form (full work area) with header, Client Search, Funding/Status banner. Patient banner: Wheeler, Ivy (MHS, EL000011121)."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "vendor": "Nth Technologies, Inc.",
+  "product": "nAbleMD",
+  "slug": "nth-technologies-inc",
+  "website": "https://www.nablemd.com/",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-patient-chart-vitals.png",
+      "description": "nAbleMD patient chart - Vitals view showing full app shell (left chart navigation sidebar: Quick Review, Chart Notes, Vitals, History, etc.; top toolbar; patient demographics banner with patient name, age/sex, allergies, visit date) and Today's Vitals / Recent Vitals / Measurements Search work area.",
+      "sourceUrl": "https://www.emrsystems.net/wp-content/uploads/2018/12/nablemd-emr-software-and-patient-portal.webp"
+    }
+  ]
+}

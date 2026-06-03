@@ -1,0 +1,40 @@
+{
+  "vendor": "Addison Health Systems, Inc.",
+  "product": "WritePad EHR",
+  "slug": "addison-health-systems-inc",
+  "website": "https://www.writepad.com/",
+  "source": "brave-image-search-cheap-pass",
+  "capturedDate": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-active-visit-spinal-exam.png",
+      "sourceUrl": "https://images.g2crowd.com/uploads/attachment/file/35791/WritePad_screenshot2.PNG",
+      "description": "WritePad EHR Active Visit / chiropractic spinal exam view with full app chrome (menu bar, Active Visit panel, anatomy diagram) and 'Addison Health Systems, Inc.' header; patient banner with name and visit ID at top."
+    },
+    {
+      "file": "02-scheduler-patient-photo.png",
+      "sourceUrl": "https://images.g2crowd.com/uploads/attachment/file/35790/WritePad_screenshot1.PNG",
+      "description": "WritePad EHR scheduler / patient flow view (Scheduled, Checked In, Seen columns) with patient names, chart numbers, and a patient photo; full app chrome."
+    },
+    {
+      "file": "03-emr-active-visit-julie-jones.png",
+      "sourceUrl": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/86272a47-d882-4d7b-8ed9-0722d7910ab4.png",
+      "description": "WritePad EMR active visit documentation for demo patient 'Julie Jones - Case 1', low back pain workflow sidebar, anatomy diagram; patient banner in title bar."
+    },
+    {
+      "file": "04-emr-xray-julie-jones.png",
+      "sourceUrl": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/30db7ad2-7427-44cb-932c-3ef799cd4696.png",
+      "description": "WritePad EMR visit view showing imaging/x-ray for demo patient 'Julie Jones - Case 1' with full menu bar, workflow sidebar, and patient banner."
+    },
+    {
+      "file": "05-mu-dashboard-scheduler.png",
+      "sourceUrl": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/4ebe44de-e2ae-41a9-87aa-5a0901b3dc7f.jpg",
+      "description": "WritePad EHR Meaningful Use Dashboard modal over the scheduler; full app chrome with scheduled patient list (Classic Kate, Jones Julie, Sunshine Sus) and 'Addison Health Systems, Inc.' header."
+    },
+    {
+      "file": "06-scheduler-checked-in.png",
+      "sourceUrl": "https://www.findemr.com/image/cache/catalog/1product%20pic/WritePad%20Software/Dashboard-600x375.jpg",
+      "description": "WritePad EHR scheduler showing Scheduled and Checked In patient lists with names, chart numbers, visit types and times; full app chrome."
+    }
+  ]
+}

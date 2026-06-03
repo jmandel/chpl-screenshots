@@ -1,0 +1,19 @@
+{
+  "vendor": "Nextech",
+  "product": "Nextech EHR (ICP)",
+  "slug": "nextech",
+  "website": "https://www.nextech.com",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-ophthalmology-exam-patient-banner.png",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/455b2b62-5fe4-4aec-aa16-c914f46b7b21.png",
+      "description": "Nextech EHR ophthalmology exam screen. Patient banner shows Doe, Joy (Tarpon Springs, FL), DOB 01/11/1950 (67 y.o.), Referring/PCP providers and insurance; left action sidebar (New/Edit/Sign/Save-Close/Header/Exam) and posterior-segment exam work area with OCT imaging and diagnostics."
+    },
+    {
+      "file": "02-telemedicine-charting.png",
+      "source": "https://www.nextech.com/hs-fs/hubfs/Ophthalmology_EHR_Telemedicine_-EHR_-Integration.png",
+      "description": "Nextech EHR telemedicine charting view with left module sidebar, encounter/diagnosis header tabs, History/PFSH/ROS/Diagnostics/Procedures/Exam sections in the main work area and an integrated video visit panel."
+    }
+  ]
+}

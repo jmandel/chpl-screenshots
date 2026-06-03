@@ -1,0 +1,24 @@
+{
+  "vendor": "ReLi Med Solutions, LLC",
+  "product": "ReLiMed EMR",
+  "website": "https://relimedsolutions.com/",
+  "slug": "reli-med-solutions-llc",
+  "source": "Brave image search (cheap pass)",
+  "images": [
+    {
+      "file": "01-demographics-patient-info.png",
+      "sourceUrl": "https://www.emrsystems.net/wp-content/uploads/2025/11/Reli-med-emr-and-practice-management-software-demographics.webp",
+      "description": "ReLiMed EMR Patient Info / Demographics tab with full app chrome (top patient banner: Anne A Smith, MR# 1749, DOB 12/8/1954; left sidebar; bottom module nav)."
+    },
+    {
+      "file": "02-encounters-charges.png",
+      "sourceUrl": "https://emrfinder.com/wp-content/uploads/2017/12/ReLiMed-EMR-Practice-Management-Software-Encounters-1.webp",
+      "description": "ReLiMed EMR Encounters/Charges view with patient banner (Anne Smith, MR#, DOB), charge code entry grid, sidebar and module nav."
+    },
+    {
+      "file": "03-xrays-imaging.png",
+      "sourceUrl": "https://www.emrfinder.com/wp-content/uploads/2017/12/ReLiMed-EMR-Practice-Management-Software-xRays.webp",
+      "description": "ReLiMed EMR Patient Documents / x-ray imaging view with patient banner, tabbed header and left sidebar navigation."
+    }
+  ]
+}

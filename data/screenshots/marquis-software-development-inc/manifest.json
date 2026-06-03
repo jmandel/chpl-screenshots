@@ -1,0 +1,14 @@
+{
+  "vendor": "Marquis Software Development, Inc.",
+  "product": "eOMIS Healthcare Management",
+  "website": "http://www.Marquisware.com",
+  "slug": "marquis-software-development-inc",
+  "source": "brave-images-cheap-pass",
+  "images": [
+    {
+      "file": "01-inmate-case-management-dashboard.png",
+      "source_url": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/d569c18d-7e0e-44a7-8f3c-db1272229f5d.png",
+      "description": "eOMIS Inmate Case Management Dashboard showing PID identifier banner, incident reports, disciplinary violations, KYRAS risk assessment, staff/offender conflicts, parole/discharge with home address, and case management plan tabs."
+    }
+  ]
+}

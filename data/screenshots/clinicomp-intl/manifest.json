@@ -1,0 +1,19 @@
+{
+  "vendor": "CliniComp, Intl.",
+  "product": "CliniComp|EHR",
+  "website": "https://clinicomp.com/",
+  "slug": "clinicomp-intl",
+  "source": "Brave image search (cheap pass)",
+  "images": [
+    {
+      "file": "01-lab-results-chemistry.png",
+      "source_url": "https://emrsystems.net/wp-content/uploads/2023/11/Clinicomp-EHR-Practice-Management-Software-Solution-Lab-Results-1.webp",
+      "description": "Full CliniComp|EHR lab results view (Chemistry panel) with left navigation sidebar, patient banner (Sparrow, Robin S; DOB 08JUL1946; Sex F), and tabular lab result work area."
+    },
+    {
+      "file": "02-clinical-summary-tablet.png",
+      "source_url": "https://www.findemr.com/image/cache/catalog/1product%20pic/Clinicomp/CliniComp%20(1)-600x375.jpg",
+      "description": "Full CliniComp|EHR clinical summary view on tablet with sidebar, header/patient banner (Francoise, Maria Daniela), waveforms and lab values in the main work area."
+    }
+  ]
+}

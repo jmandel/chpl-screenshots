@@ -1,0 +1,21 @@
+{
+  "vendor": "Myriad Systems",
+  "product": "Myriad Health",
+  "website": "https://myriadsystems.ai",
+  "slug": "myriad-systems",
+  "capturedBy": "cheap-pass-brave-images",
+  "capturedDate": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-myscribe-ai-clinical-notes.png",
+      "description": "Myriad Health EHR clinical notes / MyScribe AI workspace. Full app view: top header (Clinical Notes, Treatment plan, Sign & lock, Auto-save, Save Draft), left sidebar (Prompts: Wellness Checkup, Manage Diabetes Mellitus, etc.), patient banner with demo patient Labinot Bajrami2 #6917, DOB 9th Jul 1986, Age 38, Male, address, email, and main work area with SOAP/H&P/Intake/Progress tabs.",
+      "sourceUrl": "https://framerusercontent.com/images/0HODm8nEI8MrTSb4szq6SIfaU6g.png?width=3833&height=1999",
+      "patient": {
+        "name": "Labinot Bajrami2",
+        "id": "#6917",
+        "dob": "9th Jul, 1986",
+        "demo": true
+      }
+    }
+  ]
+}

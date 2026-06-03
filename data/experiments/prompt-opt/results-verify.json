@@ -1,0 +1,573 @@
+{
+  "summary": {
+    "images": 12,
+    "baseline_full_v2": {
+      "avgInTok": 1959,
+      "avgOutTok": 1328,
+      "costPerImage": 0.0149
+    },
+    "variants": [
+      {
+        "variant": "lean/768 think=0",
+        "avgInTok": 1194,
+        "avgOutTok": 166,
+        "avgThinkTok": 0,
+        "avgBillableOutTok": 166,
+        "costPerImage": 0.0033,
+        "savingsVsBaseline": "78%",
+        "fieldAgreementVsBaseline": "81%",
+        "perField": {
+          "systemName": "83%",
+          "activeFunction": "33%",
+          "patientId": "75%",
+          "fullName": "83%",
+          "dateOfBirth": "100%",
+          "sex": "92%",
+          "patientScope": "100%"
+        }
+      }
+    ]
+  },
+  "rows": [
+    {
+      "file": "data/screenshots/streamline-healthcare-solutions/03-my-calendar-client-schedule.png",
+      "variant": "lean/768 think=0",
+      "inTok": 1182,
+      "outTok": 164,
+      "thinkTok": 0,
+      "fieldHits": 7,
+      "diffs": {
+        "systemName": {
+          "base": "SmartCareRx",
+          "got": "SmartCareRx",
+          "ok": true
+        },
+        "activeFunction": {
+          "base": "Patient Summary",
+          "got": "Patient Summary",
+          "ok": true
+        },
+        "patientId": {
+          "base": "2347",
+          "got": "2347",
+          "ok": true
+        },
+        "fullName": {
+          "base": "Bell, Valerie",
+          "got": "Bell, Valerie",
+          "ok": true
+        },
+        "dateOfBirth": {
+          "base": "1953-02-12",
+          "got": "1953-02-12",
+          "ok": true
+        },
+        "sex": {
+          "base": "Female",
+          "got": "Female",
+          "ok": true
+        },
+        "patientScope": {
+          "base": "single",
+          "got": "single",
+          "ok": true
+        }
+      }
+    },
+    {
+      "file": "data/screenshots/endosoft-llc/01-oncology-chart.png",
+      "variant": "lean/768 think=0",
+      "inTok": 1211,
+      "outTok": 198,
+      "thinkTok": 0,
+      "fieldHits": 5,
+      "diffs": {
+        "systemName": {
+          "base": "EndoVault",
+          "got": "Endovault Medical Center",
+          "ok": false
+        },
+        "activeFunction": {
+          "base": "Procedure Information Organizer",
+          "got": "Indications: LGI Lists",
+          "ok": false
+        },
+        "patientId": {
+          "base": "ENDO100047758",
+          "got": "ENDO100047758",
+          "ok": true
+        },
+        "fullName": {
+          "base": "EVELYN SMITH",
+          "got": "EVELYN SMITH",
+          "ok": true
+        },
+        "dateOfBirth": {
+          "base": "1936-03-07",
+          "got": "1936-03-07",
+          "ok": true
+        },
+        "sex": {
+          "base": "Female",
+          "got": "Female",
+          "ok": true
+        },
+        "patientScope": {
+          "base": "single",
+          "got": "single",
+          "ok": true
+        }
+      }
+    },
+    {
+      "file": "data/screenshots/sevocity-a-division-of-conceptual-mindworks-inc/01-vitals-past-vitals.png",
+      "variant": "lean/768 think=0",
+      "inTok": 1182,
+      "outTok": 193,
+      "thinkTok": 0,
+      "fieldHits": 6,
+      "diffs": {
+        "systemName": {
+          "base": "Sevocity",
+          "got": "Sevocity",
+          "ok": true
+        },
+        "activeFunction": {
+          "base": "Encounter",
+          "got": "Past Vitals",
+          "ok": false
+        },
+        "patientId": {
+          "base": "1294507163149",
+          "got": "1294507163149",
+          "ok": true
+        },
+        "fullName": {
+          "base": "Eldduh, Eleanor",
+          "got": "Eldduh, Eleanor",
+          "ok": true
+        },
+        "dateOfBirth": {
+          "base": "1962-10-18",
+          "got": "1962-10-18",
+          "ok": true
+        },
+        "sex": {
+          "base": "Female",
+          "got": "Female",
+          "ok": true
+        },
+        "patientScope": {
+          "base": "single",
+          "got": "single",
+          "ok": true
+        }
+      }
+    },
+    {
+      "file": "data/screenshots/genius-solutions-inc/01-patient-information-armstrong.png",
+      "variant": "lean/768 think=0",
+      "inTok": 1180,
+      "outTok": 163,
+      "thinkTok": 0,
+      "fieldHits": 5,
+      "diffs": {
+        "systemName": {
+          "base": "THOMAS",
+          "got": "THOMAS",
+          "ok": true
+        },
+        "activeFunction": {
+          "base": "Patient",
+          "got": "Patient Information",
+          "ok": false
+        },
+        "patientId": {
+          "base": "10",
+          "got": "10",
+          "ok": true
+        },
+        "fullName": {
+          "base": "ARMSTRONG , JOHN",
+          "got": "ARMSTRONG, JOHN",
+          "ok": false
+        },
+        "dateOfBirth": {
+          "base": "1929-03-01",
+          "got": "1929-03-01",
+          "ok": true
+        },
+        "sex": {
+          "base": null,
+          "got": null,
+          "ok": true
+        },
+        "patientScope": {
+          "base": "single",
+          "got": "single",
+          "ok": true
+        }
+      }
+    },
+    {
+      "file": "data/screenshots/ankhos-oncology-software/01-patient-treatment-view.png",
+      "variant": "lean/768 think=0",
+      "inTok": 1199,
+      "outTok": 165,
+      "thinkTok": 0,
+      "fieldHits": 7,
+      "diffs": {
+        "systemName": {
+          "base": "Ankhos",
+          "got": "Ankhos",
+          "ok": true
+        },
+        "activeFunction": {
+          "base": "Treatment administration",
+          "got": "Treatment administration",
+          "ok": true
+        },
+        "patientId": {
+          "base": "33034",
+          "got": "33034",
+          "ok": true
+        },
+        "fullName": {
+          "base": "De Vito, Danny",
+          "got": "De Vito, Danny",
+          "ok": true
+        },
+        "dateOfBirth": {
+          "base": null,
+          "got": null,
+          "ok": true
+        },
+        "sex": {
+          "base": null,
+          "got": null,
+          "ok": true
+        },
+        "patientScope": {
+          "base": "single",
+          "got": "single",
+          "ok": true
+        }
+      }
+    },
+    {
+      "file": "data/screenshots/emr-direct/01-openemr-phimail-patient-reports.png",
+      "variant": "lean/768 think=0",
+      "inTok": 1187,
+      "outTok": 93,
+      "thinkTok": 0,
+      "fieldHits": 7,
+      "diffs": {
+        "systemName": {
+          "base": null,
+          "got": null,
+          "ok": true
+        },
+        "activeFunction": {
+          "base": "Patient Reports",
+          "got": "Patient Reports",
+          "ok": true
+        },
+        "patientId": {
+          "base": "1",
+          "got": "1",
+          "ok": true
+        },
+        "fullName": {
+          "base": "Phil Belford",
+          "got": "Phil Belford",
+          "ok": true
+        },
+        "dateOfBirth": {
+          "base": "1972-02-09",
+          "got": "1972-02-09",
+          "ok": true
+        },
+        "sex": {
+          "base": null,
+          "got": null,
+          "ok": true
+        },
+        "patientScope": {
+          "base": "single",
+          "got": "single",
+          "ok": true
+        }
+      }
+    },
+    {
+      "file": "data/screenshots/altera-digital-health-inc/01-dbmotion-clinical-view-agent.png",
+      "variant": "lean/768 think=0",
+      "inTok": 1211,
+      "outTok": 163,
+      "thinkTok": 0,
+      "fieldHits": 6,
+      "diffs": {
+        "systemName": {
+          "base": "dbMotion",
+          "got": "dbMotion",
+          "ok": true
+        },
+        "activeFunction": {
+          "base": "Clinical View Agent",
+          "got": "Clinical View Agent",
+          "ok": true
+        },
+        "patientId": {
+          "base": "13030817574800",
+          "got": "13030817674000",
+          "ok": false
+        },
+        "fullName": {
+          "base": "ALLEN, Beth",
+          "got": "ALLEN, Beth",
+          "ok": true
+        },
+        "dateOfBirth": {
+          "base": null,
+          "got": null,
+          "ok": true
+        },
+        "sex": {
+          "base": "Female",
+          "got": "Female",
+          "ok": true
+        },
+        "patientScope": {
+          "base": "single",
+          "got": "single",
+          "ok": true
+        }
+      }
+    },
+    {
+      "file": "data/screenshots/netsmart-technologies/01-patient-visit-menu.png",
+      "variant": "lean/768 think=0",
+      "inTok": 1199,
+      "outTok": 160,
+      "thinkTok": 0,
+      "fieldHits": 6,
+      "diffs": {
+        "systemName": {
+          "base": null,
+          "got": null,
+          "ok": true
+        },
+        "activeFunction": {
+          "base": null,
+          "got": "Start Visit",
+          "ok": false
+        },
+        "patientId": {
+          "base": "238",
+          "got": "238",
+          "ok": true
+        },
+        "fullName": {
+          "base": "DOE, John",
+          "got": "DOE, John",
+          "ok": true
+        },
+        "dateOfBirth": {
+          "base": "1954-08-25",
+          "got": "1954-08-25",
+          "ok": true
+        },
+        "sex": {
+          "base": "M",
+          "got": "M",
+          "ok": true
+        },
+        "patientScope": {
+          "base": "single",
+          "got": "single",
+          "ok": true
+        }
+      }
+    },
+    {
+      "file": "data/screenshots/myriad-systems/01-myscribe-ai-clinical-notes.png",
+      "variant": "lean/768 think=0",
+      "inTok": 1211,
+      "outTok": 175,
+      "thinkTok": 0,
+      "fieldHits": 4,
+      "diffs": {
+        "systemName": {
+          "base": "myriad health",
+          "got": "myriad",
+          "ok": false
+        },
+        "activeFunction": {
+          "base": "Map Template With Myscribe",
+          "got": "MyScribe AI - Map Template With Myscribe",
+          "ok": false
+        },
+        "patientId": {
+          "base": "6917",
+          "got": "#6917",
+          "ok": false
+        },
+        "fullName": {
+          "base": "Labinot Bajrami2",
+          "got": "Labinot Bajrami2",
+          "ok": true
+        },
+        "dateOfBirth": {
+          "base": "1986-07-09",
+          "got": "1986-07-09",
+          "ok": true
+        },
+        "sex": {
+          "base": "Male",
+          "got": "Male",
+          "ok": true
+        },
+        "patientScope": {
+          "base": "single",
+          "got": "single",
+          "ok": true
+        }
+      }
+    },
+    {
+      "file": "data/screenshots/md-office-llc/02-billing-charges-holmes.png",
+      "variant": "lean/768 think=0",
+      "inTok": 1199,
+      "outTok": 172,
+      "thinkTok": 0,
+      "fieldHits": 5,
+      "diffs": {
+        "systemName": {
+          "base": null,
+          "got": null,
+          "ok": true
+        },
+        "activeFunction": {
+          "base": "Claims",
+          "got": "Claim",
+          "ok": false
+        },
+        "patientId": {
+          "base": "22795",
+          "got": "22793",
+          "ok": false
+        },
+        "fullName": {
+          "base": "HOLMES, Sherlock",
+          "got": "HOLMES, Sherlock",
+          "ok": true
+        },
+        "dateOfBirth": {
+          "base": "1965-06-13",
+          "got": "1965-06-13",
+          "ok": true
+        },
+        "sex": {
+          "base": "M",
+          "got": "M",
+          "ok": true
+        },
+        "patientScope": {
+          "base": "single",
+          "got": "single",
+          "ok": true
+        }
+      }
+    },
+    {
+      "file": "data/screenshots/spry-therapeutics-inc/01-patient-personal-details.png",
+      "variant": "lean/768 think=0",
+      "inTok": 1199,
+      "outTok": 161,
+      "thinkTok": 0,
+      "fieldHits": 5,
+      "diffs": {
+        "systemName": {
+          "base": null,
+          "got": null,
+          "ok": true
+        },
+        "activeFunction": {
+          "base": "Personal Details",
+          "got": "Personal Detail",
+          "ok": false
+        },
+        "patientId": {
+          "base": "12331A",
+          "got": "12331A",
+          "ok": true
+        },
+        "fullName": {
+          "base": "John James",
+          "got": "John James Gordon",
+          "ok": false
+        },
+        "dateOfBirth": {
+          "base": "1972-05-04",
+          "got": "1972-05-04",
+          "ok": true
+        },
+        "sex": {
+          "base": "Male",
+          "got": "Male",
+          "ok": true
+        },
+        "patientScope": {
+          "base": "single",
+          "got": "single",
+          "ok": true
+        }
+      }
+    },
+    {
+      "file": "data/screenshots/ensoftek-inc/02-patient-encounter-chart.png",
+      "variant": "lean/768 think=0",
+      "inTok": 1163,
+      "outTok": 187,
+      "thinkTok": 0,
+      "fieldHits": 5,
+      "diffs": {
+        "systemName": {
+          "base": null,
+          "got": null,
+          "ok": true
+        },
+        "activeFunction": {
+          "base": "Encounter History",
+          "got": "10/09/2023 Encounter",
+          "ok": false
+        },
+        "patientId": {
+          "base": "3741",
+          "got": "3741",
+          "ok": true
+        },
+        "fullName": {
+          "base": "Dulcie Clayson",
+          "got": "Dulcie Clayson",
+          "ok": true
+        },
+        "dateOfBirth": {
+          "base": "1975-07-11",
+          "got": "1975-07-11",
+          "ok": true
+        },
+        "sex": {
+          "base": null,
+          "got": "Female",
+          "ok": false
+        },
+        "patientScope": {
+          "base": "single",
+          "got": "single",
+          "ok": true
+        }
+      }
+    }
+  ]
+}

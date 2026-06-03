@@ -1,0 +1,14 @@
+{
+  "vendor": "MEDHOST Cloud Services, Inc.",
+  "product": "YourCareCommunity Patient Portal with YourCareEverywhere App",
+  "website": "https://www.medhost.com",
+  "slug": "medhost-cloud-services-inc",
+  "capturedBy": "cheap-pass-brave-images",
+  "screenshots": [
+    {
+      "file": "01-yourcare-community-patient-portal-web-view.png",
+      "source": "https://www.medhost.com/wp-content/uploads/2022/09/YourCare-Community-Patient-Portal-Web-View.png",
+      "description": "YourCareEverywhere / YourCareCommunity patient portal web view. Full application: top header (Welcome, CHRISTY; MEDHOST Community Hospital), breadcrumb (YourCareEverywhere > My Wellness Dashboard), tab nav (Activity, Personal Health Center, Health Sites, Appointments), main work area showing Personal Health Center with Medications, Immunizations, Family History, Allergies, Conditions, Vital Signs, Diagnoses, Procedures, etc., and a Healthy News sidebar."
+    }
+  ]
+}

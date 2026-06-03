@@ -1,0 +1,60 @@
+{
+  "vendor": "EndoSoft, LLC",
+  "product": "EndoVault",
+  "website": "https://www.endosoft.com/",
+  "slug": "endosoft-llc",
+  "source": "Brave image search (cheap pass)",
+  "capturedAt": "2026-06-03",
+  "images": [
+    {
+      "file": "01-oncology-chart.png",
+      "description": "EndoVault oncology patient chart with patient banner (EVELYN SMITH, MRN, DOB), left sidebar and main work area",
+      "sourceUrl": "https://www.emrsystems.net/wp-content/uploads/2024/06/EndoVault-EHR-Software-Dashboard.webp"
+    },
+    {
+      "file": "02-procedure-chart.png",
+      "description": "Procedure documentation chart with patient banner, navigation sidebar and yellow data fields",
+      "sourceUrl": "https://www.emrsystems.net/wp-content/uploads/2024/06/EndoVault-EHR-software-procedure-dashboard.webp"
+    },
+    {
+      "file": "03-image-capture-review.png",
+      "description": "Colonoscopy image capture/review screen with patient banner (Jane Smith, MRN 1579362, DOB), captured images and colon map",
+      "sourceUrl": "https://www.emrsystems.net/wp-content/uploads/2024/05/EndoVault-EHR-Practice-Management-Software-by-EndoSoft-Captured-Recommendation.jpg"
+    },
+    {
+      "file": "04-image-capture.png",
+      "description": "Image capture screen with patient banner (Jane Smith, DOB, MRN, visit) and endoscopy images",
+      "sourceUrl": "https://emrfinder.com/wp-content/uploads/2024/06/EndoVault-EHR-Software-By-EndoSoft.webp"
+    },
+    {
+      "file": "05-procedure-report.png",
+      "description": "Procedure report screen with patient banner (Jane Smith), CPT/ICD codes, findings, left action sidebar",
+      "sourceUrl": "https://emrfinder.com/wp-content/uploads/2024/06/EndoVault-EHR-Software-Procedure-Reports-by-EndoSoft-1024x707.webp"
+    },
+    {
+      "file": "06-add-patient.png",
+      "description": "Add Patient demographics entry form (Jane Smith, MRN 1579362, DOB 01/19/1976) with top menu and tabs",
+      "sourceUrl": "https://emrfinder.com/wp-content/uploads/2024/06/EndoVault-EHR-Software-Add-Patient-1024x791.webp"
+    },
+    {
+      "file": "07-procedure-report-detail.png",
+      "description": "Procedure report detail with patient banner (DOW2864 GG864, MRN 10098, DOB), sidebar, images strip",
+      "sourceUrl": "https://www.endosoft.com/wp-content/uploads/2026/04/ProcedureInformationEGD-copy-1024x550.webp"
+    },
+    {
+      "file": "08-patient-history.png",
+      "description": "Patient history chart (Natasha Herrera, MRN 10098) with tabbed navigation and medical/surgical history",
+      "sourceUrl": "https://www.endosoft.com/wp-content/uploads/2026/04/PatientHistory-copy-1024x550.webp"
+    },
+    {
+      "file": "09-procedure-info-organizer.png",
+      "description": "Procedure information organizer with patient banner (DOW2864 GG864, MRN 10098), tabs and procedure detail fields",
+      "sourceUrl": "https://www.endosoft.com/wp-content/uploads/2026/04/ProcedureInformationOrganizer-Colonoscopy-copy-1024x550.webp"
+    },
+    {
+      "file": "10-image-management.png",
+      "description": "Image management/DICOM screen with patient banner (DOW2864 GG864, MRN 10098), captured colonoscopy images and labels",
+      "sourceUrl": "https://www.endosoft.com/wp-content/uploads/2026/04/ImageManagementDicom-Colonoscopy-copy-1024x550.webp"
+    }
+  ]
+}

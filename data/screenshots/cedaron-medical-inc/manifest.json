@@ -1,0 +1,13 @@
+{
+  "vendor": "Cedaron Medical, Inc.",
+  "product": "Connect",
+  "slug": "cedaron-medical-inc",
+  "website": "https://www.cedaron.com/",
+  "screenshots": [
+    {
+      "file": "01-connect-examination-peripheral-sensation.png",
+      "source": "https://software-advice.imgix.net/managed/products/screenshots/screenshot_125773.png",
+      "description": "Connect EHR Examination module (Peripheral Sensation) with left navigation sidebar, top patient banner showing patient 'Bradshaw, Terry' and discipline date, and main charting work area."
+    }
+  ]
+}

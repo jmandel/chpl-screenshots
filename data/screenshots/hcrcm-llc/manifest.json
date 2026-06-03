@@ -1,0 +1,25 @@
+{
+  "slug": "hcrcm-llc",
+  "vendor": "HCRCM LLC",
+  "product": "Falcon",
+  "website": "https://imperiumsoft.biz/",
+  "source": "Brave image search (cheap pass)",
+  "captured": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-falcon-home-dashboard.png",
+      "sourceUrl": "https://i0.wp.com/imperiumsoft.biz/wp-content/uploads/2025/07/EHR-dashboard-scaled.png?fit=1024,619&ssl=1",
+      "desc": "FALCON EHR home dashboard: left nav, header, ER/IP metric tiles, notifications work list with patient names/IDs, bed occupancy and patient-list summary charts."
+    },
+    {
+      "file": "02-falcon-er-patient-template.png",
+      "sourceUrl": "https://i0.wp.com/imperiumsoft.biz/wp-content/uploads/2025/07/patient-module-scaled.png?fit=1024,619&ssl=1",
+      "desc": "FALCON ER documentation template with full patient banner (John Doe, MRN 777230 ER, Visit 108496, Admit 07/19/2025), left nav, top icon toolbar, and HPI/SH/Allergies/ROS work area."
+    },
+    {
+      "file": "03-falcon-emergency-patient-list.png",
+      "sourceUrl": "https://i0.wp.com/imperiumsoft.biz/wp-content/uploads/2025/07/erdashbaord-1-scaled.png?fit=1024,850&ssl=1",
+      "desc": "FALCON Emergency Dashboard patient list: left nav, header with location, ER current/bed/waiting counts, and a tracking grid of patients (names, age, bed, disposition, care team, LOS)."
+    }
+  ]
+}

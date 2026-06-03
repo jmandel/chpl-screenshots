@@ -1,0 +1,40 @@
+{
+  "vendor": "My Vision Express, LLC",
+  "product": "My Vision Express",
+  "slug": "my-vision-express-llc",
+  "website": "https://sightview.com/",
+  "capturedAt": "2026-06-03",
+  "method": "brave-image-search-cheap-pass",
+  "images": [
+    {
+      "file": "01-patient-profile-demographics.png",
+      "desc": "Patient Profile tab with full demographics (Lombardo, Alex, Patient no 471, DOB 01/11/1979), insurance/vision Rx tabs",
+      "source": "https://myvisionexpress.com/help/100/ImagesExt/image16_4.png"
+    },
+    {
+      "file": "02-exam-complaint.png",
+      "desc": "Exam 1013 Complaint screen, patient banner Smith, Maryann 'Mary' 08/04/1985",
+      "source": "https://emrfinder.com/wp-content/uploads/2017/08/My-Vision-Express-EHR-Practice-Management-Software-Complaint-1024x537.webp"
+    },
+    {
+      "file": "03-soap-documentation.png",
+      "desc": "SOAP note documentation view with macros, patient banner Bk Walk DOB 9/23/1986",
+      "source": "https://emrfinder.com/wp-content/uploads/2017/08/My-Vision-Express-EHR-Practice-Management-Software-Patient-Details-1024x572.webp"
+    },
+    {
+      "file": "04-quick-order.png",
+      "desc": "Quick Order / dispensing screen with patient banner and patient photo",
+      "source": "https://emrsystems.net/wp-content/uploads/2025/11/My-Vision-Express-EMR-Practice-Management-Software-Quick-Order.webp"
+    },
+    {
+      "file": "05-patient-summary.png",
+      "desc": "Patient Summary dashboard with appointments and banner Smith, Emma 02/15/1971",
+      "source": "https://media.ophthalmologyweb.com/m/27/images/my-vision-express-5914452-400x300.jpg"
+    },
+    {
+      "file": "06-exam-detail.png",
+      "desc": "Exam detail screen with patient banner and order/Rx data",
+      "source": "https://emrsystems.net/wp-content/uploads/2016/12/My-Vision-Express-EHR-Software-demo-1024x538.webp"
+    }
+  ]
+}

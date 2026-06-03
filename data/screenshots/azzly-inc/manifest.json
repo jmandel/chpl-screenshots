@@ -1,0 +1,28 @@
+{
+  "vendor": "AZZLY, Inc.",
+  "product": "AZZLY Rize",
+  "website": "https://azzly.com/",
+  "slug": "azzly-inc",
+  "capturedBy": "cheap-pass-brave-images",
+  "capturedDate": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-echart-patient-info.png",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/1aebd069-5848-4ca1-8885-f221dc35d29e.png",
+      "description": "AZZLY Rize eChart patient Info tab - full app view with left navigation sidebar (Home, Calendar, My Work, eCharts, MORS/MARS, Vitals, Reports, Analytics, Configuration), header, and patient banner (Patient Name: Tanner, Robert; DOB: 01/01/1990; EMR# 1) over Patient Information / Demographics / Emergency Contact work area.",
+      "patient": "Tanner, Robert (EMR# 1, DOB 01/01/1990)"
+    },
+    {
+      "file": "02-echart-assessments.png",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/56353594-17c6-43f9-8d77-a39b53289f7f.png",
+      "description": "AZZLY Rize eChart assessments list (GAD-7 / PHQ-9 scores) with patient banner (Name: Banner, Benjamin (Benny); EMR 91; DOB 1/9/89; Age 33) and date-range/filter controls over a documents table.",
+      "patient": "Banner, Benjamin (Benny) (EMR 91, DOB 1/9/89)"
+    },
+    {
+      "file": "03-emar-medications.png",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/92ca2554-dfee-4fea-b744-d172b89a6317.png",
+      "description": "AZZLY Rize eMARs/eMORs medication administration record with patient banner (Patient Name: Test, Cara; DOB 04/03/1980; EMR# 322) and scheduled medication list with administration status.",
+      "patient": "Test, Cara (EMR# 322, DOB 04/03/1980)"
+    }
+  ]
+}

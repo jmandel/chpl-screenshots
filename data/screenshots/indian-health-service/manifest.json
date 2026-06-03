@@ -1,0 +1,19 @@
+{
+  "vendor": "Indian Health Service",
+  "product": "Resource and Patient Management System Electronic Health Record",
+  "slug": "indian-health-service",
+  "website": "https://www.ihs.gov/promotinginteroperability/certificationoverview/",
+  "source": "Brave image search (cheap pass)",
+  "screenshots": [
+    {
+      "file": "01-rpms-ehr-bh-visit-documentation.png",
+      "description": "RPMS EHR Behavioral Health Visit Documentation window. Full application window with title bar, patient banner (SAAVEDRA,TAMARA L, F, DOB 04/29/1982, age 23, ID 203031), provider/encounter fields, POV/DSM tabs and work area.",
+      "sourceUrl": "https://image.slidesharecdn.com/rpms-ehr-worldvista-0616073669/85/RPMS-EHR-WorldVistA-061607-30-638.jpg"
+    },
+    {
+      "file": "02-rpms-ehr-suicide-reporting-form.png",
+      "description": "RPMS EHR Behavioral Health Suicide Reporting Form window. Full window with patient banner (Domo,Ravon Danielle, F, DOB 10/15/1970, age 35, HRN 12263, SSN), provider field, act details and method/substance tabs.",
+      "sourceUrl": "https://image.slidesharecdn.com/rpms-ehr-worldvista-0616073669/85/RPMS-EHR-WorldVistA-061607-32-638.jpg"
+    }
+  ]
+}

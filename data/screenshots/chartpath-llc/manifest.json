@@ -1,0 +1,30 @@
+{
+  "vendor": "ChartPath, LLC",
+  "product": "ChartPath",
+  "website": "https://www.chartpath.com",
+  "slug": "chartpath-llc",
+  "source": "Brave image search (cheap pass)",
+  "capturedAt": "2026-06-03",
+  "images": [
+    {
+      "file": "01-note-medical-history-sdoh.png",
+      "sourceUrl": "https://chartpath.com/hs-fs/hubfs/ChartPath-Screenshot_Social-Determinants-1.gif",
+      "note": "Full ChartPath EHR view (Post Acute Care). Patient banner QPP, #226, 79/Female DOB 04/04/1944, MRN 102509, Room 114. Note tabs and Medical History/SDoH section. First frame of animated GIF."
+    },
+    {
+      "file": "02-patient-notes-list.png",
+      "sourceUrl": "https://chartpath.com/hs-fs/hubfs/ChartPath-Screenshot_Top-Picks.gif",
+      "note": "Full EHR view. Patient banner test, hermione 'Hermy', 76/Female DOB 01/02/1947, MRN 13702. Notes list with note type/state/author columns. First frame of animated GIF."
+    },
+    {
+      "file": "03-progress-note-cc-hpi.png",
+      "sourceUrl": "https://chartpath.com/hs-fs/hubfs/ChartPath-Screenshot_PCC-Integration1.gif",
+      "note": "Full EHR view. Patient banner Adam, Versie, 87/Female DOB 07/03/1936, Room 112, Day of stay 4510. Progress Note CC/HPI editing. First frame of animated GIF."
+    },
+    {
+      "file": "04-patient-notes-list-snf.png",
+      "sourceUrl": "https://chartpath.com/hs-fs/hubfs/ChartPath-Screenshot_Pull-Forward-Notes.gif",
+      "note": "Full EHR view. Patient banner barbarino, vinnie, 65/Male DOB 09/08/1958, Day of stay 1045, Skilled Nursing Facility. Notes list. First frame of animated GIF."
+    }
+  ]
+}

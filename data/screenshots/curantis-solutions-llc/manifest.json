@@ -1,0 +1,24 @@
+{
+  "slug": "curantis-solutions-llc",
+  "vendor": "Curantis Solutions, LLC",
+  "product": "Curantis Solutions Hospice & Palliative",
+  "website": "https://www.curantissolutions.com",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-general-assessment-patient-banner.png",
+      "sourceUrl": "https://curantissolutions.com/wp-content/uploads/2021/01/palliative-care-final.jpeg",
+      "description": "Curantis Solutions clinical app, New Patient SNF/ALF General Assessment. Left icon nav, header tabs, patient banner (James Monroe, Patient ID, DOB, Age, Palliative Patient, prognoses, allergies), Chief Complaint / History of Illness / Goals of Care work area."
+    },
+    {
+      "file": "02-team-meeting-plan-of-care.png",
+      "sourceUrl": "https://curantissolutions.com/wp-content/uploads/2023/10/1IDGhospice.png",
+      "description": "Curantis Solutions IDG/Team Meeting view. Left patient list sidebar with patient name/demographics, header tabs (Visit Profile, Order Entry, Kardex, IDG Summary), main Plan of Care with Observations Over Time charts."
+    },
+    {
+      "file": "03-idt-meeting-plan-of-care.png",
+      "sourceUrl": "https://www.medigy.com/offering/15456.JPEG",
+      "description": "Curantis Solutions Interdisciplinary Team Meeting screen. Left patient roster sidebar, header tabs, Plan of Care problem/intervention list in main work area."
+    }
+  ]
+}

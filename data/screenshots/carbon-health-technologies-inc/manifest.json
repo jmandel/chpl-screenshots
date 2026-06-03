@@ -1,0 +1,25 @@
+{
+  "vendor": "Carbon Health Technologies, Inc.",
+  "product": "CarbyOs EHR",
+  "website": "https://carbonhealth.com",
+  "slug": "carbon-health-technologies-inc",
+  "capturedBy": "cheap-pass-brave-images",
+  "capturedDate": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-patient-chart-lauren-svendsen.png",
+      "source": "https://www.carbyos.com/_next/image?url=/_next/static/media/care-hero.f61ac49f.png&w=3840&q=75",
+      "description": "Full EHR clinical chart view: left nav (Schedule/Patients/Tasks/Settings), patient banner Lauren Svendsen MRN 12345678, 42yo Female, encounter Notes tab with provider notes, problem list, allergies, vitals."
+    },
+    {
+      "file": "02-clinic-worklist-dashboard.png",
+      "source": "https://cdn.prod.website-files.com/601bf9a26667cdf3f285c136/67d0b46db38ddc03779356e9_Schedule%20board%20-%20scrubbed.png",
+      "description": "Full EHR clinic worklist/dashboard: Waiting Room, In Progress, Pending Results, Ready to Check Out, Completed columns with patient names and complaints; LA Midtown location and provider banner header."
+    },
+    {
+      "file": "03-checkin-collect-payment.png",
+      "source": "https://cdn.prod.website-files.com/601bf9a26667cdf3f285c136/67f4472bc4fe49bc80999cc2_Payment%20screenshot%20(2).png",
+      "description": "Full EHR check-in workflow with patient banner Alpha Bravo, 34yo female, DOB 6/23/90, ID 123456; left check-in checklist, main chart area, Collect Payment panel."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "smoky-mountain-information-systems-llc",
+  "vendor": "Smoky Mountain Information Systems, LLC",
+  "product": "PIMSY Platinum",
+  "website": "https://pimsyehr.com/",
+  "source": "brave-image-search-cheap-pass",
+  "images": [
+    {
+      "file": "01-client-list-treatment-plan.png",
+      "source_url": "https://www.ehrinpractice.com/pictures/778/show/PIMSY+EHR+Screenshot.jpg?sh=a9dfcedf92db47ca",
+      "description": "Legacy PIMSY desktop client: left sidebar client list (Last/First name, Client Num, SSN), top menu bar, Treatment Plan tab with Need/Goal grids for client Aaron, Aron"
+    },
+    {
+      "file": "02-progress-note-emma-aaron.png",
+      "source_url": "https://emrsystems.net/wp-content/uploads/2019/01/PIMSY-EHR-Software-customizable-note-and-clients-charts-1024x668.webp",
+      "description": "PIMSY web app: top nav (Dashboard, Clients, Calendar, Note List, Tasks, Reports, Alerts, Docker), Behavioral Health Progress Note for patient Emma Aaron (Gender Female, Age 28, DOB 3/16/1998, Note ID)"
+    },
+    {
+      "file": "03-assessment-note.png",
+      "source_url": "https://www.findemr.com/image/cache/catalog/1product%20pic/Pimsy/notes%20blue-600x375.png",
+      "description": "PIMSY web app Assessment Note in laptop frame: top nav, patient banner with name/DOB/age/gender/billing code, Progress Note SOAP form with Subjective Complaint"
+    },
+    {
+      "file": "04-pending-appts-dashboard.png",
+      "source_url": "https://pimsyehr.com/wp-content/themes/yootheme/cache/f2/Provider-Portal-04-25-MT-DP-f2df1023.png",
+      "description": "PIMSY web app Pending Appts dashboard: left calendar sidebar, top nav, work area grid with Client names, Client#, service dates, status and billing codes"
+    }
+  ]
+}

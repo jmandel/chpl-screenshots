@@ -1,0 +1,21 @@
+{
+  "slug": "picis-pulsecheck",
+  "vendor": "Picis PulseCheck",
+  "product": "PulseCheck ED",
+  "website": "https://pulsechecked.com/",
+  "source": "Brave image search (official API)",
+  "images": [
+    {
+      "file": "01-emar-flo-downhill.png",
+      "source_url": "https://pulsechecked.com/wp-content/uploads/2021/03/eMAR-6-1024x625.png",
+      "description": "PulseCheck eMAR full application view (browser, patient ID in URL); patient banner 'Flo Downhill', chief complaint Headache; medication administration record with order/administration timeline and status legend.",
+      "patient": "Flo Downhill"
+    },
+    {
+      "file": "02-ed-charting-sawin-joseph.png",
+      "source_url": "https://www.findemr.com/image/cachewebp/catalog/1product%20pic/PulseCheck/Charting-600x375.webp",
+      "description": "PulseCheck ED Charting full application view with sidebar nav and main charting work area; patient banner 'Sawin, Joseph' with MRN, Bed, Sex/Age, DOB; HPI / chief complaint documentation.",
+      "patient": "Sawin, Joseph"
+    }
+  ]
+}

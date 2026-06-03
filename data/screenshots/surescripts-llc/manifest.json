@@ -1,0 +1,25 @@
+{
+  "slug": "surescripts-llc",
+  "vendor": "Surescripts, LLC",
+  "product": "Surescripts Clinical Direct Messaging",
+  "website": "http://www.surescripts.com",
+  "capturedVia": "Brave image search (cheap pass)",
+  "notes": "Surescripts medication history / Clinical Direct Messaging surfaced within the Enterprise Health EHR (docs.enterprisehealth.com). Full EHR app views with patient banner (demo/test patient ABINGDON, PERSEUS; ID TEST-SS61.00; DOB 09-01-2012).",
+  "screenshots": [
+    {
+      "file": "01-med-history-patient-banner.png",
+      "source": "https://docs.enterprisehealth.com/functions/medication-management-and-e-prescribing/surescripts-advanced-medication-history-reconciliation.assets/9e4f2411f3e284524fffb97f6ee43779.png",
+      "description": "Med History tab: full EHR view with navigation tabs, patient banner (Name, DOB, phone, ID TEST-SS61.00), Surescripts medication history table."
+    },
+    {
+      "file": "02-med-history-reconcile.png",
+      "source": "https://docs.enterprisehealth.com/functions/medication-management-and-e-prescribing/surescripts-advanced-medication-history-reconciliation.assets/91447f208c857d761c84a8a47ec1c8d8.png",
+      "description": "Med History tab with Reconcile action: patient banner showing attending and medications, Surescripts medication history table."
+    },
+    {
+      "file": "03-med-history-message-detail.png",
+      "source": "https://docs.enterprisehealth.com/functions/medication-management-and-e-prescribing/surescripts-advanced-medication-history-reconciliation.assets/c19f9bff266e73620dff064c98776fee.png",
+      "description": "Med history with 'Medication From Message' Surescripts detail panel; full EHR chrome with patient banner."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "vendor": "GEMMS",
+  "product": "GEMMS ONE",
+  "website": "https://gemmsone.com/",
+  "slug": "gemms",
+  "source": "Brave image search (cheap pass)",
+  "capturedBy": "cheap-pass-brave",
+  "images": [
+    {
+      "file": "01-patient-record-dashboard.png",
+      "desc": "GEMMS ONE Patient Record - left sidebar nav, patient banner (Gagear Evelyn, DOB 08/22/1925, MRNO 350126943), clinical dashboard with chart abstraction status",
+      "sourceUrl": "https://www.findemr.com/image/cache/catalog/1product%20pic/Gemms%20one/GEMMS-ONE-Patient-record-600x375.jpg"
+    },
+    {
+      "file": "02-quality-payment-measures.png",
+      "desc": "GEMMS ONE Patient Record - quality payment measures (PQRS) view with patient banner",
+      "sourceUrl": "https://www.findemr.com/image/cache/catalog/1product%20pic/Gemms%20one/GEMMS-ONE-MIPS-dashboard-600x375.jpg"
+    },
+    {
+      "file": "03-meaningful-use-measures.png",
+      "desc": "GEMMS ONE Meaningful Use quality measures view with patient banner (Gagear Evelyn)",
+      "sourceUrl": "https://www.findemr.com/image/cache/catalog/1product%20pic/Gemms%20one/GEMMS-ONE-MU-screen-600x375.jpg"
+    },
+    {
+      "file": "04-clinical-dashboard-abstraction.png",
+      "desc": "GEMMS ONE clinical dashboard with patient photo, chart abstraction status, SBE prophylaxis, falls risk",
+      "sourceUrl": "https://www.emrsystems.net/wp-content/uploads/2016/12/GEMMS-ONE-EHR-Software-patient-record.webp"
+    },
+    {
+      "file": "05-clinical-dashboard-quality.png",
+      "desc": "GEMMS ONE clinical dashboard - care quality measures, current meds, decision support alerts, patient banner",
+      "sourceUrl": "https://www.emrsystems.net/wp-content/uploads/2025/11/GEMMS-ONE-EMR-Software-Patient-History-Screen.webp"
+    },
+    {
+      "file": "06-physician-graphing-tool.png",
+      "desc": "GEMMS ONE Physician view with vitals history and graphing tool overlay (cholesterol), patient banner (Fred, MRNO 4000205)",
+      "sourceUrl": "https://gemmsone.com/wp-content/uploads/2025/08/1.png"
+    }
+  ]
+}

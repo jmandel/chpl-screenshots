@@ -1,0 +1,25 @@
+{
+  "vendor": "Kipu Health",
+  "product": "Kipu",
+  "slug": "kipu-health",
+  "website": "https://kipuhealth.com",
+  "source": "Brave image search (cheap pass)",
+  "capturedBy": "cheap-pass-brave",
+  "screenshots": [
+    {
+      "file": "01-patient-chart-overview.png",
+      "description": "Kipu EMR patient chart overview - header with Kipu EMR + Coral Gables Programs, full nav bar (Dashboard/Patients/Occupancy/Schedules/Shifts/Contacts/Labs/Reports/Templates), patient banner (Amy Portal, CGP2024-6, Age 28, DOB 05/23/1997, Bed CG R3:B2, Allergies Penicillins, Admission 02/13/2024), and chart tab work area.",
+      "sourceUrl": "https://www.ehrinpractice.com/pictures/.../Kipu%20EMR%20patient%20overview.jpg"
+    },
+    {
+      "file": "02-client-roster-card.png",
+      "description": "Kipu EMR client roster - KIPU header, nav bar (Dashboard/Clients/Occupancy/Schedules/Shifts/Contacts/Lab Requisitions/Reports/Templates), Clients census, patient photo grid, and patient detail card (Andrea A., SLFL-2016-1026, W5-C).",
+      "sourceUrl": "https://codatis.com/wp-content/uploads/2025/10/1-394-768x576.jpg"
+    },
+    {
+      "file": "03-patient-portal.png",
+      "description": "Kipu Patient Portal (powered by Kipu) - left sidebar nav (Dashboard/My Information/My Appointments/My Medications/My Documents/My Treatment Plans/My Files), patient demographics panel (Jane Doe, MR #: 123-456, DOB 01/01/2000, Gender Female, Insurance Aetna), appointments and medications work areas.",
+      "sourceUrl": "https://treatmentmagazine.com/wp-content/uploads/2022/07/NEW-Kipu-Portal-Dashboard-Sample-1-1024x661.jpg"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "vendor": "Sabiamed Corporation",
+  "product": "ClinNext 10",
+  "website": "https://www.sabiamed.com",
+  "slug": "sabiamed-corporation",
+  "source": "brave-image-search (cheap pass)",
+  "images": [
+    {
+      "file": "01-clinnext10-emergency-room-patient-list.png",
+      "source_url": "https://a.fsdn.com/con/app/proj/clinnext.s/screenshots/1.JPG/1000/auto/1",
+      "description": "ClinNext 10 (CNX10) Emergency Room module 'Sala de Emergencia' - full application view with header toolbar/menu and main patient-list work area showing patient names, account numbers (Cuenta), wait times, areas, and emergency physicians."
+    }
+  ]
+}

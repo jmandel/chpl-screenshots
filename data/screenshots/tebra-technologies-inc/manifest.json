@@ -1,0 +1,36 @@
+{
+  "vendor": "Tebra Technologies, Inc.",
+  "product": "Tebra EHR",
+  "website": "https://www.tebra.com/",
+  "slug": "tebra-technologies-inc",
+  "source": "Brave image search (cheap pass)",
+  "capturedBy": "cheap-pass-brave",
+  "date": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-facesheet-patient-chart.png",
+      "description": "Tebra EHR clinical Facesheet view: left nav sidebar, top header with patient search, patient banner (Jane Worthington, Female, DOB 2/4/1990, insurance), Medications/Problems/Vitals/Labs/History panels.",
+      "sourceUrl": "https://emrfinder.com/wp-content/uploads/2016/08/Tebra-EHR-Software-eRx-Demo-1024x774.webp"
+    },
+    {
+      "file": "02-order-summary-rx.png",
+      "description": "Tebra EHR Order Summary (prescriptions) view: header/nav, patient banner (Amy Foreman, MRN 123456, DOB 08/05/1994), medication order table with pharmacy assignment.",
+      "sourceUrl": "https://emrfinder.com/wp-content/uploads/2016/08/Tebra-EMR-Software-eRx-Ordering-Demo-1024x774.webp"
+    },
+    {
+      "file": "03-facesheet-patient-card.png",
+      "description": "Tebra EHR Facesheet with patient card popover: sidebar + header, patient banner (Lee Bishop, MRN, DOB 7/25/1991, insurance Aetna), Vitals/Labs/Problems/Clinical Recommendations.",
+      "sourceUrl": "https://helpme.tebra.com/@api/deki/files/13415/Clinical_Facesheet_NavigatePatientCard.png?revision=3"
+    },
+    {
+      "file": "04-dashboard-recent-patients.png",
+      "description": "Tebra EHR Dashboard with recent-patients dropdown: left filter sidebar, top header, scheduled appointment list showing patient demographics (names, DOB, age/sex), Outstanding Items panel.",
+      "sourceUrl": "https://helpme.tebra.com/@api/deki/files/13429/Platform_Dashboard_RecentPatients.png?revision=1"
+    },
+    {
+      "file": "05-dashboard-patient-search.png",
+      "description": "Tebra EHR Dashboard with patient search autocomplete (Bishop, Shirley, 25 Jul 1991): sidebar, header, scheduled appointment list with patient DOBs, Outstanding Items panel.",
+      "sourceUrl": "https://helpme.tebra.com/@api/deki/files/13411/Platform_Dashboard_PatientSearch.png?revision=3"
+    }
+  ]
+}

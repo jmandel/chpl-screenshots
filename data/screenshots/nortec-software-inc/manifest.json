@@ -1,0 +1,15 @@
+{
+  "vendor": "Nortec Software Inc.",
+  "product": "Nortec EHR",
+  "website": "http://www.nortecehr.com/",
+  "slug": "nortec-software-inc",
+  "capturedVia": "brave-images-cheap-pass",
+  "images": [
+    {
+      "file": "01-patient-chart.png",
+      "description": "Nortec EMR Patient Chart screen — full application view with left navigation sidebar (Chart Summary tree, Dashboard/Scheduler/Patient Manager), top menu bar and module tabs (Home, Scheduler, Patient Manager, Patient Chart, Prescription, Care Management, etc.), patient banner (Jane Austen, DOB 1/1/1984, Age 27y 7m, MRN AYC-302, Female, Room: Exam Room 2), and main work panels: Presenting Complaints, Encounters, Active Diagnoses, Current Medications, Active Allergies, Active Lab Orders.",
+      "source": "https://image.slidesharecdn.com/nortec-130619054245-phpapp01/75/Nortec-7-2048.jpg",
+      "note": "Screenshot embedded in a Nortec EHR SlideShare deck (slide 7, 'EMR – Patient Chart'); cropped to the application region. Demo patient."
+    }
+  ]
+}

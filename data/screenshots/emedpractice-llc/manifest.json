@@ -1,0 +1,19 @@
+{
+  "slug": "emedpractice-llc",
+  "vendor": "eMedPractice LLC",
+  "product": "eMedicalPractice",
+  "website": "https://www.eMedPractice.com",
+  "capturedVia": "brave-image-search-cheap-pass",
+  "screenshots": [
+    {
+      "file": "01-soap-notes-patient-banner.png",
+      "source": "https://www.findemr.com/image/cache/catalog/1product%20pic/eMedical-Practice/eMedicalPractice-SOAP-notes-600x375.jpg",
+      "description": "SOAP/EMR charting view with eMedicalPractice header, left nav, and patient banner (#830, 24 Yro, Male, Roy Aditya; encounter #761 08/29/2014 Follow Up Visit)"
+    },
+    {
+      "file": "02-merge-charts-patient-records.png",
+      "source": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/8421c510-f300-422d-b074-13868bca080b.png",
+      "description": "Merge Charts work area with full app chrome (branded header, left sidebar) showing patient chart records with patient detail headers (name, gender, DOB) and encounter lists"
+    }
+  ]
+}

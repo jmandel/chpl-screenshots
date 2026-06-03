@@ -1,0 +1,20 @@
+{
+  "vendor": "Criterions Software Inc",
+  "product": "Criterions EHR",
+  "website": "https://criterions.com/",
+  "slug": "criterions-software-inc",
+  "source": "brave-image-search",
+  "captured": "2026-06-03",
+  "images": [
+    {
+      "file": "01-patient-chart.png",
+      "desc": "Criterions EHR patient chart - toolbar + patient banner (Lucy, Cms156v11 (24874) M 12/31/1950 AGE: 74) + main work area (Problem List, Tests, Allergies, Vitals, Immunization, Procedures, Prior Visits, PMHx, Medication, Documents)",
+      "source_url": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/96f6ae21-f537-4157-94ae-79aca53b690b.png"
+    },
+    {
+      "file": "02-scheduler-demographics.png",
+      "desc": "Criterions EHR appointment scheduler (Day at Glance) and patient Demographics form (Koerney, James (1417), DOB 02/14/1962, address, phone, sex)",
+      "source_url": "https://gdm-catalog-fmapi-prod.imgix.net/ProductScreenshot/7417c001-70d8-4dd7-b169-ceba5cafc6af.png"
+    }
+  ]
+}

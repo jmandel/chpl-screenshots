@@ -1,0 +1,50 @@
+{
+  "vendor": "MDOfficeManager",
+  "product": "GeeseMed",
+  "slug": "mdofficemanager",
+  "website": "https://mdofficemanager.com/",
+  "source": "Brave image search (cheap pass)",
+  "captured": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-geesemed-patient-summary.png",
+      "source_url": "https://mdofficemanager.com/wp-content/uploads/2023/05/geesemed-img.png",
+      "description": "GeeseMed EHR patient summary view (laptop mockup) with provider header bar, patient banner, encounter list and clinical panels (medications, allergies, vitals, immunizations)."
+    },
+    {
+      "file": "02-mdoffice-chart-crawford.png",
+      "source_url": "https://emrfinder.com/wp-content/uploads/2025/10/MDoffice-EMR-Practice-Management-Software-Patient-Details.webp",
+      "description": "MDoffice/GeeseMed clinical chart for patient CRAWFORD, Kevin with patient banner (name, MRN, balance, insurance), left navigation sidebar, and chief complaint / HPI work area."
+    },
+    {
+      "file": "03-mdoffice-chart-crawford-fish.jpg",
+      "source_url": "https://www.emrsystems.net/wp-content/uploads/2016/11/MDoffice-EMR-Software.jpg",
+      "description": "MDoffice EMR clinical chart for patient CRAWFORD, Kevin (Fish) with header menu bar, patient banner, left subjective/objective sidebar, and HPI documentation panel."
+    },
+    {
+      "file": "04-mdoffice-patient-registration.png",
+      "source_url": "https://emrfinder.com/wp-content/uploads/2025/10/MDoffice-EMR-Practice-Management-Software-Patient-Registration.webp",
+      "description": "MDoffice patient registration / demographics screen with header banner, patient name, DOB, SSN, address, insurance, and family contacts."
+    },
+    {
+      "file": "05-mdoffice-patient-registration-daly.png",
+      "source_url": "https://www.emrsystems.net/wp-content/uploads/2016/11/MDoffice-EMR-Software-Patient-Registeration.webp",
+      "description": "MDoffice patient registration screen for patient DALY, Patty with full demographics form, insurance, and header navigation."
+    },
+    {
+      "file": "06-mdoffice-patient-profile.png",
+      "source_url": "https://www.findemr.com/image/cache/catalog/1product%20pic/mdoffice/patient-profile-min-600x375.png",
+      "description": "MDoffice patient profile / demographics view with header banner and tabbed patient detail form."
+    },
+    {
+      "file": "07-mdoffice-claims-holmes.jpg",
+      "source_url": "https://emrfinder.com/wp-content/uploads/2016/11/mdoffice-emr-and-practice-management-software.jpg",
+      "description": "MDoffice practice management claims screen for patient HOLMES, Sherlock with patient banner (balance, copay, credits), claim/service detail and CPT/ICD lines."
+    },
+    {
+      "file": "08-mdoffice-billing-holmes.png",
+      "source_url": "https://www.findemr.com/image/cache/catalog/1product%20pic/mdoffice/billing-min-600x375.png",
+      "description": "MDoffice billing / claims screen for patient HOLMES, Sherlock with patient banner, service lines and charge/payment summary."
+    }
+  ]
+}

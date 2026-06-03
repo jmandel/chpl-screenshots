@@ -1,0 +1,44 @@
+{
+  "vendor": "iSALUS Healthcare",
+  "product": "OfficeEMR",
+  "website": "https://isalushealthcare.com",
+  "slug": "isalus-healthcare",
+  "capturedVia": "brave-image-search",
+  "screenshots": [
+    {
+      "file": "01-officeemr-physical-exam.png",
+      "source": "https://www.ehrinpractice.com/pictures/OfficeEMR%20Screenshot%201.jpg",
+      "description": "OfficeEMR 2014 IM-GT Physical Exam / Diabetes Evaluation; patient banner Smith, Michael DOB 11-Mar-1968"
+    },
+    {
+      "file": "02-officeemr-summary.png",
+      "source": "https://www.ehrinpractice.com/pictures/OfficeEMR%20ISALUS%20Screenshot.jpg",
+      "description": "OfficeEMR Patient Charts summary (allergies/meds/problems/timeline); patient banner Smith, Michael DOB 11-Mar-1968"
+    },
+    {
+      "file": "03-officeemr-cardiology.png",
+      "source": "https://www.findemr.com/image/cache/catalog/1product%20pic/iSalus-EMR-Software%20/iSalus-1-600x375.jpg",
+      "description": "OfficeEMR Cardiology chart summary view; patient banner Test, Jane DOB 25-Mar-1953"
+    },
+    {
+      "file": "04-officeemr-chiropractic.png",
+      "source": "https://www.findemr.com/image/cache/catalog/1product%20pic/iSalus-EMR-Software%20/iSalus-2-600x375.jpg",
+      "description": "OfficeEMR Chiropractic Daily Note with body diagram; patient banner Test, Jane A. DOB 22-Jan-1971"
+    },
+    {
+      "file": "05-isalus-ent-prescription.png",
+      "source": "https://emrfinder.com/wp-content/uploads/2017/08/iSalus-EMR-System-e-prescribing-1024x854.webp",
+      "description": "iSalus ENT e-prescribing screen; patient banner Patient, Test DOB 01-Jan-1989"
+    },
+    {
+      "file": "06-officeemr-timeline.png",
+      "source": "https://www.findemr.com/image/cache/catalog/1product%20pic/Office-EMR/Timeline-min-600x375.jpg",
+      "description": "OfficeEMR patient timeline view; patient banner Hall, Michael DOB 11-Mar-1968"
+    },
+    {
+      "file": "07-entchoice-chart.png",
+      "source": "https://isalushealthcare.com/wp-content/uploads/2021/02/1-14_entEHR.jpg",
+      "description": "ENTChoice (iSalus OfficeEMR) chart summary on laptop mockup; patient banner Test, Jillian DOB 23-Oct-1969"
+    }
+  ]
+}

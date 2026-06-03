@@ -1,0 +1,22 @@
+{
+  "vendor": "MaxRemind Inc",
+  "product": "Maximus",
+  "website": "https://maxremind.com",
+  "slug": "maxremind-inc",
+  "source": "Brave image search (cheap pass)",
+  "captured": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-era-claim-payment.png",
+      "source_url": "https://maxremind.com/wp-content/uploads/2024/06/Mock-Billing-F.png",
+      "description": "MaxRemind desktop EHR/billing application. Top nav (Home, Patients, Billing, Files, DashBoard, RBS, Report Customization, Settings) with ERA claim payment work area. Visible patient: Pat ID 27749, name 'Oliver, Sales', claim/payment details.",
+      "demographics": "Patient name (Oliver, Sales) and Pat ID (27749) visible"
+    },
+    {
+      "file": "02-payment-summary-detail.png",
+      "source_url": "https://maxremind.com/wp-content/uploads/2024/06/RCM-F.png",
+      "description": "MaxRemind desktop application showing Payment Summary / Payment Detail screen with left sidebar (Practice, Files, Insur, Invoices, etc.) and top nav. Visible patient: Account No 60095, 'Drogba, Didier 05/09/1900 Male, Single', with DOS 05/01/2006.",
+      "demographics": "Patient name (Drogba, Didier), DOB (05/09/1900), gender (Male), Account No (60095) visible"
+    }
+  ]
+}

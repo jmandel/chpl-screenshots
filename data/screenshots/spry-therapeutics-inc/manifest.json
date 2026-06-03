@@ -1,0 +1,18 @@
+{
+  "vendor": "SPRY Therapeutics, Inc",
+  "product": "SPRY",
+  "website": "https://www.sprypt.com",
+  "slug": "spry-therapeutics-inc",
+  "source": "Brave image search (cheap pass)",
+  "captured": "2026-06-03",
+  "screenshots": [
+    {
+      "file": "01-patient-personal-details.png",
+      "description": "SPRY EHR patient chart - Personal Details view with left navigation sidebar, patient summary card (John James, Patient ID 12331A, blood group, conditions) and main demographics work area (name, DOB 04-05-1972, gender, contact, height/weight, insurance/referral).",
+      "source_url": "https://www.findemr.com/image/cache/catalog/1product%20pic/Spry/SPRY--Digital-Intake-600x375.jpg",
+      "patient": "John James (demo)",
+      "patient_id": "12331A",
+      "dob": "04-05-1972"
+    }
+  ]
+}
