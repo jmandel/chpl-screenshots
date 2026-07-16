@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="A simple architecture for turning frontier-model screen understanding into fast, deterministic extractors with continuous feedback.">
+<meta name="description" content="An architecture for a frontier agent that compiles clustered screen examples into tested deterministic routes.">
 <title>latergen | read, compile, run, check</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -251,7 +251,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
       <span class="principle">continuous audit</span>
     </div>
 
-    <div class="architecture" role="img" aria-label="Architecture loop. Frequent screenshots and optional timestamped signals produce candidate moments. Known relevant states take the deterministic extraction path. Known irrelevant states are ignored and sampled for audit. Unmatched moments accumulate in fingerprint groups, and only budget-selected group representatives go to frontier models for review. The model writes tested matchers that route later instances to extraction or ignore actions. Runtime checks and audits return exceptions as fixtures for repair.">
+    <div class="architecture" role="img" aria-label="Architecture loop. Frequent screenshots and optional timestamped signals produce candidate moments. Known relevant states take the deterministic extraction path. Known irrelevant states are ignored and sampled for audit. Unknown moments accumulate in fingerprint clusters. A frontier agent browses cluster representatives, calls an image annotation model on selected examples, writes route code, runs holdout tests, and promotes tested extract or ignore routes. Runtime checks and audits return exceptions to the agent workbench.">
       <div class="arch-title">runtime and learning paths</div>
       <svg class="system-loop" viewBox="0 0 1080 470" xmlns="http://www.w3.org/2000/svg" font-family="IBM Plex Mono, monospace" aria-hidden="true">
         <defs>
@@ -317,7 +317,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
           <text x="606" y="278" fill="#17201d" font-size="10" font-weight="600">TEST</text>
           <text x="606" y="295" fill="#53605c" font-size="8.5">holdout</text>
 
-          <text x="470" y="340" fill="#8a3e06" font-size="8.8" text-anchor="middle">failures guide the next sample, annotation, or code revision</text>
+          <text x="470" y="329" fill="#8a3e06" font-size="8.8" text-anchor="middle">failures guide the next sample, annotation, or code revision</text>
 
           <rect x="745" y="235" width="155" height="100" rx="5" fill="#fff" stroke="#087866" stroke-width="1.6"/>
           <text x="761" y="258" fill="#087866" font-size="9" font-weight="600" letter-spacing="1">PROMOTED ROUTE</text>
@@ -337,7 +337,6 @@ footer .wrap{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
         <line x1="355" y1="97" x2="401" y2="97" stroke="#087866" stroke-width="2" marker-end="url(#arrowCode)"/>
         <line x1="590" y1="97" x2="631" y2="97" stroke="#087866" stroke-width="2" marker-end="url(#arrowCode)"/>
         <line x1="810" y1="97" x2="846" y2="97" stroke="#087866" stroke-width="2" marker-end="url(#arrowCode)"/>
-        <text x="378" y="86" fill="#087866" font-size="8.5" text-anchor="middle">FINGERPRINT</text>
         <text x="611" y="86" fill="#087866" font-size="8.5" text-anchor="middle">EXTRACT</text>
         <text x="497" y="164" fill="#53605c" font-size="8.5" text-anchor="middle">IGNORE → COUNT + AUDIT SAMPLE</text>
 
@@ -401,7 +400,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
     <div class="carry">
       <div class="carry-card"><span class="tag">evidence</span><b><code>{value, box}</code> supports inspection.</b><p>The current viewer links extracted values to pixels. Evidence packets extend the same link across a timestamped screenshot sequence.</p></div>
       <div class="carry-card"><span class="tag">schema</span><b>Small targets performed better.</b><p>The flat <code>patientId</code> target captured more values than the nested identifier experiment. Each compile target starts with a bounded product question.</p></div>
-      <div class="carry-card"><span class="tag">operations</span><b>Ledgers make failures countable.</b><p>Per-vendor shards, attempt records, resumability, and click-through reports kept zero-yield work visible. State and extractor ledgers use the same pattern.</p></div>
+      <div class="carry-card"><span class="tag">operations</span><b>Ledgers make failures countable.</b><p>Per-vendor shards, attempt records, resumability, and click-through reports kept zero-yield work visible. Cluster, route, and runtime ledgers use the same pattern.</p></div>
     </div>
 
     <h3>Initial design decisions</h3>
@@ -505,16 +504,16 @@ return routes[0].extractAndValidate(packet)</code></pre>
 
     <div class="bundle">
       <pre aria-label="Example state route file tree"><code>routes/patient-banner/v7/
-├── manifest.json       # question, action, inputs, version
-├── matches.ts          # does this route handle the packet?
-├── extract.ts          # present when action = extract
-├── validate.ts         # grammars + invariants
+├── manifest.json    # action + required signals
+├── matches.ts       # packet → boolean
+├── extract.ts       # only for extract routes
+├── validate.ts
 ├── fixtures/
-│   ├── examples/       # annotations used by the agent
-│   ├── holdout/        # labeled promotion cases
-│   ├── negatives/      # similar states that must not match
-│   └── regressions/    # resolved runtime exceptions
-└── metrics.json        # match, extraction, and audit results</code></pre>
+│   ├── examples/
+│   ├── holdout/
+│   ├── negatives/
+│   └── regressions/
+└── metrics.json</code></pre>
       <div class="bundle-copy">
         <h3>Generated code contract</h3>
         <p>The first implementation permits ordinary TypeScript inside the route interface. A generated route can use DOM selectors, accessibility queries, OCR over stable regions, label/value parsing, input-event sequences, or a small composition of these techniques.</p>
@@ -531,7 +530,8 @@ return routes[0].extractAndValidate(packet)</code></pre>
     { "field": "fullName", "t": 3.2, "frame": 7, "box": [118, 42, 334, 68], "source": "pixels" },
     { "field": "patientId", "t": 3.2, "frame": 7, "box": [382, 42, 451, 68], "source": "pixels" }
   ],
-  "producedBy": { "kind": "extractor", "id": "patient-banner", "version": 7 },
+  "producedBy": { "kind": "state-route", "id": "patient-banner", "version": 7 },
+  "action": "extract",
   "outcome": "value"
 }</code></pre>
   </div>
@@ -565,7 +565,7 @@ return routes[0].extractAndValidate(packet)</code></pre>
 
     <div class="prose">
       <h3>Capture policy stays separate from extraction logic</h3>
-      <p>“Always-on” means the system continuously produces the screenshot stream while it is enabled. Frequency, resolution, chunking, encryption, access, and retention are deployment policies. Because these streams can contain PHI and credentials, recording requires explicit authorization, strong tenant isolation, audited access, and a clear deletion policy. Extractor code should consume packet references without gaining broader access to the archive.</p>
+      <p>“Always-on” means the system continuously produces the screenshot stream while it is enabled. Frequency, resolution, chunking, encryption, access, and retention are deployment policies. Because these streams can contain PHI and credentials, recording requires explicit authorization, strong tenant isolation, audited access, and a clear deletion policy. Route code should consume packet references without gaining broader access to the archive.</p>
     </div>
   </div>
 </section>
@@ -574,7 +574,7 @@ return routes[0].extractAndValidate(packet)</code></pre>
   <div class="wrap">
     <div class="sec-head"><span class="sec-no">§ 04</span><h2>Evaluation, drift, and repair</h2></div>
     <div class="prose">
-      <p>Frontier outputs seed the labeled corpus but do not provide independent ground truth. Evaluation combines deterministic checks, risk-weighted model audits, independent data sources, and human adjudication. This mix covers extractor drift as well as errors shared by the model and extractor.</p>
+      <p>Image-model annotations seed the labeled corpus but do not provide independent ground truth. Evaluation combines deterministic checks, agent-scheduled annotation audits, independent data sources, and human adjudication. This mix covers route drift as well as errors shared by the annotation model and route code.</p>
     </div>
 
     <div class="outcomes" aria-label="Runtime outcomes and responses">
@@ -624,7 +624,7 @@ return routes[0].extractAndValidate(packet)</code></pre>
     <div class="prose">
       <h3>Reporting rules</h3>
       <ol class="compact-list">
-        <li>Use “accuracy” only for comparisons against an independent label. Model/extractor comparison reports agreement.</li>
+        <li>Use “accuracy” only for comparisons against an independent label. Annotation/route comparison reports agreement.</li>
         <li>Audit a random slice of clean outputs in addition to cases flagged by guards.</li>
         <li>Retain negative, missed, abstained, and failed packets in evaluation datasets.</li>
         <li>Version the question, schema, model, prompt, packet format, code, fixtures, and metrics together.</li>
