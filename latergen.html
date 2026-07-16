@@ -1,0 +1,690 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A simple architecture for turning frontier-model screen understanding into fast, deterministic extractors with continuous feedback.">
+<title>latergen | read, compile, run, check</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f4f6f4;
+  --panel:#fff;
+  --ink:#17201d;
+  --soft:#53605c;
+  --line:#cbd4d0;
+  --line-soft:#e2e8e5;
+  --pixels:#4d55a5;
+  --pixels-soft:#ececfa;
+  --frontier:#b45309;
+  --frontier-soft:#fdf1e3;
+  --code:#087866;
+  --code-soft:#e3f1ed;
+  --alert:#ad352d;
+  --alert-soft:#f9e9e7;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  --serif:"IBM Plex Serif",Charter,Georgia,serif;
+  --display:"IBM Plex Sans Condensed","Arial Narrow",system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{
+  background:var(--paper);color:var(--ink);font-family:var(--serif);
+  font-size:1rem;line-height:1.62;-webkit-font-smoothing:antialiased;
+}
+a{color:var(--code)}
+a:focus-visible{outline:2px solid var(--frontier);outline-offset:3px}
+.wrap{max-width:72rem;margin:0 auto;padding:0 1.25rem}
+.prose{max-width:47rem}
+.prose p{margin:0 0 1rem}
+strong{font-weight:600}
+code{font-family:var(--mono);font-size:.86em;background:var(--line-soft);padding:.08em .32em;border-radius:3px}
+pre{
+  margin:1.2rem 0;padding:1rem 1.1rem;overflow:auto;background:#15201d;color:#eaf1ee;
+  border-radius:5px;border:1px solid #0d1714;font:400 .76rem/1.62 var(--mono);
+}
+pre code{font:inherit;background:none;padding:0}
+
+/* top bar */
+.topbar{
+  position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--paper) 90%,white);
+  backdrop-filter:blur(7px);border-bottom:1px solid var(--line);
+}
+.topbar .wrap{height:3rem;display:flex;align-items:center;gap:1.4rem;overflow-x:auto}
+.brand{font:600 .77rem var(--mono);letter-spacing:.04em;white-space:nowrap}
+.brand .tick{color:var(--frontier)}
+.brand .version{color:var(--soft);font-weight:400}
+nav{display:flex;gap:1rem;font:400 .68rem var(--mono)}
+nav a{color:var(--soft);text-decoration:none;white-space:nowrap}
+nav a:hover{color:var(--ink)}
+
+/* hero */
+.hero{padding:3.5rem 0 2.8rem;border-bottom:1px solid var(--line)}
+.eyebrow{
+  margin-bottom:.9rem;color:var(--soft);font:500 .69rem var(--mono);
+  letter-spacing:.13em;text-transform:uppercase;
+}
+.eyebrow b{color:var(--frontier)}
+h1{
+  max-width:62rem;font:700 clamp(2.25rem,5.4vw,3.65rem)/1.02 var(--display);
+  letter-spacing:-.012em;
+}
+h1 .see{color:var(--frontier)}
+h1 .serve{color:var(--code)}
+.dek{max-width:49rem;margin-top:1.25rem;color:var(--soft);font-size:1.08rem}
+.dek strong{color:var(--ink)}
+.principles{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:1.35rem}
+.principle{
+  padding:.25rem .58rem;border:1px solid var(--line);border-radius:99px;background:var(--panel);
+  color:var(--soft);font:500 .65rem var(--mono);letter-spacing:.025em;
+}
+
+/* signature architecture */
+.architecture{
+  margin-top:2.4rem;padding:1.15rem;background:var(--panel);border:1px solid var(--line);
+  border-radius:7px;box-shadow:0 2px 8px rgba(23,32,29,.05);overflow-x:auto;
+}
+.arch-title{margin-bottom:.85rem;color:var(--soft);font:500 .65rem var(--mono);letter-spacing:.06em;text-transform:uppercase}
+.system-loop{display:block;min-width:900px;width:100%;height:auto}
+.diagram-key{display:flex;gap:1.2rem;flex-wrap:wrap;margin:.7rem .25rem 0;color:var(--soft);font:500 .61rem var(--mono)}
+.diagram-key span{white-space:nowrap}
+.diagram-key i{display:inline-block;width:.85rem;height:.55rem;margin-right:.32rem;border-radius:2px;vertical-align:-1px}
+
+/* shared section styles */
+section{padding:3rem 0 2.2rem;border-bottom:1px solid var(--line)}
+.sec-head{display:flex;align-items:baseline;gap:1rem;margin-bottom:1.35rem}
+.sec-no{color:var(--frontier);font:600 .68rem var(--mono);letter-spacing:.12em;white-space:nowrap}
+.sec-head h2{font:700 clamp(1.55rem,3vw,2.2rem)/1.08 var(--display)}
+h3{margin:1.7rem 0 .6rem;font:600 1.15rem var(--display)}
+h4{font:600 .72rem var(--mono);letter-spacing:.08em;text-transform:uppercase}
+.callout{
+  max-width:56rem;margin:1.4rem 0;padding:1rem 1.15rem;border:1px solid #e5c598;
+  border-left:4px solid var(--frontier);border-radius:4px;background:var(--frontier-soft);font-size:.94rem;
+}
+.callout b:first-child{font-family:var(--display);color:#824009}
+.callout.teal{background:var(--code-soft);border-color:#a6d0c6;border-left-color:var(--code)}
+.callout.teal b:first-child{color:var(--code)}
+
+/* thesis */
+.equation{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:.75rem;align-items:stretch;
+  margin:1.5rem 0;max-width:62rem;
+}
+.eq-part{height:100%;padding:.85rem 1rem;background:var(--panel);border:1px solid var(--line);border-radius:5px}
+.eq-part b{display:block;font:600 .98rem var(--display)}
+.eq-part span{display:block;margin-top:.25rem;color:var(--soft);font-size:.82rem;line-height:1.42}
+.eq-part.frontier{border-top:3px solid var(--frontier)}
+.eq-part.code{border-top:3px solid var(--code)}
+.eq-part.feedback{border-top:3px solid var(--alert)}
+.carry{display:grid;grid-template-columns:repeat(3,1fr);gap:.8rem;margin:1.2rem 0}
+.carry-card{padding:.9rem 1rem;background:var(--panel);border:1px solid var(--line);border-radius:4px}
+.carry-card .tag{color:var(--code);font:600 .62rem var(--mono);letter-spacing:.08em;text-transform:uppercase}
+.carry-card b{display:block;margin:.22rem 0;font:600 .98rem var(--display)}
+.carry-card p{color:var(--soft);font-size:.84rem;line-height:1.48}
+
+/* simplification table */
+.table-wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;margin:1.3rem 0;background:var(--panel);border:1px solid var(--line);font-size:.88rem}
+th,td{padding:.65rem .78rem;border-bottom:1px solid var(--line-soft);text-align:left;vertical-align:top}
+th{background:var(--line-soft);color:var(--soft);font:600 .63rem var(--mono);letter-spacing:.08em;text-transform:uppercase}
+tr:last-child td{border-bottom:none}
+td:first-child{font-family:var(--display);font-weight:600;white-space:nowrap}
+td.now{background:color-mix(in srgb,var(--code-soft) 55%,white)}
+
+/* loop */
+.loop{display:grid;grid-template-columns:repeat(3,1fr);gap:.8rem;margin:1.4rem 0}
+.step{position:relative;min-height:10.5rem;padding:1rem;background:var(--panel);border:1px solid var(--line);border-radius:5px}
+.step .num{font:600 .65rem var(--mono);letter-spacing:.09em;color:var(--frontier)}
+.step h3{margin:.2rem 0 .4rem;font-size:1.05rem}
+.step p{color:var(--soft);font-size:.84rem;line-height:1.47}
+.step:nth-child(1),.step:nth-child(2){border-top:3px solid var(--pixels)}
+.step:nth-child(3),.step:nth-child(4){border-top:3px solid var(--frontier)}
+.step:nth-child(5){border-top:3px solid var(--code)}
+.step:nth-child(6){border-top:3px solid var(--alert)}
+.interest{
+  display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.4rem 0;max-width:62rem;
+}
+.interest > div{padding:1rem 1.1rem;background:var(--panel);border:1px solid var(--line);border-radius:4px}
+.interest h4{margin-bottom:.45rem;color:var(--pixels)}
+.interest ul,.compact-list{margin-left:1.1rem;font-size:.88rem}
+.interest li,.compact-list li{margin-bottom:.3rem}
+
+/* artifacts */
+.artifacts{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:.9rem;margin:1.4rem 0}
+.artifact{display:flex;flex-direction:column;padding:1rem;background:var(--panel);border:1px solid var(--line);border-radius:5px}
+.artifact .aid{color:var(--frontier);font:600 .62rem var(--mono);letter-spacing:.09em}
+.artifact h3{margin:.2rem 0 .45rem;font-size:1.06rem}
+.artifact p{color:var(--soft);font-size:.84rem;line-height:1.48}
+.artifact .example{margin-top:auto;padding-top:.7rem;color:var(--code);font:500 .65rem/1.5 var(--mono)}
+.bundle{
+  display:grid;grid-template-columns:minmax(280px,.8fr) 1.2fr;gap:1.2rem;align-items:start;
+  margin:1.6rem 0;max-width:65rem;
+}
+.bundle pre{margin:0}
+.bundle-copy{padding:.2rem 0}
+.bundle-copy h3{margin:0 0 .6rem}
+.bundle-copy p{margin-bottom:.8rem;color:var(--soft);font-size:.9rem}
+
+/* signal table */
+.availability{font-family:var(--mono);font-size:.72rem;white-space:nowrap}
+.yes{color:var(--code)}.maybe{color:var(--frontier)}.no{color:var(--alert)}
+
+/* truth loop */
+.outcomes{display:grid;grid-template-columns:repeat(5,1fr);gap:.55rem;margin:1.3rem 0}
+.outcome{padding:.8rem;background:var(--panel);border:1px solid var(--line);border-radius:4px}
+.outcome b{display:block;font:600 .76rem var(--mono);letter-spacing:.04em}
+.outcome span{display:block;margin-top:.32rem;color:var(--soft);font-size:.76rem;line-height:1.4}
+.outcome.clean b{color:var(--code)}
+.outcome.flag b{color:var(--alert)}
+.truth-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.4rem 0;max-width:65rem}
+.truth-card{padding:1rem 1.1rem;background:var(--panel);border:1px solid var(--line);border-radius:4px}
+.truth-card h3{margin:0 0 .45rem;font-size:1.06rem}
+.truth-card ul{margin-left:1.1rem;font-size:.86rem}
+.truth-card li{margin-bottom:.36rem}
+.truth-card.model{border-top:3px solid var(--frontier)}
+.truth-card.truth{border-top:3px solid var(--code)}
+.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin:1.3rem 0}
+.metric{padding:.85rem 1rem;background:var(--panel)}
+.metric b{display:block;font:600 1rem var(--display)}
+.metric span{display:block;margin-top:.2rem;color:var(--soft);font:400 .63rem/1.4 var(--mono)}
+
+/* plan */
+.phases{margin:1.3rem 0;max-width:65rem;border-left:2px solid var(--line)}
+.phase{position:relative;margin-left:1.3rem;padding:0 0 1.35rem 1rem}
+.phase::before{content:"";position:absolute;left:-1.72rem;top:.32rem;width:.65rem;height:.65rem;border:2px solid var(--code);border-radius:50%;background:var(--paper)}
+.phase:last-child{padding-bottom:0}
+.phase .when{color:var(--frontier);font:600 .62rem var(--mono);letter-spacing:.09em;text-transform:uppercase}
+.phase h3{margin:.12rem 0 .25rem;font-size:1.05rem}
+.phase p{max-width:48rem;color:var(--soft);font-size:.87rem}
+.phase .exit{margin-top:.3rem;color:var(--ink);font:500 .7rem var(--mono)}
+.defer{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.3rem 0;max-width:65rem}
+.defer > div{padding:1rem 1.1rem;background:var(--panel);border:1px solid var(--line);border-radius:4px}
+.defer h3{margin:0 0 .45rem;font-size:1.05rem}
+.defer ul{margin-left:1.1rem;font-size:.86rem}
+.defer li{margin-bottom:.3rem}
+
+footer{padding:2.4rem 0 3.5rem;color:var(--soft);font:400 .68rem var(--mono)}
+footer .wrap{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+
+@media (max-width:850px){
+  .carry,.loop,.artifacts,.metrics{grid-template-columns:1fr 1fr}
+  .outcomes{grid-template-columns:repeat(3,1fr)}
+  .equation{grid-template-columns:1fr}
+  .bundle{grid-template-columns:1fr}
+}
+@media (max-width:570px){
+  .hero{padding-top:2.5rem}
+  .carry,.loop,.artifacts,.metrics,.interest,.truth-grid,.defer,.outcomes{grid-template-columns:1fr}
+  .sec-head{display:block}.sec-no{display:block;margin-bottom:.35rem}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <span class="brand"><span class="tick">▸</span> latergen<span class="version">.html · v1</span></span>
+    <nav aria-label="Document sections">
+      <a href="#thesis">00 thesis</a>
+      <a href="#loop">01 loop</a>
+      <a href="#artifacts">02 artifacts</a>
+      <a href="#signals">03 signals</a>
+      <a href="#honesty">04 feedback</a>
+      <a href="#plan">05 plan</a>
+    </nav>
+  </div>
+</div>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">chpl-screenshots · later generation · <b>simplified architecture</b> · 2026-07</div>
+    <h1><span class="see">A frontier agent investigates screen clusters and writes tested extractors.</span> <span class="serve">The live path runs them locally.</span></h1>
+    <p class="dek">Frequent screenshots and optional timestamped signals produce a growing catalog of repeated screen patterns. A frontier agent browses that catalog, chooses clusters to investigate, sends selected screenshots to an image annotation model, writes deterministic route code, and tests it against the remaining examples. Promoted routes extract useful states or ignore known irrelevant states.</p>
+    <div class="principles" aria-label="Design principles">
+      <span class="principle">frequent screenshots</span>
+      <span class="principle">optional timestamped signals</span>
+      <span class="principle">clustered unknowns</span>
+      <span class="principle">agent-driven compilation</span>
+      <span class="principle">continuous audit</span>
+    </div>
+
+    <div class="architecture" role="img" aria-label="Architecture loop. Frequent screenshots and optional timestamped signals produce candidate moments. Known relevant states take the deterministic extraction path. Known irrelevant states are ignored and sampled for audit. Unmatched moments accumulate in fingerprint groups, and only budget-selected group representatives go to frontier models for review. The model writes tested matchers that route later instances to extraction or ignore actions. Runtime checks and audits return exceptions as fixtures for repair.">
+      <div class="arch-title">runtime and learning paths</div>
+      <svg class="system-loop" viewBox="0 0 1080 470" xmlns="http://www.w3.org/2000/svg" font-family="IBM Plex Mono, monospace" aria-hidden="true">
+        <defs>
+          <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#53605c"/></marker>
+          <marker id="arrowCode" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#087866"/></marker>
+          <marker id="arrowFrontier" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#b45309"/></marker>
+          <marker id="arrowAlert" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#ad352d"/></marker>
+        </defs>
+
+        <!-- nodes -->
+        <g font-size="11">
+          <text x="14" y="26" fill="#4d55a5" font-size="9.5" font-weight="600" letter-spacing="1.4">LIVE DATA PLANE</text>
+          <rect x="14" y="48" width="150" height="98" rx="5" fill="#ececfa" stroke="#4d55a5" stroke-width="1.5"/>
+          <text x="30" y="70" fill="#4d55a5" font-size="9" font-weight="600" letter-spacing="1">01 · RECORD</text>
+          <text x="30" y="96" fill="#17201d" font-size="13" font-weight="600">screen stream</text>
+          <text x="30" y="120" fill="#53605c" font-size="9.2">frames + signals</text>
+
+          <rect x="190" y="48" width="165" height="98" rx="5" fill="#fff" stroke="#4d55a5" stroke-width="1.5"/>
+          <text x="206" y="70" fill="#4d55a5" font-size="9" font-weight="600" letter-spacing="1">02 · FIND</text>
+          <text x="206" y="96" fill="#17201d" font-size="13" font-weight="600">candidate moment</text>
+          <text x="206" y="120" fill="#53605c" font-size="9.2">change · settle · sample</text>
+
+          <rect x="405" y="48" width="185" height="98" rx="5" fill="#fff" stroke="#087866" stroke-width="1.5"/>
+          <text x="421" y="70" fill="#087866" font-size="9" font-weight="600" letter-spacing="1">STATE REGISTRY</text>
+          <text x="421" y="96" fill="#17201d" font-size="12.5" font-weight="600">local route lookup</text>
+          <text x="421" y="120" fill="#53605c" font-size="9.2">extract · ignore · unknown</text>
+
+          <rect x="635" y="48" width="175" height="98" rx="5" fill="#e3f1ed" stroke="#087866" stroke-width="1.7"/>
+          <text x="651" y="70" fill="#087866" font-size="9" font-weight="600" letter-spacing="1">EXTRACT ROUTE</text>
+          <text x="651" y="93" fill="#17201d" font-size="12.5" font-weight="600">deterministic</text>
+          <text x="651" y="110" fill="#17201d" font-size="12.5" font-weight="600">extractor</text>
+          <text x="651" y="130" fill="#075848" font-size="9.2">validate · abstain</text>
+
+          <rect x="850" y="48" width="150" height="98" rx="5" fill="#fff" stroke="#087866" stroke-width="1.5"/>
+          <text x="866" y="70" fill="#087866" font-size="9" font-weight="600" letter-spacing="1">OUTPUT</text>
+          <text x="866" y="96" fill="#17201d" font-size="13" font-weight="600">values</text>
+          <text x="866" y="120" fill="#53605c" font-size="9.2">evidence · version</text>
+
+          <text x="14" y="196" fill="#b45309" font-size="9.5" font-weight="600" letter-spacing="1.4">AGENT COMPILATION PLANE</text>
+
+          <rect x="14" y="235" width="180" height="100" rx="5" fill="#ececfa" stroke="#4d55a5" stroke-width="1.6"/>
+          <text x="30" y="258" fill="#4d55a5" font-size="9" font-weight="600" letter-spacing="1">CLUSTER CATALOG</text>
+          <text x="30" y="284" fill="#17201d" font-size="12.5" font-weight="600">unknown states</text>
+          <text x="30" y="305" fill="#53605c" font-size="9.2">counts · representatives</text>
+          <text x="30" y="321" fill="#53605c" font-size="9.2">fingerprints · history</text>
+
+          <rect x="235" y="215" width="470" height="145" rx="6" fill="#fdf1e3" stroke="#b45309" stroke-width="1.7"/>
+          <text x="251" y="239" fill="#b45309" font-size="9" font-weight="600" letter-spacing="1">FRONTIER AGENT WORKBENCH</text>
+
+          <rect x="251" y="258" width="92" height="50" rx="4" fill="#fff" stroke="#d59a5d"/>
+          <text x="263" y="278" fill="#17201d" font-size="10" font-weight="600">BROWSE</text>
+          <text x="263" y="295" fill="#53605c" font-size="8.5">clusters</text>
+
+          <rect x="361" y="258" width="105" height="50" rx="4" fill="#fff" stroke="#d59a5d"/>
+          <text x="373" y="278" fill="#17201d" font-size="10" font-weight="600">ANNOTATE</text>
+          <text x="373" y="295" fill="#53605c" font-size="8.5">image model</text>
+
+          <rect x="484" y="258" width="92" height="50" rx="4" fill="#fff" stroke="#d59a5d"/>
+          <text x="496" y="278" fill="#17201d" font-size="10" font-weight="600">WRITE</text>
+          <text x="496" y="295" fill="#53605c" font-size="8.5">route code</text>
+
+          <rect x="594" y="258" width="95" height="50" rx="4" fill="#fff" stroke="#d59a5d"/>
+          <text x="606" y="278" fill="#17201d" font-size="10" font-weight="600">TEST</text>
+          <text x="606" y="295" fill="#53605c" font-size="8.5">holdout</text>
+
+          <text x="470" y="340" fill="#8a3e06" font-size="8.8" text-anchor="middle">failures guide the next sample, annotation, or code revision</text>
+
+          <rect x="745" y="235" width="155" height="100" rx="5" fill="#fff" stroke="#087866" stroke-width="1.6"/>
+          <text x="761" y="258" fill="#087866" font-size="9" font-weight="600" letter-spacing="1">PROMOTED ROUTE</text>
+          <text x="761" y="284" fill="#17201d" font-size="12.5" font-weight="600">matcher + action</text>
+          <text x="761" y="305" fill="#53605c" font-size="9.2">extract or ignore</text>
+          <text x="761" y="321" fill="#53605c" font-size="9.2">tests · version</text>
+
+          <rect x="925" y="235" width="141" height="100" rx="5" fill="#f9e9e7" stroke="#ad352d" stroke-width="1.6"/>
+          <text x="941" y="258" fill="#ad352d" font-size="9" font-weight="600" letter-spacing="1">FEEDBACK</text>
+          <text x="941" y="284" fill="#17201d" font-size="12.5" font-weight="600">audit + truth</text>
+          <text x="941" y="305" fill="#53605c" font-size="9.2">errors · drift</text>
+          <text x="941" y="321" fill="#53605c" font-size="9.2">random samples</text>
+        </g>
+
+        <!-- live data plane -->
+        <line x1="164" y1="97" x2="186" y2="97" stroke="#53605c" stroke-width="1.5" marker-end="url(#arrow)"/>
+        <line x1="355" y1="97" x2="401" y2="97" stroke="#087866" stroke-width="2" marker-end="url(#arrowCode)"/>
+        <line x1="590" y1="97" x2="631" y2="97" stroke="#087866" stroke-width="2" marker-end="url(#arrowCode)"/>
+        <line x1="810" y1="97" x2="846" y2="97" stroke="#087866" stroke-width="2" marker-end="url(#arrowCode)"/>
+        <text x="378" y="86" fill="#087866" font-size="8.5" text-anchor="middle">FINGERPRINT</text>
+        <text x="611" y="86" fill="#087866" font-size="8.5" text-anchor="middle">EXTRACT</text>
+        <text x="497" y="164" fill="#53605c" font-size="8.5" text-anchor="middle">IGNORE → COUNT + AUDIT SAMPLE</text>
+
+        <!-- unmatched data enters the cluster catalog -->
+        <path d="M470 146C450 188 276 192 194 273" fill="none" stroke="#4d55a5" stroke-width="1.7" marker-end="url(#arrow)"/>
+        <text x="330" y="185" fill="#4d55a5" font-size="8.8" text-anchor="middle">UNKNOWN OR AMBIGUOUS</text>
+
+        <!-- agent workbench -->
+        <line x1="194" y1="285" x2="231" y2="285" stroke="#b45309" stroke-width="1.7" marker-end="url(#arrowFrontier)"/>
+        <line x1="343" y1="283" x2="357" y2="283" stroke="#b45309" stroke-width="1.4" marker-end="url(#arrowFrontier)"/>
+        <line x1="466" y1="283" x2="480" y2="283" stroke="#b45309" stroke-width="1.4" marker-end="url(#arrowFrontier)"/>
+        <line x1="576" y1="283" x2="590" y2="283" stroke="#b45309" stroke-width="1.4" marker-end="url(#arrowFrontier)"/>
+        <path d="M642 308C642 352 297 352 297 312" fill="none" stroke="#b45309" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#arrowFrontier)"/>
+        <line x1="705" y1="285" x2="741" y2="285" stroke="#087866" stroke-width="1.7" marker-end="url(#arrowCode)"/>
+        <text x="214" y="274" fill="#b45309" font-size="8.5" text-anchor="middle">SELECT</text>
+        <text x="723" y="274" fill="#087866" font-size="8.5" text-anchor="middle">PROMOTE</text>
+
+        <!-- promotion updates the live registry -->
+        <path d="M823 235C823 184 610 181 550 150" fill="none" stroke="#087866" stroke-width="1.7" marker-end="url(#arrowCode)"/>
+        <text x="724" y="190" fill="#087866" font-size="8.5" text-anchor="middle">INSTALL ROUTE</text>
+
+        <!-- runtime samples and failures return to the workbench -->
+        <path d="M925 146C925 180 996 195 996 231" fill="none" stroke="#ad352d" stroke-width="1.6" marker-end="url(#arrowAlert)"/>
+        <path d="M925 310C870 405 717 425 650 364" fill="none" stroke="#ad352d" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#arrowAlert)"/>
+        <text x="808" y="424" fill="#ad352d" font-size="9" text-anchor="middle">EXCEPTION OR AUDIT CASE → AGENT WORKBENCH</text>
+      </svg>
+      <div class="diagram-key">
+        <span><i style="background:var(--pixels-soft);border:1px solid var(--pixels)"></i>evidence available everywhere</span>
+        <span><i style="background:var(--frontier-soft);border:1px solid var(--frontier)"></i>agent, annotation model, and test runner</span>
+        <span><i style="background:var(--code-soft);border:1px solid var(--code)"></i>promoted local routes</span>
+        <span><i style="background:var(--alert-soft);border:1px solid var(--alert)"></i>runtime feedback</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+<section id="thesis">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-no">§ 00</span><h2>Two operating planes</h2></div>
+    <div class="prose">
+      <p>The live data plane records, fingerprints, matches, extracts, ignores, and clusters. It runs locally with deterministic code. The agent compilation plane studies accumulated clusters and produces new route code.</p>
+    </div>
+
+    <div class="equation" aria-label="Allocation between live data plane, cluster catalog, and agent compilation plane">
+      <div class="eq-part code"><b>Live data plane</b><span>Looks up each candidate packet in the local state registry. A matched route extracts or ignores. Unknown and ambiguous packets join the cluster catalog.</span></div>
+      <div class="eq-part frontier"><b>Cluster catalog</b><span>Groups similar unknown packets, tracks recurrence, and exposes representative screenshots and transitions for browsing. Hashes organize evidence but carry no semantic label.</span></div>
+      <div class="eq-part frontier"><b>Agent compilation plane</b><span>A frontier agent chooses investigations, calls an image annotation model, writes route code, runs holdouts, diagnoses failures, and promotes tested routes.</span></div>
+    </div>
+
+    <div class="prose">
+      <p>Promotion is the only path from agent work into the live registry. Runtime exceptions, drift cases, and random audit samples travel in the other direction as new compilation evidence.</p>
+    </div>
+
+    <div class="callout">
+      <b>Unknown packets do not trigger model calls.</b>
+      They increase cluster counts and improve the representative sample. The frontier agent spends a separate investigation budget over the catalog.
+    </div>
+
+    <h3>Repository evidence used here</h3>
+    <div class="carry">
+      <div class="carry-card"><span class="tag">evidence</span><b><code>{value, box}</code> supports inspection.</b><p>The current viewer links extracted values to pixels. Evidence packets extend the same link across a timestamped screenshot sequence.</p></div>
+      <div class="carry-card"><span class="tag">schema</span><b>Small targets performed better.</b><p>The flat <code>patientId</code> target captured more values than the nested identifier experiment. Each compile target starts with a bounded product question.</p></div>
+      <div class="carry-card"><span class="tag">operations</span><b>Ledgers make failures countable.</b><p>Per-vendor shards, attempt records, resumability, and click-through reports kept zero-yield work visible. State and extractor ledgers use the same pattern.</p></div>
+    </div>
+
+    <h3>Initial design decisions</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Concern</th><th>Initial decision</th></tr></thead>
+        <tbody>
+          <tr><td>Capture</td><td class="now">Produce a frequent, time-indexed screenshot stream at configured resolution and cadence.</td></tr>
+          <tr><td>Optional signals</td><td class="now">Align DOM, accessibility, process, window, click, and type streams to screenshot timestamps. Each signal may be absent.</td></tr>
+          <tr><td>Unknown states</td><td class="now">Group packets using cheap local fingerprints. Store counts, diverse representatives, and nearby transition frames.</td></tr>
+          <tr><td>Agent tools</td><td class="now">Expose cluster search, screenshot viewing, image-model annotation, code editing, sandbox execution, and holdout reports.</td></tr>
+          <tr><td>Runtime</td><td class="now">Ship versioned routes containing <code>matches</code>, an <code>extract</code> or <code>ignore</code> action, validators, fixtures, and metrics.</td></tr>
+          <tr><td>Rollout</td><td class="now">Validate one recurring state in shadow mode before adding another.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section id="loop">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-no">§ 01</span><h2>Agent compilation loop</h2></div>
+    <div class="prose">
+      <p>The agent works on clusters rather than individual live packets. Its tools list clusters by recurrence, age, visual diversity, and current route status. The agent can open representative screenshots and nearby transitions before deciding whether to spend annotation or coding effort.</p>
+    </div>
+
+    <div class="loop">
+      <div class="step"><span class="num">01 · BROWSE</span><h3>Cluster selection</h3><p>Review cluster counts, representative contact sheets, transition context, and current coverage. Choose an investigation based on expected value and information gain.</p></div>
+      <div class="step"><span class="num">02 · INSPECT</span><h3>Example review</h3><p>Open a few diverse examples. Decide whether the cluster is coherent, relevant to the product question, irrelevant, or in need of more evidence.</p></div>
+      <div class="step"><span class="num">03 · ANNOTATE</span><h3>Targeted image reading</h3><p>Send selected screenshots to an image model for structured values, text, and bounding boxes. Request more examples only when the current hypothesis needs them.</p></div>
+      <div class="step"><span class="num">04 · WRITE</span><h3>Route implementation</h3><p>Write deterministic matching code and either an extractor or ignore action. Use pixels and any available optional timestamped signals.</p></div>
+      <div class="step"><span class="num">05 · TEST</span><h3>Holdout execution</h3><p>Run the candidate route over the rest of the cluster plus similar negative clusters. Inspect misses, collisions, validator failures, and output distributions.</p></div>
+      <div class="step"><span class="num">06 · REVISE</span><h3>Repair or promote</h3><p>Use failures to choose the next annotation or code change. Promotion requires labeled holdouts and the full regression suite.</p></div>
+    </div>
+
+    <h3>Example investigation</h3>
+    <div class="prose">
+      <p>A new cluster contains 50 visually similar packets. The agent views a contact sheet, opens several representatives, and sends three diverse screenshots to the image annotation model. Those annotations include the target fields and their boxes. The agent writes a candidate matcher and extractor, then runs it over the other 47 packets and nearby negative clusters.</p>
+      <p>The 47 packets provide a behavioral holdout: they reveal match coverage, crashes, unstable outputs, and validator failures. They do not become an accuracy set until they have independent labels. The agent therefore sends a random subset and any suspicious cases for annotation, then revises the route. Native DOM or accessibility text can label additional cases when available.</p>
+      <p>An irrelevant cluster follows the same process but produces an ignore route. Future matches are counted and a random sample returns for audit.</p>
+    </div>
+
+    <h3>Live route lookup</h3>
+    <div class="prose">
+      <p>Every promoted route contains a deterministic matcher tested against positive packets and similar negative packets. A local index narrows the registry before the route matchers run:</p>
+    </div>
+
+<pre><code>fingerprint = localFingerprint(packet)
+candidates  = registry.shortlist(fingerprint, availableSignals)
+routes      = candidates.filter(route =&gt; route.matches(packet))
+
+if routes.length !== 1: return clusters.add(packet)
+if routes[0].action === "ignore": return audits.maybeSample(packet)
+return routes[0].extractAndValidate(packet)</code></pre>
+
+    <div class="prose">
+      <p>The pixels-only fingerprint can include screen dimensions, perceptual hashes over stable regions, and OCR anchor tokens. Process and window identity, DOM structure, accessibility roles, and recent input events narrow the shortlist when available. Dynamic values such as patient name and MRN stay out of the stable signature. Zero matches and tied matches enter the cluster catalog.</p>
+    </div>
+
+    <h3>Product questions define relevant states</h3>
+    <div class="interest">
+      <div>
+        <h4>Examples</h4>
+        <ul>
+          <li>a patient identity banner becomes visible or changes</li>
+          <li>an order is prepared, signed, or acknowledged</li>
+          <li>a medication or result list reaches a readable state</li>
+          <li>a workflow milestone appears on screen</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Scope</h4>
+        <ul>
+          <li>start with one question and its output schema</li>
+          <li>collect positive, negative, and ambiguous packets</li>
+          <li>include <code>matches()</code> and an explicit action in every route</li>
+          <li>extend shared state infrastructure in response to measured failures</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="callout teal">
+      <b>Investigation scheduling.</b>
+      The agent chooses work from recurrence, product value, novelty, and expected information gain. A separate random allocation samples low-ranked clusters so the priority function cannot hide systematic misses.
+    </div>
+  </div>
+</section>
+
+<section id="artifacts">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-no">§ 02</span><h2>Persistent records and code</h2></div>
+    <div class="prose"><p>The catalog and workbench need five inspectable records.</p></div>
+
+    <div class="artifacts">
+      <div class="artifact"><span class="aid">A · EVIDENCE PACKET</span><h3>Evidence packet</h3><p>A short screenshot sequence around a candidate moment, its timestamps, and any optional signals present in that environment.</p><div class="example">packet id · time range · frames<br>signals[] · environment · policy</div></div>
+      <div class="artifact"><span class="aid">B · CLUSTER RECORD</span><h3>Cluster record</h3><p>A tentative visual group with a count, fingerprints, diverse representatives, transitions, and links to investigation history.</p><div class="example">cluster id · count · representatives<br>route status · history[]</div></div>
+      <div class="artifact"><span class="aid">C · ANNOTATION</span><h3>Annotation record</h3><p>Structured text and boxes from the image model, with the selected packet, prompt, schema, model version, and later adjudication.</p><div class="example">values{} · boxes[] · source<br>model · schema · review</div></div>
+      <div class="artifact"><span class="aid">D · STATE ROUTE</span><h3>Promoted route</h3><p>Deterministic matching code and an extract or ignore action, with fixtures, pinned dependencies, and promotion metrics.</p><div class="example">match · action · validate<br>fixtures · manifest · metrics</div></div>
+      <div class="artifact"><span class="aid">E · RUNTIME LEDGER</span><h3>Runtime record</h3><p>The matched route, action, output, validators, evidence references, audit selection, and route version for each handled packet.</p><div class="example">packet · route · action · output<br>checks[] · audit · version</div></div>
+    </div>
+
+    <div class="bundle">
+      <pre aria-label="Example state route file tree"><code>routes/patient-banner/v7/
+├── manifest.json       # question, action, inputs, version
+├── matches.ts          # does this route handle the packet?
+├── extract.ts          # present when action = extract
+├── validate.ts         # grammars + invariants
+├── fixtures/
+│   ├── examples/       # annotations used by the agent
+│   ├── holdout/        # labeled promotion cases
+│   ├── negatives/      # similar states that must not match
+│   └── regressions/    # resolved runtime exceptions
+└── metrics.json        # match, extraction, and audit results</code></pre>
+      <div class="bundle-copy">
+        <h3>Generated code contract</h3>
+        <p>The first implementation permits ordinary TypeScript inside the route interface. A generated route can use DOM selectors, accessibility queries, OCR over stable regions, label/value parsing, input-event sequences, or a small composition of these techniques.</p>
+        <p>Generated code runs in a sandbox with pinned dependencies, bounded resources, disabled ambient network access, and explicit input/output contracts. Held-out and regression tests control promotion.</p>
+        <p>Repeated implementation patterns can move into shared libraries after several successful routes establish the common interface.</p>
+      </div>
+    </div>
+
+<pre><code>{
+  "packetId": "org-7/2026-07-16T09:14:22.400Z/8s",
+  "question": "patient-context",
+  "values": { "fullName": "OSLER, MARGARET", "patientId": "482913" },
+  "evidence": [
+    { "field": "fullName", "t": 3.2, "frame": 7, "box": [118, 42, 334, 68], "source": "pixels" },
+    { "field": "patientId", "t": 3.2, "frame": 7, "box": [382, 42, 451, 68], "source": "pixels" }
+  ],
+  "producedBy": { "kind": "extractor", "id": "patient-banner", "version": 7 },
+  "outcome": "value"
+}</code></pre>
+  </div>
+</section>
+
+<section id="signals">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-no">§ 03</span><h2>Input availability</h2></div>
+    <div class="prose">
+      <p>Frequent screenshots form the baseline input. “Optional timestamped signals” means separately captured DOM, accessibility, process, window, click, and type streams aligned to the screenshot clock. Any of these streams may be missing. Each route manifest lists the signals it can use and the signals it requires.</p>
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Signal</th><th>Contribution</th><th>Ordinary desktop</th><th>Opaque Citrix / VDI</th></tr></thead>
+        <tbody>
+          <tr><td>Frequent screenshots</td><td>Canonical visual record: layout, visible text, transitions, occlusion, and the only universally available evidence.</td><td class="availability yes">required</td><td class="availability yes">required</td></tr>
+          <tr><td>Click stream</td><td>Coordinates, buttons, target hints, and strong candidate-moment boundaries.</td><td class="availability yes">usually</td><td class="availability maybe">coordinates only</td></tr>
+          <tr><td>Type stream</td><td>Burst timing, focus/target hints, and optional text where policy explicitly allows it. Raw typed text is not required.</td><td class="availability yes">usually</td><td class="availability maybe">timing only</td></tr>
+          <tr><td>DOM snapshots</td><td>Exact text, element roles, geometry, and stable application identifiers for browser surfaces.</td><td class="availability maybe">sometimes</td><td class="availability no">normally absent</td></tr>
+          <tr><td>Accessibility tree</td><td>Native text, controls, roles, and bounding rectangles without OCR.</td><td class="availability maybe">sometimes</td><td class="availability no">normally absent</td></tr>
+          <tr><td>Process / window tree</td><td>Application identity, focus, bounds, z-order, and coarse environment context.</td><td class="availability yes">usually rich</td><td class="availability maybe">Citrix shell only</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="callout">
+      <b>Citrix constraint.</b>
+      Pixels-only capture must support the complete path from packet creation through state matching and extraction. Rich desktop signals can improve speed and accuracy. When both forms are available during development, native text supplies labels for pixels-only route tests.
+    </div>
+
+    <div class="prose">
+      <h3>Capture policy stays separate from extraction logic</h3>
+      <p>“Always-on” means the system continuously produces the screenshot stream while it is enabled. Frequency, resolution, chunking, encryption, access, and retention are deployment policies. Because these streams can contain PHI and credentials, recording requires explicit authorization, strong tenant isolation, audited access, and a clear deletion policy. Extractor code should consume packet references without gaining broader access to the archive.</p>
+    </div>
+  </div>
+</section>
+
+<section id="honesty">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-no">§ 04</span><h2>Evaluation, drift, and repair</h2></div>
+    <div class="prose">
+      <p>Frontier outputs seed the labeled corpus but do not provide independent ground truth. Evaluation combines deterministic checks, risk-weighted model audits, independent data sources, and human adjudication. This mix covers extractor drift as well as errors shared by the model and extractor.</p>
+    </div>
+
+    <div class="outcomes" aria-label="Runtime outcomes and responses">
+      <div class="outcome clean"><b>PASS</b><span>Emit with provenance; retain metrics; sample some clean cases.</span></div>
+      <div class="outcome flag"><b>ABSTAIN</b><span>Suppress the output and add the packet to the route’s exception cluster.</span></div>
+      <div class="outcome flag"><b>DISAGREE</b><span>Store both results for the agent to inspect and target for annotation.</span></div>
+      <div class="outcome flag"><b>NOVEL</b><span>Add the packet to the unknown cluster catalog and update group counts.</span></div>
+      <div class="outcome flag"><b>DRIFT</b><span>Disable or narrow the route and send its new cases back to the workbench.</span></div>
+    </div>
+
+    <div class="truth-grid">
+      <div class="truth-card model">
+        <h3>Automated feedback</h3>
+        <ul>
+          <li>deterministic grammars, ranges, cross-field invariants, and temporal consistency</li>
+          <li>agent-scheduled image annotations on random and risk-weighted runtime samples</li>
+          <li>oversampling of new routes, ignore routes, pixels-only routes, and thin validator margins</li>
+          <li>automatic replay of every route on its full regression corpus</li>
+        </ul>
+      </div>
+      <div class="truth-card truth">
+        <h3>Independent evidence</h3>
+        <ul>
+          <li>DOM or accessibility text when it exposes the application’s actual value</li>
+          <li>synthetic/test environments whose database contains the expected value</li>
+          <li>workflow outcomes and cross-time invariants that reveal impossible changes</li>
+          <li>authorized human adjudication for consequential or persistent ambiguity</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="callout teal">
+      <b>Regression policy.</b>
+      Every resolved exception becomes a permanent fixture. A repair request includes the failing packet, old code, expected result, and test history. The revised route must pass the full corpus. Repeated failures trigger a review of the matcher boundary and extraction approach.
+    </div>
+
+    <h3>Operational metrics</h3>
+    <div class="metrics">
+      <div class="metric"><b>Route coverage</b><span>share of candidate packets with exactly one promoted extract or ignore route</span></div>
+      <div class="metric"><b>Unknown catalog</b><span>packet rate, cluster count, recurrence distribution, and time waiting for investigation</span></div>
+      <div class="metric"><b>Extraction accuracy</b><span>field scores against independently labeled holdouts, split by route, version, and available signals</span></div>
+      <div class="metric"><b>False-ignore rate</b><span>relevant states found in random audits of packets handled by ignore routes</span></div>
+      <div class="metric"><b>Compilation efficiency</b><span>agent work, image annotations, elapsed time, and cost per promoted route</span></div>
+      <div class="metric"><b>Runtime performance</b><span>p50/p95 latency, abstentions, ambiguous matches, route disables, and repeat exceptions</span></div>
+    </div>
+
+    <div class="prose">
+      <h3>Reporting rules</h3>
+      <ol class="compact-list">
+        <li>Use “accuracy” only for comparisons against an independent label. Model/extractor comparison reports agreement.</li>
+        <li>Audit a random slice of clean outputs in addition to cases flagged by guards.</li>
+        <li>Retain negative, missed, abstained, and failed packets in evaluation datasets.</li>
+        <li>Version the question, schema, model, prompt, packet format, code, fixtures, and metrics together.</li>
+        <li>Make every aggregate clickable back to the packets and decisions behind it, as the current viewer does.</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section id="plan">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-no">§ 05</span><h2>Implementation sequence</h2></div>
+    <div class="prose"><p>The first implementation proves that an agent can discover a recurring cluster, commission annotations, write a route, test it, and install it in the local registry.</p></div>
+
+    <div class="phases">
+      <div class="phase"><span class="when">phase 0</span><h3>Capture + replay</h3><p>Capture frequent screenshots in timestamped chunks and align available DOM, accessibility, process, window, click, and type streams. Build a replay view over the combined timeline.</p><div class="exit">EXIT · an investigator can reconstruct a session and create a stable evidence packet</div></div>
+      <div class="phase"><span class="when">phase 1</span><h3>Cluster catalog</h3><p>Fingerprint candidate packets, group similar unknowns, track counts, retain diverse representatives, and expose a browser for clusters and their examples.</p><div class="exit">EXIT · repeated states appear as browseable groups while random review quantifies cluster errors</div></div>
+      <div class="phase"><span class="when">phase 2</span><h3>Agent workbench</h3><p>Give a frontier agent tools to list clusters, view examples and transitions, request structured image annotations, edit route code, execute it in a sandbox, and inspect holdout reports.</p><div class="exit">EXIT · the agent can complete a browse, annotate, write, test, revise cycle without manual file plumbing</div></div>
+      <div class="phase"><span class="when">phase 3</span><h3>First compiled routes</h3><p>Start with one recurring relevant cluster and one recurring irrelevant cluster. Build an extract route and an ignore route, each tested against similar negative states and labeled holdouts.</p><div class="exit">EXIT · both routes pass promotion policy and install into the local state registry</div></div>
+      <div class="phase"><span class="when">phase 4</span><h3>Shadow runtime</h3><p>Run promoted routes over new packets, record every decision, sample extract and ignore actions for audit, and send exceptions back to the workbench.</p><div class="exit">EXIT · route coverage and labeled accuracy hold under new screenshot streams, including pixels-only samples</div></div>
+      <div class="phase"><span class="when">phase 5</span><h3>Continuous compilation</h3><p>Schedule agent investigations by recurrence, product value, novelty, and information gain. Recompile routes from runtime failures and drift cases.</p><div class="exit">EXIT · route coverage rises, unknown recurrence falls, and repeat exceptions decline</div></div>
+    </div>
+
+    <div class="defer">
+      <div>
+        <h3>Required decisions</h3>
+        <ul>
+          <li>the first product question and its small output schema</li>
+          <li>screenshot frequency, packet format, clock, and replay contract</li>
+          <li>cluster browser and frontier-agent tool contracts</li>
+          <li>image annotation schema, route sandbox, and test harness</li>
+          <li>promotion, audit, rollback, retention, and review policy</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Deferred design</h3>
+        <ul>
+          <li>a universal clinical activity taxonomy</li>
+          <li>a global screen-family and layout-variant hierarchy</li>
+          <li>a bespoke route DSL or cross-site registry</li>
+          <li>exact hashing, clustering, OCR, or settle algorithms</li>
+          <li>a multi-tier local-model serving ladder</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="callout">
+      <b>Success criteria.</b>
+      Promoted route coverage rises, recurring unknown clusters decline, and labeled extraction quality holds or improves. Rising false-ignore rates, rising audit disagreement, or repeated exceptions block further promotion.
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>latergen.html · v1 · self-contained architecture</span>
+    <span>grounded in the <a href="https://joshuamandel.com/chpl-screenshots/">CHPL screenshot corpus + viewer</a> · 2026-07</span>
+  </div>
+</footer>
+
+</body>
+</html>

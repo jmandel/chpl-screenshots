@@ -29,6 +29,8 @@ jobs:
       # Public site is curated: only single-patient EHR screens ≥80% confidence
       # (same definition as the coverage report's final funnel stage).
       - run: bun run build -- --filter '{"patientScope":"single","confMin":0.8}'
+      - name: Verify latergen route
+        run: test -f dist/latergen/index.html
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
