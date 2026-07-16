@@ -76,6 +76,11 @@ async function main() {
   mkdirSync(DIST, { recursive: true });
   for (const f of ["index.html", "app.js", "style.css"]) cpSync(join(PUBLIC, f), join(DIST, f));
 
+  // nextgen design doc → served at /nextgen.html and /nextgen/ (directory index)
+  cpSync(join(ROOT, "nextgen.html"), join(DIST, "nextgen.html"));
+  mkdirSync(join(DIST, "nextgen"), { recursive: true });
+  cpSync(join(ROOT, "nextgen.html"), join(DIST, "nextgen", "index.html"));
+
   const report = await buildReport(recs);
   writeFileSync(join(DIST, "records.json"), JSON.stringify(recs));
   writeFileSync(join(DIST, "report.json"), JSON.stringify(report));

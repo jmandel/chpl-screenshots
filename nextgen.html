@@ -1,0 +1,1331 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>nextgen — compiled EHR screen readers</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Serif:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f4f7f6;
+  --panel:#ffffff;
+  --ink:#17211e;
+  --ink-soft:#4a5a55;
+  --line:#c9d4d0;
+  --line-soft:#e2e9e6;
+  --frontier:#b45309;        /* amber — frontier perception (teacher, audits) */
+  --frontier-soft:#fdf1e3;
+  --compiled:#0e7c66;        /* teal — deterministic, cheap, compiled */
+  --compiled-soft:#e4f2ee;
+  --guard:#b3372e;           /* red — guards, escalation, safety */
+  --guard-soft:#fbeae8;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  --serif:"IBM Plex Serif",Charter,Georgia,serif;
+  --disp:"IBM Plex Sans Condensed","Arial Narrow",system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--serif);
+  font-size:1.0rem;
+  line-height:1.62;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:var(--compiled)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--frontier);outline-offset:2px}
+.wrap{max-width:72rem;margin:0 auto;padding:0 1.25rem}
+.prose{max-width:46rem}
+.prose p{margin:0 0 1rem}
+.prose p+h3{margin-top:1.8rem}
+strong{font-weight:600}
+code{font-family:var(--mono);font-size:.86em;background:var(--line-soft);padding:.08em .32em;border-radius:3px}
+pre{
+  font-family:var(--mono);font-size:.8rem;line-height:1.55;
+  background:var(--panel);border:1px solid var(--line);
+  padding:1rem 1.2rem;overflow-x:auto;margin:1.2rem 0;
+  border-radius:4px;
+}
+pre code{background:none;padding:0;font-size:1em}
+
+/* evidence badges */
+.ev{
+  font-family:var(--mono);font-size:.6rem;font-weight:600;letter-spacing:.06em;
+  text-transform:uppercase;padding:.1rem .45rem;border-radius:99px;
+  white-space:nowrap;vertical-align:.12em;
+}
+.ev.m{background:var(--compiled-soft);color:var(--compiled)}
+.ev.p{background:var(--frontier-soft);color:var(--frontier)}
+.ev.b{background:var(--line-soft);color:var(--ink-soft)}
+
+/* ---------- top bar ---------- */
+.topbar{
+  position:sticky;top:0;z-index:50;
+  background:color-mix(in srgb,var(--paper) 88%,white);
+  backdrop-filter:blur(6px);
+  border-bottom:1px solid var(--line);
+}
+.topbar .wrap{display:flex;align-items:center;gap:1.2rem;height:3rem;overflow-x:auto}
+.topbar .brand{font-family:var(--mono);font-size:.78rem;font-weight:600;letter-spacing:.04em;white-space:nowrap}
+.topbar .brand .tick{color:var(--frontier)}
+.topbar nav{display:flex;gap:1rem;font-family:var(--mono);font-size:.7rem}
+.topbar nav a{color:var(--ink-soft);text-decoration:none;white-space:nowrap;padding:.2rem 0}
+.topbar nav a:hover{color:var(--ink)}
+
+/* ---------- hero ---------- */
+.hero{padding:3.2rem 0 2.4rem;border-bottom:1px solid var(--line)}
+.eyebrow{
+  font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--ink-soft);margin-bottom:.9rem;
+}
+.eyebrow b{color:var(--frontier);font-weight:600}
+h1{
+  font-family:var(--disp);font-weight:700;
+  font-size:clamp(2rem,4.8vw,3.1rem);line-height:1.06;
+  letter-spacing:-.01em;max-width:58rem;
+}
+h1 .cheap{color:var(--compiled)}
+h1 .dear{color:var(--frontier)}
+.hero .dek{max-width:47rem;margin-top:1.2rem;font-size:1.06rem;color:var(--ink-soft)}
+.hero .meta{font-family:var(--mono);font-size:.72rem;color:var(--ink-soft);margin-top:1.4rem}
+
+/* ---------- session filmstrip + annotated banner (signature) ---------- */
+.mock-stage{margin:2.6rem 0 0;overflow-x:auto;padding-bottom:.5rem}
+.mock{
+  min-width:860px;max-width:1000px;
+  background:var(--panel);border:1px solid var(--line);border-radius:6px;
+  box-shadow:0 1px 3px rgba(23,33,30,.08);
+  font-family:var(--mono);
+}
+.mock-title{
+  display:flex;align-items:center;gap:.5rem;
+  background:#dfe7e4;border-bottom:1px solid var(--line);
+  padding:.4rem .7rem;font-size:.68rem;color:var(--ink-soft);
+  border-radius:6px 6px 0 0;
+}
+.mock-title .dot{width:.55rem;height:.55rem;border-radius:50%;background:var(--line)}
+.film{display:flex;gap:.7rem;padding:1rem 1.2rem .4rem;align-items:stretch}
+.frame{flex:1;min-width:0}
+.frame .thumb{
+  border:1px solid var(--line);border-radius:4px;background:#fbfdfc;
+  height:4.6rem;padding:.4rem;display:flex;flex-direction:column;gap:.28rem;
+}
+.frame.pick .thumb{border-color:var(--compiled);box-shadow:0 0 0 2px var(--compiled-soft)}
+.frame .bar{height:.32rem;border-radius:2px;background:var(--line-soft)}
+.frame .bar.b1{width:70%}.frame .bar.b2{width:90%}.frame .bar.b3{width:55%}
+.frame .bar.hot{background:color-mix(in srgb,var(--frontier) 30%,white)}
+.frame .rows{display:flex;flex-direction:column;gap:.2rem;margin-top:.1rem}
+.frame .fname{font-size:.6rem;font-weight:600;margin-top:.35rem;letter-spacing:.04em}
+.fchip{
+  display:inline-block;font-size:.55rem;font-weight:500;letter-spacing:.02em;
+  padding:.08rem .38rem;border-radius:99px;margin-top:.2rem;white-space:nowrap;
+}
+.fchip.na{background:var(--line-soft);color:var(--ink-soft)}
+.fchip.row{background:#eef4e9;color:#4a6b2e}
+.fchip.ripe{background:var(--compiled-soft);color:var(--compiled)}
+.fchip.defer{background:var(--frontier-soft);color:var(--frontier)}
+.film-connector{
+  font-family:var(--mono);font-size:.66rem;color:var(--ink-soft);
+  padding:.5rem 1.2rem .2rem;
+}
+.film-connector b{color:var(--compiled)}
+.mock-banner{
+  position:relative;
+  margin:0 1.2rem;
+  border:1px solid var(--line);border-radius:4px;background:#fbfdfc;
+  padding:2.3rem 1rem 1.1rem;
+  font-size:.8rem;letter-spacing:.01em;
+  display:flex;flex-wrap:wrap;gap:.35rem 1.5rem;align-items:baseline;
+}
+.mock-banner .lbl{color:var(--ink-soft);font-size:.68rem}
+.mock-banner .val{font-weight:600}
+.annbox{position:relative;display:inline-block;padding:.05em .3em}
+.annbox::after{
+  content:"";position:absolute;inset:0;
+  border:1.5px dashed var(--frontier);border-radius:3px;
+  animation:draw .5s ease-out backwards;
+}
+.annbox::before{
+  content:attr(data-f);
+  position:absolute;left:-.2rem;top:-1.35rem;
+  font-size:.58rem;font-weight:500;color:var(--frontier);
+  background:var(--frontier-soft);
+  padding:.06rem .3rem;border-radius:2px;white-space:nowrap;
+  animation:draw .5s ease-out backwards;
+}
+.annbox:nth-of-type(1)::after,.annbox:nth-of-type(1)::before{animation-delay:.15s}
+.annbox:nth-of-type(2)::after,.annbox:nth-of-type(2)::before{animation-delay:.3s}
+.annbox:nth-of-type(3)::after,.annbox:nth-of-type(3)::before{animation-delay:.45s}
+.annbox:nth-of-type(4)::after,.annbox:nth-of-type(4)::before{animation-delay:.6s}
+.annbox:nth-of-type(5)::after,.annbox:nth-of-type(5)::before{animation-delay:.75s}
+@keyframes draw{from{opacity:0;transform:scale(.92)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.annbox::after,.annbox::before{animation:none}}
+.anchor-t{border-bottom:2px solid var(--compiled);padding-bottom:.05em}
+.compile-row{display:flex;align-items:stretch;gap:1rem;margin:1rem 1.2rem 0;flex-wrap:wrap}
+.compile-arrow{align-self:center;font-family:var(--mono);font-size:.7rem;color:var(--ink-soft);white-space:nowrap}
+.compile-arrow b{color:var(--compiled)}
+.spec-card{
+  flex:1;min-width:320px;
+  background:var(--compiled-soft);border:1px solid var(--compiled);
+  border-radius:6px;padding:.8rem 1rem;
+  font-family:var(--mono);font-size:.68rem;line-height:1.6;color:#0a5c4c;
+  overflow-x:auto;
+}
+.mock-legend{
+  display:flex;gap:1.4rem;flex-wrap:wrap;margin:1rem 1.2rem;padding-bottom:1.1rem;
+  font-family:var(--mono);font-size:.66rem;color:var(--ink-soft);
+}
+.mock-legend .sw{display:inline-block;width:.9rem;height:.6rem;border-radius:2px;vertical-align:-1px;margin-right:.35rem}
+
+/* ---------- sections ---------- */
+section.sec{padding:3rem 0 1.6rem;border-bottom:1px solid var(--line)}
+.sec-head{display:flex;align-items:baseline;gap:1rem;margin-bottom:1.4rem}
+.sec-no{
+  font-family:var(--mono);font-size:.72rem;font-weight:600;letter-spacing:.12em;
+  color:var(--frontier);white-space:nowrap;
+}
+h2{
+  font-family:var(--disp);font-weight:700;font-size:clamp(1.5rem,3vw,2.1rem);
+  line-height:1.08;letter-spacing:-.005em;
+}
+h3{font-family:var(--disp);font-weight:600;font-size:1.12rem;margin:1.6rem 0 .6rem}
+h4{font-family:var(--mono);font-size:.74rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);margin:1.4rem 0 .5rem}
+
+/* stat tiles */
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);margin:1.4rem 0}
+.stat{background:var(--panel);padding:.9rem 1rem}
+.stat .n{font-family:var(--disp);font-weight:700;font-size:1.7rem;line-height:1.1}
+.stat .n small{font-size:.9rem;font-weight:600;color:var(--ink-soft)}
+.stat .l{font-family:var(--mono);font-size:.64rem;color:var(--ink-soft);margin-top:.3rem;line-height:1.4}
+.stat.hot .n{color:var(--frontier)}
+.stat.cool .n{color:var(--compiled)}
+
+/* transfer cards */
+.findings{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem;margin:1.4rem 0}
+.finding{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--compiled);padding:1rem 1.1rem;border-radius:0 4px 4px 0}
+.finding.retest{border-left-color:var(--frontier)}
+.finding h5{font-family:var(--disp);font-weight:600;font-size:1rem;margin-bottom:.4rem}
+.finding p{font-size:.9rem;color:var(--ink-soft);line-height:1.55}
+.finding .src{font-family:var(--mono);font-size:.62rem;color:var(--ink-soft);display:block;margin-top:.6rem}
+
+/* strategy bets */
+.bets{display:flex;flex-direction:column;gap:.7rem;margin:1.4rem 0}
+.bet{
+  background:var(--panel);border:1px solid var(--line);border-radius:4px;
+  padding:.85rem 1.1rem;display:grid;grid-template-columns:3.4rem 1fr;gap:1rem;align-items:baseline;
+}
+.bet .bno{font-family:var(--mono);font-size:.72rem;font-weight:600;color:var(--frontier)}
+.bet .bt{font-size:.95rem;line-height:1.55}
+.bet .bt b{font-family:var(--disp);font-weight:600;font-size:1.02rem}
+@media (max-width:560px){.bet{grid-template-columns:1fr}}
+
+/* tables */
+table{border-collapse:collapse;width:100%;margin:1.2rem 0;font-size:.9rem;background:var(--panel);border:1px solid var(--line)}
+th{font-family:var(--mono);font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;text-align:left;color:var(--ink-soft);background:var(--line-soft)}
+th,td{padding:.55rem .8rem;border-bottom:1px solid var(--line-soft);vertical-align:top}
+tr:last-child td{border-bottom:none}
+td.mono,th.mono{font-family:var(--mono);font-size:.78rem}
+.tablewrap{overflow-x:auto}
+
+/* tier ladder */
+.ladder{margin:1.6rem 0;display:flex;flex-direction:column;gap:.5rem}
+.tier{
+  display:grid;grid-template-columns:5.2rem 1fr auto;gap:1rem;align-items:center;
+  background:var(--panel);border:1px solid var(--line);border-radius:4px;
+  padding:.7rem 1rem;
+}
+.tier .tno{font-family:var(--mono);font-size:.7rem;font-weight:600}
+.tier .tdesc{font-size:.92rem}
+.tier .tdesc b{font-family:var(--disp);font-weight:600}
+.tier .tcost{font-family:var(--mono);font-size:.7rem;white-space:nowrap;padding:.2rem .55rem;border-radius:99px}
+.tier.t0 .tcost,.tier.t1 .tcost{background:var(--compiled-soft);color:var(--compiled)}
+.tier.t0 .tno,.tier.t1 .tno{color:var(--compiled)}
+.tier.t2 .tcost{background:var(--line-soft);color:var(--ink-soft)}
+.tier.t3 .tcost{background:var(--frontier-soft);color:var(--frontier)}
+.tier.t3 .tno{color:var(--frontier)}
+.tier.t3{border-left:3px solid var(--frontier)}
+.tier.t0,.tier.t1{border-left:3px solid var(--compiled)}
+.tier.t2{border-left:3px solid var(--line)}
+.ladder-note{font-family:var(--mono);font-size:.68rem;color:var(--ink-soft);text-align:center;padding:.2rem 0}
+.ladder-note b{color:var(--guard)}
+
+/* loop diagram */
+.loop{margin:1.6rem 0;background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:1.2rem;overflow-x:auto}
+.loop svg{display:block;min-width:720px;width:100%;height:auto}
+
+/* challenge cards */
+.chals{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:1rem;margin:1.4rem 0}
+.chal{background:var(--panel);border:1px solid var(--line);border-radius:4px;padding:1rem 1.1rem;display:flex;flex-direction:column}
+.chal h5{font-family:var(--disp);font-weight:600;font-size:1.05rem;margin-bottom:.45rem}
+.chal .real{font-size:.87rem;color:var(--ink-soft);line-height:1.5;margin-bottom:.6rem}
+.chal .strat{
+  font-size:.87rem;line-height:1.5;margin-bottom:.6rem;
+  background:var(--compiled-soft);border-left:3px solid var(--compiled);
+  padding:.45rem .7rem;border-radius:0 3px 3px 0;
+}
+.chal .strat::before{content:"strategy — ";font-family:var(--mono);font-size:.6rem;letter-spacing:.08em;text-transform:uppercase;color:var(--compiled);font-weight:600}
+.chal ul{margin:.1rem 0 .2rem 1.1rem;font-size:.85rem;line-height:1.5;color:var(--ink)}
+.chal li{margin-bottom:.3rem}
+.chal .tlbl{font-family:var(--mono);font-size:.6rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);font-weight:600;margin-bottom:.25rem}
+
+/* guards vs audit two-up */
+.twoup{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:1rem;margin:1.4rem 0}
+.channel{background:var(--panel);border:1px solid var(--line);border-radius:4px;padding:1rem 1.1rem}
+.channel.g{border-top:3px solid var(--guard)}
+.channel.a{border-top:3px solid var(--frontier)}
+.channel h5{font-family:var(--disp);font-weight:600;font-size:1.05rem;margin-bottom:.15rem}
+.channel .sub{font-family:var(--mono);font-size:.64rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:.7rem}
+.channel ul{margin:.4rem 0 .4rem 1.1rem;font-size:.88rem;line-height:1.55}
+.channel li{margin-bottom:.3rem}
+.channel p{font-size:.88rem;color:var(--ink-soft)}
+
+/* callout */
+.callout{
+  margin:1.6rem 0;padding:1rem 1.2rem;background:var(--guard-soft);
+  border:1px solid color-mix(in srgb,var(--guard) 40%,white);border-radius:4px;
+  font-size:.94rem;
+}
+.callout b:first-child{font-family:var(--disp);color:var(--guard)}
+.callout.teal{background:var(--compiled-soft);border-color:color-mix(in srgb,var(--compiled) 40%,white)}
+.callout.teal b:first-child{color:var(--compiled)}
+
+/* experiments */
+.exp{
+  background:var(--panel);border:1px solid var(--line);border-radius:4px;
+  margin:0 0 1rem;padding:1rem 1.2rem;
+  display:grid;grid-template-columns:4.4rem 1fr;gap:.2rem 1.2rem;
+}
+.exp .eid{font-family:var(--mono);font-size:.8rem;font-weight:600;color:var(--frontier);grid-row:span 5}
+.exp h5{font-family:var(--disp);font-weight:600;font-size:1.05rem;margin-bottom:.2rem}
+.exp .row{font-size:.88rem;line-height:1.5;margin-bottom:.25rem}
+.exp .row b{font-family:var(--mono);font-size:.62rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);font-weight:600;display:inline-block;min-width:6.2rem}
+.exp .row.decide{background:var(--line-soft);padding:.35rem .6rem;border-radius:3px;margin-top:.3rem}
+@media (max-width:560px){.exp{grid-template-columns:1fr}.exp .eid{grid-row:auto}}
+
+/* vision timeline */
+.vision{margin:1.4rem 0;border-left:2px solid var(--line);padding-left:1.4rem;display:flex;flex-direction:column;gap:1.3rem}
+.vstep{position:relative}
+.vstep::before{
+  content:"";position:absolute;left:calc(-1.4rem - 6px);top:.4rem;
+  width:10px;height:10px;border-radius:50%;background:var(--paper);
+  border:2px solid var(--compiled);
+}
+.vstep.far::before{border-color:var(--frontier)}
+.vstep h5{font-family:var(--disp);font-weight:600;font-size:1.05rem}
+.vstep .when{font-family:var(--mono);font-size:.64rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft)}
+.vstep p{font-size:.92rem;color:var(--ink-soft);margin-top:.3rem;max-width:44rem}
+
+footer{padding:2.4rem 0 3.5rem;font-family:var(--mono);font-size:.7rem;color:var(--ink-soft)}
+footer .wrap{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <span class="brand"><span class="tick">▸</span> nextgen<span style="color:var(--ink-soft)">.html · v2</span></span>
+    <nav aria-label="sections">
+      <a href="#grounding">00 corpus</a>
+      <a href="#strategy">01 strategy</a>
+      <a href="#architecture">02 architecture</a>
+      <a href="#algorithms">03 algorithms</a>
+      <a href="#challenges">04 challenges</a>
+      <a href="#verification">05 verification</a>
+      <a href="#costs">06 costs</a>
+      <a href="#experiments">07 experiments</a>
+      <a href="#vision">08 vision</a>
+    </nav>
+  </div>
+</div>
+
+<!-- ======================= HERO ======================= -->
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">chpl-screenshots · next generation · <b>design document v2</b> · 2026-07 · supersedes the static-corpus draft</div>
+    <h1>Compiling <span class="dear">frontier perception</span> into <span class="cheap">cheap readers of live EHR screens</span></h1>
+    <p class="dek">A design for continuously observing live EHR sessions, with clinicians’ knowledge and to
+    their benefit. The capture stream is segmented into recurring screen states, and each state is
+    classified by activity and by whether it is worth extracting from. Frontier-model reads of the
+    worthwhile states accumulate, and compile agents distill them, together with every other available
+    signal, into deterministic parse-based readers that run at negligible cost. Each reader is maintained
+    against a test corpus that grows over time; guards on every frame and a small audit sample feed an
+    exception queue that agents work first and humans finish.</p>
+    <p class="meta">seeded by: 828 abstracted CHPL screenshots · 469 developers · v3 identity-banner schema · gemini-3.5-flash @ ~$0.003–0.012/frame</p>
+
+    <!-- signature: a session, classified; one state annotated; the reader it compiles to -->
+    <div class="mock-stage" aria-label="Illustration: a live EHR session classified into states; the chart-summary state is annotated by the teacher and compiled into a parse-based reader">
+      <div class="mock">
+        <div class="mock-title"><span class="dot"></span><span class="dot"></span><span class="dot"></span> live session · Dr. Chen · GenericEHR via VDI · tuesday 09:14–09:31 &nbsp;·&nbsp; 1,204 settled frames → 5 states</div>
+        <div class="film" role="img" aria-label="Five screen states: login (no patient), schedule (multi-patient), chart summary (extractable), order entry (extractable), note in progress (deferred)">
+          <div class="frame"><div class="thumb"><div class="bar b1"></div><div class="rows"><div class="bar b3"></div><div class="bar b3"></div></div></div><div class="fname">LOGIN</div><br><span class="fchip na">no patient · log only</span></div>
+          <div class="frame"><div class="thumb"><div class="bar b2"></div><div class="rows"><div class="bar b2"></div><div class="bar b2"></div><div class="bar b2"></div><div class="bar b2"></div></div></div><div class="fname">SCHEDULE</div><br><span class="fchip row">multi-patient · row-scoped</span></div>
+          <div class="frame pick"><div class="thumb"><div class="bar b2 hot"></div><div class="rows"><div class="bar b1"></div><div class="bar b3"></div><div class="bar b2"></div></div></div><div class="fname">CHART · SUMMARY</div><br><span class="fchip ripe">extract · reader S-07</span></div>
+          <div class="frame"><div class="thumb"><div class="bar b2 hot"></div><div class="rows"><div class="bar b3"></div><div class="bar b1"></div></div></div><div class="fname">ORDER ENTRY</div><br><span class="fchip ripe">extract · reader S-11</span></div>
+          <div class="frame"><div class="thumb"><div class="bar b2 hot"></div><div class="rows"><div class="bar b2"></div><div class="bar b2"></div><div class="bar b3"></div></div></div><div class="fname">NOTE (typing)</div><br><span class="fchip defer">mid-edit · defer to settle</span></div>
+        </div>
+        <div class="film-connector">state <b>S-07</b> has been seen 12,438× across the org. Its reader was distilled once from accumulated frontier reads; the banner below is read deterministically on every later visit:</div>
+        <div class="mock-banner">
+          <span><span class="lbl anchor-t">Patient:</span> <span class="annbox" data-f="patient.fullName"><span class="val">OSLER, MARGARET</span></span></span>
+          <span><span class="lbl anchor-t">MRN</span> <span class="annbox" data-f="patient.patientId"><span class="val">#482913</span></span></span>
+          <span><span class="lbl anchor-t">DOB</span> <span class="annbox" data-f="patient.dateOfBirth"><span class="val">03/22/1957</span></span></span>
+          <span><span class="lbl anchor-t">Sex</span> <span class="annbox" data-f="patient.sex"><span class="val">F</span></span></span>
+          <span><span class="lbl anchor-t">Attending:</span> <span class="annbox" data-f="providers[0]"><span class="val">Chen, R. MD</span></span></span>
+        </div>
+        <div class="compile-row">
+          <div class="compile-arrow">accumulated frontier reads, all substrates<br><b>── agents distill into ──▶</b></div>
+          <div class="spec-card">{ field: "patient.dateOfBirth",<br>
+&nbsp;&nbsp;anchor: { text:"DOB", role:"label" },<br>
+&nbsp;&nbsp;value: { extent:"afterAnchor → nextLabel", line:"same" },<br>
+&nbsp;&nbsp;grammar: "MM/DD/YYYY", posPrior: "x ≈ 0.36 ± 0.04",<br>
+&nbsp;&nbsp;substrate: ["ax","ocr"] }&nbsp;&nbsp;<span style="opacity:.65">// value length reflows the line; extent + grammar still resolve</span></div>
+        </div>
+        <div class="mock-legend">
+          <span><span class="sw" style="border:1.5px dashed var(--frontier)"></span>frontier reads name and localize fields</span>
+          <span><span class="sw" style="background:var(--compiled)"></span>static label lexicon, derived from recurrence across frames</span>
+          <span><span class="sw" style="background:var(--compiled-soft);border:1px solid var(--compiled)"></span>compiled reader: grammar + position priors, ~$0/frame</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ======================= 00 CORPUS ======================= -->
+<section class="sec" id="grounding">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-no">§ 00</span><h2>What the current corpus establishes</h2></div>
+    <div class="prose">
+      <p>The existing repo swept 469 CHPL-certified developers, collected published EHR screenshots, and ran
+      828 of them through Gemini 3.5 Flash with a flat <code>{value, box}</code> schema:</p>
+    </div>
+
+    <div class="stats">
+      <div class="stat"><div class="n">828</div><div class="l">abstraction records<br>(826 judged EHR screens)</div></div>
+      <div class="stat"><div class="n">726</div><div class="l">single-patient screens<br>(the funnel’s core)</div></div>
+      <div class="stat cool"><div class="n">97<small>%</small></div><div class="l">fullName captured<br>on single-patient set</div></div>
+      <div class="stat"><div class="n">71<small>%</small></div><div class="l">patientId · 68% DOB<br>67% sex · 77% systemName</div></div>
+      <div class="stat hot"><div class="n">$0.012</div><div class="l">avg cost/frame, full schema<br>w/ boxes; $0.003 lean config</div></div>
+    </div>
+
+    <div class="callout">
+      <b>Limits of the evidence.</b> This corpus is a convenience sample of published screenshots: marketing
+      and training images that vendors chose because they look good. They are banner-forward, uncluttered,
+      and static, with one frame per screen, no navigation, no typing, no VDI compression, and no user
+      personalization. The next generation runs on live feeds of full EHR sessions, which look nothing like
+      that. Each finding below therefore carries a provenance badge. <span class="ev m">measured · corpus</span>
+      means demonstrated on this sample, with its biases. <span class="ev p">prior — re-test live</span> means
+      plausible, but established on the wrong distribution. <span class="ev b">bet</span> means untested. Nothing
+      tagged <em>prior</em> or <em>bet</em> is treated as settled until an experiment in §07 upgrades it.
+    </div>
+
+    <h3>Findings that carry over</h3>
+    <div class="findings">
+      <div class="finding">
+        <h5>{value, box} output doubles as reader geometry <span class="ev m">measured · corpus</span></h5>
+        <p>Requiring the model to localize each value it reads was added for the viewer. It also supplies most
+        of what a reader spec needs: where each field sits relative to the labels around it. The existing
+        corpus can seed compilation directly, without new teacher calls.</p>
+        <span class="src">abstraction-prompt.md · v3</span>
+      </div>
+      <div class="finding">
+        <h5>Cost behavior is well characterized <span class="ev m">measured · corpus</span></h5>
+        <p><code>thinkingBudget:0</code> plus a lean schema at full resolution cut cost from $0.0093 to $0.0032 per
+        frame with demographics intact. That yields two working configurations: a rich one for compile time
+        and a lean one for audits. Token pricing is the same for live frames as for downloaded ones.</p>
+        <span class="src">scripts/prompt-experiment.ts</span>
+      </div>
+      <div class="finding">
+        <h5>The frontier model and OCR make some of the same mistakes <span class="ev m">measured · corpus</span></h5>
+        <p>Single-digit misreads on low-resolution MRNs appeared identically in the cheap and full configs.
+        Agreement between two readers therefore falls short of proof of correctness, which bounds what
+        auditing alone can establish (§05). Native-resolution capture should reduce these errors; VDI
+        compression will add them. Both directions get measured.</p>
+        <span class="src">README · prompt-opt analysis</span>
+      </div>
+      <div class="finding">
+        <h5>Per-record evidence and cost accounting <span class="ev m">measured · corpus</span></h5>
+        <p>The funnel, per-field capture rates, per-record cost, and click-through from any statistic to the
+        frames behind it made every claim in the project checkable. §05’s dashboards continue the same
+        practice at larger scale.</p>
+        <span class="src">viewer · coverage report</span>
+      </div>
+    </div>
+
+    <h3>Assumptions that must be re-tested on live feeds</h3>
+    <div class="findings">
+      <div class="finding retest">
+        <h5>“Flat schemas extract better than nested” <span class="ev p">prior — re-test live</span></h5>
+        <p>The <code>identifiers[]</code> experiment (capture fell from about 60% to 23%, and recovered when the
+        field was flattened) used a few dozen static, banner-forward images, one model generation, and one
+        config. It is a usable prior about asking a model to populate structure, and nothing stronger. E5
+        re-runs the comparison on live states.</p>
+        <span class="src">scripts/id-experiment.ts</span>
+      </div>
+      <div class="finding retest">
+        <h5>“A single call misses ~30% of the time” <span class="ev p">prior — re-test live</span></h5>
+        <p>Stochastic capture was measured per call on independent images. Live feeds revisit the same state
+        constantly, so a union across visits may remove most of it; denser screens may also worsen the
+        per-call rate. The ensemble mechanism is part of the design either way. The rate itself is unknown
+        until E1.</p>
+        <span class="src">scripts/id-experiment.ts</span>
+      </div>
+      <div class="finding retest">
+        <h5>“One frame is one screen” <span class="ev p">prior — re-test live</span></h5>
+        <p>The corpus contains no transitions, spinners, partial renders, open dropdowns, or overlapping
+        windows. Live segmentation and settle detection have no corpus evidence at all; they start as bets
+        and are tested in E2.</p>
+        <span class="src">no corpus signal</span>
+      </div>
+      <div class="finding retest">
+        <h5>“Layout geometry is stable” <span class="ev p">prior — re-test live</span></h5>
+        <p>A published screenshot freezes one layout. Live banners reflow with value length, wrap, collapse,
+        and vary with zoom and window size. Readers that memorize offsets fail here; the parse-based reader
+        model (§02, layer 4) is the response, tested in E4.</p>
+        <span class="src">no corpus signal</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= 01 STRATEGY ======================= -->
+<section class="sec" id="strategy">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-no">§ 01</span><h2>Strategy</h2></div>
+    <div class="prose"><p>Six positions that the rest of the design depends on. Each could have gone another
+    way. §03 gives the runtime mechanisms, §04 supplies tactics for the hard cases, and §07 tests them.</p></div>
+
+    <div class="bets">
+      <div class="bet"><span class="bno">S1</span><div class="bt"><b>Build for EHRs specifically.</b>
+        The target is certified EHR products rather than desktop software in general. That allows a closed
+        taxonomy of clinical activities, recognizable vendor families, known identifier formats (MRN, DOB,
+        CSN), and existing patient-context semantics (CCOW). These priors feed classification, state
+        identity, grammars, and validation throughout.</div></div>
+      <div class="bet"><span class="bno">S2</span><div class="bt"><b>Classify before extracting.</b>
+        Most frames in a live feed should not be extracted from: logins, menus, transitions, half-typed
+        notes, multi-patient grids. A classification layer assigns each state an activity and decides whether
+        it justifies a compiled reader. States that fail the gate still contribute to the activity timeline,
+        which is a useful output on its own.</div></div>
+      <div class="bet"><span class="bno">S3</span><div class="bt"><b>Agents distill rote AI reads into deterministic readers, and maintain them like software.</b>
+        This is the central tenet. Frontier reads accumulate as a byproduct of operating (classifies,
+        escalations, audits, pull reads), and compile agents distill them, together with every other
+        available signal (AX and DOM text, OCR streams, database truth on testbeds), into declarative
+        parse-based readers. A per-state test corpus, maintained over time, is the fitness function. An
+        exception queue routes what automation cannot resolve to more AI and then to human review, and
+        every resolution becomes a permanent test case. The runtime that executes the readers stays
+        non-agentic (§02, layer 4).</div></div>
+      <div class="bet"><span class="bno">S4</span><div class="bt"><b>Budget verification, and hold patient identity to a stricter bar.</b>
+        Deterministic guards run on every frame at no cost. A small adaptive frontier-audit budget covers
+        the failures guards can’t detect. Attributing data to the wrong patient is treated as a safety
+        incident with a target rate of zero, and gets machinery of its own (§03.4, §04 C4).</div></div>
+      <div class="bet"><span class="bno">S5</span><div class="bt"><b>Design for clinician trust.</b>
+        Continuous observation of EHR work requires clinicians’ ongoing consent, and the design assumes they
+        will inspect it: pixels are processed at the edge and discarded, every extracted value traces to a
+        frame and reader version, and the people being observed get direct value back (ambient context for
+        tools they already use, their own activity timeline). Access granted on these terms is also the part
+        of the system hardest for anyone else to reproduce.</div></div>
+      <div class="bet"><span class="bno">S6</span><div class="bt"><b>Track the provenance of every design belief.</b>
+        Findings carry a badge (measured, prior, bet), and priors get re-tested whenever the data
+        distribution changes. §00 applies this to the corpus findings; §07 assigns each prior an
+        experiment.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= 02 ARCHITECTURE ======================= -->
+<section class="sec" id="architecture">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-no">§ 02</span><h2>Architecture</h2></div>
+
+    <div class="prose">
+      <h3>Layer 1 · Capture</h3>
+      <p>Capture is window-scoped and event-triggered, limited to surfaces established as EHR products
+      (scope: §03.5), on input events (click, end of a keypress burst, scroll settle, focus change) plus a
+      slow heartbeat for passively updating screens. The accessibility tree (UIA, AX, AT-SPI) and DOM (extension
+      or CDP) are recorded synchronously wherever they exist. They provide text, geometry, and roles at no
+      cost, and they supply the alignment signal used to grade the other substrates. Window enumeration and
+      z-order give every frame a visibility mask. VDI and Citrix sessions are detected at capture time from
+      the window class and process; they reduce the substrate ladder to pixels and raise the audit rate
+      (§04, C3). Frames sit in a ring buffer, extractions persist, and pixels are discarded by default.</p>
+
+      <h3>Layer 2 · Segmentation and state identity</h3>
+      <p>A screen state is what stays constant while patient data varies. Identity is hierarchical:
+      (vendor → module → screen-family → layout-variant), because personalization, roles, zoom, and window
+      width produce many variants of one screen family. Fingerprints come from structure rather than content:
+      the set and arrangement of static tokens that recur across frames. Labels stay put while values change.
+      Settle detection runs per region rather than per frame, so a live-updating widget doesn’t prevent the
+      banner from reaching stability. Frames far from every known signature are treated as novel states and
+      routed to the teacher.</p>
+      <p>Cross-frame variance within a state does limited but useful work: it separates the static label
+      lexicon from the dynamic zones without any model calls. On elastic layouts it cannot place value
+      boundaries; those come from parsing (layer 4).</p>
+
+      <h3>Layer 3 · Classification and the extraction gate</h3>
+      <p>Every settled state is classified against a closed EHR activity taxonomy (roughly 30 activities:
+      login, patient-search, schedule, inbox, chart-review:{summary, results, notes, meds…}, order-entry,
+      med-rec, documentation, e-prescribing, billing, admin, …) along with <code>patientScope</code>
+      (single/multiple/none) and <code>identityVisibility</code>. This generalizes the v3 schema’s
+      <code>isEhrScreen</code> / <code>patientScope</code> / <code>singlePatientConfidence</code> trio, which the corpus shows
+      the teacher handles well <span class="ev m">measured · corpus</span>. The teacher assigns the label once per
+      state; signature matching handles every later visit.</p>
+      <p>The gate: a state gets a compiled reader when identity is reliably visible, the state recurs often
+      enough to amortize compilation, and the content is worth having. States that fail the gate still feed
+      the activity timeline (which module, what activity, for how long), which is a product surface on its
+      own and the temporal spine for §05’s consistency checks. The unknown-activity bucket is monitored;
+      growth there means the taxonomy has a gap.</p>
+
+      <h3>Layer 4 · The reader factory</h3>
+      <p>This layer is the center of the design. Every frontier call the system makes for any reason (a
+      novel-state classify, a deopt escalation, an audit re-read, a context-pull read on an uncompiled
+      state) produces a labeled frame, and every labeled frame lands in its state’s corpus. Rote reads
+      accumulate into training and test data as a byproduct of operating. When a state crosses the
+      extraction gate, compile agents distill that corpus into a reader spec, requesting targeted extra
+      reads where the corpus lacks diversity (long names, wrapped banners, collapsed headers) and running
+      the rich config (boxes, thinking, <code>additionalFields</code>) for those. The output is one flat,
+      declarative record per field <span class="ev p">prior — re-test live (E5)</span>:</p>
+    </div>
+
+<pre><code>{ "field":    "patient.dateOfBirth",
+  "anchor":   { "text": "DOB", "role": "label" },          // from the state's static lexicon
+  "value":    { "extent": "afterAnchor → nextLabel", "line": "same" },
+  "grammar":  "date:MM/DD/YYYY",                            // places the boundary when geometry can't
+  "posPrior": { "x": [0.32, 0.41], "confidence": "distribution over observed frames" },
+  "substrate":["ax", "ocr"],
+  "state":    "S-07", "variantOf": "chart-summary", "specVersion": 3 }</code></pre>
+
+    <div class="prose">
+      <p>The reader is a parser with priors. It locates anchors from the lexicon, takes the value as the span
+      from its label to the next static token on the same visual line, lets the content grammar (dates, MRN
+      patterns, name casing) place the exact boundary, and uses the position distribution to flag outliers.
+      A long value that pushes the rest of the line to the right still parses; the prior records the shift.
+      Geometry resolves ambiguity when a label appears twice, as on a two-patient compare screen, and has no
+      other authority.</p>
+      <p>Readers are declarative specs executed by a single engine, which keeps them diffable, versionable,
+      and reviewable. Model-generated code is permitted only as a quarantined escape hatch for states the
+      spec language can’t express. Before promotion, every reader must pass an auto-generated test suite:
+      held-out frames from the same state, graded against the teacher’s extractions of them.</p>
+      <p><strong>Each state accumulates three durable artifacts.</strong> Mechanical derivation (union the
+      boxes, pick anchors from the lexicon, attach grammars) covers well-behaved states; compile agents
+      handle the rest, drawing on everything the state has: rote frontier runs, AX and DOM dumps, OCR token
+      streams, database truth on testbeds, and past adjudications. The artifacts:</p>
+      <p><strong>1 · The reader spec.</strong> The deterministic extractor itself, versioned as described
+      above.</p>
+      <p><strong>2 · A test corpus that grows over time.</strong> Frames paired with expected values, drawn
+      from every truth source available. It starts as the teacher’s own labels and gains a case from every
+      exception afterward. A recompile after drift must pass the accumulated corpus or explicitly retire
+      cases under review: regression protection in the ordinary software sense, applied to perception.</p>
+      <p><strong>3 · An exception queue.</strong> Guard failures, audit disagreements, and test failures land
+      here. Agents triage first: reproduce the failure, decide whether it is a reader bug, layout drift, or
+      a wrong expected value, and propose a spec revision or a new test case. What agents cannot resolve
+      goes to human review. Every resolution returns to the corpus as a permanent case, so the same failure
+      never needs the queue twice.</p>
+      <p>Compile agents iterate propose, test, diagnose, revise against the corpus; the test suite is the
+      fitness function, not only a final gate. Drift recompiles (C7) run the same loop seeded with the old
+      spec and the layout diff, and the codegen escape hatch lives inside it. All of this is safe because
+      promotion is indifferent to authorship: a reader ships only by passing the corpus, however it was
+      written, and verification is deterministic. Compile time also has none of the runtime’s constraints;
+      it is offline, per state, and a bad outcome is a wasted compile rather than a wrong extraction. The
+      runtime stays non-agentic throughout: agents build and maintain the decoders, and a single trusted
+      engine runs them. The repo already runs its hunt-and-abstract sweep as a multi-agent workflow with a
+      worker pool and a resumable per-item ledger; the compile farm is the same shape, with one state per
+      agent and the exception queue as its work feed.</p>
+
+      <h3>Layer 5 · Runtime substrate ladder</h3>
+    </div>
+
+    <div class="ladder" role="img" aria-label="Extraction tiers from cheapest to most expensive">
+      <div class="tier t0"><span class="tno">TIER 0</span><span class="tdesc"><b>AX / DOM query.</b> The anchor resolves in the accessibility tree; read the adjacent node’s text. This is the application stating the string, and it is independent of theme and zoom. Absent under VDI.</span><span class="tcost">~$0 · &lt;1 ms</span></div>
+      <div class="tier t1"><span class="tno">TIER 1</span><span class="tdesc"><b>OCR line-parse.</b> OCR the state’s dynamic zones, then run the reader’s grammar over the token stream. Aggregating OCR across settled frames denoises compressed text, since static text can be stacked.</span><span class="tcost">~$0 · ~10 ms</span></div>
+      <div class="tier t2"><span class="tno">TIER 2</span><span class="tdesc"><b>Local small VLM.</b> An optional middle tier for oddball states. Deferred: it adds another stochastic component to audit, so it waits until tiers 0, 1, and 3 are proven.</span><span class="tcost">~$0 · ~1 s</span></div>
+      <div class="tier t3"><span class="tno">TIER 3</span><span class="tdesc"><b>Frontier VLM.</b> Novel states, teacher compilation, guard escalations, and sampled audits. Lean config for audits, rich config for compilation.</span><span class="tcost">$0.003–0.012</span></div>
+      <div class="ladder-note">▲ walk cheapest-first · <b>guard failure at any tier escalates downward</b> · disagreement between tier 0 and tier 1 is a free, high-precision flag</div>
+    </div>
+
+    <div class="prose">
+      <p>Deterministic validators run at every tier: grammar conformance, date plausibility, MRN patterns,
+      and checksums where they exist. They provide per-extraction confidence and never themselves need
+      auditing.</p>
+      <h3>Layer 6 · The loop</h3>
+    </div>
+
+    <div class="loop">
+      <svg viewBox="0 0 990 270" xmlns="http://www.w3.org/2000/svg" font-family="IBM Plex Mono, monospace">
+        <defs>
+          <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4a5a55"/></marker>
+          <marker id="arrR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b3372e"/></marker>
+          <marker id="arrA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#b45309"/></marker>
+          <marker id="arrG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0e7c66"/></marker>
+        </defs>
+        <g font-size="11">
+          <rect x="10" y="110" width="120" height="56" rx="4" fill="#fff" stroke="#c9d4d0"/>
+          <text x="70" y="133" text-anchor="middle" fill="#17211e">capture +</text>
+          <text x="70" y="148" text-anchor="middle" fill="#17211e">visibility mask</text>
+
+          <rect x="170" y="110" width="130" height="56" rx="4" fill="#fff" stroke="#c9d4d0"/>
+          <text x="235" y="133" text-anchor="middle" fill="#17211e">settle + state</text>
+          <text x="235" y="148" text-anchor="middle" fill="#17211e">signature</text>
+
+          <rect x="345" y="105" width="160" height="66" rx="4" fill="#fff" stroke="#17211e"/>
+          <text x="425" y="128" text-anchor="middle" fill="#17211e">classify</text>
+          <text x="425" y="143" text-anchor="middle" fill="#4a5a55">activity · scope</text>
+          <text x="425" y="158" text-anchor="middle" fill="#4a5a55">extract? known?</text>
+
+          <rect x="352" y="12" width="146" height="46" rx="4" fill="#eef1f0" stroke="#c9d4d0"/>
+          <text x="425" y="31" text-anchor="middle" fill="#4a5a55">activity timeline</text>
+          <text x="425" y="46" text-anchor="middle" fill="#4a5a55">(every state, always)</text>
+
+          <rect x="590" y="48" width="160" height="56" rx="4" fill="#e4f2ee" stroke="#0e7c66"/>
+          <text x="670" y="71" text-anchor="middle" fill="#0a5c4c">compiled reader</text>
+          <text x="670" y="86" text-anchor="middle" fill="#0a5c4c">parse · AX/OCR · ~$0</text>
+
+          <rect x="590" y="185" width="160" height="56" rx="4" fill="#fdf1e3" stroke="#b45309"/>
+          <text x="670" y="208" text-anchor="middle" fill="#8a3e06">reader factory</text>
+          <text x="670" y="223" text-anchor="middle" fill="#8a3e06">frontier · agents · tests</text>
+
+          <rect x="820" y="48" width="158" height="56" rx="4" fill="#fff" stroke="#c9d4d0"/>
+          <text x="899" y="71" text-anchor="middle" fill="#17211e">guards + identity</text>
+          <text x="899" y="86" text-anchor="middle" fill="#17211e">quorum · pass?</text>
+
+          <rect x="820" y="185" width="158" height="56" rx="4" fill="#fff" stroke="#c9d4d0"/>
+          <text x="899" y="208" text-anchor="middle" fill="#17211e">context ledger</text>
+          <text x="899" y="223" text-anchor="middle" fill="#4a5a55">records + audit x%</text>
+        </g>
+        <g stroke="#4a5a55" fill="none" stroke-width="1.4">
+          <line x1="130" y1="138" x2="166" y2="138" marker-end="url(#arr)"/>
+          <line x1="300" y1="138" x2="341" y2="138" marker-end="url(#arr)"/>
+          <line x1="425" y1="105" x2="425" y2="62" marker-end="url(#arr)"/>
+          <path d="M505,120 C540,105 550,90 586,80" marker-end="url(#arr)"/>
+          <path d="M505,155 C540,170 550,190 586,205" marker-end="url(#arr)"/>
+          <line x1="750" y1="76" x2="816" y2="76" marker-end="url(#arr)"/>
+          <path d="M899,104 L899,181" marker-end="url(#arr)"/>
+        </g>
+        <g stroke="#b3372e" fill="none" stroke-width="1.4" stroke-dasharray="4 3">
+          <path d="M820,92 C790,130 775,165 754,190" marker-end="url(#arrR)"/>
+        </g>
+        <g stroke="#0e7c66" fill="none" stroke-width="1.4">
+          <path d="M670,185 L670,108" marker-end="url(#arrG)"/>
+        </g>
+        <g stroke="#b45309" fill="none" stroke-width="1.4" stroke-dasharray="2 3">
+          <path d="M820,228 C795,248 775,246 754,238" marker-end="url(#arrA)"/>
+        </g>
+        <g font-size="9.5" fill="#4a5a55">
+          <text x="447" y="83">not extractable → log only</text>
+          <text x="536" y="99" text-anchor="middle">known</text>
+          <text x="536" y="181" text-anchor="middle">novel</text>
+          <text x="768" y="140" fill="#b3372e">deopt: guard fail</text>
+          <text x="676" y="150" fill="#0a5c4c">new spec</text>
+          <text x="982" y="262" text-anchor="end" fill="#b45309">adaptive audit (frontier re-reads x% of clean frames)</text>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= 03 ALGORITHMS ======================= -->
+<section class="sec" id="algorithms">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-no">§ 03</span><h2>Algorithms: cheap classification and patient-context tracking</h2></div>
+    <div class="prose">
+      <p>§02 names the layers. This section specifies the mechanisms that keep the per-frame path in the
+      millisecond range and make the active-patient estimate explicit. The constants given are starting
+      points <span class="ev b">bet</span>; E1/E2 tune them.</p>
+
+      <h3>3.1 · The per-frame fast path</h3>
+      <p>Every frame gets a fixed budget of a few milliseconds, spent on hashes rather than models. The frame
+      is divided into a 16×12 tile grid with a 64-bit perceptual hash (dHash) per tile: about 1.5&nbsp;KB per
+      frame, and comparison against the previous frame is 192 XORs. Three outcomes:</p>
+      <p><strong>No tiles changed.</strong> Drop the frame.<br>
+      <strong>Changes confined to the current state’s dynamic zones.</strong> A content event. When the affected
+      regions settle, run the readers for the fields in those zones and pass the results to the context
+      filter (3.4).<br>
+      <strong>Changes touching static zones.</strong> A transition candidate. Wait for settle, then run state
+      identification (3.2).</p>
+      <p>Settle is per region: two consecutive frames under a Hamming threshold, with zones the state has
+      marked volatile (clocks, spinners) exempted so they can’t hold the rest of the screen hostage. The
+      banner tripwire from C4 is this same mechanism pointed at one region: the tiles under the compiled
+      banner zone. Any change there flags a possible patient switch immediately, before any OCR runs.</p>
+      <p><strong>Where the zone map comes from.</strong> A state’s static/dynamic map is learned, not given. On a
+      state’s first visits there is no map, so every change is a transition candidate and goes through
+      identification (3.2). Each time identification returns the same state, the tiles that changed are
+      recorded as dynamic, since they changed while identity held. Tiles that also churn within a single
+      visit (spinners, clocks, a region being typed into) are marked volatile and excluded from settle
+      logic. Tiles that stay constant across many visits become static. The fast path is therefore an
+      optimization that converges over visits, with identification as the always-correct fallback; a new
+      state pays the 30–200&nbsp;ms path more often until its map fills in.</p>
+      <p>Two qualifications. Within one visit the patient does not change, so patient fields look static;
+      only comparison across visits exposes them as value-bearing, which is why the map keys on cross-visit
+      change. And the map says where content changes, never what it means: naming a dynamic zone (this one
+      is the identity banner, that one is a census count) is the teacher’s job at compile time, or the AX
+      tree’s where present. Unnamed dynamic zones are tracked for change classification but never read. A
+      static tile that starts changing while the signature still matches the same state is the drift signal
+      from C7 and routes to recompile.</p>
+
+      <h3>3.2 · State identification at transitions</h3>
+      <p>Identification runs a few times per minute, not per frame. Token gathering uses the AX/DOM dump when
+      available (milliseconds, exact) and platform OCR on the settled frame otherwise. Tokens are normalized
+      (case-folded, digits mapped to #), positions quantized to a 32×24 grid, and the signature is a MinHash
+      (128 permutations) over the set of (token, cell) pairs. Known states live in an LSH index; lookup stays
+      sub-millisecond into the thousands of states.</p>
+      <p>Decision rule: estimated Jaccard at or above roughly 0.6 against the best candidate, with a clear
+      margin over the runner-up, means a known state. High token overlap with poor positional agreement means
+      the same screen family in a new layout variant; that path re-estimates geometry priors against the
+      family vocabulary, which is much cheaper than a full teacher compile. Anything else is a novel state
+      and goes to the teacher queue.</p>
+      <p>For a known state, activity, <code>patientScope</code>, <code>identityVisibility</code>, and the reader are fields
+      on the state record. Per-frame activity classification therefore costs nothing at runtime; it was paid
+      once when the teacher labeled the state. A novel state gets a lean classify call (~$0.003) on first
+      sight to assign those labels; full compilation waits until its recurrence counter crosses the gate.
+      Until a state is classified, it appears in the activity timeline as unknown and nothing is extracted
+      from it.</p>
+
+      <h3>3.3 · Deciding whether to read patient details</h3>
+      <p>After identification the decision is mostly a lookup:</p>
+    </div>
+
+    <div class="tablewrap"><table>
+      <thead><tr><th>State status</th><th class="mono">patientScope</th><th>Action</th></tr></thead>
+      <tbody>
+        <tr><td>known, compiled reader</td><td class="mono">single</td><td>run readers on changed zones; feed the context filter</td></tr>
+        <tr><td>known, classified, below the compile gate</td><td class="mono">single</td><td>log activity; read via the interpreter only when the context filter requests evidence (see below)</td></tr>
+        <tr><td>known</td><td class="mono">multiple</td><td>row-scoped reads where a row template exists; otherwise log only; never sets context</td></tr>
+        <tr><td>known</td><td class="mono">none</td><td>log activity only</td></tr>
+        <tr><td>novel / unclassified</td><td class="mono">—</td><td>log as unknown; enqueue lean classify; no extraction</td></tr>
+      </tbody>
+    </table></div>
+
+    <div class="prose">
+      <p>Extraction is not purely state-driven. The context filter can pull: when active-patient confidence is
+      low and the current state shows identity, a one-off interpreter read (~$0.003) is worth the price even
+      though the state has no compiled reader. This keeps rarely-visited screens from becoming blind spots in
+      context tracking without paying to compile them.</p>
+
+      <h3>3.4 · The active-patient estimate</h3>
+      <p>The single most valuable output is the current patient, which typically holds for minutes at a time
+      and degrades with uncertainty rather than ending crisply. It is modeled as an explicit belief per EHR
+      window: {patientRef, confidence, basis, lastConfirmed}. The belief is cheap to maintain, hard to raise,
+      and easy to lose.</p>
+      <p>Evidence and its effect on confidence:</p>
+    </div>
+
+    <div class="tablewrap"><table>
+      <thead><tr><th>Event</th><th>Effect on the belief</th></tr></thead>
+      <tbody>
+        <tr><td>AX-sourced banner read, two concordant identifiers</td><td class="mono">set patient, conf ≈ 0.99</td></tr>
+        <tr><td>OCR banner read, two concordant identifiers, grammars pass</td><td class="mono">set patient, conf ≈ 0.97</td></tr>
+        <tr><td>read with one identifier, or marginal validator scores</td><td class="mono">cap at 0.8; request a second-identifier read</td></tr>
+        <tr><td>schedule or inbox row selected (row identity known)</td><td class="mono">expectation ≈ 0.5, pending confirmation in the next patient-bound state</td></tr>
+        <tr><td>banner tripwire fires (hash change in banner zone)</td><td class="mono">demote to switch-suspected; force fresh read at next settle; assert nothing meanwhile</td></tr>
+        <tr><td>transition into any patient-bound state</td><td class="mono">mandatory fresh read; continuity never crosses a state transition</td></tr>
+        <tr><td>entry to patient-search or login; logout; screen lock; VDI reconnect</td><td class="mono">reset to none</td></tr>
+      </tbody>
+    </table></div>
+
+    <div class="prose">
+      <p>Between evidence events, maintenance depends on what is visible. While the banner zone is on screen
+      and its hash is stable, confidence holds without decay; the tripwire carries the guarantee. When
+      identity is not on screen (a module without a banner, occlusion, the EHR unfocused), confidence decays
+      exponentially, with half-lives set per situation <span class="ev b">bet</span>: banner hidden but EHR focused,
+      about 3 minutes; EHR in the background, about 10; lock or disconnect, immediate reset. The asymmetry is
+      deliberate and matches C4: raising context requires an identifier quorum, while lowering it requires
+      only doubt. A wrong “patient A” is a safety event; a wrong “unknown” costs one extra read.</p>
+      <p>The tripwire is asymmetric in what it establishes. A stable banner hash is a cheap certificate of
+      continuity: the same pixels are on screen, so the same name and MRN are on screen, and confidence
+      holds with no model in the loop. A changed hash establishes nothing about direction; it may be a
+      switch, a redraw, a highlight, or a theme change. It only moves the belief to switch-suspected, and a
+      fresh read settles the question. The system never concludes a switch from pixels alone; it detects
+      loss of certainty from pixels and restores certainty with a read. This is the same pattern the readers
+      use: verify once with an expensive read, then monitor cheaply for invalidation. For patient-bound
+      states without a compiled reader, the identity zone is wherever the interpreter read found the
+      identifiers, and that region is hashed from then on.</p>
+    </div>
+
+<pre><code>on_frame(frame):
+  delta = tile_diff(frame, prev)                      # 3.1, ~1 ms
+  if banner_zone.intersects(delta): context.suspect_switch()
+  if delta.within(state.dynamic_zones):
+    for zone in settled(delta): context.integrate(run_readers(zone))
+  elif settled(delta):
+    state = identify(frame)                           # 3.2, 30–200 ms
+    if state.patient_bound: context.require_fresh_read()
+
+context.integrate(read):
+  if read.concordant_identifiers >= 2: set(read.patient, conf = read.strength)
+  elif read.matches(current.patient):  refresh(cap = 0.97)
+  else:                                demote()       # disagreement: no context until resolved
+
+every_second():
+  if banner_visible and banner_hash_stable: return    # tripwire holds confidence
+  conf *= decay(situation)                            # half-life per situation
+  if conf &lt; consumer.threshold: report_unknown()</code></pre>
+
+    <div class="prose">
+      <p>Consumers get {patient, confidence, ageSeconds, basis} and set their own thresholds: a scribe might
+      require 0.95 and under 30 seconds of age, while retrospective analytics accepts far less. Below
+      threshold the answer is unknown, never a guess. The filter as written is a degenerate Bayes filter over
+      a handful of hypotheses (the current patient, a specific other patient when a row was clicked, none);
+      if E7’s calibration measurements show the heuristic version misbehaving, the full probabilistic
+      treatment is a contained upgrade.</p>
+
+      <h3>3.5 · Scope: deciding whether the EHR is on screen at all</h3>
+      <p>The scope decision exists for correctness: an email, a PDF, or a portal message must not be
+      analyzed as an EHR screen. This failure is easy to reach with naive gates, because clinical email is
+      full of EHR-shaped content. A referral message can carry a patient name, a DOB, and an MRN, and a
+      lexical test would happily read it as a banner. Scope is therefore decided by what application is on
+      screen, with word-level evidence in a supporting role at most.</p>
+      <p><strong>The core pathway is visual and works anywhere.</strong> The deployment that matters most sees
+      one opaque Citrix window with no process names, no URLs, and no DOM, so scope cannot depend on any of
+      those. Every settled surface goes through the same signature machinery as states (3.2), and the index
+      holds negative entries alongside positive ones: Outlook is examined once, classified as not an EHR
+      surface, and afterwards recognized by signature at the fast path and skipped, exactly like a known
+      state. Structural evidence dominates this classification, since vendor chrome and layout signatures
+      generalize across screens of the same product, while lexical content stays supporting evidence, for
+      the reason above. A surface that stays unrecognized contributes foreground time to the activity
+      timeline and nothing else: no readers, no context updates.</p>
+      <p><strong>Metadata is an accelerator, never a dependency.</strong> Where process names, window classes,
+      tab URLs, or window titles exist (native installs, browser EHRs, published-app Citrix titles), they
+      shortcut the same decision at zero cost and help seed the catalog from the CHPL product list. A
+      deployment can run pixels-only end to end and reach the same answers, later and at slightly higher
+      cost. When any pathway suggests an unlisted EHR surface (a new module, an unexpected domain), it is
+      proposed for confirmation rather than silently included.</p>
+      <p><strong>Ambiguity resolves through the same teacher gate as everything else.</strong> A surface that
+      metadata and signatures cannot place gets the lean classify call, and <code>isEhrScreen</code> is part of
+      it. The corpus exercised that classifier only on near-misses among product screenshots (826 of 828
+      positive), so its discrimination against email and documents is untested
+      <span class="ev p">prior — re-test live</span> and is measured in E2. Until a surface classifies as an EHR
+      screen, nothing is extracted from it.</p>
+      <p><strong>Defense in depth for the residual case.</strong> Suppose an email slips through anyway. It still
+      cannot set patient context: context assertions come only from states classified as patient-bound EHR
+      screens (3.4), readers exist only for states that passed the taxonomy gate, and an identifier quorum
+      from an unclassified surface is never accepted. A mis-scoped surface can waste a classify call; it
+      cannot inject a patient.</p>
+
+      <h3>3.6 · Cost and latency budget</h3>
+    </div>
+
+    <div class="tablewrap"><table>
+      <thead><tr><th>Operation</th><th>Frequency</th><th class="mono">cost</th></tr></thead>
+      <tbody>
+        <tr><td>scope by signature, positive and negative cache (core path, works under VDI)</td><td>surface changes</td><td class="mono">~1 ms known · one local OCR pass if novel</td></tr>
+        <tr><td>scope shortcut via metadata where present (process, URL, title)</td><td>window and tab events</td><td class="mono">~0</td></tr>
+        <tr><td>tile hash, diff, banner tripwire, settle checks</td><td>every frame</td><td class="mono">~1 ms</td></tr>
+        <tr><td>readers over changed dynamic zones</td><td>content events</td><td class="mono">~10 ms</td></tr>
+        <tr><td>state identification (AX dump or OCR + MinHash lookup)</td><td>transitions, a few per minute</td><td class="mono">30–200 ms</td></tr>
+        <tr><td>lean classify of a novel state</td><td>first sight of a state</td><td class="mono">~$0.003</td></tr>
+        <tr><td>context-filter pull read (uncompiled state)</td><td>when confidence is low</td><td class="mono">~$0.003</td></tr>
+        <tr><td>teacher compile</td><td>gate crossings</td><td class="mono">$0.05–0.10</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+</section>
+
+<!-- ======================= 04 CHALLENGES ======================= -->
+<section class="sec" id="challenges">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-no">§ 04</span><h2>Real-world challenges</h2></div>
+    <div class="prose"><p>Specific conditions in live EHR use that break simple designs. Each card states the
+    condition, the strategic posture, and the tactics. The architecture in §02 and the mechanisms in §03
+    already embed these; the experiments in §07 test them.</p></div>
+
+    <div class="chals">
+      <div class="chal">
+        <h5>C1 · Elastic banners</h5>
+        <p class="real">“LI, BO” and “ANDERSON-MARTINEZ, GUADALUPE” put the MRN in different places. Long
+        banners wrap to two lines. Headers collapse and expand. Value boxes change size and position from
+        frame to frame, so a reader cannot memorize coordinates.</p>
+        <p class="strat">Parse the banner as a token stream. Use geometry for priors and disambiguation only.</p>
+        <div class="tlbl">tactics</div>
+        <ul>
+          <li>Value extent runs from its label to the next static-lexicon token on the same visual line.</li>
+          <li>Content grammars (date, MRN, name casing) place exact boundaries.</li>
+          <li>Position distributions over observed frames; an outlier raises a flag instead of failing the read.</li>
+          <li>Compile from k frames selected for value-length diversity, wrapped and unwrapped.</li>
+        </ul>
+      </div>
+
+      <div class="chal">
+        <h5>C2 · One screen, many layouts</h5>
+        <p class="real">Epic users personalize chart tabs and columns. Different roles see different panes.
+        Workstations run 100/125/150% zoom at assorted window widths. A single screen family produces many
+        layout variants.</p>
+        <p class="strat">Give states hierarchical identity, share knowledge at the family level, and compile a variant only when its frequency justifies it.</p>
+        <div class="tlbl">tactics</div>
+        <ul>
+          <li>Identity = (vendor, module, screen-family, layout-variant); the family is recognized from label-lexicon overlap.</li>
+          <li>Field vocabulary attaches to the family; geometry priors attach to the variant.</li>
+          <li>Zoom is estimated from known anchor-pair distances and normalized out.</li>
+          <li>Low-frequency variants stay on the interpreter path instead of being compiled.</li>
+        </ul>
+      </div>
+
+      <div class="chal">
+        <h5>C3 · Citrix and VDI delivery</h5>
+        <p class="real">Large health systems deliver Epic and Oracle Health through Citrix. The capture host
+        sees one opaque window, with no accessibility tree or DOM, and H.264 compression smears 8-point MRN
+        digits.</p>
+        <p class="strat">Treat pixels-only as the baseline the system must work on. Side channels are an upgrade where present. Weaker substrates get larger audit budgets.</p>
+        <div class="tlbl">tactics</div>
+        <ul>
+          <li>Detect VDI sessions at capture (window class, process) and tag every downstream record.</li>
+          <li>Aggregate OCR across settled frames; stacking the same static region cancels much of the compression noise.</li>
+          <li>Apply per-substrate audit multipliers; lean harder on grammar validators.</li>
+          <li>Where a partnership allows, run the agent inside the VDI image and recover the full ladder.</li>
+        </ul>
+      </div>
+
+      <div class="chal">
+        <h5>C4 · Wrong-patient attribution</h5>
+        <p class="real">A clinician flips between two charts, and extraction lag attributes patient A’s screen
+        to patient B. In this domain that is a safety incident.</p>
+        <p class="strat">Patient identity is a protected field class with its own machinery. When in doubt, attribute nothing.</p>
+        <div class="tlbl">tactics</div>
+        <ul>
+          <li>A pixel diff over the banner region runs on every frame as a context-change tripwire, cheaper than any extraction.</li>
+          <li>Context is asserted only on two concordant identifiers (name plus MRN or DOB); frames near a switch are quarantined.</li>
+          <li>An explicit context state machine allows one active patient, with transitions only through search and select states. This matches the CCOW model, inferred from the screen.</li>
+          <li>Misattribution counts as a safety event in every eval. The target is zero.</li>
+        </ul>
+      </div>
+
+      <div class="chal">
+        <h5>C5 · Multi-patient surfaces</h5>
+        <p class="real">Schedule grids with thirty patients, results inboxes, and side-by-side compare views
+        are full of identities that must not become the session’s patient context.</p>
+        <p class="strat">Multi-patient states are read row-by-row or logged as activity only. They never set patient context.</p>
+        <div class="tlbl">tactics</div>
+        <ul>
+          <li><code>patientScope</code> classification per state (already demonstrated in v3) selects the behavior.</li>
+          <li>Row readers: vertical periodicity locates the repeating row template, and each row carries its own identity.</li>
+          <li>Compare views combine C1’s duplicate-label handling with C4’s quarantine rules.</li>
+        </ul>
+      </div>
+
+      <div class="chal">
+        <h5>C6 · Dirty frames and occlusion</h5>
+        <p class="real">Skeleton loaders, spinners, half-typed notes, dropdowns covering the banner, toasts, an
+        Outlook window across half the chart, sticky-note widgets.</p>
+        <p class="strat">Extract only from settled, unoccluded regions. Treat in-progress edits as activity signal rather than content.</p>
+        <div class="tlbl">tactics</div>
+        <ul>
+          <li>Per-region settle detection; a typing burst defers the region it touches until blur or settle.</li>
+          <li>Overlay detection: a new rectangle on top of a known state is classified separately, and the area beneath it is masked.</li>
+          <li>Each field checks the window z-order mask for visibility before it is read.</li>
+          <li>Partial-signature matching lets an occluded state still classify.</li>
+        </ul>
+      </div>
+
+      <div class="chal">
+        <h5>C7 · Drift and upgrades</h5>
+        <p class="real">Vendors ship quarterly, organizations re-theme, and a user can rearrange their chart
+        tabs overnight. Every reader assumes yesterday’s layout.</p>
+        <p class="strat">Assume drift will happen. Detect it deterministically and recover by recompiling rather than by widening tolerances.</p>
+        <div class="tlbl">tactics</div>
+        <ul>
+          <li>The signature-drift guard runs per frame, so deoptimization happens before a wrong read rather than at the next audit.</li>
+          <li>Canary fields are audited on a schedule regardless of agreement history.</li>
+          <li>Specs are versioned with validity windows; recompile diffs are reviewed (a moved field is routine, a vanished field is an alarm).</li>
+          <li>Another site on the same (vendor, version) warm-starts the recompile through the registry (§08).</li>
+        </ul>
+      </div>
+
+      <div class="chal">
+        <h5>C8 · Scarce, PHI-bound ground truth</h5>
+        <p class="real">Real frames can’t go to a labeling service. AX truth disappears under VDI. §00 shows
+        the frontier model itself shares some errors with OCR.</p>
+        <p class="strat">Use the sources of truth that cost nothing, build synthetic ones where that is safe, and reserve human attention for adjudicating disagreements.</p>
+        <div class="tlbl">tactics</div>
+        <ul>
+          <li>AX/DOM text is authoritative wherever present, and grades both OCR and the frontier model.</li>
+          <li>Synthetic testbeds: open-source EHRs (OpenEMR, Bahmni) loaded with Synthea patients, driven by scripted sessions, where the database supplies the labels.</li>
+          <li>An on-site adjudication queue handles persistent disagreements and doubles as the labeled eval set.</li>
+          <li>Deterministic validators backstop everything; second-model audits are used sparingly.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= 04 VERIFICATION ======================= -->
+<section class="sec" id="verification">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-no">§ 05</span><h2>Verification</h2></div>
+    <div class="prose"><p>Two channels with different budgets and different failure classes: deterministic
+    guards that run on every frame, and a metered audit sample. Patient identity additionally gets the
+    stricter regime described in C4.</p></div>
+
+    <div class="twoup">
+      <div class="channel g">
+        <h5>Guards</h5>
+        <div class="sub">deterministic · always-on · ~free</div>
+        <ul>
+          <li>anchor fails to resolve in the state’s lexicon</li>
+          <li>grammar or validator fails (date, MRN pattern, checksum)</li>
+          <li>OCR confidence below floor; position far outside the prior</li>
+          <li>tier 0 (AX) and tier 1 (OCR) disagree</li>
+          <li>layout signature drifts past threshold</li>
+          <li>state is novel, or the occlusion mask covers the field</li>
+          <li>banner tripwire: patient context changed without a search/select transition</li>
+        </ul>
+        <p>Any trigger escalates the frame to the frontier model. Repeated triggers on one (state, field)
+        cause a recompile and a spec version bump. Frontier spend follows actual failures.</p>
+      </div>
+      <div class="channel a">
+        <h5>Sampled audit</h5>
+        <div class="sub">statistical · adaptive · metered</div>
+        <ul>
+          <li>the frontier model re-reads x% of cleanly extracted frames (lean config) and the results are compared field by field</li>
+          <li>x is tracked per (state, field, substrate): a fresh reader starts near 25%, decays toward 0.5–1% as agreement holds, and rises again on any disagreement</li>
+          <li>pixel-only substrates (VDI) carry a standing multiplier</li>
+          <li>budget concentrates where cheap signals already look off: substrate disagreement, thin validator margins</li>
+        </ul>
+        <p>Audits catch the case guards can’t: a reader that confidently parses the wrong span, such as an
+        anchor that matched the other “DOB” on a compare screen.</p>
+      </div>
+    </div>
+
+    <div class="prose">
+      <p>Both channels drain into the per-state exception queue (§02, layer 4): agents triage each flagged
+      frame, resolutions become permanent test cases in the state’s corpus, and the residue goes to human
+      review. The adjudication queue in the callout below is the human end of that same pipeline.</p>
+    </div>
+
+    <div class="callout">
+      <b>What auditing cannot catch.</b> Auditing keeps the cheap path consistent with the frontier model. It
+      cannot catch an error both make, and §00 shows those exist (identical digit misreads in both configs).
+      The defenses, in increasing cost: grammar and checksum validators, which reject impossible values
+      regardless of who produced them; AX-tree text where present, which is the application stating the
+      string rather than a perception of it; evaluation on synthetic testbeds where the database supplies the
+      labels (C8); occasional second-model audits; and a small human adjudication queue, which doubles as the
+      labeled eval set. Temporal consistency adds one more check: a date of birth that changes mid-session
+      means a reader broke or a context switch was missed, and either way the frame escalates.
+    </div>
+
+    <div class="prose">
+      <p>The observability surface extends the current viewer’s coverage report: agreement rates per (state,
+      field, substrate), deopt counts, audit spend, reader version history, drift alarms, and the
+      wrong-patient count, each clickable through to the underlying frames. This is also the concrete form of
+      S5: clinicians and their organizations can see what was read, from which screen, and with what
+      confidence.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= 05 COSTS ======================= -->
+<section class="sec" id="costs">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-no">§ 06</span><h2>Cost model</h2></div>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Cost center</th><th class="mono">unit cost</th><th>When it’s paid</th><th>Amortization</th></tr></thead>
+      <tbody>
+        <tr><td>Reader distillation (compile agents + targeted rich-config reads)</td><td class="mono">$0.05–0.30 / state-variant</td><td>once per compiled state-variant, plus recompiles on drift; hard states cost the top of the range in agent iterations</td><td>divided across every later visit of that variant</td></tr>
+        <tr><td>State classification (teacher, once per state)</td><td class="mono">~$0.01 / state</td><td>on novelty</td><td>divided across every later signature match</td></tr>
+        <tr><td>Compiled runtime (AX / OCR line-parse)</td><td class="mono">~$0 / frame</td><td>every frame of a known, compiled state</td><td>—</td></tr>
+        <tr><td>Sampled audit (lean config @ ~$0.003)</td><td class="mono">≈$0.00003 / frame @ 1%</td><td>steady state, adaptive; VDI multiplier</td><td>intended to dominate steady-state spend</td></tr>
+        <tr><td>Cold and rare states (interpreter path)</td><td class="mono">$0.003 / frame</td><td>unworthy or long-tail variants</td><td>never compiled; cheap enough as is</td></tr>
+      </tbody>
+    </table></div>
+    <div class="prose">
+      <p>A clinician’s day produces a few thousand settled frames, concentrated in a few dozen state-variants,
+      and an organization concentrates further. A variant seen 10,000 times amortizes its compile cost to
+      noise. The policy is to track variant frequency, compile lazily, and leave the long tail on the
+      interpreter path, since the lean frontier config is cheap enough for one-off reads. The open question
+      that live feeds add is variant count (C2): personalization, zoom, and role could multiply compile
+      targets. Hierarchical identity limits the damage, since vocabulary is shared at the family level and
+      only geometry priors are per-variant, and compilation is frequency-gated. E2 measures the actual
+      variant distribution.</p>
+      <p>Steady-state spend reduces to the audit budget, which is the main tunable: it rises where agreement
+      hasn’t been established and decays where it holds.</p>
+    </div>
+    <div class="callout teal">
+      <b>Cost and trust are the same design.</b> The properties that make extraction cheap also make the system
+      acceptable to host. In steady state, pixels are processed and discarded at the edge; only the k compile
+      frames and the audit samples reach a frontier model, cropped to the regions needed. Together with
+      per-value traceability, this is what clinicians and security teams reasonably ask to see before
+      granting, and renewing, permission to observe clinical work (S5).
+    </div>
+  </div>
+</section>
+
+<!-- ======================= 06 EXPERIMENTS ======================= -->
+<section class="sec" id="experiments">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-no">§ 07</span><h2>Experiment program</h2></div>
+    <div class="prose"><p>Ordered so each result gates the next. Every <span class="ev p">prior — re-test live</span>
+    badge from §00 has an experiment here. E1 builds the shared infrastructure: a live testbed where the
+    database supplies ground truth.</p></div>
+
+    <div class="exp">
+      <span class="eid">E1</span>
+      <div>
+        <h5>Live testbed: open-source EHR with synthetic patients</h5>
+        <div class="row"><b>hypothesis</b>A real EHR (OpenEMR or Bahmni) loaded with Synthea patients and driven through scripted clinical sessions yields ground-truth-labeled live capture, since every on-screen value is known from the database.</div>
+        <div class="row"><b>method</b>Browser and desktop capture rig (frames, AX/DOM side channels, input events); Playwright-scripted sessions covering login, schedule, charts, orders, and notes, across patients with deliberately short and long names.</div>
+        <div class="row"><b>metric</b>Coverage: the share of on-screen truth values recoverable from the capture stream by any means, frontier included.</div>
+        <div class="row decide"><b>decision</b>Infrastructure for everything after it. Also re-measures per-call capture stochasticity (the ~30% prior) on live frames.</div>
+      </div>
+    </div>
+
+    <div class="exp">
+      <span class="eid">E2</span>
+      <div>
+        <h5>Segmentation and state identity on live streams</h5>
+        <div class="row"><b>hypothesis</b>Recurring-token signatures with per-region settle detection carve a session into clean states, and the variant distribution across zoom, window size, and personalization is shallow enough to compile against.</div>
+        <div class="row"><b>method</b>Run E1 streams, plus re-runs at 100/125/150% zoom, three window widths, and two user configurations, through segmentation. Interleave out-of-scope activity (email, browsing, both windowed and inside the simulated VDI desktop) to exercise the scope gate (§03.5). Hand-grade state boundaries and cluster purity. Count distinct variants per screen family.</div>
+        <div class="row"><b>metric</b>Boundary precision and recall; cluster purity; variants-per-family histogram; scope misclassification, with particular attention to clinical email carrying patient-shaped tokens. The target is zero non-EHR surfaces reaching extraction or context updates.</div>
+        <div class="row decide"><b>decision</b>Purity above 90% with shallow variant tails supports hierarchical identity as designed. Deep tails move family-level normalization (C2) ahead of any compilation work.</div>
+      </div>
+    </div>
+
+    <div class="exp">
+      <span class="eid">E3</span>
+      <div>
+        <h5>Activity taxonomy and the extraction gate</h5>
+        <div class="row"><b>hypothesis</b>A closed taxonomy of roughly 30 EHR activities covers real sessions, and the teacher assigns (activity, patientScope, identityVisibility) reliably enough to gate extraction.</div>
+        <div class="row"><b>method</b>The teacher labels every E1/E2 state; two human graders adjudicate. Measure the unknown-activity residual. Simulate the gate against ground truth of whether identity was actually extractable in each state.</div>
+        <div class="row"><b>metric</b>Taxonomy coverage; label agreement; gate precision and recall. The two error directions cost differently (a false pass wastes compile spend, a false fail loses data) and the threshold is tuned accordingly.</div>
+        <div class="row decide"><b>decision</b>Fixes taxonomy v1 and the gate threshold. A large unknown residual sends the taxonomy back for revision before scale-out.</div>
+      </div>
+    </div>
+
+    <div class="exp">
+      <span class="eid">E4</span>
+      <div>
+        <h5>Reader models under elastic layouts</h5>
+        <div class="row"><b>hypothesis</b>Parse-based readers (lexicon, extent rules, grammars, position priors) outperform fixed-offset readers on elastic layouts and approach teacher accuracy on settled frames.</div>
+        <div class="row"><b>method</b>Compile both reader types for each E2 state, each in two variants: mechanical derivation only, and with the agentic refine loop on test failures (§02, layer 4). Evaluate on held-out frames spanning name lengths, wraps, zooms, and widths. Ablate each component: grammar off, priors off, extent only.</div>
+        <div class="row"><b>metric</b>The two numbers the design rests on: the share of fields that compile at all, and per-field reader accuracy against E1 database truth rather than against the teacher.</div>
+        <div class="row decide"><b>decision</b>At or above 80% compiled and 95% accuracy on compiled fields, the compile approach stands for live feeds. Below that, the failure taxonomy (anchor miss, extent error, grammar gap, unstable layout) directs the next iteration.</div>
+      </div>
+    </div>
+
+    <div class="exp">
+      <span class="eid">E5</span>
+      <div>
+        <h5>Schema shape, re-tested</h5>
+        <div class="row"><b>hypothesis</b>The corpus finding that flat schemas extract better (§00) may hold, weaken, or reverse on live-feed teacher passes with current models.</div>
+        <div class="row"><b>method</b>Teacher passes over E1 states with flat, moderately nested, and per-state-extended schemas. Same frames, same budget. Grade against database truth.</div>
+        <div class="row"><b>metric</b>Per-field capture rate and cost, by schema shape and state density.</div>
+        <div class="row decide"><b>decision</b>Sets the spec and teacher-schema policy on live evidence. Either outcome retires the badge; the belief becomes measured.</div>
+      </div>
+    </div>
+
+    <div class="exp">
+      <span class="eid">E6</span>
+      <div>
+        <h5>VDI degradation</h5>
+        <div class="row"><b>hypothesis</b>Compression costs accuracy in measurable and partly recoverable ways: multi-frame OCR aggregation restores much of it, and audit multipliers cover the remainder.</div>
+        <div class="row"><b>method</b>Replay E1 sessions through a Citrix-like transport (H.264 at several bitrates). Strip the side channels. Run the pixel-only ladder with and without frame stacking.</div>
+        <div class="row"><b>metric</b>Per-field accuracy versus bitrate; recovery attributable to aggregation; the residual error class, digits in particular.</div>
+        <div class="row decide"><b>decision</b>Sets per-substrate audit multipliers and a minimum viable bitrate. If digits stay unreliable, MRN-bearing fields under VDI get mandatory audit or abstention.</div>
+      </div>
+    </div>
+
+    <div class="exp">
+      <span class="eid">E7</span>
+      <div>
+        <h5>Wrong-patient drill</h5>
+        <div class="row"><b>hypothesis</b>The context state machine, banner tripwire, and identifier quorum produce zero misattributions under adversarial navigation.</div>
+        <div class="row"><b>method</b>Scripted rapid chart-flipping, compare views, mid-load switches, and look-alike names (Synthea twins) on the E1 testbed. Every extraction is attributed and checked against the driving script.</div>
+        <div class="row"><b>metric</b>Misattribution count, with a target of zero; the abstention rate paid to get there; and calibration of the context filter (observed accuracy at each reported confidence level, §03.4).</div>
+        <div class="row decide"><b>decision</b>Gates any deployment where extracted context feeds other tools. On failure, the C4 machinery is reworked before anything else scales.</div>
+      </div>
+    </div>
+
+    <div class="exp">
+      <span class="eid">E8</span>
+      <div>
+        <h5>Drift and recompile</h5>
+        <div class="row"><b>hypothesis</b>An upgrade or re-theme of the testbed EHR is caught by the signature guard with no silently wrong reads during the gap, and recompilation restores service at low cost.</div>
+        <div class="row"><b>method</b>Upgrade OpenEMR, swap themes, and rearrange a user’s layout mid-stream. Measure detection latency, deopt behavior, recompile cost, and spec-diff quality.</div>
+        <div class="row"><b>metric</b>Count of silently wrong reads during the transition, with a target of zero. Deopting to the frontier during the gap is acceptable; wrong output is not.</div>
+        <div class="row decide"><b>decision</b>Gates unattended operation across vendor release cycles.</div>
+      </div>
+    </div>
+
+    <div class="exp">
+      <span class="eid">E9</span>
+      <div>
+        <h5>Maintenance soak</h5>
+        <div class="row"><b>hypothesis</b>With the factory loop running (compile agents, growing test corpora, exception queue), exception volume decays over weeks of operation and repeat failures approach zero.</div>
+        <div class="row"><b>method</b>Run the full system on the E1 testbed for several simulated weeks with scheduled churn: content variety, the E8 drift injections, personalization changes. Agents triage the queue; humans handle the residue; every resolution becomes a corpus case.</div>
+        <div class="row"><b>metric</b>Exceptions per 1,000 frames over time; agent-resolution rate versus human residue; repeat-failure rate (the same root cause reaching the queue twice); corpus growth against coverage.</div>
+        <div class="row decide"><b>decision</b>This tests the central tenet (S3). If exception volume does not decay, the factory is not learning and the maintenance model needs rework before any real deployment.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= 07 VISION ======================= -->
+<section class="sec" id="vision">
+  <div class="wrap">
+    <div class="sec-head"><span class="sec-no">§ 08</span><h2>Longer-term vision</h2></div>
+    <div class="vision">
+      <div class="vstep">
+        <div class="when">now → near</div>
+        <h5>Testbed phase</h5>
+        <p>E1 through E5 on synthetic-patient testbeds: the compile approach, the reader model, and the
+        classification layer get tested against database-grade ground truth. The static corpus remains useful
+        as a cross-vendor prior; 238 vendors’ worth of banner conventions seed the taxonomy and the grammars.</p>
+      </div>
+      <div class="vstep">
+        <div class="when">near</div>
+        <h5>First live deployment, with clinicians who opt in</h5>
+        <p>A small deployment where participating clinicians get something back immediately: their own
+        activity timeline, and ambient patient context feeding a tool they already use (a scribe, an
+        assistant, a summary panel). The verification dashboard is open to them. S5 either holds up here or
+        the design needs rework before anything larger.</p>
+      </div>
+      <div class="vstep">
+        <div class="when">mid</div>
+        <h5>A shared reader registry</h5>
+        <p>Reader specs contain layout knowledge and no patient data, so they can be shared: a registry keyed
+        by (vendor, product, version, screen-family) that warm-starts any new site running software the
+        registry has seen, open to community audit the way the current viewer exposes every abstraction.
+        Test corpora built on synthetic testbeds travel with the specs; corpora built from real sites stay
+        local. CHPL is a natural index, since it already enumerates the certified products.</p>
+      </div>
+      <div class="vstep">
+        <div class="when">mid → far</div>
+        <h5>Beyond the banner</h5>
+        <p>Clinical body content (medication lists, results tables, scrolling grids) as new reader types: row
+        models, table grammars, scroll stitching, on the same classify/compile/guard/audit loop. The activity
+        timeline matures into workflow analytics measured at the workstation rather than inferred from vendor
+        logs.</p>
+      </div>
+      <div class="vstep far">
+        <div class="when">far</div>
+        <h5>Ambient clinical context</h5>
+        <p>The context-synchronization layer CCOW specified, produced from the screen instead of from vendor
+        integration: every tool at the workstation knows the current patient, encounter, and activity, emitted
+        as FHIR (Patient, Encounter, Provenance), with each value traceable to a frame, a reader version, a
+        substrate, and its audit history. It rests on the two things this design accumulates: compiled
+        knowledge of certified EHR surfaces, and the continued consent of the people whose screens it reads.</p>
+      </div>
+    </div>
+
+    <h3 style="margin-top:2.2rem">Standing risks</h3>
+    <div class="tablewrap"><table>
+      <thead><tr><th>Risk</th><th>Exposure</th><th>Standing mitigation</th></tr></thead>
+      <tbody>
+        <tr><td>Wrong-patient attribution</td><td>safety incident; unacceptable at any rate</td><td>C4 machinery; identifier quorum; E7 gates deployment on a count of zero</td></tr>
+        <tr><td>Loss of clinician trust (mishandled recording, opaque use)</td><td>loses the access the system depends on</td><td>edge processing, discard-by-default, per-value traceability, open dashboards; direct value returned to the people observed</td></tr>
+        <tr><td>Errors shared by the frontier model and OCR</td><td>silent data corruption</td><td>AX truth where present; grammars and checksums; synthetic-testbed evals; adjudication queue as labeled eval</td></tr>
+        <tr><td>VDI substrate loss</td><td>accuracy floor at large health systems</td><td>frame-stacking OCR; audit multipliers; abstention policy for digits (E6); in-VDI agent placement where possible</td></tr>
+        <tr><td>Variant growth from personalization</td><td>compile-cost creep; coverage gaps</td><td>hierarchical identity; family-level sharing; frequency-gated compiles; E2 measures the distribution</td></tr>
+        <tr><td>Layout drift between audits</td><td>window of wrong reads</td><td>the signature guard runs per frame, so drift deopts before an audit would find it (E8)</td></tr>
+        <tr><td>Overgeneralizing from friendly samples, again</td><td>design built on unrepresentative evidence</td><td>provenance badges as standing policy (S6); every prior has a named experiment; testbed results get the same skepticism when deployment differs</td></tr>
+      </tbody>
+    </table></div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <span>nextgen.html · v2 · chpl-screenshots · design document, 2026-07</span>
+    <span>seed corpus: 828 abstractions · 469 developers · <a href="https://joshuamandel.com/chpl-screenshots/">live viewer</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
